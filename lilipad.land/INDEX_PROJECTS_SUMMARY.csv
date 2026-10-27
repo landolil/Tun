@@ -1,0 +1,11 @@
+recommended_category,source_top_folders,sub_project_count,total_files,unique_or_primary_files,duplicate_files,total_size_human,duplicate_wasted_size_human,primary_entry_files
+01_Vision_and_Mission,02.Vision.TG.ll; CurtainCall; TG.Mission,2,26,21,5,792.04 KB,340.00 KB,02.Vision.TG.ll/TG.Vision.20190426.txt; TG.Mission/TG.MissionStatement.016.txt
+02_Legal_and_Contracts,DOX; Dox.Right.To.Use.Images; TARDIGRADIA.Playhouse; TG,1,12,4,8,331.99 KB,221.33 KB,Dox.Right.To.Use.Images/TG.Right.To.Use.Images.r004.docx
+03_CurtainCall_and_Promos,CurtainCall,2,20,20,0,8.33 MB,0 B,CurtainCall/CC00000001/03.SB.MSND1/CurtainCall1.vf; CurtainCall/CC00000001/CG/CGAll.psd
+04_Show_MayaTanaBuju_MTB,MTB; TG.MTB,2,29,27,2,3.06 MB,156.88 KB,TG.MTB/MayaTanaBuju.Stories.2018March.rtf; TG.MTB/MayaTanaBuju.Nuances.2018March.rtf; MTB/DoX/TG.CCD01.MTB0102.MSND0102.010.xlsx; MTB/DoX/TG.CCD01.MTB0102.MSND0102.009dialog.txt
+05_Playhouse_MidsummerNightsDream,TARDIGRADIA.Playhouse; TG; TG.MSND,9,1475,792,683,24.53 MB,7.64 MB,TARDIGRADIA.Playhouse/.../TP.SAMND.Script.Clean.Production.001.2018.11.15.fdx; Acts_and_Scenes.fdx.clean.xlsx; TP.SAMND.StoryBoardPro.Production.001.2018.12.02.zip; StoryBoardPro.AutoScript.Dialogue2Spoken.060jss.txt
+06_Characters_and_MicroWorld_Ref,MTB; TG; TG.llil,13,74,69,5,41.65 MB,818.08 KB,TG.llil/theTARDIGRADE.xlsx; TG.llil/Characters001.xls; 001a Tardigrade/001aLR/TheLadyRae_20141030.psd; 001a Tardigrade/fiverr005/Instructions.txt; TG/scene01.fbx
+07_Animation_and_Storyboard_Tests,TG.llil,17,533,347,186,31.35 MB,1.80 MB,TG.llil/Tests/gogogoonie4.5.mov; TG.llil/Tests/venuetest001.mov; TG.llil/Tests/VenueTest001..004 & 005..016 (.sboard)
+08_Merchandise_and_Printful,MTB; TG; TG.Merchandise,20,176,135,41,1.08 GB,222.59 MB,"TG.Merchandise/CharactersMerchandisable/00000100..00000900 (Kaieri, Maratam, PeiPei, TheLadyRae, Printful 700, WaterBearSkin 900); dox.Tardicard000001"
+09_Apps_B4C_BirdsForCats,TG.Apps,1,4,4,0,81.62 KB,0 B,TG.Apps/B4C/AppBuildOutline.B4K.00001.xlsx; BirdClips00001.xlsx; YoutubePostings.xlsx (NOTE: contains API key sheet)
+10_Business_and_Accounts,MTB; TG,1,3,1,2,22.20 KB,11.18 KB,TG/Accounts00001.xlsx (NOTE: contains sensitive 2019 account credentials)
