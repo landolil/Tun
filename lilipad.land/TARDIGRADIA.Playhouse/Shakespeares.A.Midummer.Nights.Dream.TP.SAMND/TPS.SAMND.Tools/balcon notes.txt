@@ -1,0 +1,15 @@
+balcon -n "Microsoft Zira" -t "The text will be read slowly." -s -5 -v 70
+balcon -n "Microsoft Zira" -t "The text will be read slowly." -s -1 -v 7
+
+balcon -tray -n "Microsoft Zira" -c --silence-end 100 -w ".\Test01.wav"
+
+
+
+              EXTERNAL APP Receive PANELDIALOGUE text to be spoken and saved to a file
+if ACTORmalefemale=then
+Commands: balcon -n "Callie" 
+          balcon -n "Emily" 
+          balcon -n "Microsoft David" 
+          balcon -n "Microsoft Zira" 
+
+if Action=CharacterNamesList choose Artificial Voice Accordingly

@@ -1,0 +1,76 @@
+script run -
+   Initialize Variables; PANEL...
+
+   PRINT "Did You Save & Backup The Entire Project?"
+
+ Press Any Key To Continue
+
+   Querry Project SCRIPTTOTALPANELS
+
+   querry user "Run All Panel Dialogues?"Y/N
+     if No Then
+        User Input PANELNUMBERBEGIN
+        User Input PANENUMBERLLAST
+        TOTALPANELS2PROCESS = (PANENUMBERLLAST - PANELNUMBERBEGIN)
+
+     If Yes Then
+        PANELNUMBERBEGIN = 1
+        PANENUMBERLLAST= SCRIPTTOTALPANELS
+        TOTALPANELS2PROCESS = SCRIPTTOTALPANELS
+        PRINT "Panel First" PANELNUMBERBEGIN
+        PRINT "Panel Last" PANENUMBERLLAST
+        PRINT TOTALPANELS2PROCESS
+
+   Querry User "How Many Extra Frames to Add at Tail of Each Panel?"
+     User Input PANELFRAMETOTALTAILOFFSET
+
+   Querry User "Where is the Text2Speech App Located? eg. c:/Text2Speech"
+     User Input T2VAPPPATH
+     PRINT Verify App Location YES/NO
+
+   Querry User "Where is the Temp Working Directory Located? eg. c:/temp"
+     User Input T2VAPPPATH
+     PRINT Verify Directory Location YES/NO
+
+
+
+CURRENTPANELNUMBER = PANELNUMBERBEGIN
+
+Loop Begin
+
+   Select CURRENTPANELNUMBER
+
+      querry PANELNUMBER for PANELDIALOGUE
+
+              EXTERNAL APP Receive PANELDIALOGUE text to be spoken and saved to a file
+if ACTORmalefemale=then
+Commands: balcon -n "Callie" 
+          balcon -n "Emily" 
+          balcon -n "Microsoft David" 
+          balcon -n "Microsoft Zira" 
+
+                    RENAME COPY PanelDialogueClip to local folder
+
+                    Receive PANELDIALOGUECLIPLENGTH information
+
+              CHANGE PANELFRAMETOTAL to PANELDIALOGUECLIPLENGTH +.25 Second
+
+              IMPORT PANELDIALOGUECLIP file to CURRENTPANEL 1st Frame at Voice
+
+
+
+if PANELNUMBER <= PANELLAST
+
+
+
+
+If Successful
+   Print "Total Panels Processed = "TOTALPANELS2PROCESS"
+
+
+
+
+
+
+
+
