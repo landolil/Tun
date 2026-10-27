@@ -1,0 +1,15 @@
+ToonBoomAnimationInc PaletteFile 2
+Solid    Black                      0x078c963d3c60073b   0   0   0 255
+Solid    "Gray 90%"                 0x078c963d3c60073d  25  25  25 255
+Solid    "Gray 80%"                 0x078c963d3c60073f  51  51  51 255
+Solid    "Gray 70%"                 0x078c963d3c600741  76  76  76 255
+Solid    "Gray 60%"                 0x078c963d3c600743 102 102 102 255
+Solid    "Gray 50%"                 0x078c963d3c600745 127 127 127 255
+Solid    "Gray 40%"                 0x078c963d3c600747 153 153 153 255
+Solid    "Gray 30%"                 0x078c963d3c600749 179 179 179 255
+Solid    "Gray 20%"                 0x078c963d3c60074b 204 204 204 255
+Solid    "Gray 10%"                 0x078c963d3c60074d 230 230 230 255
+Solid    White                      0x078c963d3c60074f 255 255 255 255
+Solid    "Rough Blue"               0x078c963d3c600751  55 178 255 255
+Solid    "Revision Red"             0x078c963d3c600753 255  44   0 255
+Solid    Yellow                     0x078c963d3c600755 255 255   0 255

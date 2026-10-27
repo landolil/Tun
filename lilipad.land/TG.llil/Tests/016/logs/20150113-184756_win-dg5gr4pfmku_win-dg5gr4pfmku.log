@@ -1,0 +1,42 @@
+﻿Log file produced by: Storyboard Pro (StoryboardPro.exe) version 10.2.2 build 9744 2014-11-18 21:00:12
+﻿2015-01-13 22:40:35;Create;D:/{Shark}/Documents/tg/tests/016/palette-library/penstyle_opacity.plt+;
+﻿2015-01-13 22:40:35;Rename;D:/{Shark}/Documents/tg/tests/016/palette-library/penstyle_opacity.plt+;penstyle_opacity.plt
+﻿2015-01-13 22:40:35;Create;D:/{Shark}/Documents/tg/tests/016/palette-library/penstyle_opacity_textures;
+﻿2015-01-14 19:35:24;ACTION;Start Saving project
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/016.sboard+;
+﻿  2015-01-14 19:35:24;Delete;D:/{Shark}/Documents/tg/tests/016/016.sboard+;
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/016.sboard+;
+﻿  2015-01-14 19:35:24;Delete;D:/{Shark}/Documents/tg/tests/016/016.sboard+;
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements;
+﻿  2015-01-14 19:35:24;Copy;C:/Users/Shark/AppData/Local/Temp/ToonBoomSessionTempDir/5924/elements/Draw.1;D:/{Shark}/Documents/tg/tests/016/elements/Draw
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/scene.elementTable;
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-1.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-1.tvg+;Draw-1.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-2.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-2.tvg+;Draw-2.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-3.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-3.tvg+;Draw-3.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-4.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-4.tvg+;Draw-4.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-5.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-5.tvg+;Draw-5.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-6.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-6.tvg+;Draw-6.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-7.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-7.tvg+;Draw-7.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-8.tvg+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/elements/Draw/Draw-8.tvg+;Draw-8.tvg
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/016.sboard+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/016.sboard+;D:/{Shark}/Documents/tg/tests/016/016.sboard
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/016.aux+;D:/{Shark}/Documents/tg/tests/016/016.aux
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/PALETTE_LIST+;
+﻿  2015-01-14 19:35:24;Rename;D:/{Shark}/Documents/tg/tests/016/PALETTE_LIST+;PALETTE_LIST
+﻿  2015-01-14 19:35:24;Create;D:/{Shark}/Documents/tg/tests/016/016.sboard.thumbnails;
+﻿  2015-01-14 19:35:24;Delete;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml~;
+﻿  2015-01-14 19:35:24;Rename;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml;Storyboard Pro-pref.xml~
+﻿  2015-01-14 19:35:24;Rename;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml+;Storyboard Pro-pref.xml
+﻿2015-01-14 19:35:24;ACTION;End Saving project
+﻿2015-01-14 19:35:26;ACTION;Start Closing project
+﻿  2015-01-14 19:35:26;Delete;D:/{Shark}/Documents/tg/tests/016/016.sboard.lock;
+﻿  2015-01-14 19:35:26;Delete;C:/Users/Shark/AppData/Local/Temp/ToonBoomSessionTempDir/5924;
+﻿2015-01-14 19:35:27;ACTION;End Closing project

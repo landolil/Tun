@@ -1,0 +1,86 @@
+﻿Log file produced by: Storyboard Pro (StoryboardPro.exe) version 10.2.2 build 9744 2014-11-18 21:00:12
+﻿2015-01-12 17:42:25;ACTION;Start Saving project
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/005.sboard+;
+﻿  2015-01-12 17:42:25;Delete;D:/{Shark}/Documents/tg/tests/005/005.sboard+;
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/005.sboard+;
+﻿  2015-01-12 17:42:25;Delete;D:/{Shark}/Documents/tg/tests/005/005.sboard+;
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements;
+﻿  2015-01-12 17:42:25;Copy;C:/Users/Shark/AppData/Local/Temp/ToonBoomSessionTempDir/4600/elements/Draw.1;D:/{Shark}/Documents/tg/tests/005/elements/Draw
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/scene.elementTable;
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-1.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-1.tvg+;Draw-1.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-2.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-2.tvg+;Draw-2.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-3.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-3.tvg+;Draw-3.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-4.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-4.tvg+;Draw-4.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-5.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-5.tvg+;Draw-5.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-6.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-6.tvg+;Draw-6.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-7.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-7.tvg+;Draw-7.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-8.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-8.tvg+;Draw-8.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-9.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-9.tvg+;Draw-9.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-10.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-10.tvg+;Draw-10.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-11.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-11.tvg+;Draw-11.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-12.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-12.tvg+;Draw-12.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-13.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-13.tvg+;Draw-13.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-14.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-14.tvg+;Draw-14.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-15.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-15.tvg+;Draw-15.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-16.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-16.tvg+;Draw-16.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-17.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-17.tvg+;Draw-17.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-18.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-18.tvg+;Draw-18.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-19.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-19.tvg+;Draw-19.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-20.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-20.tvg+;Draw-20.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-21.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-21.tvg+;Draw-21.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-22.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-22.tvg+;Draw-22.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-23.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-23.tvg+;Draw-23.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-24.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-24.tvg+;Draw-24.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-25.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-25.tvg+;Draw-25.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-26.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-26.tvg+;Draw-26.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-27.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-27.tvg+;Draw-27.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-28.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-28.tvg+;Draw-28.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-29.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-29.tvg+;Draw-29.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-30.tvg+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/elements/Draw/Draw-30.tvg+;Draw-30.tvg
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/005.sboard+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/005.sboard+;D:/{Shark}/Documents/tg/tests/005/005.sboard
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/005.aux+;D:/{Shark}/Documents/tg/tests/005/005.aux
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/PALETTE_LIST+;
+﻿  2015-01-12 17:42:25;Rename;D:/{Shark}/Documents/tg/tests/005/PALETTE_LIST+;PALETTE_LIST
+﻿  2015-01-12 17:42:25;Create;D:/{Shark}/Documents/tg/tests/005/005.sboard.thumbnails;
+﻿  2015-01-12 17:42:25;Delete;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml~;
+﻿  2015-01-12 17:42:25;Rename;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml;Storyboard Pro-pref.xml~
+﻿  2015-01-12 17:42:25;Rename;C:/Users/Shark/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml+;Storyboard Pro-pref.xml
+﻿2015-01-12 17:42:25;ACTION;End Saving project
+﻿2015-01-12 17:42:40;Create;D:/{Shark}/Documents/TG/Tests/gogogoonie2.swf;
+﻿2015-01-12 17:42:40;Delete;D:/{Shark}/Documents/TG/Tests/gogogoonie2.swf;
+﻿2015-01-12 17:42:40;Create;D:/{Shark}/Documents/TG/Tests/gogogoonie2.swf;
+﻿2015-01-12 17:43:52;ACTION;Start Closing project
+﻿  2015-01-12 17:43:52;Delete;D:/{Shark}/Documents/tg/tests/005/005.sboard.lock;
+﻿  2015-01-12 17:43:53;Delete;C:/Users/Shark/AppData/Local/Temp/ToonBoomSessionTempDir/4600;
+﻿2015-01-12 17:43:53;ACTION;End Closing project

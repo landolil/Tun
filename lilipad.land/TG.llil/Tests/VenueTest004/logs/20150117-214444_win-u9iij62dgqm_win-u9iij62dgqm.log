@@ -1,0 +1,49 @@
+﻿Log file produced by: Storyboard Pro (StoryboardPro.exe) version 10.2.2 build 9744 2014-11-18 21:00:12
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\.toolbar;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\.toolbar
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\3D View;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\3D View
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Current;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Current
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Drawing;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Drawing
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Horizontal;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Horizontal
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Overview;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Overview
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\PDF Review;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\PDF Review
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Pitch Mode;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Pitch Mode
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Timeline;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Timeline
+﻿2015-01-17 21:45:07;Copy;C:\Program Files (x86)\Toon Boom Animation\Toon Boom Storyboard Pro 4.1 Trial\resources\layouts\sboardPro\Vertical;C:\Users\Remote\AppData\Roaming\Toon Boom Animation\Toon Boom Storyboard Pro\1020-layouts-xml\Vertical
+﻿2015-01-17 21:55:31;Delete;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml~;
+﻿2015-01-17 21:55:31;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml;Storyboard Pro-pref.xml~
+﻿2015-01-17 21:55:31;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml+;Storyboard Pro-pref.xml
+﻿2015-01-17 22:29:18;ACTION;Start Saving project
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;
+﻿  2015-01-17 22:29:18;Delete;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;
+﻿  2015-01-17 22:29:18;Delete;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements;
+﻿  2015-01-17 22:29:18;Copy;C:/Users/Remote/AppData/Local/Temp/ToonBoomSessionTempDir/864/elements/Draw.1;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/scene.elementTable;
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-1.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-1.tvg+;Draw-1.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-2.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-2.tvg+;Draw-2.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-3.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-3.tvg+;Draw-3.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-4.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-4.tvg+;Draw-4.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-5.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-5.tvg+;Draw-5.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-6.tvg+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/elements/Draw/Draw-6.tvg+;Draw-6.tvg
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard+;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.aux+;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.aux
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/PALETTE_LIST+;
+﻿  2015-01-17 22:29:18;Rename;D:/{Shark}/Documents/TG/Tests/VenueTest003/PALETTE_LIST+;PALETTE_LIST
+﻿  2015-01-17 22:29:18;Create;D:/{Shark}/Documents/TG/Tests/VenueTest003/VenueTest003.sboard.thumbnails;
+﻿  2015-01-17 22:29:18;Delete;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml~;
+﻿  2015-01-17 22:29:18;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml;Storyboard Pro-pref.xml~
+﻿  2015-01-17 22:29:18;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml+;Storyboard Pro-pref.xml
+﻿2015-01-17 22:29:18;ACTION;End Saving project
+﻿2015-01-17 22:29:54;ACTION;Start Save As project
+﻿  2015-01-17 22:29:54;Delete;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml~;
+﻿  2015-01-17 22:29:54;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml;Storyboard Pro-pref.xml~
+﻿  2015-01-17 22:29:54;Rename;C:/Users/Remote/AppData/Roaming/Toon Boom Animation/Toon Boom Storyboard Pro/full-1020-pref/Storyboard Pro-pref.xml+;Storyboard Pro-pref.xml
+﻿  2015-01-17 22:29:54;Copy;D:/{Shark}/Documents/TG/Tests/VenueTest003;D:/{Shark}/Documents/TG/Tests/VenueTest004

@@ -1,0 +1,15 @@
+﻿Log file produced by: Storyboard Pro (StoryboardPro.exe) version 10.2.2 build 9744 2014-11-18 21:00:12
+﻿2015-01-12 18:35:35;Create;D:/{Shark}/Documents/TG/Tests/gogogoonie4.mov;
+﻿2015-01-12 18:35:35;Delete;D:/{Shark}/Documents/TG/Tests/gogogoonie4.mov;
+﻿2015-01-12 18:35:35;Create;C:/{Shark}/Documents/TG/Tests;
+﻿2015-01-12 18:35:47;Copy;C:\Users\Shark\AppData\Local\Temp\3456_1gogogoonie4.mov;D:\{Shark}\Documents\TG\Tests\gogogoonie4.mov
+﻿2015-01-12 18:35:47;Delete;C:\Users\Shark\AppData\Local\Temp/3456_1gogogoonie4.mov;
+﻿2015-01-12 18:38:51;Create;D:/{Shark}/Documents/TG/Tests/gogogoonie4.5.mov;
+﻿2015-01-12 18:38:51;Delete;D:/{Shark}/Documents/TG/Tests/gogogoonie4.5.mov;
+﻿2015-01-12 18:38:51;Create;C:/{Shark}/Documents/TG/Tests;
+﻿2015-01-12 18:38:59;Copy;C:\Users\Shark\AppData\Local\Temp\3456_2gogogoonie4.5.mov;D:\{Shark}\Documents\TG\Tests\gogogoonie4.5.mov
+﻿2015-01-12 18:38:59;Delete;C:\Users\Shark\AppData\Local\Temp/3456_2gogogoonie4.5.mov;
+﻿2015-01-12 19:45:06;ACTION;Start Closing project
+﻿  2015-01-12 19:45:06;Delete;D:/{Shark}/Documents/tg/tests/007/007.sboard.lock;
+﻿  2015-01-12 19:45:07;Delete;C:/Users/Shark/AppData/Local/Temp/ToonBoomSessionTempDir/3456;
+﻿2015-01-12 19:45:07;ACTION;End Closing project
