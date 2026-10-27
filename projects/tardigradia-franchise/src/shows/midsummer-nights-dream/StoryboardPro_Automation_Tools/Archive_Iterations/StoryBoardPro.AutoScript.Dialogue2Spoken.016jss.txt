@@ -1,0 +1,112 @@
+
+/*
+-------------------------------------------------------------------------------
+ORIGINAL Name:	TB_ChangePanelDuration.js * Description:This script changes the length of the selected panels. * Usage: * Author:		Lori Sponagle * Created:	v01 2015/08/15 * Copyright:   (c) Toon Boom Animation 2015
+-------------------------------------------------------------------------------
+*/
+
+function FunctionDialogueLayert2SpeechImportSeconds2Frames( CURRENTPANEL )
+{
+  var project = new StoryboardManager;
+  var selection = new SelectionManager;
+  var CURRENTPANEL = selection.getPanelSelection();
+  var CAPTIONMANAGER = new CaptionManager;
+  var LAYERMANAGER = new LayerManager;
+
+  if ( CURRENTPANEL.length <= 0 ) return;
+
+/*  QUERRY POPUP How Many Extra Milliseconds to Add at Tail of Each Voice Clip?*/
+  QUERRYPANELMILISECONDSTOTALTAILOFFSET = new Dialog;
+  QUERRYPANELMILISECONDSTOTALTAILOFFSET.title = " Set  Extra Milliseconds to Add at Tail of Each Voice Clip?";
+  var PANELMILISECONDSTOTALTAILOFFSET = new NumberEdit;
+  PANELMILISECONDSTOTALTAILOFFSET.text = "How Many Extra Milliseconds to Add at Tail of Each Voice Clip?";
+  PANELMILISECONDSTOTALTAILOFFSET.minimum = 0;
+  PANELMILISECONDSTOTALTAILOFFSET.maximum =  10000 ;
+  PANELMILISECONDSTOTALTAILOFFSET.value = project.getPanelDuration ( CURRENTPANEL[0] );
+ QUERRYPANELMILISECONDSTOTALTAILOFFSET.add( PANELMILISECONDSTOTALTAILOFFSET );
+
+/*-------------------------------------------------------------------------------*/
+
+  var WORKINGPATH = "/home/user/exportTest";
+
+  var FRAMELENGTH = new NumberEdit;
+  FRAMELENGTH.value = project.getPanelDuration ( CURRENTPANEL[0] );
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+
+/*   Begin Steps*/
+    if ( QUERRYPANELMILISECONDSTOTALTAILOFFSET.exec() )
+  {
+
+
+
+/* load current dialogue  -------------------------------------------------------*/
+/* var DIALOGUE = CAPTIONMANAGER.textOfPanelCaption( name, panelId ); */
+
+
+/* load current action notes  ---------------------------------------------------*/
+/**/
+
+
+/* create blank layer  ----------------------------------------------------------*/
+/* var LAYERMANAGER.addVectorLayer( panelId, targetLayerIdx, before, suggestedName )*/
+
+
+/* create gif transparency image with panel dialogue  ---------*/
+/**/
+
+/* Import Layer with Gif Transparency --------------------------------------------*/
+/* LAYERMANAGER.importImageAsLayer-----------------------------------------------*/
+
+/* Send Dialogue to Text 2 Speech App with Millisecond Tail ---------------------*/
+/* balcon -tray -n "Microsoft Zira" -c --silence-end PANELMILISECONDSTOTALTAILOFFSET -w ".\DialogueWorking.wav"  */
+/* balcon -tray -n "Microsoft Zira" -t "PANELDIALOGUE" --silence-end PANELMILISECONDSTOTALTAILOFFSET -w ".\DialogueWorking.wav"  */
+
+/* Assign Character as per voice installed Voice installed  */
+/**/
+
+
+/* convert .wav output to .mp3  */
+/* FFMPEG Convert ".\DialogueWorking.wav" to ".\DialogueWorking.MP3"  */
+
+/*-------------------------------------------------------------------------------*/
+/* import the time in seconds of the mp3  */
+/* FFMPEG Querry File Length ".\DialogueWorking.MP3" = PANELDIALOGUECLIPLENGTH  */
+/*-------------------------------------------------------------------------------*/
+
+/*Create Directory in Temp Dir as "Text2SpeechVoice*/
+/* Void Dir::mkdir ( String &  dirName = String::null) */
+/* Void Dir::mkdirs ( String &  dirName = String::null) */
+
+/* Copy file and rename as ScenePanelSeconds.mp3 in*/
+/**/
+/**/
+
+/* Import the Sound File to line up on audio track at panel start  */
+/* Create Master SoundTrack  */
+/* String SoundTrackManager::addSoundTrack ( )  */
+/* Bool SoundTrackManager::importSoundBuffer ( columnName & SoundFile path & TargetFrame )  */
+
+/*   */
+
+/*-------------------------------------------------------------------------------*/
+/* adjust the frames to length in whole seconds of audio file */
+/* NEWPANELFRAMETOTAL = PANELDIALOGUECLIPLENGTH in seconds */
+/*  var SETFRAME = FRAMELENGTH.value; */
+    var SETFRAME = 23;
+/*-------------------------------------------------------------------------------*/
+
+    scene.beginUndoRedoAccum("Change Panel Duration");
+
+    for ( var i = 0; i < CURRENTPANEL.length; ++ i )
+    {
+        project.setPanelDuration( CURRENTPANEL[i], SETFRAME);
+    } 
+
+    scene.endUndoRedoAccum();
+  }
+}
