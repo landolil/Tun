@@ -1,0 +1,162 @@
+<Paragraph Type=',New Act',><Text>,7,,</Text>,</Paragraph>, 
+<Paragraph Type=',Scene Heading',><Text>,2,,</Text>,</Paragraph>, 
+<Paragraph Type=',Scene Heading',><Text>,3,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,280,,2403
+281,,,,,2403
+282,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,280,,2403
+281,,,,,2403
+282,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,284,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,286,,2403
+287,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,288,,2403
+289,,,,,2403
+290,,,,,2403
+291,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,292,,2403
+293,,,,,2403
+294,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,295,,2403
+296,,,,,2403
+297,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,298,,2403
+299,,,,,2403
+300,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,301,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,302,,2403
+303,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,304,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,305,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,306,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,307,,2403
+308,,,,,2403
+309,,,,,2403
+310,,,,,2403
+311,,,,,2403
+312,,,,,2403
+313,,,,,2403
+314,,,,,2403
+315,,,,,2403
+316,,,,,2403
+317,,,,,2403
+318,,,,,2403
+319,,,,,2403
+320,,,,,2403
+321,,,,,2403
+322,,,,,2403
+323,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,324,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,FLUTE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,326,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,327,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,FLUTE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,328,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,329,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,FLUTE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,330,,2403
+331,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,332,,2403
+333,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,334,,2403
+335,,,,,2403
+336,,,,,2403
+337,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,338,,2403
+339,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,340,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,341,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,STARVELING,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,326,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,343,,2403
+344,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,SNOUT,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,326,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,346,,2403
+347,,,,,2403
+348,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,SNUG,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,350,,2403
+351,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,352,,2403
+353,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,354,,2403
+355,,,,,2403
+356,,,,,2403
+357,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,358,,2403
+359,,,,,2403
+360,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,ALL,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,362,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,363,,2403
+364,,,,,2403
+365,,,,,2403
+366,,,,,2403
+367,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,368,,2403
+369,,,,,2403
+370,,,,,2403
+371,,,,,2403
+372,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,373,,2403
+374,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,375,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,376,,2403
+377,,,,,2403
+378,,,,,2403
+379,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,380,,2403
+381,,,,,2403
+382,,,,,2403
+383,,,,,2403
+384,,,,,2403
+385,,,,,2403
+386,,,,,2403
+387,,,,,2403
+388,,,,,2403
+389,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,390,,2403
+391,,,,,2403
+392,,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,QUINCE,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,393,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,BOTTOM,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,394,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,395,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,395,,</Text>,</Paragraph>, 
+<Paragraph Type=',End of Act',><Text>,2396,,,</Paragraph>, 
