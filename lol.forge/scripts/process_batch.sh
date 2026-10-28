@@ -4,8 +4,11 @@
 
 set -euo pipefail
 
-PROJECT_ROOT="/workspace/app/lol.forge"
+# Auto-detect project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 SCRIPTS_DIR="$PROJECT_ROOT/scripts"
+PYTOOLS_DIR="$PROJECT_ROOT/Research/__Python_Tools"
 
 RUNNER=""
 DOCS=""
@@ -72,19 +75,19 @@ for DOC in $DOCS; do
         # Chunk the document
         echo "Chunking document..."
         CHUNK_DIR="$PROJECT_ROOT/chunks/$DOC"
-        python3 ../../__Python_Tools/write_large_file.py split "$DOC_FILE" "$CHUNK_DIR" chapter .md
+        python3 "$PYTOOLS_DIR/write_large_file.py" split "$DOC_FILE" "$CHUNK_DIR" chapter .md
         
         # Generate manifest
         echo "Generating manifest..."
-        python3 ../../__Python_Tools/write_large_file.py manifest "$CHUNK_DIR"
+        python3 "$PYTOOLS_DIR/write_large_file.py" manifest "$CHUNK_DIR"
         
         # Verify chunks
         echo "Verifying chunks..."
-        python3 ../../__Python_Tools/write_large_file.py verify "$CHUNK_DIR"
+        python3 "$PYTOOLS_DIR/write_large_file.py" verify "$CHUNK_DIR"
         
         # Compress
         echo "Compressing document..."
-        python3 ../../__Python_Tools/write_large_file.py compress "$DOC_FILE"
+        python3 "$PYTOOLS_DIR/write_large_file.py" compress "$DOC_FILE"
         
         echo "✓ $DOC complete"
     else

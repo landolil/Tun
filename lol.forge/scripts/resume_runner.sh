@@ -6,7 +6,9 @@
 
 set -euo pipefail
 
-PROJECT_ROOT="/workspace/app/lol.forge"
+# Auto-detect project root (directory containing this script's parent)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 SCRIPTS_DIR="$PROJECT_ROOT/scripts"
 MEMORY_DIR="$PROJECT_ROOT/memory"
 

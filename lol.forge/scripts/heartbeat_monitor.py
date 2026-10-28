@@ -86,9 +86,9 @@ class HeartbeatMonitor:
         """Cycle 2: Source Material Sync"""
         try:
             sources = {
-                "aegis_forge": self.project_root.parent / "seed" / "CSMFAB" / "CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator",
-                "outfit_fabricator": self.project_root.parent / "seed" / "CSMWip" / "12_AegisOutfitFabricator" / "FinishedWork" / "intros",
-                "mines_magnets": self.project_root.parent / "seed" / "CSMWip" / "CSMMinesMagnets" / "FinishedWork"
+                "aegis_forge": self.project_root / "Research" / "CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator",
+                "outfit_fabricator": self.project_root / "Research" / "OutfitFabricator_FinishedWork" / "intros",
+                "mines_magnets": self.project_root / "Research" / "MinesMagnets_FinishedWork"
             }
             
             status = []
@@ -215,10 +215,16 @@ class HeartbeatMonitor:
 def main():
     parser = argparse.ArgumentParser(description="Heartbeat monitor for lol.forge")
     parser.add_argument("--interval", type=int, default=120, help="Heartbeat interval in seconds")
-    parser.add_argument("--project-root", default="/workspace/app/lol.forge", help="Project root directory")
+    parser.add_argument("--project-root", default=None, help="Project root directory (default: parent of script dir)")
     args = parser.parse_args()
     
-    monitor = HeartbeatMonitor(args.project_root, args.interval)
+    if args.project_root is None:
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+    else:
+        project_root = Path(args.project_root)
+    
+    monitor = HeartbeatMonitor(project_root, args.interval)
     monitor.run()
 
 if __name__ == "__main__":
