@@ -1,0 +1,221 @@
+# RESUME_SESSION_LOLFORGE.md — lol.forge Session Resume Context
+## Complete Context for Picking Up Any Session State
+
+**Project**: lol.forge — Carrington Storm Motors Forge
+**Last Session**: 2026-10-28 (Initialization)
+**Current Phase**: Phase 0 — Project Initialization
+**Next Runner**: 001
+
+---
+
+## Quick Start Commands
+
+```bash
+cd /workspace/app/lol.forge
+
+# 1. Full resume (reads all context)
+./scripts/resume_runner.sh 001
+
+# 2. Quick status check
+./scripts/resume_runner.sh --status
+
+# 3. View next runner instructions
+./scripts/resume_runner.sh --next
+
+# 4. Git status
+git status
+```
+
+---
+
+## Project State Summary
+
+### Completed (Phase 0):
+- [x] Directory structure created (lol.forge/{docs,heuristics,intros,scripts,memory,chunks,FinishedWork,Framework,Research,Logs,Pieces})
+- [x] AGENTS.md created with full conventions
+- [x] Master_Todo.md created with 80-document hierarchy
+- [x] resume_runner.sh created and executable
+- [x] HEARTBEAT_LOLFORGE.md created
+- [x] RESUME_SESSION_LOLFORGE.md created (this file)
+
+### In Progress:
+- [ ] NEXT_runner_001.md creation
+- [ ] Git repository initialization
+- [ ] GitHub remote configuration
+- [ ] Initial push to GitHub
+
+### Source Materials Cataloged:
+1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
+   - Vol 1: System Overview & Architecture (295 lines)
+   - Vol 2: Thermal Cascade Process Engineering (391 lines)
+   - Vol 3: Acoustic Mineral Liberation (to be read)
+   - Vol 4: Gas Capture & Fume Solidification (to be read)
+   - Vol 5: Assembly Line Integration (to be read)
+
+2. **Outfit Fabricator Heuristics (CSMWip/12_AegisOutfitFabricator/FinishedWork/intros/)** — 3-pronged heuristic templates
+   - Williams: Constraint/Necessity/Commitment
+   - Keymaker: Lock/Key/Turn
+   - El Segundo: Mirror/Participation/Protocol
+   - Combined intros: ~144 lines each
+
+3. **Mines Magnets (CSMWip/CSMMinesMagnets/FinishedWork/)** — 10 documents
+   - Chilean mineral landscape, diplomacy, logistics, supply chain
+
+---
+
+## Next Immediate Actions (Runner 001)
+
+### Document Batch: PROD-01, PROD-02, PROD-03
+
+**PROD-01: System Overview & Architecture**
+- Source: Aegis-Forge Vol 1 (CSMFAB000000000108)
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: Complete machine architecture, 8-stage cascade, all subsystems, All-Aegis Material BOM (24 components)
+
+**PROD-02: Thermal Cascade Process Engineering**
+- Source: Aegis-Forge Vol 2 (CSMFAB000000000109)
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: 8-stage temperature ramp, Stage 0 acoustic liberation, Stage 1 IR drying, equations
+
+**PROD-03: Inductive Heating Zone Design**
+- Source: Aegis-Forge Vol 1 coil bank section
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: 8-zone coil design, frequencies (100kHz→1kHz), power levels (0-500kW), GaN inverters, FBG sensors
+
+---
+
+## Heuristic Intro Templates (From Outfit Fabricator)
+
+### Williams Heuristic (~67 lines)
+```
+### Constraint (The Lock)
+[What irreducible principle forces this design?]
+
+### Necessity (The Key)
+[What empirical gap does this resolve? Why is the solution inevitable?]
+
+### Commitment (The Turn)
+[What non-negotiable commitments does this document make?]
+```
+
+### Keymaker Heuristic (~67 lines)
+```
+### The Empirical Lock
+[What fabrication fidelity gap does this address?]
+
+### The Mathematical Key
+[What single computational primitive generates the solution?]
+
+### The Turn (Both Directions)
+[Theory→History validation AND History→Theory validation]
+```
+
+### El Segundo Heuristic (~67 lines)
+```
+### Mirror (Self-Reflection)
+[How does the fabricator observe their own fabrication?]
+
+### Participation (Witness)
+[How does the inside operator witness the phenomenon into existence?]
+
+### Protocol (Recursive)
+[What recursive sequence guarantees fidelity at each scale?]
+```
+
+### Combined Intro (~200 lines)
+Concatenation of all three with transitions.
+
+---
+
+## Git Configuration
+
+```bash
+# Initialize (run once)
+git init
+git remote add origin https://github.com/primecarrpod/lol.forge.git
+git branch -M main
+
+# Standard commit
+git add -A
+git commit -m "lol.forge: PROD-01 System Overview — 900+ lines + intro"
+git push
+
+# Tag milestones
+git tag lol.forge-prod-10
+git push --tags
+```
+
+---
+
+## Key File Locations
+
+| File | Purpose |
+|------|---------|
+| `AGENTS.md` | Project conventions, commands, heuristics |
+| `Master_Todo.md` | Complete 80-document task hierarchy |
+| `TODO.md` | Active task list (current runner) |
+| `NEXT_runner_001.md` | Next session instructions |
+| `HEARTBEAT_LOLFORGE.md` | 2-min heartbeat config |
+| `memory/YYYY-MM-DD.md` | Daily session logs |
+| `docs/PROD-XX_*.md` | Product documents (40) |
+| `docs/FOLLOW-XX_*.md` | Follow-up documents (40) |
+| `intros/*_COMBINED_INTRO.md` | Combined heuristic intros |
+| `chunks/*/MANIFEST.json` | Chunk verification manifests |
+
+---
+
+## Automation Scripts (To Create)
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/generate_prod_doc.py` | Generate PROD document from template + research |
+| `scripts/generate_followup_doc.py` | Generate FOLLOW document from template + research |
+| `scripts/generate_intros.py` | Generate 3 heuristic intros for a document |
+| `scripts/process_batch.sh` | Wrapper for batch processing |
+| `scripts/heartbeat_monitor.py` | Background 2-min heartbeat |
+| `scripts/verify_chunks.py` | Verify all chunk manifests |
+| `scripts/git_sync.sh` | Commit and push automation |
+
+---
+
+## Session Log Template (memory/YYYY-MM-DD.md)
+
+```
+## Session: YYYY-MM-DD
+**Runner:** XXX
+**Start:** HH:MM UTC
+**End:** HH:MM UTC
+
+### Documents Worked:
+- PROD-XX: [status] — NNN lines written
+- PROD-YY: [status] — NNN lines written
+
+### Intros Generated:
+- PROD-XX: Williams/Keymaker/El Segundo/Combined
+
+### Git Commits:
+- lol.forge: PROD-XX Title — NNN lines + intro
+
+### Blockers:
+- [None / Description]
+
+### Next Actions:
+- [Specific subtasks for next session]
+```
+
+---
+
+## Emergency Recovery
+
+If workspace is lost (ephemeral cloud container):
+1. Clone repo: `git clone https://github.com/primecarrpod/lol.forge`
+2. Run: `./scripts/resume_runner.sh --status`
+3. Read: `cat RESUME_SESSION_LOLFORGE.md`
+4. Continue from `NEXT_runner_XXX.md`
+
+All work is persisted in GitHub. The ephemeral workspace is just a compute environment.
+
+---
+
+*This file is updated at the end of every session.*
+*Last Updated: 2026-10-28 | Session: Initialization*
