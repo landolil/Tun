@@ -1,0 +1,325 @@
+Cell#,eMTB#,eCell #,Piece#,Captions,Voices,#,Scene,Camera Action,Action
+1,CCD01,1,o1,.,.
+2,CCD01,2,o2,.,.
+3,CCD01,3,o3,.,.
+4,CCD01,4,o4,.,.
+5,CCD01,5,o5,.,.
+6,CCD01,6,c6,.,.
+7,CCD01,7,o7,.,.
+8,CCD01,8,o8,.,.
+9,CCD01,9,o9,.,.
+10,CCD01,10,o10,.,.
+11,CCD01,11,o11,.,.
+12,CCD01,12,1,,,,Buju Bedroom
+13,CCD01,13,2
+14,CCD01,14,3
+15,CCD01,15,4
+16,CCD01,16,5
+17,CCD01,17,6
+18,CCD01,18,7
+19,CCD01,19,8
+20,CCD01,20,9
+21,CCD01,21,10
+22,CCD01,22,11
+23,CCD01,23,12
+24,CCD01,24,13
+25,CCD01,25,14
+26,CCD01,26,15
+27,CCD01,27,16
+28,CCD01,28,17
+29,CCD01,29,18
+30,CCD01,30,19
+31,CCD01,31,20
+32,CCD01,32,21
+33,CCD01,33,22
+34,CCD01,34,23
+35,CCD01,35,24
+36,CCD01,36,25
+37,CCD01,37,26
+38,CCD01,38,27
+39,CCD01,39,28
+40,CCD01,40,29
+41,CCD01,41,30
+42,CCD01,42,31
+43,CCD01,43,32
+44,CCD01,44,33
+45,CCD01,45,34
+46,CCD01,46,35
+47,CCD01,47,36
+48,CCD01,48,37
+49,CCD01,49,38
+50,CCD01,50,39
+51,CCD01,51,40
+52,CCD01,52,41
+53,CCD01,53,42
+54,CCD01,54,43
+55,CCD01,55,44
+56,CCD01,56,45
+57,CCD01,57,46
+58,CCD01,58,47
+59,CCD01,59,48
+60,CCD01,60,c1,.,.
+61,CCD01,61,c2,.,.
+62,CCD01,62,c3,.,.
+63,CCD01,63,c4,.,.
+64,CCD01,64,c5,.,.
+65,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *
+66,MTB01,1,o1,.,.,1,Blue Wale,Zoom into Barnacles
+67,MTB01,2,o2,.,.,1,Blue Wale,Zoom into Barnacles
+68,MTB01,3,o3,.,.,1b,Blue Wale,Zoom into Barnacles
+69,MTB01,4,o4,.,.,1b,Blue Wale,Zoom into Barnacles
+70,MTB01,5,o5,.,.,1b,Blue Wale,Zoom into Barnacles
+71,MTB01,6,c6,.,.,1b,Blue Wale,Zoom into Barnacles
+72,MTB01,7,o7,.,.,1b,Blue Wale,Zoom into Barnacles
+73,MTB01,8,o8,.,.,1b,barnacle bae,Zoom into Barnacles
+74,MTB01,9,o9,.,.,1b,barnacle bae,Zoom into Barnacles
+75,MTB01,10,o10,.,.,1b,barnacle bae,Zoom into Barnacles
+76,MTB01,11,o11,.,.,1b,barnacle bae,Zoom into Barnacles
+77,MTB01,12,1,That Was,Maya,b,barnacle bae,Holding Shot
+78,MTB01,13,2,a Whale,Maya,b,barnacle bae
+79,MTB01,14,3,Of a,tana,b,barnacle bae
+80,MTB01,15,4,Good Time,tana buju,b,barnacle bae
+81,MTB01,16,5,buju my barn-,tana,b,barnacle bae
+82,MTB01,17,6,-nacle baby,tana,b,barnacle bae
+83,MTB01,18,7,yes Tenacious,buju,b,barnacle bae
+84,MTB01,19,8,Tana/Let's,buju/Tana,b2,Crab Ride Barnacle
+85,MTB01,20,9,Crab Jump,Tana,b2,Crab Ride Barnacle
+86,MTB01,21,10,Crab Jump,Maya Buju,b2,Crab Ride Barnacle,,Tardigrades Jumping
+87,MTB01,22,11,Hold On,Maya,b2,Crab Ride Barnacle,,Tardigrades Landing
+88,MTB01,23,12,ok ready,Tana,23,Crab Ride Baeleen,,Tardigrades Dancing
+89,MTB01,24,13,release,tana,23,Crab Ride,,Tardigrades Jumping
+90,MTB01,25,14,weee,buju,3,Baeleen Cliffs,,Tardigrades Landing
+91,MTB01,26,15,maya where,buju,3,Baeleen Cliffs
+92,MTB01,27,16,are we now..,buju,3,Baeleen Cliffs
+93,MTB01,28,17,Baleen--->,Maya,3,Baeleen Cliffs
+94,MTB01,29,18,Bazzarr--->,Maya,3,Baeleen Cliffs
+95,MTB01,30,19,look a friend,tana,3,Baeleen Cliffs
+96,MTB01,31,20,hello im Bae-,baeleen,3,Baeleen Cliffs
+97,MTB01,32,21,-leen bacteria,baeleen,3,Baeleen Cliffs
+98,MTB01,33,22,welcome to,baeleen,3,Baeleen Cliffs
+99,MTB01,34,23,my keratin,baeleen,3,Baeleen Cliffs
+100,MTB01,35,24,mineral cliffs,baeleen,3,Baeleen Cliffs,,Tardigrades Balancing on Cliff Edges
+101,MTB01,36,25,wow/these,buju/baeleen,3,Baeleen Cliffs,,Tardigrades Balancing on Cliff Edges
+102,MTB01,37,26,are the,baeleen,3,Baeleen Cliffs
+103,MTB01,38,27,teeth of the,baeleen,3,Baeleen Cliffs
+104,MTB01,39,28,"whale, and ",baeleen,3,Baeleen Cliffs
+105,MTB01,40,29,my home (ding),baeleen,3,Baeleen Cliffs
+106,MTB01,41,30,dinners' here,baeleen,3,Baeleen Cliffs
+107,MTB01,42,31,"keratin, yum",baeleen,3,Baeleen Cliffs
+108,MTB01,43,32,and our,Maya,3,Baeleen Cliffs
+109,MTB01,44,33,ride too,Maya,3,Baeleen Cliffs
+110,MTB01,45,34,by baeleen,Buju,3,Baeleen Cliffs
+111,MTB01,46,35,Crab Jump,Maya Tana Buju,3b,Baeleen Cliffs,riding on back of crab tail,Tardigrades Jumping
+112,MTB01,47,36,look a Re-,tana,3b,Crab Ride Baeleen,,Tardigrades Landing
+113,MTB01,48,37,-Mora Fish,tana,b2,Crab Ride Barnacle,,Tardigrades Dancing
+114,MTB01,49,38,,,b2,Crab Ride Barnacle,,Tardigrades Dancing
+115,MTB01,50,39,all aboard the,Maya,b2,Crab Ride Barnacle,,Tardigrades Dancing
+116,MTB01,51,40,fish train…let's,Maya,b2,Crab Ride Barnacle,,Tardigrades Dancing
+117,MTB01,52,41,Crab Jump,Maya Tana Buju,c,Side of Fish Face,,Tardigrades Jumping
+118,MTB01,53,42,weee,maya,c,Side of Fish Face,,Tardigrades Landing
+119,MTB01,54,43,look,tana,c,Side of Fish Face,Zooming in on Dolphin Tail as Fish Swims Closer,Tardigrades Holding On
+120,MTB01,55,44,a dolphin,Maya Tana Buju,c,Side of Fish Face,Zooming in on Dolphin Tail as Fish Swims Closer,Tardigrades Holding On
+121,MTB01,56,45,happy happy,,c,Side of Fish Face,Zooming in on Dolphin Tail as Fish Swims Closer,Tardigrades Holding On
+122,MTB01,57,46,im ready,buju,c4,Side of Fish Face,Zooming in on Dolphin Tail as Fish Swims Closer,Tardigrades Holding On
+123,MTB01,58,47,Crab Jump,Maya Tana Buju,c4,Fish Tooth Crabs on Skin of Dolphin ,Zooming to Skin,Tardigrades Jumping
+124,MTB01,59,48,weee,tana,4,Skin of Dolphin,Holding Shot,Tardigrades Landing
+125,MTB01,60,c1,.,.,4
+126,MTB01,61,c2,.,.,4d
+127,MTB01,62,c3,.,.,4d
+128,MTB01,63,c4,.,.,d
+129,MTB01,64,c5,.,.,d,Dolphin
+130,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *
+131,MTB02,1,o1,.,.,,bird
+132,MTB02,2,o2,.,.
+133,MTB02,3,o3,.,.
+134,MTB02,4,o4,.,.
+135,MTB02,5,o5,.,.
+136,MTB02,6,c6,.,.,,bird claw
+137,MTB02,7,o7,.,.
+138,MTB02,8,o8,.,.
+139,MTB02,9,o9,.,.
+140,MTB02,10,o10,.,.
+141,MTB02,11,o11,.,.
+142,MTB02,12,1,Banana Time,B,,B holding Pieceof Bananna,,moving bannana towards face
+143,MTB02,13,2,…nanana time,M T,,M T Singing arms out,,reaching out
+144,MTB02,14,3,banannanana,B,,B Closeup,,eating banana piece
+145,MTB02,15,4,it’s the,B
+146,MTB02,16,5,best time,B
+147,MTB02,17,6,its bannananana,M T B
+148,MTB02,18,7,nannanana,B
+149,MTB02,19,8,Time,B
+150,MTB02,20,9,Hey Bannana..,M
+151,MTB02,21,10,..nananana,T
+152,MTB02,22,11,yes bannana,B
+153,MTB02,23,12,..nananana,T
+154,MTB02,24,13,What Happens,M
+155,MTB02,25,14,Yes,B
+156,MTB02,26,15,when we,M
+157,MTB02,27,16,open fruit?,M
+158,MTB02,28,17,Bacteria!,T B
+159,MTB02,29,18,Bacteria,M
+160,MTB02,30,19,Lets' Play...,T
+161,MTB02,31,20,..A game!,T
+162,MTB02,32,21,A game?,B
+163,MTB02,33,22,A game,M
+164,MTB02,34,23,Lets count,T
+165,MTB02,35,24,Bacteria!,M T B
+166,MTB02,36,25,Well…,B
+167,MTB02,37,26,I See,B
+168,MTB02,38,27,One Two,B
+169,MTB02,39,28,three bacteri,B
+170,MTB02,40,29,look…,T
+171,MTB02,41,30,four five,T
+172,MTB02,42,31,six bacteria,T
+173,MTB02,43,32
+174,MTB02,44,33,Seven eight,M
+175,MTB02,45,34,nine,M
+176,MTB02,46,35,Bacteria Mine,M
+177,MTB02,47,36,Ten,M
+178,MTB02,48,37,Eleven,T
+179,MTB02,49,38,Twelve,B
+180,MTB02,50,39,that game,T
+181,MTB02,51,40,was swell,T
+182,MTB02,52,41,swelling with,M
+183,MTB02,53,42,bacteria!,T B
+184,MTB02,54,43,I hear a…,T
+185,MTB02,55,44,butterfly!,B
+186,MTB02,56,45,its time to,M
+187,MTB02,57,46,bannana,M
+188,MTB02,58,47,naanna,M T B
+189,MTB02,59,48,back home,M
+190,MTB02,60,c1,.,.
+191,MTB02,61,c2,.,.
+192,MTB02,62,c3,.,.
+193,MTB02,63,c4,.,.,,Tardigradia Written in Forest Flowers
+194,MTB02,64,c5,.,.,,Butterfly
+195,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *
+196,MSND01,1
+197,MSND01,2
+198,MSND01,3
+199,MSND01,4
+200,MSND01,5
+201,MSND01,6
+202,MSND01,7
+203,MSND01,8
+204,MSND01,9
+205,MSND01,10
+206,MSND01,11
+207,MSND01,12
+208,MSND01,13
+209,MSND01,14
+210,MSND01,15
+211,MSND01,16
+212,MSND01,17
+213,MSND01,18
+214,MSND01,19
+215,MSND01,20
+216,MSND01,21
+217,MSND01,22
+218,MSND01,23
+219,MSND01,24
+220,MSND01,25
+221,MSND01,26
+222,MSND01,27
+223,MSND01,28
+224,MSND01,29
+225,MSND01,30
+226,MSND01,31
+227,MSND01,32
+228,MSND01,33
+229,MSND01,34
+230,MSND01,35
+231,MSND01,36
+232,MSND01,37
+233,MSND01,38
+234,MSND01,39
+235,MSND01,40
+236,MSND01,41
+237,MSND01,42
+238,MSND01,43
+239,MSND01,44
+240,MSND01,45
+241,MSND01,46
+242,MSND01,47
+243,MSND01,48
+244,MSND01,49
+245,MSND01,50
+246,MSND01,51
+247,MSND01,52
+248,MSND01,53
+249,MSND01,54
+250,MSND01,55
+251,MSND01,56
+252,MSND01,57
+253,MSND01,58
+254,MSND01,59
+255,MSND01,60
+256,MSND01,61
+257,MSND01,62
+258,MSND01,63
+259,MSND01,64
+260,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *,* * * *
+261,MSND02,1
+262,MSND02,2
+263,MSND02,3
+264,MSND02,4
+265,MSND02,5
+266,MSND02,6
+267,MSND02,7
+268,MSND02,8
+269,MSND02,9
+270,MSND02,10
+271,MSND02,11
+272,MSND02,12
+273,MSND02,13
+274,MSND02,14
+275,MSND02,15
+276,MSND02,16
+277,MSND02,17
+278,MSND02,18
+279,MSND02,19
+280,MSND02,20
+281,MSND02,21
+282,MSND02,22
+283,MSND02,23
+284,MSND02,24
+285,MSND02,25
+286,MSND02,26
+287,MSND02,27
+288,MSND02,28
+289,MSND02,29
+290,MSND02,30
+291,MSND02,31
+292,MSND02,32
+293,MSND02,33
+294,MSND02,34
+295,MSND02,35
+296,MSND02,36
+297,MSND02,37
+298,MSND02,38
+299,MSND02,39
+300,MSND02,40
+301,MSND02,41
+302,MSND02,42
+303,MSND02,43
+304,MSND02,44
+305,MSND02,45
+306,MSND02,46
+307,MSND02,47
+308,MSND02,48
+309,MSND02,49
+310,MSND02,50
+311,MSND02,51
+312,MSND02,52
+313,MSND02,53
+314,MSND02,54
+315,MSND02,55
+316,MSND02,56
+317,MSND02,57
+318,MSND02,58
+319,MSND02,59
+320,MSND02,60
+321,MSND02,61
+322,MSND02,62
+323,MSND02,63
+324,MSND02,64

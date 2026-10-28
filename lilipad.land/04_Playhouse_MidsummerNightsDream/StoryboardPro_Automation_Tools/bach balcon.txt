@@ -1,0 +1,2 @@
+
+for /l %x in (1, 1, 804) do balcon -tray -n "Microsoft Zira" -f %x.txt --silence-end 2500 -w %x.wav

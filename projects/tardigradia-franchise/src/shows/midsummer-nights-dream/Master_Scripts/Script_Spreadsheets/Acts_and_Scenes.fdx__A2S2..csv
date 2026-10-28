@@ -1,0 +1,330 @@
+<Paragraph Type=',New Act',><Text>,396,,</Text>,</Paragraph>, 
+<Paragraph Type=',Scene Heading',><Text>,2,,</Text>,</Paragraph>, 
+<Paragraph Type=',Scene Heading',><Text>,4,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,689,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,689,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,TITANIA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,690,,2403
+,691,,,,2403
+,692,,,,2403
+,693,,,,,, 
+,694,,,,,, 
+,695,,,,,, 
+,696,,,,2403
+,697,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,698,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,698,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,699,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,699,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,FIRST FAIRY,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,701,,2403
+,702,,,,2403
+,703,,,,2403
+,704,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,CHORUS,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,706,,2403
+,707,,,,2403
+,708,,,,2403
+,709,,,,2403
+,710,,,,2403
+,711,,,,2403
+,712,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,FIRST FAIRY,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,713,,2403
+,714,,,,2403
+,715,,,,2403
+,716,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,CHORUS,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,706,,2403
+,707,,,,2403
+,708,,,,2403
+,709,,,,2403
+,710,,,,2403
+,711,,,,2403
+,712,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,717,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,717,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,SECOND FAIRY,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,719,,2403
+,720,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,721,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,721,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,722,,,, 
+,723,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,NARRATOR,"Enter Oberon, who anoints Titania’s eyelids with the",2403
+,,723,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,OBERON,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,724,,2403
+,725,,,,2403
+,726,,,,2403
+,727,,,,2403
+,728,,,,2403
+,729,,,,2403
+,730,,,,2403
+,731,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,732,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,732,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,733,,,, 
+,734,,,,2403
+,735,,,,2403
+,736,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HERMIA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,737,,2403
+,738,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,739,,2403
+,740,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HERMIA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,741,,2403
+,742,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,743,,2403
+,744,,,,2403
+,745,,,,2403
+,746,,,,2403
+,747,,,,2403
+,748,,,,2403
+,749,,,,2403
+,750,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HERMIA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,751,,2403
+,752,,,,2403
+,753,,,,2403
+,754,,,,2403
+,755,,,,2403
+,756,,,,2403
+,757,,,,2403
+,758,,,,2403
+,759,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,760,,2403
+,761,,,,2403
+,762,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HERMIA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,763,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,764,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,764,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,663,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,663,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,ROBIN,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,765,,2403
+,766,,,,2403
+,767,,,,2403
+,768,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,769,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,769,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,ROBIN,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,770,,2403
+,771,,,,2403
+,772,,,,2403
+,773,,,,2403
+,774,,,,2403
+,775,,,,2403
+,776,,,,2403
+,777,,,,2403
+,778,,,,2403
+,779,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,780,,,, 
+,,,781,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,780,,,, 
+,781,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,ROBIN,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,782,,2403
+,783,,,,2403
+,784,,,,2403
+,785,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,786,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,786,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HELENA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,787,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,DEMETRIUS,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,788,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HELENA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,789,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,DEMETRIUS,,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,790,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,657,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,657,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HELENA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,791,,2403
+,792,,,,2403
+,793,,,,2403
+,794,,,,2403
+,795,,,,,, 
+,796,,,,2403
+,797,,,,2403
+,798,,,,2403
+,799,,,,2403
+,800,,,,2403
+,801,,,,2403
+,802,,,,,, 
+,803,,,,2403
+,804,,,,2403
+,805,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,"LYSANDER, waking up",,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,807,,2403
+,808,,,,2403
+,809,,,,,, 
+,810,,,,2403
+,811,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HELENA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,812,,2403
+,813,,,,2403
+,814,,,,2403
+,815,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,816,,2403
+,817,,,,2403
+,818,,,,2403
+,819,,,,2403
+,820,,,,2403
+,821,,,,2403
+,822,,,,2403
+,823,,,,2403
+,824,,,,2403
+,825,,,,2403
+,826,,,,2403
+,827,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,HELENA,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,828,,2403
+,829,,,,2403
+,830,,,,2403
+,831,,,,2403
+,832,,,,2403
+,833,,,,2403
+,834,,,,,, 
+,835,,,,2403
+,836,,,,2403
+,837,,,,2403
+,838,,,,2403
+,839,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,279,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,279,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,LYSANDER,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,840,,,, 
+,841,,,,2403
+,842,,,,2403
+,843,,,,2403
+,844,,,,2403
+,845,,,,2403
+,846,,,,2403
+,847,,,,2403
+,848,,,,,, 
+,849,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,588,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,"HERMIA, waking up",,</Text>,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,851,,2403
+,852,,,,2403
+,853,,,,2403
+,854,,,,2403
+,855,,,,2403
+,856,,,,2403
+,857,,,,2403
+,858,,,,,, 
+,859,,,,2403
+,860,,,,,, 
+,861,,,,2403
+,862,,,,</Text>,</Paragraph>, 
+<Paragraph Type=',Character',><Text>,NARRATOR,2396,,</Paragraph>, 
+<Paragraph Type=',Dialogue',><Text>,279,,</Text>,</Paragraph>, 
+<Paragraph Type=',Action',><Text>,279,,</Text>,</Paragraph>, 
+<Paragraph Type=',End of Act',><Text>,2396,,,</Paragraph>, 
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,2408
+,,,,,,,  
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,,,,,  
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,,,,,  
+,,,,,,,  
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,,,,,  
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,2408
+,,,,,,,  

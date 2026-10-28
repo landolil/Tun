@@ -1,0 +1,671 @@
+paragraph_num,element_type,character,text
+1,Action,,ACT 5
+2,Action,,Scene 1
+3,Action,,playhouse
+4,Action,,NARRATOR
+5,Action,,"Enter Theseus, Hippolyta, and Philostrate, Lords, and			 
+				Attendants."
+6,Action,,"Enter Theseus, Hippolyta, and Philostrate, Lords, and			 
+				Attendants."
+7,Action,,HIPPOLYTA
+8,Action,,"’Tis strange, my Theseus, that these lovers speak of."
+9,Action,,THESEUS
+10,Action,,"More strange than true. I never may believe			 
+				These antique fables, nor these fairy toys.			 
+				Lovers and madmen have such seething brains,			 
+				Such shaping fantasies, that apprehend			 
+				More than cool reason ever comprehends.			 
+				The lunatic, the lover, and the poet			 
+				Are of imagination all compact.			 
+				One sees more devils than vast hell can hold:			 
+				That is the madman. The lover, all as frantic,			 
+				Sees Helen’s beauty in a brow of Egypt.			 
+				The poet’s eye, in a fine frenzy rolling,			 
+				Doth glance from heaven to Earth, from Earth to			 
+				heaven,			 
+				And as imagination bodies forth			 
+				The forms of things unknown, the poet’s pen			 
+				Turns them to shapes and gives to airy nothing			 
+				A local habitation and a name.			 
+				Such tricks hath strong imagination			 
+				That, if it would but apprehend some joy,			 
+				It comprehends some bringer of that joy.			 
+				Or in the night, imagining some fear,			 
+				How easy is a bush supposed a bear!"
+11,Action,,HIPPOLYTA
+12,Action,,"But all the story of the night told over,			 
+				And all their minds transfigured so together,			 
+				More witnesseth than fancy’s images			 
+				And grows to something of great constancy,			 
+				But, howsoever, strange and admirable."
+13,Action,,NARRATOR
+14,Action,,"Enter Lovers: Lysander, Demetrius, Hermia, and Helena."
+15,Action,,"Enter Lovers: Lysander, Demetrius, Hermia, and Helena."
+16,Action,,THESEUS
+17,Action,,"Here come the lovers full of joy and mirth.—			 
+				Joy, gentle friends! Joy and fresh days of love			 
+				Accompany your hearts!"
+18,Action,,LYSANDER
+19,Action,,"More than to us			 
+				Wait in your royal walks, your board, your bed!"
+20,Action,,THESEUS
+21,Action,,"Come now, what masques, what dances shall we			 
+				have			 
+				To wear away this long age of three hours			 
+				Between our after-supper and bedtime?			 
+				Where is our usual manager of mirth?			 
+				What revels are in hand? Is there no play			 
+				To ease the anguish of a torturing hour?			 
+				Call Philostrate."
+22,Action,,"PHILOSTRATE, coming forward"
+23,Action,,"Here, mighty Theseus."
+24,Action,,THESEUS
+25,Action,,"Say what abridgment have you for this evening,			 
+				What masque, what music? How shall we beguile			 
+				The lazy time if not with some delight?"
+26,Action,,"PHILOSTRATE, giving Theseus a paper"
+27,Action,,"There is a brief how many sports are ripe.			 
+				Make choice of which your Highness will see first."
+28,Action,,THESEUS
+29,Action,,"“The battle with the Centaurs, to be sung			 
+				By an Athenian eunuch to the harp.”			 
+				We’ll none of that. That have I told my love			 
+				In glory of my kinsman Hercules.			 
+				“The riot of the tipsy Bacchanals,			 
+				Tearing the Thracian singer in their rage.”			 
+				That is an old device, and it was played			 
+				When I from Thebes came last a conqueror.			 
+				“The thrice-three Muses mourning for the death			 
+				Of learning, late deceased in beggary.”			 
+				That is some satire, keen and critical,			 
+				Not sorting with a nuptial ceremony.			 
+				“A tedious brief scene of young Pyramus			 
+				And his love Thisbe, very tragical mirth.”			 
+				“Merry” and “tragical”? “Tedious” and “brief”?			 
+				That is hot ice and wondrous strange snow!			 
+				How shall we find the concord of this discord?"
+30,Action,,PHILOSTRATE
+31,Action,,"A play there is, my lord, some ten words long			 
+				(Which is as brief as I have known a play),			 
+				But by ten words, my lord, it is too long,			 
+				Which makes it tedious; for in all the play,			 
+				There is not one word apt, one player fitted.			 
+				And tragical, my noble lord, it is.			 
+				For Pyramus therein doth kill himself,			 
+				Which, when I saw rehearsed, I must confess,			 
+				Made mine eyes water; but more merry tears			 
+				The passion of loud laughter never shed."
+32,Action,,THESEUS
+33,Action,,What are they that do play it?
+34,Action,,PHILOSTRATE
+35,Action,,"Hard-handed men that work in Athens here,			 
+				Which never labored in their minds till now,			 
+				And now have toiled their unbreathed memories			 
+				With this same play, against your nuptial."
+36,Action,,THESEUS
+37,Action,,And we will hear it.
+38,Action,,PHILOSTRATE
+39,Action,,"No, my noble lord,			 
+				It is not for you. I have heard it over,			 
+				And it is nothing, nothing in the world,			 
+				Unless you can find sport in their intents,			 
+				Extremely stretched and conned with cruel pain			 
+				To do you service."
+40,Action,,THESEUS
+41,Action,,"I will hear that play,			 
+				For never anything can be amiss			 
+				When simpleness and duty tender it.			 
+				Go, bring them in—and take your places, ladies."
+42,Action,,NARRATOR
+43,Action,,Philostrate exits.
+44,Action,,Philostrate exits.
+45,Action,,HIPPOLYTA
+46,Action,,"I love not to see wretchedness o’ercharged,			 
+				And duty in his service perishing."
+47,Action,,THESEUS
+48,Action,,"Why, gentle sweet, you shall see no such thing."
+49,Action,,HIPPOLYTA
+50,Action,,He says they can do nothing in this kind.
+51,Action,,THESEUS
+52,Action,,"The kinder we, to give them thanks for nothing.			 
+				Our sport shall be to take what they mistake;			 
+				And what poor duty cannot do, noble respect			 
+				Takes it in might, not merit.			 
+				Where I have come, great clerks have purposèd			 
+				To greet me with premeditated welcomes,			 
+				Where I have seen them shiver and look pale,			 
+				Make periods in the midst of sentences,			 
+				Throttle their practiced accent in their fears,			 
+				And in conclusion dumbly have broke off,			 
+				Not paying me a welcome. Trust me, sweet,			 
+				Out of this silence yet I picked a welcome,			 
+				And in the modesty of fearful duty,			 
+				I read as much as from the rattling tongue			 
+				Of saucy and audacious eloquence.			 
+				Love, therefore, and tongue-tied simplicity			 
+				In least speak most, to my capacity."
+53,Action,,NARRATOR
+54,Action,,Enter Philostrate.
+55,Action,,Enter Philostrate.
+56,Action,,PHILOSTRATE
+57,Action,,"So please your Grace, the Prologue is addressed."
+58,Action,,THESEUS
+59,Action,,Let him approach.
+60,Action,,NARRATOR
+61,Action,,Enter the Prologue.
+62,Action,,Enter the Prologue.
+63,Action,,PROLOGUE
+64,Action,,"If we offend, it is with our goodwill.			 
+				That you should think we come not to offend,			 
+				But with goodwill. To show our simple skill,			 
+				That is the true beginning of our end.			 
+				Consider, then, we come but in despite.			 
+				We do not come, as minding to content you,			 
+				Our true intent is. All for your delight			 
+				We are not here. That you should here repent			 
+				you,			 
+				The actors are at hand, and, by their show,			 
+				You shall know all that you are like to know."
+65,Action,,NARRATOR
+66,Action,,Prologue exits.
+67,Action,,Prologue exits.
+68,Action,,THESEUS
+69,Action,,This fellow doth not stand upon points.
+70,Action,,LYSANDER
+71,Action,,"He hath rid his prologue like a rough colt;			 
+				he knows not the stop. A good moral, my lord: it is			 
+				not enough to speak, but to speak true."
+72,Action,,HIPPOLYTA
+73,Action,,"Indeed he hath played on this prologue like			 
+				a child on a recorder—a sound, but not in			 
+				government."
+74,Action,,THESEUS
+75,Action,,"His speech was like a tangled chain—nothing			 
+				impaired, but all disordered. Who is next?"
+76,Action,,NARRATOR
+77,Action,,"Enter Pyramus(Bottom), and Thisbe(Flute), and			 
+				Wall(Snout), and Moonshine(Starveling), and Lion			 
+				(Snug), and Prologue (Quince)."
+78,Action,,"Enter Pyramus(Bottom), and Thisbe(Flute), and			 
+				Wall(Snout), and Moonshine(Starveling), and Lion			 
+				(Snug), and Prologue (Quince)."
+79,Action,,"QUINCE, as Prologue"
+80,Action,,"Gentles, perchance you wonder at this show.			 
+				But wonder on, till truth make all things plain.			 
+				This man is Pyramus, if you would know.			 
+				This beauteous lady Thisbe is certain.			 
+				This man with lime and roughcast doth present			 
+				“Wall,” that vile wall which did these lovers			 
+				sunder;			 
+				And through Wall’s chink, poor souls, they are			 
+				content			 
+				To whisper, at the which let no man wonder.			 
+				This man, with lantern, dog, and bush of thorn,			 
+				Presenteth “Moonshine,” for, if you will know,			 
+				By moonshine did these lovers think no scorn			 
+				To meet at Ninus’ tomb, there, there to woo.			 
+				This grisly beast (which “Lion” hight by name)			 
+				The trusty Thisbe coming first by night			 
+				Did scare away, or rather did affright;			 
+				And, as she fled, her mantle she did fall,			 
+				Which Lion vile with bloody mouth did stain.			 
+				Anon comes Pyramus, sweet youth and tall,			 
+				And finds his trusty Thisbe’s mantle slain.			 
+				Whereat, with blade, with bloody blameful blade,			 
+				He bravely broached his boiling bloody breast.			 
+				And Thisbe, tarrying in mulberry shade,			 
+				His dagger drew, and died. For all the rest,			 
+				Let Lion, Moonshine, Wall, and lovers twain			 
+				At large discourse, while here they do remain."
+81,Action,,THESEUS
+82,Action,,I wonder if the lion be to speak.
+83,Action,,DEMETRIUS
+84,Action,,"No wonder, my lord. One lion may when			 
+				many asses do."
+85,Action,,NARRATOR
+86,Action,,"Lion, Thisbe, Moonshine, and Prologue exit."
+87,Action,,"Lion, Thisbe, Moonshine, and Prologue exit."
+88,Action,,"SNOUT, as Wall"
+89,Action,,"In this same interlude it doth befall			 
+				That I, one Snout by name, present a wall;			 
+				And such a wall as I would have you think			 
+				That had in it a crannied hole or chink,			 
+				Through which the lovers, Pyramus and Thisbe,			 
+				Did whisper often, very secretly.			 
+				This loam, this roughcast, and this stone doth show			 
+				That I am that same wall. The truth is so.			 
+				And this the cranny is, right and sinister,			 
+				Through which the fearful lovers are to whisper."
+90,Action,,THESEUS
+91,Action,,"Would you desire lime and hair to speak			 
+				better?"
+92,Action,,DEMETRIUS
+93,Action,,"It is the wittiest partition that ever I heard			 
+				discourse, my lord."
+94,Action,,THESEUS
+95,Action,,Pyramus draws near the wall. Silence.
+96,Action,,"BOTTOM, as Pyramus"
+97,Action,,"O grim-looked night! O night with hue so black!			 
+				O night, which ever art when day is not!			 
+				O night! O night! Alack, alack, alack!			 
+				I fear my Thisbe’s promise is forgot.			 
+				And thou, O wall, O sweet, O lovely wall,			 
+				That stand’st between her father’s ground and			 
+				mine,			 
+				Thou wall, O wall, O sweet and lovely wall,			 
+				Show me thy chink to blink through with mine			 
+				eyne.			 
+				Thanks, courteous wall. Jove shield thee well for			 
+				this.			 
+				But what see I? No Thisbe do I see.			 
+				O wicked wall, through whom I see no bliss,			 
+				Cursed be thy stones for thus deceiving me!"
+98,Action,,THESEUS
+99,Action,,"The wall, methinks, being sensible, should			 
+				curse again."
+100,Action,,BOTTOM
+101,Action,,"No, in truth, sir, he should not. “Deceiving			 
+				me” is Thisbe’s cue. She is to enter now, and I am			 
+				to spy her through the wall. You shall see it will fall			 
+				pat as I told you. Yonder she comes."
+102,Action,,NARRATOR
+103,Action,,Enter Thisbe(Flute).
+104,Action,,Enter Thisbe(Flute).
+105,Action,,"FLUTE, as Thisbe"
+106,Action,,"O wall, full often hast thou heard my moans			 
+				For parting my fair Pyramus and me.			 
+				My cherry lips have often kissed thy stones,			 
+				Thy stones with lime and hair knit up in thee."
+107,Action,,"BOTTOM, as Pyramus"
+108,Action,,"I see a voice! Now will I to the chink			 
+				To spy an I can hear my Thisbe’s face.			 
+				Thisbe?"
+109,Action,,"FLUTE, as Thisbe"
+110,Action,,"My love! Thou art my love, I think."
+111,Action,,"BOTTOM, as Pyramus"
+112,Action,,"Think what thou wilt, I am thy lover’s grace,			 
+				And, like Limander, am I trusty still."
+113,Action,,"FLUTE, as Thisbe"
+114,Action,,"And I like Helen, till the Fates me kill."
+115,Action,,"BOTTOM, as Pyramus"
+116,Action,,Not Shafalus to Procrus was so true.
+117,Action,,"FLUTE, as Thisbe"
+118,Action,,"As Shafalus to Procrus, I to you."
+119,Action,,"BOTTOM, as Pyramus"
+120,Action,,O kiss me through the hole of this vile wall.
+121,Action,,"FLUTE, as Thisbe"
+122,Action,,"I kiss the wall’s hole, not your lips at all."
+123,Action,,"BOTTOM, as Pyramus"
+124,Action,,Wilt thou at Ninny’s tomb meet me straightway?
+125,Action,,"FLUTE, as Thisbe"
+126,Action,,"’Tide life, ’tide death, I come without delay."
+127,Action,,NARRATOR
+128,Action,,Bottom and Flute exit.
+129,Action,,Bottom and Flute exit.
+130,Action,,"SNOUT, as Wall"
+131,Action,,"Thus have I, Wall, my part dischargèd so,			 
+				And, being done, thus Wall away doth go."
+132,Action,,NARRATOR
+133,Action,,He exits.
+134,Action,,He exits.
+135,Action,,THESEUS
+136,Action,,"Now is the wall down between the two			 
+				neighbors."
+137,Action,,DEMETRIUS
+138,Action,,"No remedy, my lord, when walls are so			 
+				willful to hear without warning."
+139,Action,,HIPPOLYTA
+140,Action,,This is the silliest stuff that ever I heard.
+141,Action,,THESEUS
+142,Action,,"The best in this kind are but shadows, and			 
+				the worst are no worse, if imagination amend			 
+				them."
+143,Action,,HIPPOLYTA
+144,Action,,"It must be your imagination, then, and not			 
+				theirs."
+145,Action,,THESEUS
+146,Action,,"If we imagine no worse of them than they of			 
+				themselves, they may pass for excellent men. Here			 
+				come two noble beasts in, a man and a lion."
+147,Action,,NARRATOR
+148,Action,,Enter Lion(Snug) and Moonshine(Starveling).
+149,Action,,Enter Lion(Snug) and Moonshine(Starveling).
+150,Action,,"SNUG, as Lion"
+151,Action,,"You ladies, you whose gentle hearts do fear			 
+				The smallest monstrous mouse that creeps on			 
+				floor,			 
+				May now perchance both quake and tremble here,			 
+				When lion rough in wildest rage doth roar.			 
+				Then know that I, as Snug the joiner, am			 
+				A lion fell, nor else no lion’s dam;			 
+				For if I should as lion come in strife			 
+				Into this place, ’twere pity on my life."
+152,Action,,THESEUS
+153,Action,,"A very gentle beast, and of a good			 
+				conscience."
+154,Action,,DEMETRIUS
+155,Action,,"The very best at a beast, my lord, that e’er I			 
+				saw."
+156,Action,,LYSANDER
+157,Action,,This lion is a very fox for his valor.
+158,Action,,THESEUS
+159,Action,,"True, and a goose for his discretion."
+160,Action,,DEMETRIUS
+161,Action,,"Not so, my lord, for his valor cannot carry			 
+				his discretion, and the fox carries the goose."
+162,Action,,THESEUS
+163,Action,,"His discretion, I am sure, cannot carry his			 
+				valor, for the goose carries not the fox. It is well.			 
+				Leave it to his discretion, and let us listen to the			 
+				Moon."
+164,Action,,"STARVELING, as Moonshine"
+165,Action,,This lanthorn doth the hornèd moon present.
+166,Action,,DEMETRIUS
+167,Action,,"He should have worn the horns on his			 
+				head."
+168,Action,,THESEUS
+169,Action,,"He is no crescent, and his horns are invisible			 
+				within the circumference."
+170,Action,,"STARVELING, as Moonshine"
+171,Action,,"This lanthorn doth the hornèd moon present.			 
+				Myself the man i’ th’ moon do seem to be."
+172,Action,,THESEUS
+173,Action,,"This is the greatest error of all the rest; the			 
+				man should be put into the lanthorn. How is it else			 
+				“the man i’ th’ moon”?"
+174,Action,,DEMETRIUS
+175,Action,,"He dares not come there for the candle,			 
+				for you see, it is already in snuff."
+176,Action,,HIPPOLYTA
+177,Action,,"I am aweary of this moon. Would he would			 
+				change."
+178,Action,,THESEUS
+179,Action,,"It appears by his small light of discretion that			 
+				he is in the wane; but yet, in courtesy, in all reason,			 
+				we must stay the time."
+180,Action,,LYSANDER
+181,Action,,"Proceed, Moon."
+182,Action,,"STARVELING, as Moonshine"
+183,Action,,"All that I have to say is to tell			 
+				you that the lanthorn is the moon, I the man i’ th’			 
+				moon, this thornbush my thornbush, and this dog			 
+				my dog."
+184,Action,,DEMETRIUS
+185,Action,,"Why, all these should be in the lanthorn,			 
+				for all these are in the moon. But silence. Here			 
+				comes Thisbe."
+186,Action,,NARRATOR
+187,Action,,Enter Thisbe(Flute).
+188,Action,,Enter Thisbe(Flute).
+189,Action,,"FLUTE, as Thisbe"
+190,Action,,This is old Ninny’s tomb. Where is my love?
+191,Action,,"SNUG, as Lion"
+192,Action,,O!
+193,Action,,NARRATOR
+194,Action,,"The Lion roars. Thisbe runs off,			 
+				dropping her mantle."
+195,Action,,"The Lion roars. Thisbe runs off,			 
+				dropping her mantle."
+196,Action,,DEMETRIUS
+197,Action,,"Well roared, Lion."
+198,Action,,THESEUS
+199,Action,,"Well run, Thisbe."
+200,Action,,HIPPOLYTA
+201,Action,,"Well shone, Moon. Truly, the Moon shines			 
+				with a good grace."
+202,Action,,NARRATOR
+203,Action,,Lion worries the mantle.
+204,Action,,Lion worries the mantle.
+205,Action,,THESEUS
+206,Action,,"Well moused, Lion."
+207,Action,,NARRATOR
+208,Action,,Enter Pyramus(Bottom).
+209,Action,,Enter Pyramus(Bottom).
+210,Action,,DEMETRIUS
+211,Action,,And then came Pyramus.
+212,Action,,LYSANDER
+213,Action,,And so the lion vanished.
+214,Action,,NARRATOR
+215,Action,,Lion exits.
+216,Action,,Lion exits.
+217,Action,,"BOTTOM, as Pyramus"
+218,Action,,"Sweet Moon, I thank thee for thy sunny beams.			 
+				I thank thee, Moon, for shining now so bright,			 
+				For by thy gracious, golden, glittering gleams,			 
+				I trust to take of truest Thisbe sight.—			 
+				But stay! O spite!			 
+				But mark, poor knight,			 
+				What dreadful dole is here!			 
+				Eyes, do you see!			 
+				How can it be!			 
+				O dainty duck! O dear!			 
+				Thy mantle good—			 
+				What, stained with blood?			 
+				Approach, ye Furies fell!			 
+				O Fates, come, come,			 
+				Cut thread and thrum,			 
+				Quail, crush, conclude, and quell!"
+219,Action,,THESEUS
+220,Action,,"This passion, and the death of a dear friend,			 
+				would go near to make a man look sad."
+221,Action,,HIPPOLYTA
+222,Action,,Beshrew my heart but I pity the man.
+223,Action,,"BOTTOM, as Pyramus"
+224,Action,,"O, wherefore, Nature, didst thou lions frame,			 
+				Since lion vile hath here deflowered my dear,			 
+				Which is—no, no—which was the fairest dame			 
+				That lived, that loved, that liked, that looked with			 
+				cheer?			 
+				Come, tears, confound!			 
+				Out, sword, and wound			 
+				The pap of Pyramus;			 
+				Ay, that left pap,			 
+				Where heart doth hop."
+225,Action,,NARRATOR
+226,Action,,Pyramus stabs himself.
+227,Action,,Pyramus stabs himself.
+228,Action,,"BOTTOM, as Pyramus"
+229,Action,,"Thus die I, thus, thus, thus.			 
+				Now am I dead;			 
+				Now am I fled;			 
+				My soul is in the sky.			 
+				Tongue, lose thy light!			 
+				Moon, take thy flight!"
+230,Action,,NARRATOR
+231,Action,,Moonshine exits.
+232,Action,,Moonshine exits.
+233,Action,,"BOTTOM, as Pyramus"
+234,Action,,"Now die, die, die, die, die."
+235,Action,,NARRATOR
+236,Action,,Pyramus falls.
+237,Action,,Pyramus falls.
+238,Action,,DEMETRIUS
+239,Action,,"No die, but an ace for him, for he is but			 
+				one."
+240,Action,,LYSANDER
+241,Action,,"Less than an ace, man, for he is dead, he is			 
+				nothing."
+242,Action,,THESEUS
+243,Action,,"With the help of a surgeon he might yet			 
+				recover and yet prove an ass."
+244,Action,,HIPPOLYTA
+245,Action,,"How chance Moonshine is gone before			 
+				Thisbe comes back and finds her lover?"
+246,Action,,THESEUS
+247,Action,,She will find him by starlight.
+248,Action,,NARRATOR
+249,Action,,Enter Thisbe (Flute).
+250,Action,,Enter Thisbe (Flute).
+251,Action,,THESEUS
+252,Action,,"Here she comes, and her passion ends the play."
+253,Action,,HIPPOLYTA
+254,Action,,"Methinks she should not use a long one for			 
+				such a Pyramus. I hope she will be brief."
+255,Action,,DEMETRIUS
+256,Action,,"A mote will turn the balance, which Pyramus,			 
+				which Thisbe, is the better: he for a man, God			 
+				warrant us; she for a woman, God bless us."
+257,Action,,LYSANDER
+258,Action,,"She hath spied him already with those			 
+				sweet eyes."
+259,Action,,DEMETRIUS
+260,Action,,"And thus she means, videlicet—"
+261,Action,,"FLUTE, as Thisbe"
+262,Action,,"Asleep, my love?			 
+				What, dead, my dove?			 
+				O Pyramus, arise!			 
+				Speak, speak. Quite dumb?			 
+				Dead? Dead? A tomb			 
+				Must cover thy sweet eyes.			 
+				These lily lips,			 
+				This cherry nose,			 
+				These yellow cowslip cheeks			 
+				Are gone, are gone!			 
+				Lovers, make moan;			 
+				His eyes were green as leeks.			 
+				O Sisters Three,			 
+				Come, come to me			 
+				With hands as pale as milk.			 
+				Lay them in gore,			 
+				Since you have shore			 
+				With shears his thread of silk.			 
+				Tongue, not a word!			 
+				Come, trusty sword,			 
+				Come, blade, my breast imbrue!"
+263,Action,,"FLUTE, as Thisbe"
+264,Action,,"And farewell, friends.			 
+				Thus Thisbe ends.			 
+				Adieu, adieu, adieu."
+265,Action,,NARRATOR
+266,Action,,Thisbe stabs herself.
+267,Action,,Thisbe stabs herself.
+268,Action,,NARRATOR
+269,Action,,Thisbe falls.
+270,Action,,Thisbe falls.
+271,Action,,THESEUS
+272,Action,,"Moonshine and Lion are left to bury the			 
+				dead."
+273,Action,,DEMETRIUS
+274,Action,,"Ay, and Wall too."
+275,Action,,NARRATOR
+276,Action,,Bottom and Flute arise.
+277,Action,,Bottom and Flute arise.
+278,Action,,BOTTOM
+279,Action,,"No, I assure you, the wall is down that			 
+				parted their fathers. Will it please you to see the			 
+				Epilogue or to hear a Bergomask dance between			 
+				two of our company?"
+280,Action,,THESEUS
+281,Action,,"No epilogue, I pray you. For your play needs			 
+				no excuse. Never excuse. For when the players are			 
+				all dead, there need none to be blamed. Marry, if			 
+				he that writ it had played Pyramus and hanged			 
+				himself in Thisbe’s garter, it would have been a fine			 
+				tragedy; and so it is, truly, and very notably discharged.			 
+				But, come, your Bergomask. Let your			 
+				epilogue alone."
+282,Action,,NARRATOR
+283,Action,,"Dance, and the players exit."
+284,Action,,"Dance, and the players exit."
+285,Action,,THESEUS
+286,Action,,"The iron tongue of midnight hath told twelve.			 
+				Lovers, to bed! ’Tis almost fairy time.			 
+				I fear we shall outsleep the coming morn			 
+				As much as we this night have overwatched.			 
+				This palpable-gross play hath well beguiled			 
+				The heavy gait of night. Sweet friends, to bed.			 
+				A fortnight hold we this solemnity			 
+				In nightly revels and new jollity."
+287,Action,,NARRATOR
+288,Action,,They exit.
+289,Action,,They exit.
+290,Action,,NARRATOR
+291,Action,,Enter Robin Goodfellow.
+292,Action,,Enter Robin Goodfellow.
+293,Action,,ROBIN
+294,Action,,"Now the hungry lion roars,			 
+				And the wolf behowls the moon,			 
+				Whilst the heavy plowman snores,			 
+				All with weary task fordone.			 
+				Now the wasted brands do glow,			 
+				Whilst the screech-owl, screeching loud,			 
+				Puts the wretch that lies in woe			 
+				In remembrance of a shroud.			 
+				Now it is the time of night			 
+				That the graves, all gaping wide,			 
+				Every one lets forth his sprite			 
+				In the church-way paths to glide.			 
+				And we fairies, that do run			 
+				By the triple Hecate’s team			 
+				From the presence of the sun,			 
+				Following darkness like a dream,			 
+				Now are frolic. Not a mouse			 
+				Shall disturb this hallowed house.			 
+				I am sent with broom before,			 
+				To sweep the dust behind the door."
+295,Action,,NARRATOR
+296,Action,,"Enter Oberon and Titania, King and Queen of Fairies,			 
+				with all their train."
+297,Action,,"Enter Oberon and Titania, King and Queen of Fairies,			 
+				with all their train."
+298,Action,,OBERON
+299,Action,,"Through the house give glimmering light,			 
+				By the dead and drowsy fire.			 
+				Every elf and fairy sprite,			 
+				Hop as light as bird from brier,			 
+				And this ditty after me,			 
+				Sing and dance it trippingly."
+300,Action,,TITANIA
+301,Action,,"First rehearse your song by rote,			 
+				To each word a warbling note.			 
+				Hand in hand, with fairy grace,			 
+				Will we sing and bless this place."
+302,Action,,NARRATOR
+303,Action,,Oberon leads the Fairies in song and dance.
+304,Action,,Oberon leads the Fairies in song and dance.
+305,Action,,OBERON
+306,Action,,"Now, until the break of day,			 
+				Through this house each fairy stray.			 
+				To the best bride-bed will we,			 
+				Which by us shall blessèd be,			 
+				And the issue there create			 
+				Ever shall be fortunate.			 
+				So shall all the couples three			 
+				Ever true in loving be,			 
+				And the blots of Nature’s hand			 
+				Shall not in their issue stand.			 
+				Never mole, harelip, nor scar,			 
+				Nor mark prodigious, such as are			 
+				Despisèd in nativity,			 
+				Shall upon their children be.			 
+				With this field-dew consecrate			 
+				Every fairy take his gait,			 
+				And each several chamber bless,			 
+				Through this palace, with sweet peace.			 
+				And the owner of it blest,			 
+				Ever shall in safety rest.			 
+				Trip away. Make no stay.			 
+				Meet me all by break of day."
+307,Action,,NARRATOR
+308,Action,,All but Robin exit.
+309,Action,,All but Robin exit.
+310,Action,,ROBIN
+311,Action,,"If we shadows have offended,			 
+				Think but this and all is mended:			 
+				That you have but slumbered here			 
+				While these visions did appear.			 
+				And this weak and idle theme,			 
+				No more yielding but a dream,			 
+				Gentles, do not reprehend.			 
+				If you pardon, we will mend.			 
+				And, as I am an honest Puck,			 
+				If we have unearnèd luck			 
+				Now to ’scape the serpent’s tongue,			 
+				We will make amends ere long.			 
+				Else the Puck a liar call.			 
+				So good night unto you all.			 
+				Give me your hands, if we be friends,			 
+				And Robin shall restore amends."
+312,Action,,NARRATOR
+313,Action,,He exits.
+314,Action,,He exits.

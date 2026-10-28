@@ -1,0 +1,179 @@
+
+/*
+-------------------------------------------------------------------------------
+ORIGINAL Name:	TB_ChangePanelDuration.js * Description:This script changes the length of the selected panels. * Usage: * Author:		Lori Sponagle * Created:	v01 2015/08/15 * Copyright:   (c) Toon Boom Animation 2015
+-------------------------------------------------------------------------------
+*/
+
+function FunctionDialogueLayert2SpeechImportSeconds2Frames( CURRENTPANEL )
+{
+  var project = new StoryboardManager;
+  var selection = new SelectionManager;
+  var CURRENTPANEL = selection.getPanelSelection();
+  var CAPTIONMANAGER = new CaptionManager;
+  var LAYERMANAGER = new LayerManager;
+  var SOUNDTRACKMANAGER = new SoundTrackManager();
+
+  if ( CURRENTPANEL.length <= 0 ) return;
+
+/*  QUERRY POPUP How Many Extra Milliseconds to Add at Tail of Each Voice Clip?*/
+  QUERRYPANELMILISECONDSTOTALTAILOFFSET = new Dialog;
+  QUERRYPANELMILISECONDSTOTALTAILOFFSET.title = "Add Extra Ms Tail";
+  var PANELMILISECONDSTOTALTAILOFFSET = new NumberEdit;
+  PANELMILISECONDSTOTALTAILOFFSET.text = "Add Extra Ms Tail";
+  PANELMILISECONDSTOTALTAILOFFSET.minimum = 0;
+  PANELMILISECONDSTOTALTAILOFFSET.maximum =  10000 ;
+  PANELMILISECONDSTOTALTAILOFFSET.value = project.getPanelDuration ( CURRENTPANEL[0] );
+ QUERRYPANELMILISECONDSTOTALTAILOFFSET.add( PANELMILISECONDSTOTALTAILOFFSET );
+
+/*  QUERRY POPUP How Many Per Second?*/
+  QUERRYPROJECTFRAMESPERSECOND = new Dialog;
+  QUERRYPROJECTFRAMESPERSECOND.title = "Whole # Fps";
+  var PROJECTFRAMESPERSECOND = new NumberEdit;
+  PROJECTFRAMESPERSECOND.text = "Whole # Fps";
+  PROJECTFRAMESPERSECOND.minimum = 1;
+  PROJECTFRAMESPERSECOND.maximum =  1000 ;
+  PROJECTFRAMESPERSECOND.value = project.getPanelDuration ( CURRENTPANEL[0] );
+ QUERRYPROJECTFRAMESPERSECOND .add( PROJECTFRAMESPERSECOND );
+
+/*-------------------------------------------------------------------------------*/
+
+/* Windows user Directory KeyCombo */
+  var WORGINGDIRECTORYPATH= "%HOMEPATH%/Desktop/TBEXPORT/";
+
+  var FRAMELENGTH = new NumberEdit;
+  FRAMELENGTH.value = project.getPanelDuration ( CURRENTPANEL[0] );
+
+/*Create Directory in Temp Dir as "Text2SpeechVoice*/
+/* Void Dir::mkdir ( String &  dirName = String::null) */
+/* Void Dir::mkdirs ( String &  dirName = String::null) */
+
+/* Create Master SoundTrack  */
+/* String SoundTrackManager::addSoundTrack ( )  */
+/* SOUNDTRACKMANAGER.addSoundTrack ( Text2Speech ) */
+/*-------------------*/
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+
+/*   Begin Steps*/
+
+    if ( QUERRYPROJECTFRAMESPERSECOND.exec() )
+  {
+  }
+
+
+    if ( QUERRYPANELMILISECONDSTOTALTAILOFFSET.exec() )
+  {
+
+
+
+/* Send Dialogue to Text 2 Speech App with Millisecond Tail ---------------------*/
+/* balcon -tray -n "Microsoft Zira" -c --silence-end PANELMILISECONDSTOTALTAILOFFSET -w ".\DialogueWorking.wav"  */
+/* balcon -tray -n "Microsoft Zira" -t "PANELDIALOGUE" --silence-end PANELMILISECONDSTOTALTAILOFFSET -w ".\DialogueWorking.wav"  */
+/* ------String Process.commandLine(  )--------------------*/
+/* BALCONPATHANDCOMMANDS = WORGINGDIRECTORYPATH
+/* COMMANDPROCESSBALCON = new Process( balcon -tray -n "Microsoft Zira" -t "PANELDIALOGUE" );*/
+/* COMMANDPROCESSBALCON.commandline();*/
+
+
+/* Assign Character as per voice installed Voice installed  */
+/**/
+
+
+/* convert .wav output to .mp3  */
+/* FFMPEG Convert ".\DialogueWorking.wav" to ".\DialogueWorking.MP3"  */
+
+/*-------------------------------------------------------------------------------*/
+/* import the time in seconds of the mp3  */
+/* FFMPEG Querry File Length ".\DialogueWorking.MP3" = PANELDIALOGUECLIPLENGTH  */
+/*-------------------------------------------------------------------------------*/
+
+
+/* rename as Scene+Panel+Seconds.mp3 */
+/* var DIALOGUEWORKINGFILERENAME = */
+
+/* Copy to Save Directory */
+
+/* Create Full File Path*/
+/*    var SOUNDFILENAMEANDPATH = WORGINGDIRECTORYPATH truncateed to DIALOGUEWORKINGFILERENAME.mp3; */
+
+/* Import the Sound File to line up on audio track at panel start  */
+/* Bool SoundTrackManager::importSoundBuffer ( columnName & SoundFile path & TargetFrame )  */
+/* Bool SoundTrackManager::importSoundBuffer ( columnName & SoundDIALOGUEWORKINGFILERENAME & CURRENTPANEL[i] )  */
+/* SOUNDTRACKMANAGER.importSoundBuffer("DIALOGUEWORKINGFILERENAME", "WORGINGDIRECTORYPATH.\DialogueWorking.MP3", 1 ); */
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* adjust the frames to length in whole seconds of audio file */
+/*  var SETFRAME = FRAMELENGTH.value; */
+    var SETFRAME = 23;
+/*  var SETFRAME = roundupwhole(PANELDIALOGUECLIPLENGTH / PROJECTFRAMESPERSECOND) */
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+    scene.beginUndoRedoAccum("FunctionDialogueLayert2SpeechImportSeconds2Frames");
+
+    for ( var i = 0; i < CURRENTPANEL.length; ++ i )
+    {
+/* load current dialogue ------------*/
+var WORKINGDIALOGUE = CAPTIONMANAGER.textOfPanelCaption( name, CURRENTPANEL[i]); 
+
+/* Clean Dialogue of nonspeakables like ' " slashes et all */
+var WORKINGDIALOGUECLEAN01 = WORKINGDIALOGUE.replace(/-/g, " ");
+var WORKINGDIALOGUECLEAN02 = WORKINGDIALOGUECLEAN01.replace(/'/g, "");
+var WORKINGDIALOGUECLEAN03 = WORKINGDIALOGUECLEAN02.replace(/"/g, "");
+var WORKINGDIALOGUECLEAN04 = WORKINGDIALOGUECLEAN03.replace(/  /g, " ");
+var WORKINGDIALOGUECLEANED = WORKINGDIALOGUECLEAN04.replace(/-/g, "");
+
+
+
+/* Make Array of Dialogue so many characters long */
+
+
+
+
+/* create gif transparency image with panel dialogue  ---------*/
+/*   var COMMANDPROCESSMAGICK = new Process( "magick.exe convert -channel RGBA -size 3840x2160 canvas:none -font /"Arial-Black/" -pointsize 52 -draw /"text 490,1630 " + WORKINGDIALOGUECLEANED + "/"/"D://{Shark}//Desktop//TBEXPORT//DIALOGUEPRINT.png/"");*/
+
+var COMMANDPROCESSMAGICK = new Process( "magick.exe convert -channel RGBA -size 3840x2160 canvas:none -font 'Arial-Black' -pointsize 52 -draw 'text 490,1630 " + WORKINGDIALOGUECLEANED + " "/"D://{Shark}//Desktop//TBEXPORT//DIALOGUEPRINT.png/"");
+
+
+/* COMMANDPROCESSMAGICK.commandline(); */
+
+
+
+
+
+
+
+/*
+   if ( COMMANDPROCESSMAGICK.commandline() )
+  {
+  }
+*/
+
+/* load current action notes  ---------------------------------------------------*/
+/*???????*/
+
+
+/* Import Image As Layer  +++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* var DIALOGUEPRINTPATHANDFILE = "%HOMEPATH%/Desktop/TBEXPORT/DIALOGUEPRINT.png";  */
+        LAYERMANAGER.importImageAsLayer ( CURRENTPANEL[i], "D://{Shark}//Desktop//TBEXPORT//DIALOGUEPRINT.png", "DialogueText" );
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+        project.setPanelDuration( CURRENTPANEL[i], SETFRAME);
+
+    } 
+
+    scene.endUndoRedoAccum();
+  }
+}

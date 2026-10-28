@@ -1,0 +1,168 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<FinalDraft DocumentType='Script' Template='No' Version='1'>
+  <Content>
+<Paragraph Type='	New Act'	><Text>		ACT 1	</Text>	</Paragraph>	 
+<Paragraph Type='	Scene Heading'	><Text>		Scene 2	</Text>	</Paragraph>	 
+<Paragraph Type='	Scene Heading'	><Text>		MicroBean Tea House	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	NARRATOR		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Enter Quince the carpenter, and Snug the joiner, and			 
+				Bottom the weaver, and Flute the bellows-mender, and			 
+				Snout the tinker, and Starveling the tailor.	</Text>	</Paragraph>	 
+<Paragraph Type='	Action'	><Text>		Enter Quince the carpenter, and Snug the joiner, and			 
+				Bottom the weaver, and Flute the bellows-mender, and			 
+				Snout the tinker, and Starveling the tailor.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Is all our company here?	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		You were best to call them generally, man by			 
+				man, according to the scrip.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Here is the scroll of every man’s name which			 
+				is thought fit, through all Athens, to play in our			 
+				interlude before the Duke and the Duchess on his			 
+				wedding day at night.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		First, good Peter Quince, say what the play			 
+				treats on, then read the names of the actors, and so			 
+				grow to a point.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Marry, our play is “The most lamentable			 
+				comedy and most cruel death of Pyramus and			 
+				Thisbe.”	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		A very good piece of work, I assure you, and a			 
+				merry. Now, good Peter Quince, call forth your			 
+				actors by the scroll. Masters, spread yourselves.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Answer as I call you. Nick Bottom, the weaver.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Ready. Name what part I am for, and			 
+				proceed.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		You, Nick Bottom, are set down for Pyramus.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		What is Pyramus—a lover or a tyrant?	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		A lover that kills himself most gallant for love.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		That will ask some tears in the true performing			 
+				of it. If I do it, let the audience look to their			 
+				eyes. I will move storms; I will condole in some			 
+				measure. To the rest.—Yet my chief humor is for a			 
+				tyrant. I could play Ercles rarely, or a part to tear a			 
+				cat in, to make all split:			 
+				The raging rocks			 
+				And shivering shocks			 
+				Shall break the locks			 
+				Of prison gates.			 
+				And Phibbus’ car			 
+				Shall shine from far			 
+				And make and mar			 
+				The foolish Fates.			 
+				This was lofty. Now name the rest of the players.			 
+				This is Ercles’ vein, a tyrant’s vein. A lover is more			 
+				condoling.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Francis Flute, the bellows-mender.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	FLUTE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Here, Peter Quince.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Flute, you must take Thisbe on you.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	FLUTE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		What is Thisbe—a wand’ring knight?	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		It is the lady that Pyramus must love.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	FLUTE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Nay, faith, let not me play a woman. I have a			 
+				beard coming.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		That’s all one. You shall play it in a mask, and			 
+				you may speak as small as you will.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		An I may hide my face, let me play Thisbe too.			 
+				I’ll speak in a monstrous little voice: “Thisne,			 
+				Thisne!”—“Ah Pyramus, my lover dear! Thy Thisbe			 
+				dear and lady dear!”	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		No, no, you must play Pyramus—and, Flute,			 
+				you Thisbe.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Well, proceed.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Robin Starveling, the tailor.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	STARVELING		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Here, Peter Quince.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Robin Starveling, you must play Thisbe’s			 
+				mother.—Tom Snout, the tinker.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	SNOUT		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Here, Peter Quince.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		You, Pyramus’ father.—Myself, Thisbe’s			 
+				father.—Snug the joiner, you the lion’s part.—			 
+				And I hope here is a play fitted.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	SNUG		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Have you the lion’s part written? Pray you, if it			 
+				be, give it me, for I am slow of study.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		You may do it extempore, for it is nothing but			 
+				roaring.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Let me play the lion too. I will roar that I will			 
+				do any man’s heart good to hear me. I will roar that			 
+				I will make the Duke say “Let him roar again. Let			 
+				him roar again!”	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		An you should do it too terribly, you would			 
+				fright the Duchess and the ladies that they would			 
+				shriek, and that were enough to hang us all.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	ALL		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		That would hang us, every mother’s son.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		I grant you, friends, if you should fright the			 
+				ladies out of their wits, they would have no more			 
+				discretion but to hang us. But I will aggravate my			 
+				voice so that I will roar you as gently as any sucking			 
+				dove. I will roar you an ’twere any nightingale.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		You can play no part but Pyramus, for Pyramus			 
+				is a sweet-faced man, a proper man as one			 
+				shall see in a summer’s day, a most lovely gentlemanlike			 
+				man. Therefore you must needs play			 
+				Pyramus.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Well, I will undertake it. What beard were I			 
+				best to play it in?	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Why, what you will.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		I will discharge it in either your straw-color			 
+				beard, your orange-tawny beard, your purple-in-grain			 
+				beard, or your French-crown-color beard,			 
+				your perfit yellow.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Some of your French crowns have no hair at			 
+				all, and then you will play barefaced. But, masters,			 
+				here are your parts, giving out the parts, and I am			 
+				to entreat you, request you, and desire you to con			 
+				them by tomorrow night and meet me in the palace			 
+				wood, a mile without the town, by moonlight. There			 
+				will we rehearse, for if we meet in the city, we shall			 
+				be dogged with company and our devices known. In			 
+				the meantime I will draw a bill of properties such as			 
+				our play wants. I pray you fail me not.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		We will meet, and there we may rehearse			 
+				most obscenely and courageously. Take pains. Be			 
+				perfit. Adieu.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	QUINCE		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		At the Duke’s Oak we meet.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	BOTTOM		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		Enough. Hold, or cut bowstrings.	</Text>	</Paragraph>	 
+<Paragraph Type='	Character'	><Text>	NARRATOR		</Text>	</Paragraph>	 
+<Paragraph Type='	Dialogue'	><Text>		They exit.	</Text>	</Paragraph>	 
+<Paragraph Type='	Action'	><Text>		They exit.	</Text>	</Paragraph>	 
+<Paragraph Type='	End of Act'	><Text>			</Text>	</Paragraph>	 
+
+</Content>
+</FinalDraft>
