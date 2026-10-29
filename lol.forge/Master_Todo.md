@@ -43,21 +43,22 @@
 ## PHASE 1: PRODUCT DOCUMENTS 1-10 (Runners 001-005)
 
 ### Runner 001: Foundation Architecture (PROD-01 to PROD-03)
-- [ ] PROD-01: System Overview & Architecture (900 lines + 200 intro)
-  - [ ] Research: Aegis-Forge Vol 1 architecture, component diagram
-  - [ ] Write: Complete machine architecture, 8-stage cascade, all subsystems
-  - [ ] Write: All-Aegis Material BOM table (248 rows from source)
-  - [ ] Generate: 3 heuristic intros (Williams/Keymaker/El Segundo)
-  - [ ] Combine: COMBINED_INTRO (200 lines)
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-01: System Overview & Architecture (903 lines + 122 combined intro)
+  - [x] Research: Aegis-Forge Vol 1 architecture, component diagram
+  - [x] Write: Complete machine architecture, 8-stage cascade, all subsystems
+  - [x] Write: All-Aegis Material BOM table (24 rows)
+  - [x] Generate: 3 heuristic intros (Williams/Keymaker/El Segundo)
+  - [x] Combine: COMBINED_INTRO (122 lines)
+  - [x] Verify: Line counts, manifest, chunking (32 chunks verified)
+  - [x] Git: Committed and pushed to origin/kilo/dapper-cove-299
 - [ ] PROD-02: Thermal Cascade Process Engineering (900 lines + 200 intro)
-  - [ ] Research: Aegis-Forge Vol 2 stage-by-stage engineering
+  - [x] Research: Aegis-Forge Vol 2 stage-by-stage engineering
   - [ ] Write: 8-stage temperature ramp protocol with equations
   - [ ] Write: Stage 0 acoustic liberation physics, Stage 1 IR drying
   - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
   - [ ] Verify: Line counts, manifest, chunking
 - [ ] PROD-03: Inductive Heating Zone Design (900 lines + 200 intro)
-  - [ ] Research: Aegis-Forge Vol 1 coil bank, frequencies, power levels
+  - [x] Research: Aegis-Forge Vol 1 coil bank, frequencies, power levels
   - [ ] Write: 8-zone coil design, GaN inverters, FBG sensors, PID control
   - [ ] Write: Frequency table (100kHz→1kHz), power levels (0-500kW)
   - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
@@ -309,8 +310,8 @@
 
 | Phase | Documents | Status | Target Runner |
 |-------|-----------|--------|---------------|
-| 0: Init | 0 | 10% | 000 |
-| 1: PROD 1-10 | 10 | 0% | 001-005 |
+| 0: Init | 0 | 100% | 000 |
+| 1: PROD 1-10 | 10 | 10% (PROD-01 done) | 001-005 |
 | 2: PROD 11-20 | 10 | 0% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
@@ -320,7 +321,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 1%
+**Total**: 80 documents | **Overall Progress**: 1.25% (1/80 complete)
 
 ---
 
@@ -351,5 +352,6 @@ lol.forge: merge — phase completion merge
 
 ---
 
-*Last Updated: 2026-10-28 | Next Review: Start of each session*
+*Last Updated: 2026-10-29 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 active: PROD-02, PROD-03*

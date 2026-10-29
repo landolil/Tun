@@ -1,7 +1,7 @@
 # PROD-01 System Overview & Architecture — Combined Introduction
 
 **Author:** lol.forge Synthesis
-**Generated:** 2026-10-28 21:39:16 UTC
+**Generated:** 2026-10-28 22:32:58 UTC
 
 ---
 
