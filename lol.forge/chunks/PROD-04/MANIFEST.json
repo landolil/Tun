@@ -1,0 +1,66 @@
+{
+  "chapter_01_intro.md": {
+    "size": 38,
+    "sha256": "d97884921ad0acef2411a0605543df5ccb57724682b67df2417997e3b921b4c9"
+  },
+  "chapter_02_csmfab000000000108__aegis-forg.md": {
+    "size": 542,
+    "sha256": "5089d1451985b47e31a0abf1b993292f66f73c006e1271ce9c755f0cabc137e3"
+  },
+  "chapter_03_1_purpose_and_scope.md": {
+    "size": 1745,
+    "sha256": "1aef76eb75dc50c91339c03a989570f11b6270ece5fa16138c4d4c1df971e662"
+  },
+  "chapter_04_2_drum_geometry__material.md": {
+    "size": 4549,
+    "sha256": "7163ece7608b951a7ffcb2cbfce7ee5cd16601548af409f8d3d0d3a52998d4d9"
+  },
+  "chapter_05_3_flash_sintering_process.md": {
+    "size": 6482,
+    "sha256": "2047d1bb8f181c41d691067812482fbf418b8d6e5111cfbbe840fe5b314f5df5"
+  },
+  "chapter_06_4_three_liner_zones.md": {
+    "size": 8103,
+    "sha256": "a0ae10e94d6087173be13f1a0d393e376533c6f54c406571555c09afd83c3e1c"
+  },
+  "chapter_07_5_eight_material_exit_ports.md": {
+    "size": 6320,
+    "sha256": "bea79f8742abeab754ab580bcb46a48d9f817a4a0fde03667d120f0b58340291"
+  },
+  "chapter_08_6_centrifugal_stress_analysis.md": {
+    "size": 5576,
+    "sha256": "f63a42524d488f5d750221662237665adaa3cf2b20b719868438d9ee3c66b88d"
+  },
+  "chapter_09_7_thermal_expansion_management.md": {
+    "size": 6220,
+    "sha256": "c7f55a888ec2fc6aebc67b53eae649747bea63add41fbdbd2ce5ba100c5c10a4"
+  },
+  "chapter_10_8_port_valve_actuation_mechani.md": {
+    "size": 6167,
+    "sha256": "96306936c2d0b0732e24928361b4c9c0c2ca12d7f448bda5f335162a2fefb2b6"
+  },
+  "chapter_11_9_ceramic_bearing_system.md": {
+    "size": 6130,
+    "sha256": "8efb8a6506c5fda2e06753ea70f262a4f001d36d62f8da7270beef54d335aada"
+  },
+  "chapter_12_10_drum_dynamic_balancing.md": {
+    "size": 5117,
+    "sha256": "a7ae1f2322037e65e91433d146dea3ceead2eec41f644a32cabc689ccdbd3097"
+  },
+  "chapter_13_11_wear_monitoring.md": {
+    "size": 5532,
+    "sha256": "5e8a65226242cfae1dcc772bdbe3833da736e58a7fcb2e5e48572ee83ef2715e"
+  },
+  "chapter_14_12_manufacturing__qc.md": {
+    "size": 6257,
+    "sha256": "fa4921468c646a352e34b211159b2b1d3cc565e7ef16681c291a6fe3efcccabd"
+  },
+  "chapter_15_13_performance_specifications.md": {
+    "size": 4860,
+    "sha256": "c895a2e4a22fec33159dd962778c1a1346112889a3aaabff8c3117bd103c8079"
+  },
+  "chapter_16_14_downstream_integration.md": {
+    "size": 5843,
+    "sha256": "d821c051c423fac83a28ae8a4ebde90bf593e48cd53de783bc56c99f3cdec1c8"
+  }
+}
