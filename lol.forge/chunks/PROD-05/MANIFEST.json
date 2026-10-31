@@ -1,0 +1,118 @@
+{
+  "chapter_01_intro.md": {
+    "size": 48,
+    "sha256": "b7ccf35892f9c7e2485d14f0b4e371373f52462b7be6f8517c80f358231c7ad2"
+  },
+  "chapter_02_csmfab000000000110__aegis-forg.md": {
+    "size": 524,
+    "sha256": "4025f4b3434e721807a09aee152f2b4528adcd77c58d53056779012bdd0dce13"
+  },
+  "chapter_03_1_purpose_and_scope.md": {
+    "size": 1908,
+    "sha256": "cfb1265ee2edc0a51f1a48988a39d00cd0cd2b84afac10e922ac112a01a8d391"
+  },
+  "chapter_04_2_liberation_physics.md": {
+    "size": 2753,
+    "sha256": "6a8441747f84bda0bf3f97f849b34a29c7137f2bdb736c67cd8a653c37d84b8c"
+  },
+  "chapter_05_3_low-frequency_array_20-500_h.md": {
+    "size": 2348,
+    "sha256": "c0399542293a95737694a824156f994a669fe624a6713b54a60619c24cbb7624"
+  },
+  "chapter_06_4_ultrasonic_array_40_khz.md": {
+    "size": 2215,
+    "sha256": "e6673057fa7043a9e66566a510b9aebfe85658282ff3425f75121afe2bd74d24"
+  },
+  "chapter_07_5_transducer_design_and_materi.md": {
+    "size": 1664,
+    "sha256": "a91d12d12cf05c0e493c67c1ea454fe2f7e623a8c1e666e503fbe45687fa18b1"
+  },
+  "chapter_08_6_cavitation_physics_deep_dive.md": {
+    "size": 1353,
+    "sha256": "ef53cae616dad29ac215471b477d70cdbd6f57e9c928a91b9313397bdf9c02ad"
+  },
+  "chapter_09_7_liberation_efficacy_metrics.md": {
+    "size": 1038,
+    "sha256": "49ae0929e8b56628512c077372a6a9fe1ae811773173b63ce91a502aadf7e397"
+  },
+  "chapter_10_8_process_integration.md": {
+    "size": 918,
+    "sha256": "231e4228fb93e7558cb3cd8fb56453c52fdd5fd32e0882e558ba1f779059d539"
+  },
+  "chapter_11_9_control_system.md": {
+    "size": 64,
+    "sha256": "23c861ca4e37b78b443450b8922080f14ff897430385180f093f1493037a8cc0"
+  },
+  "chapter_12_lf_sweep_profile_logarithmic.md": {
+    "size": 380,
+    "sha256": "b724a5527df5b315a8976a20d96d6623d37c235cf5a4afa0be57c449202a1697"
+  },
+  "chapter_13_reverse_sweep.md": {
+    "size": 795,
+    "sha256": "51dffe070ee0208da0e27afa407185541ff0f39fcf3b39c6fe4f66e82e14ab9f"
+  },
+  "chapter_14_10_wear_and_maintenance.md": {
+    "size": 774,
+    "sha256": "1ed76f0244a6cc72144ef7d694d0a43702e1f6e4d4b7dea76f8f8b39a2082a02"
+  },
+  "chapter_15_11_scaling_laws.md": {
+    "size": 701,
+    "sha256": "64bf18c37f90c3720d87ae8780bea737b6d0b6b970f20db35a064b9f900ebe3d"
+  },
+  "chapter_16_12_performance_specifications.md": {
+    "size": 662,
+    "sha256": "15d08ece6bc44671486c9acc4816c96645b6f436341a359c4a5d3df1e431ec4f"
+  },
+  "chapter_17_13_economic_impact.md": {
+    "size": 1019,
+    "sha256": "9b8bd3e92ac10cd475147e364677c80764359e07469da456f174479c06204c80"
+  },
+  "chapter_18_14_downstream_integration.md": {
+    "size": 605,
+    "sha256": "32a4d217bbbc7325a4c3cba597fdbc80d5e770c0eb0e9e69bb74d4e1c9b28922"
+  },
+  "chapter_19_15_detailed_acoustic_mechanism.md": {
+    "size": 3858,
+    "sha256": "7400c4c78707545efa4671ee6ebc863ba7014723e9e05cd89a7385bd31eaf06b"
+  },
+  "chapter_20_16_ultrasonic_cavitation_advan.md": {
+    "size": 1575,
+    "sha256": "06e30c00ecbd5c7fa38e5a1964d2d5e69af3765a881129b478d190dee027c156"
+  },
+  "chapter_21_17_transducer_array_phasing_an.md": {
+    "size": 1292,
+    "sha256": "fae4be69ebfe9c6d3d2be87ceefd447ed7a724e0ada91d21fa6545bfb4081c95"
+  },
+  "chapter_22_18_material_compatibility_and_.md": {
+    "size": 1099,
+    "sha256": "420f25e0fd24be7c8dddc69dba5f8a4f93a987c0777216319ddd3675b354b9eb"
+  },
+  "chapter_23_19_control_system_architecture.md": {
+    "size": 1227,
+    "sha256": "c58363274fa9f31e1468528bac1e41efd1eaf3108e04e66676ea606a143f67d8"
+  },
+  "chapter_24_20_integration_with_thermal_ca.md": {
+    "size": 1300,
+    "sha256": "5352d0dc6dc74d5810f689defc6aa7d86fb78f3264ad96e13081b50f8de0ee12"
+  },
+  "chapter_25_21_safety_and_environmental.md": {
+    "size": 740,
+    "sha256": "f681b61a2632e0fc4f746eae3555165716405044823ea4d49743a38dd0001147"
+  },
+  "chapter_26_22_manufacturing_and_qc.md": {
+    "size": 1066,
+    "sha256": "d3cd0234968da476248dae456dea196a9b5dc7dd3b7ea25270880a63a30bef2e"
+  },
+  "chapter_27_23_performance_validation_data.md": {
+    "size": 1007,
+    "sha256": "f6afbf88deab9145865660375fef304d8a38bd9dfe6795b38fc43bb5e711ff7b"
+  },
+  "chapter_28_24_future_evolution.md": {
+    "size": 666,
+    "sha256": "1ec7ba84a7c7caf6e9b11b0333969effc85e9c7d713a5a5966cc068e38eb27ab"
+  },
+  "chapter_29_25_appendices.md": {
+    "size": 1327,
+    "sha256": "2056d009b957443d8fac6149a1a3326fd6045097155bd38b3060abd677a6a63c"
+  }
+}
