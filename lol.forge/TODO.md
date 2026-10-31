@@ -51,29 +51,29 @@
 
 ## Active Tasks (Runner 003)
 
-### PROD-04: ZrB₂-SiC Drum Engineering
-- [ ] Research: Vol 1 drum specs, flash sintering, liner zones
-- [ ] Write: 600mm×800mm drum, 35mm wall, 3 liner zones, 8 ports
-- [ ] Write: Port valve system (Ti₃AlC₂ actuators, ZrO₂ pistons)
-- [ ] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
-- [ ] Verify: Line counts >= 900, manifest, chunking
-- [ ] Commit: Git add, commit, push PROD-04
+### PROD-04: ZrB₂-SiC Drum Engineering ✅
+- [x] Research: Vol 1 drum specs, flash sintering, liner zones
+- [x] Write: 600mm×800mm drum, 35mm wall, 3 liner zones, 8 ports
+- [x] Write: Port valve system (Ti₃AlC₂ actuators, ZrO₂ pistons)
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
+- [x] Verify: Line counts >= 900, manifest, chunking
+- [x] Commit: Git add, commit, push PROD-04
 
-### PROD-05: Acoustic Mineral Liberation Subsystem
-- [ ] Research: Vol 2 Stage 0, LF (20-200Hz) + ultrasonic (40kHz)
-- [ ] Write: KNbO₃-BaTiO₃ transducers, cavitation physics, liberation index
-- [ ] Write: Stress wave equation, grain boundary fracture toughness
-- [ ] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
-- [ ] Verify: Line counts >= 900, manifest, chunking
-- [ ] Commit: Git add, commit, push PROD-05
+### PROD-05: Acoustic Mineral Liberation Subsystem ✅
+- [x] Research: Vol 2 Stage 0, LF (20-200Hz) + ultrasonic (40kHz)
+- [x] Write: KNbO₃-BaTiO₃ transducers, cavitation physics, liberation index
+- [x] Write: Stress wave equation, grain boundary fracture toughness
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
+- [x] Verify: Line counts >= 900, manifest, chunking
+- [x] Commit: Git add, commit, push PROD-05
 
-### PROD-06: BFRP Pressure Vessel Design
-- [ ] Research: Vol 1 outer vessel, filament winding, aerogel gap
-- [ ] Write: 900mm ID × 1200mm, 18mm BFRP/Elium®, 10 bar design
-- [ ] Write: Barlow validation, YInMn Blue glaze, 50mm aerogel
-- [ ] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
-- [ ] Verify: Line counts >= 900, manifest, chunking
-- [ ] Commit: Git add, commit, push PROD-06
+### PROD-06: BFRP Pressure Vessel Design ✅
+- [x] Research: Vol 1 outer vessel, filament winding, aerogel gap
+- [x] Write: 900mm ID × 1200mm, 18mm BFRP/Elium®, 10 bar design
+- [x] Write: Barlow validation, YInMn Blue glaze, 50mm aerogel
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (202 lines)
+- [x] Verify: Body 1266 lines, 16 chapters, manifest verified, compressed
+- [x] Commit: Git add, commit, push PROD-06
 
 ---
 
@@ -83,16 +83,23 @@
 - [x] Session start entry
 - [x] PROD-02 completions logged
 - [x] PROD-03 completions logged
+- [x] PROD-04 completion logged
+- [x] PROD-05 completion logged
+- [x] PROD-06 completion logged
 - [x] Git commits logged
 - [x] Session end entry
 
 ### Master_Todo.md Updates
 - [x] PROD-02 checked off
 - [x] PROD-03 checked off
+- [x] PROD-04 checked off
+- [x] PROD-05 checked off
+- [x] PROD-06 checked off
 - [x] Progress table updated
 
 ### Next Runner Preparation
 - [x] NEXT_runner_003.md created
+- [x] NEXT_runner_004.md created (for PROD-07, 08, 09)
 
 ---
 
