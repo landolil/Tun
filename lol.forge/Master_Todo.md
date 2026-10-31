@@ -65,24 +65,27 @@
   - [x] Git: Committed and pushed
 
 ### Runner 002: Drum & Vessel Engineering (PROD-04 to PROD-06)
-- [ ] PROD-04: ZrB₂-SiC Drum Engineering (900 lines + 200 intro)
-  - [ ] Research: Vol 1 drum specs, flash sintering, liner zones
-  - [ ] Write: 600mm×800mm drum, 35mm wall, 3 liner zones, 8 ports
-  - [ ] Write: Port valve system (Ti₃AlC₂ actuators, ZrO₂ pistons)
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-05: Acoustic Mineral Liberation Subsystem (900 lines + 200 intro)
-  - [ ] Research: Vol 2 Stage 0, LF (20-200Hz) + ultrasonic (40kHz)
-  - [ ] Write: KNbO₃-BaTiO₃ transducers, cavitation physics, liberation index
-  - [ ] Write: Stress wave equation, grain boundary fracture toughness
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-06: BFRP Pressure Vessel Design (900 lines + 200 intro)
-  - [ ] Research: Vol 1 outer vessel, filament winding, aerogel gap
-  - [ ] Write: 900mm ID × 1200mm, 18mm BFRP/Elium®, 10 bar design
-  - [ ] Write: Barlow validation, YInMn Blue glaze, 50mm aerogel
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-04: ZrB₂-SiC Drum Engineering (1605 lines + 200 intro)
+  - [x] Research: Vol 1 drum specs, flash sintering, liner zones
+  - [x] Write: 600mm×800mm drum, 35mm wall, 3 liner zones, 8 ports
+  - [x] Write: Port valve system (Ti₃AlC₂ actuators, ZrO₂ pistons)
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking (16 chapters verified)
+  - [x] Git: Committed and pushed
+- [x] PROD-05: Acoustic Mineral Liberation Subsystem (903 lines + 200 intro)
+  - [x] Research: Vol 2 Stage 0, LF (20-200Hz) + ultrasonic (40kHz)
+  - [x] Write: KNbO₃-BaTiO₃ transducers, cavitation physics, liberation index
+  - [x] Write: Stress wave equation, grain boundary fracture toughness
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking (29 chapters verified)
+  - [x] Git: Committed and pushed
+- [x] PROD-06: BFRP Pressure Vessel Design (1266 lines + 202 combined intro)
+  - [x] Research: Vol 1 outer vessel, filament winding, aerogel gap
+  - [x] Write: 900mm ID × 1200mm, 18mm BFRP/Elium®, 10 bar design
+  - [x] Write: Barlow validation, YInMn Blue glaze, 50mm aerogel
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO (202 lines)
+  - [x] Verify: Body 1266 lines, 16 chapters, manifest verified, compressed
+  - [x] Git: Committed and pushed
 
 ### Runner 003: Gas & Output Systems (PROD-07 to PROD-09)
 - [ ] PROD-07: Gas Capture & Fume Solidification (900 lines + 200 intro)
@@ -311,7 +314,7 @@
 | Phase | Documents | Status | Target Runner |
 |-------|-----------|--------|---------------|
 | 0: Init | 0 | 100% | 000 |
-| 1: PROD 1-10 | 10 | 30% (PROD-01, 02, 03 done) | 001-005 |
+| 1: PROD 1-10 | 10 | 60% (PROD-01 through 06 done) | 001-005 |
 | 2: PROD 11-20 | 10 | 0% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
@@ -321,7 +324,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 3.75% (3/80 complete)
+**Total**: 80 documents | **Overall Progress**: 7.5% (6/80 complete)
 
 ---
 
@@ -352,6 +355,6 @@ lol.forge: merge — phase completion merge
 
 ---
 
-*Last Updated: 2026-10-30 | Next Review: Start of each session*
+*Last Updated: 2026-10-31 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 active: PROD-04, PROD-05, PROD-06*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 next: PROD-07, PROD-08, PROD-09*
