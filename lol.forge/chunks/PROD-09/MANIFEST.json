@@ -1,0 +1,82 @@
+{
+  "chapter_01_intro.md": {
+    "size": 42,
+    "sha256": "8f40c8ed08481fe846bfd69865a8ebb8e1bac611cc7a11f9ba39e6941a860841"
+  },
+  "chapter_02_csmfab000000000108__aegis-forg.md": {
+    "size": 420,
+    "sha256": "a9cff9e6298af2b849e8b725652ca3a8e27575c5883c2eb71393a937dfaa4093"
+  },
+  "chapter_03_1_purpose_and_design_mandate.md": {
+    "size": 1182,
+    "sha256": "241b9989316a455b9f422bcdf3a5213c0918be2d923c6210f20dd24a5230627d"
+  },
+  "chapter_04_2_port_valve_architecture__sys.md": {
+    "size": 10242,
+    "sha256": "79d0024bef029d49a7bdff326ca2409caeadfd8dbce8d61726ece5e86e27a6c2"
+  },
+  "chapter_05_3_ti\u2083alc\u2082_max_phase_thermal_ac.md": {
+    "size": 4133,
+    "sha256": "752476ca523274afe4c700f1420ad7824a41cf7eb59cae0137d5e4bd9e4e4181"
+  },
+  "chapter_06_4_zro\u2082_ceramic_piston__seal_en.md": {
+    "size": 2884,
+    "sha256": "88e09c9fac2a87f0ea2142e3900f66de840aced1d305a87e3e264f09d8af75f4"
+  },
+  "chapter_07_5_peek_cf40_wave_spring__retur.md": {
+    "size": 2127,
+    "sha256": "a41e74428028d991d860aae8e29a0263e7b4102038a475690176727f698a9566"
+  },
+  "chapter_08_6_centrifugal_ejection_dynamic.md": {
+    "size": 2405,
+    "sha256": "76feb086c6189600a8085bb54663c1b2eb644b574d65242d537b4061b762043e"
+  },
+  "chapter_09_7_port_valve_control__monitori.md": {
+    "size": 2016,
+    "sha256": "4b60b73dc65bd3119a9443b3f7cd6842c81fcfdce3494baf7d30ba58bf30b9bd"
+  },
+  "chapter_10_8_manufacturing__quality_contr.md": {
+    "size": 1977,
+    "sha256": "ce1a3d32f425ffdc290a3b25318da6a2f5027a3426dc71cedcc8a09df131eccd"
+  },
+  "chapter_11_9_performance_specifications.md": {
+    "size": 1100,
+    "sha256": "65514e7e1453ebfa6677d081e8dfdfb01b48952f39d78e822be142e518b64775"
+  },
+  "chapter_12_10_maintenance__replacement_pr.md": {
+    "size": 1062,
+    "sha256": "7d5bfcddaef859933a9f770c04170976b803b4027c0dd609bc84bf04e016c778"
+  },
+  "chapter_13_11_conclusion_the_thermal_gate.md": {
+    "size": 1241,
+    "sha256": "7cc5b15252ee5c324e3afd9e54839975d95cb77d3d19281be1536196a8c42e7c"
+  },
+  "chapter_14_12_advanced_thermal_actuation_.md": {
+    "size": 3205,
+    "sha256": "55bbc433a0195e3072bd9b4c04cd32fb42ba7b0403ceff32bbfd136f7e0ab782"
+  },
+  "chapter_15_13_port_valve_integration_with.md": {
+    "size": 6979,
+    "sha256": "b79710e9169e9daa8caada22a5c1102213e8df725d5c0265ca1b0527b40d42ff"
+  },
+  "chapter_16_14_multi-physics_coupled_analy.md": {
+    "size": 2267,
+    "sha256": "a0ef1c41e32f728b600a1aa3675902be47e79b00fb8801d67586d7fbfd0b1852"
+  },
+  "chapter_17_15_alternative_actuation_conce.md": {
+    "size": 1319,
+    "sha256": "74ce0ccc13d17f409dba0815f187458abdc637d6a87b89557ed8064546084a11"
+  },
+  "chapter_18_16_port_valve_system_economics.md": {
+    "size": 1175,
+    "sha256": "a7b35b2f8696dfb022aeba85033d302c627c70cdc3428ff99ae79140f5e8aad8"
+  },
+  "chapter_19_17_downstream_integration__por.md": {
+    "size": 3278,
+    "sha256": "026eff1114eb07ebc75158391b1ebe697b2676e6e393e9709b8636990792d914"
+  },
+  "chapter_20_18_conclusion_the_periodic_tab.md": {
+    "size": 1625,
+    "sha256": "454a4e874d584f70c020c0245de046b149fdd998b62797ddca8754f38972027d"
+  }
+}
