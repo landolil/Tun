@@ -143,12 +143,13 @@
   - [x] Generate: 3 heuristic intros + COMBINED_INTRO (232 lines)
   - [x] Verify: Line counts (949), manifest (14 chunks), chunking
   - [x] Git: Committed 353482a, pushed
-- [ ] PROD-15: Stage 2: Polymer Flow & Separation (900 lines + 200 intro)
-  - [ ] Research: Vol 2 Stage 2, 14 polymer types, PVC HCl management
-  - [ ] Write: Melt centrifuge physics, density stratification (G=12.6)
-  - [ ] Write: Mixed polymer slug, Elium® reformulation, chlorine neutralization
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-15: Stage 2: Polymer Flow & Separation (917 lines + 232 combined intro)
+  - [x] Research: Vol 2 Stage 2, 12 polymer types, PVC HCl management
+  - [x] Write: Melt centrifuge physics, density stratification (G=12.6), viscoelastic effects
+  - [x] Write: Mixed polymer slug, Elium® reformulation, chlorine neutralization, SiC filtration
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO (232 lines)
+  - [x] Verify: Line counts (917), manifest (16 chunks), chunking
+  - [x] Git: Committed 981fead, pushed
 
 ---
 
@@ -327,7 +328,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 17.5% (14/80 complete)
+**Total**: 80 documents | **Overall Progress**: 18.75% (15/80 complete)
 
 ---
 
@@ -360,4 +361,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-01 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines). Phase 1 progress: 14/40 Product Documents (PROD-01 through PROD-14). Next: PROD-15.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Phase 1 progress: 15/40 Product Documents (PROD-01 through PROD-15). Next: PROD-16.*

@@ -148,6 +148,14 @@
 - [x] Chunk: 14 chapters, manifest verified, compressed
 - [x] Commit: 353482a, pushed
 
+### PROD-15: Stage 2 Polymer Flow & Separation ✅
+- [x] Research: Vol 2 Stage 2 + Materials Study Part IV (Polymers) + PROD-11 Feed Preparation
+- [x] Write: 14 sections + 5 appendices (Rheology, Centrifuge Design, Separation Physics, PVC Management, Fraction Collection, Filtration, Devolatilization, Outputs, Throughput, Energy, Safety, Cross-Ref Matrix)
+- [x] Verify: Body 917 lines
+- [x] Intro: Williams (39), Keymaker (119), El Segundo (65), Combined (232)
+- [x] Chunk: 16 chapters, manifest verified, compressed
+- [x] Commit: 981fead, pushed
+
 ### Memory Log (memory/2026-11-01.md)
 - [x] Session start entry
 - [x] PROD-10 completions logged
@@ -155,6 +163,7 @@
 - [x] PROD-12 completions logged
 - [x] PROD-13 completions logged
 - [x] PROD-14 completions logged
+- [x] PROD-15 completions logged
 - [x] Git commits logged
 - [x] Session end entry
 
@@ -167,11 +176,13 @@
 - [x] PROD-12 checked off
 - [x] PROD-13 checked off
 - [x] PROD-14 checked off
-- [x] Progress table updated (14/40 = 35% complete)
+- [x] PROD-15 checked off
+- [x] Progress table updated (15/40 = 37.5% complete)
 
 ### Next Runner Preparation
 - [x] NEXT_runner_004.md created
 - [x] NEXT_runner_005.md created (for PROD-13, 14, 15)
+- [x] NEXT_runner_006.md created (for PROD-16, 17, 18)
 
 ---
 
