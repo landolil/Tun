@@ -156,12 +156,12 @@
 ## PHASE 2: PRODUCT DOCUMENTS 16-25 (Runners 006-010)
 
 ### Runner 006: Stages 3-5 (PROD-16 to PROD-18)
-- [ ] PROD-16: Stage 3: Pyrolysis & Char (900 lines + 200 intro)
-  - [ ] Research: Vol 2 Stage 3 + Materials Studies + PROD-02, 12, 15
-  - [ ] Write: 13 sections (Parameters, Kinetics, Char, Gas, Activation, Inorganics, REE, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
-  - [ ] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
-  - [ ] Verify: Line counts, manifest, chunking (node scripts/split_chunks.js)
-  - [ ] Git: Commit and push PROD-16
+- [x] PROD-16: Stage 3: Pyrolysis & Char (1272 lines + 200 intro)
+  - [x] Research: Vol 2 Stage 3 + Materials Studies + PROD-02, 12, 15
+  - [x] Write: 13 sections (Parameters, Kinetics, Char, Gas, Activation, Inorganics, REE, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
+  - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [x] Verify: Line counts, manifest, chunking (node scripts/split_chunks.js)
+  - [x] Git: Commit and push PROD-16
 - [ ] PROD-17: Stage 4: Low-Temp Metals Pb/Sn/Zn/In (900 lines + 200 intro)
   - [ ] Research: Vol 2 Stage 4 + Materials Studies + PROD-02, 04, 07, 09, 12, 16
   - [ ] Write: 13 sections (Parameters, In-First, Melting/Strat, Zones, Oxidation, Solder, PM Carrier, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
@@ -334,7 +334,7 @@
 |-------|-----------|--------|---------------|
 | 0: Init | 0 | 100% | 000 |
 | 1: PROD 1-10 | 10 | 100% | 001-005 |
-| 2: PROD 11-20 | 10 | 70% | 006-010 |
+| 2: PROD 11-20 | 10 | 80% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
 | 5: FOLLOW 1-10 | 10 | 0% | 016-020 |
@@ -343,7 +343,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 25% (20/80 complete)
+**Total**: 80 documents | **Overall Progress**: 26.25% (21/80 complete)
 
 ---
 
@@ -376,4 +376,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-01 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 in progress: PROD-16, PROD-17, PROD-18. Phase 1 progress: 15/40 Product Documents (PROD-01 through PROD-15). Phase 2 progress: 0/10 (PROD-16 through PROD-25). Next: PROD-16.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines). Runner 006 in progress: PROD-17, PROD-18. Phase 1 progress: 16/40 Product Documents (PROD-01 through PROD-16). Phase 2 progress: 1/10 (PROD-16 through PROD-25). Next: PROD-17.*
