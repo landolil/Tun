@@ -142,20 +142,20 @@
 - [x] 2.3.15 Log completion to memory/ + git commit
 
 #### 2.4 DOC-07: Chilean Regulatory Navigation (15 tasks)
-- [ ] 2.4.1 Map Chilean Mining Code (Código de Minería) concessions & permits
-- [ ] 2.4.2 Document Environmental Law 19,300: SEIA, RCA, EIA, DIA processes
-- [ ] 2.4.3 Analyze Indigenous Law 19,253: Consulta, territorial rights, benefit agreements
-- [ ] 2.4.4 Document Water Code (Código de Aguas) & Aegis-Forge zero-water advantage
-- [ ] 2.4.5 Map permitting timeline: Standard vs. CRMA strategic project fast-track
-- [ ] 2.4.6 Analyze royalty regime Law 21,210: Ad valorem vs. operating margin
-- [ ] 2.4.7 Document Sernageomin role: Concession registry, safety, closure
-- [ ] 2.4.7 Cross-reference with DOC-04 brokerage triggers (RCA, Consulta, etc.)
-- [ ] 2.4.8 Draft DOC-07 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-- [ ] 2.4.9 Generate heuristic intros (Williams, Keymaker, El Segundo, Combined)
-- [ ] 2.4.10 Split into logical chunks → chunks/DOC-07/
-- [ ] 2.4.11 Generate manifest & verify integrity
-- [ ] 2.4.12 Compress FinishedWork original (.gz)
-- [ ] 2.4.13 Log completion to memory/ + git commit
+- [x] 2.4.1 Map Chilean Mining Code (Código de Minería) concessions & permits
+- [x] 2.4.2 Document Environmental Law 19,300: SEIA, RCA, EIA, DIA processes
+- [x] 2.4.3 Analyze Indigenous Law 19,253: Consulta, territorial rights, benefit agreements
+- [x] 2.4.4 Document Water Code (Código de Aguas) & Aegis-Forge zero-water advantage
+- [x] 2.4.5 Map permitting timeline: Standard vs. CRMA strategic project fast-track
+- [x] 2.4.6 Analyze royalty regime Law 21,210: Ad valorem vs. operating margin
+- [x] 2.4.7 Document Sernageomin role: Concession registry, safety, closure
+- [x] 2.4.7 Cross-reference with DOC-04 brokerage triggers (RCA, Consulta, etc.)
+- [x] 2.4.8 Draft DOC-07 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+- [x] 2.4.9 Generate heuristic intros (Williams, Keymaker, El Segundo, Combined)
+- [x] 2.4.10 Split into logical chunks → chunks/DOC-07/
+- [x] 2.4.11 Generate manifest & verify integrity
+- [x] 2.4.12 Compress FinishedWork original (.gz)
+- [x] 2.4.13 Log completion to memory/ + git commit
 
 #### 2.5 DOC-08: Port & Logistics Corridors (120 granular subtasks)
 - [x] 2.5.1 Create Chapter 1 markdown header and title "Port Infrastructure Capability"
