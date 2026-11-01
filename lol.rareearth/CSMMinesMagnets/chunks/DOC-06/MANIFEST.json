@@ -1,0 +1,42 @@
+{
+  "chapter_01_us-chile_critical_minerals_agr.md": {
+    "size": 9132,
+    "sha256": "b284b23ba2c97619c55be2448e2a8db174b0f936fea917da7b29c48628698639"
+  },
+  "chapter_02_eu_critical_raw_materials_act_.md": {
+    "size": 6765,
+    "sha256": "aab417e8c0f3ff0dea9e0590cd764f68e17fc2e3c872950dfaba1aeb6d83e04c"
+  },
+  "chapter_03_apec_cptpp_mineral_trade_facil.md": {
+    "size": 6519,
+    "sha256": "033f865c35879f764863cc1c6eccc4a511c9cb9136d7881600cbf7476ec67f4f"
+  },
+  "chapter_04_technology_transfer_frameworks.md": {
+    "size": 6679,
+    "sha256": "0b49216e879717f4353815b482b4d2fabe575420e343233e82a6e7cf00e7021e"
+  },
+  "chapter_05_investment_protection__dispute.md": {
+    "size": 7495,
+    "sha256": "17723a03929119f68f65a6fb600c42be8ebcdf942bebaa526e9390ba2f3e01bd"
+  },
+  "chapter_06_environmental__social_standard.md": {
+    "size": 6500,
+    "sha256": "ffef0b57d8bdc8f3c771cf19a906fea6ddaa5fe97d6fd92716e29f19c65018a7"
+  },
+  "chapter_07_workforce_mobility__skills_rec.md": {
+    "size": 6339,
+    "sha256": "8cbf07a268221a1bbe22789d53baa2fd08885fbf2fcfe9a7d3f4a0bb891f0481"
+  },
+  "chapter_08_intellectual_property__data_go.md": {
+    "size": 7293,
+    "sha256": "943181b23ba865e70a68322ac18eb588341cfb0ac351b36d0cec16197bef0e7b"
+  },
+  "chapter_09_traceability_matrix.md": {
+    "size": 9341,
+    "sha256": "d164b7a01a3da78feaf0b310420a3ee892c334f178b8593bee000ca6aeaccd87"
+  },
+  "MANIFEST.json": {
+    "size": 2062,
+    "sha256": "d279756cee9059a655a16a4e141c1568070396c82d5efb32f9f1b400d07db9a5"
+  }
+}

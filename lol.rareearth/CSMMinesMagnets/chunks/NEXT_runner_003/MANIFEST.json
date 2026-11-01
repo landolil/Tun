@@ -1,0 +1,86 @@
+{
+  "chapter_01_header_and_project_context.md": {
+    "size": 68,
+    "sha256": "84100f1a0c840aadaa21810b1dcd972765055a927cb902ac12a1f1d732b1bf39",
+    "chapter": "01",
+    "title": "Header And Project Context"
+  },
+  "chapter_02_continuation_from_runner_002.md": {
+    "size": 411,
+    "sha256": "1abaef09e1dcb79c6cad0c8908ee78345399c8149505c1b5fac9b8751571e86a",
+    "chapter": "02",
+    "title": "Continuation From Runner 002"
+  },
+  "chapter_03_current_project_state.md": {
+    "size": 24,
+    "sha256": "bc364fcaa826196c471ee90946e6dc7478a3a29f64a7d94f35a1b6fd197dd5ed",
+    "chapter": "03",
+    "title": "Current Project State"
+  },
+  "chapter_04_\ud83d\udccd_current_project_state_as_of_.md": {
+    "size": 1658,
+    "sha256": "907465eb751289e5bf5ea9294f2ea08d10b20cb7a4551a639c8f8aca4d672553",
+    "chapter": "04",
+    "title": "\ud83d\udccd Current Project State As Of "
+  },
+  "chapter_05_next_actions_-_phase_2b__2c_ru.md": {
+    "size": 53,
+    "sha256": "14d7b0ea13c17f367181cc3656c8d74a6b8d27581823cfaf5e382b7233d41fbc",
+    "chapter": "05",
+    "title": "Next Actions - Phase 2B  2C Ru"
+  },
+  "chapter_06_\ud83d\udd04_next__remaining_phase_2_docu.md": {
+    "size": 376,
+    "sha256": "4800c28664b1b60d6a7304bd832d360b13cb3a8f90fa45286e6552b875980f8b",
+    "chapter": "06",
+    "title": "\ud83d\udd04 Next  Remaining Phase 2 Docu"
+  },
+  "chapter_07_doc-05_authoring_guidance.md": {
+    "size": 28,
+    "sha256": "ee1d617f483b7f416626fc4dac18326ee1d42f1d66bd5da8496ca990ebf40a62",
+    "chapter": "07",
+    "title": "Doc-05 Authoring Guidance"
+  },
+  "chapter_08_\ud83c\udfaf_doc-05__tardigradia_holding_.md": {
+    "size": 2072,
+    "sha256": "5961071cb8623a5126ae308a8fc8c8efc0cee775121d040d6526a18d50e32a67",
+    "chapter": "08",
+    "title": "\ud83c\udfaf Doc-05  Tardigradia Holding "
+  },
+  "chapter_09_doc-06_authoring_guidance.md": {
+    "size": 28,
+    "sha256": "6471d4c741abb26cfdc0f17781e815736c49e31394cca6202f059903abb98bef",
+    "chapter": "09",
+    "title": "Doc-06 Authoring Guidance"
+  },
+  "chapter_10_\ud83c\udfaf_doc-06__chilean_critical_min.md": {
+    "size": 1621,
+    "sha256": "1a44f5af092915388dbfa1d9a6ade219885056fd54dfced7f30d7b9ee2f266fe",
+    "chapter": "10",
+    "title": "\ud83c\udfaf Doc-06  Chilean Critical Min"
+  },
+  "chapter_11_quality_gates_all_documents.md": {
+    "size": 924,
+    "sha256": "a476e948d7f64dc05ec60fcfa6c30520ba7024f7f352fb3a5a244d8dd19ef27d",
+    "chapter": "11",
+    "title": "Quality Gates All Documents"
+  },
+  "chapter_12_git_workflow.md": {
+    "size": 23,
+    "sha256": "ca291fb93c194876d718a9d4481b4a3aeb8e296c2e98884fe8cade6b7b1655e1",
+    "chapter": "12",
+    "title": "Git Workflow"
+  },
+  "chapter_13_after_each_document_complete.md": {
+    "size": 209,
+    "sha256": "eecb8dd7d1bb1675d56d68a19088db8098d4a43d45f09daf7783a9fe47bba05d",
+    "chapter": "13",
+    "title": "After Each Document Complete"
+  },
+  "chapter_14_next_runner_handoff.md": {
+    "size": 402,
+    "sha256": "073008661caa22f81f4f6eac9e563a31e1cab026dee49628bd33ad42173ba516",
+    "chapter": "14",
+    "title": "Next Runner Handoff"
+  }
+}

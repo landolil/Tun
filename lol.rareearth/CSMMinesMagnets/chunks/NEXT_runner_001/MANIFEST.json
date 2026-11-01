@@ -1,0 +1,46 @@
+{
+  "chapter_01_header_and_project_context.md": {
+    "size": 372,
+    "sha256": "b5dec163c9464951c2172233e4bc68708110d7a1b237a7b29be585444af58ab6"
+  },
+  "chapter_02_current_project_state.md": {
+    "size": 2095,
+    "sha256": "cb1534537125a7702ed52f0e5e903c90303d274d21b460513776f30b8f4886af"
+  },
+  "MANIFEST.json": {
+    "size": 406,
+    "sha256": "171eb672b114cabdf7dff268f2adb30e168c5122fed958a13a33d3a3f121fe47"
+  },
+  "chapter_03_next_actions_-_phase_1_foundat.md": {
+    "size": 583,
+    "sha256": "d8a37d33a05d43f090e097f0eecee1a13ba9a816adc68d2e854dd46e97f57822"
+  },
+  "chapter_04_execution_strategy.md": {
+    "size": 558,
+    "sha256": "96ec7562d347c9ea0909f761651e3b27392c57c3ed058eed2d07b817b57c8e2a"
+  },
+  "chapter_05_quality_gates.md": {
+    "size": 977,
+    "sha256": "0201ea294ab64e106f1c47a5df0e3ae286831794e5278be8b06c97ab498fc7d1"
+  },
+  "chapter_06_key_reference_documents.md": {
+    "size": 1751,
+    "sha256": "19cdcc398d24f0fb9e8bee53745cc77343fbcc889e488af9ff69d6c7a334d1bb"
+  },
+  "chapter_07_handoff_protocol.md": {
+    "size": 116,
+    "sha256": "0518cb98616744e73ceccace83e6cd31ec128005256e56f07a2c4ae79c922f8c"
+  },
+  "chapter_08_golden_rules.md": {
+    "size": 1148,
+    "sha256": "01e8e5c7cf13811d90b50133fc6424ead59d00875a8bc66b2c4388e0113cada6"
+  },
+  "chapter_09_subtask_queue.md": {
+    "size": 2106,
+    "sha256": "dde68ee536fc02b50d62db6b5c7f36301b164d1b0ca1fa09b644ec94e26f776e"
+  },
+  "chapter_10_doc-01_authoring_guidance.md": {
+    "size": 2775,
+    "sha256": "a3b8043b9cbf9669130026c8806b086a0b7a28a913c1b678eb42d3f787419acb"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "chapter_01_intro.md": {
+    "size": 872,
+    "sha256": "c3880aff7df88f29b668374f6a61f31372021c79fe58c2f9e2e3c6ba6bc84edf"
+  },
+  "chapter_02_11_grade_nomenclature_system.md": {
+    "size": 509,
+    "sha256": "6ebd033d98bc6804fd1dcd365a3aeaca5345a8e7cde5626022e2dde9fa0ef4a2"
+  },
+  "chapter_03_12_complete_ndfeb_grade_matrix.md": {
+    "size": 3751,
+    "sha256": "0e2ec54d88a74629885b697a93734cb905855ee415e4990497d276fcd1cd2199"
+  },
+  "chapter_04_13_csm-critical_grade_selectio.md": {
+    "size": 827,
+    "sha256": "16d9ffb03442ac76bc795ffa8475046172d27ea0a8a996770f7812e4fa61c15c"
+  },
+  "chapter_05_14_magnetic_property_formulas_.md": {
+    "size": 1687,
+    "sha256": "483f71461a35f0360aa8792f26aea7903062c163f50a0d175a692b2b4f12ce03"
+  },
+  "chapter_06_15_corrosion_protection_specif.md": {
+    "size": 848,
+    "sha256": "42dcc988743936a253e7f2619992c7aac7d7cf7ebe8e69d3208bd5567fd547aa"
+  },
+  "chapter_07_16_machining__dimensional_tole.md": {
+    "size": 710,
+    "sha256": "dd7b0ae98699dba3f438f8571fb5138c3c59f4a9ce4d24556bf76e569c092ba4"
+  },
+  "chapter_08_chapter_2_smco_grade_specifica.md": {
+    "size": 277,
+    "sha256": "6d1bb361f8aeae532eb05f6c6c7def624a7755b28d38094a5473f97bb8b73a04"
+  },
+  "chapter_09_21_smco_15_series_smco\u2085_hexago.md": {
+    "size": 981,
+    "sha256": "4d0c1a843ac7fd5521c9a20ae66bdff895e74ec58ff504bd0109f66ea511a3af"
+  },
+  "chapter_10_22_smco_217_series_sm\u2082co\u2081\u2087_rho.md": {
+    "size": 997,
+    "sha256": "527838dc2282cebc51c770fa7abc7f9f8dd7e242a98ecb0ee6c58c47e824363d"
+  },
+  "chapter_11_23_csm_application_matrix_from.md": {
+    "size": 824,
+    "sha256": "057c781e7e54bc5419bd722eca07c40f93dee97fe387eaeaa8746937a8c82987"
+  },
+  "chapter_12_24_smco_property_formulas.md": {
+    "size": 1354,
+    "sha256": "a9ff2de852febb6892d7b0b23d414c3d0c7e92d6d547a663fefa4bc98d7fd110"
+  },
+  "chapter_13_25_corrosion__mechanical_prope.md": {
+    "size": 617,
+    "sha256": "91bde980021660a7e03b41f837eb00c3875ecd9b4c67c2bf0fe7aa164b19ee28"
+  },
+  "chapter_14_chapter_3_fe\u2081\u2086n\u2082__alpha-double.md": {
+    "size": 301,
+    "sha256": "ae1bc0b924d0e5b8b2c0a3d3e8dc1b32c22bda0949526f1639fe96c6cad72032"
+  },
+  "chapter_15_31_crystal_structure__phase_st.md": {
+    "size": 783,
+    "sha256": "d9ef5023b9ff773724e1e3e240afdac64b2f3d0b8927ac143aa3f5f4635874e0"
+  },
+  "chapter_16_32_target_specifications_csm_i.md": {
+    "size": 1459,
+    "sha256": "4e21cd6460af0206f487347ac83ebcbbbe0654e93cecfe1299eec4c5fd588458"
+  },
+  "chapter_17_33_niron_magnetics_benchmark_2.md": {
+    "size": 684,
+    "sha256": "4fe315c0bb0c10580806694cfab903aaf170f4b30e0f4dc24ff4b0e0c093a033"
+  },
+  "chapter_18_34_fe\u2081\u2086n\u2082_property_formulas.md": {
+    "size": 1592,
+    "sha256": "1cde21764ea37b1f6c45632140f6d2edeeedec4f14c99c40bb32dd4366ed5a70"
+  },
+  "chapter_19_35_csm_integration_pathway_fro.md": {
+    "size": 605,
+    "sha256": "622799ec914f21861c31c9d47ceb8eefc83bac10c9b35f254e198ce30f67d71e"
+  },
+  "chapter_20_chapter_4_fe-co__high-flux_sof.md": {
+    "size": 306,
+    "sha256": "5e465dbb8f38b4dbba6d4ca5eea3b2fcbcb2d0d600597a97e8643b68675fd04a"
+  },
+  "chapter_21_41_alloy_systems.md": {
+    "size": 725,
+    "sha256": "93731ee24394568adb16b1fdffcab807b1706a872c5e59dd1a2a7edb38adef40"
+  },
+  "chapter_22_42_hiperco_50___vacodil_50_spe.md": {
+    "size": 966,
+    "sha256": "62ea4dd1b70f5fcbfc7eb2ca18dfa58cf14e3491928c5b47c67434bb6f6232de"
+  },
+  "chapter_23_43_fe-co_property_formulas.md": {
+    "size": 1594,
+    "sha256": "d91de7f44be2c88e010d9ed27f57452b607b8b48237e70a963eaca4b332ac49a"
+  },
+  "chapter_24_44_csm_application_from_doc-08.md": {
+    "size": 794,
+    "sha256": "5d3b5b4c9b4ffb72fa27807f6492160e94d77b8fe74209de03e67ed7f03ca0f5"
+  },
+  "chapter_25_chapter_5_emerging_rare-earth-.md": {
+    "size": 215,
+    "sha256": "eaf054e3bbb1d60d18d2cc56857eb6221d1dccc1445130de9096c12a82958d2b"
+  },
+  "chapter_26_51_mnbi_manganese-bismuth__low.md": {
+    "size": 921,
+    "sha256": "f91fa692abac357064941ff8d56024ed991751572749b5101efccc26728eea79"
+  },
+  "chapter_27_52_alnico_aluminum-nickel-coba.md": {
+    "size": 1105,
+    "sha256": "e903a23e6f00a577590fc246fb544f39e53c8bc251abbeaca5d206cdbe8b56ef"
+  },
+  "chapter_28_53_fe-sn_iron-tin__metastable_.md": {
+    "size": 514,
+    "sha256": "da7535ca5da7820bf4b482d7d532a474386fe83cd64e0cb0d83dc41ced77bcc4"
+  },
+  "chapter_29_54_mxene-enhanced_ndfeb__heavy.md": {
+    "size": 779,
+    "sha256": "83abb16c652ae647af1cd9c592ccc89897efa5df92825b7b2546d3e80a8557de"
+  },
+  "chapter_30_55_cumnas_copper-manganese-ars.md": {
+    "size": 380,
+    "sha256": "de41c952d0369a12b47cb60a98762cb0e4ec4f65e990996715304163a365d8b9"
+  },
+  "chapter_31_56_emerging_magnet_comparison_.md": {
+    "size": 897,
+    "sha256": "9a763a939fc7428bb4f29b9dc3bfad6638e220df5883ae3e8e0b766678d255eb"
+  },
+  "chapter_32_chapter_6_critical_material_sp.md": {
+    "size": 222,
+    "sha256": "25d0500a4c27719ff11689e6a5d0c9a220b7daf260c04190c1875961159e33a6"
+  },
+  "chapter_33_61_dysprosium_dy__heavy_ree_fo.md": {
+    "size": 1826,
+    "sha256": "47c4986889cddf01ffb5e84b60615812cab08b0b4cfb519f4126a03094cc027c"
+  },
+  "chapter_34_62_terbium_tb__heavy_ree_for_$.md": {
+    "size": 907,
+    "sha256": "0a85cf9aace30474008571a4dc9e3faac36aa74525e6d6990b15576a322c2ceb"
+  },
+  "chapter_35_63_cobalt_co__essential_for_sm.md": {
+    "size": 1468,
+    "sha256": "806e95afd0b667244d41c29a3a98d1e36e6fb5a8b6bbc5f49574d37af0f07397"
+  },
+  "chapter_36_64_gallium_ga__emerging_for_nd.md": {
+    "size": 590,
+    "sha256": "963bfdee4da7d88031f0691295f890d70089b7d6da566ce3f8df8c1f760b3321"
+  },
+  "chapter_37_65_nitrogen_n__for_fe\u2081\u2086n\u2082_nitr.md": {
+    "size": 806,
+    "sha256": "5ac7dd2c012869776eaa31d529ec893d38559f7fdbce5205e692bd89aeb3daf1"
+  },
+  "chapter_38_chapter_7_chilean_source-to-gr.md": {
+    "size": 213,
+    "sha256": "8a996bbe1ef0ea3ea9223f4a9e186405a32db383906b9201960f3f791e3593ac"
+  },
+  "chapter_39_71_source_district_\u2192_grade_ass.md": {
+    "size": 1480,
+    "sha256": "557984f04d6b0650cd79125e9a1e4ea4e5751c26e0001db88b7035b027ff206c"
+  },
+  "chapter_40_72_aegis-forge_separation_yiel.md": {
+    "size": 688,
+    "sha256": "e8a0ba48d0e0a910da09ee5275e8a2311440d6819d5aa5b96803be228f835d8f"
+  },
+  "chapter_41_73_flow_formula_mine_\u2192_magnet.md": {
+    "size": 474,
+    "sha256": "bd548e397082169d57c033fc7469561b82ae3b8989288d20f46bbb3d5eb00305"
+  },
+  "chapter_42_chapter_8_test_methods__accept.md": {
+    "size": 217,
+    "sha256": "4476589455734de4ce05abb2f913e0f0b11fa830c5044332380bb3213d71e791"
+  },
+  "chapter_43_81_magnetic_test_methods_per_l.md": {
+    "size": 2111,
+    "sha256": "8451ce6f8e6e546666333589e465213e04da9fc9bfe332e2b0f432ba9a5b244b"
+  },
+  "chapter_44_82_distribution_testing_astm_d.md": {
+    "size": 941,
+    "sha256": "ad87b3e089036596c979cb562e95bb4bdd02192f06eea4ecb5c6816b26f40333"
+  },
+  "chapter_45_83_grade-specific_acceptance_c.md": {
+    "size": 1045,
+    "sha256": "6f802577eacc20fd4ee6d3e96a7cf5793609bc0ee5664a25b0cb35e25df6dd2e"
+  },
+  "chapter_46_84_additional_test_requirement.md": {
+    "size": 1136,
+    "sha256": "e31c98596f7c61437d3c91d9119bf5265d30039f3112aacd73c01cea60d30821"
+  },
+  "chapter_47_85_certificate_structure_per_s.md": {
+    "size": 1169,
+    "sha256": "f9e91c3d3b15007f229753fda5358c284bdfa326aee865812ec4f7b15f408205"
+  },
+  "chapter_48_chapter_9_traceability_matrix_.md": {
+    "size": 234,
+    "sha256": "672b5eaf9b2a5d7acb0b50af42692d240a678c3c2407c30a6b2ed7243d0bb2dd"
+  },
+  "chapter_49_91_methodology_per_doc-07_doc-.md": {
+    "size": 662,
+    "sha256": "af2d560d1177e94043898a1d61dd22e1f0b0792fccaeb6124f10b19a026fa1bf"
+  },
+  "chapter_50_92_ndfeb_smco_grade_claims_tra.md": {
+    "size": 2503,
+    "sha256": "eb12c7f65a00182139fe09d6c07ce35477d7dbb28cc35d0c590fcbbf449b52a0"
+  },
+  "chapter_51_93_fe\u2081\u2086n\u2082_claims_traceability.md": {
+    "size": 1875,
+    "sha256": "7ac34b6d24992f7dc40b923f3ab5d0d3535aa4cf0aae3825fadb7a995493b82c"
+  },
+  "chapter_52_94_fe-co_claims_traceability.md": {
+    "size": 1287,
+    "sha256": "ed4d9b7731534e3ba70c521ea9eb2e43e71a9e6b1eeba6e56bd1f284bfcc8bc1"
+  },
+  "chapter_53_95_emerging_magnets_claims_tra.md": {
+    "size": 1388,
+    "sha256": "ae536d82ca82ede780b3c41fa28c95c1902a7cd096cb02a8e68049c2aa632c2e"
+  },
+  "chapter_54_96_critical_materials_claims_t.md": {
+    "size": 2199,
+    "sha256": "29070ac6c91b93d51d5ad2e88b583c8b076e3d6ee8b902954d3650e2fe839218"
+  },
+  "chapter_55_97_chilean_source-to-grade_map.md": {
+    "size": 1138,
+    "sha256": "670f52d3e03f5a2a3e9594828017022d34f8d086c0d89843e7f5eda4fee2aee0"
+  },
+  "chapter_56_98_test_methods_claims_traceab.md": {
+    "size": 926,
+    "sha256": "edd1d126456080c1d5594577dd5966023a4dab6e63f5c783b4839b4ef2ff2706"
+  },
+  "chapter_57_99_cross-reference_index_to_do.md": {
+    "size": 1350,
+    "sha256": "80975c5ee60daf399fada3914cc4ae3d940e9938bddfb07df84cd074ddbbab6a"
+  },
+  "chapter_58_document_assembly__quality_gat.md": {
+    "size": 6839,
+    "sha256": "96f1b9562fa2ff3716d569f3740764a8850f85ead6a835d4ef277ffe9f531e15"
+  }
+}

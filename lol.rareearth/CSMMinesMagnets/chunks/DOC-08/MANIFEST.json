@@ -1,0 +1,214 @@
+{
+  "chapter_01_intro.md": {
+    "size": 528,
+    "sha256": "4b472fb316c5792cd1d5d10590ecdebbd78fc8f842bcdd73fb2166dc320f2542"
+  },
+  "chapter_02_11_puerto_antofagasta__norther.md": {
+    "size": 11148,
+    "sha256": "c66e5fc065b7ee3340430f98ca8273654fc0c9c7e977a040569d41d99edf5bdb"
+  },
+  "chapter_03_12_puerto_mejillones__deep-wat.md": {
+    "size": 12968,
+    "sha256": "0766183d900ea59c1229e0e79bc6dfda13a3f61fff134465ffb27f6358c68fad"
+  },
+  "chapter_04_13_puerto_san_antonio__central.md": {
+    "size": 9381,
+    "sha256": "737e542ad1fc298cf57b5506dc48d92beedc821f0fc9f7140726e17721d45c3e"
+  },
+  "chapter_05_14_puerto_coronel__puerto_punt.md": {
+    "size": 11914,
+    "sha256": "e7f86b2884722be5c1ccba6027deabf83f51e3a6142067bf68e3c5c6775c45c9"
+  },
+  "chapter_06_15_comparative_port_capability.md": {
+    "size": 10391,
+    "sha256": "e1811e293af4729975794afa791dc59544f0e027d851e9c01ed82fec3648f8ff"
+  },
+  "chapter_07_chapter_2_rail_corridors__fcab.md": {
+    "size": 48,
+    "sha256": "d1dfe3962f4417cb3a5bcbdac4c0f76118a97a8299a6228f5454fa8b12830a38"
+  },
+  "chapter_08_21_fcab_ferrocarril_antofagast.md": {
+    "size": 18543,
+    "sha256": "39c39e3ad0aa17a9ade368e65b558b5e21ecbe66b6543506ca16ec35242c91c7"
+  },
+  "chapter_09_22_ferronor_ferrocarril_del_no.md": {
+    "size": 18512,
+    "sha256": "2824867a04d3642d2e52be28ae408a04f95c6d0335ccc50fe2c1f54b18523e46"
+  },
+  "chapter_10_23_efe_trenes_de_chile_integra.md": {
+    "size": 6067,
+    "sha256": "a6b4330e055fc3a0daa7d5ffc79b7ec1e618b98faf779d894f612a797959efdb"
+  },
+  "chapter_11_24_corredor_bioce\u00e1nico__transc.md": {
+    "size": 6822,
+    "sha256": "597437c4508649087a7da05d575739a5dcc4a6095f79372ea54b4913acac3ef8"
+  },
+  "chapter_12_25_rail_cost_model_$_ton-km_fo.md": {
+    "size": 7121,
+    "sha256": "e61848eed60fa6fe844bfc4eca28ff0134725207e5cd770572ff5308593bd039"
+  },
+  "chapter_13_26_rail_corridor_comparative_m.md": {
+    "size": 8332,
+    "sha256": "cb175eda6f2d8b565770877db27b5de9dd038eb99848d62ce6bd23456a2aedb2"
+  },
+  "chapter_14_chapter_3_magnet_shipping__imd.md": {
+    "size": 493,
+    "sha256": "0809215842c2556c561b981bd9c9ad91312faf62395cce4a212494130ae15bbc"
+  },
+  "chapter_15_31_imdg_code_class_9_classific.md": {
+    "size": 35884,
+    "sha256": "567c6efbef59d471f8c4485c20ec8485c2c45fa319ae257847e5ddaeb69a0503"
+  },
+  "chapter_16_chapter_4_customs__cptpp_paper.md": {
+    "size": 488,
+    "sha256": "8030eb794e00ea373cde3f928b709e93e967aacb65bcf8e08669a4c11e23bcb3"
+  },
+  "chapter_17_41_cptpp_article_14_digital_tr.md": {
+    "size": 23418,
+    "sha256": "d4bfa2ffbd311de780320b5da79bfa93becc3e92f3186fc53de9e15ca326e58a"
+  },
+  "chapter_18_chapter_5_logistics_cost_model.md": {
+    "size": 352,
+    "sha256": "286c25991038363399531bfba409f7eb0f85f03bb7bd97d7759977ae3fe16d05"
+  },
+  "chapter_19_51_ocean_freight_rates_antofag.md": {
+    "size": 15546,
+    "sha256": "8566af2b798af0b737ce51049ff1ee4042dafcdd69aed3ea73a232990cfb57af"
+  },
+  "chapter_20_chapter_6_supply_chain_resilie.md": {
+    "size": 352,
+    "sha256": "fde816555e53871b0873341eda6ee3cd2d05dfed4596303717c6d4c773dcaf17"
+  },
+  "chapter_21_61_pacific_route_antofagasta_m.md": {
+    "size": 1897,
+    "sha256": "7e6fe1490f8562256307b8c0ac1d299e81bad3b7b5216fd3f0dee5dac5d6ed7e"
+  },
+  "chapter_22_62_atlantic_route_punta_arenas.md": {
+    "size": 1659,
+    "sha256": "3738fbee2661ec35d64dcdb1efaec746de94408a3d1e10b371fe6be4fa985060"
+  },
+  "chapter_23_63_strait_of_magellan_transit_.md": {
+    "size": 1833,
+    "sha256": "d5d4d98ca59ba6326aa4f68dcc84a3979271a708fe19fce3cef9d70892ba4a9f"
+  },
+  "chapter_24_64_panama_canal_alternative_ne.md": {
+    "size": 1855,
+    "sha256": "8b324f8a08b0e305a23b90f6dd2c8b858fbd53e896db716a0792a76f684b8c1f"
+  },
+  "chapter_25_65_red_sea_disruption_continge.md": {
+    "size": 1497,
+    "sha256": "7af2145f39edff339418f4e9b881e2e3ef0253842da6d47c8f102b310b83294a"
+  },
+  "chapter_26_66_port_strike_history_2019_20.md": {
+    "size": 1498,
+    "sha256": "3fbdeb1d571b162aeebd479c4a336b7dd6f955d54fd799077a4117e383e69813"
+  },
+  "chapter_27_67_climate_resilience_tsunami_.md": {
+    "size": 4047,
+    "sha256": "ca25edb6f76fc3961327e2aa7d66853d37e5903c55b53faf30d62597e7c41f69"
+  },
+  "chapter_28_68_resilience_scoring_matrix_r.md": {
+    "size": 2183,
+    "sha256": "46414bba89477e2779a43cae8db9e920b8cddbe6ab0d6d9927d633e552339415"
+  },
+  "chapter_29_chapter_7_csm_delivery_require.md": {
+    "size": 441,
+    "sha256": "328771cdadc8bc9af8e240276e9fa82aa2f94f6fd9afa9eec55807b14811c762"
+  },
+  "chapter_30_71_csm_factory_intake_specific.md": {
+    "size": 7560,
+    "sha256": "6bf16094ad22dc97cac6b4a4a02e3ace4768e6d77af7d19b3d4d2ae062e7df3e"
+  },
+  "chapter_31_72_jit_vs_buffer_stock_strateg.md": {
+    "size": 3118,
+    "sha256": "6a0be197159c92e02b044f4c54f9993ba4d8c3ce85c819f39b553ee33a9bc2c6"
+  },
+  "chapter_32_73_qc_chain_mine_assay_\u2192_port_.md": {
+    "size": 3359,
+    "sha256": "6436c22f37ff2d39263f768c557ec220fee5fecc36c22262e2d24a03113a3bfe"
+  },
+  "chapter_33_74_dfars_252225-7018_specialty.md": {
+    "size": 3994,
+    "sha256": "4224edc3d6b3b15775603e31df9a48f3975b8e4b6c30e613348a597a85e5bd93"
+  },
+  "chapter_34_75_traceability_heat_lot_track.md": {
+    "size": 3318,
+    "sha256": "9e8be3cb94ac00806b148366c29a8d8b11976884e1a3d42b4e0e3166d4fa4a20"
+  },
+  "chapter_35_76_delivery_terms_ddp_factory_.md": {
+    "size": 2947,
+    "sha256": "19d4478c5057d5e15aae35410b78b6a630922dba31a34b9ef0affb4fb33712ce"
+  },
+  "chapter_36_chapter_8_port_community_integ.md": {
+    "size": 346,
+    "sha256": "e86cdfd270f805de1b9e42e701f3df53b171e1e5baf606710edff0f18740ccde"
+  },
+  "chapter_37_81_aegis-forge_modular_port_se.md": {
+    "size": 1937,
+    "sha256": "08974b9b966181eca817597c1ce067cc4647c542ed25aade7ea5bf49c437f1be"
+  },
+  "chapter_38_82_zero_aqueous_discharge_\u2192_po.md": {
+    "size": 1843,
+    "sha256": "540b184e87b48ca3e47c1466a81b684ff40dc5cfe7529e213ade9b2de71112d3"
+  },
+  "chapter_39_83_fbc_cdc_trusts_at_port_citi.md": {
+    "size": 1720,
+    "sha256": "01ee26917d9ac2c4b5bac6f47e68067cd809100d34221eaf14e6022e8c2d86f1"
+  },
+  "chapter_40_84_local_employment_port_opera.md": {
+    "size": 1541,
+    "sha256": "3dcf8e1c5c4ddd9339431366e894f7c66a4109fd98481523ec659556e284d504"
+  },
+  "chapter_41_85_indigenous_kawashkar_y\u00e1mana.md": {
+    "size": 2184,
+    "sha256": "ab73ad4a123299cc4d719844f02813e4b97d52f9aed21e26cc626ed44171b24a"
+  },
+  "chapter_42_86_indigenous_chango_antofagas.md": {
+    "size": 1990,
+    "sha256": "ad26db2ffb62cc17ab2bef43b9ea6306b250ed8fb894e5a047047d9246ae0175"
+  },
+  "chapter_43_87_community_benefit_agreement.md": {
+    "size": 2516,
+    "sha256": "8fb60c2e30c5e0c4f29dffe675f12a779f06ae8eb4a74eb97ce79a2ef18ab296"
+  },
+  "chapter_44_88_environmental_monitoring_co.md": {
+    "size": 1797,
+    "sha256": "f2c6c4d401cda1a71a9fae70f5493c9a916be5c38294f20bc5bc9b39d00575c5"
+  },
+  "chapter_45_89_social_license_maintenance_.md": {
+    "size": 2251,
+    "sha256": "b50a5817ed2d2f13d88ae4ae30c94e741b0a1a88551d967175bd92f3b32d372f"
+  },
+  "chapter_46_chapter_9_traceability_matrix_.md": {
+    "size": 377,
+    "sha256": "bcd11fcf36a6bffb38fea60742c73236b40e61d0a5f67ce2365c996030be3a31"
+  },
+  "chapter_47_91_methodology_claim-to-source.md": {
+    "size": 1398,
+    "sha256": "e00106e4d371a0caf327c0e80356064a8a6465f7afa0111587bb951b3c9fe1a8"
+  },
+  "chapter_48_92_port_infrastructure_claims_.md": {
+    "size": 3325,
+    "sha256": "bc18ddb64e44ee8d85e6d7549f9b460bcf02d9d76097371f795a0e8ba7c68510"
+  },
+  "chapter_49_93_rail_corridor_claims_tracea.md": {
+    "size": 2106,
+    "sha256": "78033351c6f5c467601d9156bd33b555796c4fe2886ad0b697d40d785b53c7ce"
+  },
+  "chapter_50_94_shipping_customs_claims_tra.md": {
+    "size": 3282,
+    "sha256": "cd2d3686e5ffdf44a6a8bbfa052f7e2e797581b2eeeff871ee8103adb5c5026a"
+  },
+  "chapter_51_95_cost_resilience_community_c.md": {
+    "size": 5024,
+    "sha256": "35480bafcda275be683c89a512189d64a20d0086825b9446b33a14f3acc26c93"
+  },
+  "chapter_52_96_cross-reference_index_to_do.md": {
+    "size": 1666,
+    "sha256": "7de57df8f20ac73719d0e0d092a2db49d5f482f6045cebb71f4ac049d6400847"
+  },
+  "chapter_53_document_assembly__quality_gat.md": {
+    "size": 1191,
+    "sha256": "630531820aa2cf3b88b6ba99a38f5653adac4eac0874498d98acf2a218cc3774"
+  }
+}
