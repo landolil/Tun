@@ -137,12 +137,12 @@
   - [x] Generate: 3 heuristic intros + COMBINED_INTRO (205 lines)
   - [x] Verify: Line counts (921), manifest (16 chunks), chunking
   - [x] Git: Committed f5c2f4c, pushed
-- [ ] PROD-14: Stage 0-1: Acoustic & Drying (900 lines + 200 intro)
-  - [ ] Research: Vol 2 Stage 0 liberation, Stage 1 IR drying
-  - [ ] Write: 20-500Hz LF, 40kHz ultrasonic, SiC glow bars
-  - [ ] Write: Water recovery, NaHCO₃ aerosol, organic vapor management
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-14: Stage 0-1: Acoustic & Drying (949 lines + 232 combined intro)
+  - [x] Research: Vol 2 Stage 0-1, Vol 3 AMLS, Materials Study Part III, PROD-05, PROD-11, PROD-12
+  - [x] Write: 14 sections + 4 appendices (Liberation Physics, Chamber, LF/US Arrays, LI, IR Emitters, Moisture, Throughput, Energy, Wear, Control, Scaling, Safety, Performance, Cross-Ref)
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO (232 lines)
+  - [x] Verify: Line counts (949), manifest (14 chunks), chunking
+  - [x] Git: Committed 353482a, pushed
 - [ ] PROD-15: Stage 2: Polymer Flow & Separation (900 lines + 200 intro)
   - [ ] Research: Vol 2 Stage 2, 14 polymer types, PVC HCl management
   - [ ] Write: Melt centrifuge physics, density stratification (G=12.6)
@@ -318,7 +318,7 @@
 |-------|-----------|--------|---------------|
 | 0: Init | 0 | 100% | 000 |
 | 1: PROD 1-10 | 10 | 100% | 001-005 |
-| 2: PROD 11-20 | 10 | 30% | 006-010 |
+| 2: PROD 11-20 | 10 | 40% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
 | 5: FOLLOW 1-10 | 10 | 0% | 016-020 |
@@ -327,7 +327,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 16.25% (13/80 complete)
+**Total**: 80 documents | **Overall Progress**: 17.5% (14/80 complete)
 
 ---
 
@@ -360,4 +360,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-01 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines). Phase 1 progress: 13/40 Product Documents (PROD-01 through PROD-13). Next: PROD-14, PROD-15.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines). Phase 1 progress: 14/40 Product Documents (PROD-01 through PROD-14). Next: PROD-15.*

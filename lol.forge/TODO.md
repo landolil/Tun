@@ -140,12 +140,21 @@
 - [x] Chunk: 16 chapters, manifest verified, compressed
 - [x] Commit: f5c2f4c, pushed
 
+### PROD-14: Stage 0-1 Acoustic & Drying ✅
+- [x] Research: Vol 2 Stage 0-1 + Vol 3 AMLS + Materials Study Part III + PROD-05, PROD-11, PROD-12
+- [x] Write: 14 sections + 4 appendices (Liberation Physics, Chamber Design, LF/US Arrays, LI Metric, IR Emitters, Moisture Triad, Throughput, Energy, Wear, Control, Scaling, Safety, Performance Specs, Cross-Ref)
+- [x] Verify: Body 949 lines
+- [x] Intro: Williams (38), Keymaker (119), El Segundo (65), Combined (232)
+- [x] Chunk: 14 chapters, manifest verified, compressed
+- [x] Commit: 353482a, pushed
+
 ### Memory Log (memory/2026-11-01.md)
 - [x] Session start entry
 - [x] PROD-10 completions logged
 - [x] PROD-11 completions logged
 - [x] PROD-12 completions logged
 - [x] PROD-13 completions logged
+- [x] PROD-14 completions logged
 - [x] Git commits logged
 - [x] Session end entry
 
@@ -157,7 +166,8 @@
 - [x] PROD-11 checked off
 - [x] PROD-12 checked off
 - [x] PROD-13 checked off
-- [x] Progress table updated (13/40 = 32.5% complete)
+- [x] PROD-14 checked off
+- [x] Progress table updated (14/40 = 35% complete)
 
 ### Next Runner Preparation
 - [x] NEXT_runner_004.md created

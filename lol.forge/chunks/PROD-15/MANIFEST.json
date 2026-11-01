@@ -1,0 +1,66 @@
+{
+  "chapter_01_intro.md": {
+    "size": 79,
+    "sha256": "9ce91a2a9cf62503ccffbb2f31913f96e949acc64568aeee25c6eb60e72843b1"
+  },
+  "chapter_02_csmfab000000000109__aegis-forg.md": {
+    "size": 469,
+    "sha256": "63d5bb7c9c778f4bc6c8a1a6ab3bcbc4950ab7c6d6992ecc7efd402709773e14"
+  },
+  "chapter_03_1_document_header__scope.md": {
+    "size": 4596,
+    "sha256": "904c8f08d9fc5203fbdd641412ad0d4742e61461dec67f6ca2891bd7e3bec3d7"
+  },
+  "chapter_04_2_stage_2_overview__the_polyme.md": {
+    "size": 3290,
+    "sha256": "f4663262efec1f40895a75d205f069c1d58cdda42379dc661dc48fee8bb16df0"
+  },
+  "chapter_05_3_polymer_melt_rheology.md": {
+    "size": 5129,
+    "sha256": "b94ba9ef39686be5db967c55a87b803bda60b9216f0f7b46d3eb471680532f02"
+  },
+  "chapter_06_4_melt_centrifuge_design.md": {
+    "size": 6475,
+    "sha256": "c7d54f1a1c9a4f6b7f7fedc7f856005b6eded28dff81fd96a5266d511d894885"
+  },
+  "chapter_07_5_pvc_management_strategy__cri.md": {
+    "size": 3847,
+    "sha256": "7e278a88df8e7d99774ac0412bcb6a650400ef81c6517ed7ecf2ee3138712406"
+  },
+  "chapter_08_6_polymer_fraction_collection_.md": {
+    "size": 2302,
+    "sha256": "798049fb01190a5e22f36abc1ca80f0b08cd6538c1c7981ad14d5ea32e5e165c"
+  },
+  "chapter_09_7_melt_filtration.md": {
+    "size": 2370,
+    "sha256": "c8056b4c56681c60696a3757c98788323e6b719963ba131cfb2f5edb78768720"
+  },
+  "chapter_10_8_devolatilization.md": {
+    "size": 1908,
+    "sha256": "f6196f6b4ea89c4b56ea99fdac724ddbee07b80fb0a564f59a82a3a7a0b5ca3b"
+  },
+  "chapter_11_9_output_streams.md": {
+    "size": 1301,
+    "sha256": "b0ba8f630ca33da60392153fb5861ad8cf8696fccb4bb28721e8d3b58b237330"
+  },
+  "chapter_12_10_throughput__quality.md": {
+    "size": 1867,
+    "sha256": "d587672a3c2c440647a048bf831118a5116b56de38ed15e089fd3c5786323dc0"
+  },
+  "chapter_13_11_energy_balance.md": {
+    "size": 1682,
+    "sha256": "4d4f84e29b15d065c68738de1c83b82504007483ac6ba04599b0f53f91a31c23"
+  },
+  "chapter_14_12_safety__emissions.md": {
+    "size": 2246,
+    "sha256": "af46e4628104a945d4bfee05f276fb79a9f56f1ec33f9d14d0c685f8eb291dea"
+  },
+  "chapter_15_13_cross-reference_matrix.md": {
+    "size": 2424,
+    "sha256": "052308206619759f3d0c58cdbc8514991667487e60279b328f986a52d40dec80"
+  },
+  "chapter_16_14_appendices.md": {
+    "size": 3450,
+    "sha256": "fb60e71889d83bb2a76653891ad9c442986b039a288c99d1ebd970ed48b35009"
+  }
+}
