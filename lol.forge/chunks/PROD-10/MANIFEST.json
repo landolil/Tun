@@ -1,0 +1,90 @@
+{
+  "chapter_01_intro.md": {
+    "size": 38,
+    "sha256": "68f64f307fa0be73ac110fc4bdf4542db92ad9fa3df4b292b417619adfa8c231"
+  },
+  "chapter_02_csmfab000000000108_-_aegis-for.md": {
+    "size": 386,
+    "sha256": "2d5742b34b38777d74272aa4b98a122514d74367f3110c9575f0e83d88368ad3"
+  },
+  "chapter_03_1_purpose__design_mandate.md": {
+    "size": 1897,
+    "sha256": "ea3cf113becbee0bcf1d6540060190db2067c8f7c0cd128704e9c20e948fe335"
+  },
+  "chapter_04_2_system_overview_-_8-zone_arc.md": {
+    "size": 4336,
+    "sha256": "b64c4ac00109be8bb2db03000e4a34cba2f9331799933b4e0b799d442f73fee5"
+  },
+  "chapter_05_3_resonant_inverter_design_-_8.md": {
+    "size": 5656,
+    "sha256": "80f6944c5843fe6057fded3a38c281d8ed2a0da0f51c9456d84d67413555d5aa"
+  },
+  "chapter_06_4_frequency_ladder__zone_mappi.md": {
+    "size": 3142,
+    "sha256": "26d7f7f7fb367d8994648d2468907da379bf5f11196ad5058ceb555c42e55f15"
+  },
+  "chapter_07_5_fbg_optical_sensing_network_.md": {
+    "size": 3660,
+    "sha256": "b19b6fa964b18e8d1a6c558bdc459fcddc38656bdc1e787592e485b41823128e"
+  },
+  "chapter_08_6_pid_control_architecture_-_5.md": {
+    "size": 2899,
+    "sha256": "64a949300bf9057bad7f09599a18d2362205581287ff6eacf6ddfde3e6209d72"
+  },
+  "chapter_09_7_3-phase_power_distribution__.md": {
+    "size": 3044,
+    "sha256": "c2090676f85bad26dec4fc00d2efbac726a9128f98f22596b19d39bf3c49d5ec"
+  },
+  "chapter_10_8_scaling_laws_-_226l_to_20000.md": {
+    "size": 1797,
+    "sha256": "238db421b3c2f6ec678f5c8e1a90c3b43a5b3736d22913355bfc4b5ac0c20818"
+  },
+  "chapter_11_9_performance_specifications.md": {
+    "size": 1498,
+    "sha256": "94c8cf1dc7390bee281b871f5a85c153c54937e22ef7fd35973ef7bd69884fac"
+  },
+  "chapter_12_10_downstream_integration_-_as.md": {
+    "size": 1360,
+    "sha256": "9f6609e675907ab0053ce0b5bf9c02197ee0333970a1c9dbfde5ebf76095957e"
+  },
+  "chapter_13_11_electrical_safety__sil-3_co.md": {
+    "size": 1458,
+    "sha256": "5de6c3a2451bf597ef78cda97f9ee989502b00dd7c3ce213be12938673f87492"
+  },
+  "chapter_14_appendix_a_detailed_gan_device.md": {
+    "size": 3253,
+    "sha256": "5ce9030773e15875c18ba85ecf18f04097883be0e2abd118373a633b5cabcc64"
+  },
+  "chapter_15_appendix_b_coil_design__electr.md": {
+    "size": 3834,
+    "sha256": "36f484341f58ef4429f1a76b281d495f9348e720d0ad46b28af9d35523cb2e2e"
+  },
+  "chapter_16_appendix_c_fbg_interrogator_de.md": {
+    "size": 2899,
+    "sha256": "ad3800c9cccaaa8f39277fccbd6a6d54777c39d621e23947721b8023f9569e11"
+  },
+  "chapter_17_appendix_d_resonance_tracking_.md": {
+    "size": 1954,
+    "sha256": "79bfdfd00837384000bcc360c0af5666c2f8e14beb15f8bda07e314e56f89da7"
+  },
+  "chapter_18_appendix_e_thermal_cascade_pro.md": {
+    "size": 3235,
+    "sha256": "28e23d3e685088ae60550925ec427b196ee1064859aafd905f301c3358fc2c96"
+  },
+  "chapter_19_appendix_f_sil-3_safety_archit.md": {
+    "size": 2083,
+    "sha256": "24fee8d832aeff9edd82a0985e9b0dfba957f90daa67027a80beb04bf8a8646a"
+  },
+  "chapter_20_appendix_g_manufacturing__asse.md": {
+    "size": 2392,
+    "sha256": "137231292281481ff48cb23e5057dcebe86f9e0d13dbcc4d1ec779b338bf0f18"
+  },
+  "chapter_21_appendix_h_software_architectu.md": {
+    "size": 2028,
+    "sha256": "2fa8078bcc87d2862f5e97550af2f53c29d95d379799ad4b160b33c2e2f221f8"
+  },
+  "chapter_22_appendix_i_economic_analysis_-.md": {
+    "size": 2053,
+    "sha256": "de907408a70fafb470c9af137e86940433c042f56bc54025d81120aed6347663"
+  }
+}

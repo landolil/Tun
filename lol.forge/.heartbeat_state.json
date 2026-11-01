@@ -1,5 +1,5 @@
 {
-  "last_heartbeat": "2026-10-28T22:29:43.578984+00:00",
+  "last_heartbeat": "2026-11-01T00:39:42.256283+00:00",
   "current_runner": "001",
   "current_document": "PROD-01",
   "subtask": "initializing",
@@ -11,7 +11,7 @@
   "git_dirty_files": 1,
   "prod_docs": 1,
   "follow_docs": 0,
-  "combined_intros": 2,
+  "combined_intros": 10,
   "current_doc_lines": 904,
   "last_cycle": "source_sync",
   "last_detail": "aegis_forge: OK | outfit_fabricator: OK | mines_magnets: OK"
