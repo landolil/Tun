@@ -1,0 +1,66 @@
+{
+  "PROD-13_01_intro.md": {
+    "size": 68,
+    "sha256": "a95d2a62ef7e1b57a7906e0d45a20f06b2fcb628e470ea2f59e77b101ad9f085"
+  },
+  "PROD-13_02_csmfab000000000108__aegis-forg.md": {
+    "size": 479,
+    "sha256": "92c56771125bbb7fc7c4f2001045ef295afdfb545d27dbb0dbb6b89fbf6ebc03"
+  },
+  "PROD-13_03_1_document_header__scope.md": {
+    "size": 3636,
+    "sha256": "68401710e46834c8c4d19039bb102368e9f2953340b538a1ad41e201d2231e14"
+  },
+  "PROD-13_04_2_category_a_pre-sorted_indust.md": {
+    "size": 4882,
+    "sha256": "b2b0b583a8a51a33aeb7f961acb4bd5671e9b617ecd2d06576a597ae1f3e3e05"
+  },
+  "PROD-13_05_3_category_b_municipal__commer.md": {
+    "size": 4372,
+    "sha256": "ada7624924bd0ef185afb9c1a6475a5611f34b3a07daa8757e5b77a7c5b4a064"
+  },
+  "PROD-13_06_4_category_c_mineral__metallur.md": {
+    "size": 4679,
+    "sha256": "e735c6295a4f83f7f6df33e77799dee1b6102a8236fa2811ace0362f276fadf3"
+  },
+  "PROD-13_07_5_category_d_phoenix_protocol_.md": {
+    "size": 3843,
+    "sha256": "fbaf0548f66d8392452861b15350afdef86cf9e8579439702f437e13a74d5e76"
+  },
+  "PROD-13_08_6_pre-processing_requirements_.md": {
+    "size": 4301,
+    "sha256": "8a262d5ed82da9e0c1954b9435c399fec2ded063579eafe215e53e44b33f9dd7"
+  },
+  "PROD-13_09_7_analytical_characterization_.md": {
+    "size": 2626,
+    "sha256": "bce0439f3f3a514d1b2e4f012f057198bf3c89a673fe2ca59850989608b44ca6"
+  },
+  "PROD-13_10_8_acceptance_criteria__rejecti.md": {
+    "size": 1940,
+    "sha256": "fe333d3a414ece240c93b0776d5a6df43c45ba85538117383589690baf31aa1a"
+  },
+  "PROD-13_11_9_sampling__lot_release_proced.md": {
+    "size": 3273,
+    "sha256": "c50d95249073133e07f92a3d614118e4b97ce29b7f914b357d1e78f75c95d411"
+  },
+  "PROD-13_12_10_storage__handling.md": {
+    "size": 2461,
+    "sha256": "772a51538b8c67e58e1c9740b2d067ba0a979e7df0dabb7cdd1c9a6a4f424275"
+  },
+  "PROD-13_13_11_mass_balance__yield_targets.md": {
+    "size": 3023,
+    "sha256": "0071ba3093eca2bb8f25c34789ac588f235c4193dc5d35ba5d3cedbb3a21bef0"
+  },
+  "PROD-13_14_12_economic_valuation_model.md": {
+    "size": 4316,
+    "sha256": "a32da53a17d0eabe5dc001b635dcb3c14d100e39a623e6c158e476c6c3ebec8c"
+  },
+  "PROD-13_15_13_cross-reference_matrix.md": {
+    "size": 3583,
+    "sha256": "25636babcf5df09a9c453b9809d86ba45ad7f04ab924d8caec769626196df573"
+  },
+  "PROD-13_16_14_appendices.md": {
+    "size": 3161,
+    "sha256": "8df998223321b1c287906fe13825eeba7c58ee11ea9fb02d0500890f509e657a"
+  }
+}
