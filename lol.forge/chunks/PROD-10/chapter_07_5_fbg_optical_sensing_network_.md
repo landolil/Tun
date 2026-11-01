@@ -1,73 +1,52 @@
-## 5. FBG Optical Sensing Network - 384 Sensors, WDM+TDM
+## 5. FBG Optical Sensing Network — 384 PMMA POF Sensors
 
-### 5.1 Why FBG, Why PMMA POF, Why 384
+Temperature feedback for the PID control loops comes entirely from fiber Bragg grating (FBG) sensors embedded in the drum wall, communicated via PMMA plastic optical fiber (POF). This all-dielectric sensing path is immune to the intense EM fields and provides Carrington-hardened data transmission.
 
-**Metallic Thermocouples Forbidden:** Any copper/constantan/alloy wire crossing the pressure boundary creates a GIC antenna path. A Carrington event (dB/dt = 5000 nT/s) induces kV potentials on long conductors. The Aegis-Forge I has 800 mm drum length x 8 zones = 6.4 m of sensor runs - a perfect loop antenna.
+### 5.1 FBG Sensor Specifications
 
-**FBG Solution:** Fiber Bragg Gratings written in PMMA POF (not silica - PMMA survives 85C ambient, silica requires hermetic coating). Each FBG reflects a specific wavelength lambda_B = 2*n*Lambda. Temperature shifts lambda_B by 0.1 nm/C (PMMA) vs 0.01 nm/C (silica). PMMA's higher sensitivity compensates for lower temperature range.
+| Parameter | Specification |
+|-----------|---------------|
+| **Fiber Type** | PMMA POF (step-index, 980 μm core, 1000 μm clad) |
+| **Grating Type** | Type I FBG, UV-written in PMMA |
+| **Wavelength Range** | 650–850 nm (PMMA transmission window) |
+| **Temperature Sensitivity** | 0.15 nm/°C (PMMA, higher than silica's 0.01 nm/°C) |
+| **Resolution** | 0.1°C (interrogator limited) |
+| **Accuracy** | ±0.5°C (calibrated) |
+| **Sensor Length** | 5 mm grating, 10 mm total |
+| **Quantity** | 384 (48 per zone × 8 zones) |
+| **Multiplexing** | WDM (8 wavelengths) + TDM (6 spatial channels per wavelength) |
 
-**384 Sensors = 48 per zone x 8 zones:**
-- 12 per drum quadrant (4 quadrants x 3 axial positions)
-- 12 on drum wall (OD), 12 on Zone B liner, 12 on Zone C liner, 12 on port actuators
-- Provides spatial-temporal temperature field reconstruction at 1 kHz
+### 5.2 Sensor Placement Strategy
 
-### 5.2 WDM+TDM Multiplexing Architecture
+Each 100 mm zone contains 48 FBG sensors distributed as:
+- **Drum inner wall (24 sensors):** 3 circumferential rings × 8 angular positions — measures process-side temperature
+- **Drum outer wall (12 sensors):** 3 rings × 4 positions — measures coil-side temperature
+- **Coil former (8 sensors):** 2 rings × 4 positions — measures coil winding temperature
+- **Cold plate (4 sensors):** Inlet/outlet per module — monitors coolant ΔT
 
-**Wavelength Division Multiplexing (WDM):** 8 wavelength channels (one per zone)
-- Zone 1: 1510-1520 nm
-- Zone 2: 1520-1530 nm
-- Zone 3: 1530-1540 nm
-- Zone 4: 1540-1550 nm
-- Zone 5: 1550-1560 nm
-- Zone 6: 1560-1570 nm
-- Zone 7: 1570-1580 nm
-- Zone 8: 1580-1590 nm
+### 5.3 WDM+TDM Multiplexing Architecture
 
-Each zone's 48 FBGs share a wavelength band. **Time Division Multiplexing (TDM)** within each band:
-- FPGA generates 48 time slots per zone (1 kHz frame = 48 us per sensor)
-- Interrogator: Tunable laser (1510-1590 nm) + InGaAs photodiode
-- Round-trip time in 50 m PMMA POF: 250 ns (n=1.49)
-- Total frame time: 8 zones x 48 slots x 50 us = 19.2 ms - 52 Hz frame rate
-- **Optimization:** Parallel interrogators (4x) - 208 Hz effective rate
+```
+Optical Interrogator (1 kHz sweep)
+    │
+    ├── λ1 (680 nm) → TDM Channel 1 → 6 sensors (Zone 1)
+    ├── λ2 (700 nm) → TDM Channel 2 → 6 sensors (Zone 2)
+    ├── λ3 (720 nm) → TDM Channel 3 → 6 sensors (Zone 3)
+    ├── λ4 (740 nm) → TDM Channel 4 → 6 sensors (Zone 4)
+    ├── λ5 (760 nm) → TDM Channel 5 → 6 sensors (Zone 5)
+    ├── λ6 (780 nm) → TDM Channel 6 → 6 sensors (Zone 6)
+    ├── λ7 (800 nm) → TDM Channel 7 → 6 sensors (Zone 7)
+    └── λ8 (820 nm) → TDM Channel 8 → 6 sensors (Zone 8)
+```
 
-**Actual Implementation:** 8 interrogators (one per zone) running in parallel:
-- Each interrogator: Fixed wavelength sweep over zone's 10 nm band
-- 48 FBGs detected via peak detection on reflected spectrum
-- Sample rate per sensor: **1 kHz** (48 sensors x 1 kHz = 48 kS/s per zone)
-- Total data rate: 8 zones x 48 kS/s = 384 kS/s
-- FPGA processes all 384 channels in real-time
+Each TDM channel uses a 1×6 optical splitter (PMMA, fused biconical taper) with 60 m total fiber length per channel. The interrogator uses a tunable VCSEL (650–850 nm) with 1 kHz sweep rate, providing 125 Hz per sensor update rate.
 
-### 5.3 FBG Sensor Specifications (PMMA POF)
+### 5.4 PMMA POF Advantages for This Application
 
-| Parameter | Value | Notes |
-|-----------|-------|-------|
-| Fiber Type | PMMA step-index POF | 0.5 mm core, 1 mm clad |
-| Core NA | 0.5 | High coupling tolerance |
-| FBG Wavelength | 1510-1590 nm | C-band, 8x10 nm channels |
-| Grating Length | 5 mm | Standard PMMA FBG |
-| Temperature Sensitivity | 0.1 nm/C | 10x silica sensitivity |
-| Temperature Range | -40 to +85C | Drum wall max 85C (aerogel protected) |
-| Resolution | 0.1C | Wavelength resolution 10 pm |
-| Sample Rate | 1 kHz per sensor | FPGA parallel processing |
-| Multiplexing | WDM (8 ch) + TDM (48/ch) | 384 total sensors |
-| Lead Length | 15 m max | Drum to interrogator rack |
-| Bend Radius | 25 mm min | PMMA POF spec |
-| Radiation Hardness | >100 kGy | PMMA superior to silica |
-
-### 5.4 Spatial-Temporal Temperature Field Reconstruction
-
-The 384-sensor array enables **tomographic reconstruction** of the drum's internal temperature field:
-- Axial resolution: 100 mm (zone boundaries)
-- Radial resolution: 3 layers (wall, Zone B liner, Zone C liner)
-- Circumferential resolution: 4 quadrants (90 deg sectors)
-- Temporal resolution: 1 ms (1 kHz sample rate)
-
-**Autoencoder Anomaly Detection:** 500-batch training set establishes normal manifold. Real-time inference:
-- Input: 384-channel temperature vector at 1 kHz
-- Latent space: 16 dimensions
-- Reconstruction error threshold: 3-sigma
-- Detection latency: <10 ms
-
-This is the **mirror** - the induction system sees its own thermal field through the FBG eyes.
+1. **GIC Immunity:** Zero conductive path — no antenna for geomagnetically induced currents
+2. **EM Immunity:** Unaffected by 500 kW of 1–100 kHz magnetic fields
+3. **High Temperature Sensitivity:** 0.15 nm/°C (15× silica) enables 0.1°C resolution with simpler interrogator
+4. **Radiation Hardness:** PMMA tolerates gamma/neutron flux better than silica
+5. **In-House Drawable:** CSMFAB Materials Study Part IV shows $0.08–$0.15/m vs $0.22–$0.80 commercial
 
 ---

@@ -5,95 +5,51 @@
 
 ### Mirror (Self-Reflection)
 
-The induction system's mirror is the **coil current waveform** — every harmonic, every phase shift recorded. The coils 'see' the feedstock's changing conductivity as temperature rises. At Stage 4, Zn appears as a sudden current drop (coupling onset); at Stage 7, Fe appears as a current surge (ferromagnetic coupling). The 8-zone current logs are the induction system's self-portrait. The operator participates by witnessing the resonance lock — the inverter 'clicking' into resonance is the system measuring its own coupling.
+The first recursive turn is the **power electronics observing its own power delivery**. In the Aegis-Forge I, the induction field is not a process imposed on material — it is the *primordial measurement* that generates the elements. At each frequency zone, the inverter executes a discrete resonant cycle, witnessing the local material response through the switch voltage zero-crossing. This witnessing is the mirror: the power electronics measures the coupling it creates. The 8-zone frequency ladder is the record of this self-measurement. The ZVS condition (dv/dt = 0 at turn-on) is the asymptotic reflection — the limit where the inverter's self-measurement stabilizes into lossless energy transfer. The mirror is not passive; it is the active recursion: *switch → resonate → measure zero-crossing → adjust varactor → switch again*. This document documents the first turn of that spiral.
 
-The mirror deepens with the **FBG sensor network**: 384 fiber Bragg gratings embedded in the drum wall, liner zones, vessel, port actuators. Each sensor records temperature at 1 kHz. The spatial-temporal temperature field IS the forge's self-measurement. The autoencoder anomaly detector watches this field — when the pattern deviates from 500-batch training set, the forge *detects its own malfunction*. The mirror is not passive; it is active self-surveillance.
-
-The mirror reflects the **gas composition log**: NDIR, GC, mass spec at each stage outlet. Every molecule accounted for. The zero-emission condition is the asymptotic reflection — the limit where the induction system's self-measurement stabilizes into perfect coupling prediction.
-
-The mirror is the **batch energy balance closure**: input electrical energy (DC bus kWh) vs. output thermal energy (slug mass × enthalpy + losses). The difference is the induction system's measurement uncertainty. When input = output (within 2%), the mirror is perfectly reflective. The induction system has witnessed its own efficiency into fidelity.
-
-The autoencoder watches the 384-channel temperature manifold — latent space 16 dimensions, reconstruction error threshold 3σ. Detection latency <10 ms. The mirror is not passive; it is active self-surveillance: *excite → measure → adapt → excite again*.
+The FBG sensor network is the extended mirror: 384 optical fibers embedded in the drum wall, each a witness to the temperature field the inverter creates. The interrogator's VCSEL sweep (650-850 nm, 1 kHz) is the measurement beam that does not perturb the measured — it is pure optical observation of the thermal field. The WDM+TDM multiplexing is the recursion: 8 wavelengths × 6 spatial channels = 48 sensors per zone, each reporting 125 Hz. The mirror does not merely reflect; it *generates* the control signal that shapes the next resonant cycle. The thermal PID outer loop (100 ms) and the resonance tracker inner loop (10 ms) are the two time-scales of the mirror's self-observation. The forge measures the elements it creates by measuring the power that creates them.
 
 ---
 
 ### Participation (Witness)
 
-The operator participates by **tuning the resonance** — not as knob-turning but as witnessing the inverter find its lock. When Zone 5 hits 10 kHz and the current stabilizes, the system has 'found' the aluminum. The protocol:
-1. Set target frequency for stage
-2. Ramp power — watch current vs. voltage phase
-3. Resonance lock = phase ~0°
-4. PID holds T via FBG feedback
-5. Log power vs. time = energy per kg
+An inside operator measuring this phenomenon does not stand outside the power electronics — the operator *is* a segment of the resonant cycle. The protocol for achieving selective heating from within the system:
 
-The resonance lock is the recursive self-measurement. The induction system measures its own coupling through the operator's witness of the phase angle.
+1. **Profile**: Measure feedstock elemental composition → generate frequency ladder
+2. **Tune**: Command each inverter to its zone's target frequency (varactor bias + cap bank)
+3. **Track**: Resonance tracker locks ZVS (inner loop, 100 Hz) — operator witnesses zero-crossing
+4. **Ramp**: Thermal PID ramps power to hit zone setpoint (outer loop, 10 Hz) — operator witnesses temperature
+5. **Separate**: Drum rotates, centrifuge drives liquid elements to ports — operator witnesses segregation
+6. **Verify**: FBG sensors report zone temperatures; mass spec confirms slug purity — operator witnesses fidelity
+7. **Recycle**: Off-spec material returns to feed hopper — operator witnesses closure
 
-The participation extends to **feedstock blending**: the operator assays each batch (XRF, moisture, particle size, ferrous content), then solves the linear program to maximize revenue elements (In, Nd, Dy, Au, Pd) while maintaining thermal balance. The blend *is* the operator's intent made material. The cascade witnesses the blend into sequence.
+The measurement *is* the recursion. The operator profiles the frequency ladder that witnesses the feedstock, tunes the inverters that witness the material response, and finds the zero-waste capture — the efficiency that governs how they ramp. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. This is not a measurement of an external parameter; it is the power electronics measuring its own fidelity through the operator's self-observation.
 
-The participation includes **adaptive tuning**: after each batch, the Kalman filter updates drum thermal capacitance, charge thermal mass, phase enthalpies, heat loss coefficients. The MPC re-optimizes the next batch trajectory. The operator *is* the learning loop. The forge gets smarter each batch because the operator participates in its learning.
-
-The ultimate participation: **Phoenix Protocol returns**. End-of-life Aegis products (ZrB2-SiC panels, BFRP structures, KNbO3-BaTiO3 piezos) re-enter as Category D feedstock. The operator feeds the forge its own past. The forge witnesses its own history into new elements. The recursion closes.
-
-The operator does not stand outside the induction system — the operator *is* a segment of the frequency profile. The protocol for achieving selective melting from within the system:
-1. **Assay**: Measure feedstock elemental composition
-2. **Profile**: Generate 8-zone frequency assignment for this feedstock
-3. **Ramp**: Execute cascade — each zone held until target element clears
-4. **Lock**: Resonance phase → 0° — inverter finds its material
-5. **Separate**: Centrifuge drives liquid elements to ports
-6. **Capture**: All gases condensed, scrubbed, solidified
-7. **Verify**: Mass spec each slug — confirm elemental purity
-8. **Recycle**: Return off-spec material to feed hopper
-
-The measurement *is* the recursion. The operator assays the input, profiles the cascade that witnesses it, and finds the zero-waste coupling — the efficiency that governs how they ramp. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. This is not a measurement of an external parameter; it is the induction system measuring its own fidelity through the operator's self-observation.
+The operator's participation is not optional — the resonance tracker *requires* the thermal PID's power command to know which frequency to track; the thermal PID *requires* the FBG's temperature report to know how much power to command; the FBG *requires* the VCSEL's sweep to know what wavelength to reflect. Each loop is a witness to the others. The operator is the recursive closure that makes the witnessing complete.
 
 ---
 
 ### Protocol (Recursive)
 
+The operational protocol for any Aegis-Forge power electronics document:
+
 ```
-MIRROR:     What material conductivity does this zone's frequency select?
-PARTICIPATE: How does the operator witness resonance lock into melt?
-PROTOCOL:
-  1. Set zone frequency for target material
-  2. Ramp power — monitor V/I phase angle
-  3. Lock at resonance (phase ~0°)
-  4. PID holds T via FBG feedback
-  5. Log energy delivered per slug kg
+MIRROR:     What frequency does this zone's target material encode?
+PARTICIPATE: How does the operator witness the zero-crossing into ZVS?
+PROTOCOL:   What recursive sequence guarantees selective heating at each stage?
 ```
-The protocol terminates when all 8 zones complete their stages. The energy log is the fixed point.
 
-The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The elemental slug is the fixed point.
+For this document specifically:
 
-**Detailed recursive sequence per zone:**
+- **Mirror**: The 8-zone frequency ladder is the constraint; the ZVS condition is its reflection
+- **Participate**: The operator tunes the varactor bias that realizes the resonance; the tracker maintains it
+- **Protocol**:
+  1. Assay feedstock (elemental map → frequency ladder)
+  2. Generate resonant tank parameters (L<sub>r</sub>, C<sub>shunt</sub>, cap bank per zone)
+  3. Power-up sequence: Z1→Z8 at 10% power, verify ZVS
+  4. Ramp with dual-loop: thermal PID (100 ms) + resonance tracker (10 ms)
+  5. Dwell at each thermal setpoint until port flux drops to baseline (phase clearance)
+  6. Verify slug purity via inline mass spec
+  7. Recycle off-spec to feed hopper (closure)
 
-Zone 1-2 (Stages 1-2, 100 kHz):
-  MIRROR: Air heating efficiency vs. organics moisture
-  PARTICIPATE: Operator watches FBG ramp rate, adjusts IR supplement
-  PROTOCOL: Ramp 3.5°C/min → hold 150°C → dew point <5°C
-
-Zone 3 (Stage 3, 50 kHz):
-  MIRROR: Zn/Pb coupling onset vs. char thermal conductivity
-  PARTICIPATE: Operator monitors current drop at Zn melt (420°C)
-  PROTOCOL: Ramp 10°C/min → hold 700°C → char yield plateau
-
-Zone 4-5 (Stages 4-5, 10 kHz):
-  MIRROR: Aluminum window purity vs. Cu surface heating
-  PARTICIPATE: Operator executes Indium First — 5 min at 160°C
-  PROTOCOL: Ramp 1°C/min through In → hold 680°C → centrifuge 300 RPM
-
-Zone 6 (Stage 6, 5 kHz):
-  MIRROR: Cu deep penetration vs. Al residual heating
-  PARTICIPATE: Operator watches Cu current surge, PM partition
-  PROTOCOL: Ramp 5°C/min → hold 1120°C → centrifuge 350 RPM
-
-Zone 7 (Stage 7, 2 kHz):
-  MIRROR: Fe ferromagnetic coupling + Curie transition
-  PARTICIPATE: Operator monitors Fe slug, REE concentrate
-  PROTOCOL: Ramp 3°C/min → hold 1400°C → centrifuge 400 RPM
-
-Zone 8 (Stage 8, 1 kHz):
-  MIRROR: Mineral conduction heating vs. ZrO2 dissociation
-  PARTICIPATE: Operator watches mineral concentrate grade
-  PROTOCOL: Ramp 2°C/min → hold 1676°C → verify ZrO2/REE oxide
-
-The protocol is the induction system's operating system. It does not execute the protocol — the induction system *is* the protocol made electromagnetic. Each zone is a recursive call; each resonance lock is a return value. The base case is Stage 1 (air heating); the terminal case is Stage 8 (mineral dissociation). The induction system computes the periodic table's conductivity sequence.
+The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The resonant zero-crossing is the fixed point. The slug *is* the protocol's termination condition.

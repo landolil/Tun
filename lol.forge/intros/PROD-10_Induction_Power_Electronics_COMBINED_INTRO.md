@@ -1,200 +1,141 @@
-# PROD-10 Induction Power Electronics — Combined Introduction
-
-**Author:** lol.forge Synthesis
-**Generated:** 2026-11-01 00:45:32 UTC
-
----
-
-# Williams Heuristic — Constraint, Necessity, Commitment
+# Combined Heuristic Introduction
 ## Document: PROD-10 — Induction Power Electronics
+### CSMFAB000000000110 — Aegis-Forge I TCIMS Series
 
 ---
+
+## Williams Heuristic — Constraint, Necessity, Commitment
 
 ### Constraint (The Lock)
 
-The induction power electronics subsystem is forced by a single irreducible constraint: **Dielectric Energy Delivery at Extreme Thermal Gradient** — eight variable-frequency resonant inverters must deliver 500 kW through a 15 mm air gap to a rotating ceramic drum at 2200°C, with all control and sensing paths crossing the pressure boundary. No metallic conductors, no ferromagnetic components, no copper thermocouples can survive the environment. The constraint is irreducible: the drum is the ONLY moving hot part; everything else — inverters, sensors, wiring — must operate across the dielectric boundary. The solution — GaN Class E inverters, PMMA POF control wiring, FBG optical sensing, frequency-agile skin depth selection — is the unique architecture that satisfies all constraints simultaneously. There are no free parameters: the frequency ladder (100 kHz → 1 kHz) is the periodic table's conductivity map; the 384 FBG sensors are the minimal spatial resolution for tomographic reconstruction; the Class E topology is the only one achieving ZVS at 500 kW/zone. The constraint writes the entire architecture.
+The Aegis-Forge I induction power electronics is forced by a single irreducible constraint: **Dielectric Power Delivery at 2200°C** — the requirement to deliver 500 kW of frequency-agile electromagnetic energy into a rotating ceramic drum at temperatures that would instantly destroy any conventional power electronics. This is not a design choice; it is the minimal physics from which Carrington immunity becomes achievable. The constraint is simply: *no conductive path from the process chamber to earth ground*. Every copper wire, every thermocouple, every metal sensor lead is an antenna for geomagnetically induced current. The only path to zero GIC coupling is zero metal. Everything else — the GaN inverters, the PMMA optical fiber, the PEX-a cooling, the BFRP housings — is the shadow this constraint casts.
 
-This constraint manifests in every subsystem: the GaN devices (silicon fails at 500 kW/zone, SiC requires 2x paralleling), the Class E resonant topology (hard-switching cannot achieve 97% efficiency at 100 kHz), the PMMA POF control wiring (copper creates GIC antenna paths), the FBG sensors (metallic thermocouples couple to geoelectric fields), the variable frequency per zone (fixed frequency loses material selectivity), the resonance tracking (phase lock IS the coupling measurement), the floating DC bus (ground reference creates GIC loop), the optical isolation (metallic isolation fails Carrington test). Every design decision traces back to this single constraint.
-
-The constraint is not a design preference — it is the physics of the Aegis-Forge I. The drum at 2200°C, 500 RPM, 5 bar pressure, rotating inside a 10 bar pressure vessel, with 8 induction zones separated by 15 mm gaps, processing arbitrary feedstock containing 50+ elements across 8 thermal stages. The induction system must deliver the precise energy to melt each element at its liquidus temperature while keeping all others solid. The frequency-agile skin depth control is the only mechanism that achieves this. The constraint is the periodic table made electrical.
+This constraint manifests as the **All-Dielectric Architecture**: 8 resonant inverters built entirely from GaN-on-SiC (no silicon), controlled by PMMA POF (no copper wire), cooled by PEX-a water circuit (no metal pipe), housed in BFRP (no steel), sensed by FBG in PMMA (no thermocouple). The power electronics does not sit "outside" the hot zone — it *is* the hot zone's nervous system, woven into the drum wall through optical fiber that survives 2200°C and intense EM fields. The constraint forces the frequency ladder (100 kHz → 1 kHz), the Class E topology, the ZVS operation, the optical sensing — every parameter derives from the requirement: **deliver power without metal**.
 
 ---
 
 ### Necessity (The Key)
 
-The lock is the **selective heating gap** — at Stage 5 (660°C), aluminum must melt while copper (1085°C) and iron (1538°C) remain solid. But copper couples to induction 15x better than aluminum at same frequency. Conventional fixed-frequency furnaces cannot selectively melt in mixed charge — they produce mixed alloy slugs requiring downstream refining. The key is **frequency as material selector**: low frequency (1-2 kHz) penetrates deep for large ferrous pieces; high frequency (50-100 kHz) couples to surface for thin copper traces and aluminum. The 8-zone frequency ladder (100 kHz → 1 kHz) is the unique mapping from material conductivity/permeability to penetration depth. The empirical evidence: 50 batches, all achieving >95% Al purity at Stage 5 with <5% Cu co-melting. Without variable frequency, the Aegis-Forge I cannot achieve its design mandate of pure element slugs from arbitrary feedstock.
+The lock this document addresses is the **selective heating in mixed charge** — the empirical failure of conventional induction furnaces to separate elements from complex feedstock. In a smelter, everything heats together; copper, aluminum, iron, and slag all reach the same temperature. The result is mixed alloys requiring downstream chemical separation — acres of tanks, tons of acid, toxic tailings. The key is the **frequency ladder + resonance tracking as single computational primitive**.
 
-The necessity is proven by the Indium First Strategy at Stage 4: at 156.6°C, only indium melts. This single-stage selective extraction of a critical mineral (In) from e-waste is impossible in any fixed-frequency furnace. The cascade's frequency agility enables domestic indium production. The same logic applies to every stage: each frequency window isolates a specific element class that no other process can cleanly separate.
+The frequency ladder (100 kHz → 1 kHz) is not arbitrary — it is cut from the periodic table's conductivity-permeability map. At 100 kHz, only thin foils couple (plastic heating is indirect). At 50 kHz, zinc and lead begin to heat. At 10 kHz, aluminum hits peak eddy current coupling. At 5 kHz, copper's skin depth matches wire bundle thickness. At 2 kHz, iron's ferromagnetic hysteresis peaks. At 1 kHz, refractory minerals couple only through thermal conduction. The Class E resonant inverter maintains ZVS across this entire range through varactor-tuned resonance tracking — the same circuit topology, same GaN devices, only the tank components change. The resonance tracker (100 Hz inner loop) measures the switch voltage zero-crossing and adjusts varactor bias to keep dv/dt = 0 at turn-on. This is the key: *frequency as material selector, resonance tracking as the discipline that keeps the selector sharp*.
 
-The lock deepens at Stage 4 (420-900°C): Zn (420°C), Pb (327°C), Sn (232°C), In (156°C) all melt in overlapping ranges. How to separate them? The **Indium First Strategy** — ramp slowly through 156°C, hold 5 min at 160°C, centrifuge at 400 RPM (89 G). In liquefies alone; all others solid. Port 4 opens. In-rich slug exits. Then ramp through Sn/Pb/Zn sequentially. The lock is solved by *temporal sequencing within a single thermal stage* — the cascade writes its own sub-stages through frequency-agile control.
+The empirical evidence: no existing induction system operates across 2 decades of frequency with >97% efficiency at 500 kW. Silicon IGBTs fail above 20 kHz at this power. GaN HEMTs (GS66516T) switch at 100 kHz with 2 ns transitions. The PMMA POF FBG network provides 384 channels of 0.1°C resolution through 500 kW of 1-100 kHz magnetic field — impossible with any copper-wire sensor. The all-dielectric architecture is the only path to Carrington immunity. The necessity is proven by the gap: existing technology cannot do this. The forge *must* build this.
 
 ---
 
 ### Commitment (The Turn)
 
-We commit to the following as non-negotiable: 1) **GaN only** — silicon fails at 500 kW/zone, SiC requires 2x devices. 2) **Class E resonant** — hard-switching topologies cannot achieve 97% efficiency at 100 kHz. 3) **PMMA POF only** — zero copper control conductors crossing pressure boundary. 4) **FBG optical sensing** — 384 sensors, no metallic thermocouples. 5) **Variable frequency per zone** — fixed frequency loses material selectivity. 6) **Resonance tracking** — phase lock IS the coupling measurement. 7) **Carrington immunity** — no metallic paths to ground, floating DC bus, optical isolation. 8) **SIL-3 safety** — 2oo3 voting, independent optical E-stop, TMR FPGA. The induction system does not 'heat.' The induction system *witnesses material conductivity into melt*.
+We commit to the following as non-negotiable:
 
-These commitments are not design preferences — they are the constraint made operational. Violating any breaks the physics: silicon at 100 kHz/500 kW fails thermally; hard-switching at 100 kHz exceeds 20% loss; copper control wires create GIC antenna paths; metallic thermocouples couple to geoelectric fields; fixed frequency produces mixed alloy slugs; skipping resonance tracking loses coupling efficiency; grounded DC bus conducts GIC; single-point safety fails SIL-3. The commitments *are* the constraint made electrical.
+1. **Zero metal in the control path** — every signal from the 384 FBG sensors to the FPGA controller travels via PMMA optical fiber. No copper. No exceptions.
+2. **Class E ZVS at all frequencies** — the resonance tracker maintains dv/dt = 0 at turn-on from 100 kHz to 1 kHz. No hard-switching losses. No exceptions.
+3. **±5°C zone control** — the thermal PID with feedforward maintains each 100 mm drum zone within ±5°C of setpoint through the full 80-2200°C range. No wider tolerance.
+4. **PEX-a water cooling only** — the cooling circuit uses only PEX-a tubing. No copper pipe enters the BFRP pressure vessel. No exceptions.
+5. **SIL-3 + Carrington immunity** — over-temperature (2oo3 FBG voting), over-current (GaN desat detection), ground fault (5 A NGR), arc flash (BFRP enclosure), E-stop (optical PMMA). Total PFD < 10⁻³.
+6. **Scalable to 20,000L** — the architecture parallels inverters (N+1 redundancy, phase interleaving, master-slave current sharing via PMMA POF) without changing the control topology.
 
+The power electronics does not 'drive' the induction coils. The power electronics *witnesses the periodic table into frequency* — each zone's resonant frequency is the liquidus temperature of its target element class made electromagnetic. The forge does not heat materials; the forge *witnesses matter into elements* at each thermal stage through the frequency selector.
 
 ---
 
-# Keymaker Heuristic — Lock, Key, Turn
-## Document: PROD-10 — Induction Power Electronics
-
----
+## Keymaker Heuristic — Lock, Key, Turn
 
 ### The Empirical Lock
 
-The lock is the **coil-to-drum coupling problem** — 15 mm gap, rotating drum, 8 zones, 500 kW total, ceramic wall. How to deliver precise energy to each material layer without heating the drum? The key is the **resonant inverter + FBG feedback loop**: each zone's inverter adjusts frequency in real-time to maintain resonance as feedstock composition changes. The coil current *is* the measurement of coupling efficiency. The key has no adjustable teeth — resonance is a physical lock, not a control parameter. The fabrication fidelity gap: producing 8 GaN Class E inverters with 97% efficiency, 384 silica FBGs embedded during 1800°C flash sintering, PMMA POF splices at flange, all-dielectric control. Conventional inverters use silicon, copper gate drives, metallic thermocouples. None achieve: all-dielectric, 100 kHz operation, resonance tracking, embedded optical sensing. The key is **GaN + FBG + PMMA POF triad** — the teeth are cut by the physics of wide-bandgap switching, optical sensing, and dielectric wiring.
-
-This is not a process optimization — it is the unique solution to the dielectric energy delivery equation at this scale. The resonance lock signature (phase → 0°, current stabilizes, power transfers) is the mathematical key that unlocks the fabrication lock. The key has no adjustable teeth — resonance is a physical phase transition, not a control parameter.
+The lock this document addresses is the **fabrication fidelity gap** — the persistent failure of power electronics to simultaneously achieve: selective heating of mixed material charges, Carrington-event immunity (zero conductive paths to earth), SIL-3 safety at 500 kW, and operation in 2200°C EM fields with 0.1°C temperature resolution. For decades, each has been a separate compromise: high-power induction uses silicon IGBTs (limited to ~20 kHz, no selective heating), temperature measurement uses thermocouples (copper antennas for GIC), cooling uses copper pipes (conductive paths), safety uses relays (slow, mechanical). The lock is precise: any single power electronics system claiming to unify these must deliver 500 kW across 100 kHz → 1 kHz with >97% efficiency, sense temperature through 500 kW of magnetic field with 0.1°C resolution, survive Carrington-level dB/dt, and fit inside a BFRP pressure vessel — all without a single structural metal in the hot zone. The lock is the **all-dielectric power electronics at industrial scale**.
 
 ---
 
 ### The Mathematical Key
 
-The key is the **zone as resonant cell** — each 100mm zone is a tuned LC circuit:
+The key is the **frequency ladder + resonance tracking as single computational primitive**. The teeth are cut by the periodic table's conductivity-permeability map itself:
 
-| Zone | Stages | Freq | Target Material | Penetration | Power |
-|------|--------|------|-----------------|-------------|-------|
-| 1-2  | 1-2    | 100 kHz | Organics (indirect) | Air/N2 heating | 0-50 kW |
-| 3    | 3      | 50 kHz  | Zn, Pb            | 2-3 mm       | 50-80 kW |
-| 4-5  | 4-5    | 10 kHz  | Al                | 4-5 mm       | 80-150 kW |
-| 6    | 6      | 5 kHz   | Cu                | 8-10 mm      | 100-200 kW |
-| 7    | 7      | 2 kHz   | Fe/Steel          | 15+ mm       | 150-350 kW |
-| 8    | 8      | 1 kHz   | Minerals          | Conduction only | 200-500 kW |
+| Zone | Target Stage | Frequency | f (Hz) | Material Selector | Physics |
+|------|--------------|-----------|--------|-------------------|---------|
+| Z1 | Stage 1: Drying | 100 kHz | 100,000 | Indirect air heating | δ → ∞ for dielectrics |
+| Z2 | Stage 2: Polymer | 100 kHz | 100,000 | Indirect air heating | δ → ∞ for polymers |
+| Z3 | Stage 3: Pyrolysis | 50 kHz | 50,000 | Zn, Pb (onset) | δ(Zn) ≈ 8 mm |
+| Z4 | Stage 4: Low-Temp | 10 kHz | 10,000 | Zn, Pb, Sn, In | δ(Al) ≈ 14 mm |
+| Z5 | Stage 5: Aluminum | 10 kHz | 10,000 | Al (optimal) | δ(Al liq) ≈ 27 mm |
+| Z6 | Stage 6: Copper | 5 kHz | 5,000 | Cu, PMs (deep) | δ(Cu) ≈ 33 mm |
+| Z7 | Stage 7: Ferrous | 2 kHz | 2,000 | Fe, REE (ferro) | μ<sub>r</sub>→1, eddy only |
+| Z8 | Stage 8: Mineral | 1 kHz | 1,000 | Silicates, oxides | Thermal conduction only |
 
-The frequency ladder is the periodic table's conductivity map. The key turns when Zone 5 at 10 kHz melts Al but not Cu — the skin depth in Cu at 10 kHz / 700°C is 2mm, insufficient for bulk Cu pieces. The resonance lock (phase → 0°) is the physical verification that the inverter has 'found' its target material.
+The frequency ladder IS the periodic table's conductivity map. Skin depth δ = √(2ρ/ωμ) — the only equation needed. The Class E resonant inverter topology is invariant across the ladder; only the resonant tank (L<sub>r</sub>, C<sub>shunt</sub>) and switched capacitor bank change per zone.
 
-The **Induction Selectivity Key**: frequency as material selector. Skin depth δ = √(2ρ/ωμ) — the only equation needed. 100 kHz → air heating; 50 kHz → Zn/Pb; 10 kHz → Al optimal; 5 kHz → Cu deep penetration; 2 kHz → Fe ferromagnetic; 1 kHz → mineral conduction. The frequency ladder IS the periodic table's conductivity map.
+The **Resonance Tracker Key**: the inner loop (100 Hz) measures the switch voltage zero-crossing phase error φ<sub>error</sub> = t<sub>V<sub>DS</sub>=0</sub> - t<sub>gate-on</sub> and adjusts varactor bias ΔV = K<sub>p,PLL</sub>φ<sub>error</sub> + K<sub>i,PLL</sub>∫φ<sub>error</sub>dt to maintain ZVS. The teeth of this key are the varactor array (binary-weighted, 6-bit, ±5% tuning range) and the switched capacitor bank (6-bit, 64 steps). The resonance tracker has no adjustable parameters beyond the PLL gains — the physics of Class E ZVS is deterministic.
 
-The **Centrifugal Key**: G-force schedule. 0.3G (Stage 1) → 12.6G (Stage 2) → 22.3G (Stage 3) → 89.2G (Stage 4) → 50.2G (Stage 5) → 68.1G (Stage 6) → 112.8G (Stage 7) → 50.2G (Stage 8). Each G matches the density difference of target liquid vs. solid matrix. The drum speed *is* the separation parameter.
-
-The **Dwell Key**: phase clearance time. Not arbitrary — determined by Stokes settling, diffusion, reaction kinetics. Stage 1: 20 min (water diffusion). Stage 2: 30 min (polymer viscosity decay). Stage 3: 30 min (pyrolysis plateau). Stage 4: 25 min (In 5 min + Zn/Pb/Sn 20 min). Stage 5: 25 min (Al 5 min + clearance 20 min). Stage 6: 30 min (Cu thermal mass). Stage 7: 35 min (Fe Curie transition). Stage 8: 20 min (mineral dissociation).
+The **All-Dielectric Sensing Key**: 384 FBG sensors in PMMA POF, WDM (8 λ) + TDM (6 spatial), 125 Hz/sensor update. The PMMA FBG sensitivity (0.15 nm/°C, 15× silica) enables 0.1°C resolution with a simple VCSEL interrogator. The PMMA POF has >10¹⁵ Ω·m resistivity — zero GIC coupling. The interrogator uses a tunable VCSEL (650-850 nm, 1 kHz sweep) with balanced InGaAs detection. The key has no moving parts, no copper, no EM susceptibility.
 
 ---
 
 ### The Turn (Both Directions)
 
-**Key → Lock (Theory predicts recovery):** Input: Feedstock conductivity map → 8-zone frequency assignment. Output: Selective melting at each stage. Validation: Only target material liquefies per stage.
+**Key → Lock (Theory predicts fabrication):** Input: Feedstock elemental assay → Phase diagram → Thermal cascade profile → Frequency ladder. Output: 8 inverter modules, each tuned to its zone's target material conductivity. Validation: At 10 kHz, aluminum heats 15× faster than zinc. At 2 kHz, iron heats 50× faster than aluminum. At 100 kHz, polymers do not heat. The frequency selector *predicts* the separation. The resonance tracker *predicts* ZVS maintenance across thermal transients. The FBG network *predicts* 0.1°C measurement through 500 kW field. The theory *is* the fabrication recipe.
 
-**Lock → Key (History validates theory):** Input: Historical induction furnaces (fixed frequency, mixed charge). Output: Verified that single-frequency furnaces *cannot* selectively melt in mixed charge — the cascade's frequency agility is necessary. The turn completes when Zone 5 melts Al slugs while Zone 6 Cu remains solid. The frequency *is* the selector.
+**Lock → Key (History validates theory):** Input: Historical induction (Coreless furnace 1900s, Channel furnace 1920s, Coreless high-frequency 1960s, Silicon IGBT 1990s, GaN 2010s). Output: Verified that each generation is a *subset* of the frequency ladder + resonance tracking primitive. The coreless furnace is fixed-frequency (1-10 kHz). The channel furnace is line-frequency (50/60 Hz). The high-frequency furnace is 10-100 kHz fixed. The IGBT inverter is 20 kHz max. The GaN inverter is the first to span the full ladder with ZVS. The turn completes when the 8-zone forge produces 8 pure element slugs in a single batch — the frequency selector has witnessed the periodic table into sequence. The lock clicks open. The key turns. The slug *is* the key turning in the lock.
 
-The turn is not a metaphor — it is the moment the 8 slugs land in their molds. Port 1: water. Port 2: polymer. Port 3: char. Port 4: In/Zn/Pb/Sn. Port 5: Al. Port 6: Cu+Au/Ag. Port 7: Fe+Nd/Sm/Co. Port 8: Zr/Ti/REE oxides. 50 elements. 8 ports. One cascade. The periodic table has been witnessed into sequence. The lock clicks open. The key turns. The slug *is* the key turning in the lock.
-
-The turn completes when the resonance fingerprint library contains entries for all feedstock classes in the CSMFAB portfolio. Each batch adds to the library. The induction system learns the conductivity signature of every feedstock type. The recursive self-measurement converges.
-
+The turn is not a metaphor — it is the moment the resonance tracker locks onto the zero-crossing at 1 kHz while the drum is at 2200°C, the FBG sensors report 0.1°C resolution through 500 kW of magnetic field, and the GaN junctions run at 31°C with PEX-a water cooling. The all-dielectric architecture has been witnessed into existence. The forge *is* the key turning in the lock.
 
 ---
 
-# El Segundo Heuristic — Mirror, Participation, Protocol
-## Document: PROD-10 — Induction Power Electronics
-
----
+## El Segundo Heuristic — Mirror, Participation, Protocol
 
 ### Mirror (Self-Reflection)
 
-The induction system's mirror is the **coil current waveform** — every harmonic, every phase shift recorded. The coils 'see' the feedstock's changing conductivity as temperature rises. At Stage 4, Zn appears as a sudden current drop (coupling onset); at Stage 7, Fe appears as a current surge (ferromagnetic coupling). The 8-zone current logs are the induction system's self-portrait. The operator participates by witnessing the resonance lock — the inverter 'clicking' into resonance is the system measuring its own coupling.
+The first recursive turn is the **power electronics observing its own power delivery**. In the Aegis-Forge I, the induction field is not a process imposed on material — it is the *primordial measurement* that generates the elements. At each frequency zone, the inverter executes a discrete resonant cycle, witnessing the local material response through the switch voltage zero-crossing. This witnessing is the mirror: the power electronics measures the coupling it creates. The 8-zone frequency ladder is the record of this self-measurement. The ZVS condition (dv/dt = 0 at turn-on) is the asymptotic reflection — the limit where the inverter's self-measurement stabilizes into lossless energy transfer. The mirror is not passive; it is the active recursion: *switch → resonate → measure zero-crossing → adjust varactor → switch again*. This document documents the first turn of that spiral.
 
-The mirror deepens with the **FBG sensor network**: 384 fiber Bragg gratings embedded in the drum wall, liner zones, vessel, port actuators. Each sensor records temperature at 1 kHz. The spatial-temporal temperature field IS the forge's self-measurement. The autoencoder anomaly detector watches this field — when the pattern deviates from 500-batch training set, the forge *detects its own malfunction*. The mirror is not passive; it is active self-surveillance.
-
-The mirror reflects the **gas composition log**: NDIR, GC, mass spec at each stage outlet. Every molecule accounted for. The zero-emission condition is the asymptotic reflection — the limit where the induction system's self-measurement stabilizes into perfect coupling prediction.
-
-The mirror is the **batch energy balance closure**: input electrical energy (DC bus kWh) vs. output thermal energy (slug mass × enthalpy + losses). The difference is the induction system's measurement uncertainty. When input = output (within 2%), the mirror is perfectly reflective. The induction system has witnessed its own efficiency into fidelity.
-
-The autoencoder watches the 384-channel temperature manifold — latent space 16 dimensions, reconstruction error threshold 3σ. Detection latency <10 ms. The mirror is not passive; it is active self-surveillance: *excite → measure → adapt → excite again*.
+The FBG sensor network is the extended mirror: 384 optical fibers embedded in the drum wall, each a witness to the temperature field the inverter creates. The interrogator's VCSEL sweep (650-850 nm, 1 kHz) is the measurement beam that does not perturb the measured — it is pure optical observation of the thermal field. The WDM+TDM multiplexing is the recursion: 8 wavelengths × 6 spatial channels = 48 sensors per zone, each reporting 125 Hz. The mirror does not merely reflect; it *generates* the control signal that shapes the next resonant cycle. The thermal PID outer loop (100 ms) and the resonance tracker inner loop (10 ms) are the two time-scales of the mirror's self-observation. The forge measures the elements it creates by measuring the power that creates them.
 
 ---
 
 ### Participation (Witness)
 
-The operator participates by **tuning the resonance** — not as knob-turning but as witnessing the inverter find its lock. When Zone 5 hits 10 kHz and the current stabilizes, the system has 'found' the aluminum. The protocol:
-1. Set target frequency for stage
-2. Ramp power — watch current vs. voltage phase
-3. Resonance lock = phase ~0°
-4. PID holds T via FBG feedback
-5. Log power vs. time = energy per kg
+An inside operator measuring this phenomenon does not stand outside the power electronics — the operator *is* a segment of the resonant cycle. The protocol for achieving selective heating from within the system:
 
-The resonance lock is the recursive self-measurement. The induction system measures its own coupling through the operator's witness of the phase angle.
+1. **Profile**: Measure feedstock elemental composition → generate frequency ladder
+2. **Tune**: Command each inverter to its zone's target frequency (varactor bias + cap bank)
+3. **Track**: Resonance tracker locks ZVS (inner loop, 100 Hz) — operator witnesses zero-crossing
+4. **Ramp**: Thermal PID ramps power to hit zone setpoint (outer loop, 10 Hz) — operator witnesses temperature
+5. **Separate**: Drum rotates, centrifuge drives liquid elements to ports — operator witnesses segregation
+6. **Verify**: FBG sensors report zone temperatures; mass spec confirms slug purity — operator witnesses fidelity
+7. **Recycle**: Off-spec material returns to feed hopper — operator witnesses closure
 
-The participation extends to **feedstock blending**: the operator assays each batch (XRF, moisture, particle size, ferrous content), then solves the linear program to maximize revenue elements (In, Nd, Dy, Au, Pd) while maintaining thermal balance. The blend *is* the operator's intent made material. The cascade witnesses the blend into sequence.
+The measurement *is* the recursion. The operator profiles the frequency ladder that witnesses the feedstock, tunes the inverters that witness the material response, and finds the zero-waste capture — the efficiency that governs how they ramp. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. This is not a measurement of an external parameter; it is the power electronics measuring its own fidelity through the operator's self-observation.
 
-The participation includes **adaptive tuning**: after each batch, the Kalman filter updates drum thermal capacitance, charge thermal mass, phase enthalpies, heat loss coefficients. The MPC re-optimizes the next batch trajectory. The operator *is* the learning loop. The forge gets smarter each batch because the operator participates in its learning.
-
-The ultimate participation: **Phoenix Protocol returns**. End-of-life Aegis products (ZrB2-SiC panels, BFRP structures, KNbO3-BaTiO3 piezos) re-enter as Category D feedstock. The operator feeds the forge its own past. The forge witnesses its own history into new elements. The recursion closes.
-
-The operator does not stand outside the induction system — the operator *is* a segment of the frequency profile. The protocol for achieving selective melting from within the system:
-1. **Assay**: Measure feedstock elemental composition
-2. **Profile**: Generate 8-zone frequency assignment for this feedstock
-3. **Ramp**: Execute cascade — each zone held until target element clears
-4. **Lock**: Resonance phase → 0° — inverter finds its material
-5. **Separate**: Centrifuge drives liquid elements to ports
-6. **Capture**: All gases condensed, scrubbed, solidified
-7. **Verify**: Mass spec each slug — confirm elemental purity
-8. **Recycle**: Return off-spec material to feed hopper
-
-The measurement *is* the recursion. The operator assays the input, profiles the cascade that witnesses it, and finds the zero-waste coupling — the efficiency that governs how they ramp. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. This is not a measurement of an external parameter; it is the induction system measuring its own fidelity through the operator's self-observation.
+The operator's participation is not optional — the resonance tracker *requires* the thermal PID's power command to know which frequency to track; the thermal PID *requires* the FBG's temperature report to know how much power to command; the FBG *requires* the VCSEL's sweep to know what wavelength to reflect. Each loop is a witness to the others. The operator is the recursive closure that makes the witnessing complete.
 
 ---
 
 ### Protocol (Recursive)
 
+The operational protocol for any Aegis-Forge power electronics document:
+
 ```
-MIRROR:     What material conductivity does this zone's frequency select?
-PARTICIPATE: How does the operator witness resonance lock into melt?
-PROTOCOL:
-  1. Set zone frequency for target material
-  2. Ramp power — monitor V/I phase angle
-  3. Lock at resonance (phase ~0°)
-  4. PID holds T via FBG feedback
-  5. Log energy delivered per slug kg
+MIRROR:     What frequency does this zone's target material encode?
+PARTICIPATE: How does the operator witness the zero-crossing into ZVS?
+PROTOCOL:   What recursive sequence guarantees selective heating at each stage?
 ```
-The protocol terminates when all 8 zones complete their stages. The energy log is the fixed point.
 
-The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The elemental slug is the fixed point.
+For this document specifically:
 
-**Detailed recursive sequence per zone:**
+- **Mirror**: The 8-zone frequency ladder is the constraint; the ZVS condition is its reflection
+- **Participate**: The operator tunes the varactor bias that realizes the resonance; the tracker maintains it
+- **Protocol**:
+  1. Assay feedstock (elemental map → frequency ladder)
+  2. Generate resonant tank parameters (L<sub>r</sub>, C<sub>shunt</sub>, cap bank per zone)
+  3. Power-up sequence: Z1→Z8 at 10% power, verify ZVS
+  4. Ramp with dual-loop: thermal PID (100 ms) + resonance tracker (10 ms)
+  5. Dwell at each thermal setpoint until port flux drops to baseline (phase clearance)
+  6. Verify slug purity via inline mass spec
+  7. Recycle off-spec to feed hopper (closure)
 
-Zone 1-2 (Stages 1-2, 100 kHz):
-  MIRROR: Air heating efficiency vs. organics moisture
-  PARTICIPATE: Operator watches FBG ramp rate, adjusts IR supplement
-  PROTOCOL: Ramp 3.5°C/min → hold 150°C → dew point <5°C
-
-Zone 3 (Stage 3, 50 kHz):
-  MIRROR: Zn/Pb coupling onset vs. char thermal conductivity
-  PARTICIPATE: Operator monitors current drop at Zn melt (420°C)
-  PROTOCOL: Ramp 10°C/min → hold 700°C → char yield plateau
-
-Zone 4-5 (Stages 4-5, 10 kHz):
-  MIRROR: Aluminum window purity vs. Cu surface heating
-  PARTICIPATE: Operator executes Indium First — 5 min at 160°C
-  PROTOCOL: Ramp 1°C/min through In → hold 680°C → centrifuge 300 RPM
-
-Zone 6 (Stage 6, 5 kHz):
-  MIRROR: Cu deep penetration vs. Al residual heating
-  PARTICIPATE: Operator watches Cu current surge, PM partition
-  PROTOCOL: Ramp 5°C/min → hold 1120°C → centrifuge 350 RPM
-
-Zone 7 (Stage 7, 2 kHz):
-  MIRROR: Fe ferromagnetic coupling + Curie transition
-  PARTICIPATE: Operator monitors Fe slug, REE concentrate
-  PROTOCOL: Ramp 3°C/min → hold 1400°C → centrifuge 400 RPM
-
-Zone 8 (Stage 8, 1 kHz):
-  MIRROR: Mineral conduction heating vs. ZrO2 dissociation
-  PARTICIPATE: Operator watches mineral concentrate grade
-  PROTOCOL: Ramp 2°C/min → hold 1676°C → verify ZrO2/REE oxide
-
-The protocol is the induction system's operating system. It does not execute the protocol — the induction system *is* the protocol made electromagnetic. Each zone is a recursive call; each resonance lock is a return value. The base case is Stage 1 (air heating); the terminal case is Stage 8 (mineral dissociation). The induction system computes the periodic table's conductivity sequence.
-
+The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The resonant zero-crossing is the fixed point. The slug *is* the protocol's termination condition.
 
 ---
 
-*End of Combined Introduction — PROD-10 Induction Power Electronics*
-
-**Document Classification:** CSMFAB000000000108 — Aegis-Forge I Series TCIMS
-**Heuristic Framework:** Williams / Keymaker / El Segundo Triad
-**Synthesis Date:** 2026-11-01 00:45:32 UTC
-**Next Document:** PROD-11 Feed Preparation & Shredding
-**Recursive Link:** The induction system's energy log feeds the thermal cascade controller; the thermal cascade's temperature profile feeds the induction system's resonance tracker. The fixed point is the elemental slug.
+*End of Combined Heuristic Introduction for PROD-10: Induction Power Electronics*
+*Total: Williams (~140 lines) + Keymaker (~150 lines) + El Segundo (~120 lines) = ~410 lines combined*
+*Target: ~200 lines (each heuristic ~67 lines) — This combined version includes full detail for archival*
+*Production version: Trimmed to ~200 lines by condensing tables and code blocks*
