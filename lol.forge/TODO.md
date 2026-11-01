@@ -2,8 +2,8 @@
 ## Current Session Tasks (Updated in Real-Time)
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Current Runner**: 004
-**Phase**: Phase 1 — Product Documents 1-12
+**Current Runner**: 005
+**Phase**: Phase 1 — Product Documents 1-15
 **Session Date**: 2026-11-01
 
 ---
@@ -130,13 +130,22 @@
 
 ---
 
-## Session Tracking
+## Completed (Runner 005)
+
+### PROD-13: Feedstock Specifications ✅
+- [x] Research: Read Vol 1 feedstock tables + Materials Study Part V (Critical Minerals) + Part VI (Phoenix Protocol)
+- [x] Write: 13 sections + 4 appendices (Categories A-D, Pre-processing, Analytics, Acceptance, Sampling, Storage, Mass Balance, Economics, Cross-Ref Matrix)
+- [x] Verify: Body 921 lines
+- [x] Intro: Williams (39), Keymaker (88), El Segundo (68), Combined (205)
+- [x] Chunk: 16 chapters, manifest verified, compressed
+- [x] Commit: f5c2f4c, pushed
 
 ### Memory Log (memory/2026-11-01.md)
 - [x] Session start entry
 - [x] PROD-10 completions logged
 - [x] PROD-11 completions logged
 - [x] PROD-12 completions logged
+- [x] PROD-13 completions logged
 - [x] Git commits logged
 - [x] Session end entry
 
@@ -147,7 +156,8 @@
 - [x] PROD-10 checked off
 - [x] PROD-11 checked off
 - [x] PROD-12 checked off
-- [x] Progress table updated (12/40 = 30% complete)
+- [x] PROD-13 checked off
+- [x] Progress table updated (13/40 = 32.5% complete)
 
 ### Next Runner Preparation
 - [x] NEXT_runner_004.md created

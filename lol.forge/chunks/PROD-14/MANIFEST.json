@@ -1,0 +1,58 @@
+{
+  "PROD-14_01_intro.md": {
+    "size": 71,
+    "sha256": "ead42168240d7e2d186afcd93cbc18259109c021922ef27f09bbee649f39e830"
+  },
+  "PROD-14_02_csmfab000000000109__aegis-forg.md": {
+    "size": 478,
+    "sha256": "3d978fdacc2001339cc04db690ea746f09d7b2eedcd15b7563aaab65ed587c51"
+  },
+  "PROD-14_03_1_document_header__scope.md": {
+    "size": 4240,
+    "sha256": "bda2c7cc0a5107517d957874ab73656fb1508299b337fcc0df61db4b3481e49e"
+  },
+  "PROD-14_04_2_stage_0_acoustic_mineral_lib.md": {
+    "size": 11856,
+    "sha256": "804f3d39036b1296bf9f59d59a954b60c25fcd079f4b33348e6c63f9bf0b9496"
+  },
+  "PROD-14_05_3_stage_1_infrared_drying_80-1.md": {
+    "size": 6880,
+    "sha256": "9609903c359b56c05affd834fdc45dba5530acd954dc976682052b5d924cf8ac"
+  },
+  "PROD-14_06_4_throughput__residence_time.md": {
+    "size": 1151,
+    "sha256": "096009715aaacc3768cb94ab24cfd3ea097c698838ed82b1b268539ab27b4817"
+  },
+  "PROD-14_07_5_energy_balance.md": {
+    "size": 1427,
+    "sha256": "6a51e56947eef2ab29d6acf774e667633f52d76b6d3553d78f6ebd88080bd757"
+  },
+  "PROD-14_08_6_wear__maintenance.md": {
+    "size": 1661,
+    "sha256": "4d2a20a9077ac455ac251d8043b0d266b6534cf71678be9ca4bb8543e4e6dce5"
+  },
+  "PROD-14_09_6_control_system_architecture.md": {
+    "size": 4549,
+    "sha256": "4cae692797f4c44b17b6d3ba1cff01bdba3f802f94a5dd7952964799144b2017"
+  },
+  "PROD-14_10_7_scaling_laws.md": {
+    "size": 1580,
+    "sha256": "2e104094c40845868a140be5c9aef48d7f41ba74d1dc972e88baf9f583e03799"
+  },
+  "PROD-14_11_8_safety__environmental.md": {
+    "size": 1715,
+    "sha256": "bbac9c2b1f6f8bb80a5016800e7ae6e8a984a6d586270e921309857c4bdc1657"
+  },
+  "PROD-14_12_9_performance_specifications_v.md": {
+    "size": 1282,
+    "sha256": "f770a1aeab38b44b0974c5e2651bb3e32534db3ddb37f467cdc2d9f00bf33aa9"
+  },
+  "PROD-14_13_10_cross-reference_matrix.md": {
+    "size": 2599,
+    "sha256": "2b7fa73002375f38f44d406700d8f460eb8d97b03a64316e293aaec1cdda767e"
+  },
+  "PROD-14_14_8_appendices.md": {
+    "size": 2461,
+    "sha256": "e4df6c94ce1c3025a40de60d86707be1d0b1006a9143ac2221dca4d2457e7caf"
+  }
+}
