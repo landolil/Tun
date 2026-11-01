@@ -3,52 +3,80 @@
     "size": 39,
     "sha256": "e8cc163e1ccc3c2e7b91753c5a4144a451db7a27c29140ab0a1457359dfbf5a6"
   },
-  "chapter_02_csmfab000000000108_-_aegis-for.md": {
-    "size": 386,
-    "sha256": "5a56273e50dd9fc18b8a5d1dd5b05434e6a49c17cefa9c1ecf7c8f88a3b4546b"
+  "chapter_02_csmfab000000000108__aegis-forg.md": {
+    "size": 453,
+    "sha256": "8f05d066d5ef55c0ea5a524ddc8812e7e8076b2d4d83d451cf3f04cf178778e8"
   },
-  "chapter_03_1_purpose__design_mandate.md": {
-    "size": 2039,
-    "sha256": "423de886b8ae5912fd8e17f3006c9a7faca72b6b0cb197422c137bbc83aa065d"
+  "chapter_03_1_feedstock_categories_a-d__cl.md": {
+    "size": 4324,
+    "sha256": "03226a5be4a9f8f9aaf1658da9ee31bce261cdc60d374ffb89aeb86ba5df698f"
   },
-  "chapter_04_2_feedstock_categories_a-d__in.md": {
-    "size": 4869,
-    "sha256": "6e4e85a3272fe6a614a0327f3a642f6b7db2715efbfc53080b8f4e1d10c82585"
+  "chapter_04_15_feedstock_blending_strategy.md": {
+    "size": 2262,
+    "sha256": "3e8ad07c7b9dcfe4638f62da5aa0018109c1c2683515027c41c229e227614194"
   },
-  "chapter_05_3_pre-processing_flow__from_in.md": {
-    "size": 9251,
-    "sha256": "9b8a12dfd763a0aa8c1675198c8d702a511cf1be19c7d08bf820851f3f65cc05"
+  "chapter_05_16_hazardous_material_handling.md": {
+    "size": 966,
+    "sha256": "61c6e1b8e34ccd334e5272c1ecf22d2c2e5536939be12f26ad7115bfc06eb047"
   },
-  "chapter_06_4_bfrp-blade_shredder_design__.md": {
-    "size": 5617,
-    "sha256": "8a04496461beb0eb7b2b78b8f2c9a133da8a769d357c6f8ebc59658c1be9b782"
+  "chapter_06_2_pre-processing_flow__from_ga.md": {
+    "size": 1290,
+    "sha256": "f533a99472ee1b7353b5598bfb100261e31c54c6d3c8af1b569b82d1b8baa523"
   },
-  "chapter_07_5_permanent_magnet_ferrous_sep.md": {
-    "size": 4836,
-    "sha256": "9a50a616d0d82406f2823af0975c74771ee5321e3a7e729f9f9c389471bd76af"
+  "chapter_07_3_bfrp-blade_shredder_design__.md": {
+    "size": 3888,
+    "sha256": "8057b84aed129e91f579a4adc68f1347df52ae55935ff6ebc387d1e691ef7ee6"
   },
-  "chapter_08_6_particle_size__distribution_.md": {
-    "size": 6350,
-    "sha256": "ac99eaca06d5bf8e84b4e6dd4ead6a29f8157cd43a266eb821fe1669a1942f37"
+  "chapter_08_4_permanent_magnet_ferrous_sep.md": {
+    "size": 2270,
+    "sha256": "cb07ae7f4cd1223dc7cf2cd1c2786d9788fc0b5691ba3f4ad98c6e6eabffce0c"
   },
-  "chapter_09_7_moisture_pre-check__pre-dry_.md": {
-    "size": 4217,
-    "sha256": "64b8f95b8206a9aeed51aef13e84d1a52a661708c4d3c826692cd7c5baf06dc7"
+  "chapter_09_5_particle_size_distribution__.md": {
+    "size": 1601,
+    "sha256": "0f348cd1623cec1ba50b9c5ef870a527243cb54879e1552a2369f1a1664e0e5b"
   },
-  "chapter_10_8_shredder_wear__maintenance__.md": {
-    "size": 6670,
-    "sha256": "fb60be047eeb45c25ad2ab5e2d8dbd2923a578430f45b2198300c47e0d590655"
+  "chapter_10_6_moisture_pre-check_and_pre-d.md": {
+    "size": 1946,
+    "sha256": "2391920353e2755bde952b3c6a4b2c5e4c655a41429cf39bb33008eb85e55062"
   },
-  "chapter_11_9_safety_systems__jam_detectio.md": {
-    "size": 5890,
-    "sha256": "5f473b5abc40b6ef8e8198bfa826b6e669786b42314c6d076aa63f7e9fbda164"
+  "chapter_11_7_shredder_wear_and_maintenanc.md": {
+    "size": 1614,
+    "sha256": "8ee6baef04b106b7df5734e56c6160df0e49f5f17013e3e74eea33038ef0c957"
   },
-  "chapter_12_10_performance_specifications_.md": {
-    "size": 4555,
-    "sha256": "0bcc08937efc18d8e8161029476aa61cf71e885a927a2c6f3774ad8a5d2df9cf"
+  "chapter_12_8_safety_systems__jam_detectio.md": {
+    "size": 1656,
+    "sha256": "1e74161dacae7b4b6bc4a620163be7144ee4eb5c92ed0df1370bf0cbeab197fd"
   },
-  "chapter_13_11_downstream_integration__dru.md": {
-    "size": 5522,
-    "sha256": "77abcfa3f96487c36806e74d70cd957e7fcf57c378ca43401057668f0cb02261"
+  "chapter_13_9_performance_specifications__.md": {
+    "size": 896,
+    "sha256": "03b40ab8c22497b01a5ee8b6fdc393e33a06f0e1d19ce1465fbe59804ed8088d"
+  },
+  "chapter_14_10_downstream_integration__dru.md": {
+    "size": 987,
+    "sha256": "fed3b7f280189c712dc40acb716b7664fb158ded1f1129fea0588214776eaea4"
+  },
+  "chapter_15_appendix_a_shredder_bom_all-ae.md": {
+    "size": 1208,
+    "sha256": "e4af649f9b9b516b58dfd0a4631b80a5bf19a8840fc399b2af022efe57900a09"
+  },
+  "chapter_16_appendix_b_particle_size_effec.md": {
+    "size": 978,
+    "sha256": "cc747d64e4b9991c59487ea97956bcd831a018cdcfe76be1ba20392f15dc3bf2"
+  },
+  "chapter_17_appendix_c_economic_analysis.md": {
+    "size": 1835,
+    "sha256": "f2a8378c140078dafd7c459a9a3b3438e0bbf5c20765fb627894f15c67853355"
+  },
+  "chapter_18_appendix_d_shredder_manufactur.md": {
+    "size": 3228,
+    "sha256": "b2b9bcb3765ec260cf1d7479830f0b49343cd7d2b53811dbbbe1559f4a742f43"
+  },
+  "chapter_19_appendix_e_commissioning_test_.md": {
+    "size": 1795,
+    "sha256": "33631c75b609aedbe632b07612f0ecd9f8166f6550cd822fa4683367b1dc021f"
+  },
+  "chapter_20_appendix_f_maintenance_schedul.md": {
+    "size": 2709,
+    "sha256": "52fad7e1da3e3769819fc02101ed6a498264e284fd8e2fcb09987ee304f997eb"
   }
 }
