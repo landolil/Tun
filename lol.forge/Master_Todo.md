@@ -88,44 +88,47 @@
   - [x] Git: Committed and pushed
 
 ### Runner 003: Gas & Output Systems (PROD-07 to PROD-09)
-- [ ] PROD-07: Gas Capture & Fume Solidification (900 lines + 200 intro)
-  - [ ] Research: Vol 4 (Doc 111) gas system, CO₂ capture, plasma torch
-  - [ ] Write: CO₂ sequestration, SO₂/HCl scrubber, condensation stages
-  - [ ] Write: Char closed-loop (Stage 3 char → Stage 1 adsorption)
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-08: Slug Cooling & Output Catalog (900 lines + 200 intro)
-  - [ ] Research: Vol 5 (Doc 112) assembly line, ZrO₂ molds, mass spec
-  - [ ] Write: 8-position ceramic carousel, N₂ quench, spot-check MS
-  - [ ] Write: Slug catalog per stage (composition, mass, downstream use)
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-09: Material Exit Port Valve System (900 lines + 200 intro)
-  - [ ] Research: Vol 1 port valves, Ti₃AlC₂ MAX phase, PEEK springs
-  - [ ] Write: 8 ports, 44.2° spacing, 12mm aperture, thermal actuation
-  - [ ] Write: Bimetal-equivalent ceramic actuator, centrifugal ejection
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-07: Gas Capture & Fume Solidification (900 lines + 200 intro)
+  - [x] Research: Vol 4 (Doc 111) gas system, CO₂ capture, plasma torch
+  - [x] Write: CO₂ sequestration, SO₂/HCl scrubber, condensation stages
+  - [x] Write: Char closed-loop (Stage 3 char → Stage 1 adsorption)
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking
+- [x] PROD-08: Slug Cooling & Output Catalog (900 lines + 200 intro)
+  - [x] Research: Vol 5 (Doc 112) assembly line, ZrO₂ molds, mass spec
+  - [x] Write: 8-position ceramic carousel, N₂ quench, spot-check MS
+  - [x] Write: Slug catalog per stage (composition, mass, downstream use)
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking
+- [x] PROD-09: Material Exit Port Valve System (900 lines + 200 intro)
+  - [x] Research: Vol 1 port valves, Ti₃AlC₂ MAX phase, PEEK springs
+  - [x] Write: 8 ports, 44.2° spacing, 12mm aperture, thermal actuation
+  - [x] Write: Bimetal-equivalent ceramic actuator, centrifugal ejection
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking
 
 ### Runner 004: Power & Feed Systems (PROD-10 to PROD-12)
-- [ ] PROD-10: Induction Power Electronics (900 lines + 200 intro)
-  - [ ] Research: Vol 1 GaN inverters, PMMA fiber FBG, PID ±5°C
-  - [ ] Write: 8 resonant inverters, variable frequency, optical feedback
-  - [ ] Write: 3-phase 480V supply, 500kW total, isolation strategy
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-11: Feed Preparation & Shredding (900 lines + 200 intro)
-  - [ ] Research: Vol 1 feedstock specs, BFRP blades, ferrous separation
-  - [ ] Write: Permanent magnet belt, BFRP-blade shredder <150mm
-  - [ ] Write: Category A-D feedstock specs, moisture pre-check
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
-- [ ] PROD-12: All-Aegis Material BOM Deep-Dive (900 lines + 200 intro)
-  - [ ] Research: Vol 1 24-component BOM, CSMFAB references
-  - [ ] Write: Each component material, spec, CSMFAB doc reference
-  - [ ] Write: Zero-metal construction proof, dielectric citadel
-  - [ ] Generate: 3 heuristic intros + COMBINED_INTRO
-  - [ ] Verify: Line counts, manifest, chunking
+- [x] PROD-10: Induction Power Electronics (1061 lines + 200 intro)
+  - [x] Research: Vol 3 power electronics, GaN inverters, FBG sensors, PID control
+  - [x] Write: 8 resonant inverters, variable frequency, optical feedback
+  - [x] Write: 3-phase 480V supply, 500kW total, isolation strategy
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking (25 chapters)
+  - [x] Git: Committed c673a53, pushed
+- [x] PROD-11: Feed Preparation & Shredding (1067 lines + 200 intro)
+  - [x] Research: Vol 4 feed prep, BFRP shredder, ferrous pre-separation
+  - [x] Write: Permanent magnet belt, BFRP-blade shredder <150mm
+  - [x] Write: Category A-D feedstock specs, moisture pre-check
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking (20 chapters)
+  - [x] Git: Committed 046828d, pushed
+- [x] PROD-12: All-Aegis Material BOM Deep-Dive (950 lines + 200 intro)
+  - [x] Research: Vol 1 BOM, Materials Study Parts I-VI, CSMFAB-P001-P008
+  - [x] Write: 24-component master table, 6 material classes, in-house synthesis, supply chain, zero-metal proof, Phoenix Protocol, cost model, performance specs, cross-ref matrix
+  - [x] Write: Zero-metal construction proof, dielectric citadel
+  - [x] Generate: 3 heuristic intros + COMBINED_INTRO
+  - [x] Verify: Line counts, manifest, chunking (18 chapters)
+  - [x] Git: Committed and pushed
 
 ### Runner 005: Feedstock & Stage 0-1 (PROD-13 to PROD-15)
 - [ ] PROD-13: Feedstock Specifications (900 lines + 200 intro)
@@ -314,7 +317,7 @@
 | Phase | Documents | Status | Target Runner |
 |-------|-----------|--------|---------------|
 | 0: Init | 0 | 100% | 000 |
-| 1: PROD 1-10 | 10 | 60% (PROD-01 through 06 done) | 001-005 |
+| 1: PROD 1-10 | 10 | 100% | 001-005 |
 | 2: PROD 11-20 | 10 | 0% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
@@ -324,7 +327,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 7.5% (6/80 complete)
+**Total**: 80 documents | **Overall Progress**: 15% (12/80 complete)
 
 ---
 
@@ -355,6 +358,6 @@ lol.forge: merge — phase completion merge
 
 ---
 
-*Last Updated: 2026-10-31 | Next Review: Start of each session*
+*Last Updated: 2026-11-01 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 next: PROD-07, PROD-08, PROD-09*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Phase 1 complete: 12/10 Product Documents (PROD-01 through PROD-12). Next: Runner 005 — PROD-13, PROD-14, PROD-15.*

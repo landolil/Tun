@@ -2,9 +2,9 @@
 ## Current Session Tasks (Updated in Real-Time)
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Current Runner**: 003
-**Phase**: Phase 1 — Product Documents 1-10
-**Session Date**: 2026-10-30
+**Current Runner**: 004
+**Phase**: Phase 1 — Product Documents 1-12
+**Session Date**: 2026-11-01
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-## Active Tasks (Runner 003)
+## Completed (Runner 003)
 
 ### PROD-04: ZrB₂-SiC Drum Engineering ✅
 - [x] Research: Vol 1 drum specs, flash sintering, liner zones
@@ -77,29 +77,81 @@
 
 ---
 
+## Completed (Runner 004)
+
+### PROD-07: Gas Capture & Fume Solidification ✅
+- [x] Research: Vol 2 gas capture, CO₂/SO₂/HCl capture, plasma torch
+- [x] Write: 12 sections (scrubbers, plasma, solidification, performance)
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
+- [x] Verify: Line counts >= 900, manifest, chunking
+- [x] Commit: Git add, commit, push PROD-07
+
+### PROD-08: Slug Cooling & Output Catalog ✅
+- [x] Research: Vol 1 slug molds, ZrO₂, quench, mass spec
+- [x] Write: 10 sections (mold carousel, quench, catalog, QA)
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
+- [x] Verify: Line counts >= 900, manifest, chunking
+- [x] Commit: Git add, commit, push PROD-08
+
+### PROD-09: Material Exit Port Valve System ✅
+- [x] Research: Vol 1 port valves, Ti₃AlC₂ actuators, thermal actuation
+- [x] Write: 11 sections (valve design, actuation, sealing, reliability)
+- [x] Generate: 3 heuristic intros + COMBINED_INTRO (200 lines)
+- [x] Verify: Line counts >= 900, manifest, chunking
+- [x] Commit: Git add, commit, push PROD-09
+
+---
+
+## Completed (Runner 004 - Current)
+
+### PROD-10: Induction Power Electronics ✅
+- [x] Research: Vol 3 power electronics, GaN inverters, FBG sensors, PID control
+- [x] Write: 13 sections (architecture, GaN, driver, FBG, PID, selective heating, thermal-EM, gap, efficiency, thermal mgmt, safety, scaling, test)
+- [x] Verify: Body 1061 lines
+- [x] Intro: Williams (20), Keymaker (33), El Segundo (37), Combined (110)
+- [x] Chunk: 25 chapters, manifest verified, compressed
+- [x] Commit: c673a53, pushed
+
+### PROD-11: Feed Preparation & Shredding ✅
+- [x] Research: Vol 4 feed prep, BFRP shredder, ferrous pre-separation, acoustic pre-chamber
+- [x] Write: 14 sections (architecture, BFRP blades, acoustic, NdFeB separator, throughput, wear, control)
+- [x] Verify: Body 1067 lines
+- [x] Intro: Williams (20), Keymaker (33), El Segundo (37), Combined (110)
+- [x] Chunk: 20 chapters, manifest verified, compressed
+- [x] Commit: 046828d, pushed
+
+### PROD-12: All-Aegis Material BOM Deep-Dive ✅
+- [x] Research: Vol 1 BOM, Materials Study Parts I, III, IV, V, VI, CSMFAB-P001-P008
+- [x] Write: 14 sections + 2 appendices (24-component master table, 6 material classes, in-house synthesis, supply chain, zero-metal proof, Phoenix Protocol, cost model, performance specs, cross-ref matrix)
+- [x] Verify: Body ~950 lines
+- [x] Intro: Williams, Keymaker, El Segundo, Combined (all ~200 lines each)
+- [x] Chunk: 18 chapters, manifest verified, compressed
+- [x] Commit: pushed
+
+---
+
 ## Session Tracking
 
-### Memory Log (memory/2026-10-30.md)
+### Memory Log (memory/2026-11-01.md)
 - [x] Session start entry
-- [x] PROD-02 completions logged
-- [x] PROD-03 completions logged
-- [x] PROD-04 completion logged
-- [x] PROD-05 completion logged
-- [x] PROD-06 completion logged
+- [x] PROD-10 completions logged
+- [x] PROD-11 completions logged
+- [x] PROD-12 completions logged
 - [x] Git commits logged
 - [x] Session end entry
 
 ### Master_Todo.md Updates
-- [x] PROD-02 checked off
-- [x] PROD-03 checked off
-- [x] PROD-04 checked off
-- [x] PROD-05 checked off
-- [x] PROD-06 checked off
-- [x] Progress table updated
+- [x] PROD-07 checked off
+- [x] PROD-08 checked off
+- [x] PROD-09 checked off
+- [x] PROD-10 checked off
+- [x] PROD-11 checked off
+- [x] PROD-12 checked off
+- [x] Progress table updated (12/40 = 30% complete)
 
 ### Next Runner Preparation
-- [x] NEXT_runner_003.md created
-- [x] NEXT_runner_004.md created (for PROD-07, 08, 09)
+- [x] NEXT_runner_004.md created
+- [x] NEXT_runner_005.md created (for PROD-13, 14, 15)
 
 ---
 
@@ -118,27 +170,27 @@ from pathlib import Path
 content = """## Section Title
 Content here...
 """
-Path("docs/PROD-04_ZrB2SiC_Drum_Engineering.md").write_text(
-    Path("docs/PROD-04_ZrB2SiC_Drum_Engineering.md").read_text() + "\n" + content
+Path("docs/PROD-12_All_Aegis_Material_BOM_Deep_Dive.md").write_text(
+    Path("docs/PROD-12_All_Aegis_Material_BOM_Deep_Dive.md").read_text() + "\n" + content
 )
 PYEOF
 ```
 
-Verify line count: `wc -l docs/PROD-04_ZrB2SiC_Drum_Engineering.md`
+Verify line count: `wc -l docs/PROD-12_All_Aegis_Material_BOM_Deep_Dive.md`
 
-Generate intros: `python3 scripts/generate_intros.py --doc PROD-04 --type prod`
+Generate intros: `python3 scripts/generate_intros.py --doc PROD-12 --type prod`
 
 Chunk/verify/compress:
 ```bash
-python3 Research/__Python_Tools/write_large_file.py split docs/PROD-04_ZrB2SiC_Drum_Engineering.md chunks/PROD-04 chapter .md
-python3 Research/__Python_Tools/write_large_file.py manifest chunks/PROD-04
-python3 Research/__Python_Tools/write_large_file.py verify chunks/PROD-04
-python3 Research/__Python_Tools/write_large_file.py compress docs/PROD-04_ZrB2SiC_Drum_Engineering.md
+node scripts/split_chunks.js split docs/PROD-12_All_Aegis_Material_BOM_Deep_Dive.md chunks/PROD-12 PROD-12
+node scripts/split_chunks.js manifest chunks/PROD-12
+node scripts/split_chunks.js verify chunks/PROD-12
+node scripts/split_chunks.js compress docs/PROD-12_All_Aegis_Material_BOM_Deep_Dive.md
 ```
 
-Git commit: `git add -A && git commit -m "lol.forge: PROD-04 ZrB2-SiC Drum — 900+ lines + 200 line combined intro" && git push`
+Git commit: `git add -A && git commit -m "lol.forge: PROD-12 All-Aegis Material BOM — 950+ lines + 4 heuristic intros" && git push`
 
-Heartbeat: `echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 003 PROD-04 Drum specs 25 lines 250 total OK" >> HEARTBEAT_LOLFORGE.md`
+Heartbeat: `echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 004 PROD-12 BOM complete 950 lines OK" >> HEARTBEAT_LOLFORGE.md`
 
 ---
 
