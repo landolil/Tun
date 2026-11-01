@@ -82,11 +82,11 @@
 - [x] 1.3.15 Log completion to memory/ + git commit
 
 #### 1.4 Runner 001 Wrap-up (5 tasks)
-- [ ] 1.4.1 Verify all 3 document chunks + manifests
-- [ ] 1.4.2 Update master index: chunks/MASTER_INDEX.json
-- [ ] 1.4.3 Create NEXT_runner_002.md handoff
-- [ ] 1.4.4 Git: Commit all, tag runner-001-complete
-- [ ] 1.4.5 Update RESUME_SESSION_MAGNETS.md for next session
+- [x] 1.4.1 Verify all 3 document chunks + manifests
+- [x] 1.4.2 Update master index: chunks/MASTER_INDEX.json
+- [x] 1.4.3 Create NEXT_runner_002.md handoff
+- [x] 1.4.4 Git: Commit all, tag runner-001-complete
+- [x] 1.4.5 Update RESUME_SESSION_MAGNETS.md for next session
 
 ### Phase 2: Brokerage Architecture — Runner 002 (Tasks 66-140)
 
