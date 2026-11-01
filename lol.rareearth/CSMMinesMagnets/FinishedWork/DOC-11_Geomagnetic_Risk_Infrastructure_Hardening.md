@@ -4324,3 +4324,225 @@ To recover from 0.85 to 0.90 pu: ΔP = 0.05 / 0.001 = **50 MW shed per bus**.
 
 **Recommendation**: Deploy **GIC-based RAS Layer 1–3 by 2026** (Phase 1 hardening). Layer 4–6 require mining SCADA integration (Phase 2). The 400 MW shed capability provides voltage recovery margin for G4/G5 events without collapsing critical mining/Aegis-Forge processes.
 
+
+### 7.5 Operator Decision Timeline (CME Detection → Grid Impact: 18–36 hrs)
+
+The time between coronal mass ejection (CME) detection and geomagnetic impact on Earth's grid is the critical decision window. This section defines the timeline, decision points, and responsibilities for CEN operators.
+
+**Space Weather Timeline (Typical CME):**
+```
+T-0:       CME eruption (solar flare observed)
+T+0–1 hr:  SWPC issues Watch (CME parameters: speed, direction, mass)
+T+1–4 hr:  DSCOVR/L1 confirms CME arrival (Bz, V_sw, density)
+T+4–8 hr:  SWPC issues Warning (geomagnetic storm imminent)
+T+18–36 hr: CME arrives at Earth → Geomagnetic storm → GIC
+T+36–72 hr: Storm main phase (peak GIC)
+T+72+ hr:  Recovery phase (decaying GIC)
+```
+
+**Carrington-Class Exception (1859):**
+- CME speed: ~2,380 km/s (vs. typical 400–1,000 km/s)
+- Transit time: **17.6 hours** (vs. typical 48–72 hours)
+- **Decision window: < 18 hours** from L1 confirmation to impact
+
+**CEN Operator Decision Timeline (Standard CME):**
+
+| Time | Event | CEN Action | Responsible | Tools |
+|------|-------|------------|-------------|-------|
+| **T-48 to T-24 hr** | SWPC 3-Day Forecast (G1–G2) | Review forecast, verify monitoring | Shift Supervisor | SWPC API, SHOA |
+| **T-24 to T-12 hr** | SWPC 1-Day Forecast (G2–G3) | Brief oncoming shift, verify RAS | Shift Supervisor | SWPC, SHOA K_CL |
+| **T-12 to T-6 hr** | DSCOVR L1 Data (CME confirmed) | **Pre-arm RAS**, notify mining | Control Center Manager | DSCOVR, SWPC Warning |
+| **T-6 to T-2 hr** | SWPC Warning Issued (G3–G4) | **Arm RAS**, mining curtailment prep | Director of Operations | SWPC Warning, SHOA |
+| **T-2 to T-0 hr** | Storm Commencement (SSC) | **Execute RAS/Islanding** (auto) | RAS System | Real-time GIC, V, f |
+| **T+0 to T+6 hr** | Storm Main Phase | Monitor, coordinate load shed | Control Center Manager | GIC Dashboard, SCADA |
+| **T+6 to T+24 hr** | Peak/Decay | Assess damage, plan restoration | Director + Engineers | DGA, FRA, Visual |
+| **T+24 to T+72 hr** | Recovery | Phased restoration, blackstart | General Manager | CEN Restoration Plan |
+
+**Decision Gates (Go/No-Go):**
+
+| Gate | Condition | Go Action | No-Go Action |
+|------|-----------|-----------|--------------|
+| **Gate 1 (T-12 hr)** | SWPC G3 Watch + DSCOVR confirms Earth-directed | Pre-arm RAS, mining notify | Continue monitoring |
+| **Gate 2 (T-6 hr)** | SWPC G3 Warning + Bz < -10 nT sustained | Arm RAS, mining curtail | Hold RAS armed |
+| **Gate 3 (T-1 hr)** | SHOA K_CL ≥ 6 OR I_GIC > 50 A | Full RAS armed, mining shed P4 | Disarm if false alarm |
+| **Gate 4 (T-0)** | SSC detected + I_GIC rising | Auto-execute islanding | N/A (automatic) |
+
+**Operator Workload Management:**
+- **Minimum Staffing (G3+)**: 3 operators (SCADA, RAS, Comms) + 1 Manager
+- **Shift Extension**: 12-hr shifts during G3+ (max 16 hr with relief)
+- **Fatigue Management**: Mandatory 8-hr rest after 16-hr shift
+- **Backup**: Off-site control center (Santiago + Antofagasta redundancy)
+
+**Communication Protocols (CEN Internal):**
+| Channel | Use | Redundancy |
+|---------|-----|------------|
+| **Primary** | CEN SCADA Voice + Chat (Microsoft Teams Gov) | Fiber |
+| **Secondary** | Satellite Phone (Iridium) + HF Radio | Satellite |
+| **Tertiary** | SENAPRED COE Line (Dedicated) | Gov Network |
+| **Mining Direct** | Dedicated Fiber (Escondida, Collahuasi, Los Pelambres) | Fiber |
+
+**Decision Support Tools (CEN Control Center):**
+1. **GIC Dashboard**: Real-time I_GIC, V, f, RAS status (auto-refresh 1 s)
+2. **SWPC/SHOA Feed**: Integrated alerts, K_CL, DSCOVR Bz/V
+3. **Contingency Analysis**: N-1 + GIC (run every 5 min during G3+)
+4. **Restoration Simulator**: Post-event recovery sequencing
+5. **Damage Assessment**: Transformer DGA/FRA scheduling tool
+
+**Carrington-Class Compressed Timeline (17.6 hr transit):**
+| Time | Event | Action |
+|------|-------|--------|
+| T-18 hr | DSCOVR confirms extreme CME (V > 2,000 km/s, Bz < -100 nT) | **Emergency Declaration**, full RAS arm, mining immediate curtail |
+| T-12 hr | SWPC G5 Warning | **Alerta Roja**, SENAPRED COE activation |
+| T-6 hr | L1 Bz < -200 nT confirmed | **Full Islanding Pre-arm**, blackstart units online |
+| T-2 hr | Ionospheric absorption (HF comms loss) | Satellite comms only |
+| T-0 hr | SSC (sudden commencement) | **Auto-islanding execution** |
+| T+1 hr | Peak GIC (200–300 A) | Monitor, blackstart cranking paths |
+| T+12 hr | Storm decay | Damage assessment, phased restoration |
+
+**Key Formula — Decision Window:**
+```
+T_decision = T_CME_arrival - T_detection - T_operator_response
+T_CME_arrival = 17.6 hr (Carrington) to 72 hr (typical)
+T_detection = 1 hr (flare) to 4 hr (L1 confirmation)
+T_operator_response = 30 min (pre-arm) to 2 hr (full arm)
+```
+**Minimum Decision Window (Carrington)**: 17.6 - 4 - 0.5 = **13.1 hours**
+**Typical Decision Window**: 48 - 4 - 1 = **43 hours**
+
+**Recommendation**: Codify **CEN Operating Procedure PO-GIC-003 (Operator Decision Timeline)** with mandatory Gate reviews, shift protocols, and fatigue management. Conduct quarterly tabletop exercises with compressed Carrington timeline.
+
+
+### 7.6 Post-Event Assessment & Recovery Procedures
+
+After a geomagnetic storm, systematic assessment and phased recovery are essential to restore the grid safely and document lessons learned.
+
+**Phase 1: Immediate Post-Storm (T+0 to T+6 hr)**
+
+**Transformer Assessment (Priority Order):**
+| Priority | Transformers | Assessment | Action |
+|----------|--------------|------------|--------|
+| 1 | 500/220 kV autos with I_GIC > 100 A | Visual (bushings, tank), DGA (oil sample) | If DGA normal → re-energize; if abnormal → isolate |
+| 2 | 220/110 kV mining with I_GIC > 75 A | Visual, DGA, FRA (if DGA elevated) | Same as above |
+| 3 | 500/220 kV with I_GIC 50–100 A | DGA only (within 24 hr) | Schedule maintenance |
+| 4 | All others | Visual only | Return to service |
+
+**DGA (Dissolved Gas Analysis) — GIC Damage Indicators:**
+| Gas | Normal (ppm) | GIC Damage Threshold | Significance |
+|-----|--------------|---------------------|--------------|
+| **H₂** | < 100 | > 500 | Hotspot heating (core, clamps) |
+| **CH₄** | < 50 | > 200 | Core hotspot, insulation |
+| **C₂H₆** | < 10 | > 50 | Severe hotspot (>300°C) |
+| **C₂H₄** | < 20 | > 100 | Very high temp (>500°C) |
+| **CO/CO₂** | < 500 | > 2,000 | Cellulose insulation overheating |
+| **C₂H₂** | < 1 | > 5 | Arcing (unlikely from GIC alone) |
+
+**Interpretation (IEEE C57.104 + GIC Experience):**
+- **H₂ + CH₄ elevated, no C₂H₂** → Thermal heating from GIC saturation (most common)
+- **C₂H₄ + C₂H₆ elevated** → Severe core/hotspot damage
+- **CO/CO₂ elevated** → Insulation damage (paper)
+- **All gases normal** → No significant damage (re-energize OK)
+
+**FRA (Frequency Response Analysis) — Mechanical Integrity:**
+- **Test**: 20 Hz – 2 MHz sweep, compare to fingerprint
+- **GIC Damage Signatures**: 
+  - Shift in low-frequency resonance (core clamping movement)
+  - Damping change in 1–10 kHz range (winding displacement)
+- **Pass Criterion**: FRA trace within ±5% of baseline (magnitude), ±2° (phase)
+
+**Visual Inspection Checklist (Post-GIC):**
+- [ ] Bushing oil level, cracks, oil leaks
+- [ ] Tank deformation, paint blistering (hotspot indicator)
+- [ ] Radiator fin alignment, fan operation
+- [ ] Neutral bushing, CT connections, grounding straps
+- [ ] Pressure relief device (PRD) status (operated?)
+- [ ] Conservator oil level, N₂ blanket pressure
+- [ ] Cooling system (pumps, fans, flow indicators)
+
+**Phase 2: Damage Assessment & Repair (T+6 hr to T+72 hr)**
+
+**Transformer Categorization:**
+| Category | Criteria | Action | Timeline |
+|----------|----------|--------|----------|
+| **A: Undamaged** | DGA normal, FRA pass, visual OK | Return to service | Immediate |
+| **B: Minor Damage** | H₂/CH₄ elevated < 2× threshold, FRA ±5% | Online monitoring, schedule maintenance | 30 days |
+| **C: Moderate Damage** | Gases 2–5× threshold, FRA 5–10% shift | Offline repair (clamps, cooling) | 60–90 days |
+| **D: Severe Damage** | Gases > 5× threshold, FRA > 10% shift | Replace / major rewind | 180–360 days |
+| **E: Catastrophic** | Tank rupture, fire, PRD operated | Replace | 360+ days |
+
+**Repair Priority (Norte Grande Critical Path):**
+1. S/E Crucero 500/220 kV autos (3 units) — feeds Collahuasi, QB2
+2. S/E Antofagasta 500/220 kV autos (3 units) — feeds Escondida, Centinela
+3. S/E Encuentro 500/220 kV autos (2 units) — feeds Los Pelambres
+4. Mining 220/110 kV transformers (8 units)
+4. S/E Mejillones, Sección, Maitencillo 500/220 kV
+
+**Spare Transformer Strategy (CEN):**
+| Voltage | Spares Available | Location | Mobilization Time |
+|---------|------------------|----------|-------------------|
+| 500/220 kV, 500 MVA | 2 | Santiago (Polpaico) | 72 hr (heavy haul) |
+| 220/110 kV, 250 MVA | 4 | Antofagasta, Santiago | 24–48 hr |
+| 220/66 kV, 150 MVA | 3 | Antofagasta, Santiago | 24 hr |
+| 110/66 kV, 100 MVA | 6 | Distributed | 12–24 hr |
+| **Gap** | **Need 3 more 500/220 kV** | **Procurement initiated** | **24 months lead** |
+
+**Phase 3: Phased Restoration (T+24 hr to T+30 days)**
+
+**Restoration Sequence (CEN Plan):**
+1. **Blackstart Units Online** (Rapel, Colbún, Ralco, BESS) — T+2 hr
+2. **Cranking Paths** — 500 kV backbone sectionalized — T+6 hr
+3. **Critical 220 kV Mining Loads** — Priority 1 only — T+12 hr
+4. **Aegis-Forge Clusters** — Microgrid reconnection — T+6 hr (independent)
+5. **Santiago Metropolitan** — Essential services — T+18 hr
+6. **Full 500 kV Backbone** — Synchronize North/Central — T+36 hr
+7. **Non-Critical Mining Loads** — Priority 2–4 — T+48 hr
+8. **Full System Normal** — T+72 hr to T+30 days (depending on damage)
+
+**Restoration Constraints:**
+- **GIC Residual**: Verify I_GIC < 10 A before each 500 kV closing
+- **Synchronism**: Voltage/phase/frequency match < 5° / 0.5 Hz / 5%
+- **Load Pickup**: Ramp rate < 100 MW/min per cranking path
+- **Reactive Management**: Pre-switch capacitors, SVC/STATCOM online first
+
+**Phase 4: Lessons Learned & Model Update (T+30 days to T+90 days)**
+
+**Post-Event Report (CEN Standard):**
+| Section | Content | Owner |
+|---------|---------|-------|
+| 1. Event Summary | Timeline, SWPC/SHOA data, peak GIC | Operations |
+| 2. System Performance | RAS operations, load shed, islanding | Operations |
+| 3. Equipment Damage | Transformer DGA/FRA, FACTS, relays | Engineering |
+| 4. Operational Response | Decisions, timeline, communication | Control Center |
+| 5. Sectoral Impact | Mining, health, telecom, water | SENAPRED Liaison |
+| 6. Model Validation | Measured vs. predicted GIC (NRME) | Planning |
+| 7. Corrective Actions | Hardware, software, procedures | All |
+| 8. Cost Assessment | Repair, outage, societal | Finance |
+
+**Model Validation Metric (NRME):**
+```
+NRME = √(Σ(I_GIC_measured - I_GIC_predicted)² / Σ(I_GIC_measured)²)
+Target: NRME < 30% (per IEEE 1313.2)
+```
+- If NRME > 30% → Ground conductivity model update required
+- If NRME > 50% → Full model recalibration (MT survey)
+
+**Procedure Updates (Continuous Improvement):**
+- Update RAS logic (thresholds, timing)
+- Update grounding models (measured R_ground vs. design)
+- Update transformer thermal limits (DGA-calibrated)
+- Update restoration sequences (actual vs. planned)
+
+**Key Formula — Restoration Cost Estimate:**
+```
+C_restoration = Σ (C_repair_i + C_outage_i)
+C_repair_i = f(Category_i)  [A: $0, B: $50k, C: $500k, D: $5M, E: $20M]
+C_outage_i = P_lost_i × Duration_i × Value_i  [Mining: $400M/day]
+```
+**Example (Carrington, 3 Category D + 2 Category E):**
+```
+C_repair = 3×$5M + 2×$20M = $55M
+C_outage = 10 days × $400M/day = $4B
+Total ≈ $4.055B
+```
+
+**Recommendation**: Institutionalize **post-GIC event protocol** in CEN Operating Procedure PO-GIC-004, with mandatory DGA within 24 hr for all transformers with I_GIC > 50 A, FRA within 72 hr for I_GIC > 100 A, and NRME calculation for model validation. Maintain strategic spare transformer reserve (minimum 3× 500/220 kV).
+
