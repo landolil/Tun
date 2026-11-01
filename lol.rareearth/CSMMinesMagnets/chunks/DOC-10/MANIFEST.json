@@ -1,0 +1,210 @@
+{
+  "chapter_01_intro.md": {
+    "size": 72,
+    "sha256": "eb5e8c50e6faabb438450d297077350b73ed12c07af69a9d759d8b73631df740"
+  },
+  "chapter_02_chilean_magnetic_minerals_brok.md": {
+    "size": 51,
+    "sha256": "94f8891028127e39280d727875cc6ceac1b3adb7c844dee1ea515dc88f56384f"
+  },
+  "chapter_03_carrington_storm_motors_\u00d7_tard.md": {
+    "size": 268,
+    "sha256": "962f99ced562d2b65859530e27515b204695a27f098328f428617a54b84b31e5"
+  },
+  "chapter_04_table_of_contents.md": {
+    "size": 368,
+    "sha256": "b9e14bc5152910e806bbb1d3a523b9ae743ce911348e8280a7eda91357d1f35e"
+  },
+  "chapter_05_chapter_1_supply_chain_overvie.md": {
+    "size": 53,
+    "sha256": "4a3de5c7343652505ce5e82f93fcace3b5ab2e25a428363a6c6c6f6df2e0eebb"
+  },
+  "chapter_06_11_end-to-end_flow_architectur.md": {
+    "size": 4777,
+    "sha256": "11f9bbb04a0fc0ffbf9ee0d6e0db62433b876452d4c6da44769b5cb048c607a8"
+  },
+  "chapter_07_12_material_flow_formulas.md": {
+    "size": 2057,
+    "sha256": "df595d27c71d2da22393d408e1208cdfc3b7c4fada04c5c2f95ff16787515814"
+  },
+  "chapter_08_13_csm_motor_integration_requi.md": {
+    "size": 634,
+    "sha256": "d4d858ab3b241bda48c188bf19f4fd36d2f1d45553def1e8a4349b66d311c2a8"
+  },
+  "chapter_09_chapter_2_ree_separation__meta.md": {
+    "size": 44,
+    "sha256": "fa90ac3cf31f45e7b3c942b265a6fa81563d87660cdb91fbbc30379922c85aca"
+  },
+  "chapter_10_21_aegis-forge_17-stage_therma.md": {
+    "size": 1310,
+    "sha256": "475c52cd2534e3a31dc690bab25cb422866b3af0a689fcbc6f1685e070dacc70"
+  },
+  "chapter_11_22_metallization_oxide-to-meta.md": {
+    "size": 805,
+    "sha256": "1969da2e5c0bd4b5b266868cfd5cf524aa0071c1eb04f58e50579a48314b51b4"
+  },
+  "chapter_12_23_strip_casting_rapid_solidif.md": {
+    "size": 852,
+    "sha256": "76b4c81274b6826de41d383cb18de6eff6c36edc75794f4f1a8da94b490ff794"
+  },
+  "chapter_13_chapter_3_powder_production__h.md": {
+    "size": 58,
+    "sha256": "af92fe960270111151f1718caca09a23f5558901c81ec54ca069d9b6528cec4e"
+  },
+  "chapter_14_31_hddr_hydrogenation_dispropo.md": {
+    "size": 1553,
+    "sha256": "19684a79473a0fb5308f7377bf220ab0318e597910b00a81a15076539e1ee7cc"
+  },
+  "chapter_15_32_gas_atomization_fe-co_fe\u2081\u2086n.md": {
+    "size": 1076,
+    "sha256": "463880c9043017a5cd5bbcf5accb2cd64008618bf5f0db0bed571fbb752da722"
+  },
+  "chapter_16_chapter_4_sintering__heat_trea.md": {
+    "size": 40,
+    "sha256": "5b073531bcabdfbc93ac5452fa999473e7cdecfd64542495592214c8c3a00d71"
+  },
+  "chapter_17_41_vacuum_sintering_ndfeb_smco.md": {
+    "size": 1596,
+    "sha256": "33094167bd150d0bdaa326513d3b5a94901ab2cef43031dbb77ff534de8b2b2d"
+  },
+  "chapter_18_42_fe\u2081\u2086n\u2082_nitridation_process_.md": {
+    "size": 1097,
+    "sha256": "9c4e6dccab4535e52198d68d8db824f66fdc6a82182c94206c93d0db21ffe80b"
+  },
+  "chapter_19_43_fe-co_ordering_anneal.md": {
+    "size": 999,
+    "sha256": "9b6cc8f39724a53be21ab3c7985880c72edd85faa1b50704af902fc4adbc0897"
+  },
+  "chapter_20_chapter_5_machining_coating__a.md": {
+    "size": 43,
+    "sha256": "39e46bcea1a902c39de6eb111be6177c9c54073b5a6b1c0b898d9cd903f3dcdd"
+  },
+  "chapter_21_51_machining_operations.md": {
+    "size": 911,
+    "sha256": "7901955ea8e5779e3b152b0c55b2332d621fe699ad21bff52fc74c1dc079f401"
+  },
+  "chapter_22_52_coating_systems.md": {
+    "size": 1370,
+    "sha256": "08210c9eb8e049e118eaa4192c0f68152abde6d5a8f822dd7561f914023a8450"
+  },
+  "chapter_23_53_rotor_assembly_csm_motor_in.md": {
+    "size": 776,
+    "sha256": "6f82a1b631b2a86f1d36a9d3947c67feeba6098c62266bdedac567c58f1df82a"
+  },
+  "chapter_24_chapter_6_quality_gates__in-pr.md": {
+    "size": 50,
+    "sha256": "86b75d9a1ff9360a6f871af820dec6c106a4967ccbacb260c2b2a7ea39a0825b"
+  },
+  "chapter_25_61_mil-std-1540_test_requireme.md": {
+    "size": 1066,
+    "sha256": "b1aa895cdab3a3dafce7f9f5f5efe94dd44b0efd080aaa51c2560f6b66b16cf2"
+  },
+  "chapter_26_62_astm_d4169_distribution_tes.md": {
+    "size": 619,
+    "sha256": "fce47e1ab1d09f58da910401d827adf107a17c8e769078b1fa3157798cf4a92a"
+  },
+  "chapter_27_63_csm_factory_intake_specific.md": {
+    "size": 823,
+    "sha256": "a59ec9080fcf0938e3cb313c827eb3cb5af14843e665e76d10ce054c98e0b1b6"
+  },
+  "chapter_28_64_in-process_statistical_proc.md": {
+    "size": 703,
+    "sha256": "cc2661bb86ec7e518988951130393e476b03a4a21deb5c39edc71d4d75dc08fd"
+  },
+  "chapter_29_chapter_7_capex_opex_model_by_.md": {
+    "size": 42,
+    "sha256": "2140959863d535d0913df09ed880f5d2acb55251b5677df2b7ad5af2a9c19a63"
+  },
+  "chapter_30_71_facility-level_capital_expe.md": {
+    "size": 777,
+    "sha256": "7e05eeb7e4c9a7ef0a4a3aa41e00f56b16a941e06315d1fd47e9d2099950a083"
+  },
+  "chapter_31_72_operating_cost_breakdown_pe.md": {
+    "size": 1475,
+    "sha256": "0c78672ba4bc0159b9e73a2dd3c6b4942f146c4e0309e35e05891f13e77d463a"
+  },
+  "chapter_32_73_capex_sensitivity_analysis.md": {
+    "size": 618,
+    "sha256": "f339da8a5bca6101c48c6b84a0e5983d174e3bcf4feb7fe3b3c8d16d8095f88c"
+  },
+  "chapter_33_chapter_8_supply_chain_risk__r.md": {
+    "size": 44,
+    "sha256": "d9fc2f95b0809a41acaef1bf911d38c2b6b7be706f0e364610df42bbbc52913b"
+  },
+  "chapter_34_81_single_points_of_failure_sp.md": {
+    "size": 828,
+    "sha256": "cf3a8d037b210f0420f55af3816c77b8f326ac85e1e26de9bf593441feb410c0"
+  },
+  "chapter_35_82_geographic_concentration_ri.md": {
+    "size": 749,
+    "sha256": "65cd624eb1bcd14e93a47bc7385ab36023ce17a326987701a7437605063e6ffd"
+  },
+  "chapter_36_83_qualifying_country_dependen.md": {
+    "size": 1397,
+    "sha256": "348af9a8f908b432246708d4b3c90803ebb46d6026d7505f67a00712f8c7f15b"
+  },
+  "chapter_37_84_climate__geopolitical_resil.md": {
+    "size": 677,
+    "sha256": "329f64e1dd06392882f02b96248459a6d088533f136ac0bee13fbb4cdda92e52"
+  },
+  "chapter_38_85_resilience_scoring_matrix_p.md": {
+    "size": 651,
+    "sha256": "971130b20b70203dafbb4f85e7a5be80607d4b35118f10f337d6feade2404abf"
+  },
+  "chapter_39_chapter_9_traceability_matrix_.md": {
+    "size": 57,
+    "sha256": "45749431cbf09c795fd3d083d0bcf45fb462e9eeb105b398ced79c26ab1a6e66"
+  },
+  "chapter_40_91_methodology_per_doc-07_doc-.md": {
+    "size": 358,
+    "sha256": "9d1de4d230d2d795e6d49a7908ccfdfd92475e0603ae25ce56f5fd90061c9cfc"
+  },
+  "chapter_41_92_chapter_1_claims_traceabili.md": {
+    "size": 871,
+    "sha256": "9f06bfd31aed9c85afe8fe58ec397c236c3820ef5f7e7a16adb31d9f9d2a5fda"
+  },
+  "chapter_42_93_chapter_2_claims_traceabili.md": {
+    "size": 819,
+    "sha256": "d92115404cfcb133f9c13d81e921a1bcdeb2d8757e7c468c7aacf1c20a7daae4"
+  },
+  "chapter_43_94_chapter_3_claims_traceabili.md": {
+    "size": 807,
+    "sha256": "77e3ad260a82a5d9a737a78f5e830535109a2b3fb1f2f3d02c0bba3a75495a31"
+  },
+  "chapter_44_95_chapter_4_claims_traceabili.md": {
+    "size": 1051,
+    "sha256": "e4cb0ca3e92ba83282bb9829365569065e08c0c6dc1518ae67cee3ef7f9f10bb"
+  },
+  "chapter_45_96_chapter_5_claims_traceabili.md": {
+    "size": 963,
+    "sha256": "39ce9f03e005cab3d56fd2eef3912aa14f935c21d0fb5d4f5701cb1487baa853"
+  },
+  "chapter_46_97_chapter_6_claims_traceabili.md": {
+    "size": 566,
+    "sha256": "50a8f791ba84a224d5bd573750a702d01f9813f763c9283143af4b641de1b57f"
+  },
+  "chapter_47_98_chapter_7_claims_traceabili.md": {
+    "size": 676,
+    "sha256": "207e7483dc2346a21e7872d634cf37255160ac66014df2328eec78dd6867271b"
+  },
+  "chapter_48_99_chapter_8_claims_traceabili.md": {
+    "size": 796,
+    "sha256": "d81e7d43d67a534cdf9eacc53b0bc7990783be2a026c7ff689ac8b3cee57ce2e"
+  },
+  "chapter_49_910_cross-reference_index_to_d.md": {
+    "size": 1497,
+    "sha256": "a3cce029bde7862c6bb3c94555d9887b25dce8ac6b6111a326df08c4f8877ff9"
+  },
+  "chapter_50_911_standards_cited_in_doc-10.md": {
+    "size": 974,
+    "sha256": "622aa2d0a2eaa7aaa59480c9227e9d1cbac4db6ee39c379d4e53875cd6733925"
+  },
+  "chapter_51_912_conflation_check_vs_doc-01.md": {
+    "size": 1461,
+    "sha256": "90e6cec8c5d072abde4eba86360230e7ba818b41649aba577e3856fd21d27809"
+  },
+  "chapter_52_document_metadata.md": {
+    "size": 463,
+    "sha256": "f2332eb1d0cefcf467cf82915f359b3205bf7685ce602b4dc92e71cc0c56e36d"
+  }
+}

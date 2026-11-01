@@ -1,0 +1,146 @@
+{
+  "chapter_01_header_and_project_context.md": {
+    "size": 68,
+    "sha256": "4295bc034642969b4b9b9b646326df79c86daf24591b7a38053cf474cf7a4ed7",
+    "chapter": "01",
+    "title": "Header And Project Context"
+  },
+  "chapter_02_continuation_from_runner_001.md": {
+    "size": 339,
+    "sha256": "9c48a3e3ed0bd9eadeb9449ab2c64a5ba7626595d7dc8499a9e79da3ad0ad910",
+    "chapter": "02",
+    "title": "Continuation From Runner 001"
+  },
+  "chapter_03_current_project_state.md": {
+    "size": 24,
+    "sha256": "bc364fcaa826196c471ee90946e6dc7478a3a29f64a7d94f35a1b6fd197dd5ed",
+    "chapter": "03",
+    "title": "Current Project State"
+  },
+  "chapter_04_\ud83d\udccd_current_project_state_as_of_.md": {
+    "size": 2883,
+    "sha256": "298a6820b30d680e176d57b09e59007073f0f3237585e3acb83598411e66a168",
+    "chapter": "04",
+    "title": "\ud83d\udccd Current Project State As Of "
+  },
+  "chapter_05_next_actions_-_phase_2_brokera.md": {
+    "size": 44,
+    "sha256": "2d1a456b359fd350fb90d67a2589c759fc47936aa32a7c4ba59b78ead387d2b9",
+    "chapter": "05",
+    "title": "Next Actions - Phase 2 Brokera"
+  },
+  "chapter_06_\ud83d\udd04_next__phase_2_brokerage_prot.md": {
+    "size": 519,
+    "sha256": "a2fae2a9c2353d73697b5ddf9794c3b3cd7a5e84ecf3cfa6e41b0273ecddcfd4",
+    "chapter": "06",
+    "title": "\ud83d\udd04 Next  Phase 2 Brokerage Prot"
+  },
+  "chapter_07_execution_strategy.md": {
+    "size": 21,
+    "sha256": "e1b66172175fcbeccf5aa6fd009951303e0e1ed427aad5c4d6eb98d79a884ba6",
+    "chapter": "07",
+    "title": "Execution Strategy"
+  },
+  "chapter_08_\ud83d\ude80_execution_strategy__incremen.md": {
+    "size": 535,
+    "sha256": "e1fda849e160eee5dbfff65f07861af6bcf259732b1a4a323d268bbfe05bbe21",
+    "chapter": "08",
+    "title": "\ud83d\ude80 Execution Strategy  Incremen"
+  },
+  "chapter_09_quality_gates.md": {
+    "size": 16,
+    "sha256": "69181bdb29685321e287b677f37e4ebd7342084a7243cca87e4a00009631b09a",
+    "chapter": "09",
+    "title": "Quality Gates"
+  },
+  "chapter_10_\ud83c\udfaf_quality_gates__every_documen.md": {
+    "size": 959,
+    "sha256": "1de830fb2df1e7448b852666112295067edb9ad8aff08df11a442a0291fea131",
+    "chapter": "10",
+    "title": "\ud83c\udfaf Quality Gates  Every Documen"
+  },
+  "chapter_11_key_reference_documents_extend.md": {
+    "size": 52,
+    "sha256": "100f5d2b2323059c5afe24a8d0551fb04a6c0f5a4639b12697e4cc9c3d07ac28",
+    "chapter": "11",
+    "title": "Key Reference Documents Extend"
+  },
+  "chapter_12_\ud83d\udcda_key_reference_documents_alwa.md": {
+    "size": 1875,
+    "sha256": "8499c32e50bf94cfb74940c9fd3134c50134c7c9745a62cfd82bf1395f87e70e",
+    "chapter": "12",
+    "title": "\ud83d\udcda Key Reference Documents Alwa"
+  },
+  "chapter_13_handoff_protocol.md": {
+    "size": 19,
+    "sha256": "69c657a74c636d973ed524bd68020086886e6779a574d5cb76cbbd365c82a95f",
+    "chapter": "13",
+    "title": "Handoff Protocol"
+  },
+  "chapter_14_\ud83d\udd04_handoff_protocol__runner_002.md": {
+    "size": 95,
+    "sha256": "03f6131e8ca56ba1c0cc42010522ad0b87d55ef0d658e569673667382b75afca",
+    "chapter": "14",
+    "title": "\ud83d\udd04 Handoff Protocol  Runner 002"
+  },
+  "chapter_15_golden_rules.md": {
+    "size": 15,
+    "sha256": "0a87126968a4661de2f9a78f620aaa06e559cdab29679919a1180f2137476d23",
+    "chapter": "15",
+    "title": "Golden Rules"
+  },
+  "chapter_16_\u26a1_golden_rules_runner_002.md": {
+    "size": 1056,
+    "sha256": "58f919218574c69de0f72adcb805a12edf6734d5b8fd8b317f2f9f07de848d8b",
+    "chapter": "16",
+    "title": "\u26a1 Golden Rules Runner 002"
+  },
+  "chapter_17_subtask_queue.md": {
+    "size": 16,
+    "sha256": "acf845b464873d7a8983fc654b93a119cf1282c27275c176c13a2e07f0fa0f80",
+    "chapter": "17",
+    "title": "Subtask Queue"
+  },
+  "chapter_18_\ud83d\udccb_runner_002_subtask_queue.md": {
+    "size": 1823,
+    "sha256": "a7cbf494ed04f0867ac27c9c64ae0ab83700e80e20766b2af15f9fdfd4766fef",
+    "chapter": "18",
+    "title": "\ud83d\udccb Runner 002 Subtask Queue"
+  },
+  "chapter_19_doc-04_authoring_guidance.md": {
+    "size": 28,
+    "sha256": "da66f9f4ee7cae2c98fc4d145296a32f77d1ed67e26a154ad0d94061654d4d16",
+    "chapter": "19",
+    "title": "Doc-04 Authoring Guidance"
+  },
+  "chapter_20_\ud83c\udfaf_doc-04_authoring_guidance__b.md": {
+    "size": 2760,
+    "sha256": "4a875ae22c2fe6d088602f5488cf6b1b4fbc20c20295cec0206839fa79641ad1",
+    "chapter": "20",
+    "title": "\ud83c\udfaf Doc-04 Authoring Guidance  B"
+  },
+  "chapter_21_doc-05_authoring_guidance.md": {
+    "size": 28,
+    "sha256": "ee1d617f483b7f416626fc4dac18326ee1d42f1d66bd5da8496ca990ebf40a62",
+    "chapter": "21",
+    "title": "Doc-05 Authoring Guidance"
+  },
+  "chapter_22_\ud83c\udfaf_doc-05_authoring_guidance__t.md": {
+    "size": 1506,
+    "sha256": "2ec1f20c50052054d515401200c63a2ef143c57328915c3b38072b99351c557c",
+    "chapter": "22",
+    "title": "\ud83c\udfaf Doc-05 Authoring Guidance  T"
+  },
+  "chapter_23_doc-06_authoring_guidance.md": {
+    "size": 28,
+    "sha256": "6471d4c741abb26cfdc0f17781e815736c49e31394cca6202f059903abb98bef",
+    "chapter": "23",
+    "title": "Doc-06 Authoring Guidance"
+  },
+  "chapter_24_\ud83c\udfaf_doc-06_authoring_guidance__c.md": {
+    "size": 1820,
+    "sha256": "026d4b7248194780e022641969f79ef02ae770bd2e41ae3fe75f42b12d0b728a",
+    "chapter": "24",
+    "title": "\ud83c\udfaf Doc-06 Authoring Guidance  C"
+  }
+}

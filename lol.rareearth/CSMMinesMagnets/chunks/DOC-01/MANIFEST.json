@@ -1,0 +1,46 @@
+{
+  "MANIFEST.json": {
+    "size": 245,
+    "sha256": "8c3844b45d7b93ec833d682422a01db029db58262c071a688232e175001a296a"
+  },
+  "chapter_01_geological_framework_of_chile.md": {
+    "size": 4095,
+    "sha256": "eca351f507bd1b2c92270b0c3083dc3d0716b126e16a97ace7a7f65df5673718"
+  },
+  "chapter_02_iron_oxide_copper_gold_iocg_be.md": {
+    "size": 4277,
+    "sha256": "a4f672f150c6032d5e7f010c04975bcddebdb77a1fc7b405b7fddc3b920eed95"
+  },
+  "chapter_03_iron_oxide_apatite_ioa_kiruna-.md": {
+    "size": 5046,
+    "sha256": "78c938bac995ffe86c321029b73383e2f00f9a08cb642e60f88ed21a2804998c"
+  },
+  "chapter_04_porphyry_cu-mo_magnetic_byprod.md": {
+    "size": 5206,
+    "sha256": "1705dfd2151fd8e200bcd2a88272a4dad38db2ec6c86afe357066c30e923e576"
+  },
+  "chapter_05_ree_occurrences_in_atacama.md": {
+    "size": 5064,
+    "sha256": "4a7ecf1514bddb623a7b0fcc8243ccb3c5db7fedab081d6a6cb40e88ef2074f4"
+  },
+  "chapter_06_current_production_and_process.md": {
+    "size": 5166,
+    "sha256": "fac442b49f7da15537b603f9db713f19538ac18e04ab2d18083d1ae28c6de957"
+  },
+  "chapter_07_infrastructure_mapping.md": {
+    "size": 6255,
+    "sha256": "d3e0e8b096007e0cb760a265ad61fa7a30d17800791e902a7d549569a9f23d46"
+  },
+  "chapter_08_aegis-forge_integration_opport.md": {
+    "size": 4599,
+    "sha256": "bfdce4027e2d588ca1d90ced7ff8647ce8e00303392ffa58876a5f789b604597"
+  },
+  "chapter_09_carrington_storm_motors_magnet.md": {
+    "size": 5971,
+    "sha256": "711928735818ae08f6aca3fd5bb139be95b74a47d9241932d91aa233a31123f7"
+  },
+  "chapter_10_strategic_recommendations_and_.md": {
+    "size": 7555,
+    "sha256": "58befb6049a0fa14ecabdc48efe08fc25679c756913b15f04d2b02b24e71d710"
+  }
+}

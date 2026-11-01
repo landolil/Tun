@@ -1,0 +1,38 @@
+{
+  "chapter_01_multi-jurisdiction_holding_arc.md": {
+    "size": 12036,
+    "sha256": "daf80b91b630f8a7de99c9e5356dcd9dadfe767a1b9748e7a4c072c5939e7425"
+  },
+  "chapter_02_capital_stack__fundraising_seq.md": {
+    "size": 12101,
+    "sha256": "b67ace428cf3d1c933ae39930bc9d8a0baebc641d54e1238283a6a0e4b1e5c6a"
+  },
+  "chapter_03_governance_architecture.md": {
+    "size": 7077,
+    "sha256": "170c1e11f5ca007a2c038b1c9fd80cc87d0540b65dd81f216b9acceffbfd2733"
+  },
+  "chapter_04_community_equity_structure.md": {
+    "size": 7825,
+    "sha256": "5b265d358bfc887664596141478b8305b5323050c26d5ab926c6f0c83f1782c8"
+  },
+  "chapter_05_ip_strategy__technology_licens.md": {
+    "size": 6017,
+    "sha256": "bed3687b45c228ecd5021082031d2fc201d432c5db6611e6ed7238a7173a12b4"
+  },
+  "chapter_06_state_partnership_framework.md": {
+    "size": 6093,
+    "sha256": "b2ec01a0dbdfdbb65dc5b3e16e7975ac6f0e2c4af94a6b0e072b12e8be3ec103"
+  },
+  "chapter_07_exit_alignment__liquidity.md": {
+    "size": 5863,
+    "sha256": "4e56e73f13c920cd2bf19ac57587ab8d85b9411e87fd8bc7e365da08c25c5ded"
+  },
+  "chapter_08_risk_management__compliance.md": {
+    "size": 7347,
+    "sha256": "b33f50f86e0273e920caaa223f1fc32a692a95c11e6d23cabab4338f5a8d6e63"
+  },
+  "chapter_09_traceability_matrix.md": {
+    "size": 9744,
+    "sha256": "200631c545f12d76fb96ef480865701472a94319f80da02c0fdc4797191ac63b"
+  }
+}
