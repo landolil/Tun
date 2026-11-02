@@ -1,0 +1,102 @@
+{
+  "chapter_01_intro.md": {
+    "size": 59,
+    "sha256": "c16fa362078318b91ccc199e101ccd3a484f06a32f3861f51173f395aa69ed2b"
+  },
+  "chapter_02_constraint_the_lock.md": {
+    "size": 2377,
+    "sha256": "ed0f05bf73db19dbf4138a9dd30cca2e9eaedabf4c249dc395e98590753ea6df"
+  },
+  "chapter_03_necessity_the_key.md": {
+    "size": 2495,
+    "sha256": "c312333cd76e3188a02d6d6f9b41e08278eb30f7c714d9fddeba0d93ca2e50a4"
+  },
+  "chapter_04_commitment_the_turn.md": {
+    "size": 2596,
+    "sha256": "18763dd258f2d75f78c73b796beb78adf711a67fd68161e74952ca7ea698f037"
+  },
+  "chapter_05_keymaker_heuristic__implementa.md": {
+    "size": 8712,
+    "sha256": "62c05739de7e1a0dbcae95b9a6971a67e499954bda7894de15ccdf6282763413"
+  },
+  "chapter_06_el_segundo_heuristic__operatio.md": {
+    "size": 13580,
+    "sha256": "f486063cd1effadd7109e98a414493d4805dd17c6aa41f10a8c4aebd0ca80b99"
+  },
+  "chapter_07_csmfab000000000125.md": {
+    "size": 20,
+    "sha256": "ae3fd8084ce9fef3b0c4c5a463b213be6384e8d116bbe25a6ee8bcfe191d0f80"
+  },
+  "chapter_08_aegis-forge_i_structural_analy.md": {
+    "size": 419,
+    "sha256": "5a55beb5fc247aaa0ed0baf160cef006eb4f28fd694e1748758743d3d0b91fb9"
+  },
+  "chapter_09_1_structural_design_basis.md": {
+    "size": 4702,
+    "sha256": "bdfce96494fff5b676b88c60a863aad79371ff88413a33d9922db82e3d1cc19d"
+  },
+  "chapter_10_2_drum_structural_fea__zrb₂-si.md": {
+    "size": 7978,
+    "sha256": "4b6398da54f441c690daeb71d01f5182809e669fc473b7d86806105b17e622ba"
+  },
+  "chapter_11_3_vessel_structural_fea__bfrp_.md": {
+    "size": 5458,
+    "sha256": "3a5edb961dd7b6edb2c0e78b07449a610881e63030118d99ebafee24325e3de4"
+  },
+  "chapter_12_4_frame__support_structure__bf.md": {
+    "size": 2904,
+    "sha256": "725e5d1ce107a1c5014b3cd7d213c0edbbce3ee5bcf7e16fe99d29ea3db01d4d"
+  },
+  "chapter_13_5_port_valve_structural_analys.md": {
+    "size": 2833,
+    "sha256": "a6e3595dd16fa20d1785903d629ef3ec019843e1eda588150fdb72bd31d80d44"
+  },
+  "chapter_14_6_coil_housing__cold_plate_str.md": {
+    "size": 1365,
+    "sha256": "9b193fe6d70586939c185075472c583b1787d76ae2c533aba09f8d4af3713bcb"
+  },
+  "chapter_15_7_carousel__slug_mold_structur.md": {
+    "size": 2041,
+    "sha256": "b8eb9e8909cf67db16129822e27c326963d5a780edf72cbb4491f4a5f9f1d9a9"
+  },
+  "chapter_16_8_seismic_qualification__ieee_.md": {
+    "size": 2875,
+    "sha256": "0fdbe3ad3379972b8fda19bcd9bbf3e1e99ae69aabcee124797e1d78ddfaaec5"
+  },
+  "chapter_17_9_fatigue__damage_tolerance.md": {
+    "size": 1899,
+    "sha256": "abfab87694d51890a04b484566717556022d982170bc36079dbec11893f6ddf5"
+  },
+  "chapter_18_10_non-destructive_testing_ndt.md": {
+    "size": 2365,
+    "sha256": "7fe1fc3f9e76934708dd9899ecb145df0c04d50a5b57f368ba7ef36b34c3d8a5"
+  },
+  "chapter_19_11_transport__handling.md": {
+    "size": 1310,
+    "sha256": "ba1c28f7ba97e97ac1e64d622058806417d9baf441ce16512b1a0ac78ae0d403"
+  },
+  "chapter_20_12_safety_factors_summary.md": {
+    "size": 1584,
+    "sha256": "303a912e1d20f863cbc42cf78f231c384fa7a478fb4cf1dff9f27564350887dc"
+  },
+  "chapter_21_13_cross-reference_matrix.md": {
+    "size": 1153,
+    "sha256": "b44da30f99e0ddc6ad58bf23297fa8c122a3f1f65187799d5d6e107b628b8699"
+  },
+  "chapter_22_appendix_a_quick-reference_car.md": {
+    "size": 2094,
+    "sha256": "4b44a4fd08d4bdc62a0d8c9d2ddda734d36d302b95463c70fafec59ee819b7df"
+  },
+  "chapter_23_appendix_b_fea_model_summary.md": {
+    "size": 765,
+    "sha256": "64933dc079011b8476748f1403cfda0c50f7e8083e586cc33e3e27dae8c9f28b"
+  },
+  "chapter_24_appendix_c_seismic_qualificati.md": {
+    "size": 1483,
+    "sha256": "3bc70441895070d6d3b00a8c5854835c1dfd96e57b6fb72bc5ad68585d983ee7"
+  },
+  "chapter_25_appendix_d_fatigue_life_calcul.md": {
+    "size": 1528,
+    "sha256": "b0b0173fdb34701aa7c0c096e478e026d7e2503fdac75436c85a55845d974f38"
+  }
+}
