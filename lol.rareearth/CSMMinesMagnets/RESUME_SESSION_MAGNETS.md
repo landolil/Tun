@@ -5,14 +5,14 @@
 ### Project State
 - **Runner**: 017 (0-based: 16th runner, 1-based: 17th runner)
 - **Phase**: 5 — Community-Specific Intelligence (10 Documents)
-- **Previous Documents**: **DOC-16..27** ✅ COMPLETE (Phase 4 Complete + DOC-26 Atacameño + DOC-27 Diaguita)
-- **Current Document**: **DOC-28** (Mapuche-Pehuenche) — Chapter 1, Subtask 1.1 starting
-- **Next Documents**: **DOC-28..35** (8 remaining Community Deep Dives)
+- **Previous Documents**: **DOC-16..28** ✅ COMPLETE (Phase 4 Complete + DOC-26 Atacameño + DOC-27 Diaguita + DOC-28 Pehuenche)
+- **Current Document**: **DOC-29** (Mapuche-Lafkenche/Pewenche/Wenteche/Nagche) — Chapter 1, Subtask 1.1 starting
+- **Next Documents**: **DOC-29..35** (7 remaining Community Deep Dives)
 - **Infrastructure**: Directory structure complete, all tools operational
 - **Heartbeat**: `scripts/heartbeat_monitor.py` running (120-second interval, PID tracked in .heartbeat_pid)
 - **Task Timer**: `scripts/task_timer.py` ready (30s guard per subtask)
-- **Git**: Branch `kilo/digital-dolphin-50m`, last commit (DOC-27 complete), pushed to origin
-- **Tags**: `runner-013-complete`, `runner-014a-complete`, `runner-014b-complete`, `runner-014c-complete`, `runner-015a-complete`, `runner-015b-complete`, `runner-015c-complete`, `runner-016a-complete`, `runner-016b-complete`, `runner-016c-complete`, `runner-017a-complete`, `runner-017b-complete` pushed to origin
+- **Git**: Branch `kilo/digital-dolphin-50m`, last commit (DOC-28 complete), pushed to origin
+- **Tags**: `runner-013-complete`, `runner-014a-complete`, `runner-014b-complete`, `runner-014c-complete`, `runner-015a-complete`, `runner-015b-complete`, `runner-015c-complete`, `runner-016a-complete`, `runner-016b-complete`, `runner-016c-complete`, `runner-017a-complete`, `runner-017b-complete`, `runner-017c-complete` pushed to origin
 
 ### What's Done (Phase 1 + Phase 2 + Phase 3 + Phase 4 COMPLETE)
 
@@ -60,7 +60,8 @@
 **Phase 5 — Community-Specific Intelligence (Runner 017):**
 - ✅ **DOC-26**: Community-Specific — Atacameño Territory (Norte Grande) — 3,600+ lines, all quality gates passed, tag `runner-017a-complete`
 - ✅ **DOC-27**: Community-Specific — Diaguita Valleys (Norte Chico) — 5,500+ lines, all quality gates passed, tag `runner-017b-complete`
-- 🔄 **DOC-28**: Community-Specific — Mapuche-Pehuenche (Zona Central Andes) — **NEXT** (Chapter 1, Subtask 1.1 starting)
+- ✅ **DOC-28**: Community-Specific — Mapuche-Pehuenche (Zona Central Andes) — 5,800+ lines, all quality gates passed, tag `runner-017c-complete`
+- 🔄 **DOC-29**: Community-Specific — Mapuche-Lafkenche/Pewenche/Wenteche/Nagche (Sur) — **NEXT** (Chapter 1, Subtask 1.1 starting)
 
 ### Research Assets Located (Repository-Wide)
 
@@ -89,14 +90,14 @@
 | **DOC-34** | Concepción/Talcahuano (Industrial) | Huachipato steel, Lota coal closure, Coronel thermoelectric, UdeC research, Biobío river |
 | **DOC-35** | Punta Arenas (Gateway) | HIF Magallanes, INACH, ZOFRI, Antarctic Treaty, Strait pilotage, Kawéskar urban |
 
-### What's Next (Runner 017) — DOC-28..35 Authoring
+### What's Next (Runner 017) — DOC-29..35 Authoring
 
 Each community document: **9 Chapters × 13 Subtasks = 117 Subtasks per Document**
 
 **DOC-26**: ✅ COMPLETE — Atacameño Territory — Lickanantay, Salar de Atacama, lithium/REE, water sovereignty
 **DOC-27**: ✅ COMPLETE — Diaguita Valleys — 4 valleys, Dominga precedent, agricultural mining conflict
-**DOC-28**: 🔄 NEXT — Mapuche-Pehuenche — High Andes, glaciers, porphyry mining, pewén territory
-**DOC-29**: Mapuche-Sur — 4 subgroups, coal/pulp legacy, Native Forest Law, coastal/Andean
+**DOC-28**: ✅ COMPLETE — Mapuche-Pehuenche — High Andes, glaciers, porphyry mining, pewén territory
+**DOC-29**: 🔄 NEXT — Mapuche-Sur — 4 subgroups, coal/pulp legacy, Native Forest Law, coastal/Andean
 **DOC-30**: Kawéskar/Yagán — Maritime nomads, fjords, green H2, Antarctic, marine consent
 **DOC-31**: Calama — Copper city, unions, silicosis, diversification, Aegis-Forge hub
 **DOC-32**: Antofagasta — Port gateway, immigrants, Chango, green port, REE logistics
@@ -209,5 +210,5 @@ cat Logs/heartbeat.log | tail -20
 
 ---
 
-**Status**: Phase 4 COMPLETE (DOC-16..25) + DOC-26 COMPLETE + DOC-27 COMPLETE — Runner 017 now advancing to DOC-28 (Mapuche-Pehuenche) Chapter 1, Subtask 1.1.
+**Status**: Phase 4 COMPLETE (DOC-16..25) + DOC-26 COMPLETE + DOC-27 COMPLETE + DOC-28 COMPLETE — Runner 017 now advancing to DOC-29 (Mapuche-Lafkenche/Pewenche/Wenteche/Nagche) Chapter 1, Subtask 1.1.
 **Hardcoded Rule**: Every subtask = console output + TODO update + heartbeat log + git commit every 3-5 subtasks.

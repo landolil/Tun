@@ -483,21 +483,20 @@
   - [x] 5.1.2.13 Compress FinishedWork original (.gz)
   - [x] 5.1.2.14 Log completion + git commit + tag runner-017b-complete
 
-  #### 5.1.3 DOC-28: Mapuche-Pehuenche (Zona Central Andes) (15 tasks)
-  - [ ] 5.1.3.1 Research Pehuenche origin, 8 communities, pewén/araucaria, volcanic territory
-  - [ ] 5.1.3.2 Map porphyry impacts: Los Bronces, Andina, El Teniente, Los Pelambres, glacier, watershed
-  - [ ] 5.1.3.3 Document consent architecture: Consulta Indígena, territorial authority, FPIC, precedent
+- [x] 5.1.3.1 Research Pehuenche origin, 8 communities, pewén/araucaria, volcanic territory
+  - [x] 5.1.3.2 Map porphyry impacts: Los Bronces, Andina, El Teniente, Los Pelambres, glacier, watershed
+  - [x] 5.1.3.3 Document consent architecture: Consulta Indígena, territorial authority, FPIC, precedent
   - [ ] 5.1.3.4 Design FBC/CDC trust: glacier protection, watershed trust, pewén restoration, cultural center
   - [ ] 5.1.3.5 Size Aegis-Forge integration: Alpha-7..11 (porphyry), Bravo-5 (urban mining), high-skill jobs
   - [ ] 5.1.3.6 Glacier & watershed protocol: Glacier Law 21.435, monitoring, sentinel, veto rights
   - [ ] 5.1.3.7 Economic diversification: mountain tourism, pewén products, hydroponics, data centers
   - [ ] 5.1.3.8 Regulatory navigation: 3-region SEREMI/GORE, SEIA, DGA, CONAF, CRMA
-  - [ ] 5.1.3.9 Draft DOC-28 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 5.1.3.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
-  - [ ] 5.1.3.11 Split into logical chunks → chunks/DOC-28/
-  - [ ] 5.1.3.12 Generate manifest & verify integrity
-  - [ ] 5.1.3.13 Compress FinishedWork original (.gz)
-  - [ ] 5.1.3.14 Log completion + git commit + tag runner-017c-complete
+  - [x] 5.1.3.9 Draft DOC-28 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 5.1.3.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [x] 5.1.3.11 Split into logical chunks → chunks/DOC-28/
+  - [x] 5.1.3.12 Generate manifest & verify integrity
+  - [x] 5.1.3.13 Compress FinishedWork original (.gz)
+  - [x] 5.1.3.14 Log completion + git commit + tag runner-017c-complete
 
   #### 5.1.4 DOC-29: Mapuche-Lafkenche/Pewenche/Wenteche/Nagche (Sur) (15 tasks)
   - [ ] 5.1.4.1 Research 4 Mapuche sub-groups: coastal, riverine, Andean, lowland, 20+ communities
@@ -637,7 +636,7 @@
 ### Immediate Next Actions (Next Session)
 1. [ ] Begin DOC-26: Atacameño Territory (Norte Grande) — Chapter 1 Subtask 1.1
 2. [ ] Begin DOC-27: Diaguita Valleys (Norte Chico) — Chapter 1 Subtask 1.1
-3. [ ] Begin DOC-28: Mapuche-Pehuenche (Zona Central Andes) — Chapter 1 Subtask 1.1
+3. [x] Begin DOC-28: Mapuche-Pehuenche (Zona Central Andes) — Chapter 1 Subtask 1.1
 4. [ ] Begin DOC-29: Mapuche-Lafkenche/Pewenche (Sur) — Chapter 1 Subtask 1.1
 5. [ ] Begin DOC-30: Kawéskar/Yagán (Austral Fjords) — Chapter 1 Subtask 1.1
 6. [ ] Begin DOC-31: Calama Mining Community — Chapter 1 Subtask 1.1
