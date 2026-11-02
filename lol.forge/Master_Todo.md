@@ -181,9 +181,24 @@
   - [ ] Git: Commit and push PROD-18
 
 ### Runner 007: Stages 6-8 (PROD-19 to PROD-21)
-- [ ] PROD-19: Stage 6: Copper & Precious Metals (900 lines + 200 intro)
+- [x] PROD-19: Stage 6: Copper & Precious Metals (1086 lines + 200 intro)
+  - [x] Research: Vol 2 Stage 6 + PROD-17 PM carrier + PROD-18 residue + PROD-10, 08
+  - [x] Write: 13 sections + 3 appendices (Parameters, Cu Physics, PM Partitioning, Zones, Oxidation, Anode Casting, Electrorefining, Outputs, Throughput, Energy, Safety, Control, Cross-Ref, Quick-Ref, Slime Detail, Economics)
+  - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [x] Verify: Line counts, manifest, chunking (18 chapters)
+  - [x] Git: Commit and push PROD-19
 - [ ] PROD-20: Stage 7: Ferrous Cascade (900 lines + 200 intro)
+  - [ ] Research: Vol 2 Stage 7 + PROD-17/18 dross/slag + FOLLOW-15, 20
+  - [ ] Write: 13 sections (Parameters, Fe Melting/C/Si/Mn, REE Magnet Recovery, Centrifuge Zones, Slag Engineering, Fe Fractionation, REE Interface, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
+  - [ ] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [ ] Verify: Line counts, manifest, chunking
+  - [ ] Git: Commit and push PROD-20
 - [ ] PROD-21: Stage 8: Mineral Residue & Zircon (900 lines + 200 intro)
+  - [ ] Research: Vol 2 Stage 8 + PROD-20 residue + FOLLOW-16, 21, 32
+  - [ ] Write: 14 sections (Parameters, Zr Dissociation, REE Oxides, 3Y-TZP, Silica, Al₂O₃/TiO₂, Centrifuge Zones, UHTC Loop, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
+  - [ ] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [ ] Verify: Line counts, manifest, chunking
+  - [ ] Git: Commit and push PROD-21
 
 ### Runner 008: Integration & Control (PROD-22 to PROD-24)
 - [ ] PROD-22: Phoenix Protocol Integration (900 lines + 200 intro)
@@ -348,7 +363,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 28.75% (23/80 complete)
+**Total**: 80 documents | **Overall Progress**: 30% (24/80 complete)
 
 ---
 
@@ -381,4 +396,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-02 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Phase 1 progress: 18/40 Product Documents (PROD-01 through PROD-18). Phase 2 progress: 3/10 (PROD-16 through PROD-25). Next: PROD-19.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Runner 007 complete: PROD-19 (1086 lines). Phase 1 progress: 19/40 Product Documents (PROD-01 through PROD-19). Phase 2 progress: 4/10 (PROD-16 through PROD-25). Next: PROD-20.*
