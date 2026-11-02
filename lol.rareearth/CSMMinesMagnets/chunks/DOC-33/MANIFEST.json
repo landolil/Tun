@@ -1,0 +1,462 @@
+{
+  "chapter_01_intro.md": {
+    "size": 86,
+    "sha256": "37f8125338c0a1d99a53755d6e4f9a30363128962eccb11ec752d5ef80879427"
+  },
+  "chapter_02_twin_cities_of_the_mejillones_.md": {
+    "size": 579,
+    "sha256": "cf0326b16a1dd9fd6ebff8381f3fe0c62a4e99f0c1abcfa1b1428a44961b72db"
+  },
+  "chapter_03_chapter_1_twin_cities_origin__.md": {
+    "size": 82,
+    "sha256": "08363aaea4311a5b7b6f5d5bd4be1504804a3cbb7aa4016ef3860ce152300c6a"
+  },
+  "chapter_04_11_tocopilla__mejillones__the_.md": {
+    "size": 3244,
+    "sha256": "27d5bede426f522a48f3ec94fd143d5b3947abbd00a55cc830a05963a3c18087"
+  },
+  "chapter_05_12_economic_base__industrial_m.md": {
+    "size": 2001,
+    "sha256": "8d14f60dbb383934941fcd5dc226788d309ebcaa6cdb85262452ba7c68f3362f"
+  },
+  "chapter_06_13_cross-reference_integration.md": {
+    "size": 1470,
+    "sha256": "2bf34ca62a86e045d4e2e86dd7039cd55ffa0675ef447c2a41e45d88d9896314"
+  },
+  "chapter_07_14_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "65944a782729c763314d10c5c5d1db171b41491ae72821dbd59c0f62a4579e89"
+  },
+  "chapter_08_line_count_chapter_1_target_\u22654.md": {
+    "size": 105,
+    "sha256": "3cc4a0855e90b4316ffdeb4e1385f5db45648c73367e24021f9f0393784e2a27"
+  },
+  "chapter_09_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_10_cross-reference_count_cumulati.md": {
+    "size": 395,
+    "sha256": "360034b3582799fa7182ae97964cd6fad982e3f1207fd401b71a0a25cc8cd579"
+  },
+  "chapter_11_standards_cited_cumulative_tar.md": {
+    "size": 919,
+    "sha256": "cc5ea938c1f1a8837b8cdccfce68137fe5224aef63009ebc930939c967c5b109"
+  },
+  "chapter_12_15_mejillones_deep_dive__the_i.md": {
+    "size": 3983,
+    "sha256": "6b92b2f0cf76399a76f9a6a65e0475039559407c8591d4774c97972723a0e8de"
+  },
+  "chapter_13_16_tocopilla_deep_dive__the_ca.md": {
+    "size": 2432,
+    "sha256": "00978a0ebecd174a14fdf8b52c660c804df6933b2ceecca90d4beb032bf48173"
+  },
+  "chapter_14_17_quality_gate_verification__.md": {
+    "size": 64,
+    "sha256": "ff0765d71a6a0b0b1d8c54afa360e4de14e956a5efe132b4f14e0b46840664b7"
+  },
+  "chapter_15_line_count_chapter_1_target_\u22655.md": {
+    "size": 116,
+    "sha256": "9794928aa55295b87acc11d7542d1cff907314606d77309c1c70cff5db1e9b27"
+  },
+  "chapter_16_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_17_cross-reference_count_cumulati.md": {
+    "size": 474,
+    "sha256": "6ca624cd89ba795be769f40364253129d3bb573d0efd0d26e36d1439c37a0e00"
+  },
+  "chapter_18_standards_cited_cumulative_tar.md": {
+    "size": 935,
+    "sha256": "a9b5510ef2495f52d93f45370b9d6d984f38a292b4708f374422b958bd318c75"
+  },
+  "chapter_19_18_historical_trajectory__five.md": {
+    "size": 5747,
+    "sha256": "6fc00b389b7552e1c331cbc9a016fad0bc86397a846ba2fb375a0c9a40145ac3"
+  },
+  "chapter_20_19_quality_gate_verification__.md": {
+    "size": 64,
+    "sha256": "32314acf85770fdb6c30baa03bd50f42e5df2ceb209a97c64943f3a79c0ba16b"
+  },
+  "chapter_21_line_count_chapter_1_target_\u22655.md": {
+    "size": 116,
+    "sha256": "9794928aa55295b87acc11d7542d1cff907314606d77309c1c70cff5db1e9b27"
+  },
+  "chapter_22_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_23_cross-reference_count_cumulati.md": {
+    "size": 625,
+    "sha256": "cfd4d9d86d7bcf037b35c24db4fdb6402478742185b08fd8b3b536e83bf65b0e"
+  },
+  "chapter_24_standards_cited_cumulative_tar.md": {
+    "size": 958,
+    "sha256": "a83e6693dc1863c6b0fb95e3e4833d5ecca44f1a6a599643df99e86d9bbfc07c"
+  },
+  "chapter_25_chapter_2_industrial_infrastru.md": {
+    "size": 78,
+    "sha256": "dbbf6d4cf938f4210339212e3fe2b52fd5f74804fc352938e1cdb9cdbdf564b8"
+  },
+  "chapter_26_21_tocopilla_port__codelco's_c.md": {
+    "size": 3963,
+    "sha256": "fdf186abf4a85f002306a0ec86b1471efffc5dd0f6d5f6e669d1a3d748c1d0f0"
+  },
+  "chapter_27_22_mejillones_port_complex__th.md": {
+    "size": 3710,
+    "sha256": "8bbf172bc86127342ddd4968f39de748487c970bc1f9341cb8433b533f0d2723"
+  },
+  "chapter_28_23_desalination_cluster__techn.md": {
+    "size": 3143,
+    "sha256": "c8d0b6b47e44c49027d72674e59e06eb873164c2f638060d5d36bdc581812e06"
+  },
+  "chapter_29_24_pipeline_network__gas_water.md": {
+    "size": 1676,
+    "sha256": "6e925bfca8aaaa321905fbdd3127f6e9f8d338783b875ca2e2650b7820185f5a"
+  },
+  "chapter_30_25_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "adb1d9b8de2a43c982a89e09a5204afc703d392372ded9e0253aa63787442750"
+  },
+  "chapter_31_line_count_chapter_2_target_\u22655.md": {
+    "size": 105,
+    "sha256": "799531eec81a81a270cb9b7882cb50418d8e1b64d94707af5b9a803ded01a909"
+  },
+  "chapter_32_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_33_cross-reference_count_cumulati.md": {
+    "size": 1072,
+    "sha256": "6b4972aa235bdb9995d95ef71d0e9434e0604d560af897a2afc4ac8230e5b92a"
+  },
+  "chapter_34_standards_cited_cumulative_tar.md": {
+    "size": 1004,
+    "sha256": "ef65b5b9ee02b7414ea294993c4d23c2495c8222a55de67e89ee477a9e2cbe5d"
+  },
+  "chapter_35_chapter_3_environmental_burden.md": {
+    "size": 77,
+    "sha256": "ed3eda6724c602b1f76ef8ea44b5d37e2fc08f0c567712e361fef6fe9048f2d0"
+  },
+  "chapter_36_31_air_quality__sac_mejillones.md": {
+    "size": 4046,
+    "sha256": "5e5ac697bd1631f0ec8c86c86fb5172bf11c3a2605d861bab183d282d9827abb"
+  },
+  "chapter_37_32_marine_impact__thermal_plum.md": {
+    "size": 4272,
+    "sha256": "a2964f0b2ac9023d2e5ae712015cd9bf21054f4bcd3992898bb3ddaa17066074"
+  },
+  "chapter_38_33_cumulative_impact_assessmen.md": {
+    "size": 2257,
+    "sha256": "1f3761d831bd589bfbd035de9f71d354558771e491aa11d63700cd966cc6e9b9"
+  },
+  "chapter_39_34_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "a01c29257b345cbf6cfac69f07566b0463a4c235e53f40f95626846efa3d2428"
+  },
+  "chapter_40_line_count_chapter_3_target_\u22655.md": {
+    "size": 105,
+    "sha256": "f4cc2cbc887840ebe9f0a90ac2f899e6bc577059df44e8f3065f6e378df5b0ea"
+  },
+  "chapter_41_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_42_cross-reference_count_cumulati.md": {
+    "size": 1576,
+    "sha256": "e67cfb3814a2fe2505382db739e67ab311488fab87810478711834b9961c07c3"
+  },
+  "chapter_43_standards_cited_cumulative_tar.md": {
+    "size": 1003,
+    "sha256": "ba4e241fbc079118c48ca7a255b60345c3747ee43a50243dc87d6ed1bc3394f2"
+  },
+  "chapter_44_chapter_4_community_demographi.md": {
+    "size": 90,
+    "sha256": "b3e12d559ba8173b13f84e5a36ac906b5c12eea7ddb278b2694ad84d30aaa8ae"
+  },
+  "chapter_45_41_tocopilla__the_aging_union_.md": {
+    "size": 4285,
+    "sha256": "75476e0783e7a171250dd938f18270ceb59aafca76911fb9bab65fecb4cd6ef9"
+  },
+  "chapter_46_42_mejillones__the_industrial_.md": {
+    "size": 2604,
+    "sha256": "9576e74491c8ce7d178a52c414358bda8cac49e8711e5656621a1ae7c8ef34a4"
+  },
+  "chapter_47_43_chango_territory__mejillone.md": {
+    "size": 3473,
+    "sha256": "71ca36299be64cb03822c88cece25610173db95ea0a6af37dd9427f3f3e5a46b"
+  },
+  "chapter_48_44_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "480fa68524e1605095a2cc24d296c05eaa4c05cf461f69461a0391a8a661a9c1"
+  },
+  "chapter_49_line_count_chapter_4_target_\u22654.md": {
+    "size": 105,
+    "sha256": "f17e975a008345645973fe75c8950d99dac605f38a7186dd81d83a7a5607446b"
+  },
+  "chapter_50_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_51_cross-reference_count_cumulati.md": {
+    "size": 2204,
+    "sha256": "b3df072c076a7b3bdaa3359e5af23eed6197fe4bdc174cd93d1ee0db549acef7"
+  },
+  "chapter_52_standards_cited_cumulative_tar.md": {
+    "size": 1048,
+    "sha256": "f2ccc8e66179c6824586e71f52f79f3576cff09f97bef99f28f89c24a388ffc0"
+  },
+  "chapter_53_chapter_5_industrial_symbiosis.md": {
+    "size": 94,
+    "sha256": "03eef16c5f449df35e0b806cfa2f62fc61e4d92ddca40f46aa59eac91887e746"
+  },
+  "chapter_54_51_waste_heat_recovery__the_th.md": {
+    "size": 3490,
+    "sha256": "1f5b84a7952a7b20f93d8e4c7e4d71109e9cfedd06f327fcbb612adde2fb0c0b"
+  },
+  "chapter_55_52_co\u2082_capture__utilization__f.md": {
+    "size": 2937,
+    "sha256": "cac234d24938f0b854fe25add1725fce01af681e55ffe87f2fe5498c91fc3884"
+  },
+  "chapter_56_53_brine_valorization__imta_aq.md": {
+    "size": 3937,
+    "sha256": "409d4f4d8e102f695f4667f6c374469a4958b08f59fadb3c2a4aa9eec407abee"
+  },
+  "chapter_57_54_green_h\u2082_integration__closi.md": {
+    "size": 1832,
+    "sha256": "0a0af0cfd2a52a94bf7861e6dc42dc99205826c4ceb0b1cbc58fe70e1664b699"
+  },
+  "chapter_58_55_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "172f9db05501e87674cc473843ea95ac9ff95e6ff2946c79ed54eab242ee6381"
+  },
+  "chapter_59_line_count_chapter_5_target_\u22655.md": {
+    "size": 105,
+    "sha256": "fc9bcefbc3ed80dcab371753092f406c47f95d11657fa4f37c9a314996e87a2d"
+  },
+  "chapter_60_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_61_cross-reference_count_cumulati.md": {
+    "size": 2582,
+    "sha256": "8b21caa19ef5a2391e765a9bad3a0643d30f6ef25e6d312d1218873554e8bb55"
+  },
+  "chapter_62_standards_cited_cumulative_tar.md": {
+    "size": 1065,
+    "sha256": "2e21f554963a4f69ded6f55bf2143ef09000a9c0f31018b3281c2cc08cd4cc22"
+  },
+  "chapter_63_chapter_6_aegis-forge_integrat.md": {
+    "size": 96,
+    "sha256": "d59aa11b6972f6163fe753a8b50b3dd8c16804da9b6f377015e3dea68be55ef1"
+  },
+  "chapter_64_61_nh\u2083_terminal_hif_mejillones.md": {
+    "size": 3629,
+    "sha256": "d0f5788680cf77afb55a2098a56c1629f5239fbed918921eafd870c987ec1a7e"
+  },
+  "chapter_65_62_ree_shipping__antofagasta_v.md": {
+    "size": 1512,
+    "sha256": "67f2cd963336b3d42c5d6cc9500bb8f1b9a7fad43d0f4c31ccc350b7c8e63ea4"
+  },
+  "chapter_66_63_desal_supply_chain__codelco.md": {
+    "size": 1403,
+    "sha256": "0c180936cd5c20238dabfd1e64f75ae07d1fc891098603998c1ce3125bd5de17"
+  },
+  "chapter_67_64_green_h\u2082_thermal__alpha-2_c.md": {
+    "size": 1950,
+    "sha256": "fbca2c61dec3635a423a0faa28a870e68ce942623d2db56f458e0b7c0c3683a0"
+  },
+  "chapter_68_65_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "2ad238a4c8561b08d3d1975c42b5dcf5e79c51282820b4fb39d7fa0c126df13d"
+  },
+  "chapter_69_line_count_chapter_6_target_\u22654.md": {
+    "size": 105,
+    "sha256": "e3e998f0c76d722d65aacca8d12fd87983bf153acea0d4c363192960ebd544ea"
+  },
+  "chapter_70_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_71_cross-reference_count_cumulati.md": {
+    "size": 2894,
+    "sha256": "26f689ef51f3cfdcfa17fac69b9b093f02c003db13b8425d477eb862234713be"
+  },
+  "chapter_72_standards_cited_cumulative_tar.md": {
+    "size": 1036,
+    "sha256": "9fe5911e6c9504cdea802577b39d57342b9cf93ae4ae9ee3ac3e21b041f67149"
+  },
+  "chapter_73_chapter_7_governance__institut.md": {
+    "size": 100,
+    "sha256": "a901fccd3ea0df5ab4e09c7e764984653368145e9b13e9e9ad216af90d9ceac1"
+  },
+  "chapter_74_71_municipal_governance__tocop.md": {
+    "size": 2455,
+    "sha256": "7fa369f8495f8c88a09f84de01eae0bc66f61d18c7967d3258468161f7ddb2d5"
+  },
+  "chapter_75_72_regional_governance__gore_a.md": {
+    "size": 1985,
+    "sha256": "e8212626bd16f97a4e87db7c84f05fa491fa0037b40c3456c2fc7bff805b1cf1"
+  },
+  "chapter_76_73_sectoral_authorities__serem.md": {
+    "size": 2681,
+    "sha256": "dc18d6f125445ce2d92de2f1d4be04c02e67bfc97970d937260729333b223c27"
+  },
+  "chapter_77_74_indigenous_governance__chan.md": {
+    "size": 1692,
+    "sha256": "9229d4e009b6bff6a9203211f31bc0aeb71ff848f309ccf24ace6125ffabfa81"
+  },
+  "chapter_78_75_corporate_governance__hif_s.md": {
+    "size": 2427,
+    "sha256": "8104616172b1762cf96f1f98e3466b1c117dc039621999521d30470add066a9b"
+  },
+  "chapter_79_76_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "ba02fca94c9557ac22efd30f6c663408ba46c9ca6cf78abc836e4c2c768e3933"
+  },
+  "chapter_80_line_count_chapter_7_target_\u22654.md": {
+    "size": 105,
+    "sha256": "f27e7893e395cd9fceb69f49fd71a5cee29309291ab3e5c77aa0d36a6a733d7b"
+  },
+  "chapter_81_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_82_cross-reference_count_cumulati.md": {
+    "size": 2965,
+    "sha256": "68de8823ad172098d3972b2a727352cd290f2b639c6304ba3ef08a43cc856c1a"
+  },
+  "chapter_83_standards_cited_cumulative_tar.md": {
+    "size": 1088,
+    "sha256": "27b8fb2519b3a74b786a18af129668669d7490c6063a71d6bb19b78d77d30ddc"
+  },
+  "chapter_84_chapter_8_risk__resilience__cl.md": {
+    "size": 94,
+    "sha256": "88206c735b48216b6efe1c1345ddee6621e08f124798ed5c1bcfbc4344677d3c"
+  },
+  "chapter_85_81_climate_risk__aridity_heat_.md": {
+    "size": 2726,
+    "sha256": "56baff1575ab54e900daf50275a2f3112c0ab4531f8e225e10844296ac358280"
+  },
+  "chapter_86_82_seismic__tsunami_risk__the_.md": {
+    "size": 3284,
+    "sha256": "840d7b60ec4087f01f230617c3dd1e6405c72ce499611c2070e475b345230e65"
+  },
+  "chapter_87_83_thermo_closure_risk__the_20.md": {
+    "size": 3629,
+    "sha256": "cfc5585e75951998cdd70917bf7a7689ce59aafac9d8e3f1466eeb7359ef2478"
+  },
+  "chapter_88_84_market_risk__green_h\u2082_nh\u2083_r.md": {
+    "size": 1990,
+    "sha256": "e7b7079c9a296c0de25f6e331a593542545e2bae38da5e6cb40d7e2fac327503"
+  },
+  "chapter_89_85_social_license_risk__the_ch.md": {
+    "size": 1582,
+    "sha256": "3c4cd1b2c64e9511518c04f1ef8838c1700fd07d1dbe3e4c88b64adb52a9a599"
+  },
+  "chapter_90_86_quality_gate_verification__.md": {
+    "size": 55,
+    "sha256": "cc2910896d91dd3cf16ff3cd66a25eef895fbdc404454a2219ff20b6cf32b0ff"
+  },
+  "chapter_91_line_count_chapter_8_target_\u22654.md": {
+    "size": 105,
+    "sha256": "ec11e0a99473fb619df91dddd4331bf78dc84e28aa3d9f383cc01c4d82361cbc"
+  },
+  "chapter_92_formula_count_cumulative_targe.md": {
+    "size": 109,
+    "sha256": "c5c63069b13c80de320cb52f942d83a12f6562adfde9a2b44e8b61d7b0a6e859"
+  },
+  "chapter_93_cross-reference_count_cumulati.md": {
+    "size": 3203,
+    "sha256": "3f2074770ea3db68b3ef780864777b8024b0a12dcbad8154789ca4b7d83f4f54"
+  },
+  "chapter_94_standards_cited_cumulative_tar.md": {
+    "size": 1220,
+    "sha256": "4d721c2b5f225e3fb6ebd0bfc51a207f43467d58cf4cd237328d4c13b6ba8eae"
+  },
+  "chapter_95_chapter_9_traceability_matrix_.md": {
+    "size": 85,
+    "sha256": "5fd6448e7458261efbc6acb1d4f02646f7cbc29f2569b1a3158ffbe709055253"
+  },
+  "chapter_96_91_document_traceability__sour.md": {
+    "size": 2388,
+    "sha256": "ae14ccfb3e273dabccefd73c1d94dc1294ff2e83f75600e339ca312e01d563bc"
+  },
+  "chapter_97_92_formula_audit__\u226520_formulas.md": {
+    "size": 3066,
+    "sha256": "032c79756d14f9dc83eed11ac4ef4fb95db2d4041c8b7ce79e03e916d4317be8"
+  },
+  "chapter_98_93_cross-reference_audit__\u226515_.md": {
+    "size": 2055,
+    "sha256": "7bfbf87f38bf740e58e542b3786a3fd9ff9d6a15bd14b6defc223d2279c9ea3a"
+  },
+  "chapter_99_94_standards_audit__\u22658_standar.md": {
+    "size": 1732,
+    "sha256": "ee54111179b78ac5b4986c42f53f1bebaa1230ed6fcf9d9a8fc1a9f262137472"
+  },
+  "chapter_100_95_zero_conflation_certificati.md": {
+    "size": 2035,
+    "sha256": "45c6a57d6af31c4c7d25afbb5de28428899cd5e10e6b3683b9ca22ddadb88f41"
+  },
+  "chapter_101_run_conflation_audit_script_ma.md": {
+    "size": 263,
+    "sha256": "36d55769f5e499281eff67e9a6ca2825dc37c2fb7876137064e07e1099aaf12c"
+  },
+  "chapter_102_expected_output_\"zero_conflati.md": {
+    "size": 80,
+    "sha256": "676422f053cd87ccb5c92b9fe1e1cfb8077989bc520fbcc8155f1e3b48c959cd"
+  },
+  "chapter_103_key_discriminators_verified.md": {
+    "size": 30,
+    "sha256": "c5f9eb16bf02b06baae068f28a60362707e1a2f8cff165cca04c80d87251775c"
+  },
+  "chapter_104_-_\"mejillones_bay\"_vs_\"antofag.md": {
+    "size": 67,
+    "sha256": "38795d3563bb1a4bf220a9357d37eaf1c5bc7e2dda0bcc2d3a814db1418342ab"
+  },
+  "chapter_105_-_\"consejo_de_caletas\"_vs_\"cpa.md": {
+    "size": 69,
+    "sha256": "23b7bd184cb09a251ea15c5b62240ef39b5cd61ff736d47d75ff7df658e42a6d"
+  },
+  "chapter_106_-_\"thermo_ctm_cta\"_vs_\"alpha-2.md": {
+    "size": 68,
+    "sha256": "7e948db2b0887897de09115a4c7457d11c4e5daeb3b88a921aa088885a5a48ce"
+  },
+  "chapter_107_-_\"nh\u2083_terminal\"_vs_\"ree_berth.md": {
+    "size": 56,
+    "sha256": "0d1ec08b8e06a8f346aef7f0fdf64108b94b144c1d64172c1f1d5972b27008c6"
+  },
+  "chapter_108_-_\"industrial_symbiosis\"_vs_\"j.md": {
+    "size": 173,
+    "sha256": "b70c180090b7470a44d1b7b0af75463bcdfffac36d9ce8f25e87236211f7bc0f"
+  },
+  "chapter_109_96_final_quality_gate__doc-33_.md": {
+    "size": 54,
+    "sha256": "55898f9f962ad5735185345917ce1431b5d77c0510853680be41ea618b702338"
+  },
+  "chapter_110_final_verification.md": {
+    "size": 79,
+    "sha256": "190da40cdf2daa8cb07b18d2b353c8b7764ea6c3f8744030648214a54a3cdce2"
+  },
+  "chapter_111_target_\u2265900_lines_\u2192_achieved_~.md": {
+    "size": 116,
+    "sha256": "de8c181d87417cafbbfa1707d214af66daf9ab7862f987c9b0c793447de4e959"
+  },
+  "chapter_112_target_\u226520_formulas_\u2192_achieved.md": {
+    "size": 516,
+    "sha256": "added8baacd9115c0bb6652512600c632c9697a500f2089221fac0ff4cc5ef32"
+  },
+  "chapter_113_target_\u226515_cross-refs_\u2192_achiev.md": {
+    "size": 418,
+    "sha256": "aaebffe736e3889f357e4b4a5d3632767110c6260ead0ff5022eba44210debdb"
+  },
+  "chapter_114_target_\u22658_standards_\u2192_achieved.md": {
+    "size": 123,
+    "sha256": "ea984f3b8ec67c941c1572f8f30a707f73facc5166672daf2094c6c54d8b2db0"
+  },
+  "chapter_115_target_all_chunks_verified_man.md": {
+    "size": 951,
+    "sha256": "cd05c19b7fe590d84959b11787ab57d9674ec25a0f4680f2268534b9e2a94a73"
+  }
+}
