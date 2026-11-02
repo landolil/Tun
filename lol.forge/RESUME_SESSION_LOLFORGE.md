@@ -2,8 +2,8 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-03 (Runner 013 complete: PROD-28, 29, 30)
-**Current Phase**: Phase 3 Completion — Product Documents 31-32 (Economics, Regulatory)
+**Last Session**: 2026-11-03 (Runner 013 complete: PROD-28, 29, 30, 31)
+**Current Phase**: Phase 3 Completion — Product Documents 32-33 (Regulatory, Supply Chain)
 **Next Runner**: 014
 
 ---
@@ -50,15 +50,16 @@ git status
 - [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
 - [x] PROD-27: Manufacturing Process Plan (1241 lines + 200 intro)
 
-### Completed (Phase 3 — PROD 28-30):
+### Completed (Phase 3 — PROD 28-31):
 - [x] PROD-28: Quality Assurance & Testing (939 lines + 200 intro)
 - [x] PROD-29: Deployment & Operations (735 lines + 200 intro)
 - [x] PROD-30: Maintenance & Sustainment (1138 lines + 200 intro)
-- [x] Phase 3: 10/10 complete (PROD-28 through PROD-31 next)
+- [x] PROD-31: Economic Analysis & Viability (1013 lines + 200 intro)
+- [x] Phase 3: 11/10 complete (PROD-28 through PROD-31)
 
 ### In Progress:
-- [ ] PROD-31: Economic Analysis & Viability (900 lines + 200 intro)
 - [ ] PROD-32: Regulatory & Compliance (900 lines + 200 intro)
+- [ ] PROD-33: Supply Chain & Logistics (900 lines + 200 intro)
 - [ ] NEXT_runner_014.md created (next session)
 
 ### Source Materials Cataloged:
@@ -82,12 +83,7 @@ git status
 
 ## Next Immediate Actions (Runner 014)
 
-### Document Batch: PROD-31, PROD-32, PROD-33
-
-**PROD-31: Economic Analysis & Viability**
-- Source: PROD-22, 27, 28, 29, 30 + FOLLOW-23, 24 + market data
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: CAPEX breakdown, OPEX model, revenue streams (metals, carbon credits, Phoenix), ROI, sensitivity, financing
+### Document Batch: PROD-32, PROD-33, PROD-34
 
 **PROD-32: Regulatory & Compliance**
 - Source: PROD-22, 23, 26, 28, 29, 30 + FOLLOW-22, 23, 24, 25, 26
@@ -98,6 +94,11 @@ git status
 - Source: PROD-12, 22, 27, 28, 29, 30 + FOLLOW-31, 38, 39
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: Material sourcing (ZrB₂, SiC, basalt, In, REE), transport, storage, AVL management
+
+**PROD-34: Training & Certification**
+- Source: PROD-23, 28, 29, 30, 31 + FOLLOW-34, 35
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: Operator curriculum, competency matrix, certification pathways, simulator training
 
 ---
 
