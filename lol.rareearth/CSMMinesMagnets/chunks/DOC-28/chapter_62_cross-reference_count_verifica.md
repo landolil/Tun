@@ -1,0 +1,2 @@
+# Cross-reference count verification
+grep -c -E 'DOC-[0-9]{2}|Law [0-9]{5}|Law 21\.435|ILO 169|UNDRIP|DGA|CONADI|CONAF|SEREMI|GORE|Environmental Court|Supreme Court|Water Code|Glacier Law|ISO 14046|MIL-STD-1540|CPTPP|OECD|Native Forest|Law 20\.283|Law 20\.551|Sernageomin|CMN|Butalmapu|Nguillatun|Machi|Lonko|Pehuenche' FinishedWork/DOC-28_Community_Pehuenche.md

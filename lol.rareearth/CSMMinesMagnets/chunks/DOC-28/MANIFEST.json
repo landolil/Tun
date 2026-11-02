@@ -1,0 +1,346 @@
+{
+  "chapter_01_intro.md": {
+    "size": 559,
+    "sha256": "9d675b911aeab13819c992481ed634a2bf373dc48c881cba6340fd2e92f3e23a"
+  },
+  "chapter_02_chapter_1_pehuenche_origin__hi.md": {
+    "size": 9327,
+    "sha256": "61ddd56accf7b423ce330282246cbdcfc635de52fb03d7bc34775f039fa42b2b"
+  },
+  "chapter_03_chapter_2_porphyry_mining_impa.md": {
+    "size": 6375,
+    "sha256": "d0846964c8e035e010911c4e6751549482cf43d7ccf7b2534dfdac8c55808cbf"
+  },
+  "chapter_04_chapter_3_consent_architecture.md": {
+    "size": 3856,
+    "sha256": "e040c55e7284715ab30143649339a7c69b23ff1d87db5aa5887f16fe7ca2ac38"
+  },
+  "chapter_05_chapter_4_fbc_cdc_trust_design.md": {
+    "size": 3621,
+    "sha256": "50d1cbbd1dedaea18e64ef1031073b65e54b0e693aefd8092ea379baaf76d045"
+  },
+  "chapter_06_chapter_5_aegis-forge_cluster_.md": {
+    "size": 4560,
+    "sha256": "b6c7d1ba9e686d9e35f6b40f2dd4f10122486656b44bb4074f7ccd8fc426ff1e"
+  },
+  "chapter_07_chapter_6_glacier__watershed_p.md": {
+    "size": 2910,
+    "sha256": "c2a01af9dc369f8508a6ab3fca7c8fd9bbbfc3413f75218510a346389868eb27"
+  },
+  "chapter_08_chapter_7_economic_diversifica.md": {
+    "size": 3673,
+    "sha256": "57162c9a1170ea6c093f8c47e4010356b0350234c0ae12cad4da6db998caa96a"
+  },
+  "chapter_09_chapter_8_regulatory_navigatio.md": {
+    "size": 3315,
+    "sha256": "3698deec55414e2d618042221451ac0b318b043a55bc301550f2ed23a4189a08"
+  },
+  "chapter_10_chapter_9_traceability_matrix.md": {
+    "size": 3872,
+    "sha256": "647f7c50bd3ea6ed40bd17c852a778edfdf94fcac391ddbec4bba4008bb11041"
+  },
+  "chapter_11_chapter_4_fbc_cdc_trust_design.md": {
+    "size": 3052,
+    "sha256": "764e0e49a663a004701805cdf277eeb4d455907c29d413cc23057f132cdf59b5"
+  },
+  "chapter_12_chapter_5_aegis-forge_cluster_.md": {
+    "size": 4618,
+    "sha256": "9e43a1076c3c2e8cb7a6fd6c37d9eefb1dc029f41edd2171beafe450203edf28"
+  },
+  "chapter_13_chapter_6_glacier__watershed_p.md": {
+    "size": 2339,
+    "sha256": "d98ced0b31d74dc24ee2d0d4a35c3e916589d6f693ec94983b0beb5c906c1705"
+  },
+  "chapter_14_chapter_7_economic_diversifica.md": {
+    "size": 1789,
+    "sha256": "a8fb5ccc39122e1d7a7f01ef9c3c11bd71318ca2a403fd0a4a1e68f996b44cf0"
+  },
+  "chapter_15_chapter_8_regulatory_navigatio.md": {
+    "size": 2013,
+    "sha256": "d1ae477adb3589dca94aebfe84187fe57ed9af9e7bad0e1608518c27922149f5"
+  },
+  "chapter_16_chapter_9_traceability_matrix_.md": {
+    "size": 2131,
+    "sha256": "6c3df135eacd6fea16d123ec9e7871fc109c0d91aa519d3961194fcc9ebeb089"
+  },
+  "chapter_17_appendix_a_pehuenche_community.md": {
+    "size": 1224,
+    "sha256": "0bd41ab22dc956fcbdac85e01267a79bd262d40d3811b588fb236fce8df99954"
+  },
+  "chapter_18_appendix_b_glacier_inventory__.md": {
+    "size": 1078,
+    "sha256": "45eb09f4d82fa6f1ef19417442f4a0bc1c74095c5249852d2a2af93e4bd57947"
+  },
+  "chapter_19_appendix_c_heuristic_intro_pre.md": {
+    "size": 4956,
+    "sha256": "d4c4843bd19c47703951caadfc95090577794d9cc21470024c3b8a33ee1f3985"
+  },
+  "chapter_20_appendix_d_final_quality_gate_.md": {
+    "size": 87,
+    "sha256": "4307043c8c311e20e8765a70aae4d3733d2bf7a6f39f3756183ef997eea9b23f"
+  },
+  "chapter_21_line_count.md": {
+    "size": 61,
+    "sha256": "3b8a4fad01f3166eb9cc18e877433e101aa482758ca45bae128f0f46436f54a4"
+  },
+  "chapter_22_target_\u2265900_lines.md": {
+    "size": 23,
+    "sha256": "7bb0e7fab5d92a90ca9d21cfbab81aa6ea1895b4355bdfd9bd66623300947382"
+  },
+  "chapter_23_formula_count.md": {
+    "size": 71,
+    "sha256": "8cf7db2a8c426aeaffc138f4f8b14241cdcf427905d9e0d1cf556b32478318a5"
+  },
+  "chapter_24_target_\u226520_formulas.md": {
+    "size": 25,
+    "sha256": "52739e6d236b097b5b40d38fcce6f181a85af17897cb962ca49cd785785f9b26"
+  },
+  "chapter_25_cross-reference_count.md": {
+    "size": 256,
+    "sha256": "c8b4c929ceb9b2a6f836e59648487d7215cdb5742933c9dfc8342043e3485b66"
+  },
+  "chapter_26_target_\u226515_cross-refs.md": {
+    "size": 27,
+    "sha256": "112890ffde5c353026fcd548a3c2edebddaf31dee43325107d8888f5313abe8d"
+  },
+  "chapter_27_standards_count.md": {
+    "size": 255,
+    "sha256": "6dccb69212914d5eadd29d4f469eb814ec067e18ecb2a086e9db95e7d32a4e75"
+  },
+  "chapter_28_target_\u22658_standards.md": {
+    "size": 142,
+    "sha256": "047dfd01219d29c54a06a2a055566f51344966cc5c3ec31d9931be0404224621"
+  },
+  "chapter_29_output_conflation_audit_passed.md": {
+    "size": 87,
+    "sha256": "e6f6f2ec9cca48b10189033cb18aae9b5953258ba2960d51668a59597524f621"
+  },
+  "chapter_30_chunk.md": {
+    "size": 132,
+    "sha256": "cf8d5d69dcbb99ef271260d00923e4a53d91fc656aeadc61b750f8b2c6cb8e1e"
+  },
+  "chapter_31_verify.md": {
+    "size": 151,
+    "sha256": "89a25a1ab5a2c5a02061b0fc7f09704d6163bfdeef9931c6016c2b02ab89fc54"
+  },
+  "chapter_32_compress.md": {
+    "size": 112,
+    "sha256": "a42d0080727164f966bb05cb2780361b38c8823d9d80cb10ebe8ee79b849fecd"
+  },
+  "chapter_33_intros.md": {
+    "size": 91,
+    "sha256": "de3a0b2cb49de47fa92d45bc9311a0eed4a6f1badcb711f75ffb2456e1fe4336"
+  },
+  "chapter_34_verify_reassembly.md": {
+    "size": 224,
+    "sha256": "9633a226f77bf0026fb3e9ea8ec0e2b60096fc79e348cd7e74e7d0e0dcfdc5e0"
+  },
+  "chapter_35_git_commit_+_tag.md": {
+    "size": 672,
+    "sha256": "6ee62a070e51385d65da0a0eea5b12f3a3f474c61a4ec7950ce57678d572a67e"
+  },
+  "chapter_36_appendix_e_extended_technical_.md": {
+    "size": 4450,
+    "sha256": "592f5dbf977232530ce47c3990a943656895d5bef998e7a169d574c64c5df577"
+  },
+  "chapter_37_appendix_f_economic_sensitivit.md": {
+    "size": 2213,
+    "sha256": "e06105ce7bf3ea1e19bcbd613b09136d4a8654c85b6a778be1543ddd418b4916"
+  },
+  "chapter_38_appendix_g_legal_precedent_com.md": {
+    "size": 2168,
+    "sha256": "2bc4e21a1b8b6f9cedf0f55822905ad7f7ab57808f666d9a5ec931be61e3dada"
+  },
+  "chapter_39_appendix_h_stakeholder_map__pe.md": {
+    "size": 2980,
+    "sha256": "e1717c2456d5ec5247c2d8316b93d69e9207218948388ad145ba541853bf8a4f"
+  },
+  "chapter_40_appendix_i_implementation_time.md": {
+    "size": 2348,
+    "sha256": "6be3982fb177d63635d983553c9604162b87f4b99df631b613819c1ecf073986"
+  },
+  "chapter_41_appendix_j_cross-reference_ind.md": {
+    "size": 3067,
+    "sha256": "33127a85127c4c8630acf60e2abb7b8663c7a7f2abc056a872159671662c8e19"
+  },
+  "chapter_42_appendix_k_quantitative_models.md": {
+    "size": 2802,
+    "sha256": "a88809e030111bcba124c0aab22ca109f641181b98839e8627af404b1c36c2e3"
+  },
+  "chapter_43_appendix_l_risk_register__pehu.md": {
+    "size": 2013,
+    "sha256": "9d91fd0d39006528fa52d3b5d3a5450a70eb11dbf479d7301becee0379ce98c9"
+  },
+  "chapter_44_appendix_m_supplementary_data_.md": {
+    "size": 3288,
+    "sha256": "18472a1c9b209694a556f1bc94e301dcb743789a63b8aa8ef4566cdd93220432"
+  },
+  "chapter_45_appendix_n_chapter-by-chapter_.md": {
+    "size": 8520,
+    "sha256": "d92d407157eab7c3a81b63f2e6d0b9c530595eb83e3dcd90344bb538e88ced75"
+  },
+  "chapter_46_appendix_o_chapter_3_deep_dive.md": {
+    "size": 6992,
+    "sha256": "e310026225c9f5060a3a360acc7c54361c63ef61b3576d932d35de99a4e264c5"
+  },
+  "chapter_47_appendix_p_chapter_4_deep_dive.md": {
+    "size": 2850,
+    "sha256": "2d77936785bd96a01f6192ff445deacc250fc93dde1a82c4a6e5f40989da454b"
+  },
+  "chapter_48_appendix_q_chapter_5_deep_dive.md": {
+    "size": 2546,
+    "sha256": "bde5f0dfad16cf29a3565f56e00fc2a2bcceecef4b1fbef19536a09089662a28"
+  },
+  "chapter_49_appendix_r_chapter_6_deep_dive.md": {
+    "size": 3659,
+    "sha256": "ec7f7e385633dc37d831107beb6c4d6c6235afacdf370c83fb0b2b28e7912c73"
+  },
+  "chapter_50_appendix_s_chapter_7_deep_dive.md": {
+    "size": 2628,
+    "sha256": "d1e8ce82a09800dec72bb396beb6c0db65eb188fdd2597372ea485e44b3d082b"
+  },
+  "chapter_51_appendix_t_final_integration__.md": {
+    "size": 1769,
+    "sha256": "34660f4cf009cb1dcc9d59c94f24d2ed96bebdb169a91f35feb39956bb71ffb2"
+  },
+  "chapter_52_appendix_u_complete_chapter_ex.md": {
+    "size": 7580,
+    "sha256": "7f1b8826f4577c5cbcba908fa4de66218f6828ed4dbb538f77eb16e5da30c740"
+  },
+  "chapter_53_appendix_v_chapter_3__consent_.md": {
+    "size": 5288,
+    "sha256": "44bd6f740a52bf9fd5d23ff5e6a32ffcb4112935c84a2e7a34055358f6e7eb96"
+  },
+  "chapter_54_appendix_w_chapter_8__regulato.md": {
+    "size": 2594,
+    "sha256": "122f948d0568405ba11bbdcb0c7f80015ac53254c9caeb67d9de107e8ca565ae"
+  },
+  "chapter_55_appendix_x_final_production_ve.md": {
+    "size": 99,
+    "sha256": "a7f4e1108fb1be5eacc15d2da6ff4899da32dc794fead062338c64b786191dab"
+  },
+  "chapter_56_line_count_verification.md": {
+    "size": 74,
+    "sha256": "78537a77b79823b93d0a29ef20c4a7b2c78c3df01c899c6611acb3593bc65fc9"
+  },
+  "chapter_57_required_\u2265900_lines.md": {
+    "size": 24,
+    "sha256": "c515ae2ffb3aeaa0f8144765fcb363c3a432b8faea3aa7ec922ebd75558112c0"
+  },
+  "chapter_58_target_5500+_lines.md": {
+    "size": 23,
+    "sha256": "ea08c5038b6505df593a8c81f0f41b40a91350e7ae1135f9de916d2f9ce1a41d"
+  },
+  "chapter_59_formula_count_verification.md": {
+    "size": 84,
+    "sha256": "3f09109ca8ea1052d9b626a12728362109413235415a8975739f69ac99deba9e"
+  },
+  "chapter_60_required_\u226520_formulas.md": {
+    "size": 26,
+    "sha256": "7d9c5c7de5e99e4a0ea0ff6808e6b97853f60fac6e1fd455beca4da80c5090e2"
+  },
+  "chapter_61_target_55+_formulas.md": {
+    "size": 23,
+    "sha256": "13f907a13e51c6ce49f714a14a2f69afa2ccd2b3d0be3c782015c82f36d5347f"
+  },
+  "chapter_62_cross-reference_count_verifica.md": {
+    "size": 362,
+    "sha256": "34f2b8c8cf26827d48e3081f67fefeb538b9b9fcc1981cb264fb5b536a8d009d"
+  },
+  "chapter_63_required_\u226515_cross-refs.md": {
+    "size": 28,
+    "sha256": "53916e9b5c9c87426ef9d33ee4e95775fbf2cb4bbb097de78d5732cfd8c0ca3d"
+  },
+  "chapter_64_target_350+_cross-refs.md": {
+    "size": 26,
+    "sha256": "68b9a0c2561b09bdb10498f88eeea1ae12e404970944fbe78ad2dbce642e26ec"
+  },
+  "chapter_65_standards_count_verification.md": {
+    "size": 271,
+    "sha256": "69e5ba8ce552521f2adba04ba72b42b0455e601469a30e317491288c27216ec5"
+  },
+  "chapter_66_required_\u22658_standards.md": {
+    "size": 26,
+    "sha256": "4dab27f008f5a43f74544b4667022136570f9ecbb980de6a9344675511b24318"
+  },
+  "chapter_67_target_25+_standards.md": {
+    "size": 1121,
+    "sha256": "c9d92e3a29ce8c1eed614cb3e80592e45526d5896950118845c6d6db5c1e5e40"
+  },
+  "chapter_68_1_split_into_logical_chapters.md": {
+    "size": 168,
+    "sha256": "538b70e6db640307f58332720d33ca67bc4644092f8e92ace40e7fc88e43e5f4"
+  },
+  "chapter_69_result_12-15_chunks_9_chapters.md": {
+    "size": 49,
+    "sha256": "90db0078feca36d681ad311f75b0090378eaf2574194c04a856908ac4e7c5930"
+  },
+  "chapter_70_2_verify_integrity.md": {
+    "size": 91,
+    "sha256": "01ca6e015bd1669136b3a8d97b51b460a7267ba753ffed18274dc6c82545a62f"
+  },
+  "chapter_71_result_verified_n_files_ok.md": {
+    "size": 30,
+    "sha256": "ac4e6d7a15588e1ae3cfba3be8d43b65aec4e969d58d1f6ff2565db5519a26b0"
+  },
+  "chapter_72_3_generate_manifest.md": {
+    "size": 94,
+    "sha256": "7b38fbd65ab47f5122c49ad9642945137eb47832043f355564aa892f7e1970ed"
+  },
+  "chapter_73_result_manifest_written_with_s.md": {
+    "size": 46,
+    "sha256": "b6d19328df578d019d85518ad358ab344a4ad7e5b485f3be9057d760c784b6ae"
+  },
+  "chapter_74_4_compress_original.md": {
+    "size": 129,
+    "sha256": "282bdfd3337e37dae0c8fbdbfd55ef1db64953c2606ae9af929a51d69dffeada"
+  },
+  "chapter_75_result_compressed_to_mdgz_<25_.md": {
+    "size": 40,
+    "sha256": "dcb59a30b00d478aa50acf497bb1863f1b0f514935dde26fc9de8f6f082707b2"
+  },
+  "chapter_76_5_generate_heuristic_intros_5_.md": {
+    "size": 125,
+    "sha256": "2cd5ecff5cb6cefbf9ca605c87edd0997e41f8d557dae05060f55e93e525fff7"
+  },
+  "chapter_77_result_6_intro_files_in_finish.md": {
+    "size": 47,
+    "sha256": "f334e8a39fc36649573cb56ce6d8ae4cfe2b9bce4e0cc3a580c2ef8dffb89f5a"
+  },
+  "chapter_78_doc-28_intro_williamsmd.md": {
+    "size": 28,
+    "sha256": "b4df5c69e764b1602ebf2fae1a3cc8dd1241eba2b8328a8681795ea6c80387d5"
+  },
+  "chapter_79_doc-28_intro_keymakermd.md": {
+    "size": 28,
+    "sha256": "6ce9d396ab021529e273c199362f31dee94ae04a7f2225dc34be9ba0df780004"
+  },
+  "chapter_80_doc-28_intro_el_segundomd.md": {
+    "size": 30,
+    "sha256": "b63ec80b556dd913d79ba3916379e60b44c04a0a7d515c9a9be365ff0fbd301e"
+  },
+  "chapter_81_doc-28_intro_bakerstreetmd.md": {
+    "size": 31,
+    "sha256": "01c27a948fa557a7dccf504adf26c43ef1bb4f69b5af3c01466a4f129a06d64f"
+  },
+  "chapter_82_doc-28_intro_shieldmd.md": {
+    "size": 26,
+    "sha256": "05fb66732f375d59a1edb4045b978c556ed7bb7ee14496da1477a3768497c1a5"
+  },
+  "chapter_83_doc-28_combined_intromd.md": {
+    "size": 29,
+    "sha256": "1c430936bc961f8ba4d5c919c2ffde56d2cdf7dceaacdf2b0a351620fb7afcae"
+  },
+  "chapter_84_6_verify_reassembly.md": {
+    "size": 226,
+    "sha256": "cef5b48a1332d1a4a8fd435276ec2d5ee8d915cdf7ad25d8110433d33802ade0"
+  },
+  "chapter_85_result_0_bytes_difference_whit.md": {
+    "size": 47,
+    "sha256": "3ff56bdb5ec62e9c4e672e88ef0e66f4bd900b1437e56d8bb5f928ac1d3ac1ca"
+  },
+  "chapter_86_7_git_commit_+_tag.md": {
+    "size": 799,
+    "sha256": "5eee9e3b6d940937832a9868cd2bcec31447bd1a6369b77135ef04bf2327b221"
+  }
+}

@@ -1,0 +1,2 @@
+# Cross-reference count
+grep -c 'DOC-\|Law\|Decree\|CONADI\|CONAF\|SEREMI\|GORE\|CPA\|FBC\|CDC\|Supreme Court\|Environmental Court\|DGA\|ILO\|UNDRIP\|ISO\|MIL-STD\|CPTPP\|OECD\|Water Code\|Glacier Law\|Law 21.435' FinishedWork/DOC-28_Community_Pehuenche.md
