@@ -515,20 +515,20 @@
   - [x] 5.1.4.14 Log completion + git commit + tag runner-017d-complete
 
   #### 5.1.5 DOC-30: Kawéskar/Yagán (Austral Fjords) (15 tasks)
-  - [ ] 5.1.5.1 Research Kawéskar/Yagán maritime nomads, canoe culture, archipelago, 5+1 communities
-  - [ ] 5.1.5.2 Map austral impacts: coal, epithermal HREE (Alpha-17), HIF green H2, port expansion
-  - [ ] 5.1.5.3 Document maritime consent: marine spatial planning, CONADI maritime, Kawéskar WCS
-  - [ ] 5.1.5.4 Design FBC/CDC trust: marine territory trust, navigation school, Yagán language revitalization
-  - [ ] 5.1.5.5 Size Aegis-Forge integration: Alpha-15/16, Alpha-17, Bravo-8/9
-  - [ ] 5.1.5.6 Marine protected area protocol: Kawéskar WCS, Yagán Cape Horn, Antarctic Treaty, blue economy
-  - [ ] 5.1.5.7 Economic diversification: Antarctic logistics, tourism, kelp farming, green H2 services
-  - [ ] 5.1.5.8 Regulatory navigation: SEREMI Aysén/Magallanes, GORE, Antarctic Treaty, CRMA
-  - [ ] 5.1.5.9 Draft DOC-30 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 5.1.5.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
-  - [ ] 5.1.5.11 Split into logical chunks → chunks/DOC-30/
-  - [ ] 5.1.5.12 Generate manifest & verify integrity
-  - [ ] 5.1.5.13 Compress FinishedWork original (.gz)
-  - [ ] 5.1.5.14 Log completion + git commit + tag runner-017e-complete
+  - [x] 5.1.5.1 Research Kawéskar/Yagán maritime nomads, canoe culture, archipelago, 5+1 communities
+  - [x] 5.1.5.2 Map austral impacts: coal, epithermal HREE (Alpha-17), HIF green H2, port expansion
+  - [x] 5.1.5.3 Document maritime consent: marine spatial planning, CONADI maritime, Kawéskar WCS
+  - [x] 5.1.5.4 Design FBC/CDC trust: marine territory trust, navigation school, Yagán language revitalization
+  - [x] 5.1.5.5 Size Aegis-Forge integration: Alpha-15/16, Alpha-17, Bravo-8/9
+  - [x] 5.1.5.6 Marine protected area protocol: Kawéskar WCS, Yagán Cape Horn, Antarctic Treaty, blue economy
+  - [x] 5.1.5.7 Economic diversification: Antarctic logistics, tourism, kelp farming, green H2 services
+  - [x] 5.1.5.8 Regulatory navigation: SEREMI Aysén/Magallanes, GORE, Antarctic Treaty, CRMA
+  - [x] 5.1.5.9 Draft DOC-30 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 5.1.5.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [x] 5.1.5.11 Split into logical chunks → chunks/DOC-30/
+  - [x] 5.1.5.12 Generate manifest - [x] 5.1.5.12 Generate manifest - [ ] 5.1.5.12 Generate manifest & verify verify verify integrity
+  - [x] 5.1.5.13 Compress FinishedWork original (.gz)
+  - [x] 5.1.5.14 Log completion + git commit + tag runner-017e-complete
 
   #### 5.1.6 DOC-31: Calama Mining Community (15 tasks)
   - [ ] 5.1.6.1 Research Calama: Chuquicamata, Radomiro Tomic, Ministro Hales, 180K pop, union town

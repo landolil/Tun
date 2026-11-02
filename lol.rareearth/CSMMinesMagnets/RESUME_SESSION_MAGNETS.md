@@ -5,14 +5,14 @@
 ### Project State
 - **Runner**: 017 (0-based: 16th runner, 1-based: 17th runner)
 - **Phase**: 5 — Community-Specific Intelligence (10 Documents)
-- **Previous Documents**: **DOC-16..29** ✅ COMPLETE (Phase 4 Complete + DOC-26 Atacameño + DOC-27 Diaguita + DOC-28 Pehuenche + DOC-29 Mapuche-Sur)
-- **Current Document**: **DOC-30** (Kawéskar/Yagán Austral Fjords) — Chapter 1, Subtask 1.1 starting
-- **Next Documents**: **DOC-30..35** (6 remaining Community Deep Dives)
+- **Previous Documents**: **DOC-16..30** ✅ COMPLETE (Phase 4 Complete + DOC-26 Atacameño + DOC-27 Diaguita + DOC-28 Pehuenche + DOC-29 Mapuche-Sur + DOC-30 Kawéskar/Yagán)
+- **Current Document**: **DOC-31** (Calama Mining Community) — Chapter 1, Subtask 1.1 starting
+- **Next Documents**: **DOC-31..35** (5 remaining Community Deep Dives)
 - **Infrastructure**: Directory structure complete, all tools operational
 - **Heartbeat**: `scripts/heartbeat_monitor.py` running (120-second interval, PID tracked in .heartbeat_pid)
 - **Task Timer**: `scripts/task_timer.py` ready (30s guard per subtask)
-- **Git**: Branch `kilo/digital-dolphin-50m`, last commit (DOC-29 complete), pushed to origin
-- **Tags**: `runner-013-complete`, `runner-014a-complete`, `runner-014b-complete`, `runner-014c-complete`, `runner-015a-complete`, `runner-015b-complete`, `runner-015c-complete`, `runner-016a-complete`, `runner-016b-complete`, `runner-016c-complete`, `runner-017a-complete`, `runner-017b-complete`, `runner-017c-complete`, `runner-017d-complete` pushed to origin
+- **Git**: Branch `kilo/digital-dolphin-50m`, last commit (DOC-30 complete), pushed to origin
+- **Tags**: `runner-013-complete`, `runner-014a-complete`, `runner-014b-complete`, `runner-014c-complete`, `runner-015a-complete`, `runner-015b-complete`, `runner-015c-complete`, `runner-016a-complete`, `runner-016b-complete`, `runner-016c-complete`, `runner-017a-complete`, `runner-017b-complete`, `runner-017c-complete`, `runner-017d-complete`, `runner-017e-complete` pushed to origin
 
 ### What's Done (Phase 1 + Phase 2 + Phase 3 + Phase 4 COMPLETE)
 
@@ -62,7 +62,8 @@
 - ✅ **DOC-27**: Community-Specific — Diaguita Valleys (Norte Chico) — 5,500+ lines, all quality gates passed, tag `runner-017b-complete`
 - ✅ **DOC-28**: Community-Specific — Mapuche-Pehuenche (Zona Central Andes) — 5,800+ lines, all quality gates passed, tag `runner-017c-complete`
 - ✅ **DOC-29**: Community-Specific — Mapuche-Lafkenche/Pewenche/Wenteche/Nagche (Sur) — 2,480+ lines, all quality gates passed, tag `runner-017d-complete`
-- 🔄 **DOC-30**: Community-Specific — Kawéskar/Yagán (Austral Fjords) — **NEXT** (Chapter 1, Subtask 1.1 starting)
+- ✅ **DOC-30**: Community-Specific — Kawéskar/Yagán (Austral Fjords) — 2,240+ lines, all quality gates passed, tag `runner-017e-complete`
+- 🔄 **DOC-31**: Community-Specific — Calama Mining Community — **NEXT** (Chapter 1, Subtask 1.1 starting)
 
 ### Research Assets Located (Repository-Wide)
 
@@ -91,7 +92,7 @@
 | **DOC-34** | Concepción/Talcahuano (Industrial) | Huachipato steel, Lota coal closure, Coronel thermoelectric, UdeC research, Biobío river |
 | **DOC-35** | Punta Arenas (Gateway) | HIF Magallanes, INACH, ZOFRI, Antarctic Treaty, Strait pilotage, Kawéskar urban |
 
-### What's Next (Runner 017) — DOC-30..35 Authoring
+### What's Next (Runner 017) — DOC-31..35 Authoring
 
 Each community document: **9 Chapters × 13 Subtasks = 117 Subtasks per Document**
 
@@ -99,9 +100,8 @@ Each community document: **9 Chapters × 13 Subtasks = 117 Subtasks per Document
 **DOC-27**: ✅ COMPLETE — Diaguita Valleys — 4 valleys, Dominga precedent, agricultural mining conflict
 **DOC-28**: ✅ COMPLETE — Mapuche-Pehuenche — High Andes, glaciers, porphyry mining, pewén territory
 **DOC-29**: ✅ COMPLETE — Mapuche-Sur — 4 subgroups, coal/pulp legacy, Native Forest Law, coastal/Andean
-**DOC-30**: 🔄 NEXT — Kawéskar/Yagán — Maritime nomads, fjords, green H2, Antarctic, marine consent
-**DOC-31**: Kawéskar/Yagán — Maritime nomads, fjords, green H2, Antarctic, marine consent
-**DOC-31**: Calama — Copper city, unions, silicosis, diversification, Aegis-Forge hub
+**DOC-30**: ✅ COMPLETE — Kawéskar/Yagán — Maritime nomads, fjords, green H2, Antarctic, marine consent
+**DOC-31**: 🔄 NEXT — Calama — Copper city, unions, silicosis, diversification, Aegis-Forge hub
 **DOC-32**: Antofagasta — Port gateway, immigrants, Chango, green port, REE logistics
 **DOC-33**: Copiapó/Vallenar — Historical mining, solar transition, Diaguita urban, water security
 **DOC-34**: Concepción/Talcahuano — Steel/coal/port/university, just transition, REE recycling
@@ -212,5 +212,5 @@ cat Logs/heartbeat.log | tail -20
 
 ---
 
-**Status**: Phase 4 COMPLETE (DOC-16..25) + DOC-26 COMPLETE + DOC-27 COMPLETE + DOC-28 COMPLETE + DOC-29 COMPLETE — Runner 017 now advancing to DOC-30 (Kawéskar/Yagán Austral Fjords) Chapter 1, Subtask 1.1.
+**Status**: Phase 4 COMPLETE (DOC-16..25) + DOC-26 COMPLETE + DOC-27 COMPLETE + DOC-28 COMPLETE + DOC-29 COMPLETE + DOC-30 COMPLETE — Runner 017 now advancing to DOC-31 (Calama Mining Community) Chapter 1, Subtask 1.1.
 **Hardcoded Rule**: Every subtask = console output + TODO update + heartbeat log + git commit every 3-5 subtasks.
