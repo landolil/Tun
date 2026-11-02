@@ -410,48 +410,206 @@
   - [x] 4.7.12 Log completion + git commit + tag runner-015c-complete
 
   #### 4.8 DOC-23: Gadolinium-Europium-Holmium Medical/Quantum (15 tasks)
-  - [ ] 4.8.1 Research Gd/Eu/Ho markets: MRI contrast ($1.2B), phosphors ($800M), quantum ($500M), control rods
-  - [ ] 4.8.2 Map Chilean Gd/Eu/Ho occurrences: ion-adsorption, epithermal, porphyry byproduct
-  - [ ] 4.8.3 Quantify Aegis-Forge Stage 8 Gd/Eu/Ho separation: SX parameters, 4N purity
-  - [ ] 4.8.4 Document medical supply chain: Gd-DTPA/DOTA GMP, Eu phosphors, Ho fiber lasers
-  - [ ] 4.8.5 Analyze quantum/nuclear: Ho:YLF quantum memory, Gd burnable poison, Eu quantum dots
-  - [ ] 4.8.6 Draft DOC-23 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 4.8.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
-  - [ ] 4.8.8 Split into logical chunks → chunks/DOC-23/
-  - [ ] 4.8.9 Generate manifest & verify integrity
-  - [ ] 4.8.10 Compress FinishedWork original (.gz)
-  - [ ] 4.8.11 Log completion + git commit + tag runner-016a-complete
+  - [x] 4.8.1 Research Gd/Eu/Ho markets: MRI contrast ($1.2B), phosphors ($800M), quantum ($500M), control rods
+  - [x] 4.8.2 Map Chilean Gd/Eu/Ho occurrences: ion-adsorption, epithermal, porphyry byproduct
+  - [x] 4.8.3 Quantify Aegis-Forge Stage 8 Gd/Eu/Ho separation: SX parameters, 4N purity
+  - [x] 4.8.4 Document medical supply chain: Gd-DTPA/DOTA GMP, Eu phosphors, Ho fiber lasers
+  - [x] 4.8.5 Analyze quantum/nuclear: Ho:YLF quantum memory, Gd burnable poison, Eu quantum dots
+  - [x] 4.8.6 Draft DOC-23 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.8.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.8.8 Split into logical chunks → chunks/DOC-23/
+  - [x] 4.8.9 Generate manifest & verify integrity
+  - [x] 4.8.10 Compress FinishedWork original (.gz)
+  - [x] 4.8.11 Log completion + git commit + tag runner-016a-complete
 
   #### 4.9 DOC-24: Lutetium-Yttrium-Scandium Specialty Alloys (15 tasks)
-  - [ ] 4.9.1 Research Lu/Y/Sc markets: Sc-Al alloys ($300/kg Sc), Y₂O₃ SCR, Lu₂O₃ scintillators, Lu-177
-  - [ ] 4.9.2 Map Chilean Lu/Y/Sc occurrences: HREE-enriched IOCG, ion-adsorption clays
-  - [ ] 4.9.3 Quantify Aegis-Forge Stage 8 Lu/Y/Sc separation: HREE SX circuit
-  - [ ] 4.9.4 Document specialty alloys: Sc-Al master alloy, Y₂O₃ SCR catalysts, Lu₂O₃ PET/CT
-  - [ ] 4.9.5 Analyze medical isotope: Lu-177 production, Y-90, radiopharmacy supply chain
-  - [ ] 4.9.6 Draft DOC-24 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 4.9.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
-  - [ ] 4.9.8 Split into logical chunks → chunks/DOC-24/
-  - [ ] 4.9.9 Generate manifest & verify integrity
-  - [ ] 4.9.10 Compress FinishedWork original (.gz)
-  - [ ] 4.9.11 Log completion + git commit + tag runner-016b-complete
+  - [x] 4.9.1 Research Lu/Y/Sc markets: Sc-Al alloys ($300/kg Sc), Y₂O₃ SCR, Lu₂O₃ scintillators, Lu-177
+  - [x] 4.9.2 Map Chilean Lu/Y/Sc occurrences: HREE-enriched IOCG, ion-adsorption clays
+  - [x] 4.9.3 Quantify Aegis-Forge Stage 8 Lu/Y/Sc separation: HREE SX circuit
+  - [x] 4.9.4 Document specialty alloys: Sc-Al master alloy, Y₂O₃ SCR catalysts, Lu₂O₃ PET/CT
+  - [x] 4.9.5 Analyze medical isotope: Lu-177 production, Y-90, radiopharmacy supply chain
+  - [x] 4.9.6 Draft DOC-24 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.9.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.9.8 Split into logical chunks → chunks/DOC-24/
+  - [x] 4.9.9 Generate manifest & verify integrity
+  - [x] 4.9.10 Compress FinishedWork original (.gz)
+  - [x] 4.9.11 Log completion + git commit + tag runner-016b-complete
 
   #### 4.10 DOC-25: Cerium-Lanthanum-Praseodymium Catalytic/Polishing (15 tasks)
-  - [ ] 4.10.1 Research Ce/La/Pr markets: FCC catalysts ($4B), glass polishing ($1.5B), Pr-Nd metal, batteries
-  - [ ] 4.10.2 Map Chilean Ce/La/Pr occurrences: monazite/bastnäsite dominant across all 22 districts
-  - [ ] 4.10.3 Quantify Aegis-Forge Stage 8 Ce/La/Pr separation: LREE SX circuit (high volume, 3N-4N)
-  - [ ] 4.10.4 Document catalyst supply chain: FCC catalyst specs, Ce/La fluid cracking, recycling
-  - [ ] 4.10.5 Analyze polishing/alloy/battery: CeO₂ powder, mischmetal, LaNi₅ MH batteries
-  - [ ] 4.10.6 Draft DOC-25 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 4.10.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
-  - [ ] 4.10.8 Split into logical chunks → chunks/DOC-25/
-  - [ ] 4.10.9 Generate manifest & verify integrity
-  - [ ] 4.10.10 Compress FinishedWork original (.gz)
-  - [ ] 4.10.11 Log completion + git commit + tag runner-016c-complete
+  - [x] 4.10.1 Research Ce/La/Pr markets: FCC catalysts ($4B), glass polishing ($1.5B), Pr-Nd metal, batteries
+  - [x] 4.10.2 Map Chilean Ce/La/Pr occurrences: monazite/bastnäsite dominant across all 22 districts
+  - [x] 4.10.3 Quantify Aegis-Forge Stage 8 Ce/La/Pr separation: LREE SX circuit (high volume, 3N-4N)
+  - [x] 4.10.4 Document catalyst supply chain: FCC catalyst specs, Ce/La fluid cracking, recycling
+  - [x] 4.10.5 Analyze polishing/alloy/battery: CeO₂ powder, mischmetal, LaNi₅ MH batteries
+  - [x] 4.10.6 Draft DOC-25 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.10.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.10.8 Split into logical chunks → chunks/DOC-25/
+  - [x] 4.10.9 Generate manifest & verify integrity
+  - [x] 4.10.10 Compress FinishedWork original (.gz)
+  - [x] 4.10.11 Log completion + git commit + tag runner-016c-complete
 
-### Phase 5: Community-Specific Intelligence — Runners 007-008 (Tasks 411-560)
+### Phase 5: Community-Specific Intelligence — Runner 017 (Tasks 411-560)
 
 #### 5.1 DOC-26..35: 10 Community Deep Dives (150 tasks)
-- Indigenous territories (3), Mining towns (3), Port cities (2), Academic centers (2)
+  #### 5.1.1 DOC-26: Atacameño Territory (Norte Grande) (15 tasks)
+  - [ ] 5.1.1.1 Research Atacameño (Lickanantay) history, 11 ayllus, Salar de Atacama, water cosmology
+  - [ ] 5.1.1.2 Map mining impacts: SQM/Albemarle brine, lagoons, Cu/REE overlap, cumulative impact
+  - [ ] 5.1.1.3 Document consent architecture: Consulta Indígena, CPA, precedent cases, CPA model
+  - [ ] 5.1.1.4 Design FBC/CDC trust: 15%/20% equity, water trust, cultural heritage fund, governance
+  - [ ] 5.1.1.5 Size Aegis-Forge integration: Alpha-1/2 clusters, local employment, training, procurement
+  - [ ] 5.1.1.6 Design water sovereignty protocol: brine vs freshwater, lagoon monitoring, community hydrology
+  - [ ] 5.1.1.7 Economic diversification: tourism (ALMA), agriculture, value-added REE processing
+  - [ ] 5.1.1.8 Regulatory navigation: SEA RCA, DGA, CONADI, Sernageomin, CRMA strategic project
+  - [ ] 5.1.1.9 Draft DOC-26 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.1.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.1.11 Split into logical chunks → chunks/DOC-26/
+  - [ ] 5.1.1.12 Generate manifest & verify integrity
+  - [ ] 5.1.1.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.1.14 Log completion + git commit + tag runner-017a-complete
+
+  #### 5.1.2 DOC-27: Diaguita Valleys (Norte Chico) (15 tasks)
+  - [ ] 5.1.2.1 Research Diaguita 4 valleys (Elqui, Limarí, Choapa, Huasco), 15 communities, agriculture
+  - [ ] 5.1.2.2 Map mining impacts: Dominga rejection, Los Pelambres tailings, water scarcity, agric conflict
+  - [ ] 5.1.2.3 Document consent architecture: Consulta Indígena, valley assemblies, legal personality (2006)
+  - [ ] 5.1.2.4 Design FBC/CDC trust: valley-specific, agricultural compensation, water fund, cultural revitalization
+  - [ ] 5.1.2.5 Size Aegis-Forge integration: Alpha-3..7 (IOCG), Bravo-3/4 (ion-adsorption), local jobs
+  - [ ] 5.1.2.6 Water sharing agreements: surface + groundwater, agricultural priority, mining efficiency
+  - [ ] 5.1.2.7 Economic diversification: agro-export, astro-tourism, REE value-add
+  - [ ] 5.1.2.8 Regulatory navigation: SEREMI Coquimbo/Atacama, GORE, DGA, CRMA, Glacier Law
+  - [ ] 5.1.2.9 Draft DOC-27 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.2.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.2.11 Split into logical chunks → chunks/DOC-27/
+  - [ ] 5.1.2.12 Generate manifest & verify integrity
+  - [ ] 5.1.2.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.2.14 Log completion + git commit + tag runner-017b-complete
+
+  #### 5.1.3 DOC-28: Mapuche-Pehuenche (Zona Central Andes) (15 tasks)
+  - [ ] 5.1.3.1 Research Pehuenche origin, 8 communities, pewén/araucaria, volcanic territory
+  - [ ] 5.1.3.2 Map porphyry impacts: Los Bronces, Andina, El Teniente, Los Pelambres, glacier, watershed
+  - [ ] 5.1.3.3 Document consent architecture: Consulta Indígena, territorial authority, FPIC, precedent
+  - [ ] 5.1.3.4 Design FBC/CDC trust: glacier protection, watershed trust, pewén restoration, cultural center
+  - [ ] 5.1.3.5 Size Aegis-Forge integration: Alpha-7..11 (porphyry), Bravo-5 (urban mining), high-skill jobs
+  - [ ] 5.1.3.6 Glacier & watershed protocol: Glacier Law 21.435, monitoring, sentinel, veto rights
+  - [ ] 5.1.3.7 Economic diversification: mountain tourism, pewén products, hydroponics, data centers
+  - [ ] 5.1.3.8 Regulatory navigation: 3-region SEREMI/GORE, SEIA, DGA, CONAF, CRMA
+  - [ ] 5.1.3.9 Draft DOC-28 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.3.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.3.11 Split into logical chunks → chunks/DOC-28/
+  - [ ] 5.1.3.12 Generate manifest & verify integrity
+  - [ ] 5.1.3.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.3.14 Log completion + git commit + tag runner-017c-complete
+
+  #### 5.1.4 DOC-29: Mapuche-Lafkenche/Pewenche/Wenteche/Nagche (Sur) (15 tasks)
+  - [ ] 5.1.4.1 Research 4 Mapuche sub-groups: coastal, riverine, Andean, lowland, 20+ communities
+  - [ ] 5.1.4.2 Map historical impacts: Biobío coal/metal, Arauco pulp, REE clays, Native Forest Law
+  - [ ] 5.1.4.3 Document consent architecture: multi-subgroup, Lafkenche maritime, Pewenche Andes, consent complexity
+  - [ ] 5.1.4.4 Design FBC/CDC trust: coastal (Lafkenche), forest (Nagche), river (Wenteche), Andes (Pewenche)
+  - [ ] 5.1.4.5 Size Aegis-Forge integration: Alpha-12/13/14, Bravo-6/7 (coastal/urban)
+  - [ ] 5.1.4.6 Native forest & coastal protocol: Law 20.283, marine spatial planning, restoration, blue carbon
+  - [ ] 5.1.4.7 Economic diversification: sustainable forestry, aquaculture, REE recycling, eco-tourism
+  - [ ] 5.1.4.8 Regulatory navigation: 4-region SEREMI/GORE, CONADI, DGA, DIRECTEMAR, CRMA
+  - [ ] 5.1.4.9 Draft DOC-29 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.4.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.4.11 Split into logical chunks → chunks/DOC-29/
+  - [ ] 5.1.4.12 Generate manifest & verify integrity
+  - [ ] 5.1.4.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.4.14 Log completion + git commit + tag runner-017d-complete
+
+  #### 5.1.5 DOC-30: Kawéskar/Yagán (Austral Fjords) (15 tasks)
+  - [ ] 5.1.5.1 Research Kawéskar/Yagán maritime nomads, canoe culture, archipelago, 5+1 communities
+  - [ ] 5.1.5.2 Map austral impacts: coal, epithermal HREE (Alpha-17), HIF green H2, port expansion
+  - [ ] 5.1.5.3 Document maritime consent: marine spatial planning, CONADI maritime, Kawéskar WCS
+  - [ ] 5.1.5.4 Design FBC/CDC trust: marine territory trust, navigation school, Yagán language revitalization
+  - [ ] 5.1.5.5 Size Aegis-Forge integration: Alpha-15/16, Alpha-17, Bravo-8/9
+  - [ ] 5.1.5.6 Marine protected area protocol: Kawéskar WCS, Yagán Cape Horn, Antarctic Treaty, blue economy
+  - [ ] 5.1.5.7 Economic diversification: Antarctic logistics, tourism, kelp farming, green H2 services
+  - [ ] 5.1.5.8 Regulatory navigation: SEREMI Aysén/Magallanes, GORE, Antarctic Treaty, CRMA
+  - [ ] 5.1.5.9 Draft DOC-30 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.5.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.5.11 Split into logical chunks → chunks/DOC-30/
+  - [ ] 5.1.5.12 Generate manifest & verify integrity
+  - [ ] 5.1.5.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.5.14 Log completion + git commit + tag runner-017e-complete
+
+  #### 5.1.6 DOC-31: Calama Mining Community (15 tasks)
+  - [ ] 5.1.6.1 Research Calama: Chuquicamata, Radomiro Tomic, Ministro Hales, 180K pop, union town
+  - [ ] 5.1.6.2 Labor structure: Codelco unions, contractor vs direct, gender, migration, health burden
+  - [ ] 5.1.6.3 Health/environmental: silicosis, arsenic, SO₂, water scarcity, tailings, Aegis-Forge contrast
+  - [ ] 5.1.6.4 Community benefit architecture: Codelco fund, royalty minera, municipal budget, FBC
+  - [ ] 5.1.6.5 Aegis-Forge integration: Alpha-1/2 service hub, REE processing jobs, training center
+  - [ ] 5.1.6.6 Diversification roadmap: solar, lithium, REE processing, tourism, data centers
+  - [ ] 5.1.6.7 Port/rail logistics: FCAB Calama-Antofagasta-Meijillones, volteable containers, REE shipping
+  - [ ] 5.1.6.8 Regulatory navigation: SEREMI Antofagasta, GORE, DGA, Sernageomin, CRMA, municipal
+  - [ ] 5.1.6.9 Draft DOC-31 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.6.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.6.11 Split into logical chunks → chunks/DOC-31/
+  - [ ] 5.1.6.12 Generate manifest & verify integrity
+  - [ ] 5.1.6.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.6.14 Log completion + git commit + tag runner-017f-complete
+
+  #### 5.1.7 DOC-32: Antofagasta Port City (15 tasks)
+  - [ ] 5.1.7.1 Research Antofagasta: 400K pop, immigrant history, mining service hub, port gateway
+  - [ ] 5.1.7.2 Port infrastructure: EMPORCHA, ATI/Portezuelo/Mall Plaza, REE handling certification
+  - [ ] 5.1.7.3 Community demographics: inequality, campamentos, water access, Chango urban indigenous
+  - [ ] 5.1.7.4 FBC/CDC urban trust: port-city trust, Chango maritime trust, youth training, housing
+  - [ ] 5.1.7.5 Aegis-Forge integration: Alpha-1/2 logistics hub, REE export cert, ZOFRI processing zone
+  - [ ] 5.1.7.6 Green port transition: shore power, electric equipment, H2 fueling, REE dust control
+  - [ ] 5.1.7.7 Economic diversification: ZOFRI, lithium export, REE value-add, astronomy tourism
+  - [ ] 5.1.7.8 Regulatory navigation: EMPORCHA, SEREMI, GORE, DIRECTEMAR, Aduana, CRMA
+  - [ ] 5.1.7.9 Draft DOC-32 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.7.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.7.11 Split into logical chunks → chunks/DOC-32/
+  - [ ] 5.1.7.12 Generate manifest & verify integrity
+  - [ ] 5.1.7.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.7.14 Log completion + git commit + tag runner-017g-complete
+
+  #### 5.1.8 DOC-33: Copiapó/Vallenar (Norte Chico Hub) (15 tasks)
+  - [ ] 5.1.8.1 Research Copiapó/Vallenar: historical Ag/Cu/Fe, Chañarcillo, El Romeral, solar transition
+  - [ ] 5.1.8.2 Solar/wind transition: Atacama corridor (highest DNI), green H2, storage, grid
+  - [ ] 5.1.8.3 Diaguita urban communities: Copiapó/Vallenar/Huasco, cultural revitalization, consent
+  - [ ] 5.1.8.4 FBC/CDC regional trust: valley trusts, solar benefit sharing, water security fund
+  - [ ] 5.1.8.5 Aegis-Forge integration: Alpha-3..7 (IOCG), Bravo-3/4 (ion-adsorption), solar-powered REE
+  - [ ] 5.1.8.6 Water security protocol: Copiapó aquifer, Huasco river, mining vs agric, desalination
+  - [ ] 5.1.8.7 Economic diversification: agro-export, solar services, REE processing, astro-tourism, data centers
+  - [ ] 5.1.8.8 Regulatory navigation: SEREMI Atacama, GORE, DGA, CRMA, municipal energy plans
+  - [ ] 5.1.8.9 Draft DOC-33 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.8.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.8.11 Split into logical chunks → chunks/DOC-33/
+  - [ ] 5.1.8.12 Generate manifest & verify integrity
+  - [ ] 5.1.8.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.8.14 Log completion + git commit + tag runner-017h-complete
+
+  #### 5.1.9 DOC-34: Concepción/Talcahuano (Sur Industrial Hub) (15 tasks)
+  - [ ] 5.1.9.1 Research Concepción/Talcahuano: steel (Huachipato), coal (Lota/Coronel), port, UdeC
+  - [ ] 5.1.9.2 Coal transition: Lota closure, Coronel thermoelectric, just transition fund, REE recycling
+  - [ ] 5.1.9.3 Mapuche urban communities: Lafkenche/Pewenche/Wenteche in city, cultural centers, politics
+  - [ ] 5.1.9.4 FBC/CDC urban-industrial trust: steel worker, coal transition, Mapuche urban, UdeC innovation
+  - [ ] 5.1.9.5 Aegis-Forge integration: Alpha-12/13/14, Bravo-6/7 (coastal REE/urban mining)
+  - [ ] 5.1.9.6 Biobío river/bay restoration: industrial legacy, REE recycling water, blue carbon, monitoring
+  - [ ] 5.1.9.7 Economic diversification: green steel (H2), REE recycling hub, biotech, port, tourism
+  - [ ] 5.1.9.8 Regulatory navigation: SEREMI Biobío, GORE, DIRECTEMAR, MMA, CRMA, UdeC permits
+  - [ ] 5.1.9.9 Draft DOC-34 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.9.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.9.11 Split into logical chunks → chunks/DOC-34/
+  - [ ] 5.1.9.12 Generate manifest & verify integrity
+  - [ ] 5.1.9.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.9.14 Log completion + git commit + tag runner-017i-complete
+
+  #### 5.1.10 DOC-35: Punta Arenas Gateway (Austral Hub) (15 tasks)
+  - [ ] 5.1.10.1 Research Punta Arenas: 130K pop, Antarctic gateway, sheep/oil history, ZOFRI, multicultural
+  - [ ] 5.1.10.2 Antarctic logistics: ENAP HIF (1.2 GW), Puerto Exterior, Strait transit, Antarctic Treaty
+  - [ ] 5.1.10.3 Kawéskar/Yagán urban: Puerto Edén/Natales/Williams, cultural revival, maritime rights
+  - [ ] 5.1.10.4 FBC/CDC gateway trust: Antarctic logistics, green H2 community, maritime culture, youth
+  - [ ] 5.1.10.5 Aegis-Forge integration: Alpha-15/16, Alpha-17, Bravo-8/9
+  - [ ] 5.1.10.6 Strait/Antarctic protocol: pilotage, weather, oil spill, environmental protocol, Kawéskar WCS
+  - [ ] 5.1.10.7 Economic diversification: Antarctic services, green H2 export, tourism, kelp, data centers
+  - [ ] 5.1.10.8 Regulatory navigation: SEREMI Magallanes, GORE, INACH, DIRECTEMAR, CRMA, ZOFRI
+  - [ ] 5.1.10.9 Draft DOC-35 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 5.1.10.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [ ] 5.1.10.11 Split into logical chunks → chunks/DOC-35/
+  - [ ] 5.1.10.12 Generate manifest & verify integrity
+  - [ ] 5.1.10.13 Compress FinishedWork original (.gz)
+  - [ ] 5.1.10.14 Log completion + git commit + tag runner-017j-complete
 
 ### Phase 6: Technology Transfer — Runners 009-010 (Tasks 561-710)
 
@@ -474,14 +632,21 @@
 
 ---
 
-## Current Sprint: Phase 4 Batch 2 Complete — Runner 016 Starting (DOC-23..25)
+## Current Sprint: Phase 4 Complete — Runner 017 Starting (Phase 5: DOC-26..35)
 
 ### Immediate Next Actions (Next Session)
-1. [ ] Begin DOC-23: Gadolinium-Europium-Holmium Medical/Quantum Deep Dive
-2. [ ] Begin DOC-24: Lutetium-Yttrium-Scandium Specialty Alloys Deep Dive
-3. [ ] Begin DOC-25: Cerium-Lanthanum-Praseodymium Catalytic/Polishing Deep Dive
-4. [ ] Start heartbeat monitor
-5. [ ] Update RESUME_SESSION_MAGNETS.md
+1. [ ] Begin DOC-26: Atacameño Territory (Norte Grande) — Chapter 1 Subtask 1.1
+2. [ ] Begin DOC-27: Diaguita Valleys (Norte Chico) — Chapter 1 Subtask 1.1
+3. [ ] Begin DOC-28: Mapuche-Pehuenche (Zona Central Andes) — Chapter 1 Subtask 1.1
+4. [ ] Begin DOC-29: Mapuche-Lafkenche/Pewenche (Sur) — Chapter 1 Subtask 1.1
+5. [ ] Begin DOC-30: Kawéskar/Yagán (Austral Fjords) — Chapter 1 Subtask 1.1
+6. [ ] Begin DOC-31: Calama Mining Community — Chapter 1 Subtask 1.1
+7. [ ] Begin DOC-32: Antofagasta Port City — Chapter 1 Subtask 1.1
+8. [ ] Begin DOC-33: Copiapó/Vallenar Hub — Chapter 1 Subtask 1.1
+9. [ ] Begin DOC-34: Concepción/Talcahuano Hub — Chapter 1 Subtask 1.1
+10. [ ] Begin DOC-35: Punta Arenas Gateway — Chapter 1 Subtask 1.1
+11. [ ] Start heartbeat monitor
+12. [ ] Update RESUME_SESSION_MAGNETS.md
 
 ### Blockers
 - None identified — all tools and references available
@@ -500,4 +665,5 @@
 - 2026-11-02: Runner 013 complete: DOC-16 done (Phase 4, Norte Grande)
 - 2026-11-02: Runner 014 complete: DOC-17, DOC-18, DOC-19 done (Phase 4, Norte Chico, Zona Central, Sur)
 - 2026-11-02: Runner 015 complete: DOC-20, DOC-21, DOC-22 done (Phase 4, Austral + Mineral-Specific batch 1)
-- 2026-11-02: Phase 4 Regional Deep Dives complete (DOC-16..20), Mineral-Specific batch 1 complete (DOC-21,22)
+- 2026-11-02: Runner 016 complete: DOC-23, DOC-24, DOC-25 done (Phase 4, Mineral-Specific batch 2)
+- 2026-11-02: **Phase 4 COMPLETE (DOC-16..25 = 10 documents, all quality gates, 0 conflation)**
