@@ -1,0 +1,102 @@
+{
+  "chapter_01_intro.md": {
+    "size": 383,
+    "sha256": "bedbb337f8dbfe13a3c45aaaa9251577cf2ede9269ebc3efe2c094e8f0ce29ce"
+  },
+  "chapter_02_chapter_1_session_resume_frame.md": {
+    "size": 12953,
+    "sha256": "d5fef6ea605a99f2f63a0a246700a0b17ab1e8e5c1cc0c685a46e836cf7d938a"
+  },
+  "chapter_03_session_resumepy__core_classes.md": {
+    "size": 3352,
+    "sha256": "7e331c7f075449866b5440b18289a08fcd960a4e88630d0d4707a426cc900acc"
+  },
+  "chapter_04_full_resume_standard.md": {
+    "size": 135,
+    "sha256": "916d88ee652edd61ff3fb407b762d31b011143639d1250d54e20b42d7ef1e5cf"
+  },
+  "chapter_05_benchmark_mode_measures_rto.md": {
+    "size": 102,
+    "sha256": "c97f6a090c0f806c546bf7be04ca2e2663a299d5b04882f796ce92eb181252f2"
+  },
+  "chapter_06_verify_only_no_monitors_start.md": {
+    "size": 111,
+    "sha256": "9a3400f8a5b100961adcb775f7524ae7d6a0de27dc761605e99c827f688fbe6d"
+  },
+  "chapter_07_dry_run_phase_1-4_only.md": {
+    "size": 5427,
+    "sha256": "523c2b2e204ef9800ca6a53acddc1b7d5c25e0585169b9fa8f2797b2309b936b"
+  },
+  "chapter_08_chapter_2_shield_continuity_tr.md": {
+    "size": 9035,
+    "sha256": "f402d19e9466436bd6e17e8820054f24e34f63a9b1810a59ee5447fa110089c6"
+  },
+  "chapter_09_chapter_3_git-based_persistenc.md": {
+    "size": 3477,
+    "sha256": "83cbab621ce9857d11fc024ff2a35c2c27c90d18e9b9bae9dd7216d8504f2a17"
+  },
+  "chapter_10_every_3-5_subtasks_hardcoded_i.md": {
+    "size": 205,
+    "sha256": "dbcc2e33c68d2660c5c1917f73dcc260d23117ab85ea65d8407e275e49631059"
+  },
+  "chapter_11_at_runner_completion.md": {
+    "size": 140,
+    "sha256": "0f4db824e0a43144b76a246434a1749dd05cb4c7de823746403b02dce43e7269"
+  },
+  "chapter_12_at_phase_completion_every_~10_.md": {
+    "size": 2934,
+    "sha256": "eb10fd9dbe3c998b1959a894522d6b81f6cde90b9e705c39cb61cd3db573b8e3"
+  },
+  "chapter_13_chapter_4_heartbeat__task_time.md": {
+    "size": 553,
+    "sha256": "6e5c53dfe8dc73c774e2d91cd1b2f02a55fca9b675f633a5aa04e40679192ed0"
+  },
+  "chapter_14_scripts_heartbeat_monitorpy.md": {
+    "size": 2322,
+    "sha256": "a39935847d428f766573edd0d33de85ff052bad2aa2e0f262a5797e4564ee4f3"
+  },
+  "chapter_15_scripts_task_timerpy.md": {
+    "size": 3063,
+    "sha256": "7e71d7c04d74d7060e4b7c1240431c718bef5d460a089881de11a64e05f63709"
+  },
+  "chapter_16_chapter_5_conflation_audit_int.md": {
+    "size": 3438,
+    "sha256": "324afcc7f5e98d71df3b14efb987f4846eb2b63dd2fc2e8e0ae8eb851f280c4e"
+  },
+  "chapter_17_chapter_6_automation_specifica.md": {
+    "size": 1185,
+    "sha256": "57032c2a3705f05bbf9641e7e89235e1eefd0b8aa460406a552275aae6662803"
+  },
+  "chapter_18_session_resume_protocolpy.md": {
+    "size": 1100,
+    "sha256": "cfe5e3c5bb862149f1972a228b76ecd2adcf8d7a5ae50023387d25dd35ac6bf9"
+  },
+  "chapter_19_session_resume_requirementstxt.md": {
+    "size": 396,
+    "sha256": "77bd35c010e03f37a2565c523151ed61953efac7732c1d5e26bd539b271a9d1d"
+  },
+  "chapter_20_session_resume_knowledge_forma.md": {
+    "size": 1208,
+    "sha256": "ca00cf04e4674e00473fb54806995de827f377bd2d1dfb6882dd595cd841f55a"
+  },
+  "chapter_21_github_workflows_session_resum.md": {
+    "size": 1679,
+    "sha256": "2d4516f21b7174a546de6d0c0ac144df300fb7633980fff5252c8e57f3416590"
+  },
+  "chapter_22_chapter_7_historical_resume_ev.md": {
+    "size": 5551,
+    "sha256": "0116360a096e9a88d10765c3568ba4d7c26e63d95fdf1312274afe1880c2b145"
+  },
+  "chapter_23_chapter_8_civilizational_conti.md": {
+    "size": 1420,
+    "sha256": "254f688a78d5a5515a61ca899247fee63efba947955f66967d0e9665b22bc443"
+  },
+  "chapter_24_session_resume_knowledge_forma.md": {
+    "size": 6971,
+    "sha256": "6f98c4fdb9b507aefda99ffa160ace8c16b7aa4aba1d49b110b381569e344c22"
+  },
+  "chapter_25_chapter_9_traceability_matrix_.md": {
+    "size": 9318,
+    "sha256": "b35ba51f3c9f08152f3f045b8ec5190f96b925a673c3d6f019d4d449a14efe16"
+  }
+}
