@@ -12,15 +12,15 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-03T12:45:00Z",
-  "current_runner": "020",
-  "current_document": "PROD-40",
-  "subtask": "research",
-  "subtask_start": "2026-11-03T12:45:00Z",
-  "documents_completed": 39,
-  "total_lines_written": 39222,
-  "git_commits_this_session": 23,
-  "status": "active"
+  "last_heartbeat": "2026-11-03T13:45:00Z",
+  "current_runner": "021",
+  "current_document": "COMPLETE",
+  "subtask": "complete",
+  "subtask_start": "2026-11-03T13:45:00Z",
+  "documents_completed": 40,
+  "total_lines_written": 40311,
+  "git_commits_this_session": 24,
+  "status": "complete"
 }
 ```
 
@@ -200,3 +200,6 @@ ps aux | grep heartbeat_monitor
 2026-11-03T11:45:00Z Runner 019 PROD-38 Complete 1231 lines + 4 intros 35 chunks verified 1 commit OK
 2026-11-03T12:30:00Z Runner 020 Session Start PROD-39 Research Phase Initiated 0 lines 23 total OK
 2026-11-03T12:45:00Z Runner 020 PROD-39 Complete 1289 lines + 4 intros 32 chunks verified 1 commit OK
+2026-11-03T13:30:00Z Runner 021 Session Start PROD-40 Research Phase Initiated 0 lines 24 total OK
+2026-11-03T13:45:00Z Runner 021 PROD-40 Complete 1089 lines + 4 intros 14 chunks verified 1 commit OK
+2026-11-03T13:45:00Z Runner 021 PROJECT COMPLETE — 40/40 Product Documents Delivered 40311 total lines 24 commits DONE
