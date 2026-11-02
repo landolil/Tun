@@ -312,63 +312,141 @@
 #### 3.8 Runner 003 Wrap-up (5 tasks)
 
 ### Phase 4: Regional Deep Dives — Runners 004-006 (Tasks 216-410)
- 
- #### 4.2 DOC-17: Norte Chico — Atacama South & Coquimbo Regions (15 tasks)
- - [x] 4.2.1 Research Norte Chico IOCG/REE districts, Diaguita territories, FCAB Los Colorados
- - [x] 4.2.2 Map administrative divisions: Atacama South (2 prov) + Coquimbo (3 prov)
- - [x] 4.2.3 Quantify district resources: Los Bronces Ext, El Romeral, El Algarrobo, Los Colorados, Dominga, Punta Cobre S.
- - [x] 4.2.4 Document Diaguita valley consent pathways (Elqui, Limarí, Choapa, Huasco, Copiapó S.)
- - [x] 4.2.5 Map FCAB Los Colorados rail + Puerto Guayacán/Coquimbo/Panul ports
- - [x] 4.2.6 Analyze Diaguita communities, Dominga rejection precedent
- - [x] 4.2.7 Document SEREMI Coquimbo/Atacama + GORE Coquimbo regulatory interface
- - [x] 4.2.8 Size Aegis-Forge clusters: Alpha-3/4/5/6/7 (IOCG), Bravo-3/4 (ion-adsorption)
- - [x] 4.2.9 Cross-reference DOC-01..16 (national → regional refinement)
- - [x] 4.2.10 Draft DOC-17 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
- - [x] 4.2.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
- - [x] 4.2.12 Split into logical chunks → chunks/DOC-17/
- - [x] 4.2.13 Generate manifest & verify integrity
- - [x] 4.2.14 Compress FinishedWork original (.gz)
- - [x] 4.2.15 Log completion + git commit + tag runner-014a-complete
- 
- #### 4.3 DOC-18: Zona Central — Valparaíso, Metropolitana, O'Higgins (15 tasks)
- - [x] 4.3.1 Research Zona Central porphyry Cu-Mo-REE, Mapuche-Pehuenche, urban mining
- - [x] 4.3.2 Map administrative divisions: Valparaíso (8 prov) + Metropolitana (6) + O'Higgins (3)
- - [x] 4.3.3 Quantify district resources: Los Bronces, Andina, El Teniente, Los Pelambres, El Soldado, Chagres
- - [x] 4.3.4 Document Santiago urban mining REE potential (377 t/yr NdPr from e-waste/catalysts)
- - [x] 4.3.5 Map FCAB Central + EFE rail + Valparaíso/San Antonio/Los Vilos ports
- - [x] 4.3.6 Analyze Mapuche-Pehuenche (high Andes) + urban recycler communities
- - [x] 4.3.7 Document 3-region SEREMI/GORE + Glacier Law 21.435 regulatory interface
- - [x] 4.3.8 Size Aegis-Forge clusters: Alpha-7/8/9/10/11 (porphyry), Bravo-5 (urban)
- - [x] 4.3.9 Cross-reference DOC-01..17 (national → regional refinement)
- - [x] 4.3.10 Draft DOC-18 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
- - [x] 4.3.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
- - [x] 4.3.12 Split into logical chunks → chunks/DOC-18/
- - [x] 4.3.13 Generate manifest & verify integrity
- - [x] 4.3.14 Compress FinishedWork original (.gz)
- - [x] 4.3.15 Log completion + git commit + tag runner-014b-complete
- 
- #### 4.4 DOC-19: Sur — Maule, Ñuble, Biobío, Araucanía (15 tasks)
- - [x] 4.4.1 Research Sur historical Fe, Biobío coal/metal, Araucanía epithermal, Coastal ion-adsorption REE
- - [x] 4.4.2 Map administrative divisions: Maule (4) + Ñuble (3) + Biobío (4) + Araucanía (2)
- - [x] 4.4.3 Quantify district resources: Maule Fe skarns, Biobío coal/metal, Araucanía epithermal, Coastal REE clays
- - [x] 4.4.4 Document 4 Mapuche sub-groups (Lafkenche, Pewenche, Wenteche, Nagche) + urban recyclers
- - [x] 4.4.5 Map EFE Sur rail + Talcahuano/San Vicente/Coronel ports
- - [x] 4.4.6 Analyze Native Forest Law 20.283, Mapuche consent complexity
- - [x] 4.4.7 Document 4-region SEREMI/GORE regulatory interface
- - [x] 4.4.8 Size Aegis-Forge clusters: Alpha-12/13/14 (historical/epithermal), Bravo-6/7 (coastal/urban)
- - [x] 4.4.9 Cross-reference DOC-01..18 (national → regional refinement)
- - [x] 4.4.10 Draft DOC-19 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
- - [x] 4.4.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
- - [x] 4.4.12 Split into logical chunks → chunks/DOC-19/
- - [x] 4.4.13 Generate manifest & verify integrity
- - [x] 4.4.14 Compress FinishedWork original (.gz)
- - [x] 4.4.15 Log completion + git commit + tag runner-014c-complete
- #### 4.5 DOC-20: Austral — Aysén & Magallanes (15 tasks)
- #### 4.6 DOC-21: Neodymium-Dysprosium Supply Chain Deep Dive (15 tasks)
- #### 4.7 DOC-22: Terbium-Samarium-Cobalt Specialty Magnets (15 tasks)
- #### 4.8 DOC-23: Iron-Nitride (FeN) Rare-Earth-Free Pathway (15 tasks)
- #### 4.9 DOC-24: Copper-Gold-Iron Oxide (IOCG) Magnetic Byproducts (15 tasks)
- #### 4.10 DOC-25: Recycling Loops — Urban Mining & Tailings Reprocessing (15 tasks)
+  
+  #### 4.2 DOC-17: Norte Chico — Atacama South & Coquimbo Regions (15 tasks)
+  - [x] 4.2.1 Research Norte Chico IOCG/REE districts, Diaguita territories, FCAB Los Colorados
+  - [x] 4.2.2 Map administrative divisions: Atacama South (2 prov) + Coquimbo (3 prov)
+  - [x] 4.2.3 Quantify district resources: Los Bronces Ext, El Romeral, El Algarrobo, Los Colorados, Dominga, Punta Cobre S.
+  - [x] 4.2.4 Document Diaguita valley consent pathways (Elqui, Limarí, Choapa, Huasco, Copiapó S.)
+  - [x] 4.2.5 Map FCAB Los Colorados rail + Puerto Guayacán/Coquimbo/Panul ports
+  - [x] 4.2.6 Analyze Diaguita communities, Dominga rejection precedent
+  - [x] 4.2.7 Document SEREMI Coquimbo/Atacama + GORE Coquimbo regulatory interface
+  - [x] 4.2.8 Size Aegis-Forge clusters: Alpha-3/4/5/6/7 (IOCG), Bravo-3/4 (ion-adsorption)
+  - [x] 4.2.9 Cross-reference DOC-01..16 (national → regional refinement)
+  - [x] 4.2.10 Draft DOC-17 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.2.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.2.12 Split into logical chunks → chunks/DOC-17/
+  - [x] 4.2.13 Generate manifest & verify integrity
+  - [x] 4.2.14 Compress FinishedWork original (.gz)
+  - [x] 4.2.15 Log completion + git commit + tag runner-014a-complete
+  
+  #### 4.3 DOC-18: Zona Central — Valparaíso, Metropolitana, O'Higgins (15 tasks)
+  - [x] 4.3.1 Research Zona Central porphyry Cu-Mo-REE, Mapuche-Pehuenche, urban mining
+  - [x] 4.3.2 Map administrative divisions: Valparaíso (8 prov) + Metropolitana (6) + O'Higgins (3)
+  - [x] 4.3.3 Quantify district resources: Los Bronces, Andina, El Teniente, Los Pelambres, El Soldado, Chagres
+  - [x] 4.3.4 Document Santiago urban mining REE potential (377 t/yr NdPr from e-waste/catalysts)
+  - [x] 4.3.5 Map FCAB Central + EFE rail + Valparaíso/San Antonio/Los Vilos ports
+  - [x] 4.3.6 Analyze Mapuche-Pehuenche (high Andes) + urban recycler communities
+  - [x] 4.3.7 Document 3-region SEREMI/GORE + Glacier Law 21.435 regulatory interface
+  - [x] 4.3.8 Size Aegis-Forge clusters: Alpha-7/8/9/10/11 (porphyry), Bravo-5 (urban)
+  - [x] 4.3.9 Cross-reference DOC-01..17 (national → regional refinement)
+  - [x] 4.3.10 Draft DOC-18 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.3.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.3.12 Split into logical chunks → chunks/DOC-18/
+  - [x] 4.3.13 Generate manifest & verify integrity
+  - [x] 4.3.14 Compress FinishedWork original (.gz)
+  - [x] 4.3.15 Log completion + git commit + tag runner-014b-complete
+  
+  #### 4.4 DOC-19: Sur — Maule, Ñuble, Biobío, Araucanía (15 tasks)
+  - [x] 4.4.1 Research Sur historical Fe, Biobío coal/metal, Araucanía epithermal, Coastal ion-adsorption REE
+  - [x] 4.4.2 Map administrative divisions: Maule (4) + Ñuble (3) + Biobío (4) + Araucanía (2)
+  - [x] 4.4.3 Quantify district resources: Maule Fe skarns, Biobío coal/metal, Araucanía epithermal, Coastal REE clays
+  - [x] 4.4.4 Document 4 Mapuche sub-groups (Lafkenche, Pewenche, Wenteche, Nagche) + urban recyclers
+  - [x] 4.4.5 Map EFE Sur rail + Talcahuano/San Vicente/Coronel ports
+  - [x] 4.4.6 Analyze Native Forest Law 20.283, Mapuche consent complexity
+  - [x] 4.4.7 Document 4-region SEREMI/GORE regulatory interface
+  - [x] 4.4.8 Size Aegis-Forge clusters: Alpha-12/13/14 (historical/epithermal), Bravo-6/7 (coastal/urban)
+  - [x] 4.4.9 Cross-reference DOC-01..18 (national → regional refinement)
+  - [x] 4.4.10 Draft DOC-19 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.4.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.4.12 Split into logical chunks → chunks/DOC-19/
+  - [x] 4.4.13 Generate manifest & verify integrity
+  - [x] 4.4.14 Compress FinishedWork original (.gz)
+  - [x] 4.4.15 Log completion + git commit + tag runner-014c-complete
+  
+  #### 4.5 DOC-20: Austral — Aysén & Magallanes (15 tasks)
+  - [x] 4.5.1 Research Austral coal/Fe, Magallanes epithermal, Fuegian glacial REE clays
+  - [x] 4.5.2 Map administrative divisions: Aysén (4 prov) + Magallanes (4 prov)
+  - [x] 4.5.3 Quantify district resources: Aysén coal/Fe, Magallanes epithermal HREE, Fuegian glacial clays
+  - [x] 4.5.4 Document Kawashkar/Yámana consent pathways, Cape Horn logistics
+  - [x] 4.5.5 Map Ferronor Austral + Punta Arenas/Natal ports + Strait of Magellan
+  - [x] 4.5.6 Analyze Antarctic Treaty implications, glacier protection laws
+  - [x] 4.5.7 Document 2-region SEREMI/GORE + Antarctic regulatory interface
+  - [x] 4.5.8 Size Aegis-Forge clusters: Alpha-15/16 (coal/Fe), Alpha-17 (epithermal HREE), Bravo-8/9 (glacial)
+  - [x] 4.5.9 Cross-reference DOC-01..19 (national → regional refinement)
+  - [x] 4.5.10 Draft DOC-20 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.5.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.5.12 Split into logical chunks → chunks/DOC-20/
+  - [x] 4.5.13 Generate manifest & verify integrity
+  - [x] 4.5.14 Compress FinishedWork original (.gz)
+  - [x] 4.5.15 Log completion + git commit + tag runner-015a-complete
+
+  #### 4.6 DOC-21: Neodymium-Dysprosium Supply Chain Deep Dive (15 tasks)
+  - [x] 4.6.1 Research Nd/Dy global supply chain: China monopoly, Myanmar, Australia, US, recycling
+  - [x] 4.6.2 Map Chilean Nd/Dy occurrences: IOCG (Norte Grande/Chico), porphyry, ion-adsorption
+  - [x] 4.6.3 Quantify Aegis-Forge Stage 8 Nd/Dy separation: chloride route, SX parameters, 4N purity
+  - [x] 4.6.4 Document NdFeB manufacturing supply chain: mine → separation → metal → alloy → sinter
+  - [x] 4.6.5 Analyze recycling loop: EOL magnets → hydromet → Nd/Dy oxide → metal → alloy
+  - [x] 4.6.6 Cross-reference with DOC-09 (grades), DOC-10 (supply chain), DOC-16..20 (regional)
+  - [x] 4.6.7 Draft DOC-21 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.6.8 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.6.9 Split into logical chunks → chunks/DOC-21/
+  - [x] 4.6.10 Generate manifest & verify integrity
+  - [x] 4.6.11 Compress FinishedWork original (.gz)
+  - [x] 4.6.12 Log completion + git commit + tag runner-015b-complete
+
+  #### 4.7 DOC-22: Terbium-Samarium-Cobalt Specialty Magnets (15 tasks)
+  - [x] 4.7.1 Research SmCo/Tb market: high-temp defense, aerospace, Tb-doping physics, DFARS/ITAR
+  - [x] 4.7.2 Map Chilean Sm/Co/Tb occurrences: IOCG Co byproduct, lateritic, epithermal HREE
+  - [x] 4.7.3 Quantify Aegis-Forge Stage 4 Co + Stage 8 Sm/Tb separation + metal reduction
+  - [x] 4.7.4 Document SmCo manufacturing: mine → separation → metal → alloy → sinter → magnet
+  - [x] 4.7.5 Analyze Tb grain boundary diffusion: Hci enhancement, Tb-Co master alloy, supply criticality
+  - [x] 4.7.6 Document DFARS/ITAR qualification: MIL-STD-1540, qualifying country chain, traceability
+  - [x] 4.7.7 Draft DOC-22 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 4.7.8 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [x] 4.7.9 Split into logical chunks → chunks/DOC-22/
+  - [x] 4.7.10 Generate manifest & verify integrity
+  - [x] 4.7.11 Compress FinishedWork original (.gz)
+  - [x] 4.7.12 Log completion + git commit + tag runner-015c-complete
+
+  #### 4.8 DOC-23: Gadolinium-Europium-Holmium Medical/Quantum (15 tasks)
+  - [ ] 4.8.1 Research Gd/Eu/Ho markets: MRI contrast ($1.2B), phosphors ($800M), quantum ($500M), control rods
+  - [ ] 4.8.2 Map Chilean Gd/Eu/Ho occurrences: ion-adsorption, epithermal, porphyry byproduct
+  - [ ] 4.8.3 Quantify Aegis-Forge Stage 8 Gd/Eu/Ho separation: SX parameters, 4N purity
+  - [ ] 4.8.4 Document medical supply chain: Gd-DTPA/DOTA GMP, Eu phosphors, Ho fiber lasers
+  - [ ] 4.8.5 Analyze quantum/nuclear: Ho:YLF quantum memory, Gd burnable poison, Eu quantum dots
+  - [ ] 4.8.6 Draft DOC-23 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 4.8.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [ ] 4.8.8 Split into logical chunks → chunks/DOC-23/
+  - [ ] 4.8.9 Generate manifest & verify integrity
+  - [ ] 4.8.10 Compress FinishedWork original (.gz)
+  - [ ] 4.8.11 Log completion + git commit + tag runner-016a-complete
+
+  #### 4.9 DOC-24: Lutetium-Yttrium-Scandium Specialty Alloys (15 tasks)
+  - [ ] 4.9.1 Research Lu/Y/Sc markets: Sc-Al alloys ($300/kg Sc), Y₂O₃ SCR, Lu₂O₃ scintillators, Lu-177
+  - [ ] 4.9.2 Map Chilean Lu/Y/Sc occurrences: HREE-enriched IOCG, ion-adsorption clays
+  - [ ] 4.9.3 Quantify Aegis-Forge Stage 8 Lu/Y/Sc separation: HREE SX circuit
+  - [ ] 4.9.4 Document specialty alloys: Sc-Al master alloy, Y₂O₃ SCR catalysts, Lu₂O₃ PET/CT
+  - [ ] 4.9.5 Analyze medical isotope: Lu-177 production, Y-90, radiopharmacy supply chain
+  - [ ] 4.9.6 Draft DOC-24 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 4.9.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [ ] 4.9.8 Split into logical chunks → chunks/DOC-24/
+  - [ ] 4.9.9 Generate manifest & verify integrity
+  - [ ] 4.9.10 Compress FinishedWork original (.gz)
+  - [ ] 4.9.11 Log completion + git commit + tag runner-016b-complete
+
+  #### 4.10 DOC-25: Cerium-Lanthanum-Praseodymium Catalytic/Polishing (15 tasks)
+  - [ ] 4.10.1 Research Ce/La/Pr markets: FCC catalysts ($4B), glass polishing ($1.5B), Pr-Nd metal, batteries
+  - [ ] 4.10.2 Map Chilean Ce/La/Pr occurrences: monazite/bastnäsite dominant across all 22 districts
+  - [ ] 4.10.3 Quantify Aegis-Forge Stage 8 Ce/La/Pr separation: LREE SX circuit (high volume, 3N-4N)
+  - [ ] 4.10.4 Document catalyst supply chain: FCC catalyst specs, Ce/La fluid cracking, recycling
+  - [ ] 4.10.5 Analyze polishing/alloy/battery: CeO₂ powder, mischmetal, LaNi₅ MH batteries
+  - [ ] 4.10.6 Draft DOC-25 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [ ] 4.10.7 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+  - [ ] 4.10.8 Split into logical chunks → chunks/DOC-25/
+  - [ ] 4.10.9 Generate manifest & verify integrity
+  - [ ] 4.10.10 Compress FinishedWork original (.gz)
+  - [ ] 4.10.11 Log completion + git commit + tag runner-016c-complete
 
 ### Phase 5: Community-Specific Intelligence — Runners 007-008 (Tasks 411-560)
 
@@ -396,12 +474,12 @@
 
 ---
 
-## Current Sprint: Phase 4 Batch 1 Complete — Runner 015 Starting (DOC-20..22)
+## Current Sprint: Phase 4 Batch 2 Complete — Runner 016 Starting (DOC-23..25)
 
 ### Immediate Next Actions (Next Session)
-1. [ ] Begin DOC-20: Regional Deep Dive — Austral (Aysén, Magallanes)
-2. [ ] Begin DOC-21: Mineral-Specific — Neodymium-Dysprosium Supply Chain
-3. [ ] Begin DOC-22: Mineral-Specific — Terbium-Samarium-Cobalt Specialty
+1. [ ] Begin DOC-23: Gadolinium-Europium-Holmium Medical/Quantum Deep Dive
+2. [ ] Begin DOC-24: Lutetium-Yttrium-Scandium Specialty Alloys Deep Dive
+3. [ ] Begin DOC-25: Cerium-Lanthanum-Praseodymium Catalytic/Polishing Deep Dive
 4. [ ] Start heartbeat monitor
 5. [ ] Update RESUME_SESSION_MAGNETS.md
 
@@ -421,4 +499,5 @@
 - 2026-11-01: Runner 006 complete: DOC-15 done (Phase 3, final)
 - 2026-11-02: Runner 013 complete: DOC-16 done (Phase 4, Norte Grande)
 - 2026-11-02: Runner 014 complete: DOC-17, DOC-18, DOC-19 done (Phase 4, Norte Chico, Zona Central, Sur)
-- 2026-11-02: Runner 015 starting: DOC-20, DOC-21, DOC-22 (Phase 4, Austral + Mineral-Specific batch 1)
+- 2026-11-02: Runner 015 complete: DOC-20, DOC-21, DOC-22 done (Phase 4, Austral + Mineral-Specific batch 1)
+- 2026-11-02: Phase 4 Regional Deep Dives complete (DOC-16..20), Mineral-Specific batch 1 complete (DOC-21,22)
