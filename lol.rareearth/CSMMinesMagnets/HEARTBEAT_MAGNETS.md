@@ -12,16 +12,27 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T10:02:00Z",
-  "current_runner": "017j",
-  "current_document": "DOC-35",
+  "last_heartbeat": "2026-11-02T10:13:44Z",
+  "current_runner": "018",
+  "current_document": "SYNTH-01",
   "subtask": "research",
-  "subtask_start": "2026-11-02T10:02:00Z",
-  "documents_completed": 34,
-  "total_lines_written": 69000,
-  "git_commits_this_session": 2,
-  "status": "active"
+  "subtask_start": "2026-11-02T10:13:44Z",
+  "documents_completed": 35,
+  "total_lines_written": 70000,
+  "git_commits_this_session": 1,
+  "status": "phase_transition"
 }
+```
+
+---
+
+## Phase 5 Completion Summary (Final Heartbeat of Phase 5)
+
+```
+[HEARTBEAT] Runner 017j | DOC-35 | finalization | 2100 lines | 1 commit | DONE
+[HEARTBEAT] Phase 5 COMPLETE — 10/10 community documents delivered
+[HEARTBEAT] Zero conflation certified across all 45 pairwise comparisons
+[HEARTBEAT] Phase 6 Synthesis & Integration queued — Runner 018
 ```
 
 ---
@@ -30,20 +41,20 @@
 
 ### Cycle 1: Git & Document Status
 - [ ] `git status` — check for uncommitted changes
-- [ ] Count documents in FinishedWork/ (target: 35 total)
+- [ ] Count documents in FinishedWork/ (target: 35 Phase 1-5 + Phase 6 growing)
 - [ ] Verify current document line count progress
 - [ ] Check chunk manifests are current
 
 ### Cycle 2: Source Material Sync
-- [ ] Verify ../seed/CSMFAB/ accessible
-- [ ] Verify ../seed/CSMWip/ accessible
-- [ ] Verify FinishedWork/ previous docs accessible
-- [ ] Check for new source material updates
+- [ ] Verify all 35 Phase 1-5 docs accessible in FinishedWork/
+- [ ] Verify chunk manifests for all docs
+- [ ] Verify heuristic intros (6 per doc = 210 total)
+- [ ] Check for new source material updates in ../seed/
 
 ### Cycle 3: Automation Health
 - [ ] write_large_file.py functional
-- [ ] generate_heuristic_intros.sh functional
-- [ ] conflation_audit.py functional
+- [ ] generate_synthesis_matrix.py functional (Phase 6)
+- [ ] conflation_audit.py functional (enhanced for synthesis)
 - [ ] Heartbeat monitor process alive
 - [ ] Disk space adequate (>5GB free)
 
@@ -51,32 +62,26 @@
 - [ ] Master_Todo.md checkboxes match actual completion
 - [ ] TODO.md current with active tasks
 - [ ] Memory log appended this session
-- [ ] NEXT_runner file matches Master_Todo phase
+- [ ] NEXT_runner file matches current phase
 
 ---
 
-## Heartbeat Actions
+## Phase 6 Specific Checks
 
-### On Each Heartbeat (Every 2 Minutes):
-1. Update `last_heartbeat` timestamp in this file
-2. Run current cycle checks (rotate 1→2→3→4→1...)
-3. Print status line to terminal:
-   ```
-   [HEARTBEAT] Runner 017j | DOC-35 | research | 0 lines | 2 commits | OK
-   ```
-4. If subtask > 30 seconds: log warning, consider subdivision
-5. If git dirty > 5 min: auto-commit with message "CSMMinesMagnets: heartbeat checkpoint"
+### Synthesis Quality Gates (Elevated)
+- [ ] Lines per doc ≥1,200 (vs Phase 5: 900)
+- [ ] Formulas per doc ≥30 (vs Phase 5: 20)
+- [ ] Cross-refs per doc ≥25 (vs Phase 5: 15)
+- [ ] Standards per doc ≥12 (vs Phase 5: 8)
+- [ ] Synthesis matrix present (inter-doc mapping table)
+- [ ] Decision triggers defined (if/then brokerage rules)
+- [ ] Scenario portfolios (3 scenarios × 10 synths)
 
-### On Session Start:
-- Initialize heartbeat state
-- Start background monitor: `python3 scripts/heartbeat_monitor.py --interval 120 &`
-- Log session start to memory/YYYY-MM-DD.md
-
-### On Session End:
-- Stop heartbeat monitor
-- Final commit and push
-- Update heartbeat state to "paused"
-- Log session end to memory log
+### Conflation Audit (Enhanced)
+- [ ] Zero conflation across synthesis documents
+- [ ] No synthesis document conflates distinct communities
+- [ ] Cross-synthesis references properly attributed
+- [ ] Ontological tags consistent across all 35+ docs
 
 ---
 
@@ -91,6 +96,7 @@
 - `WARN` — Subtask approaching timeout
 - `BLOCKED` — Waiting on external dependency
 - `DONE` — Document complete, ready for next
+- `PHASE_TRANSITION` — Phase boundary (this session)
 
 ---
 
@@ -131,5 +137,5 @@ ps aux | grep heartbeat_monitor
 
 ---
 
-*Heartbeat is the pulse of the intelligence forge. Keep it steady.*
-*Last Updated: 2026-11-02 | Runner 017j Starting | Next Review: Each session start*
+*Heartbeat is the pulse of the mine. Keep it steady.*
+*Last Updated: 2026-11-02 | Phase 5 Complete | Phase 6 Starting*
