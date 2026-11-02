@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-03 (Runner 013 complete: PROD-28, 29, 30, 31)
-**Current Phase**: Phase 3 Completion — Product Documents 32-33 (Regulatory, Supply Chain)
-**Next Runner**: 014
+**Last Session**: 2026-11-03 (Runner 014 complete: PROD-28, 29, 30, 31, 32)
+**Current Phase**: Phase 3 Completion — Product Documents 33-34 (Supply Chain, Training)
+**Next Runner**: 015
 
 ---
 
@@ -50,17 +50,18 @@ git status
 - [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
 - [x] PROD-27: Manufacturing Process Plan (1241 lines + 200 intro)
 
-### Completed (Phase 3 — PROD 28-31):
+### Completed (Phase 3 — PROD 28-32):
 - [x] PROD-28: Quality Assurance & Testing (939 lines + 200 intro)
 - [x] PROD-29: Deployment & Operations (735 lines + 200 intro)
 - [x] PROD-30: Maintenance & Sustainment (1138 lines + 200 intro)
 - [x] PROD-31: Economic Analysis & Viability (1013 lines + 200 intro)
-- [x] Phase 3: 11/10 complete (PROD-28 through PROD-31)
+- [x] PROD-32: Regulatory & Compliance (1008 lines + 200 intro)
+- [x] Phase 3: 12/10 complete (PROD-28 through PROD-32)
 
 ### In Progress:
-- [ ] PROD-32: Regulatory & Compliance (900 lines + 200 intro)
 - [ ] PROD-33: Supply Chain & Logistics (900 lines + 200 intro)
-- [ ] NEXT_runner_014.md created (next session)
+- [ ] PROD-34: Training & Certification (900 lines + 200 intro)
+- [ ] NEXT_runner_015.md created (next session)
 
 ### Source Materials Cataloged:
 1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
@@ -81,14 +82,9 @@ git status
 
 ---
 
-## Next Immediate Actions (Runner 014)
+## Next Immediate Actions (Runner 015)
 
-### Document Batch: PROD-32, PROD-33, PROD-34
-
-**PROD-32: Regulatory & Compliance**
-- Source: PROD-22, 23, 26, 28, 29, 30 + FOLLOW-22, 23, 24, 25, 26
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: Environmental permitting, PSM/RMP, ASME BPVC, IEEE 693, OSHA, EPA, state/local
+### Document Batch: PROD-33, PROD-34, PROD-35
 
 **PROD-33: Supply Chain & Logistics**
 - Source: PROD-12, 22, 27, 28, 29, 30 + FOLLOW-31, 38, 39
@@ -99,6 +95,11 @@ git status
 - Source: PROD-23, 28, 29, 30, 31 + FOLLOW-34, 35
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: Operator curriculum, competency matrix, certification pathways, simulator training
+
+**PROD-35: Human Factors & Ergonomics**
+- Source: PROD-23, 28, 29, 30, 34 + FOLLOW-35
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: Interface design, safety zones, control room layout, maintenance access
 
 ---
 
