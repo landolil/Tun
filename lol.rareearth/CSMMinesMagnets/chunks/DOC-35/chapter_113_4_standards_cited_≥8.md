@@ -1,0 +1,2 @@
+# 4. Standards Cited (≥8)
+grep -c -E 'Law 19\.253|Law 20\.249|Law 21\.435|Law 21\.327|Law 21\.210|Law 20\.500|Law 21\.455|DS 594|DS 40|DS 28|DS 118|DS 90|ILO 169|UNDRIP|CONADI Res|DGA|Sernageomin|SUSESO|WHO|CONAF|DIBAM|IRMA|ISO 14001|LME|EU Battery|EPA IRIS|AERMOD|FONDECYT|UNESCO|CMN' FinishedWork/DOC-35_Community_MariaElena.md
