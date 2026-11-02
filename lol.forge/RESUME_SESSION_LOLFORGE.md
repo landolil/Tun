@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-02 (Runner 011 complete: PROD-26)
-**Current Phase**: Phase 2 — Product Documents 27-29 (Manufacturing, QA, Deployment)
-**Next Runner**: 012
+**Last Session**: 2026-11-02 (Runner 012 complete: PROD-27)
+**Current Phase**: Phase 2 Completion — Product Documents 28-30 (QA, Deployment, Maintenance)
+**Next Runner**: 013
 
 ---
 
@@ -42,18 +42,19 @@ git status
 - [x] PROD-01 through PROD-21: All 21 Product Documents complete (900+ lines each + 200 line combined intros)
 - [x] All chunked, verified, compressed, committed, pushed to GitHub
 
-### Completed (Phase 2 — PROD 22-26):
+### Completed (Phase 2 — PROD 22-27):
 - [x] PROD-22: Phoenix Protocol Integration (909 lines + 200 intro)
 - [x] PROD-23: Control System Architecture (1080 lines + 200 intro)
 - [x] PROD-24: Thermal Modeling & Simulation (1056 lines + 200 intro)
 - [x] PROD-25: Structural Analysis & FEA (1224 lines + 200 intro)
 - [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
+- [x] PROD-27: Manufacturing Process Plan (1241 lines + 200 intro)
 
 ### In Progress:
-- [ ] PROD-27: Manufacturing Process Plan (900 lines + 200 intro)
 - [ ] PROD-28: Quality Assurance & Testing (900 lines + 200 intro)
 - [ ] PROD-29: Deployment & Operations (900 lines + 200 intro)
-- [ ] NEXT_runner_012.md created (next session)
+- [ ] PROD-30: Maintenance & Sustainment (900 lines + 200 intro)
+- [ ] NEXT_runner_013.md created (next session)
 
 ### Source Materials Cataloged:
 1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
@@ -74,17 +75,12 @@ git status
 
 ---
 
-## Next Immediate Actions (Runner 012)
+## Next Immediate Actions (Runner 013)
 
-### Document Batch: PROD-27, PROD-28, PROD-29
-
-**PROD-27: Manufacturing Process Plan**
-- Source: PROD-04, 06, 08, 09, 10, 12, 24, 25, 26
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: Build sequence (14 assemblies, 18-month schedule), drum/vessel/coil/power electronics manufacturing, assembly integration, FAT/SAT (CT-01 through CT-10), shipping/site prep, tooling/fixtures, supplier qualification
+### Document Batch: PROD-28, PROD-29, PROD-30
 
 **PROD-28: Quality Assurance & Testing**
-- Source: PROD-25 NDT program, PROD-24 V&V plan, PROD-23 SIS, IEEE 693, ASME BPVC, ISO 9001/AS9100
+- Source: PROD-25 NDT program, PROD-24 V&V plan, PROD-23 SIS, PROD-04/06/09 component criteria, PROD-27 FAT/SAT, IEEE 693, ASME BPVC, ISO 9001/AS9100
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: QA program, acceptance criteria (component/subassembly/system), NDT methods/coverage/acceptance, FAT/SAT specifications, process validation, supplier quality, non-conformance/CAPA, documentation/traceability, audit schedule, continuous improvement
 
@@ -92,6 +88,11 @@ git status
 - Source: PROD-22, 23, 26, 27, 28 + FOLLOW-22, 23, 24
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: Site prep, commissioning, procedures, operations, maintenance windows
+
+**PROD-30: Maintenance & Sustainment**
+- Source: PROD-04, 06, 08, 09, 10, 25, 27, 28, 29 + FOLLOW-04, 05, 07, 08, 12
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: PM schedules, wear parts, spares, predictive maintenance
 
 ---
 
@@ -229,4 +230,4 @@ All work is persisted in GitHub. The ephemeral workspace is just a compute envir
 ---
 
 *This file is updated at the end of every session.*
-*Last Updated: 2026-11-02 | Session: Runner 011 complete (PROD-26) | Next: Runner 012 (PROD-27, 28, 29)*
+*Last Updated: 2026-11-02 | Session: Runner 012 complete (PROD-27) | Next: Runner 013 (PROD-28, 29, 30)*
