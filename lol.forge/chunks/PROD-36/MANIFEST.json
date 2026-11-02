@@ -1,0 +1,102 @@
+{
+  "chapter_01_intro.md": {
+    "size": 33,
+    "sha256": "e495342cea5c3c628141febf0a45bdc57fe7ab7a578a53b7120975933992b5be"
+  },
+  "chapter_02_prod-36_cyber-physical_securit.md": {
+    "size": 14422,
+    "sha256": "6491ec44b00eaf47790f5a9bf37dda33462af669a15de4e3cc6d0c2dcc7f29b1"
+  },
+  "chapter_03_carrington_storm_motors_forge_.md": {
+    "size": 101,
+    "sha256": "83deebd11d5f7b5e05da88e6eac9e2c3208df3b575fc7216c9f45cdca1d14563"
+  },
+  "chapter_04_1_executive_summary.md": {
+    "size": 1869,
+    "sha256": "c60f318241169964e5d33711d8b1d18379dcaea1da5eba2ffa4c0fb0aa3cca68"
+  },
+  "chapter_05_2_cyber-physical_security_prog.md": {
+    "size": 2462,
+    "sha256": "5773690953fb1f10ce599143e36ce524e96b3cd91c0bcc174e352d324911a74c"
+  },
+  "chapter_06_3_network_architecture.md": {
+    "size": 8375,
+    "sha256": "70e3c91a8e790b28d4b11fd72bb6acf3623bb81a4308e09c3a109f723c5c0272"
+  },
+  "chapter_07_4_fbg_pmf_tamper_detection.md": {
+    "size": 1394,
+    "sha256": "938c43e1cedb3b1b5598e1e23c0ac0fc93e5dc2ddaa219c0caa6509c2dc5696e"
+  },
+  "chapter_08_runs_at_10_hz_on_prod-37_digit.md": {
+    "size": 1040,
+    "sha256": "f3447798f035df3ee2e4b4645712a2155b4c424ace32036fded6d1465307c6de"
+  },
+  "chapter_09_5_supply_chain_cyber_risk_mana.md": {
+    "size": 2243,
+    "sha256": "3eb8bb9d34296e491a2813b2f1fb73c610d30630babc0d2ab231e948487d22d6"
+  },
+  "chapter_10_6_identity__access_management.md": {
+    "size": 2690,
+    "sha256": "70c5aeb366d163f1bfc5c930fed7fc8763d199e6affbc9c5e41ea281c49a90ea"
+  },
+  "chapter_11_7_intrusion_detection_system_i.md": {
+    "size": 2502,
+    "sha256": "a9869d62c215f6c24d46d550b9c8674f1b3835af58fadc8a0a752a5e712c3a89"
+  },
+  "chapter_12_8_incident_response.md": {
+    "size": 3331,
+    "sha256": "545e12759166ceb8901a78d5c6f35183569f8acedd893be87b3ca7206eb5c69a"
+  },
+  "chapter_13_9_resilience__recovery.md": {
+    "size": 2415,
+    "sha256": "de1dfe01f84e2cdbd65869694c1e6a18b560d7981b5748b10d773a19c74a598b"
+  },
+  "chapter_14_10_gic_emp_hardening_cyber_int.md": {
+    "size": 1222,
+    "sha256": "4542f2061733d10f0fbeca605d32a6230fdad8cdca369cb508252b7bc48e1288"
+  },
+  "chapter_15_11_vendor__third-party_risk_ma.md": {
+    "size": 1708,
+    "sha256": "fd59cd97195912040356c93163c5e56e3dad76cff013a4654ca289ff36eb135e"
+  },
+  "chapter_16_12_security_testing_program.md": {
+    "size": 1421,
+    "sha256": "a0b217caf7a916a4311f18724cae76eb74448e000f195c2c2d29d877d9daaa37"
+  },
+  "chapter_17_13_cross-reference_matrix.md": {
+    "size": 812,
+    "sha256": "175fe16b40a7e1494dc456f20c771be0508e7c25dff3533386e9ff3ca42ebed2"
+  },
+  "chapter_18_appendix_e_detailed_tsn_securi.md": {
+    "size": 2690,
+    "sha256": "a623015c7ecfd626245cfa7aaccfd745b6f41a4d168716a2e1680c4393785c19"
+  },
+  "chapter_19_appendix_f_detailed_fbg_tamper.md": {
+    "size": 125,
+    "sha256": "7b781cc8c1a7c175fc08736ea411ebacb815beb7e6f46f3fe1680120208c3174"
+  },
+  "chapter_20_runs_at_10_hz_on_prod-37_digit.md": {
+    "size": 3371,
+    "sha256": "8e1f395b3e09289d166af5422e8bf1fcc291e8f171e5bbde0c6f6a1f79970736"
+  },
+  "chapter_21_appendix_g_supply_chain_securi.md": {
+    "size": 1803,
+    "sha256": "f180a97b5a5344ad21c193d5c062525792d830e980bdc63187e8a2c34e0c5674"
+  },
+  "chapter_22_github_workflows_slsa-buildyml.md": {
+    "size": 2807,
+    "sha256": "6c084d171ae3524b9c37d265d60bf368da8d662521efa29679035a261201f8fb"
+  },
+  "chapter_23_appendix_h_iec_62443_sl-4_deta.md": {
+    "size": 3112,
+    "sha256": "a2f7e477c4bb087107fe0fb106c3137209c89e94beb5698aaab617ab48228fda"
+  },
+  "chapter_24_appendix_i_quantum-resistant_c.md": {
+    "size": 1075,
+    "sha256": "ecd444dc9ee2823cb4d2b5b449dc5f5ae083348a9ba661a3176eb32b91fafe33"
+  },
+  "chapter_25_appendix_j_red_team_exercise_s.md": {
+    "size": 1299,
+    "sha256": "8a80fdb8b27230aa8e4fe3f85ab6669adbc2a684879eae48b66315a16c1b8591"
+  }
+}
