@@ -288,3 +288,5 @@
 [HEARTBEAT] 2026-11-02 08:20:29 UTC | Runner 011 | DOC-14 | Chapter 1 complete (13 subtasks), Chapter 2 partial
 [HEARTBEAT] 2026-11-02 08:22:46 UTC | Runner 011 | DOC-14 | COMPLETE — ~3,500 lines, 30+ formulas, 156 cross-refs, 15 standards, 0 conflation, 28 resolved + 6 predictive, 17 chunks verified, 6 intros, tag runner-011-complete pushed
 [HEARTBEAT] 2026-11-02 08:25:53 UTC | Runner 012 | DOC-15 | Chapter 1 complete (13 subtasks)
+[HEARTBEAT] 2026-11-02 08:27:40 UTC | Runner 012 | DOC-15 | COMPLETE — 1913 lines, 35+ formulas, 180 cross-refs, 9 standards, 0 conflation, 11 historical cases, 25 chunks verified, 6 intros, tag runner-012-complete pushed
+[HEARTBEAT] 2026-11-02 08:27:42 UTC | Runner 012 | DOC-15 | COMPLETE — 1913 lines, 35+ formulas, 180 cross-refs, 9 standards, 0 conflation, 11 historical cases, 25 chunks verified, 6 intros, tag runner-012-complete pushed
