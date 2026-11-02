@@ -1,0 +1,106 @@
+{
+  "chapter_01_intro.md": {
+    "size": 33,
+    "sha256": "e495342cea5c3c628141febf0a45bdc57fe7ab7a578a53b7120975933992b5be"
+  },
+  "chapter_02_prod-35_human_factors__ergonom.md": {
+    "size": 14363,
+    "sha256": "ab2d5b581571270319c94331d4149832eeb299e1cbe7378de569c0d24cd5e821"
+  },
+  "chapter_03_carrington_storm_motors_forge_.md": {
+    "size": 101,
+    "sha256": "83deebd11d5f7b5e05da88e6eac9e2c3208df3b575fc7216c9f45cdca1d14563"
+  },
+  "chapter_04_1_executive_summary.md": {
+    "size": 1682,
+    "sha256": "329545c9dad003746e76634e6b916f0837ffa031fa9a66e1fdf7242f1217c3b9"
+  },
+  "chapter_05_2_hfe_program_overview__regula.md": {
+    "size": 2180,
+    "sha256": "373438c40fc39da06c25dd50291e16b076041c230707c869b74b6f876f031388"
+  },
+  "chapter_06_3_control_room_design.md": {
+    "size": 2549,
+    "sha256": "452ca5bfc1888da2eaccc67f2d5987fef7414dff250ddbc7a57faf1c997e5705"
+  },
+  "chapter_07_4_hmi_scada_interface_design.md": {
+    "size": 3192,
+    "sha256": "67332efdd7cc3549247c23e99b10a43553dbc85ec2da52f49766be710e8b8a0b"
+  },
+  "chapter_08_5_physical_ergonomics__worksta.md": {
+    "size": 1175,
+    "sha256": "ccc53acad357e45fbfc424f518c3516a0a5f2fb40b4785fd603ab15f55561ba1"
+  },
+  "chapter_09_6_physical_ergonomics__mainten.md": {
+    "size": 2623,
+    "sha256": "0f208b6629f47f130675f492bc33489d1e54161d9792c776bdb57e1cb853c86d"
+  },
+  "chapter_10_7_safety_zones__barriers.md": {
+    "size": 2194,
+    "sha256": "6d430e2e24bc88e74f264730fbf3c7c603427e85bb67e7dcf04c328d342e5d56"
+  },
+  "chapter_11_8_personal_protective_equipmen.md": {
+    "size": 2090,
+    "sha256": "4f7e456a9e8a8910a717a16a433259c2635d96715452ce33ddc188dabaddaad3"
+  },
+  "chapter_12_9_cognitive_load__decision_sup.md": {
+    "size": 2035,
+    "sha256": "b0b926c5515a3737fcf77d710b68cf426b014c734d8a88648f1a0fe3b9a19145"
+  },
+  "chapter_13_10_emergency_egress__rescue.md": {
+    "size": 1676,
+    "sha256": "720c81014a251f32feecfd1e0edbdf08c41af29bc597b81de234728365ee827d"
+  },
+  "chapter_14_11_shift_work__fatigue_managem.md": {
+    "size": 1540,
+    "sha256": "5074225e1f1aef0f43f2e9709413326c96a6faa96f8a918a3671340b956e027f"
+  },
+  "chapter_15_12_human_reliability_analysis.md": {
+    "size": 1672,
+    "sha256": "fde9f1d14b3aa331003556a65786776a6ad729542ca32f69dbe15bad8dfac6b4"
+  },
+  "chapter_16_13_cross-reference_matrix.md": {
+    "size": 857,
+    "sha256": "2dae8b3ae7cd571869168a5b3fae5c69a10231be3a183947adca3f95d220723a"
+  },
+  "chapter_17_appendix_a_control_room_layout.md": {
+    "size": 1673,
+    "sha256": "b6276542a953d8f238f16485d3bd4249f2e308db3ab31ab9f966ec1d78fa8d10"
+  },
+  "chapter_18_appendix_b_safety_zone_maps_co.md": {
+    "size": 2151,
+    "sha256": "bb3772b34722aa7431559d61ef782571f71afdc7fddaeebcab8d2681b580267a"
+  },
+  "chapter_19_appendix_c_ppe_matrix_per_task.md": {
+    "size": 1499,
+    "sha256": "69daed7273d8868e8778651bc0c327f01905f4a58ac82a4a7e65d6c0f28ef44f"
+  },
+  "chapter_20_appendix_d_version_history__ch.md": {
+    "size": 399,
+    "sha256": "414f0ccd3b4021ee3e3277cd08507da6d99cdb55b54615cb8ca622fd90f3f8a3"
+  },
+  "chapter_21_appendix_e_detailed_hmi_screen.md": {
+    "size": 3134,
+    "sha256": "430307738eb334e2b730d1ec532ae744fd47c177431336f564de59789396a289"
+  },
+  "chapter_22_appendix_f_detailed_maintenanc.md": {
+    "size": 2360,
+    "sha256": "3d6c667722cd85ce28a90cf8b005450a2fdc1875b606929f069790b05733211e"
+  },
+  "chapter_23_appendix_g_cognitive_load_deta.md": {
+    "size": 2630,
+    "sha256": "bd3b31244f329ba30800e6d19d0b5b1d419f5f6b234060d71b41c552fcf85a2c"
+  },
+  "chapter_24_appendix_h_shift_work__fatigue.md": {
+    "size": 1692,
+    "sha256": "df71db0758938344dab06c3b4e2278fd248830cca6f9467c7ad02803518b634d"
+  },
+  "chapter_25_appendix_i_additional_hfe_vali.md": {
+    "size": 3478,
+    "sha256": "c27e6b0e41b7febef5b8b44fbbafc8f54a4ab12403010ba96873f7d9e9c5fbfc"
+  },
+  "chapter_26_appendix_j_human_reliability_a.md": {
+    "size": 2502,
+    "sha256": "412da1ff35d398b02b5e3b81a31110c0b3420564c13a73725603faef135888a2"
+  }
+}

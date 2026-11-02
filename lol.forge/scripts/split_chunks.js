@@ -78,7 +78,7 @@ function generateManifest(chunkDir, manifestPath, pattern = "*") {
     const crypto = require('crypto');
     const files = fs.readdirSync(chunkDir).filter(f => {
         const fullPath = path.join(chunkDir, f);
-        return fs.statSync(fullPath).isFile() && (pattern === "*" || f.match(pattern));
+        return fs.statSync(fullPath).isFile() && f !== 'MANIFEST.json' && (pattern === "*" || f.match(pattern));
     });
 
     const manifest = {};

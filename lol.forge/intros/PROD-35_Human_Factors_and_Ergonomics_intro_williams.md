@@ -1,0 +1,16 @@
+# Williams Heuristic — Architectural Clarity
+## PROD-35 Human Factors & Ergonomics
+
+### Constraint (The Lock)
+**The Forge cannot be operated by conventional human factors engineering.** A 2200°C induction furnace with 384 dielectric FBG sensors, GaN inverters at 100 kHz, SIL-3 SIFs on TSN, optical E-stop loops, and a Phoenix Protocol circular supply chain has no precedent in any HFE standard. Conventional HFE assumes: (a) metallic sensors (thermocouples, strain gauges) with electrical redundancy, (b) electrical lockout/tagout on copper conductors, (c) linear process flow with defined boundaries, (d) specialist roles in fixed locations, (e) control rooms with standard lighting/acoustics. The Forge violates all five: sensors are photonics in glass fiber (FBG wavelength = temperature), safety is optical (PMMA POF loops), flow is recursive (EOL → feedstock), operators cross-train Forge↔Depot, and the control room must operate on LiFePO₄ UPS during Carrington storms. The constraint is **physics** — an operator who cannot witness the FBG wavelength shift at 125 Hz and connect it to the thermal-admittance model running at 1 kHz will trip the SIF or miss the anomaly. The HFE must design for embodiment in dielectric space, not observation of metal panels.
+
+### Necessity (The Key)
+**The empirical gap is the absence of any HFE framework that designs for sensory-motor coupling to a zero-metal, all-dielectric, recursively circular industrial process under GIC/EMP threat.** No existing standard addresses: (a) FBG wavelength as primary metrology requiring wavelength-to-color HMI mapping, (b) ISA-88 recipe execution on TSN-scheduled PLC with PTP <1 μs requiring deterministic HMI refresh, (c) SIL-3 SIF bypass as a dual-key human judgment gate requiring exactly-needed information (ISA-101), (d) Phoenix depot disassembly/solvolysis/LIBS as part of Forge operator body schema, (e) Carrington storm ride-through as a routine scenario requiring 5 ms island transition with 30-sec egress. The solution is inevitable because the Forge's physics demands it: the same operator who authorizes the Stage 4 indium-first discharge at 160°C must also classify the EOL return that feeds that indium at the depot. The CMF-RQT tensor (PROD-33) and RCT tensor (PROD-34) make this recursive — HFE must close the loop between Forge and Depot body schemas.
+
+### Commitment (The Turn)
+This document commits to three non-negotiables:
+1. **Control room designed for 4 operators (2 Forge + 2 Depot) with ISA-101 Level 1-4 HMI hierarchy** — 6 monitors per station, 50 lux ambient, <45 dBA, LiFePO₄ UPS 24h holdover, zero alarm flood (<50/hr steady).
+2. **Hot zone PPE don/doff <3 min / <5 min with Al-coated proximity suit + PAPR** — no metal in PPE, buddy check mandatory, QR-logged don/doff cycles on DQR blockchain.
+3. **Maintenance access 750 mm minimum clearance with zero-metal tooling (BFRP/PEEK/Zirconia)** — max manual lift 25 kg, all heavier → BFRP hoist, tool balancers, anti-fatigue mats.
+
+These commitments are irreversible. They define the Forge's human-system integration architecture. Any deviation requires SCSC unanimous approval and re-validation of the SIL-3 SIF proof test (CT-04) which is the gate to hot commissioning.
