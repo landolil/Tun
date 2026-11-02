@@ -1,0 +1,42 @@
+{
+  "chapter_01_intro.md": {
+    "size": 412,
+    "sha256": "61a24ca00355dafb5b49ec96605475fe6b2a6148a3abf422477a7aa51166a979"
+  },
+  "chapter_02_chapter_1_gd_eu_ho_market_fund.md": {
+    "size": 14361,
+    "sha256": "329b0ac33f702fc9297ff5eb8f1e46be2837a2ae470839951756dd57af9cc96e"
+  },
+  "chapter_03_chapter_2_chilean_gd_eu_ho_occ.md": {
+    "size": 7627,
+    "sha256": "a20e1da06c9c2e292d804273d48a19323a07d43fa39439722b82ac06c1f73ecc"
+  },
+  "chapter_04_chapter_3_aegis-forge_gd_eu_ho.md": {
+    "size": 7539,
+    "sha256": "4d6e90362fabcaa1099cf319e4c71cfbca4cec7a7c580df5389f8d725c1192b4"
+  },
+  "chapter_05_chapter_4_medical_supply_chain.md": {
+    "size": 7032,
+    "sha256": "bf26f13e68e0ebf04c84daa20d2e95667e35b37de6edeaf34a60d9662af9dc4a"
+  },
+  "chapter_06_chapter_5_quantum_nuclear_appl.md": {
+    "size": 5426,
+    "sha256": "c084fe14e47c078e83207f7a237d8c876a6333654a04b74d114ce73b3fa1f6e5"
+  },
+  "chapter_07_chapter_6_defense_regulatory_q.md": {
+    "size": 6539,
+    "sha256": "b6b123e17fa83934c8411f29fde2619f4027f281ac84a20c1b44ec8581896729"
+  },
+  "chapter_08_chapter_7_economic_model__gd_e.md": {
+    "size": 4944,
+    "sha256": "c209d3a9f32aea7d68e4c44ba4e30c24f7c263403730c2c1fdec9545ae73398e"
+  },
+  "chapter_09_chapter_8_esg_regulatory__gd_m.md": {
+    "size": 4641,
+    "sha256": "ab47aecbf4f108833615ff3045e0af4a7db4c3a8a07edc0207b7b1c06606c953"
+  },
+  "chapter_10_chapter_9_traceability_matrix_.md": {
+    "size": 9681,
+    "sha256": "a2dd2801e2d78956a9e11ad6c58cee12d763362cea78cdd32d84e232583ba42b"
+  }
+}
