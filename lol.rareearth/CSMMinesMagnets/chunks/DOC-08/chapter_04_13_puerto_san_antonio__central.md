@@ -2,7 +2,7 @@
 
 Puerto San Antonio, located at 33°34'S, 71°37'W (120km west of Santiago), is Chile's largest container port and primary gateway for central Chile's industrial and agricultural exports. The port handled 1.8M TEU and 23.2M tons in 2024, representing 52% of Chile's containerized trade. For magnetic minerals, San Antonio serves as the critical export hub for finished magnet products (NdFeB, SmCo, Fe₁₆N₂ assemblies) destined for US, EU, and Asian automotive/electronics markets via container shipping.
 
-**Geographic Coordinates**: 33°34'12"S, 71°37'48"W
+**Geographic Coordinates**: 33°34'12S, 71°37'48W
 **Port Type**: River estuary (Maipo River) with breakwater protection
 **Annual Throughput (2024)**: 23.2M tons (1.8M TEU containers, 4.1M tons bulk/breakbulk, 2.3M tons liquid bulk)
 **Operating Hours**: 24/7/365
@@ -106,7 +106,7 @@ Puerto San Antonio, located at 33°34'S, 71°37'W (120km west of Santiago), is C
 **Rail Integration (Critical for Magnetic Minerals)**:
 - **Dedicated Rail Yard**: 12 tracks x 1,000m (6 arrival/departure, 6 classification)
 - **Capacity**: 40 trains/day (vs. 15 current)
-- **Direct FCAB Link**: Proposed "Eje Ferroviario Central" (Santiago bypass, -40km, -2hrs transit)
+- **Direct FCAB Link**: Proposed Eje Ferroviario Central (Santiago bypass, -40km, -2hrs transit)
 - **Volteable Container Tracks**: 4 dedicated (magnetic mineral priority)
 - **On-Dock Rail**: Ship-to-rail direct (no yard transfer) for concentrate containers
 

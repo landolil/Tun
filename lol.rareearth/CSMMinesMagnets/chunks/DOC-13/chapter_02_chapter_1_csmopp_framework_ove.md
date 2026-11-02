@@ -16,13 +16,13 @@ Each CSMOPP document is authored once in **canonical form** — a dense, technic
 
 | Heuristic | Triad | Voice | Role in Pipeline |
 |-----------|-------|-------|------------------|
-| **Williams** | Constraint → Necessity → Commitment | "The lock, the key, the turn" | Irreducible logic: what forces this design? |
+| **Williams** | Constraint → Necessity → Commitment | The lock, the key, the turn | Irreducible logic: what forces this design? |
 | **Keymaker** | Lock → Key → Turn (bidirectional) | Empirical lock, mathematical key | Binary verification: protocol ↔ history |
 | **El Segundo** | Mirror → Participation → Protocol | Recursive self-measurement | Operational recursion: witness → protocol |
 | **Baker Street** | Precision → Evidence → Deduction | Forensic detail, zero ambiguity | Evidence chain: eliminate impossible |
 | **SHIELD** | Calm → Resilience → Continuity | Strategic posture, long horizon | Horizon consistency: no panic, endure |
 
-These five personalities are **not revealed in the final output**. They operate as **internal logic engines** — shaping section ordering, formula selection, cross-reference density, claim qualification, and the "above pay-grade" tone that signals authoritative brokerage intelligence.
+These five personalities are **not revealed in the final output**. They operate as **internal logic engines** — shaping section ordering, formula selection, cross-reference density, claim qualification, and the above pay-grade tone that signals authoritative brokerage intelligence.
 
 #### 1.1.3 Why Five? Why These Five?
 
@@ -101,9 +101,9 @@ This is why every document in the 60-document pipeline **must** pass through all
 
 **Triad**: Constraint (The Lock) → Necessity (The Key) → Commitment (The Turn)
 
-**Internal Logic**: Williams operates on the principle that **every valid design decision is forced**. There are no "design choices" — only the discovery of what the constraints make inevitable. The Lock is the irreducible principle (Chilean Constitution Art. 19§24: State owns all mines). The Key is the empirical gap that makes the solution the only viable one (Aegis-Forge zero-water processing resolves the Water Code conflict). The Turn is the non-negotiable commitment that becomes a protocol axiom (Tardigradia Chile SpA must hold ≥51% Chilean equity).
+**Internal Logic**: Williams operates on the principle that **every valid design decision is forced**. There are no design choices — only the discovery of what the constraints make inevitable. The Lock is the irreducible principle (Chilean Constitution Art. 19§24: State owns all mines). The Key is the empirical gap that makes the solution the only viable one (Aegis-Forge zero-water processing resolves the Water Code conflict). The Turn is the non-negotiable commitment that becomes a protocol axiom (Tardigradia Chile SpA must hold ≥51% Chilean equity).
 
-**Voice Signature**: Declarative. No hedging. "The lock is X. The key is Y. The turn is Z." Each statement is a logical necessity, not a preference.
+**Voice Signature**: Declarative. No hedging. The lock is X. The key is Y. The turn is Z. Each statement is a logical necessity, not a preference.
 
 **Application Rule**: Every document section must answer: *What constraint forces this? What gap does it close? What commitment does it make?*
 
@@ -111,11 +111,11 @@ This is why every document in the 60-document pipeline **must** pass through all
 
 **Triad**: The Empirical Lock → The Mathematical Key → The Turn (Both Directions)
 
-**Internal Logic**: Keymaker treats brokerage execution as a **fabrication problem**. The Lock is a measurable fidelity gap (e.g., "magnet shipping documentation error rate >12%"). The Key is a **single computational primitive** that generates the solution (e.g., "blockchain heat/lot tracking → cryptographic proof of origin"). The Turn validates **both directions**: Theory→History (the protocol predicts the formation) AND History→Theory (the formation validates the protocol).
+**Internal Logic**: Keymaker treats brokerage execution as a **fabrication problem**. The Lock is a measurable fidelity gap (e.g., magnet shipping documentation error rate >12%). The Key is a **single computational primitive** that generates the solution (e.g., blockchain heat/lot tracking → cryptographic proof of origin). The Turn validates **both directions**: Theory→History (the protocol predicts the formation) AND History→Theory (the formation validates the protocol).
 
-**Voice Signature**: Binary. Verification vectors. "Lock: [failure mode]. Key: [primitive]. Turn: [protocol predicts X; history confirms X]."
+**Voice Signature**: Binary. Verification vectors. Lock: [failure mode]. Key: [primitive]. Turn: [protocol predicts X; history confirms X].
 
-**Application Rule**: Every operational claim must have a **binary verification vector** — pass/fail, not "mostly compliant."
+**Application Rule**: Every operational claim must have a **binary verification vector** — pass/fail, not mostly compliant.
 
 #### 1.2.3 El Segundo: The Recursive Self-Measurement Engine
 
@@ -123,7 +123,7 @@ This is why every document in the 60-document pipeline **must** pass through all
 
 **Internal Logic**: El Segundo models the **facilitator as a segment of the constraint**. The protocol does not sit outside the system — it **participates in its own formation**. The Mirror is how the protocol observes its own fabrication (heartbeat monitor, task timer, git commits). Participation is how the inside operator witnesses the phenomenon into existence (every subtask logged = witness act). Protocol is the **recursive sequence** that guarantees fidelity at each scale (subtask → chapter → document → runner → phase).
 
-**Voice Signature**: Recursive. "The protocol measures itself measuring. The witness witnesses the witnessing. The sequence guarantees the sequence."
+**Voice Signature**: Recursive. The protocol measures itself measuring. The witness witnesses the witnessing. The sequence guarantees the sequence.
 
 **Application Rule**: Every document must include **self-referential validation** — the traceability matrix is the Mirror; the heuristic intros are the Participation; the quality gates are the Protocol.
 
@@ -133,9 +133,9 @@ This is why every document in the 60-document pipeline **must** pass through all
 
 **Internal Logic**: Baker Street treats every brokerage claim as a **forensic problem**. The Case frames the sovereignty-strategy divide as a crime scene (who owns the magnetic flow?). Evidence consists of **exhibits** (concession titles, consent agreements, environmental permits, offtake contracts, enforcement records). Deduction follows Holmes: *eliminate the impossible, whatever remains — however improbable — is the truth.*
 
-**Voice Signature**: Precise. Cited. "Exhibit A: RCA Resolution 2024-XXX. Exhibit B: Consulta Indígena Act 2023-YYY. Deduction: The permit chain is unbroken."
+**Voice Signature**: Precise. Cited. Exhibit A: RCA Resolution 2024-XXX. Exhibit B: Consulta Indígena Act 2023-YYY. Deduction: The permit chain is unbroken.
 
-**Application Rule**: Every cross-reference must be **traceable to a primary source** — no "industry sources say." Chilean law, CEN resolutions, Sernageomin registries, Codelco annual reports.
+**Application Rule**: Every cross-reference must be **traceable to a primary source** — no industry sources say. Chilean law, CEN resolutions, Sernageomin registries, Codelco annual reports.
 
 #### 1.2.5 SHIELD: The Strategic Long-Horizon Engine
 
@@ -143,7 +143,7 @@ This is why every document in the 60-document pipeline **must** pass through all
 
 **Internal Logic**: SHIELD operates on **horizon consistency**. Calm is not absence of pressure — it is **strategic posture under Carrington-class GIC events**. Resilience is **layered risk financing** (CAT bonds, resilience bonds, parametric insurance, equity buffers). Continuity is **elegant handoff** — session resume, graceful degradation, NEXT_runner documents that survive workspace loss.
 
-**Voice Signature**: Measured. "The horizon holds. The layers absorb. The protocol resumes."
+**Voice Signature**: Measured. The horizon holds. The layers absorb. The protocol resumes.
 
 **Application Rule**: Every document must address **worst-case survival** — not just expected case. DFARS 2027 deadline, Red Sea closure, Mw8.8+ seismic, Puerto Exterior 2036 delay.
 

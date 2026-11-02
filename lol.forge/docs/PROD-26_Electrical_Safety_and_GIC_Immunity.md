@@ -16,7 +16,7 @@ The constraint cascades into every electrical decision:
 - **Penetrations:** Al₂O₃/ZrO₂ ceramic bushings only — no metal feedthroughs
 - **Power distribution:** Isolation transformer (Δ-Y, floating secondary), NGR 5A — no ground reference on process side
 
-**What breaks if violated:** A single copper wire for "just the E-stop" → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. The constraint is binary: all-dielectric or dead forge.
+**What breaks if violated:** A single copper wire for just the E-stop → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. The constraint is binary: all-dielectric or dead forge.
 
 ---
 
@@ -26,7 +26,7 @@ The empirical gap this document closes is the **measured divergence between stan
 
 Three specific gaps demand this architecture:
 
-1. **Standard grounding creates the GIC antenna:** IEEE 142 / NFPA 70 require equipment grounding conductors. But in a 5000 nT/s event, the ground conductor *is* the antenna. The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. A grounded forge would see 100 A flowing through its "safety ground" into the GaN gate drivers. The gap: **grounding for safety vs. grounding as GIC antenna.**
+1. **Standard grounding creates the GIC antenna:** IEEE 142 / NFPA 70 require equipment grounding conductors. But in a 5000 nT/s event, the ground conductor *is* the antenna. The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. A grounded forge would see 100 A flowing through its safety ground into the GaN gate drivers. The gap: **grounding for safety vs. grounding as GIC antenna.**
 
 2. **Standard EMC assumes copper shielding:** CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. But in the forge, a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that *concentrates* eddy currents. The measured field inside PROD-03 coil housing is 39.6 mT at Z8. A steel enclosure would see 50 kW of eddy current heating. The gap: **metallic shielding vs. dielectric transparency.**
 
@@ -37,7 +37,7 @@ Three specific gaps demand this architecture:
 - PROD-10 EMC test: CISPR 11 Class A passed with 20 dB margin — no metal shielding
 - PROD-23 SIS proof test (CT-04): 24 SIL-3 SIFs, PFD<sub>avg</sub> = 2.3×10⁻³ — meets <10⁻²
 - PROD-25 megger test: All 50+ penetrations >1 GΩ at 500 VDC — no conductive leakage
-- PROD-10 arc flash calc: 0.3 cal/cm² at 18" (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
+- PROD-10 arc flash calc: 0.3 cal/cm² at 18 (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
 
 ---
 
@@ -73,7 +73,7 @@ The fabrication fidelity gap in Aegis-Forge I electrical safety is the **diverge
 
 Three specific locks prevent traditional electrical safety engineering from closing this gap:
 
-1. **Grounding is the vulnerability, not the protection:** Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. But in the forge, the ground conductor *becomes* the GIC antenna. 5000 nT/s induces >100 V/km. A 50 m ground wire = 5 V common-mode. The GaN gate driver threshold is 6 V. The "safety ground" destroys the safety system. The lock: **safety ground as GIC antenna.**
+1. **Grounding is the vulnerability, not the protection:** Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. But in the forge, the ground conductor *becomes* the GIC antenna. 5000 nT/s induces >100 V/km. A 50 m ground wire = 5 V common-mode. The GaN gate driver threshold is 6 V. The safety ground destroys the safety system. The lock: **safety ground as GIC antenna.**
 
 2. **EMC shielding requires conductivity — the forge forbids it:** CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. The measured B-field at Z8 is 39.6 mT. Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. The cabinet would melt. The lock: **metallic shielding as induction heater.**
 
@@ -230,32 +230,32 @@ How does the inside operator witness the electrical phenomenon into existence? A
 **Gate 1: Batch Recipe Authorization — Electrical Load Profile (PROD-29 Section 4.1)**
 - **Action:** Feedstock UUID scanned → Category A–D → Operator confirms recipe. Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates.
 - **Witness requirement:** Operator verifies recipe power profile matches feedstock composition. Category A (PCBs) = high Z6/Z7 power. Category C (batteries) = high Z3/Z4 power. Wrong profile = thermal runaway or incomplete separation.
-- **Why human:** Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). No sensor measures "Category A-ness" — only composition. Operator judgment maps composition to recipe.
-- **Cognitive checkpoint:** "Does this power profile match what I see in the feed?" — pattern recognition of feedstock vs. recipe.
+- **Why human:** Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). No sensor measures Category A-ness — only composition. Operator judgment maps composition to recipe.
+- **Cognitive checkpoint:** Does this power profile match what I see in the feed? — pattern recognition of feedstock vs. recipe.
 
 **Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)**
 - **Action:** Stage complete → Shift Lead reviews: energy delivered vs. planned, gas composition vs. setpoint, SIF events, anomaly flags, thermal model residuals.
 - **Witness requirement:** For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. For Stage 8: SiO₂ condenser flow verification (mass spec).
-- **Why human:** SIF events are recorded but not interpreted. A "cooling water loss" SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. Anomaly flags are data — operator judges significance.
-- **Cognitive checkpoint:** "Is the electrical state clean for the next stage?" — synthesis of energy, gas, SIF, anomaly data.
+- **Why human:** SIF events are recorded but not interpreted. A cooling water loss SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. Anomaly flags are data — operator judges significance.
+- **Cognitive checkpoint:** Is the electrical state clean for the next stage? — synthesis of energy, gas, SIF, anomaly data.
 
 **Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)**
 - **Action:** Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37).
 - **Witness requirement:** Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. Blockchain record immutable.
-- **Why human:** Risk acceptance is organizational, not algorithmic. No mathematical function accepts "we'll run with SIF-00-07 bypassed because NGR monitor is drifting." Human judgment weighs production loss vs. safety margin.
-- **Cognitive checkpoint:** "Do I accept this risk for this duration with these compensations?" — explicit risk acceptance.
+- **Why human:** Risk acceptance is organizational, not algorithmic. No mathematical function accepts we'll run with SIF-00-07 bypassed because NGR monitor is drifting. Human judgment weighs production loss vs. safety margin.
+- **Cognitive checkpoint:** Do I accept this risk for this duration with these compensations? — explicit risk acceptance.
 
 **Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)**
 - **Action:** Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. Authorizes staged grid reconnect with utility coordination.
 - **Witness requirement:** Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. Operator verifies model-predicted $dT/dt$ < 100°C/s.
 - **Why human:** Grid coordination requires utility communication (voice, not data diode). Thermal shock judgment combines model prediction + operator experience. No algorithm coordinates with utility dispatcher.
-- **Cognitive checkpoint:** "Did the forge survive the storm intact?" — holistic electrical-thermal survival judgment.
+- **Cognitive checkpoint:** Did the forge survive the storm intact? — holistic electrical-thermal survival judgment.
 
 **Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)**
 - **Action:** Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run.
 - **Witness requirement:** Reviews all 10 test reports, signs each. Any deviation from spec → NCR (PROD-28) → root cause → re-test.
-- **Why human:** Test data is necessary but not sufficient. Engineer judges: "Is the 2.3 ms TSN latency spike in CT-05 acceptable?" (Yes, <100 μs guard band). "Is the 0.5 pC PD on XFMR acceptable?" (Yes, <5 pC limit). Data + judgment = sign-off.
-- **Cognitive checkpoint:** "Does this electrical system meet spec in the real world?" — professional engineering judgment.
+- **Why human:** Test data is necessary but not sufficient. Engineer judges: Is the 2.3 ms TSN latency spike in CT-05 acceptable? (Yes, <100 μs guard band). Is the 0.5 pC PD on XFMR acceptable? (Yes, <5 pC limit). Data + judgment = sign-off.
+- **Cognitive checkpoint:** Does this electrical system meet spec in the real world? — professional engineering judgment.
 
 #### The Participation Principle
 
@@ -697,7 +697,7 @@ GIC EVENT DETECTION (L3 SCADA + L2 PLC):
 
 ### 7.1 Arc Flash Hazard Analysis
 
-| Location | Voltage | Bolted Fault Current | Clearing Time | Incident Energy (18") | PPE Category |
+| Location | Voltage | Bolted Fault Current | Clearing Time | Incident Energy (18) | PPE Category |
 |----------|---------|---------------------|---------------|----------------------|--------------|
 | **Grid Service** | 480 V | 25 kA | 0.1 s (breaker) | 4.2 cal/cm² | Cat 2 |
 | **XFMR Secondary** | 400 V | 15 kA | 0.05 s (fuse) | 1.8 cal/cm² | Cat 1 |
@@ -710,7 +710,7 @@ GIC EVENT DETECTION (L3 SCADA + L2 PLC):
 |---------|----------------|----------|
 | **No exposed conductors** | All connections inside BFRP enclosures | NFPA 70E 130.5 |
 | **Bolted connections only** | Torque-verified, ZrO₂ insulated sleeves | NFPA 70E 110.14 |
-| **Incident energy <1.2 cal/cm²** | At working distance (18") for all process areas | NFPA 70E 130.5 |
+| **Incident energy <1.2 cal/cm²** | At working distance (18) for all process areas | NFPA 70E 130.5 |
 | **PPE Category 0** | No arc-rated PPE required inside forge boundary | NFPA 70E 130.7 |
 | **Arc-resistant boundaries** | BFRP vessel = arc containment | NFPA 70E 200.6 |
 | **Labels** | All enclosures labeled (voltage, energy, boundary) | NFPA 70E 130.5(H) |
@@ -797,7 +797,7 @@ SIS HIERARCHY (DEDICATED HARDWARE):
 
 ### 9.1 Grounding Philosophy
 
-**Single-Point Ground at Substation Only.** No ground reference anywhere in the process zone. All "grounding" inside the forge is **equipotential bonding via 1 MΩ bleed resistors** for static dissipation only.
+**Single-Point Ground at Substation Only.** No ground reference anywhere in the process zone. All grounding inside the forge is **equipotential bonding via 1 MΩ bleed resistors** for static dissipation only.
 
 ```
 GROUNDING TOPOLOGY:

@@ -16,11 +16,11 @@ The Keymaker heuristic treats brokerage as a **fabrication problem**. The Lock i
 | **LK-06** | DFARS traceability gaps | % batches without heat/lot chain | 100% (pre-pipeline) | 0% | DOC-06 Ch.4 |
 | **LK-07** | Grid GIC vulnerability | Transformers without neutral blockers | 100% (SEN) | 0% (DOC-11) | DOC-11 Ch.6 |
 
-**Keymaker Voice**: *Each Lock is a binary failure mode. Not "improvement opportunity" — failure mode. The metric is the lock's teeth. The baseline is the gap. The target is the key's fit.*
+**Keymaker Voice**: *Each Lock is a binary failure mode. Not improvement opportunity — failure mode. The metric is the lock's teeth. The baseline is the gap. The target is the key's fit.*
 
 #### 3.1.2 Lock Composition: The Facilitator-to-Owner Transition Gap
 
-The **master Lock** for the entire pipeline is the **facilitator-to-owner transition** — the gap between "we know the minerals exist" and "we own the flow."
+The **master Lock** for the entire pipeline is the **facilitator-to-owner transition** — the gap between we know the minerals exist and we own the flow.
 
 **Measurable Decomposition**:
 ```
@@ -76,7 +76,7 @@ Each Lock LK-01 through LK-07 maps to a CSV component:
 | LK-06 (DFARS) | c₆ | Mine-to-factory cryptographic chain |
 | LK-07 (Grid) | c₅ | GFM + DC microgrid + synthetic inertia |
 
-**Keymaker Voice**: *The Key is CSV ∈ {0,1}⁷. Seven binary constraints. One vector. All protocol actions derive from CSV state transitions. No "progress percentage" — only bit flips.*
+**Keymaker Voice**: *The Key is CSV ∈ {0,1}⁷. Seven binary constraints. One vector. All protocol actions derive from CSV state transitions. No progress percentage — only bit flips.*
 
 #### 3.2.3 Key Properties: Deterministic, Irreversible, Auditable
 
@@ -135,11 +135,11 @@ Each document produces a **binary verification vector** for its domain:
 
 | Linguistic Invariant | Pattern | Example |
 |----------------------|---------|---------|
-| **Lock Declaration** | "Lock: [failure mode] — [metric] — [baseline]" | "Lock: Concession defects — 18% overlap — Sernageomin 2024" |
-| **Key Declaration** | "Key: [primitive] — [mechanism] — [binary]" | "Key: CSV[c₁] — Sernageomin registry + title insurance — {0,1}" |
-| **Turn Declaration** | "Turn: Theory→History [prediction] ∧ History→Theory [validation]" | "Turn: CSV=1111111 predicts production. Escondida validates." |
+| **Lock Declaration** | Lock: [failure mode] — [metric] — [baseline] | Lock: Concession defects — 18% overlap — Sernageomin 2024 |
+| **Key Declaration** | Key: [primitive] — [mechanism] — [binary] | Key: CSV[c₁] — Sernageomin registry + title insurance — {0,1} |
+| **Turn Declaration** | Turn: Theory→History [prediction] ∧ History→Theory [validation] | Turn: CSV=1111111 predicts production. Escondida validates. |
 
-**Forbidden**: "Likely," "should resolve," "expected to," "mitigates," "reduces"
+**Forbidden**: Likely, should resolve, expected to, mitigates, reduces
 **Required**: Binary. Measurable. Bidirectional.
 
 ---

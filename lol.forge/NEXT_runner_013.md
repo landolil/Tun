@@ -160,7 +160,7 @@ node scripts/split_chunks.js compress docs/PROD-XX_<title>.md
 ### 6. Git Commit & Push (5 min)
 ```bash
 git add -A
-git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <Title> — <lines> lines + 4 intros, <N> chunks verified"
+git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <Title> — <lines> lines + 4 intros, <N> chunks verified
 git push
 ```
 

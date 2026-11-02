@@ -5,7 +5,7 @@
 
 ```bash
 git add chunks/DOC-27/ FinishedWork/DOC-27_Community_Diaguita.md.gz FinishedWork/intros/DOC-27_*.md
-git commit -m "lol.rareearth: DOC-27 Diaguita Valleys — 5500+ lines, 50+ formulas, 320+ cross-refs, 25 standards, 0 conflation, El Segundo PRIMARY"
+git commit -m lol.rareearth: DOC-27 Diaguita Valleys — 5500+ lines, 50+ formulas, 320+ cross-refs, 25 standards, 0 conflation, El Segundo PRIMARY
 git tag runner-017b-complete
 git push origin kilo/digital-dolphin-50m
 git push origin runner-017b-complete

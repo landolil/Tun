@@ -87,7 +87,7 @@ Threshold Λ_J > 10 at Gates SG-2, SG-3, CT-04, SAT-05 certifies Journeyman judg
 **The fabricator sees the training program as a distributed sensor network.** Every assessment is a measurement. Every measurement updates RCT. Every RCT update adjusts curriculum hours, scenario weights, recertification triggers.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The training operator does not "instruct" — they **witness competency becoming Forge**:
+**How does the inside operator witness the phenomenon into existence?** The training operator does not instruct — they **witness competency becoming Forge**:
 
 1. **Apprentice at Cold Startup (O-01 Simulator)** witnesses the 90-minute sequence: HVAC → SIS proof → FBG cal → ZVS verify → drum drive → gas purge → recipe load. They *feel* the 100 kHz FPGA gate drive latency in the L0 replica, *see* the TSN schedule slots on the L1 RTU, *know* this sequence protects the 2200°C drum from thermal shock.
 2. **Journeyman at SIF Bypass (Oral Board)** witnesses the dual-key moment: Shift Lead + Safety Engineer, 4-hr time limit, blockchain audit trail. They *witness* the organizational risk acceptance — no algorithm, no procedure, only human judgment at the boundary of consequence.
@@ -186,7 +186,7 @@ The Aegis-Forge I training and certification program is a **zero-metal, Carringt
 
 ## 2. Training Program Overview & Philosophy
 
-### 2.1 Training Philosophy: "Witness, Don't Monitor"
+### 2.1 Training Philosophy: Witness, Don't Monitor
 
 The Forge training philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): **operators do not monitor — they witness the phenomenon into existence.** This requires training that develops sensory-motor coupling to the process, not dashboard interpretation skills.
 
@@ -392,7 +392,7 @@ Each role requires competency across five categories (Knowledge, Skill, Behavior
 6. Gas systems: MFC zero/span, leak check, purge sequences
 7. SCADA: recipe load (ISA-88 XML), batch UUID generation, twin sync
 
-**Assessment**: Simulator — execute cold startup to "Ready for Feed" in <90 min
+**Assessment**: Simulator — execute cold startup to Ready for Feed in <90 min
 
 ### 7.2 Module O-02: Hot Commissioning & Steady State (24 hrs)
 
@@ -582,7 +582,7 @@ Each role requires competency across five categories (Knowledge, Skill, Behavior
 | **Physics Engine** | PROD-24 thermal model (500 kW step → 1800°C in 42 s) + PROD-10 EM model |
 | **Fidelity** | 95% validated against CSMFAB0108 test data (PROD-24 V&V) |
 | **Hardware** | 4× RTX 6000 Ada, 128 GB RAM, 10 Gbps TSN interface to SCADA replica |
-| **Visualization** | 6× 24" monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) |
+| **Visualization** | 6× 24 monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) |
 | **Interfaces** | L0 FPGA replica, L1 RTU (ARM), L2 PLC (Codesys), L3 SCADA (Ignition) |
 
 ### 11.2 Scenario Library (50+ Scenarios)
@@ -806,10 +806,10 @@ QA Inspector Signature: _______________  Date: __________
 
 | Area | Question | Pass Criteria |
 |------|----------|---------------|
-| **Stage Transition** | "Walk me through Stage 4→5 gate. What LIBS/XRF data do you require?" | Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C |
-| **SIF Bypass** | "Zone 2 overtemperature SIF nuisance trips. Justify 4-hr bypass." | Risk assessment: process impact vs. safety margin, dual-key, blockchain log |
-| **Carrington Exit** | "Grid stable 30 min post-storm. What verifies before reconnect?" | Drum thermal shock <100°C/s, SIF health all green, utility coordination |
-| **Phoenix Blend** | "Primary Depot NA reports In spike in D4. Adjust P_blend?" | MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification |
+| **Stage Transition** | Walk me through Stage 4→5 gate. What LIBS/XRF data do you require? | Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C |
+| **SIF Bypass** | Zone 2 overtemperature SIF nuisance trips. Justify 4-hr bypass. | Risk assessment: process impact vs. safety margin, dual-key, blockchain log |
+| **Carrington Exit** | Grid stable 30 min post-storm. What verifies before reconnect? | Drum thermal shock <100°C/s, SIF health all green, utility coordination |
+| **Phoenix Blend** | Primary Depot NA reports In spike in D4. Adjust P_blend? | MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification |
 
 ---
 

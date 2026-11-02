@@ -110,11 +110,11 @@
 | Quality Gate | Target | DOC-05 Status | Verification Method |
 |--------------|--------|---------------|---------------------|
 | Lines ≥ 900 | 900 | ~1,400 (est.) | `wc -l` |
-| Formulas/LaTeX ≥ 20 | 20 | 30+ | `grep -c "\$"` |
-| Cross-refs ≥ 15 | 15 | 80+ | `grep -ic "DOC-\|CSM\|Chile\|Sernageomin\|CORFO\|FBC\|CVO" ` |
-| Standards ≥ 8 | 8 | 25+ | `grep -ic "ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|CFR" ` |
-| Conflation flags = 0 | 0 | 0 | `grep -ic "duplicate\|contradict\|overlap" ` |
-| TBD markers documented | ≥5 | 10 | `grep -c "TBD:RESEARCH"` |
+| Formulas/LaTeX ≥ 20 | 20 | 30+ | `grep -c \$` |
+| Cross-refs ≥ 15 | 15 | 80+ | `grep -ic DOC-\|CSM\|Chile\|Sernageomin\|CORFO\|FBC\|CVO ` |
+| Standards ≥ 8 | 8 | 25+ | `grep -ic ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|CFR ` |
+| Conflation flags = 0 | 0 | 0 | `grep -ic duplicate\|contradict\|overlap ` |
+| TBD markers documented | ≥5 | 10 | `grep -c TBD:RESEARCH` |
 | Traceability Matrix present | Yes | Ch 9 | This chapter |
 | Chunk reassembly diff = 0 | 0 bytes | Pending | `write_large_file.py concat` |
 | Manifest checksums PASS | PASS | Pending | `write_large_file.py verify` |

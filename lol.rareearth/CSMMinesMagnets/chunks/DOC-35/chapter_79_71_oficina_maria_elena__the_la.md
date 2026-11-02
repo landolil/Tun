@@ -11,7 +11,7 @@
 | **Current Production** | **40,000 t/yr** (specialty nitrate) | **5% of peak** |
 | **Current Workforce** | **200** (nitrate division) | Aging, specialized knowledge |
 | **Monumento Nacional** | Declared 1999 (Decreto Exento 743) | **Active industrial monument** |
-| **UNESCO Tentative List** | "Oficinas Salitreras" (with Humberstone, Santa Laura) | **Serial nomination pending** |
+| **UNESCO Tentative List** | Oficinas Salitreras (with Humberstone, Santa Laura) | **Serial nomination pending** |
 
 ### 7.1.2 Industrial Archaeology — The Intact Ensemble
 

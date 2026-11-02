@@ -65,7 +65,7 @@ Section 5.5 proves material closure is thermodynamically feasible. The replicati
 | Aerogel | External | Stage 8 silica + Stage 3 polyimide | H1 |
 | YInMn Blue | External | Stage 4 Y + Stage 4 In + Stage 8 Mn | H2 |
 
-**No horizon requires materials outside the cascade output.** The "external" column is the bootstrap condition; the "closure path" column is the roadmap's technical program.
+**No horizon requires materials outside the cascade output.** The external column is the bootstrap condition; the closure path column is the roadmap's technical program.
 
 ---
 
@@ -84,7 +84,7 @@ The roadmap **cannot proceed without policy**; the policy **has no physical mech
 
 ### The Open Architecture as Force Multiplier
 
-Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the "periodic table" of the technology. Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. Tier 3 (Fabrication Certification) ensures quality fidelity across the global network.
+Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the periodic table of the technology. Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. Tier 3 (Fabrication Certification) ensures quality fidelity across the global network.
 
 This is not altruism. It is **strategic necessity**:
 - CSM cannot build 6 global hubs + lunar + orbital alone (CAPEX $11.25B)
@@ -534,7 +534,7 @@ In microgravity, centrifugal force IS the effective gravity. Drum at 500 RPM, r=
 
 ### 3.4 Microgravity Thermal Cascade — Capillary/Centrifugal Hybrid
 
-**Challenge:** In microgravity, liquid metals don't "pool at the bottom" — they form spheres held by surface tension. Centrifugal force must overcome surface tension.
+**Challenge:** In microgravity, liquid metals don't pool at the bottom — they form spheres held by surface tension. Centrifugal force must overcome surface tension.
 
 **Bond number criterion:**
 Bo = ρ·ω²·r·L²/σ > 10 for reliable separation
@@ -861,7 +861,7 @@ PHOENIX PROTOCOL — FULL CIRCULARITY
 
 #### 5.3.1 Licensing Philosophy
 
-> **"The physics is open. The engineering is licensed. The fabrication is certified."**
+> **The physics is open. The engineering is licensed. The fabrication is certified.**
 
 **Three-tier licensing model:**
 

@@ -17,13 +17,13 @@ The empirical gap is the **absence of any regulatory precedent for a zero-metal,
 
 This document commits the Forge to **four non-negotiable regulatory chains**:
 
-1. **Zero-discharge is absolute** — No process wastewater discharge permit. Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. NPDES only for stormwater. This is not "minimization" — it is elimination.
+1. **Zero-discharge is absolute** — No process wastewater discharge permit. Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. NPDES only for stormwater. This is not minimization — it is elimination.
 
-2. **All-dielectric compliance is mandatory** — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). No "waiver" — the Forge demonstrates superior GIC immunity through physics, not exception.
+2. **All-dielectric compliance is mandatory** — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). No waiver — the Forge demonstrates superior GIC immunity through physics, not exception.
 
 3. **SIL-3 SIFs are immutable** — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). No risk-based interval extension. No CBM substitution. This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon.
 
-4. **Carbon negativity is a compliance asset** — -2.3 tCO₂e/ton EOL is not "offsets purchased" — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program.
+4. **Carbon negativity is a compliance asset** — -2.3 tCO₂e/ton EOL is not offsets purchased — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program.
 
 ---
 
@@ -35,11 +35,11 @@ The fabrication fidelity gap in Forge regulatory compliance is the **divergence 
 
 Three specific locks prevent conventional compliance engineering from closing this gap:
 
-1. **Prescriptive vs. Performance Lock:** Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: "steel vessel per Sec VIII," "grounding per NFPA 70," "thermocouples per ISA," "copper conduit per NEC." The Forge uses NONE of these materials or methods. The lock: **regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior.**
+1. **Prescriptive vs. Performance Lock:** Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: steel vessel per Sec VIII, grounding per NFPA 70, thermocouples per ISA, copper conduit per NEC. The Forge uses NONE of these materials or methods. The lock: **regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior.**
 
 2. **Common-Cause Failure Lock:** IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). A single interrogator failure = 3 SIF channels lost. The lock: **regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality.**
 
-3. **Carbon Accounting Lock:** Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats "recycling" as avoided emissions (Scope 3) and "sequestration" as separate projects. The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. The lock: **regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration.**
+3. **Carbon Accounting Lock:** Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats recycling as avoided emissions (Scope 3) and sequestration as separate projects. The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. The lock: **regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration.**
 
 #### The Mathematical Key
 
@@ -52,8 +52,8 @@ REO[R_prescriptive, P_forge, M_forge, D_forge] =
               Witness(P_forge) ∈ Operator_Gates
 
 Where:
-R_prescriptive = Prescriptive requirement (e.g., "steel vessel per ASME Sec VIII")
-P_forge = Forge performance demonstration (e.g., "BFRP vessel per Sec X + FEA HCLPF >1.6g")
+R_prescriptive = Prescriptive requirement (e.g., steel vessel per ASME Sec VIII)
+P_forge = Forge performance demonstration (e.g., BFRP vessel per Sec X + FEA HCLPF >1.6g)
 M_forge = Forge measurement system (FBG, AE, CEMS, LIBS, mass spec, CT)
 D_forge = Forge data integrity (Hyperledger, PTP <1μs, TSN determinism)
 ```

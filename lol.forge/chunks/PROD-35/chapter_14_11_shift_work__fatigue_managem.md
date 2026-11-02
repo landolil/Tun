@@ -19,7 +19,7 @@
 | **Light Therapy** | 10,000 lux at 0600/1800 transition, blue-enriched monitors |
 | **Workload Redistribution** | SL monitors TLX via HMI, reassigns tasks if >80 |
 | **Biometric Monitoring** | Optional: wrist HRV, eyelid closure (IR camera on monitor) → fatigue alert |
-| **Shift Handover** | 30-min overlap, structured QR handover (DQR log), verbal "three concerns" |
+| **Shift Handover** | 30-min overlap, structured QR handover (DQR log), verbal three concerns |
 
 ### 11.3 Fatigue Risk Assessment (PROD-34 Training)
 

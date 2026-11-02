@@ -93,7 +93,7 @@ Threshold Λ_CP > 100 triggers SEV-1; Λ_CP > 10 triggers SEV-2; Λ_CP > 3 trigg
 **The fabricator sees the security program as a distributed sensor network.** Every frame, wavelength, vote, hash, and badge swipe is a measurement. Every measurement updates CPAT. Every CPAT update adjusts TSN gates, FBG thresholds, SIF logic, firmware pins, JIT policies.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The security engineer does not "monitor" — they **witness the security posture becoming the Forge's immune response**:
+**How does the inside operator witness the phenomenon into existence?** The security engineer does not monitor — they **witness the security posture becoming the Forge's immune response**:
 
 1. **Shift Lead at SIF Bypass Gate (IR-01)** witnesses the dual-key moment: YubiKey + Safety Eng YubiKey, 4-hr blockchain timer starts, SOE logs every SIF state change. They *witness* the organizational risk acceptance — no algorithm, only human judgment at the boundary of consequence.
 2. **Cyber Engineer at TSN Schedule Freeze** witnesses the FAT gate control list: 1 ms cycle, 4 slices, 100 μs guard band, VLAN 10 highest priority. They *witness* the deterministic schedule as the access control — no frame crosses VLAN boundaries without explicit gate entry. The schedule IS the firewall.
@@ -320,9 +320,9 @@ The 384 FBG channels (125 Hz each) serve dual purpose: process temperature/strai
 ```python
 # Runs at 10 Hz on PROD-37 Digital Twin (512-core HPC)
 def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
-    """
+    
     fbg_state_vector: 384 wavelengths @ 125 Hz → 10 Hz aggregated
-    """
+    
     # 1. Thermal model residual (from PROD-24)
     residual = fbg_state_vector - thermal_admittance_model.predict(fbg_state_vector)
     
@@ -339,7 +339,7 @@ def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
         return TamperAlert(
             channels=identify_anomalous_channels(fbg_state_vector),
             score=tamper_score,
-            recommended_action="SL review, potential SIF bypass, physical inspection"
+            recommended_action=SL review, potential SIF bypass, physical inspection
         )
     return None
 ```
@@ -481,7 +481,7 @@ ALERT = (Network_Anomaly ∧ Process_Deviation) ∨
 #### Playbook IR-01: Unauthorized SIF Bypass Attempt
 ```
 1. DETECT: IDS-004 triggers (SIF trip without process cause OR dual-key not presented)
-2. CONTAIN: SIS FPGA locks all 24 SIFs in "armed" state; no further bypass possible
+2. CONTAIN: SIS FPGA locks all 24 SIFs in armed state; no further bypass possible
 3. ERADICATE: SL + Safety Eng investigate; revoke compromised tokens; rotate keys
 4. RECOVER: CT-04 partial-stroke test all 24 SIFs; verify SOE integrity
 5. LESSONS: Root cause (token theft? insider? supply chain?); update playbook
@@ -748,10 +748,10 @@ class FBGTamperClassifier:
         self.spatial_graph = SpatialCorrelationGraph()  # 384-channel topology
         
     def classify(self, fbg_wavelengths: np.ndarray) -> TamperClassification:
-        """
+        
         fbg_wavelengths: shape (384,) - current wavelength readings (nm)
         Returns: TamperClassification enum + confidence + affected channels
-        """
+        
         
         # Hypothesis H0: Nominal thermal operation
         thermal_pred = self.thermal_model.predict(fbg_wavelengths)
@@ -817,40 +817,40 @@ class FBGTamperClassifier:
 
 ```json
 {
-  "bomFormat": "CycloneDX",
-  "specVersion": "1.5",
-  "version": 1,
-  "metadata": {
-    "timestamp": "2026-11-03T09:15:00Z",
-    "tools": [{"vendor": "Syft", "version": "0.90.0"}],
-    "component": {
-      "type": "firmware",
-      "name": "L1_RTU_Firmware",
-      "version": "2.1.4",
-      "hashes": [
-        {"alg": "SHA-256", "content": "a1b2c3d4..."},
-        {"alg": "SHA-384", "content": "e5f6g7h8..."}
+  bomFormat: CycloneDX,
+  specVersion: 1.5,
+  version: 1,
+  metadata: {
+    timestamp: 2026-11-03T09:15:00Z,
+    tools: [{vendor: Syft, version: 0.90.0}],
+    component: {
+      type: firmware,
+      name: L1_RTU_Firmware,
+      version: 2.1.4,
+      hashes: [
+        {alg: SHA-256, content: a1b2c3d4...},
+        {alg: SHA-384, content: e5f6g7h8...}
       ],
-      "licenses": [{"license": {"id": "Proprietary"}}],
-      "properties": [
-        {"name": "SLSA_Level", "value": "3"},
-        {"name": "Build_Timestamp", "value": "2026-11-03T06:00:00Z"},
-        {"name": "Git_Commit", "value": "abc123def456"},
-        {"name": "Signing_Key", "value": "RSA-4096:HSM:CSM-ROOT-CA"}
+      licenses: [{license: {id: Proprietary}}],
+      properties: [
+        {name: SLSA_Level, value: 3},
+        {name: Build_Timestamp, value: 2026-11-03T06:00:00Z},
+        {name: Git_Commit, value: abc123def456},
+        {name: Signing_Key, value: RSA-4096:HSM:CSM-ROOT-CA}
       ]
     }
   },
-  "components": [
-    {"type": "library", "name": "Zephyr_RTOS", "version": "3.5.0", "hashes": [...], "purl": "pkg:github/zephyrproject/zephyr@3.5.0"},
-    {"type": "library", "name": "mbedTLS", "version": "3.5.0", "hashes": [...], "purl": "pkg:github/Mbed-TLS/mbedtls@3.5.0"},
-    {"type": "library", "name": "TSN_Stack", "version": "1.2.0", "hashes": [...], "purl": "pkg:github/csmfab/tsn-stack@1.2.0"},
-    {"type": "library", "name": "FBG_Driver", "version": "1.0.3", "hashes": [...], "purl": "pkg:github/csmfab/fbg-driver@1.0.3"},
-    {"type": "library", "name": "PID_Controller", "version": "2.0.1", "hashes": [...], "purl": "pkg:github/csmfab/pid-controller@2.0.1"}
+  components: [
+    {type: library, name: Zephyr_RTOS, version: 3.5.0, hashes: [...], purl: pkg:github/zephyrproject/zephyr@3.5.0},
+    {type: library, name: mbedTLS, version: 3.5.0, hashes: [...], purl: pkg:github/Mbed-TLS/mbedtls@3.5.0},
+    {type: library, name: TSN_Stack, version: 1.2.0, hashes: [...], purl: pkg:github/csmfab/tsn-stack@1.2.0},
+    {type: library, name: FBG_Driver, version: 1.0.3, hashes: [...], purl: pkg:github/csmfab/fbg-driver@1.0.3},
+    {type: library, name: PID_Controller, version: 2.0.1, hashes: [...], purl: pkg:github/csmfab/pid-controller@2.0.1}
   ],
-  "dependencies": [
-    {"ref": "L1_RTU_Firmware", "dependsOn": ["Zephyr_RTOS", "mbedTLS", "TSN_Stack", "FBG_Driver", "PID_Controller"]}
+  dependencies: [
+    {ref: L1_RTU_Firmware, dependsOn: [Zephyr_RTOS, mbedTLS, TSN_Stack, FBG_Driver, PID_Controller]}
   ],
-  "vulnerabilities": []
+  vulnerabilities: []
 }
 ```
 

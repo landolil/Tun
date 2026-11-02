@@ -23,9 +23,9 @@ The El Segundo heuristic demands that **the audit protocol observes its own exec
 
 ```python
 def mirror_check_audit(auditor_state):
-    """
+    
     D0 Mirror: Continuous measurement during pairwise audit.
-    """
+    
     checks = {
         'heartbeat_liveness': time_since_last_pairwise_check() < 120,
         'pairwise_duration': current_pairwise_duration() < 30,
@@ -51,9 +51,9 @@ The auditor (Runner 011, then automated tool) **participates in the pipeline int
 ```python
 @dataclass
 class AuditWitnessAct:
-    witness_id: str  # e.g., "AUDIT-DOC01-DOC07-PAIRWISE-001"
+    witness_id: str  # e.g., AUDIT-DOC01-DOC07-PAIRWISE-001
     timestamp: datetime
-    auditor: str     # "Runner_011" or "conflation_audit.py_v1.0"
+    auditor: str     # Runner_011 or conflation_audit.py_v1.0
     pairwise_check: PairwiseCheck
     conflicts_found: List[Conflict]
     conflicts_resolved: List[Resolution]
@@ -119,9 +119,9 @@ The **Meta-Audit** is the audit protocol applied to **itself** — verifying tha
 
 ```python
 def meta_audit(auditor):
-    """
+    
     Runs at D4 (per major version) and D5 (civilizational horizons).
-    """
+    
     checks = {
         'tool_implements_protocol': verify_tool_matches_spec(auditor.tool_version),
         'variant_contamination_check': run_vc_detection_on_own_intros(),
@@ -147,9 +147,9 @@ The `conflation_audit.py` source code is itself scanned for:
 
 ```python
 def verify_recursive_closure(audit_state):
-    """
+    
     Verify the audit protocol achieves recursive closure at all scales.
-    """
+    
     # D0: Pairwise checks have mirror measurements
     d0_ok = all(has_mirror_measurement(c) for c in audit_state.completed_conflicts)
     
@@ -227,7 +227,7 @@ The El Segundo Recursive Audit ensures **the audit protocol witnesses its own ex
 - **Meta-Audit**: Audit tool audits itself (variant contamination, protocol compliance)
 - **Transition Density**: Quantified participation toward pipeline integrity (target ≥0.8)
 
-The El Segundo voice — *"Mirror: [pairwise measurement]. Participation: [witness act]. Protocol: [recursive guarantee]."* — is the **operational certificate** that the audit is not external verification but **internal self-formation**.
+The El Segundo voice — *Mirror: [pairwise measurement]. Participation: [witness act]. Protocol: [recursive guarantee].* — is the **operational certificate** that the audit is not external verification but **internal self-formation**.
 
 **Next**: Chapter 7 — SHIELD Horizon Filter: Long-Horizon Significance Assessment.
 

@@ -45,7 +45,7 @@ L_REE = (%REE_oxide in slag) / [%REE in metal]
 **MgO/Al₂O₃ from Upstream Dross — Critical Enabler:**
 - Stage 4 dross: 10 kg MgO, 5 kg flux
 - Stage 5 dross: 7 kg MgO/Al₂O₃, 2.5 kg flux
-- **Total "free" MgO/Al₂O₃: 17 kg** — no purchased flux needed
+- **Total free MgO/Al₂O₃: 17 kg** — no purchased flux needed
 - This is a **cascade advantage**: waste from Stages 4-5 becomes slag former for Stage 7
 
 ---

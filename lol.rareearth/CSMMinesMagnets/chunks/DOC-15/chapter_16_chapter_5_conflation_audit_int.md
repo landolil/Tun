@@ -23,9 +23,9 @@ Every session resume must verify **zero conflation regression** before continuin
 
 ```python
 def phase4_reconcile(state: PipelineState) -> bool:
-    """
+    
     Execute conflation audit regression for any new/modified docs.
-    """
+    
     new_docs = detect_new_or_modified_docs(state.last_commit_sha)
     
     if not new_docs:
@@ -37,9 +37,9 @@ def phase4_reconcile(state: PipelineState) -> bool:
         
         # Gate: 0 CRITICAL, 0 HIGH unresolved
         if result.critical_unresolved > 0:
-            raise ResumeBlocked(f"CRITICAL conflation in {doc}: {result.critical_details}")
+            raise ResumeBlocked(fCRITICAL conflation in {doc}: {result.critical_details})
         if result.high_unresolved > 0:
-            raise ResumeBlocked(f"HIGH conflation in {doc}: {result.high_details}")
+            raise ResumeBlocked(fHIGH conflation in {doc}: {result.high_details})
         
         # Update ledger
         append_to_ledger(result.resolutions)

@@ -21,7 +21,7 @@
 
 | Material | Application | Source | Specification |
 |----------|-------------|--------|---------------|
-| **PEX-a Tubing** | Cooling circuits (16 L/min) | Uponor (US/DE) | SDR 11, 1" OD, 200 m/Forge |
+| **PEX-a Tubing** | Cooling circuits (16 L/min) | Uponor (US/DE) | SDR 11, 1 OD, 200 m/Forge |
 | **PMMA POF** | Fieldbus (384 ch FBG + control) | Mitsubishi (JP), Toray (JP) | 1550 nm, 100 m max, <0.15 dB/m |
 | **PEEK CF40** | Flanges, seals, crate hardware | Victrex (UK/US) | Injection molded, 30% carbon fiber |
 | **PEEK CF40 Spring** | Port valve return spring | Victrex/In-house | Fatigue >10⁷ cycles |

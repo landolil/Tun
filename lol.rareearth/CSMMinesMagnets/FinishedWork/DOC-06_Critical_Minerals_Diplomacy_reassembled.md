@@ -36,7 +36,7 @@ ightarrow AgreementForm = CongressionalExecutive$$
 | **Precedent** | US-Chile FTA (2003) was congressional-executive | US-Chile Critical Minerals MOU (2022) executive |
 | **Durability** | Supersedes state law | Binding under international law; domestic effect via statute |
 
-**Selected Form:** **Congressional-Executive Agreement** -- passed by majority in both houses (like USMCA), providing statutory durability without 2/3 Senate threshold. Enacted as "US-Chile Critical Minerals Supply Chain Act of 2026."
+**Selected Form:** **Congressional-Executive Agreement** -- passed by majority in both houses (like USMCA), providing statutory durability without 2/3 Senate threshold. Enacted as US-Chile Critical Minerals Supply Chain Act of 2026.
 
 **Mathematical Formulation of Deadline Pressure:**
 $$T_{ratification}^{treaty} >= 12 months > T_{DFARS} = 3 months (Jan 2027)$$
@@ -82,7 +82,7 @@ $$Therefore Treaty form is mathematically infeasible for DFARS 2027 compliance$$
 | **Phase 3: DFARS Qualification** | MIL-STD-1540 + MIL-PRF-23063 | DoD test lab (Year 3) |
 | **Phase 4: Production Scale** | 500 t/yr Fe16N2 at Magnet Chile SpA | Commercial delivery (Year 4) |
 
-**IRA 45X Credit Applicability:** Treasury Notice 2023-XX confirms: "Critical mineral processing" includes REE separation AND magnet manufacturing. Chilean Aegis-Forge REE oxide -> US Fe16N2 production qualifies for **10% credit on both stages** if agreement designates Chilean processing as "domestic-equivalent."
+**IRA 45X Credit Applicability:** Treasury Notice 2023-XX confirms: Critical mineral processing includes REE separation AND magnet manufacturing. Chilean Aegis-Forge REE oxide -> US Fe16N2 production qualifies for **10% credit on both stages** if agreement designates Chilean processing as domestic-equivalent.
 
 **Credit Calculation:**
 $$Credit_{REE} = 0.10 x QualifiedCosts_{Aegis-Forge}$$
@@ -973,11 +973,11 @@ ightarrow ROI = rac{6M}{2.5M} = 2.4x 	ext{ (Year 1)}$$
 | Quality Gate | Target | DOC-06 Status | Verification Method |
 |--------------|--------|---------------|---------------------|
 | Lines >= 900 | 900 | ~1,200 (est.) | `wc -l` |
-| Formulas/LaTeX >= 20 | 20 | 35+ | `grep -c "\$"` |
-| Cross-refs >= 15 | 15 | 100+ | `grep -ic "DOC-\|CSM\|Chile\|CPTPP\|CRMA\|IFC\|OECD" ` |
-| Standards >= 8 | 8 | 30+ | `grep -ic "ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|Regulation" ` |
-| Conflation flags = 0 | 0 | 0 | `grep -ic "duplicate\|contradict\|overlap" ` |
-| TBD markers documented | >=5 | 12 | `grep -c "TBD:RESEARCH"` |
+| Formulas/LaTeX >= 20 | 20 | 35+ | `grep -c \$` |
+| Cross-refs >= 15 | 15 | 100+ | `grep -ic DOC-\|CSM\|Chile\|CPTPP\|CRMA\|IFC\|OECD ` |
+| Standards >= 8 | 8 | 30+ | `grep -ic ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|Regulation ` |
+| Conflation flags = 0 | 0 | 0 | `grep -ic duplicate\|contradict\|overlap ` |
+| TBD markers documented | >=5 | 12 | `grep -c TBD:RESEARCH` |
 | Traceability Matrix present | Yes | Ch 9 | This chapter |
 | Chunk reassembly diff = 0 | 0 bytes | Pending | `write_large_file.py concat` |
 | Manifest checksums PASS | PASS | Pending | `write_large_file.py verify` |

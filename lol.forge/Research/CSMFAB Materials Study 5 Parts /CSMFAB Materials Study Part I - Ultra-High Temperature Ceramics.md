@@ -237,7 +237,7 @@ SiC is used primarily as:
 **Yttria stabilizer source:**
 - Yttrium from rare earth ores (see Part V)
 - Y2O3 added at 3 mol% to stabilize tetragonal phase at room temperature
-- This "metastable tetragonal" phase stress-transforms to monoclinic at crack tip → toughening
+- This metastable tetragonal phase stress-transforms to monoclinic at crack tip → toughening
 
 ### 4.3 Commercial Acquisition
 

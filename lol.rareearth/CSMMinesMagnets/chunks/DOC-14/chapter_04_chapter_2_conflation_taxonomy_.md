@@ -31,10 +31,10 @@ def detect_claim_overlap(claim_a, claim_b):
 
 | Variable | DOC-A Value | DOC-B Value | Severity | Resolution |
 |----------|-------------|-------------|----------|------------|
-| SEN Inertia | DOC-11: "<2 seconds" | DOC-12: "2.1 seconds (PET 2024)" | HIGH | DOC-12 newer measurement accepted |
-| Fe₁₆N₂ MGOe | DOC-09: "27 MGOe" | DOC-10: "27 MGOe (theoretical)" | MEDIUM | Synthesize: "27 MGOe theoretical, 22-25 MGOe demonstrated" |
-| FCAB Capacity | DOC-08: "15M ton/yr" | DOC-01: "12M ton/yr (2023)" | MEDIUM | DOC-08 forward-looking, DOC-01 historical — scope tag |
-| Transition Density | DOC-13: "0.156 (Phase 1)" | DOC-13: "0.538 (Phase 2b)" | LOW | Different phases — not conflation |
+| SEN Inertia | DOC-11: <2 seconds | DOC-12: 2.1 seconds (PET 2024) | HIGH | DOC-12 newer measurement accepted |
+| Fe₁₆N₂ MGOe | DOC-09: 27 MGOe | DOC-10: 27 MGOe (theoretical) | MEDIUM | Synthesize: 27 MGOe theoretical, 22-25 MGOe demonstrated |
+| FCAB Capacity | DOC-08: 15M ton/yr | DOC-01: 12M ton/yr (2023) | MEDIUM | DOC-08 forward-looking, DOC-01 historical — scope tag |
+| Transition Density | DOC-13: 0.156 (Phase 1) | DOC-13: 0.538 (Phase 2b) | LOW | Different phases — not conflation |
 
 ---
 
@@ -60,8 +60,8 @@ def detect_metric_divergence(claim_a, claim_b):
 | Concept | DOC-A Method | DOC-B Method | Apparent Conflict | Resolution |
 |---------|--------------|--------------|-------------------|------------|
 | Transition Density | El Segundo: witness acts/constraint segments | Keymaker: CSV bit flips/triggers | 0.156 vs 0.0 (Phase 1) | Different metrics — both valid, label explicitly |
-| Grid Inertia | DOC-11: Synchronous inertia (seconds) | DOC-12: Synthetic inertia (equivalent seconds) | <2s vs 5-10s | Different physical quantities — label "synchronous" vs "synthetic" |
-| Magnet Grade | DOC-09: MGOe (energy product) | DOC-10: Hci (coercivity) | N48SH vs "High Hci" | Different specs — cross-ref both |
+| Grid Inertia | DOC-11: Synchronous inertia (seconds) | DOC-12: Synthetic inertia (equivalent seconds) | <2s vs 5-10s | Different physical quantities — label synchronous vs synthetic |
+| Magnet Grade | DOC-09: MGOe (energy product) | DOC-10: Hci (coercivity) | N48SH vs High Hci | Different specs — cross-ref both |
 
 ---
 
@@ -88,10 +88,10 @@ def detect_timeline_inconsistency(claim_a, claim_b):
 
 | Event | DOC-A Date | DOC-B Date | Severity | Resolution |
 |-------|------------|------------|----------|------------|
-| CRMA Designation | DOC-05: "2025 H1" | DOC-07: "2025 Q3" | HIGH | DOC-07 regulatory detail overrides — use Q3 |
-| DFARS Deadline | DOC-06: "Jan 1, 2027" | DOC-10: "2027-01-01" | NONE | Same date, different format |
-| Puerto Exterior Ops | DOC-08: "2036" | DOC-06: "2035-2037" | MEDIUM | DOC-08 authoritative (logistics doc) |
-| Aegis-Forge Deployment | DOC-05: "Alpha 2026" | DOC-10: "Alpha 2027" | HIGH | DOC-05 venture doc authoritative |
+| CRMA Designation | DOC-05: 2025 H1 | DOC-07: 2025 Q3 | HIGH | DOC-07 regulatory detail overrides — use Q3 |
+| DFARS Deadline | DOC-06: Jan 1, 2027 | DOC-10: 2027-01-01 | NONE | Same date, different format |
+| Puerto Exterior Ops | DOC-08: 2036 | DOC-06: 2035-2037 | MEDIUM | DOC-08 authoritative (logistics doc) |
+| Aegis-Forge Deployment | DOC-05: Alpha 2026 | DOC-10: Alpha 2027 | HIGH | DOC-05 venture doc authoritative |
 
 ---
 
@@ -144,9 +144,9 @@ def detect_heuristic_conflation(claim_a, claim_b):
 
 | Core Fact | Williams Framing | Keymaker Framing | Apparent Conflict | Resolution |
 |-----------|------------------|------------------|-------------------|------------|
-| Aegis-Forge zero-water | "Lock resolved by Key" | "LK-04 baseline 3.2 → target 0" | Different language | Not conflation — translation variants |
-| Chilean Equity ≥51% | "Turn: Protocol Axiom" | "CSV[c₃] bit = 1" | Different abstraction | Not conflation — same commitment, different lens |
-| GFM for Aegis | "Commitment: GFM-native" | "LK-07: GFL fails GIC test" | Different emphasis | Not conflation — complementary |
+| Aegis-Forge zero-water | Lock resolved by Key | LK-04 baseline 3.2 → target 0 | Different language | Not conflation — translation variants |
+| Chilean Equity ≥51% | Turn: Protocol Axiom | CSV[c₃] bit = 1 | Different abstraction | Not conflation — same commitment, different lens |
+| GFM for Aegis | Commitment: GFM-native | LK-07: GFL fails GIC test | Different emphasis | Not conflation — complementary |
 
 **Critical**: Heuristic conflation is **not true conflation** — it is **variant differentiation** (DOC-13 Ch. 7.5.2). The audit must **distinguish** true conflation from heuristic translation.
 
@@ -175,7 +175,7 @@ def detect_crossref_drift(claim_a, claim_b):
 | DOC-06 | DOC-05 | Capital stack $1.2B → $1.3B | Update cross-ref to $1.3B |
 | DOC-10 | DOC-09 | N48SH spec → N50EH added | Add N50EH to chain |
 | DOC-12 | DOC-11 | GIC 100A → 200A design basis | Update to 200A |
-| DOC-08 | DOC-07 | Water Code pathway → N/A | Update to "Water Code N/A" |
+| DOC-08 | DOC-07 | Water Code pathway → N/A | Update to Water Code N/A |
 
 ---
 
@@ -189,10 +189,10 @@ A **heuristic intro variant** for Document X contains **signature language** fro
 
 ```python
 def detect_variant_contamination(intro_a, intro_b):
-    """
+    
     Check if intro for heuristic H1 contains H2's signature keywords
     as primary vocabulary (not just incidental mention).
-    """
+    
     h1_keywords = SIGNATURE_KEYWORDS[intro_a.heuristic]
     h2_keywords = SIGNATURE_KEYWORDS[intro_b.heuristic]
     
@@ -203,7 +203,7 @@ def detect_variant_contamination(intro_a, intro_b):
     primary_h1 = max(h1_counts.values())
     for k, v in h2_counts.items():
         if v > primary_h1:
-            return True, f"{intro_a.heuristic} contaminated by {k} ({v} > {primary_h1})"
+            return True, f{intro_a.heuristic} contaminated by {k} ({v} > {primary_h1})
     return False, None
 ```
 
@@ -211,9 +211,9 @@ def detect_variant_contamination(intro_a, intro_b):
 
 | Contaminated Variant | Contaminating Keyword | Count vs Primary | Status |
 |----------------------|----------------------|------------------|--------|
-| Williams intro | "binary" (Keymaker) | 3 vs "lock" (2) | Would be CRITICAL |
-| Keymaker intro | "recursive" (El Segundo) | 2 vs "lock" (1) | Would be HIGH |
-| Baker Street intro | "calm" (SHIELD) | 1 vs "evidence" (3) | Would be LOW |
+| Williams intro | binary (Keymaker) | 3 vs lock (2) | Would be CRITICAL |
+| Keymaker intro | recursive (El Segundo) | 2 vs lock (1) | Would be HIGH |
+| Baker Street intro | calm (SHIELD) | 1 vs evidence (3) | Would be LOW |
 
 **DOC-13 Status**: All 65 intros (5×13) passed differentiation gate (Ch. 9.10).
 

@@ -50,12 +50,12 @@
 **Encuesta Percepción Hídrica (Municipalidad 2023, n=2,400)**:
 | Indicator | Overall | La Chimba | Coloso/Norte | Migrants |
 |-----------|---------|-----------|--------------|----------|
-| **"Water is scarce" (Agree)** | 78% | **92%** | 58% | 85% |
-| **"Tariff is fair" (Agree)** | 34% | **12%** | 58% | 18% |
-| **"Trust water quality" (Agree)** | 65% | 42% | 88% | 38% |
-| **"Priority: human consumption" (Agree)** | 94% | 98% | 89% | 96% |
-| **"Mining uses too much water" (Agree)** | 67% | 78% | 52% | 72% |
+| **Water is scarce (Agree)** | 78% | **92%** | 58% | 85% |
+| **Tariff is fair (Agree)** | 34% | **12%** | 58% | 18% |
+| **Trust water quality (Agree)** | 65% | 42% | 88% | 38% |
+| **Priority: human consumption (Agree)** | 94% | 98% | 89% | 96% |
+| **Mining uses too much water (Agree)** | 67% | 78% | 52% | 72% |
 
-**Key Finding**: **Scarcity perception ≠ physical scarcity** — Antofagasta has **secure desal supply** but **distributional injustice** drives perception. **Migrants and campamento residents experience "manufactured scarcity"** via tariff and infrastructure gaps.
+**Key Finding**: **Scarcity perception ≠ physical scarcity** — Antofagasta has **secure desal supply** but **distributional injustice** drives perception. **Migrants and campamento residents experience manufactured scarcity** via tariff and infrastructure gaps.
 
 ---

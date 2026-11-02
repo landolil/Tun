@@ -12,7 +12,7 @@ Stage 3 temperature control is the **most critical control loop** in the cascade
 | **Dwell** | 20-50 | 550→700 | 5.0* | Dwell (PID + cascade) |
 | **Transition** | 50-55 | 700→720 | 4.0 | Ramp to Stage 4 |
 
-*Ramp continues through dwell to maintain decomposition kinetics — "dwell" is at target ramp rate, not isothermal.
+*Ramp continues through dwell to maintain decomposition kinetics — dwell is at target ramp rate, not isothermal.
 
 **Control architecture (cascade):**
 ```

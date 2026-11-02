@@ -74,7 +74,7 @@
 **Cumulative Flow Reduction at Biobío Mouth**: **-92% peak flow, -68% annual volume** — **estuary collapse, saltwater intrusion 35km upstream**.
 
 **Legal Precedent (Environmental Court Rol 23.456-2023)**:
-> "La central Ralco alteró irreversiblemente el régimen hidrológico del Biobío, vulnerando derechos ancestrales Wenteche. La consulta indígena fue defectuosa: no consideró impacto acumulativo ni valor espiritual del río. **Nueva central requiere consentimiento Wenteche por cuenca, no por proyecto individual.**"
+> La central Ralco alteró irreversiblemente el régimen hidrológico del Biobío, vulnerando derechos ancestrales Wenteche. La consulta indígena fue defectuosa: no consideró impacto acumulativo ni valor espiritual del río. **Nueva central requiere consentimiento Wenteche por cuenca, no por proyecto individual.**
 
 #### Water Rights Conflict
 - **Wenteche Ancestral Rights**: **Pre-1981, non-consumptive, spiritual + subsistence**

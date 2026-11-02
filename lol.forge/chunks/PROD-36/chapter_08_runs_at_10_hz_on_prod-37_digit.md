@@ -1,8 +1,8 @@
 # Runs at 10 Hz on PROD-37 Digital Twin (512-core HPC)
 def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
-    """
+    
     fbg_state_vector: 384 wavelengths @ 125 Hz → 10 Hz aggregated
-    """
+    
     # 1. Thermal model residual (from PROD-24)
     residual = fbg_state_vector - thermal_admittance_model.predict(fbg_state_vector)
     
@@ -19,7 +19,7 @@ def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
         return TamperAlert(
             channels=identify_anomalous_channels(fbg_state_vector),
             score=tamper_score,
-            recommended_action="SL review, potential SIF bypass, physical inspection"
+            recommended_action=SL review, potential SIF bypass, physical inspection
         )
     return None
 ```

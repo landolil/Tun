@@ -14,13 +14,13 @@ These 5 conflations were **detected and resolved** during DOC-01..13 authoring. 
 | **Type** | Claim Overlap (CO) |
 | **Severity** | CRITICAL |
 | **Variable** | Water Code applicability to Aegis-Forge processing |
-| **Claim A (DOC-01)** | "Water Code permits required for mineral processing" (general statement) |
-| **Claim B (DOC-07)** | "Aegis-Forge zero-aqueous → Water Code N/A" (specific exemption) |
+| **Claim A (DOC-01)** | Water Code permits required for mineral processing (general statement) |
+| **Claim B (DOC-07)** | Aegis-Forge zero-aqueous → Water Code N/A (specific exemption) |
 | **Evidence Chain A** | Exhibit C: Water Code Art. 10, DGA regulations |
 | **Evidence Chain B** | Exhibit C: Law 19.300 Art. 10(h) zero-discharge exemption + SEA precedent |
 | **Verification Bits** | A=1 (general truth), B=1 (specific exemption verified) |
 | **Williams Arbitration** | Lock A: Regulatory (L3). Lock B: Physical (L2 — Aegis-Forge physics). **L2 > L3 → B wins** |
-| **Resolution** | Water Code N/A for Aegis-Forge. DOC-01 scope tagged "general mineral processing." |
+| **Resolution** | Water Code N/A for Aegis-Forge. DOC-01 scope tagged general mineral processing. |
 | **Horizon Check** | All 5 horizons: Water sovereignty secured. Layer 3 (CAT bond) not triggered. |
 | **Status** | **RESOLVED** — DOC-07 Ch.4 authoritative |
 
@@ -33,15 +33,15 @@ These 5 conflations were **detected and resolved** during DOC-01..13 authoring. 
 | **Conflict ID** | CO-DOC02-DOC03-CONSENT_DEFINITION |
 | **Type** | Claim Overlap (CO) + Heuristic Conflation (HC) |
 | **Severity** | HIGH |
-| **Variable** | Definition of "Indigenous consent" for project approval |
-| **Claim A (DOC-02)** | "Consulta Indígena = consultation process per Law 19.253" |
-| **Claim B (DOC-03)** | "Consent = binding agreement with equity (FBC 15% + CDC 15% FCF)" |
+| **Variable** | Definition of Indigenous consent for project approval |
+| **Claim A (DOC-02)** | Consulta Indígena = consultation process per Law 19.253 |
+| **Claim B (DOC-03)** | Consent = binding agreement with equity (FBC 15% + CDC 15% FCF) |
 | **Evidence Chain A** | Exhibit B: CONADI registry shows consulta completed |
 | **Evidence Chain B** | Exhibit B: FBC/CDC charters notarized + blockchain anchored |
 | **Verification Bits** | A=1 (consulta occurred), B=1 (equity agreement executed) |
-| **Baker Street Deduction** | Pass 1: "Consultation only" eliminated (Law 19.253 Art. 34 requires agreement). Pass 2: "CSR spending" eliminated. **Remains: Equity participation** |
+| **Baker Street Deduction** | Pass 1: Consultation only eliminated (Law 19.253 Art. 34 requires agreement). Pass 2: CSR spending eliminated. **Remains: Equity participation** |
 | **Williams Arbitration** | Lock A: Regulatory (L3). Lock B: Constitutional (L1 — Indigenous rights Art. 19§25). **L1 > L3 → B wins** |
-| **Resolution** | Consent = Equity participation (FBC/CDC). "Consultation" is necessary but not sufficient. |
+| **Resolution** | Consent = Equity participation (FBC/CDC). Consultation is necessary but not sufficient. |
 | **Horizon Check** | Generational: Intergenerational equity secured. Layer 6 (equity buffer) activated. |
 | **Status** | **RESOLVED** — DOC-03 Ch. 3 authoritative |
 
@@ -55,8 +55,8 @@ These 5 conflations were **detected and resolved** during DOC-01..13 authoring. 
 | **Type** | Claim Overlap (CO) |
 | **Severity** | CRITICAL |
 | **Variable** | Inverter architecture requirement for Aegis-Forge critical loads |
-| **Claim A (DOC-10)** | "GFL inverters sufficient for motor drives" (general supply chain statement) |
-| **Claim B (DOC-11)** | "GFL fails GIC test. GFM-native mandatory for critical path" (physics-based) |
+| **Claim A (DOC-10)** | GFL inverters sufficient for motor drives (general supply chain statement) |
+| **Claim B (DOC-11)** | GFL fails GIC test. GFM-native mandatory for critical path (physics-based) |
 | **Evidence Chain A** | Exhibit D: General industry practice for motor drives |
 | **Evidence Chain B** | Exhibit A: NASA/NOAA GIC models + Kappenman FERC Meta-R-322 + Hydro-Québec 1989 |
 | **Verification Bits** | A=0 (fails Pass 3: Technical — GFL amplifies GIC). B=1 (verified by physics + history) |
@@ -76,12 +76,12 @@ These 5 conflations were **detected and resolved** during DOC-01..13 authoring. 
 | **Type** | Metric Divergence (MD) |
 | **Severity** | HIGH |
 | **Variable** | Source of NdFeB/SmCo/Fe₁₆N₂ grade specifications |
-| **Claim A (DOC-09)** | "Grades derived from motor physics requirements (CSM motor design)" |
-| **Claim B (DOC-10)** | "Grades sourced from commercial availability (supplier catalogs)" |
+| **Claim A (DOC-09)** | Grades derived from motor physics requirements (CSM motor design) |
+| **Claim B (DOC-10)** | Grades sourced from commercial availability (supplier catalogs) |
 | **Evidence Chain A** | Exhibit D: CSM motor FEA → N48SH min, SmCo 2:17, Fe₁₆N₂ 27 MGOe |
 | **Evidence Chain B** | Exhibit D: Supplier catalogs showing N35-N52, SmCo 1:5/2:17 |
 | **Verification Bits** | A=1 (motor physics verified). B=1 (commercial availability verified). |
-| **Baker Street Deduction** | Pass 3: "Commercial availability" eliminated as primary driver (DFARS + physics). **Remains: Motor physics forces specs** |
+| **Baker Street Deduction** | Pass 3: Commercial availability eliminated as primary driver (DFARS + physics). **Remains: Motor physics forces specs** |
 | **Williams Arbitration** | Lock A: Physical (L2 — motor physics). Lock B: Economic (L5 — commercial availability). **L2 > L5 → A wins** |
 | **Resolution** | Grade specs from CSM motor design. Commercial availability = secondary filter. |
 | **Horizon Check** | Strategic: REE-free transition (Fe₁₆N₂) driven by physics, not market. |
@@ -97,14 +97,14 @@ These 5 conflations were **detected and resolved** during DOC-01..13 authoring. 
 | **Type** | Claim Overlap (CO) |
 | **Severity** | HIGH |
 | **Variable** | Capital stack structure for Tardigradia Chile SpA |
-| **Claim A (DOC-04)** | "Single-source project finance sufficient for $1.3B" (early brokerage assumption) |
-| **Claim B (DOC-05)** | "Triangulation mandatory: CRMA+CPTPP+IRA → $1.3B across 3 independent layers" |
+| **Claim A (DOC-04)** | Single-source project finance sufficient for $1.3B (early brokerage assumption) |
+| **Claim B (DOC-05)** | Triangulation mandatory: CRMA+CPTPP+IRA → $1.3B across 3 independent layers |
 | **Evidence Chain A** | Exhibit D: Early SPA financial model |
 | **Evidence Chain B** | Exhibit C: CRMA designation + CPTPP Art. 9 + IRA §45X cert + EIB term sheet |
 | **Verification Bits** | A=0 (fails Pass 2: Economic — no single source >$500M Chile risk). B=1 (all 3 layers verified). |
 | **SHIELD Resilience** | Single-source = Layer 1 only (concentration risk). Triangulation = Layers 1-7. |
 | **Williams Arbitration** | Lock A: Economic preference. Lock B: Economic physics (capital market reality). **Physics > Preference → B wins** |
-| **Resolution** | Triangulated capital stack mandatory. Single-source assumption archived as "superseded." |
+| **Resolution** | Triangulated capital stack mandatory. Single-source assumption archived as superseded. |
 | **Horizon Check** | Generational: Financial sovereignty via diversified capital. Layer 7 (sovereign) as backstop. |
 | **Status** | **RESOLVED** — DOC-05 Ch.2 authoritative |
 
@@ -133,7 +133,7 @@ Based on taxonomy, heuristic framework, and pipeline evolution, these conflation
 
 | Prediction | Detail |
 |------------|--------|
-| **Conflict** | DOC-26 (Atacameño) uses "water access restored" metric; DOC-27 (Diaguita) uses "employment created" |
+| **Conflict** | DOC-26 (Atacameño) uses water access restored metric; DOC-27 (Diaguita) uses employment created |
 | **Type** | Metric Divergence (MD) |
 | **Severity** | MEDIUM |
 | **Detection** | Different KPI methodologies in community benefit agreements |
@@ -146,7 +146,7 @@ Based on taxonomy, heuristic framework, and pipeline evolution, these conflation
 
 | Prediction | Detail |
 |------------|--------|
-| **Conflict** | DOC-36 (Aegis-Forge deployment) says "Alpha 2026"; DOC-38 (Fe₁₆N₂ scaling) says "Fe₁₆N₂ pilot 2028" |
+| **Conflict** | DOC-36 (Aegis-Forge deployment) says Alpha 2026; DOC-38 (Fe₁₆N₂ scaling) says Fe₁₆N₂ pilot 2028 |
 | **Type** | Timeline Inconsistency (TI) |
 | **Severity** | HIGH |
 | **Detection** | Dependency: Fe₁₆N₂ pilot requires Aegis-Forge output |
@@ -172,7 +172,7 @@ Based on taxonomy, heuristic framework, and pipeline evolution, these conflation
 
 | Prediction | Detail |
 |------------|--------|
-| **Conflict** | DOC-50 (Synthesis) frames broker-to-owner as "strategic choice" (Economic lens); DOC-13 frames as "constitutional necessity" (Williams lens) |
+| **Conflict** | DOC-50 (Synthesis) frames broker-to-owner as strategic choice (Economic lens); DOC-13 frames as constitutional necessity (Williams lens) |
 | **Type** | Heuristic Conflation (HC) — **not true conflation** |
 | **Severity** | LOW (prevention category) |
 | **Detection** | Variant differentiation gate (DOC-13 Ch. 7.5.2) |

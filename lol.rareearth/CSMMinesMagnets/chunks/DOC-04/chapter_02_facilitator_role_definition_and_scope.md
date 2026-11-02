@@ -3,7 +3,7 @@
 
 This chapter precisely delineates what CSM does as facilitator versus what Tardigradia does as owner/operator, eliminating ambiguity in the transition boundary.
 
-### 2.1 CSM Facilitator Responsibilities — "Origination to Transition"
+### 2.1 CSM Facilitator Responsibilities — Origination to Transition
 
 #### 2.1.1 Asset Origination & Concession Staking
 
@@ -51,7 +51,7 @@ This chapter precisely delineates what CSM does as facilitator versus what Tardi
 
 **CSM Deliverable:** Exclusive Chile license for Aegis-Forge executed; Phase Alpha demo complete
 
-### 2.2 Tardigradia Owner/Operator Responsibilities — "Capital to Operations"
+### 2.2 Tardigradia Owner/Operator Responsibilities — Capital to Operations
 
 #### 2.2.1 Capital Deployment
 

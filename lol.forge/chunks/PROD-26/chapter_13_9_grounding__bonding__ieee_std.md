@@ -2,7 +2,7 @@
 
 ### 9.1 Grounding Philosophy
 
-**Single-Point Ground at Substation Only.** No ground reference anywhere in the process zone. All "grounding" inside the forge is **equipotential bonding via 1 MΩ bleed resistors** for static dissipation only.
+**Single-Point Ground at Substation Only.** No ground reference anywhere in the process zone. All grounding inside the forge is **equipotential bonding via 1 MΩ bleed resistors** for static dissipation only.
 
 ```
 GROUNDING TOPOLOGY:

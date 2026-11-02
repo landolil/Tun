@@ -247,10 +247,10 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 ```bash
 # After each document complete
 git add chunks/DOC-07/ FinishedWork/DOC-07_*.md.gz
-git commit -m "runner004: DOC-07 complete - chunked, verified, compressed"
+git commit -m runner004: DOC-07 complete - chunked, verified, compressed
 
 git add chunks/DOC-08/ FinishedWork/DOC-08_*.md.gz
-git commit -m "runner004: DOC-08 complete - chunked, verified, compressed"
+git commit -m runner004: DOC-08 complete - chunked, verified, compressed
 
 # Runner wrap-up
 git tag runner-004-complete

@@ -38,10 +38,10 @@ ECO_gate(eco_class):
 **The atomic computation is the CUUID hash chain:**
 ```
 CUUID = SHA-256(
-  Git_tag_designed   ||  // e.g., "prod-v3.2.1"
-  Git_tag_built      ||  // e.g., "build-v3.2.0"
-  Git_tag_maintained ||  // e.g., "maintain-v3.2.1"
-  Git_tag_operated   ||  // e.g., "operate-v3.2.2"
+  Git_tag_designed   ||  // e.g., prod-v3.2.1
+  Git_tag_built      ||  // e.g., build-v3.2.0
+  Git_tag_maintained ||  // e.g., maintain-v3.2.1
+  Git_tag_operated   ||  // e.g., operate-v3.2.2
   CI_spec_hash          // SHA-256 of PROD spec section for this CI
 )
 ```

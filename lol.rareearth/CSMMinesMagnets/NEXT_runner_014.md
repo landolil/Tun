@@ -196,7 +196,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 python3 scripts/conflation_audit.py --doc DOC-XX --baseline FinishedWork/
 
 # Git commit
-git add -A && git commit -m "lol.rareearth: DOC-XX Title — NNN lines + intros"
+git add -A && git commit -m lol.rareearth: DOC-XX Title — NNN lines + intros
 git push
 git tag runner-014-complete && git push origin runner-014-complete
 ```

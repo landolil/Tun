@@ -13,7 +13,7 @@
 **The fabricator sees the HFE program as a distributed sensor network.** Every human-system interaction is a measurement. Every measurement updates HSCT. Every HSCT update adjusts HMI colors, alarm thresholds, PPE specs, clearance requirements, shift schedules.
 
 ### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The HFE engineer does not "design" — they **witness the human becoming the Forge's nervous system**:
+**How does the inside operator witness the phenomenon into existence?** The HFE engineer does not design — they **witness the human becoming the Forge's nervous system**:
 
 1. **Apprentice at Cold Startup (O-01 Simulator)** witnesses the 90-minute sequence through 6 monitors: they *feel* the trackball resistance as they navigate Level 1→2→3, *see* the predictive highlight on Port 4A setpoint, *know* this HMI is their sensory extension into the 2200°C drum.
 2. **Journeyman at SG-2 Flange Torque** witnesses the dual-wrench ceremony: they *feel* the 160 N·m breakaway torque through the BFRP wrench, *hear* the AE silence, *know* their tactile judgment certifies what no sensor can measure.

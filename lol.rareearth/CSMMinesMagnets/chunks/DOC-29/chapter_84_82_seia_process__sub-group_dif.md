@@ -13,7 +13,7 @@
 ### 8.2.2 Consulta Indígena Integration — Sub-Group Specific
 
 **SEA Resolution 2024 — Consulta Diferenciada Mapuche-Sur**:
-> "Para proyectos que afecten territorio Mapuche en la macro-región Sur, la Consulta Indígena se realizará **por sub-grupo territorial** (Lafkenche, Wenteche, Pewenche, Nagche) según sus protocolos propios (Capítulo 3 DOC-29). La SEA coordinará pero **no unificará** los procesos. El veto de cualquier sub-grupo impide la calificación ambiental favorable."
+> Para proyectos que afecten territorio Mapuche en la macro-región Sur, la Consulta Indígena se realizará **por sub-grupo territorial** (Lafkenche, Wenteche, Pewenche, Nagche) según sus protocolos propios (Capítulo 3 DOC-29). La SEA coordinará pero **no unificará** los procesos. El veto de cualquier sub-grupo impide la calificación ambiental favorable.
 
 **Consulta Timeline by Sub-Group** (Parallel Execution):
 | Sub-Group | Protocol | Minimum Timeline | Key Milestone |

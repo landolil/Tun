@@ -115,11 +115,11 @@ This chapter provides the comprehensive traceability matrix linking every clause
 | Quality Gate | Target | DOC-04 Status | Verification Method |
 |--------------|--------|---------------|---------------------|
 | Lines ≥ 900 | 900 | ~1,200 (est.) | `wc -l` |
-| Formulas/LaTeX ≥ 20 | 20 | 25+ | `grep -c "\\$"` |
-| Cross-refs ≥ 15 | 15 | 50+ | `grep -ic "DOC-\|CSM\|Chile\|Sernageomin"` |
-| Standards ≥ 8 | 8 | 20+ | `grep -ic "ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|Law\|Decreto"` |
-| Conflation flags = 0 | 0 | 0 | `grep -ic "duplicate\|contradict\|overlap"` |
-| TBD markers documented | ≥5 | 10 | `grep -c "TBD:RESEARCH"` |
+| Formulas/LaTeX ≥ 20 | 20 | 25+ | `grep -c \\$` |
+| Cross-refs ≥ 15 | 15 | 50+ | `grep -ic DOC-\|CSM\|Chile\|Sernageomin` |
+| Standards ≥ 8 | 8 | 20+ | `grep -ic ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|Law\|Decreto` |
+| Conflation flags = 0 | 0 | 0 | `grep -ic duplicate\|contradict\|overlap` |
+| TBD markers documented | ≥5 | 10 | `grep -c TBD:RESEARCH` |
 | Traceability Matrix present | Yes | Ch 9 | This chapter |
 | Chunk reassembly diff = 0 | 0 bytes | Pending | `write_large_file.py concat` |
 | Manifest checksums PASS | PASS | Pending | `write_large_file.py verify` |

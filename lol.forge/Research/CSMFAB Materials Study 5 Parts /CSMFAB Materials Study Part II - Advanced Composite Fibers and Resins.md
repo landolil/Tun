@@ -182,7 +182,7 @@ Equipment: mixing vessel + cold storage; minimal. Cost: **$4–$6/kg** (vs. $8.5
 
 **Bio-based UHMWPE (emerging, 2025):**
 - Sugarcane bioethanol → ethylene → UHMWPE
-- Braskem (Brazil) "Green PE" — from 100% sugarcane; carbon-negative
+- Braskem (Brazil) Green PE — from 100% sugarcane; carbon-negative
 - Price premium: +$1.50–$3.00/kg over petroleum UHMWPE
 
 ### 11.3 Commercial Pricing

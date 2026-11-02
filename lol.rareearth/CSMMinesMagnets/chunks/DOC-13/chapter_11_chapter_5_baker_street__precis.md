@@ -58,7 +58,7 @@ WHERE titular = 'Tardigradia Chile SpA'
 - CDC (Corporación Desarrollo Comunitario) holds 15% FCF equity
 - Both charters notarized, registered, blockchain-anchored
 
-**Baker Street Standard**: Consent is not "consultation completed" — it is **binding agreement with equity participation**.
+**Baker Street Standard**: Consent is not consultation completed — it is **binding agreement with equity participation**.
 
 #### 5.2.3 Exhibit C: Permit — The RCA Chain
 
@@ -69,7 +69,7 @@ WHERE titular = 'Tardigradia Chile SpA'
 - Aegis-Forge zero-aqueous → Water Code N/A (DOC-07 Ch.4)
 - All observations (observaciones) resolved pre-submission
 
-**Baker Street Standard**: RCA is not "approved" — it is **unobserved**. Every observación resolved and documented.
+**Baker Street Standard**: RCA is not approved — it is **unobserved**. Every observación resolved and documented.
 
 #### 5.2.4 Exhibit D: Demand — The Offtake Chain
 
@@ -83,7 +83,7 @@ WHERE titular = 'Tardigradia Chile SpA'
 - Price formula: LME + REE index + processing premium (DOC-31)
 - DFARS cert: Country of origin = Chile (qualifying), Melt = Chile/US, Traceable = blockchain
 
-**Baker Street Standard**: Demand is not "LOI" — it is **executed SPA with DFARS-certified delivery schedule**.
+**Baker Street Standard**: Demand is not LOI — it is **executed SPA with DFARS-certified delivery schedule**.
 
 #### 5.2.5 Exhibit E: Enforcement — The Dispute Chain
 
@@ -99,7 +99,7 @@ WHERE titular = 'Tardigradia Chile SpA'
 - Seat: Santiago / New York
 - Enforceability: New York Convention (1958) — 172 countries
 
-**Baker Street Standard**: Enforcement is not "contract says" — it is **tested jurisdictional path with precedent**.
+**Baker Street Standard**: Enforcement is not contract says — it is **tested jurisdictional path with precedent**.
 
 ---
 
@@ -142,12 +142,12 @@ The Baker Street deduction follows **three elimination passes**:
 
 | Linguistic Invariant | Pattern | Example |
 |----------------------|---------|---------|
-| **Case Frame** | "The Case: [sovereignty-strategy divide as forensic problem]" | "The Case: Who owns the magnetic flow?" |
-| **Exhibit Citation** | "Exhibit [A-E]: [source] — [verification]" | "Exhibit A: Sernageomin Rol 2024-XXX — Title search clear" |
-| **Deduction Chain** | "Eliminate [impossible]. Eliminate [impossible]. Remains: [truth]." | "Eliminate private ownership. Eliminate aqueous. Remains: State concession + Aegis-Forge." |
-| **Zero Ambiguity** | "Not [weak term]. [Strong term]." | "Not 'consultation.' Binding agreement with equity." |
+| **Case Frame** | The Case: [sovereignty-strategy divide as forensic problem] | The Case: Who owns the magnetic flow? |
+| **Exhibit Citation** | Exhibit [A-E]: [source] — [verification] | Exhibit A: Sernageomin Rol 2024-XXX — Title search clear |
+| **Deduction Chain** | Eliminate [impossible]. Eliminate [impossible]. Remains: [truth]. | Eliminate private ownership. Eliminate aqueous. Remains: State concession + Aegis-Forge. |
+| **Zero Ambiguity** | Not [weak term]. [Strong term]. | Not 'consultation.' Binding agreement with equity. |
 
-**Forbidden**: "Allegedly," "reportedly," "sources indicate," "believed to," "suggests," "may indicate"
+**Forbidden**: Allegedly, reportedly, sources indicate, believed to, suggests, may indicate
 **Required**: Primary source. Verification method. Binary conclusion.
 
 ---
@@ -169,23 +169,23 @@ The Baker Street deduction follows **three elimination passes**:
 
 | Claim | Exhibit | Source | Verification | Deduction |
 |-------|---------|--------|--------------|-----------|
-| "Mining Code concessions are irrevocable if maintained" | A | Código de Minería Art. 19, 22, 25 | Supreme Court Rol 2023-12345 | Eliminate revocation risk. Remains: Maintenance obligation only. |
-| "Aegis-Forge zero-water = Water Code N/A" | C | Law 19.300 Art. 10(h) + DGA Res. 2024 | SEA precedent: zero-discharge = no water permit | Eliminate water permit track. Remains: Environmental only. |
-| "Consulta Indígena binding with equity" | B | Law 19.253 Art. 34 + FBC/CDC charter | Notarized + CONADI registered | Eliminate "consultation only." Remains: Equity participation required. |
+| Mining Code concessions are irrevocable if maintained | A | Código de Minería Art. 19, 22, 25 | Supreme Court Rol 2023-12345 | Eliminate revocation risk. Remains: Maintenance obligation only. |
+| Aegis-Forge zero-water = Water Code N/A | C | Law 19.300 Art. 10(h) + DGA Res. 2024 | SEA precedent: zero-discharge = no water permit | Eliminate water permit track. Remains: Environmental only. |
+| Consulta Indígena binding with equity | B | Law 19.253 Art. 34 + FBC/CDC charter | Notarized + CONADI registered | Eliminate consultation only. Remains: Equity participation required. |
 
 #### 5.5.3 DOC-11 Sample Evidence Chain
 
 | Claim | Exhibit | Source | Verification | Deduction |
 |-------|---------|--------|--------------|-----------|
-| "Carrington GIC >100A/phase on SEN 500kV" | A | NASA/NOAA GIC model + Kappenman FERC Meta-R-322 | Boteler 2019 validation | Eliminate <100A scenarios. Remains: Design basis = 200A/phase. |
-| "GFM provides GIC immunity via DC decoupling" | D | DOC-12 Ch.7 test results | CEN simulation + Hydro-Québec precedent | Eliminate GFL. Remains: GFM-native mandatory. |
+| Carrington GIC >100A/phase on SEN 500kV | A | NASA/NOAA GIC model + Kappenman FERC Meta-R-322 | Boteler 2019 validation | Eliminate <100A scenarios. Remains: Design basis = 200A/phase. |
+| GFM provides GIC immunity via DC decoupling | D | DOC-12 Ch.7 test results | CEN simulation + Hydro-Québec precedent | Eliminate GFL. Remains: GFM-native mandatory. |
 
 #### 5.5.4 DOC-12 Sample Evidence Chain
 
 | Claim | Exhibit | Source | Verification | Deduction |
 |-------|---------|--------|--------------|-----------|
-| "VSM + Matching provides 5-10s synthetic inertia" | D | IEEE 2800-2022 §6.3 + DOC-12 Ch.2 | CEN PET 2024 integration study | Eliminate droop-only. Remains: VSM+Matching required. |
-| "3L-NPC SiC GFM at ±1.5kV DC bus" | C | Aegis-Forge spec (DOC-05 E172) + DOC-12 Ch.4 | Manufacturer datasheet + thermal model | Eliminate 2L-VSI. Remains: 3L-NPC for voltage/thermal. |
+| VSM + Matching provides 5-10s synthetic inertia | D | IEEE 2800-2022 §6.3 + DOC-12 Ch.2 | CEN PET 2024 integration study | Eliminate droop-only. Remains: VSM+Matching required. |
+| 3L-NPC SiC GFM at ±1.5kV DC bus | C | Aegis-Forge spec (DOC-05 E172) + DOC-12 Ch.4 | Manufacturer datasheet + thermal model | Eliminate 2L-VSI. Remains: 3L-NPC for voltage/thermal. |
 
 ---
 
@@ -212,13 +212,13 @@ The Baker Street deduction follows **three elimination passes**:
 
 ```python
 def baker_street_deduction_validation(canonical_doc):
-    """
+    
     For every claim in canonical_doc:
     1. Identify Exhibit (A-E)
     2. Verify primary source exists and accessible
     3. Run elimination passes (Legal, Economic, Technical)
     4. Confirm remaining truth is binary and documented
-    """
+    
     claims = extract_claims(canonical_doc)
     results = []
     
@@ -277,12 +277,12 @@ def baker_street_deduction_validation(canonical_doc):
 
 ```python
 def zero_ambiguity_test(text):
-    """
+    
     Scan for forbidden linguistic patterns:
     - Hedge words: allegedly, reportedly, believed, suggested, may, might, could
     - Uncertainty: likely, probable, possible, potential, expected
-    - Attribution without source: "industry sources," "experts say," "analysts believe"
-    """
+    - Attribution without source: industry sources, experts say, analysts believe
+    
     forbidden = [
         r'\ballegedly\b', r'\breportedly\b', r'\bbelieved\b', r'\bsuggested\b',
         r'\blikely\b', r'\bprobable\b', r'\bpossible\b', r'\bpotential\b',
@@ -302,7 +302,7 @@ def zero_ambiguity_test(text):
     }
 ```
 
-**Pass Threshold**: 0 violations in canonical document. Heuristic intros may use "The Lock is" declarative form.
+**Pass Threshold**: 0 violations in canonical document. Heuristic intros may use The Lock is declarative form.
 
 ---
 
@@ -326,13 +326,13 @@ def baker_street_evidence_chain(canonical_doc):
     claims = extract_claims(canonical_doc)
     for claim in claims:
         # Must have exhibit classification
-        assert has_exhibit(claim), f"Claim missing exhibit: {claim}"
+        assert has_exhibit(claim), fClaim missing exhibit: {claim}
         # Must have primary source
-        assert has_primary_source(claim), f"Claim missing primary source: {claim}"
+        assert has_primary_source(claim), fClaim missing primary source: {claim}
         # Must have verification method
-        assert has_verification_method(claim), f"Claim missing verification: {claim}"
+        assert has_verification_method(claim), fClaim missing verification: {claim}
         # Must pass zero-ambiguity
-        assert zero_ambiguity_test(claim.text)['pass'], f"Ambiguity in: {claim}"
+        assert zero_ambiguity_test(claim.text)['pass'], fAmbiguity in: {claim}
     return {'pass': True, 'claims_verified': len(claims)}
 ```
 
@@ -358,7 +358,7 @@ The Baker Street heuristic operates on **forensic rigor**:
 2. **The Evidence**: Five universal exhibits (Concession, Consent, Permit, Demand, Enforcement) — all primary sources, all verified.
 3. **The Deduction**: Three elimination passes (Legal, Economic, Technical) — whatever remains is the truth.
 
-The Baker Street voice — *"Exhibit A: [source]. Eliminate [impossible]. Remains: [truth]."* — is the **certainty certificate** that every claim survives cross-examination.
+The Baker Street voice — *Exhibit A: [source]. Eliminate [impossible]. Remains: [truth].* — is the **certainty certificate** that every claim survives cross-examination.
 
 **Next**: Chapter 6 — SHIELD Heuristic: Calm, Resilience, Continuity.
 

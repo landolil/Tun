@@ -61,10 +61,10 @@ ECO_gate(eco_class):
 **The atomic computation is the CUUID hash chain:**
 ```
 CUUID = SHA-256(
-  Git_tag_designed   ||  // e.g., "prod-v3.2.1"
-  Git_tag_built      ||  // e.g., "build-v3.2.0"
-  Git_tag_maintained ||  // e.g., "maintain-v3.2.1"
-  Git_tag_operated   ||  // e.g., "operate-v3.2.2"
+  Git_tag_designed   ||  // e.g., prod-v3.2.1
+  Git_tag_built      ||  // e.g., build-v3.2.0
+  Git_tag_maintained ||  // e.g., maintain-v3.2.1
+  Git_tag_operated   ||  // e.g., operate-v3.2.2
   CI_spec_hash          // SHA-256 of PROD spec section for this CI
 )
 ```
@@ -104,7 +104,7 @@ This 256-bit value is the **configuration DNA** — immutable, traceable, verifi
 **The fabricator sees the CM system as a distributed verification network.** Every commit, ECO, batch, SCN, rehearsal is a measurement. Every measurement updates BCO. Every BCO update adjusts gates, signatures, requal periods, rehearsal frequency.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not "administer a tool" — they **witness the configuration becoming the Forge's genetic code**:
+**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not administer a tool — they **witness the configuration becoming the Forge's genetic code**:
 
 1. **CM at ECO Gate (CCB Meeting)** witnesses the BCO evaluation: As-Designed tag, As-Built FA data, As-Maintained PM record, As-Operated twin state — four baselines converging on one CUUID. They *witness* the configuration becoming truth — no database, only physics-enforced cryptographic linkage.
 2. **Safety Engineer at Firmware Signing** witnesses the HSM ceremony: Builder key + CM key + Safety key — three signatures on one SFP. They *witness* the SIL-3 envelope becoming code — no algorithm accepts the risk, only human judgment at the boundary of consequence.
@@ -354,11 +354,11 @@ required_pull_request_reviews:
 required_status_checks:
   strict: true
   contexts:
-    - "ci/lint"
-    - "ci/typecheck"
-    - "ci/test"
-    - "ci/signature-verify"
-    - "ci/split-chunks-verify"
+    - ci/lint
+    - ci/typecheck
+    - ci/test
+    - ci/signature-verify
+    - ci/split-chunks-verify
 enforce_admins: true
 required_linear_history: true
 allow_force_pushes: false
@@ -471,40 +471,40 @@ Every configuration item carries a **Configuration UUID (CUUID)** linking all fo
 
 ```json
 {
-  "cuuid": "CI-02-01-DRUM-2026-00042",
-  "ci_type": "CI-02-01",
-  "description": "Drum Assembly, Forge-003, Liner B ZrB₂-SiC",
-  "baselines": {
-    "as_designed": {
-      "tag": "design-v3.2.1",
-      "spec": "PROD-04 rev 3.2.1",
-      "drawing": "DRW-DRUM-042 rev C"
+  cuuid: CI-02-01-DRUM-2026-00042,
+  ci_type: CI-02-01,
+  description: Drum Assembly, Forge-003, Liner B ZrB₂-SiC,
+  baselines: {
+    as_designed: {
+      tag: design-v3.2.1,
+      spec: PROD-04 rev 3.2.1,
+      drawing: DRW-DRUM-042 rev C
     },
-    "as_built": {
-      "tag": "build-v3.2.0",
-      "serial": "DRM-2026-00042",
-      "fat_data": "CT-01 through CT-10 passed 2026-10-15",
-      "material_certs": ["BATCH-ZRB2-2026-087", "BATCH-SIC-2026-112"]
+    as_built: {
+      tag: build-v3.2.0,
+      serial: DRM-2026-00042,
+      fat_data: CT-01 through CT-10 passed 2026-10-15,
+      material_certs: [BATCH-ZRB2-2026-087, BATCH-SIC-2026-112]
     },
-    "as_maintained": {
-      "tag": "maintain-v3.2.1",
-      "last_pm": "CT-08 2026-11-01 (2000 hr reline)",
-      "modifications": ["ECO-1042: Liner B thickness +2mm"],
-      "spare_status": "Spare DRM-2026-00043 staged"
+    as_maintained: {
+      tag: maintain-v3.2.1,
+      last_pm: CT-08 2026-11-01 (2000 hr reline),
+      modifications: [ECO-1042: Liner B thickness +2mm],
+      spare_status: Spare DRM-2026-00043 staged
     },
-    "as_operated": {
-      "tag": "operate-v3.2.2",
-      "current_recipe": "CAT-B-2026-11 v2.1",
-      "twin_state": "merkle_root a3f2... block 142857",
-      "operator_certs": ["OP-2026-042", "OP-2026-088"]
+    as_operated: {
+      tag: operate-v3.2.2,
+      current_recipe: CAT-B-2026-11 v2.1,
+      twin_state: merkle_root a3f2... block 142857,
+      operator_certs: [OP-2026-042, OP-2026-088]
     }
   },
-  "lifecycle": {
-    "created": "2026-06-15",
-    "manufactured": "2026-10-01",
-    "deployed": "2026-10-20",
-    "next_pm": "2027-04-01",
-    "phoenix_return_est": "2031-10-20"
+  lifecycle: {
+    created: 2026-06-15,
+    manufactured: 2026-10-01,
+    deployed: 2026-10-20,
+    next_pm: 2027-04-01,
+    phoenix_return_est: 2031-10-20
   }
 }
 ```
@@ -552,40 +552,40 @@ Every firmware release produces a **Signed Firmware Package (SFP)**:
 
 ```json
 {
-  "package": "sfp-rtu-v3.0.1.tar.gz.sig",
-  "component": "CI-03-02",
-  "version": "rtu-v3.0.1",
-  "git_commit": "a1b2c3d4e5f6...",
-  "git_tag": "rtu-v3.0.1",
-  "builder": "CI-CD Pipeline (SLSA Level 3)",
-  "build_timestamp": "2026-11-03T10:45:00Z",
-  "sbom": "sbom-rtu-v3.0.1.cyclonedx.json",
-  "in_toto": "in-toto-link-rtu-v3.0.1.json",
-  "signatures": [
+  package: sfp-rtu-v3.0.1.tar.gz.sig,
+  component: CI-03-02,
+  version: rtu-v3.0.1,
+  git_commit: a1b2c3d4e5f6...,
+  git_tag: rtu-v3.0.1,
+  builder: CI-CD Pipeline (SLSA Level 3),
+  build_timestamp: 2026-11-03T10:45:00Z,
+  sbom: sbom-rtu-v3.0.1.cyclonedx.json,
+  in_toto: in-toto-link-rtu-v3.0.1.json,
+  signatures: [
     {
-      "role": "builder",
-      "key_id": "HSM-BUILDER-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: builder,
+      key_id: HSM-BUILDER-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "cm",
-      "key_id": "HSM-CM-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: cm,
+      key_id: HSM-CM-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "safety",
-      "key_id": "HSM-SAFETY-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: safety,
+      key_id: HSM-SAFETY-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     }
   ],
-  "verification": {
-    "sha256": "a3f2...",
-    "reproducible_build": true,
-    "slsa_level": 3,
-    "tuf_target": "targets/rtu/v3.0.1/target.json"
+  verification: {
+    sha256: a3f2...,
+    reproducible_build: true,
+    slsa_level: 3,
+    tuf_target: targets/rtu/v3.0.1/target.json
   }
 }
 ```
@@ -595,10 +595,10 @@ Every firmware release produces a **Signed Firmware Package (SFP)**:
 Every firmware/software release includes a **CycloneDX SBOM** (PROD-36 requirement):
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5"
-     serialNumber="urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f"
-     version="1">
+<?xml version=1.0 encoding=UTF-8?>
+<bom xmlns=http://cyclonedx.org/schema/bom/1.5
+     serialNumber=urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f
+     version=1>
   <metadata>
     <timestamp>2026-11-03T10:45:00Z</timestamp>
     <tools>
@@ -608,31 +608,31 @@ Every firmware/software release includes a **CycloneDX SBOM** (PROD-36 requireme
         <version>1.2.0</version>
       </tool>
     </tools>
-    <component type="application">
+    <component type=application>
       <group>com.csmfab.forge</group>
       <name>rtu-firmware</name>
       <version>3.0.1</version>
       <purl>pkg:github/landolil/Tun/lol.forge/firmware/rtu@3.0.1</purl>
       <hashes>
-        <hash alg="SHA-256">a3f2...</hash>
+        <hash alg=SHA-256>a3f2...</hash>
       </hashes>
     </component>
   </metadata>
   <components>
-    <component type="library">
+    <component type=library>
       <group>org.zephyrproject</group>
       <name>zephyr-rtos</name>
       <version>3.5.0</version>
       <purl>pkg:github/zephyrproject/zephyr@3.5.0</purl>
       <licenses><license><id>Apache-2.0</id></license></licenses>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>thermal-admittance-lib</name>
       <version>2.1.4</version>
       <purl>pkg:github/landolil/Tun/lol.forge/lib/thermal@2.1.4</purl>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>fbge-driver</name>
       <version>1.3.0</version>
@@ -785,39 +785,39 @@ The AVL is a **Configuration Item (CI-06-01)** versioned in Git:
 
 ```yaml
 # avl-baseline.yaml (versioned, signed)
-avl_version: "3.2.1"
-avl_tag: "avl-v3.2.1"
-last_updated: "2026-11-03T10:45:00Z"
-approved_by: "CM-001, Safety-001, SupplyChain-001"
+avl_version: 3.2.1
+avl_tag: avl-v3.2.1
+last_updated: 2026-11-03T10:45:00Z
+approved_by: CM-001, Safety-001, SupplyChain-001
 
 tier_1_critical:  # 12 suppliers — require SBOM, signed firmware, pen test, SLSA L3
-  - id: "SUP-001"
-    name: "GaN Systems"
-    component: "GS66516T GaN HEMT"
-    spec: "PROD-10 Sec 2.2"
+  - id: SUP-001
+    name: GaN Systems
+    component: GS66516T GaN HEMT
+    spec: PROD-10 Sec 2.2
     requirements: [SBOM, SIGNED_FIRMWARE, PEN_TEST, SLSA_L3, SECURE_BOOT]
     fa_qty: 3
-    requal_period: "12 months"
-    scn_process: "MANDATORY"
-  - id: "SUP-002"
-    name: "CoorsTek"
-    component: "ZrB₂-SiC Powder"
-    spec: "PROD-04 Sec 2, PROD-24 Table 2.1"
+    requal_period: 12 months
+    scn_process: MANDATORY
+  - id: SUP-002
+    name: CoorsTek
+    component: ZrB₂-SiC Powder
+    spec: PROD-04 Sec 2, PROD-24 Table 2.1
     requirements: [COA, PARTICLE_SIZE, IMPURITY, FLASH_SINTER_TRIAL]
     fa_qty: 3
-    requal_period: "6 months"
-    scn_process: "MANDATORY"
+    requal_period: 6 months
+    scn_process: MANDATORY
   # ... 10 more Tier 1
 
 tier_2_standard:  # 47 suppliers — standard QA
-  - id: "SUP-020"
-    name: "Kamenny Vek"
-    component: "Basalt Fiber Roving"
-    spec: "PROD-12 Sec 3.1"
+  - id: SUP-020
+    name: Kamenny Vek
+    component: Basalt Fiber Roving
+    spec: PROD-12 Sec 3.1
     requirements: [COA, TENSILE, CTE, MOISTURE]
     fa_qty: 1
-    requal_period: "24 months"
-    scn_process: "NOTIFICATION"
+    requal_period: 24 months
+    scn_process: NOTIFICATION
   # ... 46 more Tier 2
 ```
 
@@ -1095,13 +1095,13 @@ develop                       # Nightly integration
 ```bash
 # Verify production baseline tag
 git tag -v prod-v3.2.1
-# Output: gpg: Good signature from "CM Key <cm@csmfab.com>"
-#         gpg: Good signature from "Safety Key <safety@csmfab.com>"
+# Output: gpg: Good signature from CM Key <cm@csmfab.com>
+#         gpg: Good signature from Safety Key <safety@csmfab.com>
 
 # Verify firmware tag
 git tag -v rtu-v2.1.4
-# Output: gpg: Good signature from "Builder Key <builder@csmfab.com>"
-#         gpg: Good signature from "CM Key <cm@csmfab.com>"
+# Output: gpg: Good signature from Builder Key <builder@csmfab.com>
+#         gpg: Good signature from CM Key <cm@csmfab.com>
 ```
 
 ---

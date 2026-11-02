@@ -64,7 +64,7 @@ Where $C_{th}$ = thermal capacitance (J/K), $R_{th}$ = thermal resistance (K/W).
 - CORDIC algorithm for atan2
 - Latency: < 1 μs
 
-**Resonance lock indicator:** Phase error < 0.5° sustained for 100 ms → "LOCKED" status to Master PLC.
+**Resonance lock indicator:** Phase error < 0.5° sustained for 100 ms → LOCKED status to Master PLC.
 
 ### 7.4 Impedance Matching — Variable Frequency as Control Knob
 

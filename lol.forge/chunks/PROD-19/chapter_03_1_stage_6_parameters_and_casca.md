@@ -61,7 +61,7 @@ Aluminum Window                             Copper & Precious Metals            
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Copper Window": 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
+• The Copper Window: 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
 • At 1085°C: Cu melts, Fe (1538°C), Ni (1455°C), Co (1495°C), Cr (1907°C) remain solid
 • Centrifugal force (250 RPM, G=17.4) drives molten Cu film to drum wall
 • Port 6 (1180°C setpoint) drains continuous Cu stream to anode molds

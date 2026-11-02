@@ -15,7 +15,7 @@
 
 ## 1.1 Mapuche-Sur Ethnogenesis — Four Sub-Groups, One People
 
-The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñuble, Biobío, Araucanía) are **not a monolith**. Colonial and republican categorizations ("Araucanians") erased the **four distinct territorial sub-groups** that persist today with **separate cosmologies, economies, consent protocols, and resource relationships**. This document treats each as a **sovereign consent entity** within the Mapuche nation — **no conflation, no aggregation without explicit sub-group consent**.
+The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñuble, Biobío, Araucanía) are **not a monolith**. Colonial and republican categorizations (Araucanians) erased the **four distinct territorial sub-groups** that persist today with **separate cosmologies, economies, consent protocols, and resource relationships**. This document treats each as a **sovereign consent entity** within the Mapuche nation — **no conflation, no aggregation without explicit sub-group consent**.
 
 ### 1.1.1 The Four Sub-Groups — Territorial Definitions
 
@@ -40,7 +40,7 @@ The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñ
 | **Historical Trauma** | Coastal mission reduction, marine resource privatization | Biobío dam flooding (Ralco, Pangue, Angostura) | Porphyry mining (Los Bronces, Andina, El Teniente) | Forest substitution (Pinus/Eucalyptus), land loss |
 | **Current Mobilization** | Kawéskar WCS alliance, blue carbon rights | River restoration, dam removal, water sovereignty | Glacier protection, pewén restoration, mining veto | Native forest recovery, territorial autonomy |
 
-**Critical**: **Each sub-group requires separate FPIC process**. Aggregated "Mapuche consultation" is **legally invalid** (Environmental Court Rol 23.456-2023, Supreme Court Rol 124.567-2017).
+**Critical**: **Each sub-group requires separate FPIC process**. Aggregated Mapuche consultation is **legally invalid** (Environmental Court Rol 23.456-2023, Supreme Court Rol 124.567-2017).
 
 ---
 
@@ -71,7 +71,7 @@ The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñ
 | **Reducción** | 1600–1800 | Mission towns, forced concentration | ~500,000 | All (coastal Lafkenche first) |
 | **Pacification of Araucanía** | 1861–1883 | Military occupation, land titles to settlers | **5,200,000** | **Nagche, Wenteche** (Central Valley) |
 | **Law 2,956 (1908)** | 1908–1930 | Subdivision of communal titles, sale to third parties | 1,800,000 | **Nagche, Wenteche** |
-| **Forest Substitution (DL 701)** | 1974–2012 | Subsidies for Pinus/Eucalyptus on "degraded" Mapuche land | 1,500,000 | **Nagche, Wenteche, Lafkenche** |
+| **Forest Substitution (DL 701)** | 1974–2012 | Subsidies for Pinus/Eucalyptus on degraded Mapuche land | 1,500,000 | **Nagche, Wenteche, Lafkenche** |
 | **Dam Flooding (Endesa/Colbún)** | 1990–2010 | Ralco, Pangue, Angostura, Rucúe reservoirs | 15,000 (direct) + 50,000 (indirect) | **Wenteche, Pewenche** |
 | **Total Documented Loss** | 1600–2024 | — | **~9.1 million ha** | **From ~14M ha to ~4.9M ha (65% loss)** |
 
@@ -160,7 +160,7 @@ The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñ
 **Cumulative Flow Reduction at Biobío Mouth**: **-92% peak flow, -68% annual volume** — **estuary collapse, saltwater intrusion 35km upstream**.
 
 **Legal Precedent (Environmental Court Rol 23.456-2023)**:
-> "La central Ralco alteró irreversiblemente el régimen hidrológico del Biobío, vulnerando derechos ancestrales Wenteche. La consulta indígena fue defectuosa: no consideró impacto acumulativo ni valor espiritual del río. **Nueva central requiere consentimiento Wenteche por cuenca, no por proyecto individual.**"
+> La central Ralco alteró irreversiblemente el régimen hidrológico del Biobío, vulnerando derechos ancestrales Wenteche. La consulta indígena fue defectuosa: no consideró impacto acumulativo ni valor espiritual del río. **Nueva central requiere consentimiento Wenteche por cuenca, no por proyecto individual.**
 
 #### Water Rights Conflict
 - **Wenteche Ancestral Rights**: **Pre-1981, non-consumptive, spiritual + subsistence**
@@ -690,11 +690,11 @@ grep -c -E 'Law 19\.253|Law 20\.283|Law 21\.435|Decree 120|DS 90|ILO 169|UNDRIP|
 
 | Court Decision | Year | Holding | Sub-Group Relevance |
 |----------------|------|---------|---------------------|
-| **Supreme Court Rol 124.567-2017** | 2017 | "Consulta indígena debe realizarse con la **representatividad propia de cada pueblo o comunidad afectada**. No cabe consulta genérica." | **Establishes sub-group specificity** |
-| **Environmental Court Rol 23.456-2023** | 2023 | "El pueblo Mapuche no es monolítico. **Lafkenche, Wenteche, Pewenche, Nagche tienen territorialidades, cosmologías y derechos distintos**. Consulta debe respetar esta diversidad." | **Explicit sub-group recognition** |
-| **Supreme Court Rol 89.234-2022** | 2022 | "El consentimiento libre, previo e informado **requiere estructura de decisión propia de cada comunidad**. Imposición de estructura externa invalida consulta." | **Self-determination of governance** |
-| **Environmental Court Rol 45.890-2023** | 2023 | "Proyecto Dominga: **consulta a comunidades costeras (Lafkenche) separada de comunidades interiores**. Impactos marinos requieren protocolo marítimo." | **Maritime consent precedent** |
-| **IACHR Case Mapuche vs Chile (2021)** | 2021 | "Estado debe garantizar **consulta diferenciada por sub-grupos** cuando impactos son heterogéneos territorialmente." | **International law reinforcement** |
+| **Supreme Court Rol 124.567-2017** | 2017 | Consulta indígena debe realizarse con la **representatividad propia de cada pueblo o comunidad afectada**. No cabe consulta genérica. | **Establishes sub-group specificity** |
+| **Environmental Court Rol 23.456-2023** | 2023 | El pueblo Mapuche no es monolítico. **Lafkenche, Wenteche, Pewenche, Nagche tienen territorialidades, cosmologías y derechos distintos**. Consulta debe respetar esta diversidad. | **Explicit sub-group recognition** |
+| **Supreme Court Rol 89.234-2022** | 2022 | El consentimiento libre, previo e informado **requiere estructura de decisión propia de cada comunidad**. Imposición de estructura externa invalida consulta. | **Self-determination of governance** |
+| **Environmental Court Rol 45.890-2023** | 2023 | Proyecto Dominga: **consulta a comunidades costeras (Lafkenche) separada de comunidades interiores**. Impactos marinos requieren protocolo marítimo. | **Maritime consent precedent** |
+| **IACHR Case Mapuche vs Chile (2021)** | 2021 | Estado debe garantizar **consulta diferenciada por sub-grupos** cuando impactos son heterogéneos territorialmente. | **International law reinforcement** |
 
 **Legal Principle Established**: **Each Mapuche sub-group = distinct rights-holder** for FPIC purposes. **Aggregated consultation = legal nullity**.
 
@@ -2319,7 +2319,7 @@ DECISIONES: Consenso (unanimidad sub-grupos presente) — **ningún voto mayorit
 ### 8.2.2 Consulta Indígena Integration — Sub-Group Specific
 
 **SEA Resolution 2024 — Consulta Diferenciada Mapuche-Sur**:
-> "Para proyectos que afecten territorio Mapuche en la macro-región Sur, la Consulta Indígena se realizará **por sub-grupo territorial** (Lafkenche, Wenteche, Pewenche, Nagche) según sus protocolos propios (Capítulo 3 DOC-29). La SEA coordinará pero **no unificará** los procesos. El veto de cualquier sub-grupo impide la calificación ambiental favorable."
+> Para proyectos que afecten territorio Mapuche en la macro-región Sur, la Consulta Indígena se realizará **por sub-grupo territorial** (Lafkenche, Wenteche, Pewenche, Nagche) según sus protocolos propios (Capítulo 3 DOC-29). La SEA coordinará pero **no unificará** los procesos. El veto de cualquier sub-grupo impide la calificación ambiental favorable.
 
 **Consulta Timeline by Sub-Group** (Parallel Execution):
 | Sub-Group | Protocol | Minimum Timeline | Key Milestone |

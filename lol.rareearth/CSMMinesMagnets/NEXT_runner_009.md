@@ -130,7 +130,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-12/ FinishedWork/DOC-12_*.md.gz FinishedWork/intros/DOC-12_*.md
-git commit -m "DOC-12: Grid-Forming Inverter Standards — [summary]"
+git commit -m DOC-12: Grid-Forming Inverter Standards — [summary]
 git tag runner-009-complete
 git push origin --tags
 

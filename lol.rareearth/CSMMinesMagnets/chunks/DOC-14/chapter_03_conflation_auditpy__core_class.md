@@ -8,10 +8,10 @@ class ConflationAuditor:
         self.ledger = ConflationLedger()
     
     def audit_pair(self, doc_a: str, doc_b: str) -> List[Conflict]:
-        """
+        
         Pairwise conflation detection between two documents.
         Returns list of Conflict objects with severity, evidence, verification.
-        """
+        
         claims_a = self.extract_claims(doc_a)
         claims_b = self.extract_claims(doc_b)
         
@@ -20,7 +20,7 @@ class ConflationAuditor:
             for claim_b in claims_b:
                 if self.same_variable(claim_a, claim_b) and self.mutually_exclusive(claim_a, claim_b):
                     conflict = Conflict(
-                        id=f"{doc_a}-{doc_b}-{claim_a.variable}",
+                        id=f{doc_a}-{doc_b}-{claim_a.variable},
                         doc_a=doc_a, claim_a=claim_a,
                         doc_b=doc_b, claim_b=claim_b,
                         variable=claim_a.variable,
@@ -44,7 +44,7 @@ class ConflationAuditor:
         return conflicts
     
     def full_audit(self) -> AuditReport:
-        """Audit all 78 pairs in corpus"""
+        Audit all 78 pairs in corpus
         all_conflicts = []
         for i, doc_a in enumerate(self.corpus.docs):
             for doc_b in self.corpus.docs[i+1:]:
@@ -52,7 +52,7 @@ class ConflationAuditor:
         return AuditReport(conflicts=all_conflicts, ledger=self.ledger)
     
     def regression_check(self, new_doc: str) -> List[Conflict]:
-        """Check new document against existing corpus"""
+        Check new document against existing corpus
         conflicts = []
         for existing_doc in self.corpus.docs:
             conflicts.extend(self.audit_pair(existing_doc, new_doc))
@@ -89,7 +89,7 @@ class EvidenceChain:
 
 @dataclass
 class Resolution:
-    decision: str  # "Claim_A_accepted", "Claim_B_accepted", "Synthesized", "Deferred"
+    decision: str  # Claim_A_accepted, Claim_B_accepted, Synthesized, Deferred
     lock_priority: LockHierarchy
     synthesis: Optional[str]
     amendment_required: bool

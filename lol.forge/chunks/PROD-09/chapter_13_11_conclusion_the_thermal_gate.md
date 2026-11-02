@@ -1,6 +1,6 @@
 ## 11. Conclusion: The Thermal Gatekeeper
 
-The material exit port valve system is the **physical instantiation of the thermal cascade sequence**. Each valve embodies a specific temperature threshold from the periodic table — indium at 156°C, aluminum at 660°C, copper at 1085°C, iron at 1538°C, zircon at 1676°C. The Ti₃AlC₂/ZrO₂ bilayer does not "control" the separation — it *witnesses the temperature into material release*.
+The material exit port valve system is the **physical instantiation of the thermal cascade sequence**. Each valve embodies a specific temperature threshold from the periodic table — indium at 156°C, aluminum at 660°C, copper at 1085°C, iron at 1538°C, zircon at 1676°C. The Ti₃AlC₂/ZrO₂ bilayer does not control the separation — it *witnesses the temperature into material release*.
 
 **No solenoids. No motors. No pneumatic lines. No electrical wires crossing the pressure boundary.**
 

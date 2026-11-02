@@ -163,4 +163,4 @@ Tardigradia holds valuable options not captured in DCF:
 | REE basket $45/kg | CSMMagEco2026 V2.0 | Section 2.1 |
 | NdFeB $120/kg | CSMMagEco2026 V2.0 | Section 2.3 |
 | DCF perpetuity growth 1.5% | Chile GDP long-term forecast | Central Bank Chile |
-| Black-Scholes option parameters | Hull "Options, Futures, Derivatives" | Standard text |
+| Black-Scholes option parameters | Hull Options, Futures, Derivatives | Standard text |

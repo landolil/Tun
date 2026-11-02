@@ -90,7 +90,7 @@ SEGUNDA: El Butalmapu puede modificar este protocolo por consenso unánime (8 Lo
 | **Timing** | Summer solstice (Dec 21) | Within 15 days of Butalmapu Acta | **Immediate** |
 | **Duration** | 2–4 days | **2 days minimum** | **Continuous presence** |
 | **Participants** | All community | **All 8 Lofs + Butalmapu + witnesses** | **Machi oficiante + 2 asistentes** |
-| **Petition (Ngillatuwe)** | General wellbeing | **Specific: "Ngen Pewén, Ngen Glaciar, Ngen Agua — ¿permite este proyecto?"** | **Direct question to spirits** |
+| **Petition (Ngillatuwe)** | General wellbeing | **Specific: Ngen Pewén, Ngen Glaciar, Ngen Agua — ¿permite este proyecto?** | **Direct question to spirits** |
 | **Signs (Wenu)** | Smoke, wind, birds, dreams | **Smoke direction (straight up = yes, sideways = no), Condor flight (circling = yes, away = no), Wind (calm = yes, storm = no), Machi dreams** | **Machi sole interpreter** |
 | **Outcome** | Community consensus | **Binding on Acta de Consulta** | **Cannot be appealed** |
 

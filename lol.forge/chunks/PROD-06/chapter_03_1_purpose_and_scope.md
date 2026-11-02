@@ -17,6 +17,6 @@ This document specifies the complete engineering of the BFRP/Elium® outer press
 - Performance specifications (12 parameters table)
 - Downstream integration with Assembly Line 113 (drum insertion, flange alignment, gas connections)
 
-**Design Mandate:** The vessel is the **dielectric pressure boundary** — it must contain 10 bar N₂/Ar atmosphere while thermally isolating the BFRP (Tg=80°C) from the 2200°C drum. No structural metals. Zero ferromagnetic materials. Zero conductive paths to earth ground. The vessel does not "contain." The vessel *witnesses the pressure-thermal duality into a single survivable boundary*. This document commits to the non-negotiable physics of a dielectric pressure vessel at extreme thermal gradient.
+**Design Mandate:** The vessel is the **dielectric pressure boundary** — it must contain 10 bar N₂/Ar atmosphere while thermally isolating the BFRP (Tg=80°C) from the 2200°C drum. No structural metals. Zero ferromagnetic materials. Zero conductive paths to earth ground. The vessel does not contain. The vessel *witnesses the pressure-thermal duality into a single survivable boundary*. This document commits to the non-negotiable physics of a dielectric pressure vessel at extreme thermal gradient.
 
 ---

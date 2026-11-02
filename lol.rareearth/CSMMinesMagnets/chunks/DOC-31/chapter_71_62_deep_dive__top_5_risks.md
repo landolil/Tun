@@ -129,7 +129,7 @@ COMPOSITE P(UNREST) = **0.68 (High)** — **Expected 3.4 events/5yr**
 | **Drought Duration (consec. dry days)** | 180 | 240 | **+33%** | Water security |
 | **Wind Speed (avg)** | 12 km/h | 14 km/h | +17% | Dust, evaporation, solar soiling |
 
-**Compound Event: "Atacama Double Whammy" — Flash Flood + Mega-Drought**:
+**Compound Event: Atacama Double Whammy — Flash Flood + Mega-Drought**:
 - **Frequency**: Current 1/50 yr → 2050 **1/15 yr**
 - **Sequence**: Intense rainfall (50mm/2hr) on hyper-dry soil → **debris flows, infrastructure destruction** → followed by 18-month mega-drought
 - **Calama Vulnerability**: **Loa River channel capacity exceeded, campamentos in floodplain, aquifer recharge minimal (runoff vs infiltration)**

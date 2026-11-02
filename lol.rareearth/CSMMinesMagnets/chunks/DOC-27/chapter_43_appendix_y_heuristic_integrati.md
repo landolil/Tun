@@ -21,7 +21,7 @@ This single ratio **replaces all qualitative negotiation** with **quantitative c
 
 ### Y.2 Keymaker Heuristic — Lock/Key/Turn (Full)
 
-**THE EMPIRICAL LOCK**: **Diaguita territory has zero allocatable water for new mining** (WSI > 1.0 in 2/4 valleys, 0.9+ in others). Traditional mining water models (concentrate → tailings pond → makeup water) **fail completely** here. The **fabrication fidelity gap** is: **theory says "water recycling reduces consumption" but fabrication reality says "any net withdrawal triggers veto"**.
+**THE EMPIRICAL LOCK**: **Diaguita territory has zero allocatable water for new mining** (WSI > 1.0 in 2/4 valleys, 0.9+ in others). Traditional mining water models (concentrate → tailings pond → makeup water) **fail completely** here. The **fabrication fidelity gap** is: **theory says water recycling reduces consumption but fabrication reality says any net withdrawal triggers veto**.
 
 **THE MATHEMATICAL KEY**: **Net Water Benefit Ratio (NWBR) = WSF_delivered / Project_demand**. This **single computational primitive** generates the consent solution:
 - **WSF delivers desalination + MAR capacity**

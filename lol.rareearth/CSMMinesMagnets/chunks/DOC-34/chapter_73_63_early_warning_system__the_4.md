@@ -18,7 +18,7 @@ FLASH FLOOD ALERT PROTOCOL — SAN PEDRO DE ATACAMA
 LEVEL 1: WATCH (Conditions favorable)
 ├── Trigger: Radar echo >40 dBZ over catchment OR pluviometric >15mm/hr
 ├── Action: ONEMI → Municipal → Radio Ayllu + SMS + Sirens (pre-alert tone)
-├── Public: "Prepare evacuation, gather documents, move vehicles to high ground"
+├── Public: Prepare evacuation, gather documents, move vehicles to high ground
 ├── CPA: Activate kimün observers in ayllus, check bofedales status
 └── Duration: Until conditions dissipate or escalate
 

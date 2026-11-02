@@ -38,7 +38,7 @@ During GIC events:
    - Harmonic current injection to cancel transformer harmonics
    - GIC-aware voltage reference (V_ref adjusted for harmonic distortion)
 3. **Blocking Logic**:
-   - If THD_V > 8% → Switch to "GIC Mode" (reduced bandwidth, harmonic injection)
+   - If THD_V > 8% → Switch to GIC Mode (reduced bandwidth, harmonic injection)
    - If I_GIC > 75 A at nearby transformer → Preemptive mode change
 
 **TCSC / FSC GIC Coordination:**

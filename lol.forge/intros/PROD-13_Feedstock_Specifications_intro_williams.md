@@ -31,7 +31,7 @@ We commit to the following as non-negotiable:
 1. **Zero Tolerance for Hazards** — Li-ion batteries, Hg, PCBs, asbestos, Be, cyanide, free liquids: detected at gate, rejected or segregated. No exceptions.
 2. **Quantified Recovery Targets** — Every element in every category has a minimum recovery percentage (Table 11.1). The forge is accountable to these numbers.
 3. **Stage-Coupled Pre-Processing** — Category A requires battery removal + depanning; Category B requires asbestos/lead screening; Category C requires acid-base accounting + agglomeration for fines; Category D requires solvolysis for BFRP. Each pre-processing step maps to a specific thermal stage's requirements.
-4. **Assay-Driven Blending** — No batch enters the drum without XRF assay at hopper outlet and blend optimization. The drum does not process "waste"; it processes *characterized feedstock*.
+4. **Assay-Driven Blending** — No batch enters the drum without XRF assay at hopper outlet and blend optimization. The drum does not process waste; it processes *characterized feedstock*.
 4. **Phoenix Protocol Primacy** — Category D feedstocks (known composition, zero acquisition cost) are the anchor for blend stability. The forge's circularity is not aspirational — it is the blending baseline.
 5. **Lot Traceability** — Every kg from gate to slug is traced via Feedstock Lot Record (FLR) with ISO 3082 sampling, XRF/ICP-MS/XRD characterization, and blend assignment. The element's journey is recorded.
 6. **Economic Viability Floor** — Processing cost <$1.60/kg feed; revenue >$8,000/batch minimum. The economics are not post-hoc — they are the design constraint.

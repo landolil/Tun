@@ -6,11 +6,11 @@ The fabrication fidelity gap in Forge regulatory compliance is the **divergence 
 
 Three specific locks prevent conventional compliance engineering from closing this gap:
 
-1. **Prescriptive vs. Performance Lock:** Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: "steel vessel per Sec VIII," "grounding per NFPA 70," "thermocouples per ISA," "copper conduit per NEC." The Forge uses NONE of these materials or methods. The lock: **regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior.**
+1. **Prescriptive vs. Performance Lock:** Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: steel vessel per Sec VIII, grounding per NFPA 70, thermocouples per ISA, copper conduit per NEC. The Forge uses NONE of these materials or methods. The lock: **regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior.**
 
 2. **Common-Cause Failure Lock:** IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). A single interrogator failure = 3 SIF channels lost. The lock: **regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality.**
 
-3. **Carbon Accounting Lock:** Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats "recycling" as avoided emissions (Scope 3) and "sequestration" as separate projects. The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. The lock: **regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration.**
+3. **Carbon Accounting Lock:** Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats recycling as avoided emissions (Scope 3) and sequestration as separate projects. The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. The lock: **regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration.**
 
 ## The Mathematical Key
 
@@ -23,8 +23,8 @@ REO[R_prescriptive, P_forge, M_forge, D_forge] =
               Witness(P_forge) ∈ Operator_Gates
 
 Where:
-R_prescriptive = Prescriptive requirement (e.g., "steel vessel per ASME Sec VIII")
-P_forge = Forge performance demonstration (e.g., "BFRP vessel per Sec X + FEA HCLPF >1.6g")
+R_prescriptive = Prescriptive requirement (e.g., steel vessel per ASME Sec VIII)
+P_forge = Forge performance demonstration (e.g., BFRP vessel per Sec X + FEA HCLPF >1.6g)
 M_forge = Forge measurement system (FBG, AE, CEMS, LIBS, mass spec, CT)
 D_forge = Forge data integrity (Hyperledger, PTP <1μs, TSN determinism)
 ```
@@ -69,11 +69,11 @@ Historical regulatory interactions refine the REO's evidence predicates and witn
    **Root cause:** Sec X allows N₂ but reviewer expected water per Sec VIII.
    **Correction:** Added `Evidence(P_forge) ∈ {Sec X 10-5, AI witness letter, N₂ safety analysis}`. REO now explicitly includes code-section reference.
 
-2. **Anomaly:** OSHA VPP auditor flagged "no thermocouples" as missing temperature monitoring.
+2. **Anomaly:** OSHA VPP auditor flagged no thermocouples as missing temperature monitoring.
    **Root cause:** Auditor expected 1910.119 PSI temperature elements.
    **Correction:** Added `Witness(P_forge) ∈ {FBG 384-ch at 125 Hz, thermal-admittance model 1 kHz, Operator Gate 2}`. REO now includes operator witness as evidence.
 
-3. **Anomaly:** EPA RMP reviewer asked for "worst-case release" for AsH₃/SbH₃/BiH₃ (below TQ).
+3. **Anomaly:** EPA RMP reviewer asked for worst-case release for AsH₃/SbH₃/BiH₃ (below TQ).
    **Root cause:** Reviewer applied default EPA assumptions (entire inventory in 10 min).
    **Correction:** Added `P_forge ∈ {Cu-carbon chemisorption 99.9%, CEMS continuous, Stage 6 <4% H₂}`. REO now includes process-specific mitigation credit.
 

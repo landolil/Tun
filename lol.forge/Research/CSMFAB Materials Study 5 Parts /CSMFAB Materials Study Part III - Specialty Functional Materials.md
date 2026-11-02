@@ -10,7 +10,7 @@ shear-thickening fluid, WO3 electrochromic material, and aerogel-derived special
 ## Material 15 — YInMn Blue Pigment (Yttrium Indium Manganese Oxide)
 
 **Formula:** YIn0.7Mn0.3O3 — nominal | **Discovery:** Oregon State University, 2009 (M. Smith / Mas Subramanian)
-**Key property:** NIR-reflective "cool" blue; SRI=115; non-toxic; inorganic stability
+**Key property:** NIR-reflective cool blue; SRI=115; non-toxic; inorganic stability
 
 ### 15.1 Why YInMn Blue is the Most Important CSMFAB Surface Material
 

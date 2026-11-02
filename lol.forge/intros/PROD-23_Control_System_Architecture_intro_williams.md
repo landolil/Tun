@@ -12,7 +12,7 @@ This constraint cascades into every architectural decision:
 
 - **Optical time synchronization:** IEEE 1588v2 PTP runs over the same PMMA POF that carries FBG data. The grandmaster (GNSS+OCXO) sits outside the Faraday cage (BFRP housing + YInMn glaze, σ = 10⁴ S/m). Sub-microsecond sync across 8 RTUs + 8 PLCs + SIS is achieved without a single conductive timing wire.
 
-- **Air-gapped OT network:** The TSN dual-ring (1 Gbps, IEEE 802.1Qbv) carries SIS, RTU, PLC, and SCADA traffic on separate VLANs with FRER redundancy. A unidirectional data diode (TX-only fiber, RX physically cut) connects to the IT historian. No IP route exists from enterprise to OT. This is not "defense in depth" — it is the only architecture where a Carrington event cannot bridge IT/OT.
+- **Air-gapped OT network:** The TSN dual-ring (1 Gbps, IEEE 802.1Qbv) carries SIS, RTU, PLC, and SCADA traffic on separate VLANs with FRER redundancy. A unidirectional data diode (TX-only fiber, RX physically cut) connects to the IT historian. No IP route exists from enterprise to OT. This is not defense in depth — it is the only architecture where a Carrington event cannot bridge IT/OT.
 
 **What breaks if violated:** A single copper wire crossing the boundary → GIC pickup → common-mode voltage > GaN gate threshold (6 V) → synchronous inverter failure → uncontrolled thermal excursion → drum melt-through (ZrB₂-SiC softens >2400°C). The forge becomes a 500 kW arc furnace with no off switch.
 

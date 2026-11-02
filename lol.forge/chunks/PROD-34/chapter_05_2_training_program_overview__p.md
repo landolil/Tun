@@ -1,6 +1,6 @@
 ## 2. Training Program Overview & Philosophy
 
-### 2.1 Training Philosophy: "Witness, Don't Monitor"
+### 2.1 Training Philosophy: Witness, Don't Monitor
 
 The Forge training philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): **operators do not monitor — they witness the phenomenon into existence.** This requires training that develops sensory-motor coupling to the process, not dashboard interpretation skills.
 

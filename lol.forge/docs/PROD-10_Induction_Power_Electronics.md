@@ -608,7 +608,7 @@ Before each batch:
 | 7 | 1 | BFRP-Elium | Coil Housing | CSMFAB000000000011 |
 | 8 | 8m | Cu Tube 25mm | Coil Conductor | — |
 | 9 | 8m | Al₂O₃ Tube | Coil Insulation | Mat Study I |
-| 10 | 10m | PEX-a 1/2" | Water Cooling | Mat Study IV |
+| 10 | 10m | PEX-a 1/2 | Water Cooling | Mat Study IV |
 | 11 | 48 | Custom | FBG Sensor (PMMA) | Mat Study IV |
 | 12 | 60m | PMMA POF 1mm | Sensor Fiber | Mat Study IV |
 | 13 | 1 | Custom | 1×6 PMMA Splitter | — |

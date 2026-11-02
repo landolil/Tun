@@ -205,7 +205,7 @@ node scripts/split_chunks.js compress docs/PROD-XX_<title>.md
 ### Phase 6: Git Commit & Push
 ```bash
 git add -A
-git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — <lines> lines + 200 intro, <N> chunks verified"
+git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — <lines> lines + 200 intro, <N> chunks verified
 git pull --rebase && git push
 ```
 
@@ -245,8 +245,8 @@ python3 scripts/heartbeat_monitor.py --interval 120 &
 
 ```bash
 # Identity (already configured)
-git config user.name "Kilo Agent"
-git config user.email "kilo@carringtonstormmotors.com"
+git config user.name Kilo Agent
+git config user.email kilo@carringtonstormmotors.com
 
 # Remote
 git remote -v

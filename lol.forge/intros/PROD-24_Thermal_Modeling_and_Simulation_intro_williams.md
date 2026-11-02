@@ -43,7 +43,7 @@ This document makes the following non-negotiable commitments that constrain all 
 
 1. **Four-way coupling is the only valid framework:** EM ↔ Thermal (two-way, staggered), Thermal → Structural (one-way load mapping), Structural → Fluid (wall deformation at 10 Hz), Fluid → Thermal (convection coefficients at 10 Hz). No level can be decoupled. PROD-23 (Control) PID tuning depends on the coupled $P_{ind}(T)$ curve. PROD-25 (Structural) uses the combined thermal+centrifugal loads. PROD-37 (Digital Twin) uses the ROM derived from this coupling.
 
-2. **50+ material property database is frozen:** All 24 BOM materials (PROD-12) plus feedstock intermediates have temperature-dependent correlations (piecewise-cubic Hermite) locked in Table 2.1-2.2. PROD-23 RTU thermal model, PROD-25 FEA, PROD-37 ROM, FOLLOW-01/02/09/10/11 must use these exact correlations. No "typical values" allowed.
+2. **50+ material property database is frozen:** All 24 BOM materials (PROD-12) plus feedstock intermediates have temperature-dependent correlations (piecewise-cubic Hermite) locked in Table 2.1-2.2. PROD-23 RTU thermal model, PROD-25 FEA, PROD-37 ROM, FOLLOW-01/02/09/10/11 must use these exact correlations. No typical values allowed.
 
 3. **Curie transition at 770°C is a hard model feature:** The $\mu_r$ drop from 200→1 for Fe must be captured with <10°C transition width. PROD-23 resonance tracker (Section 3.4) pre-empts ZVS loss during this transition. PROD-10 inverter design (Section 3.3) selects 2 kHz specifically for post-Curie penetration.
 

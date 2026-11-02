@@ -47,7 +47,7 @@
     "size": 55,
     "sha256": "46aecd2816e05af36e9e621a9ec12249036b9f957c81fa818409c5a21a2e9191"
   },
-  "chapter_13_line_count_chapter_1_target_\u22651.md": {
+  "chapter_13_line_count_chapter_1_target_gte1.md": {
     "size": 96,
     "sha256": "53e03f8dc5116e6cf3f4b86d4a5fefe7bd2e512ff121faf67ca3f89fbedfdede"
   },
@@ -99,7 +99,7 @@
     "size": 55,
     "sha256": "ed8fd364cbebe718c895042066dda661f8ead89fa3ea3f6ca6503782ed5c3a08"
   },
-  "chapter_26_line_count_chapter_2_target_\u22651.md": {
+  "chapter_26_line_count_chapter_2_target_gte1.md": {
     "size": 96,
     "sha256": "724e14034fb306812eb3343491696d5d656407a274df2bf105c570bb1b6d511c"
   },
@@ -151,7 +151,7 @@
     "size": 55,
     "sha256": "defee52b782ff97c9a86c0f944ac737d4f4cef9aaa3b069f0a41dc56e8386eee"
   },
-  "chapter_39_line_count_chapter_3_target_\u22651.md": {
+  "chapter_39_line_count_chapter_3_target_gte1.md": {
     "size": 96,
     "sha256": "ad077bd468d84395942754c1597db8e8cd946c38401fd7a8361d62f31d68c6a8"
   },
@@ -171,7 +171,7 @@
     "size": 55,
     "sha256": "324561048dca20e31f619dece4de5bc11f1ad0d9dbb5027ff7940ed75d6b0b2a"
   },
-  "chapter_44_41_municipalidad_mar\u00eda_elena__.md": {
+  "chapter_44_41_municipalidad_maria_elena__.md": {
     "size": 2182,
     "sha256": "24b1d9c160e2324b56fbcc5adb5e60949b6b910abee5b9f80adf510647f8f81f"
   },
@@ -183,7 +183,7 @@
     "size": 2406,
     "sha256": "c87f3962eda78000108a7cf5bd27878f62254cf873b4a371965c0b2da57833aa"
   },
-  "chapter_47_44_cpa_atacame\u00f1o_peripheral__t.md": {
+  "chapter_47_44_cpa_atacameno_peripheral__t.md": {
     "size": 1385,
     "sha256": "4b4979a4a808fcbef3eb55aa00b08f220c464bde0a266ed035dd3fa2e45e5698"
   },
@@ -199,7 +199,7 @@
     "size": 55,
     "sha256": "bfd4110bf02f0e7d36c353fc5df1ccf3f9d094e0331cc1854819d2917d1d5b6e"
   },
-  "chapter_51_line_count_chapter_4_target_\u22651.md": {
+  "chapter_51_line_count_chapter_4_target_gte1.md": {
     "size": 96,
     "sha256": "74b95647eefbf4f1e8f2b7e865fad8ba695c2bbc67068249ff433d72f8e694ca"
   },
@@ -243,7 +243,7 @@
     "size": 55,
     "sha256": "49e5c1a6c6b30e90c6b15e0ad4b07c54366876cfaa4c399324128455aa0845b9"
   },
-  "chapter_62_line_count_chapter_5_target_\u22651.md": {
+  "chapter_62_line_count_chapter_5_target_gte1.md": {
     "size": 96,
     "sha256": "2904a2521f1eabe6f06621570969c64f3d18ff43ed48a272f6b870a727f22289"
   },
@@ -291,7 +291,7 @@
     "size": 55,
     "sha256": "4f408095992346fe6ce619c07d2c75e6e68ef741cc312e8e98782b30fee476e5"
   },
-  "chapter_74_line_count_chapter_6_target_\u22651.md": {
+  "chapter_74_line_count_chapter_6_target_gte1.md": {
     "size": 96,
     "sha256": "e28b63fa71732299846c47c58e3328d1f537913bb740a94f3c0d6263e6655036"
   },
@@ -311,7 +311,7 @@
     "size": 65,
     "sha256": "c01f2053cd3d9a1f74a72ac7030a4d4a57ba52b1d693efcf283b122a8b65a312"
   },
-  "chapter_79_71_oficina_mar\u00eda_elena__the_la.md": {
+  "chapter_79_71_oficina_maria_elena__the_la.md": {
     "size": 2163,
     "sha256": "6d2011024a58d241ac123b4fd9ef540f7281c1603d5474b729b528091e5de3f6"
   },
@@ -331,7 +331,7 @@
     "size": 55,
     "sha256": "c6917f6732fd7fc401fbd11dcde50f9653e664c88daccd6e274f2bd9d2ad9b01"
   },
-  "chapter_84_line_count_chapter_7_target_\u22651.md": {
+  "chapter_84_line_count_chapter_7_target_gte1.md": {
     "size": 96,
     "sha256": "842148a1d0580ef0271703f846ec59ef43d2a8325d1ca06121e189ef62482aa0"
   },
@@ -379,7 +379,7 @@
     "size": 55,
     "sha256": "15c0f1006d0c3b0396e80295814ea0c517bef1bbc3d1b049d0516ab7f9d51f45"
   },
-  "chapter_96_line_count_chapter_8_target_\u22651.md": {
+  "chapter_96_line_count_chapter_8_target_gte1.md": {
     "size": 96,
     "sha256": "30daf8129876afdad90e47daac287f1f99a924b525ab931859d4b3351655e3af"
   },
@@ -423,35 +423,35 @@
     "size": 64,
     "sha256": "7d97e37d12247388aa945f53b38db27313e5de15a09231dfbd494fb9d329614d"
   },
-  "chapter_107_1_line_count_\u2265900.md": {
+  "chapter_107_1_line_count_gte900.md": {
     "size": 74,
     "sha256": "457fc9bd046e0460d95df2d286612d366bf17b2962ce8442568a21c56d99f1d9"
   },
-  "chapter_108_result_2100+_lines_\u2705_target_90.md": {
+  "chapter_108_result_2100+_lines_ok_target_90.md": {
     "size": 42,
     "sha256": "1d5916cb158fe32034b53625c0643158d2bda7696b5c93898b5d6ce760a3c0ce"
   },
-  "chapter_109_2_formula_count_\u226520.md": {
+  "chapter_109_2_formula_count_gte20.md": {
     "size": 83,
     "sha256": "8f7c349ad451d44770c72a7754fca8083e50a2a54dfa324e149fa5771d722ccd"
   },
-  "chapter_110_result_33_formulas_\u2705_target_20.md": {
+  "chapter_110_result_33_formulas_ok_target_20.md": {
     "size": 40,
     "sha256": "efff35afb04641750e79d8ba115b99abf339ff00dead0f0f33e55412e321aebb"
   },
-  "chapter_111_3_cross-reference_count_\u226515.md": {
+  "chapter_111_3_cross-reference_count_gte15.md": {
     "size": 4667,
     "sha256": "cd88050766ac93624344d933081b1ff6a9aa3aac45f0de13609c09a5f37fe45b"
   },
-  "chapter_112_result_1250+_cross-refs_\u2705_targ.md": {
+  "chapter_112_result_1250+_cross-refs_ok_targ.md": {
     "size": 46,
     "sha256": "9ff803331877f9dcd6b6cb6b20aec5c79469848df176db9e8780fc79ce513f18"
   },
-  "chapter_113_4_standards_cited_\u22658.md": {
+  "chapter_113_4_standards_cited_gte8.md": {
     "size": 331,
     "sha256": "9890d3114638fe37971e25107627032f73b64d21596e8829fd5176b885c93530"
   },
-  "chapter_114_result_18_standards_\u2705_target_8.md": {
+  "chapter_114_result_18_standards_ok_target_8.md": {
     "size": 40,
     "sha256": "c9214e8e13e3e6d30e54e7f2b651fd24322fba5e4139e370fbea394c30ada412"
   },
@@ -467,11 +467,11 @@
     "size": 42,
     "sha256": "ecf18f840e4e4c7a1fdc90cf1af322c5d2a4a1024bc8563816df4f1f598bfb46"
   },
-  "chapter_118_ch1_geography__climate_\u2705.md": {
+  "chapter_118_ch1_geography__climate_ok.md": {
     "size": 30,
     "sha256": "91d3639f280b333b004430f5d0bd239db5a0beea7b114bb7834eb88ce9aaf8a1"
   },
-  "chapter_119_ch2_history__demographics_\u2705.md": {
+  "chapter_119_ch2_history__demographics_ok.md": {
     "size": 33,
     "sha256": "95455c812697f4025346d36bc2f4c6959101c009a102bdf8a701cade4fff84e2"
   },
@@ -483,7 +483,7 @@
     "size": 50,
     "sha256": "75ffa925466bfcb0db6e9b55d0856a9e875a8eba54b15c53527cf6d4ec5e0371"
   },
-  "chapter_122_ch5_infrastructure__services_\u2705.md": {
+  "chapter_122_ch5_infrastructure__services_ok.md": {
     "size": 36,
     "sha256": "a85d65ac483f4c72a3a1ba828f58f9ead71a1ba6389fe3102bb784f47bd1b427"
   },

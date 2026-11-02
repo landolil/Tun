@@ -44,7 +44,7 @@ For the Carrington-class event (1–2 September 1859), reconstructions from magn
 
 The return period for Carrington-class events is estimated at 1-in-100 to 1-in-500 years (Riley 2012; Love et al. 2022). The 2012 July 23 CME (STEREO-A observation) was of comparable magnitude but missed Earth by ≈120° in heliolongitude.
 
-**Cross-references:** NASA/NOAA space weather scales (G1–G5), JASON 2011 report on severe space weather, Lloyd's 2013 "Solar Storm Risk" report, GAO-19-98, Riley (2012) Space Weather, Boteler (2019) Space Weather.
+**Cross-references:** NASA/NOAA space weather scales (G1–G5), JASON 2011 report on severe space weather, Lloyd's 2013 Solar Storm Risk report, GAO-19-98, Riley (2012) Space Weather, Boteler (2019) Space Weather.
 
 **Formulas:** Burton Dst equation, Newell coupling function ε.
 
@@ -77,7 +77,7 @@ At mid-to-high latitudes (relevant for Chile at ~30°–55°S geographic, ~20°�
 
 For Chile's grid (20°S–55°S geographic, ~10°S–45°S magnetic), the relevant magnetic latitude range places northern Chile (Antofagasta, Atacama) at ~10°–20°S magnetic latitude (equatorial anomaly region), central Chile (Santiago) at ~25°–30°S, and southern Chile (Punta Arenas) at ~40°–45°S magnetic latitude. The **South Atlantic Anomaly (SAA)** shifts the magnetic equator northward over South America, placing northern Chile in the equatorial electrojet influence zone where Cowling conductivity amplifies east-west electric fields.
 
-**Cross-references:** Chapman & Bartels "Geomagnetism" (1940), Kamide et al. "Storm-Time Magnetosphere-Ionosphere Coupling" (1998), Vasyliunas (1970) mathematical models, NOAA SWPC G-scale definitions (G1: Kp=5, G5: Kp=9).
+**Cross-references:** Chapman & Bartels Geomagnetism (1940), Kamide et al. Storm-Time Magnetosphere-Ionosphere Coupling (1998), Vasyliunas (1970) mathematical models, NOAA SWPC G-scale definitions (G1: Kp=5, G5: Kp=9).
 
 **Formulas:** Shielding efficiency, Vasyliunas relation.
 
@@ -115,7 +115,7 @@ $$ E_y(t) = \int_{-\infty}^t G_{yx}(t-\tau) \frac{dB_x}{d\tau} d\tau + \int_{-\i
 
 **Chile-specific conductivity model:** The Andes crustal root (thick crust, high resistivity) contrasts with the forearc sedimentary basins (lower resistivity). The Atacama's extreme aridity produces a high-resistivity near-surface layer (10^3–10^5 Ω·m), but the subduction zone introduces deep conductive anomalies. A 1D model for Antofagasta region: 0–1 km: 10^4 Ω·m; 1–10 km: 10^2 Ω·m; 10–100 km: 10 Ω·m; >100 km: 1 Ω·m (asthenosphere).
 
-**Cross-references:** Cagniard (1953) MT theory; Weidelt (1972) MT response; Boteler et al. (2000) "Geomagnetically Induced Currents"; Pirjola (2002) "Geoelectric fields"; EPRI TR-100450; IEEE 1313.2-2023; NERC TPL-007-4.
+**Cross-references:** Cagniard (1953) MT theory; Weidelt (1972) MT response; Boteler et al. (2000) Geomagnetically Induced Currents; Pirjola (2002) Geoelectric fields; EPRI TR-100450; IEEE 1313.2-2023; NERC TPL-007-4.
 
 **Formulas:** Faraday's law, MT impedance, Cagniard recurrence, plane wave E-field convolution.
 
@@ -154,7 +154,7 @@ The **superposition principle** applies: GIC from northward and eastward electri
 
 **Chile SEN topology relevance:** The Norte Grande corridor (Antofagasta to Santiago, ~1200 km at 500 kV) is the longest continuous HV corridor. The 2×500 kV and 1×220 kV lines run parallel through the Atacama Desert. Mining loads (Escondida 3.4 GW, Collahuasi 1.5 GW, Los Pelambres 1.2 GW) are concentrated in this corridor, creating high GIC exposure at critical load centers.
 
-**Cross-references:** Lehtinen & Pirjola (1985) "Currents produced in power transmission"; Boteler (1997) "Modeling GIC"; Pirjola (2005) "Effects of GIC"; EPRI TR-100450; IEEE 1313.2-2023; NERC TPL-007-4; Kappenman FERC meta-r-322.
+**Cross-references:** Lehtinen & Pirjola (1985) Currents produced in power transmission; Boteler (1997) Modeling GIC; Pirjola (2005) Effects of GIC; EPRI TR-100450; IEEE 1313.2-2023; NERC TPL-007-4; Kappenman FERC meta-r-322.
 
 **Formulas:** Nodal admittance matrix Y, source vector J, GIC neutral current, line GIC.
 
@@ -195,7 +195,7 @@ where $i_{\text{sat}}$ is the nonlinear saturation function. During the half-cyc
 
 **Carrington-class impact:** For $I_{\text{GIC}} = 200–500$ A (plausible at 500 kV in Carrington event), half-cycle saturation is severe. Multiple transformers simultaneously saturated → system-wide VAR crisis, voltage collapse risk.
 
-**Cross-references:** Kappenman (1996) "Geomagnetic Storms and Power Systems"; Molinski (2002) "Why Utilities Respect GIC"; IEEE C57.163-2023; EPRI EL-3295, TR-100450; NERC TPL-007-4; Marti et al. (2014) "Simulation of Transformer Saturation".
+**Cross-references:** Kappenman (1996) Geomagnetic Storms and Power Systems; Molinski (2002) Why Utilities Respect GIC; IEEE C57.163-2023; EPRI EL-3295, TR-100450; NERC TPL-007-4; Marti et al. (2014) Simulation of Transformer Saturation.
 
 **Formulas:** DC flux offset, peak magnetizing current, reactive power consumption, harmonic generation.
 
@@ -287,7 +287,7 @@ Using the **Pirjola (2005) scaling**: $I_{\text{GIC}} \approx \alpha \cdot |dB/d
 
 **Return period context (Section 1.8):** The Carrington event is a **1-in-100 to 1-in-500 year event**. The 2012 July 23 CME (STEREO-A) was comparable but missed Earth.
 
-**Cross-references:** Carrington (1859) "Description of a Singular Appearance"; Tsurutani et al. (2003) JGR; Cliver & Svalgaard (2004) Solar Physics; Boteler (2019) Space Weather; Riley (2012) Space Weather; Love et al. (2022) Space Weather; GAO-19-98; Lloyd's 2013; JASON 2011.
+**Cross-references:** Carrington (1859) Description of a Singular Appearance; Tsurutani et al. (2003) JGR; Cliver & Svalgaard (2004) Solar Physics; Boteler (2019) Space Weather; Riley (2012) Space Weather; Love et al. (2022) Space Weather; GAO-19-98; Lloyd's 2013; JASON 2011.
 
 **Formulas:** GIC scaling with dB/dt, Dst-dB/dt relationship.
 
@@ -316,7 +316,7 @@ The probability of Carrington-class extreme space weather events is estimated th
 **4. Near-miss statistics:**
 - **2012 July 23 CME** (STEREO-A): Transit 18.6 hrs, B_max = 109 nT, V_max = 2246 km/s. If Earth-directed: Dst ≈ −1150 nT (Baker et al. 2013). Missed by ~120° longitude.
 - **2003 November 4** (X28 flare): CME partial halo, transit ~19 hrs. Dst = −383 nT.
-- Probability of Earth in "hit zone" (±30°): ≈1/6 per CME. With ~3–5 fast CMEs/decade → **1-in-40 to 1-in-70 year** for Carrington-class impact.
+- Probability of Earth in hit zone (±30°): ≈1/6 per CME. With ~3–5 fast CMEs/decade → **1-in-40 to 1-in-70 year** for Carrington-class impact.
 
 **Consensus range for risk assessment:**
 | Confidence Level | Return Period | Dst Threshold | Recommended Design Basis |
@@ -636,7 +636,7 @@ The **Earth's subsurface conductivity structure** is the primary determinant of 
 3. **Use 1D models with coast correction** for initial GIC screening (per IEEE 1313.2)
 4. **Validate with GIC measurements** — Install neutral current monitors at Antofagasta, Diego de Almagro, Polpaico, Charrúa
 
-**Cross-references:** SERNAGEOMIN MT data; GEOSUR-Andes; Puelche et al. (2018) "MT in Atacama"; Booker (2014) "LITHO1.0"; IEEE 1313.2-2023 Annex B (conductivity models); EPRI TR-100450 Ch. 3; DOC-01 (geological mapping).
+**Cross-references:** SERNAGEOMIN MT data; GEOSUR-Andes; Puelche et al. (2018) MT in Atacama; Booker (2014) LITHO1.0; IEEE 1313.2-2023 Annex B (conductivity models); EPRI TR-100450 Ch. 3; DOC-01 (geological mapping).
 
 **Formulas:** MT impedance Z(ω) for layered Earth; Cagniard recurrence; coast effect enhancement; E-field scaling with resistivity.
 
@@ -806,7 +806,7 @@ Typical $k = 0.3–0.7$ (30–70%). Higher $k$ → more GIC blocking (fewer caps
 - **Post-1989 hardening:** Added **MOV-protected bypass switches** on all series caps for SSR mitigation and fault current limitation
 
 **IEEE 824 / IEC 60143 Standards:**
-- **IEEE 824-2022:** "IEEE Standard for Series Capacitor Banks" — covers design, testing, MOV protection, bypass switches
+- **IEEE 824-2022:** IEEE Standard for Series Capacitor Banks — covers design, testing, MOV protection, bypass switches
 - **IEC 60143-1/2:** Series capacitor specifications
 - **Key requirements:** Continuous current rating, fault current withstand, overvoltage protection (MOV + spark gap), bypass switch (<2 cycles), monitoring (capacitor voltage, current, temperature)
 
@@ -864,8 +864,8 @@ During ground faults, neutral voltage rises to **phase-to-ground voltage** (289 
 3. **Fast bypass switch** (optional) — closes in <1 cycle for solid ground during fault
 
 **EPRI EL-3295 (1993) & TR-100450 (1992) — Foundational Studies:**
-- **EL-3295:** "GIC Mitigation: Neutral Blocking Capacitor Design" — first systematic NBC design guide
-- **TR-100450:** "Geomagnetically Induced Currents: Assessment and Mitigation" — comprehensive GIC mitigation review
+- **EL-3295:** GIC Mitigation: Neutral Blocking Capacitor Design — first systematic NBC design guide
+- **TR-100450:** Geomagnetically Induced Currents: Assessment and Mitigation — comprehensive GIC mitigation review
 - **Key findings:** NBC is **most cost-effective** hardening for existing transformers; blocks >99% of GIC; minimal impact on protection coordination
 
 **Minnesota Power Deployment (First US Utility Installation, 2013–2014):**
@@ -951,7 +951,7 @@ During ground faults, neutral voltage rises to **phase-to-ground voltage** (289 
 1. **Stainless steel grid resistors** — robust, low tempco, indoor/outdoor
 2. **Liquid (electrolyte) resistors** — continuously adjustable, self-cooling, larger footprint
 3. **High-power wirewound** — compact, precise, lower continuous rating
-4. **Hybrid (resistor + capacitor)** — "NGR+NBC" combo: resistor for fault, capacitor for GIC (best of both)
+4. **Hybrid (resistor + capacitor)** — NGR+NBC combo: resistor for fault, capacitor for GIC (best of both)
 
 **Chile Application — NGR vs. NBC Comparison:**
 
@@ -1195,7 +1195,7 @@ For **new transformers** and **major refurbishments**, design-level mitigations 
 
 **Integrated Deployment Plan** combining vulnerability ranking (Ch. 2.7), technology selection (Ch. 3.1–3.5), and cost-benefit (Ch. 3.6). Phased over 2026–2030 aligned with CEN PET cycles.
 
-**Phase 1: Immediate (2026–2027) — "No-Regret" Critical Node Hardening**
+**Phase 1: Immediate (2026–2027) — No-Regret Critical Node Hardening**
 | Action | Substations | Technology | Units | CAPEX | Lead Time | Owner |
 |--------|-------------|------------|-------|-------|-----------|-------|
 | NBC Installation | Diego de Almagro (500kV ×2) | 5,000 μF NBC + MOV | 2 | $800k | 6 mo | Transelec |
@@ -1206,7 +1206,7 @@ For **new transformers** and **major refurbishments**, design-level mitigations 
 | Monitoring Deploy | All above + Polpaico, Centinela, Spence | Hall CT ×2/xfmr | 30 | $150k | 3 mo | CEN/Transelec |
 | **Phase 1 Total** | | | **17 devices** | **$3.2M** | | |
 
-**Regulatory Pathway:** SEC Resolution (Superintendencia de Electricidad y Combustibles) — "Medidas de Mitigación GIC" — fast-track for critical infrastructure. CEN PET 2025 includes GIC mitigation line item.
+**Regulatory Pathway:** SEC Resolution (Superintendencia de Electricidad y Combustibles) — Medidas de Mitigación GIC — fast-track for critical infrastructure. CEN PET 2025 includes GIC mitigation line item.
 
 **Phase 2: Near-Term (2027–2028) — High-Priority Expansion**
 | Action | Substations | Technology | Units | CAPEX | Lead Time | Owner |
@@ -1556,7 +1556,7 @@ Per TPL-007 R4, CAP must include:
 
 ### 4.5 IEEE 1313.2 — GIC Modeling & Assessment Procedures
 
-**IEEE 1313.2-2023** ("IEEE Guide for Geomagnetic Disturbance (GMD) Modeling and Assessment of Power Systems") is the **primary technical reference** for GIC analysis methodology. This section maps its procedures to Chile's implementation.
+**IEEE 1313.2-2023** (IEEE Guide for Geomagnetic Disturbance (GMD) Modeling and Assessment of Power Systems) is the **primary technical reference** for GIC analysis methodology. This section maps its procedures to Chile's implementation.
 
 **IEEE 1313.2 Core Methodology:**
 
@@ -2021,7 +2021,7 @@ IF (GIC_neutral > 300 A for >10 sec) OR
    3. Shed Non-Critical Loads (if generation < load) — <100 ms
    4. Ramp Aegis-Forge Modules to Match Load — <5 sec
    5. Confirm Stable Island (V/f within bounds) — <10 sec
-   6. Signal Mining DCS: "ISLAND MODE ACTIVE"
+   6. Signal Mining DCS: ISLAND MODE ACTIVE
 ELSE:
    MAINTAIN GRID-CONNECTED
 ```
@@ -2065,7 +2065,7 @@ ELSE:
 
 **Chile Regulatory Framework for Islanding:**
 - **Current:** SEC permits islanding for **safety/emergency** only (not economic)
-- **Proposed (DOC-11 recommendation):** **"GIC Resilience Islanding" category** — pre-approved for:
+- **Proposed (DOC-11 recommendation):** **GIC Resilience Islanding category** — pre-approved for:
   - GIC > threshold (measured)
   - Voltage < 0.85 pu (measured)
   - CEN GMD Alert Level 3+
@@ -2279,7 +2279,7 @@ Layer 4 (2030+, $150M each): Aegis-Forge at Collahuasi, Los Pelambres, Andina
 | **Thermal management** | Liquid cooling, ceramic substrates |
 | **Cost** | $500–2000/W (vs. $50/W IM) — justified for critical apps |
 
-**Cross-references:** MDPI "Ultrasonic Motors for Extreme Environments" (2024); Frontiers in Mechanical Engineering (2023); CSMFAB thermal cascade separators; Ch. 5.3 (Aegis-Forge integration); DOC-06 (CSM motor portfolio).
+**Cross-references:** MDPI Ultrasonic Motors for Extreme Environments (2024); Frontiers in Mechanical Engineering (2023); CSMFAB thermal cascade separators; Ch. 5.3 (Aegis-Forge integration); DOC-06 (CSM motor portfolio).
 
 **Formulas:** Traveling wave equation; piezoelectric constitutive relations; efficiency vs. frequency; friction drive mechanics.
 
@@ -2712,7 +2712,7 @@ CSM_GIC_Motor_Spec:
 
 ### 7.3 SENAPRED National Emergency Protocols
 
-**SENAPRED (Servicio Nacional de Prevención y Respuesta ante Desastres)** — formerly ONEMI — is Chile's **national civil protection agency**. Space weather is recognized as a **"natural hazard"** in Chile's **National Risk Management Policy (2022)** and **SENAPRED Strategic Plan 2023–2027**.
+**SENAPRED (Servicio Nacional de Prevención y Respuesta ante Desastres)** — formerly ONEMI — is Chile's **national civil protection agency**. Space weather is recognized as a **natural hazard** in Chile's **National Risk Management Policy (2022)** and **SENAPRED Strategic Plan 2023–2027**.
 
 **Legal Framework:**
 - **Law 21.364 (2021):** National Disaster Risk Management System — includes space weather
@@ -2757,9 +2757,9 @@ CSM_GIC_Motor_Spec:
 | **Quaternary** | HF Radio (SHOA/SENAPRED) | Voice | Last resort |
 
 **Public Information Protocol:**
-- **Pre-Event (18–36 hr):** "Space Weather Watch" — prepare electronics, fuel, water
-- **Imminent (1–6 hr):** "Space Weather Warning" — avoid travel, charge devices
-- **During:** "Emergency Alert" (SAE/Cell Broadcast) — stay indoors, conserve power
+- **Pre-Event (18–36 hr):** Space Weather Watch — prepare electronics, fuel, water
+- **Imminent (1–6 hr):** Space Weather Warning — avoid travel, charge devices
+- **During:** Emergency Alert (SAE/Cell Broadcast) — stay indoors, conserve power
 - **Post-Event:** Recovery updates, safety instructions, scam warnings
 
 **Cross-references:** Law 21.364; Decree 156; SENAPRED Strategic Plan; CEN Emergency Procedures; Ch. 7.1 (NOAA); Ch. 7.2 (SHOA); Ch. 7.4 (load shedding); Ch. 7.5 (operator timeline); Ch. 5.4 (islanding).
@@ -2798,10 +2798,10 @@ CSM_GIC_Motor_Spec:
 ```python
 # GTLS Load Shedding Sequence (Diego de Almagro Cluster)
 SHED_SEQUENCE = [
-    {"priority": 4, "loads": ["Stockpile conveyors", "Workshop", "Admin", "EV charging"], "MW": 150},
-    {"priority": 3, "loads": ["Non-critical pumps", "Secondary crushers", "Lighting", "HVAC"], "MW": 300},
-    {"priority": 2, "loads": ["Dewatering (partial)", "Reagent prep", "Ventilation (reduced)"], "MW": 500},
-    {"priority": 1, "loads": ["SAG mills", "Primary crushers", "Separation", "Water", "Comms"], "MW": 0},  # NEVER SHED
+    {priority: 4, loads: [Stockpile conveyors, Workshop, Admin, EV charging], MW: 150},
+    {priority: 3, loads: [Non-critical pumps, Secondary crushers, Lighting, HVAC], MW: 300},
+    {priority: 2, loads: [Dewatering (partial), Reagent prep, Ventilation (reduced)], MW: 500},
+    {priority: 1, loads: [SAG mills, Primary crushers, Separation, Water, Comms], MW: 0},  # NEVER SHED
 ]
 ```
 
@@ -2836,9 +2836,9 @@ SHED_SEQUENCE = [
 | **T-36 to T-24** | **Watch** | CME detected (SOHO/LASCO); ENLIL run; speed >1,500 km/s | 1. **GMD Watch declared**<br>2. Brief shift crew<br>3. Verify monitoring (Hall CTs, SHOA feed)<br>4. Review GTLS/GTI logic armed<br>5. Notify major loads (mines) | Mines: **GIC Mode ON**; verify islanding readiness; fuel check |
 | **T-24 to T-18** | **Warning** | ENLIL convergence; Earth-directed confirmed; DSCOVR preview | 1. **GMD Warning declared**<br>2. Pre-position VAR (SVC/STATCOM max cap)<br>3. Cancel non-critical outages<br>4. Dispatch synchronous condensers online<br>5. Brief SENAPRED (Yellow→Red) | Mines: **Non-critical shed prep**; Aegis: **grid-forming standby** |
 | **T-18 to T-12** | **Imminent** | DSCOVR: Bz southward >20 nT; Vsw >800 km/s; dynamic pressure rising | 1. **GMD Alert declared**<br>2. **GTLS/GTI AUTO ARMED** (remove manual block)<br>3. Maximize hydro generation (Rapel, Colbún)<br>4. Reduce intertie transfers (conserve margin)<br>5. Activate CEN crisis desk (24/7) | Mines: **Islanding armed**; Aegis: **grid-forming mode**; non-critical shed |
-| **T-12 to T-6** | **Impact Approaching** | DSCOVR: Bz >50 nT sustained; Kp rising; SHOA dB/dt rising | 1. Monitor real-time GIC dashboard<br>2. Execute GTLS if triggered<br>3. Coordinate with SENAPRED (Red)<br>4. Public comms: "Grid stress, conserve power"<br>3. Prepare blackstart units (Rapel, Colbún) | Aegis: **ISLAND IF GTI TRIGGERED**; mines on island power |
+| **T-12 to T-6** | **Impact Approaching** | DSCOVR: Bz >50 nT sustained; Kp rising; SHOA dB/dt rising | 1. Monitor real-time GIC dashboard<br>2. Execute GTLS if triggered<br>3. Coordinate with SENAPRED (Red)<br>4. Public comms: Grid stress, conserve power<br>3. Prepare blackstart units (Rapel, Colbún) | Aegis: **ISLAND IF GTI TRIGGERED**; mines on island power |
 | **T-6 to T-0** | **Main Phase** | Peak dB/dt; GIC > thresholds; voltage dips | 1. **GTI AUTO EXECUTES** if thresholds met<br>2. Monitor island stability (Aegis clusters)<br>3. Shed per GTLS if not islanded<br>4. Protect transformers (trip if hotspot >160°C)<br>5. Log all actions for forensics | **ISLANDED — Continuous operation** |
-| **T-0 to T+12** | **Recovery** | Bz northward; dB/dt decaying; GIC <50 A | 1. Verify GIC decay (monitoring)<br>2. Resynchronize islands (synchrocheck)<br>3. Restore loads: Priority 1→4 staggered<br>4. Assess transformer health (hotspot, gas)<br>5. SENAPRED: "All Clear" when stable | Aegis: **Reconnect to grid**; mines resume grid import |
+| **T-0 to T+12** | **Recovery** | Bz northward; dB/dt decaying; GIC <50 A | 1. Verify GIC decay (monitoring)<br>2. Resynchronize islands (synchrocheck)<br>3. Restore loads: Priority 1→4 staggered<br>4. Assess transformer health (hotspot, gas)<br>5. SENAPRED: All Clear when stable | Aegis: **Reconnect to grid**; mines resume grid import |
 | **T+12 to T+48** | **Assessment** | Quiet conditions | 1. Forensic analysis (GIC, thermal, protection)<br>2. Transformer DGA, insulation tests<br>3. Report to SEC, SENAPRED, mining<br>4. Update models (Ch. 4.5)<br>5. Insurance/CAT bond claims (Ch. 8) | Damage assessment; restart any tripped units |
 
 **Decision Support Tools (CEN Dashboard):**
@@ -2852,7 +2852,7 @@ SHED_SEQUENCE = [
 **Operator Training & Certification:**
 - **Annual:** GMD Tabletop Exercise (CEN + SENAPRED + Mines + SHOA)
 - **Quarterly:** Simulator Drill (CME scenarios: G3, G4, G5)
-- **Certification:** "GMD Certified Operator" — required for shift lead
+- **Certification:** GMD Certified Operator — required for shift lead
 - **Drill Scenarios:** Carrington-class, 1989-class, 2012-near-miss, AI-forecast error
 
 **Cross-references:** NOAA SWPC; DSCOVR; SHOA; SENAPRED; Ch. 3.5 (monitoring); Ch. 4.1 (VAR); Ch. 4.2 (relays); Ch. 5.4 (islanding); Ch. 7.1 (NOAA); Ch. 7.2 (SHOA); Ch. 7.3 (SENAPRED); Ch. 7.4 (GTLS/GTI); Ch. 8 (CAT bonds).
@@ -2913,7 +2913,7 @@ SHED_SEQUENCE = [
 - **Worker Safety:** Radiation/EMI check (if extreme event)
 
 **Regulatory Reporting (SEC Chile):**
-- **Form:** "Informe de Evento Geomagnético" (SEC format)
+- **Form:** Informe de Evento Geomagnético (SEC format)
 - **Deadline:** 30 calendar days post-event
 - **Contents:** Event timeline, GIC data, impacts, actions, damages, lessons learned
 - **Public Summary:** Anonymized, 90 days
@@ -3002,7 +3002,7 @@ SHED_SEQUENCE = [
 
 **Chile Regulatory Pathway:**
 - **CMF (Comisión para el Mercado Financiero):** CAT Bond framework exists (earthquake)
-- **Extension:** Add **"Space Weather / Geomagnetic"** peril class
+- **Extension:** Add **Space Weather / Geomagnetic** peril class
 - **Tax:** CAT Bond returns **tax-exempt** for Chilean investors (Law 20.780)
 - **Accounting:** IFRS 17 — **insurance contract** treatment for sponsor
 
@@ -3024,7 +3024,7 @@ SHED_SEQUENCE = [
 - **Focus:** Adaptation + Mitigation co-benefits
 - **Eligible:** Grid hardening (adaptation) + Renewable integration (mitigation)
 - **Chile GCF Portfolio (2024):** $500M+ approved — energy, water, coasts
-- **New Window:** **"Critical Infrastructure Resilience"** — includes space weather
+- **New Window:** **Critical Infrastructure Resilience** — includes space weather
 
 **Chile GIC Resilience Bond Structure:**
 
@@ -3096,7 +3096,7 @@ SHED_SEQUENCE = [
 - **Capital:** Donor grants + member premiums + reinsurance + CAT bonds
 - **Governance:** **SPC (Segregated Portfolio Company)** — each peril separate
 
-**Adapting CCRIF for Space Weather (Proposed "SPACERIF"):**
+**Adapting CCRIF for Space Weather (Proposed SPACERIF):**
 
 | CCRIF Element | **Space Weather Adaptation (Chile)** |
 |---------------|-------------------------------------|
@@ -3238,7 +3238,7 @@ Chile's **copper-dominant mining sector** (55% of exports, 10% of GDP) provides 
 
 **Structured Finance Vehicles:**
 
-**1. "Andean GIC Resilience Trust" (SPV):**
+**1. Andean GIC Resilience Trust (SPV):**
 ```
 [Codelco Revenue Pledge: 1% of net revenue → ~$150M/yr]
     │
@@ -3249,7 +3249,7 @@ Chile's **copper-dominant mining sector** (55% of exports, 10% of GDP) provides 
     └── Proceeds → Hardening (Ch. 3.7) + Aegis-Forge (Ch. 5) + Monitoring (Ch. 3.5)
 ```
 
-**2. "Norte Grande Grid Resilience Facility" (Project Finance):**
+**2. Norte Grande Grid Resilience Facility (Project Finance):**
 - **Sponsors:** Transelec (40%), Escondida (20%), Collahuasi (15%), Los Pelambres (15%), Codelco (10%)
 - **Assets:** 500 kV corridor + mining substations + Aegis-Forge clusters
 - **Revenue:** **Regulated tariff (Transelec) + Mining PPAs (fixed + Cu-indexed)**
@@ -3286,7 +3286,7 @@ Chile's **copper-dominant mining sector** (55% of exports, 10% of GDP) provides 
 
 ### 8.6 Layered Risk Financing: Budget → Contingency → CCRIF → CAT Bond
 
-**Comprehensive risk financing strategy** follows the **"protection gap" framework** — layering instruments by **frequency/severity** and **cost efficiency**. Each layer addresses a specific segment of the loss distribution.
+**Comprehensive risk financing strategy** follows the **protection gap framework** — layering instruments by **frequency/severity** and **cost efficiency**. Each layer addresses a specific segment of the loss distribution.
 
 **Loss Distribution — GIC/Geomagnetic Risk (Chile, Post-Hardening):**
 
@@ -3381,12 +3381,12 @@ Chile's **copper-dominant mining sector** (55% of exports, 10% of GDP) provides 
 | **Primary** | Measured data, fundamental physics, regulatory text | SHOA magnetometers, Hall CT readings, IEEE standards, Chilean Law | Direct access / calibration certs |
 | **Secondary** | Peer-reviewed models, validated simulations, official reports | EPRI TR-100450, NERC TPL-007, CEN PET, DOC-01–DOC-10 | Cross-reference + reproducibility |
 | **Tertiary** | Industry reports, consultant studies, conference papers | Vendor specs, mining company disclosures, news | Corroboration required |
-| **Expert Judgment** | Engineering estimates, calibrated assumptions | "Engineering judgment" flagged explicitly | Sensitivity analysis required |
+| **Expert Judgment** | Engineering estimates, calibrated assumptions | Engineering judgment flagged explicitly | Sensitivity analysis required |
 
 **Traceability Matrix Structure (Per Claim):**
 ```
 Claim ID: DOC11-Ch2.6-GIC-001
-Claim: "Diego de Almagro 500 kV GIC = 420 A (Carrington)"
+Claim: Diego de Almagro 500 kV GIC = 420 A (Carrington)
 Value: 420 A
 Unit: Amperes
 Context: Carrington+Coast scenario, peak
@@ -3585,7 +3585,7 @@ Status: VERIFIED
 
 | Claim ID | Claim | Value | Primary Source | Secondary Source | Uncertainty | Status |
 |----------|-------|-------|----------------|------------------|-------------|--------|
-| **DOC11-Ch6.1-PIEZO-001** | Piezo motor zero magnetic field | Physics principle | MDPI "Ultrasonic Motors" (2024) | Frontiers Mech. Eng. (2023) | Fundamental | VERIFIED |
+| **DOC11-Ch6.1-PIEZO-001** | Piezo motor zero magnetic field | Physics principle | MDPI Ultrasonic Motors (2024) | Frontiers Mech. Eng. (2023) | Fundamental | VERIFIED |
 | **DOC11-Ch6.1-PIEZO-002** | Piezo efficiency | 85–94% (rotary) | MDPI 2024 Table 2 | Vendor datasheets (PI, APC) | ±5% | VERIFIED |
 | **DOC11-Ch6.1-PIEZO-003** | Piezo radiation hardness | >1 MGy | MDPI 2024 §4.3 | CSMFAB Test Reports | Factor 2 | VERIFIED |
 | **DOC11-Ch6.2-SYNRM-001** | SynRM no PM → zero GIC mag | Physics principle | IEEE Trans. Ind. Appl. (2021) | ABB/Siemens SynRM Manuals | Fundamental | VERIFIED |

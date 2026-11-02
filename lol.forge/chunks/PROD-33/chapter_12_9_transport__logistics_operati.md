@@ -5,7 +5,7 @@
 | Function | Specification |
 |----------|---------------|
 | **Rail Siding** | Dedicated 2-track, 500 m, 286k lb capacity, covered unloading |
-| **Truck Dock** | 4 bays, 48" dock height, levelers, overhead doors (14'×14') |
+| **Truck Dock** | 4 bays, 48 dock height, levelers, overhead doors (14'×14') |
 | **Crane** | 10t overhead (forge bay), 5t jib (receiving), 2t mobile (depot) |
 | **Forklifts** | 4× 5t electric (indoor), 2× 8t diesel (outdoor yard) |
 | **Conveyance** | Roller conveyor (receiving → warehouse), AGV (warehouse → line) |

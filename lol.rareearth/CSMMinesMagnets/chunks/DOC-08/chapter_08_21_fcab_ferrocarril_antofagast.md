@@ -48,7 +48,7 @@ The Ferrocarril de Antofagasta a Bolivia (FCAB) is the critical rail artery conn
 **Technical Specifications (FCAB Standard F-001/2020, aligned with IRCA 702-1)**:
 | Parameter | Value | Standard | Notes |
 |-----------|-------|----------|-------|
-| **Track Gauge** | 1,000mm (3' 3⅜") | IRCA 702-1 | Meter gauge |
+| **Track Gauge** | 1,000mm (3' 3⅜) | IRCA 702-1 | Meter gauge |
 | **Rail Profile** | 50kg/m (UIC 50) | EN 13674-1 | Upgraded from 40kg/m (2015-2020) |
 | **Sleepers** | Concrete mono-block (60cm spacing) | AREMA 30 | 1,667 sleepers/km |
 | **Ballast Depth** | 300mm (min) | AREMA Ch. 1 | Andesite, Los Andes quarry |

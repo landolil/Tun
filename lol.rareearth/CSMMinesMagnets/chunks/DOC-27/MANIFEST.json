@@ -219,7 +219,7 @@
     "size": 60,
     "sha256": "500de70837d5a0ccbe9bc9c7dadb70ab294545846500bee76588355f9ab6ba4b"
   },
-  "chapter_56_result_5500+_lines__\u2705_\u2265900_tar.md": {
+  "chapter_56_result_5500+_lines__ok_gte900_tar.md": {
     "size": 44,
     "sha256": "c8964ef5c8b77b9c391e05addb35e85e81bf87cc55ac5e9b45943e3c062bb8f8"
   },
@@ -227,7 +227,7 @@
     "size": 70,
     "sha256": "3a2b0798180c907228a2632a7103983947297dc05cccce35e0b6cde425d70839"
   },
-  "chapter_58_result_50+_formulas__\u2705_\u226520_tar.md": {
+  "chapter_58_result_50+_formulas__ok_gte20_tar.md": {
     "size": 43,
     "sha256": "27be8a1f07367a5e50dd5bb5737eebbf21ecaaca4e7ef372a2d53e53f18ba3b5"
   },
@@ -235,7 +235,7 @@
     "size": 246,
     "sha256": "ff4dd60353d4034060c0b2e4a9ab0fab8e529c30fef6f40a90a75f24bf37ec17"
   },
-  "chapter_60_result_320+_cross-refs__\u2705_\u226515_.md": {
+  "chapter_60_result_320+_cross-refs__ok_gte15_.md": {
     "size": 46,
     "sha256": "a85744cc586b2c5afa500deda613c560cc12f5fac5b5d2fc37d1f0a7612864ff"
   },
@@ -243,7 +243,7 @@
     "size": 305,
     "sha256": "a3bf00daf3aa41481a685b3a5153891453bd039b36e0441bcd0131eb96b2939c"
   },
-  "chapter_62_result_25+_standards__\u2705_\u22658_tar.md": {
+  "chapter_62_result_25+_standards__ok_gte8_tar.md": {
     "size": 748,
     "sha256": "8407d1f08ea4afc08bbd79601137e461e283b94a8d5f6039d6b222fa48bb09c4"
   },
@@ -275,7 +275,7 @@
     "size": 125,
     "sha256": "ca9489f310c4d789e351a497b493a75a2589907e984c5759157ec95db561c01e"
   },
-  "chapter_70_result_compressed_to_mdgz_<25_.md": {
+  "chapter_70_result_compressed_to_mdgz_25_.md": {
     "size": 47,
     "sha256": "b2c0ccf96d376f76184e1f6d52cfb943dfabf495a60791e11c644773b06472bd"
   },

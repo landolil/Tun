@@ -67,32 +67,32 @@ How does the inside operator witness the electrical phenomenon into existence? A
 **Gate 1: Batch Recipe Authorization — Electrical Load Profile (PROD-29 Section 4.1)**
 - **Action:** Feedstock UUID scanned → Category A–D → Operator confirms recipe. Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates.
 - **Witness requirement:** Operator verifies recipe power profile matches feedstock composition. Category A (PCBs) = high Z6/Z7 power. Category C (batteries) = high Z3/Z4 power. Wrong profile = thermal runaway or incomplete separation.
-- **Why human:** Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). No sensor measures "Category A-ness" — only composition. Operator judgment maps composition to recipe.
-- **Cognitive checkpoint:** "Does this power profile match what I see in the feed?" — pattern recognition of feedstock vs. recipe.
+- **Why human:** Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). No sensor measures Category A-ness — only composition. Operator judgment maps composition to recipe.
+- **Cognitive checkpoint:** Does this power profile match what I see in the feed? — pattern recognition of feedstock vs. recipe.
 
 **Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)**
 - **Action:** Stage complete → Shift Lead reviews: energy delivered vs. planned, gas composition vs. setpoint, SIF events, anomaly flags, thermal model residuals.
 - **Witness requirement:** For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. For Stage 8: SiO₂ condenser flow verification (mass spec).
-- **Why human:** SIF events are recorded but not interpreted. A "cooling water loss" SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. Anomaly flags are data — operator judges significance.
-- **Cognitive checkpoint:** "Is the electrical state clean for the next stage?" — synthesis of energy, gas, SIF, anomaly data.
+- **Why human:** SIF events are recorded but not interpreted. A cooling water loss SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. Anomaly flags are data — operator judges significance.
+- **Cognitive checkpoint:** Is the electrical state clean for the next stage? — synthesis of energy, gas, SIF, anomaly data.
 
 **Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)**
 - **Action:** Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37).
 - **Witness requirement:** Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. Blockchain record immutable.
-- **Why human:** Risk acceptance is organizational, not algorithmic. No mathematical function accepts "we'll run with SIF-00-07 bypassed because NGR monitor is drifting." Human judgment weighs production loss vs. safety margin.
-- **Cognitive checkpoint:** "Do I accept this risk for this duration with these compensations?" — explicit risk acceptance.
+- **Why human:** Risk acceptance is organizational, not algorithmic. No mathematical function accepts we'll run with SIF-00-07 bypassed because NGR monitor is drifting. Human judgment weighs production loss vs. safety margin.
+- **Cognitive checkpoint:** Do I accept this risk for this duration with these compensations? — explicit risk acceptance.
 
 **Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)**
 - **Action:** Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. Authorizes staged grid reconnect with utility coordination.
 - **Witness requirement:** Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. Operator verifies model-predicted $dT/dt$ < 100°C/s.
 - **Why human:** Grid coordination requires utility communication (voice, not data diode). Thermal shock judgment combines model prediction + operator experience. No algorithm coordinates with utility dispatcher.
-- **Cognitive checkpoint:** "Did the forge survive the storm intact?" — holistic electrical-thermal survival judgment.
+- **Cognitive checkpoint:** Did the forge survive the storm intact? — holistic electrical-thermal survival judgment.
 
 **Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)**
 - **Action:** Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run.
 - **Witness requirement:** Reviews all 10 test reports, signs each. Any deviation from spec → NCR (PROD-28) → root cause → re-test.
-- **Why human:** Test data is necessary but not sufficient. Engineer judges: "Is the 2.3 ms TSN latency spike in CT-05 acceptable?" (Yes, <100 μs guard band). "Is the 0.5 pC PD on XFMR acceptable?" (Yes, <5 pC limit). Data + judgment = sign-off.
-- **Cognitive checkpoint:** "Does this electrical system meet spec in the real world?" — professional engineering judgment.
+- **Why human:** Test data is necessary but not sufficient. Engineer judges: Is the 2.3 ms TSN latency spike in CT-05 acceptable? (Yes, <100 μs guard band). Is the 0.5 pC PD on XFMR acceptable? (Yes, <5 pC limit). Data + judgment = sign-off.
+- **Cognitive checkpoint:** Does this electrical system meet spec in the real world? — professional engineering judgment.
 
 #### The Participation Principle
 

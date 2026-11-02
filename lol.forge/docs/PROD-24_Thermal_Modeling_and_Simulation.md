@@ -881,29 +881,29 @@ Where $\mathbf{a}$ = 12 modal coefficients, $u$ = power input vector (8 zones)
 
 ```json
 {
-  "rom_type": "POD-Galerkin_Thermal",
-  "version": "1.0",
-  "mesh": { "nodes": 847, "elements": 4120, "type": "hex" },
-  "basis": {
-    "n_modes": 12,
-    "energy_captured": 0.999,
-    "phi_matrix": [[...]],  // 847 × 12
-    "singular_values": [...]
+  rom_type: POD-Galerkin_Thermal,
+  version: 1.0,
+  mesh: { nodes: 847, elements: 4120, type: hex },
+  basis: {
+    n_modes: 12,
+    energy_captured: 0.999,
+    phi_matrix: [[...]],  // 847 × 12
+    singular_values: [...]
   },
-  "operators": {
-    "A": [[...]],  // 12 × 12 linear
-    "B": [[...]],  // 12 × 8 input
-    "N_coeffs": {...}  // quadratic nonlinearity tensors
+  operators: {
+    A: [[...]],  // 12 × 12 linear
+    B: [[...]],  // 12 × 8 input
+    N_coeffs: {...}  // quadratic nonlinearity tensors
   },
-  "material_props": {
-    "k(T)": "piecewise_cubic",
-    "rho_cp(T)": "piecewise_cubic",
-    "eps": 0.85
+  material_props: {
+    k(T): piecewise_cubic,
+    rho_cp(T): piecewise_cubic,
+    eps: 0.85
   },
-  "validation": {
-    "test_cases": 50,
-    "max_error": 0.02,
-    "rms_error": 0.005
+  validation: {
+    test_cases: 50,
+    max_error: 0.02,
+    rms_error: 0.005
   }
 }
 ```

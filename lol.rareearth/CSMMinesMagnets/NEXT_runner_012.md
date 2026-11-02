@@ -110,7 +110,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-15/ FinishedWork/DOC-15_*.md.gz FinishedWork/intros/DOC-15_*.md
-git commit -m "DOC-15: Session Resume Framework — [summary]"
+git commit -m DOC-15: Session Resume Framework — [summary]
 git tag runner-012-complete
 git push origin --tags
 

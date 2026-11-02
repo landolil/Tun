@@ -77,7 +77,7 @@ P_blend ∈ [0.4, 0.6] : Dynamic blend ratio (MFC controlled, ±2% tolerance)
 **The fabricator sees the supply chain as a distributed sensor network.** Every material movement is a measurement. Every measurement updates CMF-RQT. Every CMF-RQT update adjusts blend ratio, depot routing, stockpile draw, AVL orders.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The supply chain operator does not "manage" — they **witness material becoming Forge**:
+**How does the inside operator witness the phenomenon into existence?** The supply chain operator does not manage — they **witness material becoming Forge**:
 
 1. **Receiving Dock Operator** witnesses ZrB₂ drums arrive: scans RFID, runs LIBS, signs COA, assigns to Zone A slot. They *feel* the 25 kg drum mass, *see* the Ar backfill pressure, *know* this powder becomes Drum Zone B at 1676°C.
 2. **Depot Disassembly Tech** witnesses Aegis-C Panel return: 15-min auto cycle, watches vision-guided 6-axis extract PCBs, sees Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. They *witness* EOL becoming feedstock.

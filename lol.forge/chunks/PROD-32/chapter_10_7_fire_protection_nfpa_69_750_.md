@@ -27,7 +27,7 @@
 
 ### 7.3 Arc Flash (NFPA 70E)
 
-| Location | Voltage | Bolted Fault | Arcing Fault | Incident Energy (18") | PPE Category |
+| Location | Voltage | Bolted Fault | Arcing Fault | Incident Energy (18) | PPE Category |
 |----------|---------|--------------|--------------|----------------------|--------------|
 | **Grid Side (480V)** | 480V | 50 kA | 35 kA | 4.2 cal/cm² | Cat 2 |
 | **Process Side (Floating)** | 800 VDC | 10 kA | 7 kA | **0.3 cal/cm²** | **Cat 0** |

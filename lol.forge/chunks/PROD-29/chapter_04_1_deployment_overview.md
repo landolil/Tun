@@ -2,7 +2,7 @@
 
 ### 1.1 Deployment Philosophy
 
-The Aegis-Forge I is not "installed" — it is **commissioned into operation**. The distinction is fundamental: a conventional machine arrives, is bolted down, and started. The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. Deployment is the **continuation of the synchronization function** (PROD-27 Keymaker Key) from factory gates to site gates:
+The Aegis-Forge I is not installed — it is **commissioned into operation**. The distinction is fundamental: a conventional machine arrives, is bolted down, and started. The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. Deployment is the **continuation of the synchronization function** (PROD-27 Keymaker Key) from factory gates to site gates:
 
 $$SG_{site} = SG_4 \land \bigwedge_{i=1}^{10} IC_i \land \bigwedge_{j=1}^{5} SAT_j$$
 

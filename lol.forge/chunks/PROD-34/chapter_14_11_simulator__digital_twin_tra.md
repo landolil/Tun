@@ -7,7 +7,7 @@
 | **Physics Engine** | PROD-24 thermal model (500 kW step → 1800°C in 42 s) + PROD-10 EM model |
 | **Fidelity** | 95% validated against CSMFAB0108 test data (PROD-24 V&V) |
 | **Hardware** | 4× RTX 6000 Ada, 128 GB RAM, 10 Gbps TSN interface to SCADA replica |
-| **Visualization** | 6× 24" monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) |
+| **Visualization** | 6× 24 monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) |
 | **Interfaces** | L0 FPGA replica, L1 RTU (ARM), L2 PLC (Codesys), L3 SCADA (Ignition) |
 
 ### 11.2 Scenario Library (50+ Scenarios)

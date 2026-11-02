@@ -109,12 +109,12 @@ Thresholds: Λ > 10 → SEV-3 (NCR); Λ > 100 → SEV-2 (CAPA); Λ > 1000 → SE
 **The fabricator sees the T&E system as a distributed test oracle.** Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. Every measurement updates RBTO. Every RBTO update adjusts test thresholds, SIF logic, cyber detection, HFE scenarios, environmental limits.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The test engineer does not "run test scripts" — they **witness the test becoming the Forge's proof of existence**:
+**How does the inside operator witness the phenomenon into existence?** The test engineer does not run test scripts — they **witness the test becoming the Forge's proof of existence**:
 
-1. **SIS Engineer at CT-04 (SIS Proof Test)** witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. They *witness* the safety system proving it protects — no report replaces seeing the voter agree 24 times. The witness signs: "I saw the system protect itself."
+1. **SIS Engineer at CT-04 (SIS Proof Test)** witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. They *witness* the safety system proving it protects — no report replaces seeing the voter agree 24 times. The witness signs: I saw the system protect itself.
 2. **Quality Engineer at SG-2 (Flange Torque Ceremony)** witnesses 24 bolts at 160 N·m ±5 N·m: dual torque wrenches, AE silence on final 10 N·m, tactile breakaway confirmation. They *witness* the mechanical joint becoming trust — no sensor replaces the mechanic's hand feeling uniform stretch across PEEK CF40 flange.
 3. **Metrology Engineer at SG-3 (FBG Calibration)** witnesses 384 channels at 5 reference temps: automated sweep, residual plots, R² > 0.999, drift <0.1 nm/°C. They *witness* the photonic nervous system calibrating itself — the human eye catches the systematic offset (Zone 3 +0.3 nm) that the algorithm accepts.
-4. **Plant Manager at SAT-05 (First Hot Batch)** witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. The twin says PASS; the witness *sees the metal flow*. They *witness* the Forge becoming a material engine. The witness says: "This is what we built for."
+4. **Plant Manager at SAT-05 (First Hot Batch)** witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. The twin says PASS; the witness *sees the metal flow*. They *witness* the Forge becoming a material engine. The witness says: This is what we built for.
 5. **Test Director at CT-10 Gate** witnesses all 6 batches PASS: mass balance >99%, all outputs spec, twin sync <3σ, zero SIF trips, zero NCRs. They *witness* the integrated system earning its shipment authorization. The dual-signature (Quality + Plant Manager) on `fat-vX.Y` tag is the witness made permanent.
 
 **No automated PASS/FAIL without human witness at the four gates. No test report without blockchain anchor. No shipment without CT-04 + CT-10 + witness signatures. Direct sensory-motor coupling to the RBTO tensor.** The test engineer's hands are on the torque wrench, the FBG interrogator, the SIS test panel, the mass spec readout. They are inside the RBTO.
@@ -1073,8 +1073,8 @@ Each test generates a **Data Package** uploaded to DQR blockchain:
 ### C.1 IR-01: SIF Bypass Authorization
 
 ```yaml
-scenario: "IR-01 SIF Bypass"
-mitre_attack: "T0883 (Safety System Bypass)"
+scenario: IR-01 SIF Bypass
+mitre_attack: T0883 (Safety System Bypass)
 preconditions:
   - Forge operational, nominal batch
   - Dual-key tokens (Shift Lead + Safety Eng) available
@@ -1102,8 +1102,8 @@ success_criteria:
 ### C.2 IR-02: FBG Tamper
 
 ```yaml
-scenario: "IR-02 FBG Tamper"
-mitre_attack: "T0831 (Sensor Manipulation)"
+scenario: IR-02 FBG Tamper
+mitre_attack: T0831 (Sensor Manipulation)
 preconditions:
   - Forge at Stage 8 (2200°C)
   - 384 FBG channels nominal
@@ -1129,8 +1129,8 @@ success_criteria:
 ### C.3 IR-03: Firmware Compromise
 
 ```yaml
-scenario: "IR-03 Firmware Supply Chain"
-mitre_attack: "T1195.002 (Supply Chain Compromise)"
+scenario: IR-03 Firmware Supply Chain
+mitre_attack: T1195.002 (Supply Chain Compromise)
 preconditions:
   - GaN Systems (SUP-001) pushes RTU firmware v3.1.0
   - TUF repo updated, SBOM signed, in-toto attested
@@ -1157,8 +1157,8 @@ success_criteria:
 ### C.4 IR-04: Carrington+Cyber
 
 ```yaml
-scenario: "IR-04 Carrington + Cyber"
-mitre_attack: "T1499 (Endpoint Denial of Service) + GIC"
+scenario: IR-04 Carrington + Cyber
+mitre_attack: T1499 (Endpoint Denial of Service) + GIC
 preconditions:
   - NOAA GIC warning: Kp=9, 5000 nT/s expected in 2 hr
   - Forge at Stage 6 (Copper, 1150°C)
@@ -1188,8 +1188,8 @@ success_criteria:
 ### C.5 IR-05: TSN Corruption
 
 ```yaml
-scenario: "IR-05 TSN Gate Control List Corruption"
-mitre_attack: "T1498 (Network Denial of Service) - TSN specific"
+scenario: IR-05 TSN Gate Control List Corruption
+mitre_attack: T1498 (Network Denial of Service) - TSN specific
 preconditions:
   - TSN frozen schedule (PROD-23 commitment #4)
   - VLAN 10 (SIS) highest priority, 200 μs slice
@@ -1214,8 +1214,8 @@ success_criteria:
 ### C.6 IR-06: PTP Compromise
 
 ```yaml
-scenario: "IR-06 PTP Grandmaster Spoof"
-mitre_attack: "T1556.006 (Multi-Factor Authentication Bypass) - PTP specific"
+scenario: IR-06 PTP Grandmaster Spoof
+mitre_attack: T1556.006 (Multi-Factor Authentication Bypass) - PTP specific
 preconditions:
   - GNSS+OCXO grandmaster (PROD-23)
   - All nodes boundary clocks, 24h holdover
@@ -1260,26 +1260,26 @@ success_criteria:
 
 ```json
 {
-  "scenario": "HFE-04",
-  "operator_ids": ["OP-2026-042", "OP-2026-088"],
-  "start_time": "2026-11-03T14:00:00Z",
-  "end_time": "2026-11-03T14:15:00Z",
-  "metrics": {
-    "task_completion_time_sec": 420,
-    "expert_baseline_sec": 380,
-    "completion_ratio": 1.105,
-    "errors_critical": 0,
-    "errors_minor": 1,
-    "sagat_score": 0.95,
-    "nasa_tlx": 55,
-    "alarm_count": 12,
-    "hmi_response_times_ms": {"L2": 180, "L3": 120, "L4": 35}
+  scenario: HFE-04,
+  operator_ids: [OP-2026-042, OP-2026-088],
+  start_time: 2026-11-03T14:00:00Z,
+  end_time: 2026-11-03T14:15:00Z,
+  metrics: {
+    task_completion_time_sec: 420,
+    expert_baseline_sec: 380,
+    completion_ratio: 1.105,
+    errors_critical: 0,
+    errors_minor: 1,
+    sagat_score: 0.95,
+    nasa_tlx: 55,
+    alarm_count: 12,
+    hmi_response_times_ms: {L2: 180, L3: 120, L4: 35}
   },
-  "rct_update": {
-    "operator_042": {"HFE-04": 0.92},
-    "operator_088": {"HFE-04": 0.88}
+  rct_update: {
+    operator_042: {HFE-04: 0.92},
+    operator_088: {HFE-04: 0.88}
   },
-  "disposition": "PASS"
+  disposition: PASS
 }
 ```
 

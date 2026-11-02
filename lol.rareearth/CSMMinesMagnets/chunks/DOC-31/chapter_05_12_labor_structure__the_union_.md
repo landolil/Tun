@@ -36,7 +36,7 @@
 | **Migrant Workforce** | 18% | 24% | **28%** | Managed integration |
 
 **Key Programs**:
-- **Codelco "Mujer Minera"**: 500 women trained 2020–2024, 60% placement
+- **Codelco Mujer Minera**: 500 women trained 2020–2024, 60% placement
 - **Sernameg + Codelco**: Childcare centers at 3 campamentos (capacity 300)
 - **Diversity Clause in Collective Agreements**: 2023 — harassment protocol, parental leave equity
 

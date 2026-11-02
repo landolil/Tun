@@ -4,29 +4,29 @@
 
 ```json
 {
-  "product_uuid": "CSM-108-EMBARK-WALL-001-2026-03-15",
-  "manufacture": {
-    "forge_batch": "FB-2026-11-02-08",
-    "stages": ["0","1","2","3","4","5","6","7","8"],
-    "material_lots": {
-      "ZrB2-SiC": "LOT-ZR-2026-10-15-GEN-03",
-      "Elium": "LOT-EL-2026-10-10-BATCH-42",
-      "Basalt": "LOT-BA-2026-09-20-FIELD-07",
-      "YInMn": "LOT-YM-2026-10-05-IN-003"
+  product_uuid: CSM-108-EMBARK-WALL-001-2026-03-15,
+  manufacture: {
+    forge_batch: FB-2026-11-02-08,
+    stages: [0,1,2,3,4,5,6,7,8],
+    material_lots: {
+      ZrB2-SiC: LOT-ZR-2026-10-15-GEN-03,
+      Elium: LOT-EL-2026-10-10-BATCH-42,
+      Basalt: LOT-BA-2026-09-20-FIELD-07,
+      YInMn: LOT-YM-2026-10-05-IN-003
     },
-    "energy_kwh": 412,
-    "co2e_kg": -115
+    energy_kwh: 412,
+    co2e_kg: -115
   },
-  "deployment": {
-    "site": "CSM-DEPLOY-NE-04",
-    "install_date": "2026-04-01",
-    "service_hours": 43800
+  deployment: {
+    site: CSM-DEPLOY-NE-04,
+    install_date: 2026-04-01,
+    service_hours: 43800
   },
-  "return": {
-    "trigger": "upgrade_swap",
-    "depot": "PHX-PRIMARY-NA-01",
-    "disassembly_date": "2031-04-15",
-    "reentry_forge_batch": "FB-2031-04-20-03"
+  return: {
+    trigger: upgrade_swap,
+    depot: PHX-PRIMARY-NA-01,
+    disassembly_date: 2031-04-15,
+    reentry_forge_batch: FB-2031-04-20-03
   }
 }
 ```

@@ -52,7 +52,7 @@ At 10 kHz:
 - But Fe pieces are large → hysteresis heating dominates (μ_r × f = 200 × 2000 = 400,000)
 - Total Fe heating: 10-20× Al at same B-field
 
-**The frequency ladder IS the separation mechanism:** Each frequency "unlocks" one material class while leaving others solid or poorly coupled.
+**The frequency ladder IS the separation mechanism:** Each frequency unlocks one material class while leaving others solid or poorly coupled.
 
 ### 3.4 Stage 4 Detail — Indium First Strategy at 50 kHz
 

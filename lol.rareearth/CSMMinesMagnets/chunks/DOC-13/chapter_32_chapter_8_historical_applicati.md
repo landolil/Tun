@@ -19,7 +19,7 @@
 | **Williams** | Lock: Indigenous consent (Law 19.253). Key: FBC/CDC trusts. Turn: No project without Consulta + equity. | Communities are not stakeholders — they are constraint segments. |
 | **Keymaker** | Lock: Social license failure (41% unresolved). Key: FBC 15% + CDC 15% FCF. Turn: Consent = binary (trust chartered). | Consent = CSV[c₄] bit. |
 | **El Segundo** | Mirror: 9 chapter community metrics. Participation: 135 subtask witness acts. Protocol: Phase 1 foundation. | Human terrain mapped at participatory density. |
-| **Baker Street** | Exhibit B: CONADI registry + community accords. Deduction: Only equity participation resolves consent. | "Consultation" eliminated. "Binding agreement" remains. |
+| **Baker Street** | Exhibit B: CONADI registry + community accords. Deduction: Only equity participation resolves consent. | Consultation eliminated. Binding agreement remains. |
 | **SHIELD** | Calm: Protest → Trust activation. Resilience: Layer 2 (social credit). Continuity: Maps persist. | Horizon: Intergenerational equity. |
 
 #### 8.1.3 DOC-03: Mutual Benefit Frameworks
@@ -29,7 +29,7 @@
 | **Williams** | Lock: Royalty law (21.210). Key: Equity + tech transfer. Turn: 15% FCF → FBC, 15% → CDC. | Value return forced by law + physics. |
 | **Keymaker** | Lock: Benefit leakage. Key: Blockchain FCF distribution. Turn: Smart contract = binary. | FCF flow = CSV[c₄] verification. |
 | **El Segundo** | Mirror: 9 chapter benefit metrics. Participation: 135 witness acts. Protocol: Phase 1 foundation. | Benefit density = witness acts per community. |
-| **Baker Street** | Exhibit D: Royalty law + trust charters. Deduction: Only direct equity + tech transfer satisfies. | "CSR spending" eliminated. "Equity participation" remains. |
+| **Baker Street** | Exhibit D: Royalty law + trust charters. Deduction: Only direct equity + tech transfer satisfies. | CSR spending eliminated. Equity participation remains. |
 | **SHIELD** | Calm: Political change → Trust governance. Resilience: Layer 6 (equity buffer). Continuity: Charters persist. | Horizon: Civilizational wealth transformation. |
 
 ---
@@ -63,7 +63,7 @@
 | **Williams** | Lock: DFARS 2027 + Carrington grid. Key: Blockchain traceability + GFM-native. Turn: DFARS-by-design, GFM-native axioms. | Two locks, two keys, two turns. |
 | **Keymaker** | Lock: Traceability gap (100% pre-pipeline). Key: Mine→Magnet→Motor blockchain. Turn: CSV[c₆] binary. | Traceability = single primitive. |
 | **El Segundo** | Mirror: 9 chapter integration metrics. Participation: 135 witness acts. Protocol: Phase 2a core. | Integration density = witness acts per interface. |
-| **Baker Street** | Exhibit D: CSM SPA + DFARS cert. Exhibit E: Governing law clauses. Deduction: Only Chilean origin qualifies. | "Chinese supply" eliminated. "Chilean qualifying" remains. |
+| **Baker Street** | Exhibit D: CSM SPA + DFARS cert. Exhibit E: Governing law clauses. Deduction: Only Chilean origin qualifies. | Chinese supply eliminated. Chilean qualifying remains. |
 | **SHIELD** | Calm: DFARS deadline → Fallback supply. Resilience: Layer 5 (insurance). Continuity: Offtake persists. | Horizon: Technology sovereignty. |
 
 ---
@@ -77,7 +77,7 @@
 | **Williams** | Lock: Mining Code + Env Law + Indigenous Law + Water Code. Key: Aegis-Forge zero-water + CRMA fast-track. Turn: Water Code N/A, CRMA strategic. | Regulatory pathway forced by technology. |
 | **Keymaker** | Lock: 4 regulatory failure modes. Key: 4 binary pathways. Turn: All verified via primary sources. | Regulatory = 4 CSV bits. |
 | **El Segundo** | Mirror: 11 chapter regulatory metrics. Participation: 165 witness acts. Protocol: Phase 2b recursion. | Regulatory density highest in pipeline. |
-| **Baker Street** | Exhibits A-E for each law. Deduction: Only Aegis-Forge resolves Water Code. | "Desalination" eliminated. "Zero-water" remains. |
+| **Baker Street** | Exhibits A-E for each law. Deduction: Only Aegis-Forge resolves Water Code. | Desalination eliminated. Zero-water remains. |
 | **SHIELD** | Calm: RCA rejection → CRMA appeal. Resilience: Layer 3 (CAT for regulatory). Continuity: Pathway persists. | Horizon: Constitutional alignment. |
 
 #### 8.3.2 DOC-08: Port & Logistics Corridors
@@ -101,7 +101,7 @@
 | **Williams** | Lock: CSM motor physics (Fe₁₆N₂ 27 MGOe). Key: Grade specs from motor design. Turn: N48SH min, SmCo 2:17, Fe₁₆N₂ spec. | Specs forced by motor, not market. |
 | **Keymaker** | Lock: Grade ambiguity. Key: Physics-derived specs. Turn: Binary grade verification. | Specs = CSV[c₅] verification. |
 | **El Segundo** | Mirror: 8 chapter spec metrics. Participation: 120 witness acts. Protocol: Phase 3a. | Spec density = witness acts per grade. |
-| **Baker Street** | Exhibit C: IEC 60404. Exhibit D: CSM grade specs. Deduction: Only physics-derived specs valid. | "Commercial grades" eliminated. "Motor-derived" remains. |
+| **Baker Street** | Exhibit C: IEC 60404. Exhibit D: CSM grade specs. Deduction: Only physics-derived specs valid. | Commercial grades eliminated. Motor-derived remains. |
 | **SHIELD** | Calm: Dy/Tb shortage → Fe₁₆N₂/SmCo. Resilience: Layer 2 (R&D credit). Continuity: Spec DB persists. | Horizon: REE-free transition. |
 
 #### 8.4.2 DOC-10: Magnet Manufacturing Supply Chain
@@ -121,7 +121,7 @@
 | **Williams** | Lock: Carrington physics (GIC >100A). Key: GFM + DC microgrid + neutral blockers. Turn: All critical path GFM-native. | Grid hardening forced by physics. |
 | **Keymaker** | Lock: 4 GIC failure modes. Key: 4 binary hardening measures. Turn: Theory→History (Hydro-Québec). | GIC hardening = 4 CSV bits. |
 | **El Segundo** | Mirror: 9 chapter hardening metrics. Participation: 135 witness acts. Protocol: Phase 3a. | Hardening density = witness acts per measure. |
-| **Baker Street** | Exhibit A: NASA/NOAA models. Exhibit D: CAT bonds. Deduction: Only GFM+DC survives Carrington. | "Synchronous condensers" eliminated. "GFM+DC" remains. |
+| **Baker Street** | Exhibit A: NASA/NOAA models. Exhibit D: CAT bonds. Deduction: Only GFM+DC survives Carrington. | Synchronous condensers eliminated. GFM+DC remains. |
 | **SHIELD** | Calm: GIC event → GFM islanding. Resilience: Layer 3 (CAT bond). Continuity: Hardening spec persists. | Horizon: Civilizational infrastructure. |
 
 ---
@@ -135,7 +135,7 @@
 | **Williams** | Lock: SEN inertia <2s + CEN GFM mandate. Key: 6 GFM architectures → VSM+Matching. Turn: GFM mandatory >20MW, DC bus ±1.5kV. | Grid integration forced by physics + mandate. |
 | **Keymaker** | Lock: GFL vs GFM ambiguity. Key: 6 architectures → binary selection (VSM/Matching). Turn: CEN mandate = binary verification. | GFM standard = CSV[c₅] key. |
 | **El Segundo** | Mirror: 9 chapter GFM metrics (57 chunks!). Participation: 135 witness acts. Protocol: Phase 3b. | GFM density = 6.3 chunks/section (highest). |
-| **Baker Street** | Exhibit C: CEN NTSyCS + DS N°62. Exhibit D: Aegis power spec. Deduction: Only 3L-NPC SiC at ±1.5kV works. | "2L-VSI" eliminated. "3L-NPC SiC" remains. |
+| **Baker Street** | Exhibit C: CEN NTSyCS + DS N°62. Exhibit D: Aegis power spec. Deduction: Only 3L-NPC SiC at ±1.5kV works. | 2L-VSI eliminated. 3L-NPC SiC remains. |
 | **SHIELD** | Calm: CEN delay → GFM ready. Resilience: Layer 1 (ancillary revenue). Continuity: Standard persists. | Horizon: Energy sovereignty. |
 
 #### 8.5.2 DOC-12 as Meta-Case Study
@@ -191,7 +191,7 @@ DOC-12 is unique: **it applies all five heuristics at maximum intensity** becaus
 | Heuristic | Lesson | Pipeline Adjustment |
 |-----------|--------|---------------------|
 | **Williams** | Constraints are discovered, not invented. The Lock is always constitutional/physical/temporal. | Earlier Lock identification in research phase. |
-| **Keymaker** | Binary verification prevents "progress theater." CSV primitive scales to 60 docs. | CSV bit mapping mandatory in runner handoffs. |
+| **Keymaker** | Binary verification prevents progress theater. CSV primitive scales to 60 docs. | CSV bit mapping mandatory in runner handoffs. |
 | **El Segundo** | Transition density is the true progress metric. Heartbeat/task-timer are the Mirror. | TD tracking in heartbeat log. |
 | **Baker Street** | Primary sources only. Zero ambiguity = zero conflation. | Zero-ambiguity test automated in pipeline. |
 | **SHIELD** | Horizon consistency requires explicit multi-horizon evaluation. 7-layer resilience is minimum. | 5-horizon evaluation template in Ch. 7 template. |
@@ -203,7 +203,7 @@ DOC-12 is unique: **it applies all five heuristics at maximum intensity** becaus
 | Conflation | Documents | Heuristic Resolution | Outcome |
 |------------|-----------|---------------------|---------|
 | Water permit vs Aegis-Forge | DOC-01 vs DOC-07 | Williams: Water Code N/A (Lock resolved by Key) | DOC-07 Ch.4: Water Code N/A |
-| Consent vs Equity | DOC-02 vs DOC-03 | Baker Street: "Consultation" ≠ "Equity" | DOC-03: FBC/CDC = equity |
+| Consent vs Equity | DOC-02 vs DOC-03 | Baker Street: Consultation ≠ Equity | DOC-03: FBC/CDC = equity |
 | GFL vs GFM for Aegis | DOC-10 vs DOC-11 | Keymaker: GFL fails GIC Lock | DOC-11 Ch.7: GFM-native mandatory |
 | Magnet grade source | DOC-09 vs DOC-10 | Williams: Motor physics forces specs | DOC-09: Specs from CSM motor design |
 | Capital stack single-source | DOC-04 vs DOC-05 | SHIELD: No single layer >$500M | DOC-05: Triangulation mandatory |
@@ -215,12 +215,12 @@ DOC-12 is unique: **it applies all five heuristics at maximum intensity** becaus
 **Automated Check**:
 ```python
 def historical_fidelity_gate(canonical_doc):
-    """
+    
     1. All cross-refs to DOC-01..12 resolve
     2. Heuristic dominance matches Composition Matrix (Ch 1.3.1)
     3. No claim contradicts prior doc (conflation check)
     4. Evolution pattern consistent with pipeline stage
-    """
+    
     checks = {
         'crossrefs_resolve': verify_crossrefs(canonical_doc, prior_docs=12),
         'dominance_matches_matrix': check_dominance_matrix(canonical_doc),

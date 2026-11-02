@@ -20,7 +20,7 @@ Where $\mathbb{I}$ = indicator function (1 if true, 0 if false), $N$ = number of
 ### N.2 Water Code Article 56 bis — Human Consumption Priority
 
 **Text (Law 21.435 Amendment)**:
-> "En caso de sequía declarada, la Dirección General de Aguas podrá restringir o suspender el ejercicio de los derechos de aprovechamiento de aguas, dando prioridad al consumo humano, al saneamiento y a la subsistencia de ecosistemas, sobre cualquier otro uso."
+> En caso de sequía declarada, la Dirección General de Aguas podrá restringir o suspender el ejercicio de los derechos de aprovechamiento de aguas, dando prioridad al consumo humano, al saneamiento y a la subsistencia de ecosistemas, sobre cualquier otro uso.
 
 **Diaguita Legal Argument (Water Tribunal Case 45.678-2023)**:
 1. **Agriculture = subsistence** for Diaguita (cultural survival, not commercial only)

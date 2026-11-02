@@ -14,7 +14,7 @@ The constraint cascades into every electrical decision:
 - **Penetrations:** Al₂O₃/ZrO₂ ceramic bushings only — no metal feedthroughs
 - **Power distribution:** Isolation transformer (Δ-Y, floating secondary), NGR 5A — no ground reference on process side
 
-**What breaks if violated:** A single copper wire for "just the E-stop" → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. The constraint is binary: all-dielectric or dead forge.
+**What breaks if violated:** A single copper wire for just the E-stop → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. The constraint is binary: all-dielectric or dead forge.
 
 ---
 
@@ -24,7 +24,7 @@ The empirical gap this document closes is the **measured divergence between stan
 
 Three specific gaps demand this architecture:
 
-1. **Standard grounding creates the GIC antenna:** IEEE 142 / NFPA 70 require equipment grounding conductors. But in a 5000 nT/s event, the ground conductor *is* the antenna. The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. A grounded forge would see 100 A flowing through its "safety ground" into the GaN gate drivers. The gap: **grounding for safety vs. grounding as GIC antenna.**
+1. **Standard grounding creates the GIC antenna:** IEEE 142 / NFPA 70 require equipment grounding conductors. But in a 5000 nT/s event, the ground conductor *is* the antenna. The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. A grounded forge would see 100 A flowing through its safety ground into the GaN gate drivers. The gap: **grounding for safety vs. grounding as GIC antenna.**
 
 2. **Standard EMC assumes copper shielding:** CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. But a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that *concentrates* eddy currents. The measured field inside PROD-03 coil housing is 39.6 mT at Z8. A steel enclosure would see 50 kW of eddy current heating. The gap: **metallic shielding vs. dielectric transparency.**
 
@@ -35,7 +35,7 @@ Three specific gaps demand this architecture:
 - PROD-10 EMC test: CISPR 11 Class A passed with 20 dB margin — no metal shielding
 - PROD-23 SIS proof test (CT-04): 24 SIL-3 SIFs, PFD<sub>avg</sub> = 2.3×10⁻³ — meets <10⁻²
 - PROD-25 megger test: All 50+ penetrations >1 GΩ at 500 VDC — no conductive leakage
-- PROD-10 arc flash calc: 0.3 cal/cm² at 18" (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
+- PROD-10 arc flash calc: 0.3 cal/cm² at 18 (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
 
 ---
 

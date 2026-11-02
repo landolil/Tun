@@ -148,9 +148,9 @@ For **each** of PROD-16, 17, 18:
 4. Write `intros/PROD-XX_<title>_El_Segundo.md` (67 lines)
 5. Write `intros/PROD-XX_<title>_Combined.md` (200+ lines)
 
-**Williams Lens**: First-principles physics, dimensional analysis, thermodynamic limits, "if physics works at limit, engineering is detail"
-**Keymaker Lens**: Systems integration, interfaces, architectures, cross-cutting concerns, "interface is the system"
-**El Segundo Lens**: Operational reliability, manufacturing reality, maintenance, "design for the tech who hasn't slept"
+**Williams Lens**: First-principles physics, dimensional analysis, thermodynamic limits, if physics works at limit, engineering is detail
+**Keymaker Lens**: Systems integration, interfaces, architectures, cross-cutting concerns, interface is the system
+**El Segundo Lens**: Operational reliability, manufacturing reality, maintenance, design for the tech who hasn't slept
 **Combined**: Three-way synthesis with risk matrix, decisions locked, follow-up workstreams
 
 ---
@@ -183,7 +183,7 @@ wc -l docs/PROD-XX_<title>.md  # Must be ≥ 900
 
 ```bash
 git add -A
-git commit -m "lol.forge: PROD-XX <title> — <lines> lines + 4 heuristic intros (<combined> combined)"
+git commit -m lol.forge: PROD-XX <title> — <lines> lines + 4 heuristic intros (<combined> combined)
 git push
 ```
 

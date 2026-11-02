@@ -74,4 +74,4 @@ Industrial operational data from the Aegis-Forge prototype runs (2025-2026) feed
 - Measured ferromagnetic transition: 768°C vs 770°C Curie → adjusted resonance tracker pre-emption window
 - Measured slag viscosity (calculated from drainage): 0.85 Pa·s vs predicted 0.8 Pa·s → confirmed MgO/Al₂O₃ ratio 1.5 optimal
 
-The history validates the theory AND refines the parameters. The Turn is bidirectional: the mathematical key (CDPPO-RSE) generates the design; the fabrication history (operational data) refines the key. This recursive loop is the Keymaker's guarantee of fidelity — the design is never "finished," it is continuously calibrated by its own operation.
+The history validates the theory AND refines the parameters. The Turn is bidirectional: the mathematical key (CDPPO-RSE) generates the design; the fabrication history (operational data) refines the key. This recursive loop is the Keymaker's guarantee of fidelity — the design is never finished, it is continuously calibrated by its own operation.

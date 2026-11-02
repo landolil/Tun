@@ -11,7 +11,7 @@
 | **Customs (DNA)** | Valuation, origin, HS codes (2846.xx) | **Standard** | **Green lane REE (target 2025)** |
 | **Port State Control (DGTM)** | SOLAS, MARPOL, ISPS, STCW | **Regular inspections** | **Specialized REE inspectors needed** |
 
-### 2.3.2 Certification Roadmap — Antofagasta as "REE Port of Reference"
+### 2.3.2 Certification Roadmap — Antofagasta as REE Port of Reference
 
 | Milestone | Target | Owner | Investment |
 |-----------|--------|-------|------------|

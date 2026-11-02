@@ -45,7 +45,7 @@ v ≈ 2.2 × 10⁻⁵ m/s → 8 cm/hour (slow, but sufficient over 30 min dwell)
 
 Port 2 at drum OD (opens at 200°C): primarily discharges highest-density polymer melt first (PEEK, PC). As temperature rises through 450°C, lower-density polymers also flow.
 
-**Output:** Mixed polymer slug exiting Port 2, quenched in BFRP mold. This "mixed polymer block" is a downstream input for:
+**Output:** Mixed polymer slug exiting Port 2, quenched in BFRP mold. This mixed polymer block is a downstream input for:
 - Elium® reformulation (MMA-compatible melt blending)
 - BFRP matrix additive (modified impact resistance)
 - Future CSM product: polymer filament for 3D printing

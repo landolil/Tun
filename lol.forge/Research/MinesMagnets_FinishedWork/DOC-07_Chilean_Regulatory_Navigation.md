@@ -163,7 +163,7 @@ Any project generating *at least one* of the following effects/circumstances req
 Projects under Article 10 that generate *none* of the Art. 11 effects enter via DIA — a simplified declaration demonstrating regulatory compliance without full impact study.
 
 **Mining-Specific Classification (Art. 10, letra i):**
-*"Proyectos de desarrollo minero, incluidos los de carbón, petróleo y gas comprendiendo las prospecciones, explotaciones, plantas procesadoras y disposición de residuos y estériles..."*
+*Proyectos de desarrollo minero, incluidos los de carbón, petróleo y gas comprendiendo las prospecciones, explotaciones, plantas procesadoras y disposición de residuos y estériles...*
 
 | Project Type | Typical Instrument | Rationale |
 |--------------|-------------------|-----------|
@@ -232,7 +232,7 @@ Aegis_Forge_Savings = (Cost_EIA - Cost_DIA) + (Time_EIA - Time_DIA) × Opportuni
 - **Art. 69**: Right to access full electronic/physical expediente
 - **Art. 70**: Right to formulate written observations (60 business days EIA, 10 days DIA if triggered)
 - **Art. 71**: SEA obligation to respond to each observation in RCA fundamentals
-- **Art. 30 bis**: Special PAC for projects with "cargas ambientales" (10-day DIA PAC)
+- **Art. 30 bis**: Special PAC for projects with cargas ambientales (10-day DIA PAC)
 
 **PAC Triggers for Mining:**
 1. EIA mandatory (Art. 11 effects) → automatic 60-day PAC
@@ -262,7 +262,7 @@ Response_Requirement: Addressed in RCA considerations (Art. 71)
 | Mining DIA | 386 | ~260 | 120-720 |
 | **Aegis-Forge DIA** | **180-240** | **~120-160** | **120-300** |
 
-**Reform Pipeline (Bulletin 16552-12 "Evaluación Ambiental 2.0"):**
+**Reform Pipeline (Bulletin 16552-12 Evaluación Ambiental 2.0):**
 - Eliminate COEVA (Council of Ministers) — direct SEA decision
 - Fixed statutory deadlines with automatic approval if exceeded
 - Early engagement (*diálogo temprano*) mandatory pre-ingreso
@@ -536,7 +536,7 @@ The **Código de Aguas** (DFL 1.122, 1981, reformed Law 21.435/2022) governs *de
 ### 4.4 CRMA DNSH Water Criterion Compliance
 
 **EU Critical Raw Materials Act (Regulation 2024/1252) — DNSH Water Objective:**
-*"An activity must not be detrimental to the good status or good ecological status of water bodies (surface, groundwater, or marine waters)."*
+*An activity must not be detrimental to the good status or good ecological status of water bodies (surface, groundwater, or marine waters).*
 
 **CRMA Strategic Project DNSH Assessment (Art. 9, Annex II):**
 | DNSH Criterion | Threshold | Aegis-Forge Status |
@@ -705,7 +705,7 @@ MOM = RIOMA / Ventas_Anuales_Netas × 100
 **Interpretative Positions**:
 | Position | Argument | Risk |
 |----------|----------|------|
-| **Non-copper regime (Art. 5)** | REEs = "other concessionable substances" | 1% ad valorem + 8-26% margen |
+| **Non-copper regime (Art. 5)** | REEs = other concessionable substances | 1% ad valorem + 8-26% margen |
 | **Copper-equivalent** | REE concentrates often co-produced with Cu | Full copper regime if >50% Cu sales |
 | **Legislative vacuum** | No explicit REE provision → SII criteria | Audit risk, potential litigation |
 

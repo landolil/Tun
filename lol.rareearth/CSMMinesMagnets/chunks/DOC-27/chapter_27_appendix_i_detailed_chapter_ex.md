@@ -23,7 +23,7 @@
 - **Autosomal**: **Fst = 0.008** between ancient and modern — **negligible differentiation**
 - **Admixture**: **<5% European, <3% African** — **remarkable genetic isolation**
 
-**Implication**: Diaguita are **not "mestizo" descendants** but **direct biological and cultural continuators** of pre-Hispanic valley civilization. **Strengthens legal personality and territorial rights** under ILO 169 and UNDRIP.
+**Implication**: Diaguita are **not mestizo descendants** but **direct biological and cultural continuators** of pre-Hispanic valley civilization. **Strengthens legal personality and territorial rights** under ILO 169 and UNDRIP.
 
 ### I.2 Diaguita Ceramic Tradition: Polychrome Mastery
 

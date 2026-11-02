@@ -30,7 +30,7 @@
 When grid dV/dt > threshold (detected by dedicated monitor):
 
 1. **Detection** (1 ms): Grid monitor FPGA triggers interrupt
-2. **Transition** (5 ms): Inverters switch to "ride-through" — maintain DC link from bus capacitors
+2. **Transition** (5 ms): Inverters switch to ride-through — maintain DC link from bus capacitors
 3. **Isolation** (10 ms): Physical contactors open (vacuum, BFRP housed) — Forge islanded
 4. **Sustain** (indefinite): LiFePO₄ backup (100 Wh) powers control system; drum coast-down
 5. **Reconnect** (auto): When grid stable >30 s, pre-charge → contactor close → resume

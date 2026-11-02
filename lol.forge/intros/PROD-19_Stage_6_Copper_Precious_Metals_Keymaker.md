@@ -63,4 +63,4 @@ Industrial operational data from the Aegis-Forge prototype runs (2025-2026) feed
 - Measured Port 6A valve timing: 1179.5°C vs 1180°C setpoint → adjusted Ti₃AlC₂ actuator calibration
 - Measured drum thermal lag: 2.3 min Zone 6-1 to 6-2 → added feedforward to PID
 
-The history validates the theory AND refines the parameters. The Turn is bidirectional: the mathematical key (CFDO-CB) generates the design; the fabrication history (operational data) refines the key. This recursive loop is the Keymaker's guarantee of fidelity — the design is never "finished," it is continuously calibrated by its own operation.
+The history validates the theory AND refines the parameters. The Turn is bidirectional: the mathematical key (CFDO-CB) generates the design; the fabrication history (operational data) refines the key. This recursive loop is the Keymaker's guarantee of fidelity — the design is never finished, it is continuously calibrated by its own operation.

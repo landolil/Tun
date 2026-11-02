@@ -19,11 +19,11 @@ This chapter follows the **traceability methodology established in DOC-07 Ch.9, 
 
 | Claim Type | Heuristic | Example |
 |------------|-----------|---------|
-| **Constraint Claim** | Williams | "Chilean Constitution Art. 19§24 forces State concession model" |
-| **Failure Mode Claim** | Keymaker | "LK-03: 41% Consulta unresolved (INDH 2024)" |
-| **Recursive Measurement Claim** | El Segundo | "Heartbeat monitor measures protocol liveness every 120s" |
-| **Evidence Claim** | Baker Street | "Exhibit A: Sernageomin Rol 2024-XXX — title clear" |
-| **Horizon Claim** | SHIELD | "Layer 3 CAT bond triggers at GIC >200A (150yr return)" |
+| **Constraint Claim** | Williams | Chilean Constitution Art. 19§24 forces State concession model |
+| **Failure Mode Claim** | Keymaker | LK-03: 41% Consulta unresolved (INDH 2024) |
+| **Recursive Measurement Claim** | El Segundo | Heartbeat monitor measures protocol liveness every 120s |
+| **Evidence Claim** | Baker Street | Exhibit A: Sernageomin Rol 2024-XXX — title clear |
+| **Horizon Claim** | SHIELD | Layer 3 CAT bond triggers at GIC >200A (150yr return) |
 
 ---
 

@@ -3,8 +3,8 @@
 ### C.1 IR-01: SIF Bypass Authorization
 
 ```yaml
-scenario: "IR-01 SIF Bypass"
-mitre_attack: "T0883 (Safety System Bypass)"
+scenario: IR-01 SIF Bypass
+mitre_attack: T0883 (Safety System Bypass)
 preconditions:
   - Forge operational, nominal batch
   - Dual-key tokens (Shift Lead + Safety Eng) available
@@ -32,8 +32,8 @@ success_criteria:
 ### C.2 IR-02: FBG Tamper
 
 ```yaml
-scenario: "IR-02 FBG Tamper"
-mitre_attack: "T0831 (Sensor Manipulation)"
+scenario: IR-02 FBG Tamper
+mitre_attack: T0831 (Sensor Manipulation)
 preconditions:
   - Forge at Stage 8 (2200°C)
   - 384 FBG channels nominal
@@ -59,8 +59,8 @@ success_criteria:
 ### C.3 IR-03: Firmware Compromise
 
 ```yaml
-scenario: "IR-03 Firmware Supply Chain"
-mitre_attack: "T1195.002 (Supply Chain Compromise)"
+scenario: IR-03 Firmware Supply Chain
+mitre_attack: T1195.002 (Supply Chain Compromise)
 preconditions:
   - GaN Systems (SUP-001) pushes RTU firmware v3.1.0
   - TUF repo updated, SBOM signed, in-toto attested
@@ -87,8 +87,8 @@ success_criteria:
 ### C.4 IR-04: Carrington+Cyber
 
 ```yaml
-scenario: "IR-04 Carrington + Cyber"
-mitre_attack: "T1499 (Endpoint Denial of Service) + GIC"
+scenario: IR-04 Carrington + Cyber
+mitre_attack: T1499 (Endpoint Denial of Service) + GIC
 preconditions:
   - NOAA GIC warning: Kp=9, 5000 nT/s expected in 2 hr
   - Forge at Stage 6 (Copper, 1150°C)
@@ -118,8 +118,8 @@ success_criteria:
 ### C.5 IR-05: TSN Corruption
 
 ```yaml
-scenario: "IR-05 TSN Gate Control List Corruption"
-mitre_attack: "T1498 (Network Denial of Service) - TSN specific"
+scenario: IR-05 TSN Gate Control List Corruption
+mitre_attack: T1498 (Network Denial of Service) - TSN specific
 preconditions:
   - TSN frozen schedule (PROD-23 commitment #4)
   - VLAN 10 (SIS) highest priority, 200 μs slice
@@ -144,8 +144,8 @@ success_criteria:
 ### C.6 IR-06: PTP Compromise
 
 ```yaml
-scenario: "IR-06 PTP Grandmaster Spoof"
-mitre_attack: "T1556.006 (Multi-Factor Authentication Bypass) - PTP specific"
+scenario: IR-06 PTP Grandmaster Spoof
+mitre_attack: T1556.006 (Multi-Factor Authentication Bypass) - PTP specific
 preconditions:
   - GNSS+OCXO grandmaster (PROD-23)
   - All nodes boundary clocks, 24h holdover

@@ -25,9 +25,9 @@ The key is the **dual-mechanism acoustic primitive + IR absorption match** — t
 
 ```python
 def AFS(fbg_spectrum, mineral_library):
-    """
+    
     The key's first tooth: frequency as material selector.
-    """
+    
     # Detect peaks in chamber vibration response
     peaks = find_peaks(fbg_spectrum, prominence=3)
     
@@ -102,7 +102,7 @@ Output: Liberated feedstock at target LI (75-88%)
 Prediction: Zircon LI 88%, REE LI 72%, Ilmenite LI 95%
 Validation: Post-AMLS SEM-EDS matches prediction within 5%
 
-The key *predicts* the liberation outcome from the feedstock category. The AMLS *executes* the prediction. The turn is the moment the LI feedback signals "target reached" and the drain valve opens — the acoustic program has compiled successfully. The liberated grains *are* the key turning in the lock.
+The key *predicts* the liberation outcome from the feedstock category. The AMLS *executes* the prediction. The turn is the moment the LI feedback signals target reached and the drain valve opens — the acoustic program has compiled successfully. The liberated grains *are* the key turning in the lock.
 
 **Lock → Key (History validates theory):**
 

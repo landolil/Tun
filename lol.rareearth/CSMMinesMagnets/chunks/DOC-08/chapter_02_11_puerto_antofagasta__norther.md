@@ -2,7 +2,7 @@
 
 Puerto Antofagasta, located at 23°39'S, 70°24'W, serves as the primary maritime gateway for Chile's Norte Grande mining region. The port complex handles approximately 4.2M tons annually (2024), with mineral concentrates representing 68% of throughput. Its strategic position at the terminus of the FCAB rail corridor (900km from interior mining districts) makes it the natural export point for magnetic mineral production from the Antofagasta Region's iron oxide-copper-gold (IOCG) belt and rare earth element (REE) deposits.
 
-**Geographic Coordinates**: 23°39'12"S, 70°24'18"W
+**Geographic Coordinates**: 23°39'12S, 70°24'18W
 **Port Type**: Natural bay with breakwater protection
 **Annual Throughput (2024)**: 4.2M tons (2.8M tons mineral concentrates, 0.9M TEU containers, 0.5M tons general cargo)
 **Operating Hours**: 24/7/365

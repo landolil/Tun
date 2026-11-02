@@ -13,7 +13,7 @@
 **The fabricator sees the CM system as a distributed verification network.** Every commit, ECO, batch, SCN, rehearsal is a measurement. Every measurement updates BCO. Every BCO update adjusts gates, signatures, requal periods, rehearsal frequency.
 
 ### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not "administer a tool" — they **witness the configuration becoming the Forge's genetic code**:
+**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not administer a tool — they **witness the configuration becoming the Forge's genetic code**:
 
 1. **CM at ECO Gate (CCB Meeting)** witnesses the BCO evaluation: As-Designed tag, As-Built FA data, As-Maintained PM record, As-Operated twin state — four baselines converging on one CUUID. They *witness* the configuration becoming truth — no database, only physics-enforced cryptographic linkage.
 2. **Safety Engineer at Firmware Signing** witnesses the HSM ceremony: Builder key + CM key + Safety key — three signatures on one SFP. They *witness* the SIL-3 envelope becoming code — no algorithm accepts the risk, only human judgment at the boundary of consequence.

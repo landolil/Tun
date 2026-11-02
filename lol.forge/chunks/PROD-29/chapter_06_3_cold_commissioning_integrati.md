@@ -90,7 +90,7 @@
 |---|---|---|
 | E-stop response | Functional test | <100 ms all zones, SIL-3 |
 | LOTO verification | Physical attempt | Zero energy isolation failures |
-| Arc flash boundaries | Calculation + labels | Cat 0 at 18" (PROD-26) |
+| Arc flash boundaries | Calculation + labels | Cat 0 at 18 (PROD-26) |
 | Confined space | Atmosphere test | O₂ 19.5-23.5%, LEL <10%, H₂S <10 ppm |
 | Fire detection | Alarm test | <10 s detection, zone isolation |
 

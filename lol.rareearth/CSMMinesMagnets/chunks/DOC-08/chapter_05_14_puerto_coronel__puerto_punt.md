@@ -4,7 +4,7 @@
 
 Puerto Coronel, located at 37°02'S, 73°10'W (12km southwest of Concepción), is Chile's third-largest port by tonnage and the primary gateway for the Biobío Region's forest products, bulk minerals, and emerging magnetic mineral exports from southern mining districts. The port handled 6.8M tons in 2024, with a unique advantage: direct broad-gauge rail connection (1,676mm) to the national EFE network, enabling seamless containerized magnet shipments to/from Santiago and northern ports.
 
-**Geographic Coordinates**: 37°02'24"S, 73°10'12"W
+**Geographic Coordinates**: 37°02'24S, 73°10'12W
 **Port Type**: River estuary (Biobío River) with training walls and dredged channel
 **Annual Throughput (2024)**: 6.8M tons (3.2M tons forest products, 2.1M tons bulk minerals, 1.5M tons containers/breakbulk)
 **Operating Hours**: 24/7/365 (restricted during high river flow > 3,000 m³/s)
@@ -70,7 +70,7 @@ Puerto Coronel, located at 37°02'S, 73°10'W (12km southwest of Concepción), i
 
 Puerto Punta Arenas, located at 53°09'S, 70°54'W on the Strait of Magellan, is Chile's austral gateway and the southernmost commercial port in the Americas. While current magnetic mineral throughput is minimal (est. < 5,000 tons/yr), its strategic position on the Atlantic-Pacific corridor and role as Antarctic logistics hub make it critical for future southern magnetic mineral exports (Fe-Co from Magallanes Region, potential Antarctic mineral resources under Madrid Protocol review) and as an alternative route during northern port disruptions.
 
-**Geographic Coordinates**: 53°09'36"S, 70°54'36"W
+**Geographic Coordinates**: 53°09'36S, 70°54'36W
 **Port Type**: Fjord/Strait (Strait of Magellan), natural deep water, sheltered
 **Annual Throughput (2024)**: 1.2M tons (0.4M tons general cargo, 0.3M tons fuel/supplies, 0.5M tons fish/forest products)
 **Operating Hours**: 24/7/365 (icebreaker support June-Sept)

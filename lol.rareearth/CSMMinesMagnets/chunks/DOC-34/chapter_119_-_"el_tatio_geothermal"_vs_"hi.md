@@ -1,1 +1,0 @@
-#   - "El Tatio geothermal" vs "HIF H₂ thermal" vs "Solar" vs "Wind"

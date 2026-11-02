@@ -3,7 +3,7 @@
 ### M.1 Alpha-3/4 IOA → Fe₁₆N₂ Process Flow (Detailed)
 
 **Feed**: CAP Magnetite Concentrate (68% Fe, 2% SiO₂, 0.8% Al₂O₃, 0.3% P, 0.05% S)
-**Target**: Fe₁₆N₂ Powder (α"-Fe₁₆N₂ phase >90%, 27 MGOe)
+**Target**: Fe₁₆N₂ Powder (α-Fe₁₆N₂ phase >90%, 27 MGOe)
 
 | Unit Operation | Conditions | Key Parameters | Diaguita Innovation |
 |----------------|------------|----------------|---------------------|
@@ -11,7 +11,7 @@
 | **Stage 1: IR Drying** | 150–250°C, 80 kWh/t | Moisture <0.1% | Solar thermal pre-heat (Elqui DNI 9.5 kWh/m²/day) |
 | **Stage 2: Polymer Removal** | 250–400°C, N₂ sweep | Organic <50 ppm | Bio-polymer binder (no PVC) |
 | **Stage 3: Pyrolysis** | 400–600°C, 180 kWh/t | Char <0.5% | Char → WSF soil carbon |
-| **Stage 4: Fe₁₆N₂ Synthesis** | 660–720°C, NH₃ flow | **α"-Fe₁₆N₂ >90%**, N 5.7 wt% | **GaN inverter 100 kHz, FBG temp control ±2°C** |
+| **Stage 4: Fe₁₆N₂ Synthesis** | 660–720°C, NH₃ flow | **α-Fe₁₆N₂ >90%**, N 5.7 wt% | **GaN inverter 100 kHz, FBG temp control ±2°C** |
 | **Stage 5: Nitridation Control** | 720°C, 30 min | Phase purity | In-situ XRD monitoring |
 | **Stage 6: Passivation** | 150°C, N₂/H₂ | Surface oxidation <5 nm | **Zero aqueous passivation** |
 | **Stage 7: Milling/Classification** | Jet mill, 5–15 μm | D50 = 8 μm | Nitrogen atmosphere |

@@ -4,7 +4,7 @@
 
 | Dimension | Specification |
 |-----------|---------------|
-| **Legal Recognition** | **Law 20.249 (2008)** — "Pueblo Chango" distinct from Atacameño |
+| **Legal Recognition** | **Law 20.249 (2008)** — Pueblo Chango distinct from Atacameño |
 | **Population (Antofagasta Commune)** | **12,200** (3.0% commune, 28% of national Chango) |
 | **Territorial Units** | **8 Caletas (coves)** + **3 Barrios Urbanos** (La Chimba Costa, Coloso Norte, Centro Histórico) |
 | **Caletas (North to South)**: | **Mejillones, Hornitos, Punta Itata, Caleta Buena, Caleta Coloso, Caleta Constitución, Caleta El Cobre, Caleta Huanillo** |

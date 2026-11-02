@@ -31,7 +31,7 @@
 
 #### Git
 - Repository initialized at `/workspace/app/CSMWip/CSMMinesMagnets`
-- Commit b3c07dcc2: "runner001: DOC-03 complete - chunked, verified, compressed, heuristic intros generated"
+- Commit b3c07dcc2: runner001: DOC-03 complete - chunked, verified, compressed, heuristic intros generated
 - Tag: runner-001-complete (to be created)
 
 ---

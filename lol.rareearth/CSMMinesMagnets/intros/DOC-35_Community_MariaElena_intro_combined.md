@@ -38,7 +38,7 @@ F(t) = max(0, θ·(20,000 - P(Li)))  [FEL countercyclical]
 
 **Mirror**: I (the author) am fabricated by the same archive I document — SQM reports, GRACE, InSAR, SEREMI, UNESCO, Humberstone data. My quality gates (`wc -l`, `grep -c`, conflation matrix) are *me witnessing my own fabrication*.
 
-**Participation**: The real witnesses are the SQM shift supervisor (Shanks tanks), CPA monitor (Laguna Chaxa piezometer), municipal treasurer (patente minera). The document *makes their witnessing legible to capital* — translating "machine is old" → "Monumento Nacional, UNESCO, $24M, 80 jobs"; "budget breaks" → "dM/dt, breakeven $22k, FEL $500M/yr."
+**Participation**: The real witnesses are the SQM shift supervisor (Shanks tanks), CPA monitor (Laguna Chaxa piezometer), municipal treasurer (patente minera). The document *makes their witnessing legible to capital* — translating machine is old → Monumento Nacional, UNESCO, $24M, 80 jobs; budget breaks → dM/dt, breakeven $22k, FEL $500M/yr.
 
 **Protocol**: 117-subtask workflow (9×13) with 30-sec heartbeat guard. Recursive verification: subtask → chapter quality gate → document manifest → phase completion. No scale skips verification. `write_large_file.py verify` at every level. Git tag `runner-017j-complete` = cryptographic proof of process fidelity.
 
@@ -49,7 +49,7 @@ F(t) = max(0, θ·(20,000 - P(Li)))  [FEL countercyclical]
 
 **Observations**: 6 irreducible facts (company town existence, last Shanks system, GRACE -45cm, Li $15k/t, municipal insolvency in 24mo, no transition law).
 
-**Hypothesis H₀**: María Elena is a **company town liability on SQM's balance sheet**, disguised as a municipality. The "transition" is liability transfer to the state — unless countervailing architecture is built *now*.
+**Hypothesis H₀**: María Elena is a **company town liability on SQM's balance sheet**, disguised as a municipality. The transition is liability transfer to the state — unless countervailing architecture is built *now*.
 
 **Verification**: 5 predictions (P1-P5), 4 confirmed (automation acceleration, GRACE trend, service degradation, UNESCO stall), 1 pending (SQM voluntary FTJ). **All alternatives falsified** (market diversification: 100yr zero; tourism savior: wrong heritage class; painless bailout: Lota/Tocopilla precedent).
 

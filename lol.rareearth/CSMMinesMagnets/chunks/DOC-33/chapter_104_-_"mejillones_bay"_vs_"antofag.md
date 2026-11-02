@@ -1,1 +1,0 @@
-#   - "Mejillones Bay" vs "Antofagasta Coast" vs "Salar de Atacama"

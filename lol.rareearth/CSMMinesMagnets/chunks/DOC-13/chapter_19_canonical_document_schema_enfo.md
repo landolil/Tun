@@ -1,33 +1,33 @@
 # Canonical Document Schema (enforced by AGENTS.md + runner handoffs)
 canonical_document:
   metadata:
-    doc_id: "DOC-XX"
-    title: "Descriptive Title"
-    phase: "Phase N"
-    runner: "XXX"
-    date: "YYYY-MM-DD"
-    classification: "Brokerage Intelligence"
+    doc_id: DOC-XX
+    title: Descriptive Title
+    phase: Phase N
+    runner: XXX
+    date: YYYY-MM-DD
+    classification: Brokerage Intelligence
   
   body:
     min_lines: 900
     chapters: 9
     chapter_structure:
-      1: "Domain Overview"
-      2: "Deep Specification A"
-      3: "Deep Specification B"
-      4: "Deep Specification C"
-      5: "Cross-Domain Integration"
-      6: "Operational Protocol"
-      7: "Economic/Strategic Analysis"
-      8: "Historical Application"
-      9: "Traceability Matrix"
+      1: Domain Overview
+      2: Deep Specification A
+      3: Deep Specification B
+      4: Deep Specification C
+      5: Cross-Domain Integration
+      6: Operational Protocol
+      7: Economic/Strategic Analysis
+      8: Historical Application
+      9: Traceability Matrix
   
   quality_gates:
-    formulas: "≥20 (LaTeX/Unicode)"
-    crossrefs: "≥15 (DOC-XX, Standards, Laws)"
-    standards: "≥8 (ISO, IEEE, NERC, IEC, Chilean, etc.)"
-    conflation: "0 flags vs prior docs"
-    traceability: "Present (Ch. 9)"
+    formulas: ≥20 (LaTeX/Unicode)
+    crossrefs: ≥15 (DOC-XX, Standards, Laws)
+    standards: ≥8 (ISO, IEEE, NERC, IEC, Chilean, etc.)
+    conflation: 0 flags vs prior docs
+    traceability: Present (Ch. 9)
   
   heuristics:
     required_variants: 5  # Williams, Keymaker, El Segundo, Baker Street, SHIELD

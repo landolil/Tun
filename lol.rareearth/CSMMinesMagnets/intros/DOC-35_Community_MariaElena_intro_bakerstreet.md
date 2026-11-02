@@ -14,7 +14,7 @@
 ### Hypothesis (The Abduction)
 **What single explanation accounts for all observations?**
 
-**Hypothesis H₀**: *María Elena is not a municipality — it is a **company town liability** on SQM's balance sheet, disguised as a public institution. The "transition" is not economic diversification — it is **liability transfer from SQM to the Chilean state** unless a countervailing institutional architecture is constructed **now**.*
+**Hypothesis H₀**: *María Elena is not a municipality — it is a **company town liability** on SQM's balance sheet, disguised as a public institution. The transition is not economic diversification — it is **liability transfer from SQM to the Chilean state** unless a countervailing institutional architecture is constructed **now**.*
 
 **Why H₀ explains all observations:**
 - Obs 1 (Existence): Company towns exist to internalize labor reproduction costs (housing, health, education) → **Explains zero tax base independence**
@@ -25,9 +25,9 @@
 - Obs 6 (No law): The legal vacuum *is the design* — if a law existed, SQM would have to provision for closure → **Explains legislative silence**
 
 **Alternative Hypotheses Rejected:**
-- H₁: "Market forces will diversify the economy" → Falsified by 100-year history (nitrate 1926-2024, zero diversification)
-- H₂: "Tourism will save it" → Falsified by San Pedro (45k visitors, $3.6M) vs María Elena (500 visitors, $25k) — **different heritage class**
-- H₃: "Central government will bail it out" → Falsified by Lota/Tocopilla — bailouts come *after* collapse, with no restructuring
+- H₁: Market forces will diversify the economy → Falsified by 100-year history (nitrate 1926-2024, zero diversification)
+- H₂: Tourism will save it → Falsified by San Pedro (45k visitors, $3.6M) vs María Elena (500 visitors, $25k) — **different heritage class**
+- H₃: Central government will bail it out → Falsified by Lota/Tocopilla — bailouts come *after* collapse, with no restructuring
 
 ### Verification (The Deduction)
 **What predictions does H₀ make that can be falsified?**

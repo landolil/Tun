@@ -96,10 +96,10 @@ PEEK synthesis requires specialized ether coupling reactors ($2M+) and diphenyl 
 
 | Size | Price/ft (USD, 2026) | Price/m |
 |---|---|---|
-| 1/2" PEX-a | $0.55–$0.75/ft | $1.80–$2.45/m |
-| 3/4" PEX-a | $0.85–$1.15/ft | $2.80–$3.75/m |
-| 1" PEX-a | $1.40–$1.90/ft | $4.60–$6.20/m |
-| 1.5" PEX-a | $2.20–$3.00/ft | $7.20–$9.80/m |
+| 1/2 PEX-a | $0.55–$0.75/ft | $1.80–$2.45/m |
+| 3/4 PEX-a | $0.85–$1.15/ft | $2.80–$3.75/m |
+| 1 PEX-a | $1.40–$1.90/ft | $4.60–$6.20/m |
+| 1.5 PEX-a | $2.20–$3.00/ft | $7.20–$9.80/m |
 
 **Domestic suppliers:** Uponor (Minnesota), Rehau (USA operations), Viega, Watts Radiant
 

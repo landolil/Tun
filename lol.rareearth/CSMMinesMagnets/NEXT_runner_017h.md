@@ -125,7 +125,7 @@ cd /workspace/app/lol.rareearth/CSMMinesMagnets
 ./scripts/resume_runner.sh 017h
 
 # 2. Begin Chapter 1
-echo ">>> SUBTASK: 5.1.8.1 Research Tocopilla: 25K pop, saltpeter port → copper cathode → thermoelectric → iodine"
+echo >>> SUBTASK: 5.1.8.1 Research Tocopilla: 25K pop, saltpeter port → copper cathode → thermoelectric → iodine
 
 # 3. Write DOC-33 (use chapter-based authoring)
 # ... authoring work ...
@@ -141,7 +141,7 @@ python3 ../../__Python_Tools/write_large_file.py manifest chunks/DOC-33
 python3 ../../__Python_Tools/write_large_file.py verify chunks/DOC-33
 gzip -k FinishedWork/DOC-33_Community_TocopillaMejillones.md
 git add FinishedWork/DOC-33_Community_TocopillaMejillones.md.gz chunks/DOC-33/ FinishedWork/intros/DOC-33_*
-git commit -m "lol.forge: DOC-33 Tocopilla/Mejillones Industrial Corridor — 3,800+ lines + intros"
+git commit -m lol.forge: DOC-33 Tocopilla/Mejillones Industrial Corridor — 3,800+ lines + intros
 git tag runner-017h-complete
 git push origin runner-017h-complete
 

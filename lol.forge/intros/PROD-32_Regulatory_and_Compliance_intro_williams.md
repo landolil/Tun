@@ -12,10 +12,10 @@ The empirical gap is the **absence of any regulatory precedent for a zero-metal,
 
 This document commits the Forge to **four non-negotiable regulatory chains**:
 
-1. **Zero-discharge is absolute** — No process wastewater discharge permit. Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. NPDES only for stormwater. This is not "minimization" — it is elimination.
+1. **Zero-discharge is absolute** — No process wastewater discharge permit. Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. NPDES only for stormwater. This is not minimization — it is elimination.
 
-2. **All-dielectric compliance is mandatory** — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). No "waiver" — the Forge demonstrates superior GIC immunity through physics, not exception.
+2. **All-dielectric compliance is mandatory** — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). No waiver — the Forge demonstrates superior GIC immunity through physics, not exception.
 
 3. **SIL-3 SIFs are immutable** — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). No risk-based interval extension. No CBM substitution. This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon.
 
-4. **Carbon negativity is a compliance asset** — -2.3 tCO₂e/ton EOL is not "offsets purchased" — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program.
+4. **Carbon negativity is a compliance asset** — -2.3 tCO₂e/ton EOL is not offsets purchased — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program.

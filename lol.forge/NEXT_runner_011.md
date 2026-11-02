@@ -40,7 +40,7 @@ All documents: **Chunked, verified, compressed, committed, pushed**
 | 4 | HEMP E1/E2/E3 Protection | E1 (ns pulse): Faraday cage + POF; E2 (lightning-like): surge arresters; E3 (GIC-like): NGR + ride-through | 80 |
 | 5 | Lightning Protection | NFPA 780 / IEC 62305; air terminals, down conductors, grounding (UFER + ring), surge protection | 70 |
 | 6 | EMC / EMI Control | Conducted/radiated emissions < CISPR 11 Class A; susceptibility > 10 V/m; POF immunity | 60 |
-| 7 | Arc Flash & Electrical Safety | NFPA 70E; incident energy < 1.2 cal/cm² at 18"; PPE Cat 0; labels, boundaries, LOTO | 70 |
+| 7 | Arc Flash & Electrical Safety | NFPA 70E; incident energy < 1.2 cal/cm² at 18; PPE Cat 0; labels, boundaries, LOTO | 70 |
 | 8 | SIL-3 Electrical SIS | 24 SIFs on dedicated FPGA; 2oo3 voting; <50ms response; PFD_avg < 10⁻³; proof test CT-04 | 80 |
 | 9 | Grounding & Bonding | Single-point ground at substation; equipotential mesh; isolated instrument ground; static dissipation | 60 |
 | 10 | Power Quality | 480V 3-phase supply; THD < 5%; voltage sag ride-through; harmonic filters; UPS for controls | 60 |
@@ -64,7 +64,7 @@ All documents: **Chunked, verified, compressed, committed, pushed**
 | GIC threshold | 5000 nT/s (Carrington) | PROD-23 |
 | Ride-through energy | 100 Wh LiFePO₄ (indefinite control power) | PROD-23 |
 | NGR | 5 A (limits ground fault to 5 A) | PROD-23 |
-| Arc flash boundary | 18" (1.2 cal/cm², PPE Cat 0) | NFPA 70E |
+| Arc flash boundary | 18 (1.2 cal/cm², PPE Cat 0) | NFPA 70E |
 | SIS response | <50 ms (FPGA, dedicated POF) | PROD-23 |
 | EMP hardening | MIL-STD-1857 / IEC 61000-2-9 | Standards |
 | Lightning protection | NFPA 780 / IEC 62305 LPL III | Standards |
@@ -207,7 +207,7 @@ FOR each document (PROD-26, PROD-27, PROD-28):
   
   6. COMMIT & PUSH
      - git add -A
-     - git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — NNN lines + 4 intros"
+     - git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — NNN lines + 4 intros
      - git pull --rebase && git push
   
   7. UPDATE TRACKERS

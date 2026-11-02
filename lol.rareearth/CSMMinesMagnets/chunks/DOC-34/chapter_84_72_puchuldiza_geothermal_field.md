@@ -18,7 +18,7 @@
 ```
 CPA PUCHULDIZA MORATORIUM (2021 Resolution)
 
-DECLARATION: "Puchuldiza is a territorial reserve for future generations. No development until:
+DECLARATION: Puchuldiza is a territorial reserve for future generations. No development until:
 1. Cumulative carrying capacity study (tourism + energy + water + cultural)
 2. Kimün validation of apu (sacred mountain) relationships
 3. Benefit-sharing framework approved by Asamblea General (2/3 majority)

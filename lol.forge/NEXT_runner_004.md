@@ -112,8 +112,8 @@
 #### Phase 1: Research (15 min)
 ```bash
 # Read source documents
-cat "../seed/CSMFAB/CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator/CSMFAB000000000108 Aegis-Forge I System Overview and Architecture.md" | grep -A 50 -i "coil\|inverter\|power\|fbga\|shredder\|feedstock\|bom\|material"
-cat "../seed/CSMFAB/CSMFAB Materials Study 5 Parts/"*.md | head -500
+cat ../seed/CSMFAB/CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator/CSMFAB000000000108 Aegis-Forge I System Overview and Architecture.md | grep -A 50 -i coil\|inverter\|power\|fbga\|shredder\|feedstock\|bom\|material
+cat ../seed/CSMFAB/CSMFAB Materials Study 5 Parts/*.md | head -500
 ```
 
 #### Phase 2: Write Body (Micro-subtasks, <30 sec each)
@@ -121,11 +121,11 @@ cat "../seed/CSMFAB/CSMFAB Materials Study 5 Parts/"*.md | head -500
 # Append to document
 python3 << 'PYEOF'
 from pathlib import Path
-content = """## Section Title
+content = ## Section Title
 Content here with equations, tables, physics...
-"""
-Path("docs/PROD-10_Induction_Power_Electronics.md").write_text(
-    Path("docs/PROD-10_Induction_Power_Electronics.md").read_text() + "\n" + content
+
+Path(docs/PROD-10_Induction_Power_Electronics.md).write_text(
+    Path(docs/PROD-10_Induction_Power_Electronics.md).read_text() + \n + content
 )
 PYEOF
 
@@ -150,7 +150,7 @@ python3 Research/__Python_Tools/write_large_file.py compress docs/PROD-10_Induct
 #### Phase 5: Git Commit
 ```bash
 git add -A
-git commit -m "lol.forge: PROD-10 Induction Power Electronics — 900+ lines + 200 line combined intro"
+git commit -m lol.forge: PROD-10 Induction Power Electronics — 900+ lines + 200 line combined intro
 git push
 ```
 
@@ -165,7 +165,7 @@ git push
 ## Heartbeat Protocol
 ```bash
 # Update every 2 minutes
-echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 004 PROD-10 Section X title Y lines Z total OK" >> HEARTBEAT_LOLFORGE.md
+echo $(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 004 PROD-10 Section X title Y lines Z total OK >> HEARTBEAT_LOLFORGE.md
 ```
 
 ---
@@ -201,10 +201,10 @@ python3 Research/__Python_Tools/write_large_file.py verify chunks/PROD-10
 python3 Research/__Python_Tools/write_large_file.py compress docs/PROD-10_Induction_Power_Electronics.md
 
 # Git commit
-git add -A && git commit -m "lol.forge: PROD-10 Induction Power Electronics — 900+ lines + 200 line combined intro" && git push
+git add -A && git commit -m lol.forge: PROD-10 Induction Power Electronics — 900+ lines + 200 line combined intro && git push
 
 # Heartbeat
-echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 004 PROD-10 Inverter design 25 lines 250 total OK" >> HEARTBEAT_LOLFORGE.md
+echo $(date -u +%Y-%m-%dT%H:%M:%SZ) Runner 004 PROD-10 Inverter design 25 lines 250 total OK >> HEARTBEAT_LOLFORGE.md
 
 # Session resume
 cat NEXT_runner_004.md

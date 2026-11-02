@@ -13,9 +13,9 @@ def fbg_drift_update(channel_id, lambda_measured, t):
     Lambda = compute_likelihood_ratio(alpha_post, beta_post, alpha_baseline, beta_baseline)
     
     if Lambda > 10:
-        trigger_ncr(channel_id, "FBG_DRIFT", Lambda, t)
+        trigger_ncr(channel_id, FBG_DRIFT, Lambda, t)
     elif Lambda > 5:
-        trigger_alert(channel_id, "FBG_DRIFT_WARN", Lambda, t)
+        trigger_alert(channel_id, FBG_DRIFT_WARN, Lambda, t)
     
     return alpha_post, beta_post, Lambda
 ```
@@ -153,7 +153,7 @@ D0: Team Formation (QA Lead + SME: ME/EE/SIS/NDT/Metrology)
 D1: Problem Statement (What, Where, When, Extent, IS/IS NOT)
 D2: Interim Containment (Forge status: run/reduced/stop; safety first)
 D3: Root Cause Identification
-    - Fault Tree Top Event: e.g., "FBG channel dropout Zone 3"
+    - Fault Tree Top Event: e.g., FBG channel dropout Zone 3
     - Gates: AND/OR logic from PROD-25 FEA + PROD-26 GIC + PROD-28 NCR history
     - Basic Events: FBG fiber fracture, interrogator failure, splice degradation, 
       thermal gradient > design, GIC event, vibration fatigue, installation error

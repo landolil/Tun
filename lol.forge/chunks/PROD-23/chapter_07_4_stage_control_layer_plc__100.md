@@ -89,7 +89,7 @@ Each stage implements a **Safety Instrumented Function (SIF)** table:
 
 ```
 Stage Recipe Structure (XML):
-<StageRecipe id="STG-04-REV-03">
+<StageRecipe id=STG-04-REV-03>
   <Header>
     <Stage>4</Stage>
     <Version>3</Version>
@@ -97,13 +97,13 @@ Stage Recipe Structure (XML):
     <Date>2026-11-02</Date>
   </Header>
   <ThermalProfile>
-    <Segment id="1">  <!-- Indium-First -->
+    <Segment id=1>  <!-- Indium-First -->
       <T_Setpoint>160</T_Setpoint>        <!-- °C -->
       <Duration>300</Duration>            <!-- seconds -->
       <RampRate>5</RampRate>              <!-- °C/min -->
       <RPM>400</RPM>
     </Segment>
-    <Segment id="2">  <!-- Sn/Pb/Bi -->
+    <Segment id=2>  <!-- Sn/Pb/Bi -->
       <T_Setpoint>280</T_Setpoint>
       <Duration>180</Duration>
       <RPM>300</RPM>

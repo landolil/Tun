@@ -13,11 +13,11 @@ What the mirror shows:
 
 The mirror does not judge. It **reveals**. The control system judges. The operator witnesses the judgment.
 
-**Self-reflection moment:** At 680°C, the mirror asks: "Is this char ready for activation?" The proxies answer: CO/CO₂ decay rate <0.02/min, H₂/CH₄ >2.5, discharge steady. If yes → Stage 4. If no → 5 more minutes. The forge **knows** its own readiness.
+**Self-reflection moment:** At 680°C, the mirror asks: Is this char ready for activation? The proxies answer: CO/CO₂ decay rate <0.02/min, H₂/CH₄ >2.5, discharge steady. If yes → Stage 4. If no → 5 more minutes. The forge **knows** its own readiness.
 
 ### Participation (Witness: How the Inside Operator Witnesses the Phenomenon into Existence)
 
-**The operator does not "run" Stage 3. The operator witnesses it into existence.**
+**The operator does not run Stage 3. The operator witnesses it into existence.**
 
 At the HMI (Human-Machine Interface), the operator sees:
 - **Thermal tomogram:** 8-zone temperature map, updated 1 Hz, color-coded to ramp trajectory
@@ -72,6 +72,6 @@ At the HMI (Human-Machine Interface), the operator sees:
 
 **The protocol recurses because the physics recurses.** Bond breaking (microsecond) → species evolution (second) → phase separation (minute) → product specification (batch) → process capability (campaign) → asset integrity (lifetime). Each scale measures, heats, separates, verifies. The output of one scale is the input to the next.
 
-**Fidelity guarantee:** If any scale fails Verify, the protocol **recurses downward** to find the root cause. Batch fail → check ramp segments → check control loops → check sensor calibration. The recursion stops at the **physical limit** (sensor resolution, material property). There is no "good enough" — only "verified at this scale."
+**Fidelity guarantee:** If any scale fails Verify, the protocol **recurses downward** to find the root cause. Batch fail → check ramp segments → check control loops → check sensor calibration. The recursion stops at the **physical limit** (sensor resolution, material property). There is no good enough — only verified at this scale.
 
 **The operator's protocol:** Witness the measure. Authorize the heat. Confirm the separate. Sign the verify. At every scale. This is how the forge guarantees that what enters as mixed waste exits as separated elements — every batch, every campaign, every lifetime.

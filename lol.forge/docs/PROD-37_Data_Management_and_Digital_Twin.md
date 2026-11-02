@@ -96,7 +96,7 @@ At 1 kHz on ARM Cortex-A53 (Zephyr, <100 μs compute). The twin at 10 Hz execute
 **The fabricator sees the data system as a distributed sensor network.** Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. Every measurement updates MR-PCKF. Every MR-PCKF update adjusts PID gains, FBG thresholds, SIF logic, firmware pins, JIT policies, training scenarios, spare forecasts.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The data engineer does not "monitor dashboards" — they **witness the data becoming the Forge's nervous system**:
+**How does the inside operator witness the phenomenon into existence?** The data engineer does not monitor dashboards — they **witness the data becoming the Forge's nervous system**:
 
 1. **Controls Engineer at Twin Sync Gate (every 100 ms)** witnesses the merkle-verified frame: 384 FBG channels, 8 zone states, 24 SIF states, merkle root, HSM signature. They *witness* the air-gap becoming trust — no IP route, no wireless, only physics-enforced unidirectional flow. The data diode IS the firewall.
 2. **Data Scientist at Autoencoder Retraining** witnesses the monthly HMC: 512 cores, 4 chains, 2000 samples, 20 parameters. They *witness* the fleet learning — aerogel λ posterior shifting, Curie width narrowing, FBG drift rate stabilizing. The posterior IS the parameter update.
@@ -312,28 +312,28 @@ Per PROD-24 commitment #7, the ROM is POD-Galerkin with 12 modes, 118× speedup.
 
 ```json
 {
-  "rom_version": "2.1.3",
-  "modes": 12,
-  "speedup_factor": 118,
-  "state_dim": 384,
-  "input_dim": 8,
-  "output_dim": 384,
-  "A": [[...]],     // 12×12 system matrix
-  "B": [[...]],     // 12×8 input matrix
-  "C": [[...]],     // 384×12 output matrix
-  "N_quadratic": [[[...]]],  // 12×12×12 quadratic terms
-  "material_correlations": {
-    "rho_c": "piecewise_cubic_hermite(T)",
-    "k": "piecewise_cubic_hermite(T)",
-    "alpha": "piecewise_cubic_hermite(T)",
-    "E": "piecewise_cubic_hermite(T)",
-    "mu_r": "sigmoid(T, Tc=770, width=8)"
+  rom_version: 2.1.3,
+  modes: 12,
+  speedup_factor: 118,
+  state_dim: 384,
+  input_dim: 8,
+  output_dim: 384,
+  A: [[...]],     // 12×12 system matrix
+  B: [[...]],     // 12×8 input matrix
+  C: [[...]],     // 384×12 output matrix
+  N_quadratic: [[[...]]],  // 12×12×12 quadratic terms
+  material_correlations: {
+    rho_c: piecewise_cubic_hermite(T),
+    k: piecewise_cubic_hermite(T),
+    alpha: piecewise_cubic_hermite(T),
+    E: piecewise_cubic_hermite(T),
+    mu_r: sigmoid(T, Tc=770, width=8)
   },
-  "validation": {
-    "gci": "<2%",
-    "fbgrms": "<5°C",
-    "stress_rms": "<10 MPa",
-    "energy_balance": "<5%"
+  validation: {
+    gci: <2%,
+    fbgrms: <5°C,
+    stress_rms: <10 MPa,
+    energy_balance: <5%
   }
 }
 ```
@@ -351,7 +351,7 @@ Every 100 ms (10 Hz):
   3. If ||Δx||₂ > 3σ_threshold:
        a. Log synchronization anomaly
        b. Trigger ML autoencoder retraining (FOLLOW-29)
-       c. Operator alert: "Twin drift detected — review recommended"
+       c. Operator alert: Twin drift detected — review recommended
   4. Update twin initial condition: x_twin ← x_process (soft reset, ω = 0.1)
   5. Advance twin by 100 ms
   6. Publish twin predictions (T+1s, T+10s, T+60s) to SCADA HMI
@@ -688,16 +688,16 @@ Every data element carries **provenance metadata**:
 
 ```json
 {
-  "element": "FBG_042_T",
-  "value": 1847.3,
-  "unit": "°C",
-  "timestamp": "2026-11-03T09:15:00.100Z",
-  "lineage": {
-    "source": "PROD-10 Zone 4 FBG interrogator SN-2024-042",
-    "path": "FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka",
-    "transforms": ["kalman_filter", "twin_soft_reset"],
-    "merkle_root": "a3f2...",
-    "signature": "HSM-SCADA-L3:MEUCIQD..."
+  element: FBG_042_T,
+  value: 1847.3,
+  unit: °C,
+  timestamp: 2026-11-03T09:15:00.100Z,
+  lineage: {
+    source: PROD-10 Zone 4 FBG interrogator SN-2024-042,
+    path: FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka,
+    transforms: [kalman_filter, twin_soft_reset],
+    merkle_root: a3f2...,
+    signature: HSM-SCADA-L3:MEUCIQD...
   }
 }
 ```
@@ -733,16 +733,16 @@ This provides **tamper-evident audit trail** for regulatory and liability purpos
 
 | Level | Display | Refresh | Content | Audience |
 |-------|---------|---------|---------|----------|
-| **L1 Overview** | 55" wall | 1 Hz | Forge health, stage status, energy, yield, anomalies | Shift Lead, Visitors |
-| **L2 Unit** | 32" console | 1 Hz | Zone power, drum profile, SIF states, gas | Operator (Forge) |
-| **L3 Detail** | 27" console | 10 Hz | FBG heatmap, twin prediction, Λ_ML, CPAT | Controls Engineer |
-| **L4 Diagnostic** | 27" console | 100 Hz | Raw FBG, EM waveforms, AE spectrum, ROM residuals | Maintenance, Cyber |
+| **L1 Overview** | 55 wall | 1 Hz | Forge health, stage status, energy, yield, anomalies | Shift Lead, Visitors |
+| **L2 Unit** | 32 console | 1 Hz | Zone power, drum profile, SIF states, gas | Operator (Forge) |
+| **L3 Detail** | 27 console | 10 Hz | FBG heatmap, twin prediction, Λ_ML, CPAT | Controls Engineer |
+| **L4 Diagnostic** | 27 console | 100 Hz | Raw FBG, EM waveforms, AE spectrum, ROM residuals | Maintenance, Cyber |
 
 ### 11.2 3D Twin View
 
 - **Real-time drum**: 384 FBG channels mapped to cylindrical mesh, color = temperature
 - **Twin overlay**: Predicted T+1s, T+10s, T+60s as semi-transparent layers
-- **Anomaly cards**: Pinned to 3D location (e.g., "Λ_ML=12.3 at Z=450mm, θ=120°")
+- **Anomaly cards**: Pinned to 3D location (e.g., Λ_ML=12.3 at Z=450mm, θ=120°)
 - **Interaction**: Touch/click → drill to L4 diagnostic for that zone
 
 ### 11.3 Anomaly Card Format (PROD-35)

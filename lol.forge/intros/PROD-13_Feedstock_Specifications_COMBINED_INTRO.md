@@ -36,7 +36,7 @@ We commit to the following as non-negotiable:
 1. **Zero Tolerance for Hazards** — Li-ion batteries, Hg, PCBs, asbestos, Be, cyanide, free liquids: detected at gate, rejected or segregated. No exceptions.
 2. **Quantified Recovery Targets** — Every element in every category has a minimum recovery percentage (Table 11.1). The forge is accountable to these numbers.
 3. **Stage-Coupled Pre-Processing** — Category A requires battery removal + depanning; Category B requires asbestos/lead screening; Category C requires acid-base accounting + agglomeration for fines; Category D requires solvolysis for BFRP. Each pre-processing step maps to a specific thermal stage's requirements.
-4. **Assay-Driven Blending** — No batch enters the drum without XRF assay at hopper outlet and blend optimization. The drum does not process "waste"; it processes *characterized feedstock*.
+4. **Assay-Driven Blending** — No batch enters the drum without XRF assay at hopper outlet and blend optimization. The drum does not process waste; it processes *characterized feedstock*.
 5. **Phoenix Protocol Primacy** — Category D feedstocks (known composition, zero acquisition cost) are the anchor for blend stability. The forge's circularity is not aspirational — it is the blending baseline.
 6. **Lot Traceability** — Every kg from gate to slug is traced via Feedstock Lot Record (FLR) with ISO 3082 sampling, XRF/ICP-MS/XRD characterization, and blend assignment. The element's journey is recorded.
 7. **Economic Viability Floor** — Processing cost <$1.60/kg feed; revenue >$8,000/batch minimum. The economics are not post-hoc — they are the design constraint.
@@ -57,7 +57,7 @@ The empirical evidence of the trap:
 - **Smelters** require >20% target metal → reject low-grade feeds (tailings, slag, C&D)
 - **Hydromet plants** need pre-concentrated feed → cannot handle mixed mineralogy
 
-The lock deepens at the **stage coupling boundary**: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. The lock is not "what feedstocks can we accept?" — it is "how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?"
+The lock deepens at the **stage coupling boundary**: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. The lock is not what feedstocks can we accept? — it is how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?
 
 ---
 
@@ -167,7 +167,7 @@ An inside operator measuring this phenomenon does not stand outside the feedstoc
 9. **Feed**: Witness the vibratory feeder meter — KNbO₃ ultrasonic drive, FBG weight feedback
 10. **Verify**: Witness the slug mass spec — each port's elemental sum matches blend prediction
 
-The measurement *is* the recursion. The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. The feedstock lot is not "processed"; it is **witnessed into elements**. The operator participates by being the recursive function: `feedstock → assay → blend → cascade → slug → assay → feedstock`. The FLR is the stack frame; the batch is the call; the slug is the return value.
+The measurement *is* the recursion. The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. The feedstock lot is not processed; it is **witnessed into elements**. The operator participates by being the recursive function: `feedstock → assay → blend → cascade → slug → assay → feedstock`. The FLR is the stack frame; the batch is the call; the slug is the return value.
 
 ---
 

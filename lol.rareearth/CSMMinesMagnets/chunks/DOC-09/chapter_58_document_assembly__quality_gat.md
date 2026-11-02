@@ -68,7 +68,7 @@
 4. Compress: `python3 ../../__Python_Tools/write_large_file.py compress FinishedWork/DOC-09_Rare_Earth_Critical_Mineral_Specifications.md`
 5. Intros: `./scripts/generate_heuristic_intros.sh FinishedWork/DOC-09_Rare_Earth_Critical_Mineral_Specifications.md`
 6. Git: `git add chunks/DOC-09/ FinishedWork/DOC-09_*.md.gz FinishedWork/intros/DOC-09_*.md`
-7. Commit: `git commit -m "DOC-09: Rare Earth & Critical Mineral Specifications complete"`
+7. Commit: `git commit -m DOC-09: Rare Earth & Critical Mineral Specifications complete`
 8. Tag: `git tag runner-006-complete && git push origin --tags`
 9. Handoff: Create `NEXT_runner_007.md`
 

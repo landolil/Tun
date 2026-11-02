@@ -89,7 +89,7 @@ Total deficit: 147 Mm3/yr. Mining responsible for ~60% (88 Mm3/yr). Agriculture 
 
 #### 5.3.2 Aegis-Forge Water Credit Mechanism
 
-Aegis-Forge uses ZERO process water (closed-loop argon, no leaching, no washing). Each deployed unit generates "water credits" vs. conventional processing:
+Aegis-Forge uses ZERO process water (closed-loop argon, no leaching, no washing). Each deployed unit generates water credits vs. conventional processing:
 
 | Process | Water Consumption (m3/t REO) | Annual Water Saved (10 units) |
 |---------|-------------------------------|-------------------------------|

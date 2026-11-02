@@ -136,7 +136,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-11/ FinishedWork/DOC-11_*.md.gz FinishedWork/intros/DOC-11_*.md
-git commit -m "DOC-11: Geomagnetic Risk & Infrastructure Hardening complete"
+git commit -m DOC-11: Geomagnetic Risk & Infrastructure Hardening complete
 git tag runner-008-complete
 git push origin --tags
 
@@ -179,24 +179,24 @@ git status
 
 ```bash
 # Carrington/GIC fundamentals
-websearch "Carrington Event 1859 geomagnetically induced currents GIC grid transformer damage"
+websearch Carrington Event 1859 geomagnetically induced currents GIC grid transformer damage
 
 # Chilean grid
-websearch "Chile SEN CDEC grid topology transformer fleet GIC vulnerability 2024"
-websearch "Chile mining electricity demand grid critical loads Antofagasta Atacama"
+websearch Chile SEN CDEC grid topology transformer fleet GIC vulnerability 2024
+websearch Chile mining electricity demand grid critical loads Antofagasta Atacama
 
 # GIC hardening
-websearch "IEEE C57.163 GIC transformer neutral blocker series capacitor mitigation"
-websearch "NERC TPL-007 GIC benchmark planning cases transformer thermal assessment"
-websearch "EPRI GIC monitoring hardware solutions transformer protection"
+websearch IEEE C57.163 GIC transformer neutral blocker series capacitor mitigation
+websearch NERC TPL-007 GIC benchmark planning cases transformer thermal assessment
+websearch EPRI GIC monitoring hardware solutions transformer protection
 
 # Space weather operations
-websearch "NOAA SWPC alerts Chile space weather operations protocol"
-websearch "Chilean Navy SHOA space weather early warning SENAPRED"
+websearch NOAA SWPC alerts Chile space weather operations protocol
+websearch Chilean Navy SHOA space weather early warning SENAPRED
 
 # Financial instruments
-websearch "CAT bonds space weather parametric insurance grid resilience"
-websearch "resilience bonds World Bank Green Climate Fund grid hardening"
+websearch CAT bonds space weather parametric insurance grid resilience
+websearch resilience bonds World Bank Green Climate Fund grid hardening
 ```
 
 ---

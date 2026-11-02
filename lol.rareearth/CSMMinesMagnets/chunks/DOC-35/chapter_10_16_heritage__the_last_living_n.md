@@ -9,7 +9,7 @@
 | **Process** | **Shanks System** (last commercial) | **Unique globally** |
 | **Key Infrastructure** | Leaching tanks (40), Power house (steam), Railway (FCAB), Campamento (grid layout) | **Intact** |
 | **Monumento Nacional** | **Declared 1999 (Historic Monument)** | **Active industrial site** |
-| **UNESCO Tentative List** | "Oficinas Salitreras" (with Humberstone, Santa Laura) | **Pending** |
+| **UNESCO Tentative List** | Oficinas Salitreras (with Humberstone, Santa Laura) | **Pending** |
 
 ### 1.6.2 Heritage Tourism Potential — The Untapped Asset
 

@@ -11,7 +11,7 @@
 6. Gas systems: MFC zero/span, leak check, purge sequences
 7. SCADA: recipe load (ISA-88 XML), batch UUID generation, twin sync
 
-**Assessment**: Simulator — execute cold startup to "Ready for Feed" in <90 min
+**Assessment**: Simulator — execute cold startup to Ready for Feed in <90 min
 
 ### 7.2 Module O-02: Hot Commissioning & Steady State (24 hrs)
 

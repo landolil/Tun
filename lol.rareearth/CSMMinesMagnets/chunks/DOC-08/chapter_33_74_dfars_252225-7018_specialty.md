@@ -17,12 +17,12 @@
 
 ### 7.4.2 Compliance Strategy for CSM Supply Chain
 
-**Qualifying Country Definition (DFARS 252.225-7018(a))**: "A country that is a party to a qualifying defense cooperation agreement with the United States." **Chile qualifies** via:
+**Qualifying Country Definition (DFARS 252.225-7018(a))**: A country that is a party to a qualifying defense cooperation agreement with the United States. **Chile qualifies** via:
 - Chile-US FTA (2004) — includes defense cooperation provisions
 - Status of Forces Agreement (SOFA) — 2020
 - Defense Trade Cooperation Treaty — under negotiation (2024)
 
-**Aegis-Forge Chile as "Melting Point"**:
+**Aegis-Forge Chile as Melting Point**:
 - **NdFeB**: Strip casting + sintering at Aegis-Forge Chile (Antofagasta) → **Chilean melt = compliant**
 - **SmCo**: Melting + sintering at Aegis-Forge Chile → **Chilean melt = compliant**
 - **Fe₁₆N₂**: Nitridation at Aegis-Forge Chile (Coquimbo) → **Chilean process = compliant**

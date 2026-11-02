@@ -176,7 +176,7 @@ For **each** of PROD-13, PROD-14, PROD-15:
 - [ ] `node scripts/split_chunks.js compress docs/PROD-XX_<title>.md`
 
 ### Phase 5: Commit & Push (5 min per doc)
-- [ ] `git add -A && git commit -m "lol.forge: PROD-XX <title> — 900+ lines + 4 heuristic intros" && git push`
+- [ ] `git add -A && git commit -m lol.forge: PROD-XX <title> — 900+ lines + 4 heuristic intros && git push`
 
 ### Phase 6: Update Trackers (5 min per doc)
 - [ ] Update `TODO.md` with completed subtasks

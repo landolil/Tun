@@ -6,8 +6,8 @@
 SCHEDULE GLACIER VETO — GLACIER PROTECTION FUND
 
 1. DEFINITIONS
-"Glacier" means any perennial ice mass inventoried in DGA Catastro 2023 (122 glaciers in Pehuenche headwaters) or subsequently identified.
-"Glacier Impact" means: (a) direct physical disturbance; (b) dust deposition >0.5 g/m²/day; (c) thermal alteration >0.5°C at 10m depth; (d) hydrological disconnection; (e) acceleration of retreat >25% above natural.
+Glacier means any perennial ice mass inventoried in DGA Catastro 2023 (122 glaciers in Pehuenche headwaters) or subsequently identified.
+Glacier Impact means: (a) direct physical disturbance; (b) dust deposition >0.5 g/m²/day; (c) thermal alteration >0.5°C at 10m depth; (d) hydrological disconnection; (e) acceleration of retreat >25% above natural.
 
 2. VETO TRIGGERS
 The GPF Board (4 Lonkos + 3 Machi + 1 Glaciologist + 1 Tardigradia) shall issue a Glacier Veto Order upon:

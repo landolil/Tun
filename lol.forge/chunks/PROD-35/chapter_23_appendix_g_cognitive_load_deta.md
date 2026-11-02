@@ -15,9 +15,9 @@
 
 | Bias | HMI Implementation | Training Implementation |
 |------|-------------------|------------------------|
-| **Over-reliance on Twin** | Every twin recommendation shows uncertainty badge: "Twin σ = ±12°C" (ensemble std dev) | Simulator: "Twin Wrong" scenarios where ML prediction diverges from physics |
+| **Over-reliance on Twin** | Every twin recommendation shows uncertainty badge: Twin σ = ±12°C (ensemble std dev) | Simulator: Twin Wrong scenarios where ML prediction diverges from physics |
 | **Alarm Flood Paralysis** | ISA-18.2 chattering filter (3 alarms/10s same source → suppress), Priority-only audio (P1 only) | PROD-34: Alarm flood scenarios, SL owns alarm response |
-| **Confirmation Bias** | Forced "What if wrong?" prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) | Oral board: devil's advocate role played by Safety Engineer |
+| **Confirmation Bias** | Forced What if wrong? prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) | Oral board: devil's advocate role played by Safety Engineer |
 | **Mode Confusion** | L0/L1/L2/L3 mode explicit: color ring (Blue/Green/Amber/Red) + text + icon on every display | Simulator: mode transition scenarios, explicit mode callouts |
 | **Complacency** | Surprise scenarios (unannounced CT-04 partial, FBG drift injection, Carrington trigger) | PROD-34: 50+ scenarios, 20% surprise, expert policy comparison |
 
@@ -26,7 +26,7 @@
 **SL Real-Time Workload Monitor (HMI Monitor 4):**
 - TLX estimate per operator (TLX_predicted from HSCT)
 - Color coding: Green <60, Amber 60-80, Red >80
-- Auto-suggestion: "FO-1 TLX 82 → reassign Zone 5 MFC to FO-2"
+- Auto-suggestion: FO-1 TLX 82 → reassign Zone 5 MFC to FO-2
 - SL acknowledgment required for redistribution
 
 ---

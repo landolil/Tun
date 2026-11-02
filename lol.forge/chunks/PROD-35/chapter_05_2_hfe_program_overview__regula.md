@@ -1,6 +1,6 @@
 ## 2. HFE Program Overview & Regulatory Basis
 
-### 2.1 Design Philosophy: "Embodied Cognition in Dielectric Space"
+### 2.1 Design Philosophy: Embodied Cognition in Dielectric Space
 
 The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): **the operator does not monitor — they witness the phenomenon into existence through direct sensory-motor coupling.** This requires HFE that designs for embodiment, not observation.
 

@@ -14,7 +14,7 @@
 | **Chlorine (Cl₂)** | 8,000 (MAX Phase chlorination) | 2,500 | **YES** |
 | **Sulfur Dioxide (SO₂)** | 3,000 (Stage 7-8) | 5,000 | No |
 
-**Covered Process:** "Stage 3-8 Thermal Processing including H₂/CO/NH₃/Cl₂/HCl systems"
+**Covered Process:** Stage 3-8 Thermal Processing including H₂/CO/NH₃/Cl₂/HCl systems
 
 ### 3.2 PSM 14-Element Implementation
 

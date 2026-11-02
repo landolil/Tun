@@ -5,7 +5,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Pipe diameter | 24" (610mm) |
+| Pipe diameter | 24 (610mm) |
 | Pressure class | ANSI 600 (10.2 MPa) |
 | Ceramic insert material | Si₃N₄ (silicon nitride), hot isostatic pressed |
 | Insert dimensions | 610mm OD, 560mm ID, 25mm thick |

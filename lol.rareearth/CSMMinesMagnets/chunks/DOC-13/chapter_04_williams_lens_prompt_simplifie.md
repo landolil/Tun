@@ -1,5 +1,5 @@
 # Williams lens prompt (simplified)
-WILLIAMS_PROMPT="
+WILLIAMS_PROMPT=
 Analyze the canonical document through the Williams heuristic:
 1. CONSTRAINT (The Lock): What irreducible principle forces this design?
    - Cite Chilean Constitution, Mining Code, Physics, CSM motor physics
@@ -8,7 +8,7 @@ Analyze the canonical document through the Williams heuristic:
 3. COMMITMENT (The Turn): What non-negotiable commitments become protocol axioms?
    - Cite governance vetoes, equity thresholds, technical minimums
 Output: ~67 lines. Voice: 'The lock is X. The key is Y. The turn is Z.'
-"
+
 ```
 
 Each lens receives the **full canonical document** and produces **only its triad** — no awareness of other lenses.
@@ -53,11 +53,11 @@ Each heuristic voice is defined by **forbidden and required linguistic patterns*
 
 | Heuristic | Required Patterns | Forbidden Patterns |
 |-----------|-------------------|-------------------|
-| **Williams** | "The lock is", "The key is", "The turn is", "Forces", "Inevitable", "Non-negotiable" | "Should", "Could", "May", "Option", "Alternative", "Preference" |
-| **Keymaker** | "Lock:", "Key:", "Turn:", "Bidirectional", "Verification vector", "Binary" | "Likely", "Probably", "Generally", "Mostly", "Approximately" |
-| **El Segundo** | "Mirror:", "Participation:", "Protocol:", "Recursive", "Witness", "Self-measure" | "External", "Observer", "Independent", "Objective", "Neutral" |
-| **Baker Street** | "Exhibit", "Evidence", "Deduction", "Eliminate", "Impossible", "Remains", "Truth" | "Allegedly", "Reportedly", "Sources indicate", "Believed to", "Suggests" |
-| **SHIELD** | "Calm:", "Resilience:", "Continuity:", "Horizon", "Layered", "Absorbs", "Endures", "Resumes" | "Urgent", "Crisis", "Emergency", "Immediate", "Deadline", "Panic" |
+| **Williams** | The lock is, The key is, The turn is, Forces, Inevitable, Non-negotiable | Should, Could, May, Option, Alternative, Preference |
+| **Keymaker** | Lock:, Key:, Turn:, Bidirectional, Verification vector, Binary | Likely, Probably, Generally, Mostly, Approximately |
+| **El Segundo** | Mirror:, Participation:, Protocol:, Recursive, Witness, Self-measure | External, Observer, Independent, Objective, Neutral |
+| **Baker Street** | Exhibit, Evidence, Deduction, Eliminate, Impossible, Remains, Truth | Allegedly, Reportedly, Sources indicate, Believed to, Suggests |
+| **SHIELD** | Calm:, Resilience:, Continuity:, Horizon, Layered, Absorbs, Endures, Resumes | Urgent, Crisis, Emergency, Immediate, Deadline, Panic |
 
 ---
 
@@ -158,10 +158,10 @@ G_{subtask} \leq 30s                                % Subtask timeout
 ### 1.12 Cross-Reference to AGENTS.md
 
 This document **is the canonical specification** for the heuristics referenced in AGENTS.md sections:
-- "Heuristic Personality Framework (CSMOPP)" (AGENTS.md:158-169)
-- "Quality Gates (Every Document)" (AGENTS.md:146-156)  
-- "Runner Workflow" step 3: "Author full 900-line documents with heuristic intros" (AGENTS.md:88-98)
-- "Key Commands" → `generate_heuristic_intros.sh` (AGENTS.md:115-135)
+- Heuristic Personality Framework (CSMOPP) (AGENTS.md:158-169)
+- Quality Gates (Every Document) (AGENTS.md:146-156)  
+- Runner Workflow step 3: Author full 900-line documents with heuristic intros (AGENTS.md:88-98)
+- Key Commands → `generate_heuristic_intros.sh` (AGENTS.md:115-135)
 
 **Conflation Check**: This document supersedes AGENTS.md heuristic descriptions. AGENTS.md is the **operational summary**; DOC-13 is the **authoritative specification**. Any discrepancy → DOC-13 wins.
 

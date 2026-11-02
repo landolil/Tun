@@ -25,7 +25,7 @@
 | **Peat Extraction** | Multiple bogs | 50 kt/yr (horticulture) | **Active** | **Yagán wetland degradation**, carbon release |
 
 **Mina Invierno Legacy (Supreme Court Rol 23.456-2020)**:
-> "La minera Invierno operó sin RCA válida para descarga marina, afectando **canales Kawéskar** (Seno Skyring, Seno Otway). **Orden de cierre y restauración** — **Kawéskar Council como veedor**."
+> La minera Invierno operó sin RCA válida para descarga marina, afectando **canales Kawéskar** (Seno Skyring, Seno Otway). **Orden de cierre y restauración** — **Kawéskar Council como veedor**.
 
 **Restoration Requirements (Court-Ordered)**:
 1. **Pit lake treatment**: Neutralize AMD, **target pH 6.5–7.5** before discharge

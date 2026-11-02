@@ -14,17 +14,17 @@
 
 ### 1. The All-Dielectric Constraint Is Non-Negotiable
 
-**Williams:** "No conductive path = Carrington immunity. Physics, not policy."
-**Keymaker:** "Every integration point in 80 docs must pass >10¹² Ω test."
-**El Segundo:** "Daily megger ritual. If it fails, stop the line."
+**Williams:** No conductive path = Carrington immunity. Physics, not policy.
+**Keymaker:** Every integration point in 80 docs must pass >10¹² Ω test.
+**El Segundo:** Daily megger ritual. If it fails, stop the line.
 
 **Unified Position:** The zero-metal hot zone is the *architectural invariant*. Every material choice flows from this. Copper exists ONLY as induction coil conductor — 64m, fully isolated, both ends at GaN inverter inside BFRP housing. No exceptions.
 
 ### 2. In-House Synthesis Is Strategic, Not Optional
 
-**Williams:** "56% savings ($890K/unit) = manufacturing sovereignty."
-**Keymaker:** "12 in-house routes create unbreakable supply chain moat."
-**El Segundo:** "$750K capital for furnaces/winder/draw tower = $75K/unit at 10 units."
+**Williams:** 56% savings ($890K/unit) = manufacturing sovereignty.
+**Keymaker:** 12 in-house routes create unbreakable supply chain moat.
+**El Segundo:** $750K capital for furnaces/winder/draw tower = $75K/unit at 10 units.
 
 **Unified Position:** The 12 in-house routes (Table 8, Sec 8) are the *moat*:
 - Basalt fiber: $2.20/kg vs $7/kg — local rock independence
@@ -38,9 +38,9 @@
 
 ### 3. Phoenix Protocol Makes the Economics Work at Scale
 
-**Williams:** "$21.5M/yr net circular savings — machine eats its own waste."
-**Keymaker:** "Phoenix loops close 5 material cycles → 90%+ recovery."
-**El Segundo:** "Basalt fiber 95% recovery = virgin equivalent. ZrB₂ 88% = re-flash sinterable."
+**Williams:** $21.5M/yr net circular savings — machine eats its own waste.
+**Keymaker:** Phoenix loops close 5 material cycles → 90%+ recovery.
+**El Segundo:** Basalt fiber 95% recovery = virgin equivalent. ZrB₂ 88% = re-flash sinterable.
 
 **Unified Position:** The circular loops (Sec 11) transform the BOM from linear cost to circular asset:
 | Loop | Annual Savings | Strategic Value |
@@ -53,9 +53,9 @@
 
 ### 4. Domestic Supply Chain Is Contracted and Credible
 
-**Williams:** "Tier 1 domestic: Basalt, Zircon, Borax, Ilmenite, GaN, NdFeB — all contracted."
-**Keymaker:** "Supply chain map (Sec 9) = risk register with mitigations."
-**El Segundo:** "Vendors named, contacts listed, lead times known, backups identified."
+**Williams:** Tier 1 domestic: Basalt, Zircon, Borax, Ilmenite, GaN, NdFeB — all contracted.
+**Keymaker:** Supply chain map (Sec 9) = risk register with mitigations.
+**El Segundo:** Vendors named, contacts listed, lead times known, backups identified.
 
 **Unified Position:** The supply chain (Sec 9) is not aspirational:
 - **Basalt:** Columbia River (OR/WA) — secured
@@ -72,11 +72,11 @@
 
 ### 5. The 24-Component BOM Is Complete and Verifiable
 
-**Williams:** "Every component traced to material, process, spec, cost, recovery."
-**Keymaker:** "Master table (Sec 2) → 6 classes → cross-ref matrix (Sec 14) → 80 docs."
-**El Segundo:** "Build sequence (Appendix B) = 5 sequences, 26 weeks, 8,400 hrs."
+**Williams:** Every component traced to material, process, spec, cost, recovery.
+**Keymaker:** Master table (Sec 2) → 6 classes → cross-ref matrix (Sec 14) → 80 docs.
+**El Segundo:** Build sequence (Appendix B) = 5 sequences, 26 weeks, 8,400 hrs.
 
-**Unified Position:** The BOM closes. No TBDs. No "TBR". Every item has:
+**Unified Position:** The BOM closes. No TBDs. No TBR. Every item has:
 - Material specification (grade, properties)
 - CSMFAB document reference
 - In-house synthesis route OR commercial source
@@ -138,11 +138,11 @@ TOTAL: 26 WEEKS FIRST UNIT | 8,400 HRS | $965K MATERIALS + $420K LABOR/OVERHEAD
 
 ## The Bottom Line (All Three Voices)
 
-**Williams:** "This BOM proves the Aegis-Forge I is sovereign, affordable, and Carrington-immune. The material choices are forced by physics. The in-house routes are forced by geopolitics. The circular loops are forced by economics. All three align."
+**Williams:** This BOM proves the Aegis-Forge I is sovereign, affordable, and Carrington-immune. The material choices are forced by physics. The in-house routes are forced by geopolitics. The circular loops are forced by economics. All three align.
 
-**Keymaker:** "PROD-12 is the master key. Turn it and 80 documents align. Every spec traces here. Every integration verifies here. Every cost calculates here. Every recovery loops here."
+**Keymaker:** PROD-12 is the master key. Turn it and 80 documents align. Every spec traces here. Every integration verifies here. Every cost calculates here. Every recovery loops here.
 
-**El Segundo:** "We can build this. Today. The furnaces exist. The rock is in Oregon. The contracts are signed. The megger reads >10¹² Ω. Give us the floor space and the POs."
+**El Segundo:** We can build this. Today. The furnaces exist. The rock is in Oregon. The contracts are signed. The megger reads >10¹² Ω. Give us the floor space and the POs.
 
 ---
 

@@ -13,7 +13,7 @@ The International Maritime Dangerous Goods (IMDG) Code, mandatory under SOLAS Ch
 
 ### 3.1.1 Magnetized Material Definition & Thresholds (IMDG Code 2.9.3)
 
-**Definition (IMDG 2.9.3.1)**: "Magnetized material means any material which, when packaged for transport, produces a magnetic field strength sufficient to cause deviation of aircraft navigational instruments or interfere with vessel compasses."
+**Definition (IMDG 2.9.3.1)**: Magnetized material means any material which, when packaged for transport, produces a magnetic field strength sufficient to cause deviation of aircraft navigational instruments or interfere with vessel compasses.
 
 **Quantitative Thresholds (IMDG 2.9.3.2, IATA DGR 9.3.2)**:
 
@@ -58,7 +58,7 @@ $$\text{SE}_{dB} = 20 \log_{10}\left(\frac{B_{unshielded}}{B_{shielded}}\right) 
 
 ### 3.1.2 Packing Group II Requirements (IMDG 4.1.4, IATA PI 953)
 
-Both UN 2807 and UN 3508 are assigned **Packing Group II** — "substances presenting medium danger." This mandates:
+Both UN 2807 and UN 3508 are assigned **Packing Group II** — substances presenting medium danger. This mandates:
 
 **Packaging Performance Standards (IMDG 6.1, IATA 6.0)**:
 | Test | Requirement | Standard |
@@ -81,8 +81,8 @@ Both UN 2807 and UN 3508 are assigned **Packing Group II** — "substances prese
 | **ISO Tank (20ft)** | 22G1 | 26,000 kg | REE concentrates (non-magnetic) |
 
 **Special Packaging Provisions (IMDG PP, IATA SP)**:
-- **PP89 / A193**: "Magnetized material must be packaged so that the magnetic field strength at 2.1m does not exceed 0.418 A/m (0.525 mT)"
-- **PP90 / A194**: "Packages must be marked 'MAGNETIZED MATERIAL' and display the Class 9 label"
+- **PP89 / A193**: Magnetized material must be packaged so that the magnetic field strength at 2.1m does not exceed 0.418 A/m (0.525 mT)
+- **PP90 / A194**: Packages must be marked 'MAGNETIZED MATERIAL' and display the Class 9 label
 - **SP 953 (IATA)**: Specific packaging instruction for magnetized material — requires shielding design validation
 
 **Marking & Labeling Requirements (IMDG 5.2, IATA 7.2)**:
@@ -99,7 +99,7 @@ Emergency Phone: +56-2-XXXX-XXXX
 ```
 - **Class 9 Label**: Black/white diamond (250mm × 250mm minimum)
 - **Orientation Arrows**: Two opposite sides (magnets have polarity)
-- **Handling Labels**: "MAGNETIC — KEEP AWAY FROM COMPASSES/ELECTRONICS"
+- **Handling Labels**: MAGNETIC — KEEP AWAY FROM COMPASSES/ELECTRONICS
 
 ### 3.2 IATA DGR 9.3 Air Freight Restrictions
 
@@ -223,7 +223,7 @@ Magnetic properties of permanent magnets are temperature-dependent. Shipping mus
 | **NdFeB** | N52EH | -0.09 | -0.50 | 200°C | 340°C |
 | **SmCo 1:5** | S18G | -0.045 | -0.30 | 250°C | 750°C |
 | **SmCo 2:17** | S30H | -0.035 | -0.20 | 350°C | 820°C |
-| **Fe₁₆N₂** | α"-Fe₁₆N₂ | -0.15 (est.) | -0.70 (est.) | **80°C** | 200°C (decomp.) |
+| **Fe₁₆N₂** | α-Fe₁₆N₂ | -0.15 (est.) | -0.70 (est.) | **80°C** | 200°C (decomp.) |
 | **Fe-Co (Hiperco 50)** | 50% Co | -0.01 | -0.05 | 450°C | 980°C |
 
 **Irreversible Loss Thresholds**:
@@ -242,8 +242,8 @@ Magnetic properties of permanent magnets are temperature-dependent. Shipping mus
 | **Fe-Co** | -40°C to +150°C | +450°C | Spot check | Robust |
 | **REE Concentrates** | -20°C to +50°C | N/A (non-magnetic) | Standard | Moisture control only |
 
-**Fe₁₆N₂ Criticality**: The **α"-Fe₁₆N₂ phase is metastable** and decomposes above ~80°C. This is a **hard constraint** — not just demagnetization but phase destruction. Requires:
-- **Reefer container**: -20°C ± 2°C setpoint (not just "cool")
+**Fe₁₆N₂ Criticality**: The **α-Fe₁₆N₂ phase is metastable** and decomposes above ~80°C. This is a **hard constraint** — not just demagnetization but phase destruction. Requires:
+- **Reefer container**: -20°C ± 2°C setpoint (not just cool)
 - **Redundant monitoring**: Primary (carrier) + Secondary (shipper IoT) + Third-party (insurance)
 - **Power backup**: Genset on chassis, 72hr autonomy
 - **Pre-cooling**: 24hr at -20°C before loading
@@ -275,7 +275,7 @@ Magnetic properties of permanent magnets are temperature-dependent. Shipping mus
 
 ### 3.3 MIL-STD-1540 Test Certificate Requirements
 
-**MIL-STD-1540E** (Department of Defense Standard Practice — "Test Requirements for Launch, Upper Stage, and Space Vehicles") is the **gold standard for magnet qualification** in defense and aerospace applications. While not mandatory for commercial shipments, CSM (Carrington Storm Motors) and Tardigradia Holding Company require MIL-STD-1540 compliance for all magnetic components entering their supply chain (DFARS 252.225-7018 flow-down).
+**MIL-STD-1540E** (Department of Defense Standard Practice — Test Requirements for Launch, Upper Stage, and Space Vehicles) is the **gold standard for magnet qualification** in defense and aerospace applications. While not mandatory for commercial shipments, CSM (Carrington Storm Motors) and Tardigradia Holding Company require MIL-STD-1540 compliance for all magnetic components entering their supply chain (DFARS 252.225-7018 flow-down).
 
 #### 3.3.1 Applicable Test Methods for Permanent Magnets
 
@@ -353,13 +353,13 @@ Digital Signature: Aegis-Forge QA (ECDSA-P256)
 
 ### 3.4 ASTM D4169 Distribution Testing (Assurance Level II)
 
-**ASTM D4169-23** ("Standard Practice for Performance Testing of Shipping Containers and Systems") validates that packaging survives the distribution environment. **Assurance Level II** (commercial/industrial) is the minimum for CSM magnetic mineral shipments.
+**ASTM D4169-23** (Standard Practice for Performance Testing of Shipping Containers and Systems) validates that packaging survives the distribution environment. **Assurance Level II** (commercial/industrial) is the minimum for CSM magnetic mineral shipments.
 
 #### 3.4.1 Test Schedule for Magnetic Assemblies (DC13 — Motorized Vehicle)
 
 | Sequence | Test | Level II Parameters | Magnetic Relevance |
 |----------|------|---------------------|-------------------|
-| **1** | **Manual Handling** | 12 drops, 0.76m (30") | Shock to magnet assembly |
+| **1** | **Manual Handling** | 12 drops, 0.76m (30) | Shock to magnet assembly |
 | **2** | **Vibration (Loose Load)** | 1 hr/truck, 1.05G RMS | Freight rail/truck vibration |
 | **3** | **Vibration (Unitized)** | 1 hr/rail, 0.52G RMS | FCAB/EFE rail transport |
 | **4** | **Low Pressure** | 11.5 kPa (11,000m), 1 hr | Air freight contingency |
@@ -401,7 +401,7 @@ Digital Signature: Aegis-Forge QA (ECDSA-P256)
 
 | Property | **NdFeB** | **SmCo 1:5** | **SmCo 2:17** | **Fe₁₆N₂** | **Fe-Co (50%)** |
 |----------|-----------|--------------|---------------|------------|-----------------|
-| **Chemical Formula** | Nd₂Fe₁₄B | SmCo₅ | Sm₂Co₁₇ | α"-Fe₁₆N₂ | Fe₅₀Co₅₀ |
+| **Chemical Formula** | Nd₂Fe₁₄B | SmCo₅ | Sm₂Co₁₇ | α-Fe₁₆N₂ | Fe₅₀Co₅₀ |
 | **Crystal Structure** | Tetragonal | Hexagonal | Rhombohedral | **BCC (metastable)** | BCC (ordered) |
 | **$(BH)_{max}$ (MGOe)** | 38-52 | 16-22 | 24-32 | **27-32 (target)** | 10-12 |
 | **$(BH)_{max}$ (kJ/m³)** | 302-414 | 127-175 | 191-255 | **215-255 (target)** | 80-95 |
@@ -554,7 +554,7 @@ Authorized: _________________________  Date: 2026-10-25
 - **Fe-Co**: Non-flammable, oxidizes >400°C
 
 **EmS F-A Procedure**:
-1. **ALERT**: Notify bridge, declare "CLASS 9 MAGNETIC MATERIAL FIRE"
+1. **ALERT**: Notify bridge, declare CLASS 9 MAGNETIC MATERIAL FIRE
 2. **EVACUATE**: Clear area 50m radius (magnetic interference with electronics)
 3. **EXTINGUISHING MEDIA**:
    - **Preferred**: **Argon/CO₂ (inert gas)** — smothers without water reaction

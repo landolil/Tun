@@ -1,6 +1,6 @@
 ## 3.1 Crystal Structure & Phase Stability
 
-**α"-Fe₁₆N₂ (Alpha-double-prime)**:
+**α-Fe₁₆N₂ (Alpha-double-prime)**:
 - **Structure**: Body-centered cubic (BCC) superlattice, $a = 5.72$ Å, $c = 6.28$ Å
 - **Space Group**: $I4/mmm$ (tetragonal distortion of BCC)
 - **Nitrogen Sites**: Octahedral interstices, ordered in 16:2 ratio

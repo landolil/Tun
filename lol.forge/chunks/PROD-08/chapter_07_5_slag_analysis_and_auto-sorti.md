@@ -131,40 +131,40 @@ ln(I_λ / (g_i A_ij λ)) vs. E_i  →  slope = -1/kT
 ```
 IF stream == S-07 (Copper):
   IF Cu >= 99.5% AND (Au+Ag+Pd) >= 50 ppm:
-    GRADE = "DIRECT_USE" → Machine 114 (Cu wire drawing)
+    GRADE = DIRECT_USE → Machine 114 (Cu wire drawing)
   ELSE IF Cu >= 99.0%:
-    GRADE = "REFINEMENT" → Machine 114 (fire refining first)
+    GRADE = REFINEMENT → Machine 114 (fire refining first)
   ELSE:
-    GRADE = "COMMERCIAL_SALE" → Commodity copper market
+    GRADE = COMMERCIAL_SALE → Commodity copper market
 
 IF stream == S-06 (Aluminum):
   IF Al >= 95% AND Fe+Si <= 1%:
-    GRADE = "COMMERCIAL_SALE" → Secondary Al market (CSM uses no Al)
+    GRADE = COMMERCIAL_SALE → Secondary Al market (CSM uses no Al)
   ELSE:
-    GRADE = "REFINEMENT" → Machine 114 (fractional crystallization)
+    GRADE = REFINEMENT → Machine 114 (fractional crystallization)
 
 IF stream == S-09 (Ferrous):
   IF Fe >= 95% AND (Nd+Sm+Dy) >= 0.1%:
-    GRADE = "DIRECT_USE" → Machine 113 (RE leach → magnet feed)
+    GRADE = DIRECT_USE → Machine 113 (RE leach → magnet feed)
   ELSE IF Fe >= 98%:
-    GRADE = "COMMERCIAL_SALE" → Steel mill feed
+    GRADE = COMMERCIAL_SALE → Steel mill feed
   ELSE:
-    GRADE = "REFINEMENT" → Machine 113 (slag adjustment)
+    GRADE = REFINEMENT → Machine 113 (slag adjustment)
 
 IF stream == S-04 (Indium):
   IF In >= 10% AND Sn+Zn <= 30%:
-    GRADE = "DIRECT_USE" → Machine 119 (YInMn synthesis)
+    GRADE = DIRECT_USE → Machine 119 (YInMn synthesis)
   ELSE:
-    GRADE = "REFINEMENT" → Ionic liquid extraction (Phoenix)
+    GRADE = REFINEMENT → Ionic liquid extraction (Phoenix)
 
 IF stream == S-11 (Mineral):
   IF ZrO₂ >= 60% AND REE >= 2%:
-    GRADE = "DIRECT_USE" → Machine 113 (Zr/Ti/REE hydromet)
+    GRADE = DIRECT_USE → Machine 113 (Zr/Ti/REE hydromet)
   ELSE:
-    GRADE = "STOCKPILE" → Await Phase 2 hydromet capacity
+    GRADE = STOCKPILE → Await Phase 2 hydromet capacity
 
 DEFAULT:
-  GRADE = "COMMERCIAL_SALE"
+  GRADE = COMMERCIAL_SALE
 ```
 
 ### 5.6 Three-Way Routing Conveyors

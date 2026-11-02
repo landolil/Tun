@@ -1,17 +1,17 @@
 # session_resume/knowledge_format.py (extended)
 
 class CivilizationalParser:
-    """
+    
     Parser that works with ONLY Python standard library.
     No pip packages. No external tools. Survives Python 3.13+.
-    """
+    
     
     @staticmethod
     def parse_document(markdown: str) -> Document:
-        """
+        
         Parse canonical document into structured data.
         Uses only: re, json, datetime, pathlib, typing
-        """
+        
         sections = []
         current_section = None
         
@@ -46,7 +46,7 @@ class CivilizationalParser:
     
     @staticmethod
     def extract_claims(document: Document) -> List[Claim]:
-        """Extract auditable claims from document"""
+        Extract auditable claims from document
         claims = []
         for section in document.sections:
             for line in section.content:
@@ -60,7 +60,7 @@ class CivilizationalParser:
     
     @staticmethod
     def is_claim(line: str) -> bool:
-        """Heuristic: lines with metrics, standards, or definitive statements"""
+        Heuristic: lines with metrics, standards, or definitive statements
         patterns = [
             r'\d+\.?\d*\s*(MGOe|MW|GW|km|tons?|%|\$|years?)',
             r'(IEEE|IEC|NERC|ISO|ASTM|MIL-STD|DFARS|CPTPP)\s+\d+',
@@ -70,7 +70,7 @@ class CivilizationalParser:
     
     @staticmethod
     def infer_heuristic(line: str) -> str:
-        """Infer governing heuristic from language patterns"""
+        Infer governing heuristic from language patterns
         if any(w in line.lower() for w in ['lock', 'constraint', 'forces', 'inevitable']):
             return 'Williams'
         if any(w in line.lower() for w in ['lock:', 'key:', 'turn:', 'binary', 'verification']):
@@ -92,18 +92,18 @@ class CivilizationalParser:
 
 ```python
 def test_civilizational_survivability():
-    """
+    
     Validates that ALL pipeline artifacts are parsable with stdlib only.
-    """
+    
     artifacts = [
-        "FinishedWork/DOC-01.md.gz",
-        "chunks/DOC-01/chapter_01.md",
-        "chunks/DOC-01/MANIFEST.json",
-        "FinishedWork/intros/DOC-01_intro_williams.md",
-        "FinishedWork/audit_ledger.jsonl",
-        "Logs/heartbeat.log",
-        "RESUME_SESSION_MAGNETS.md",
-        "NEXT_runner_012.md",
+        FinishedWork/DOC-01.md.gz,
+        chunks/DOC-01/chapter_01.md,
+        chunks/DOC-01/MANIFEST.json,
+        FinishedWork/intros/DOC-01_intro_williams.md,
+        FinishedWork/audit_ledger.jsonl,
+        Logs/heartbeat.log,
+        RESUME_SESSION_MAGNETS.md,
+        NEXT_runner_012.md,
     ]
     
     for artifact in artifacts:
@@ -123,7 +123,7 @@ def test_civilizational_survivability():
             # Verify ISO timestamp format
             assert all(re.match(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}', l) for l in lines[:5])
     
-    return "ALL ARTIFACTS CIVILIZATIONALLY SURVIVABLE"
+    return ALL ARTIFACTS CIVILIZATIONALLY SURVIVABLE
 ```
 
 ---
@@ -143,21 +143,21 @@ def test_civilizational_survivability():
 
 ```python
 class KnowledgePreservationTrust:
-    """
+    
     Legal entity ensuring pipeline knowledge survives institutional collapse.
-    """
+    
     def __init__(self):
         self.trustees = [
-            "Tardigradia Holdco Board",
-            "Carrington Storm Motors Board", 
-            "Chilean FBC/CDC Representatives",
-            "Independent Technical Trustees (3)"
+            Tardigradia Holdco Board,
+            Carrington Storm Motors Board, 
+            Chilean FBC/CDC Representatives,
+            Independent Technical Trustees (3)
         ]
-        self.mandate = "Preserve CSMMinesMagnets pipeline knowledge indefinitely"
-        self.funding = "Layer 7 of Resilience Stack ($10K/yr)"
+        self.mandate = Preserve CSMMinesMagnets pipeline knowledge indefinitely
+        self.funding = Layer 7 of Resilience Stack ($10K/yr)
     
     def annual_ceremony(self):
-        """Annual verification ceremony"""
+        Annual verification ceremony
         # 1. Verify GitHub clone works
         # 2. Verify stdlib parser reads all docs
         # 3. Verify IPFS pins active

@@ -57,6 +57,6 @@ This document makes the following non-negotiable commitments that constrain all 
 
 7. **Seismic capacity governed by vessel buckling (HCLPF = 1.6g)** — frame and drum have higher margins. PROD-27 manufactures 6 stiffening rings. PROD-28 QA shake table tests. PROD-29 deployment verifies strut installation.
 
-8. **All structural materials use PROD-24 temperature-dependent correlations** — no "room temperature" properties in analysis. PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. PROD-37 digital twin uses same correlations.
+8. **All structural materials use PROD-24 temperature-dependent correlations** — no room temperature properties in analysis. PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. PROD-37 digital twin uses same correlations.
 
 These commitments are the **structural load-bearing walls**. PROD-27 (Manufacturing), PROD-28 (QA), PROD-29 (Deployment), PROD-30 (Maintenance), PROD-32 (Compliance), PROD-37 (Digital Twin), PROD-39 (T&E), FOLLOW-04/05/07/25 build on this foundation. They cannot move the walls.

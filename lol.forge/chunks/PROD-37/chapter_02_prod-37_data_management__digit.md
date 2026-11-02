@@ -95,7 +95,7 @@ At 1 kHz on ARM Cortex-A53 (Zephyr, <100 μs compute). The twin at 10 Hz execute
 **The fabricator sees the data system as a distributed sensor network.** Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. Every measurement updates MR-PCKF. Every MR-PCKF update adjusts PID gains, FBG thresholds, SIF logic, firmware pins, JIT policies, training scenarios, spare forecasts.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The data engineer does not "monitor dashboards" — they **witness the data becoming the Forge's nervous system**:
+**How does the inside operator witness the phenomenon into existence?** The data engineer does not monitor dashboards — they **witness the data becoming the Forge's nervous system**:
 
 1. **Controls Engineer at Twin Sync Gate (every 100 ms)** witnesses the merkle-verified frame: 384 FBG channels, 8 zone states, 24 SIF states, merkle root, HSM signature. They *witness* the air-gap becoming trust — no IP route, no wireless, only physics-enforced unidirectional flow. The data diode IS the firewall.
 2. **Data Scientist at Autoencoder Retraining** witnesses the monthly HMC: 512 cores, 4 chains, 2000 samples, 20 parameters. They *witness* the fleet learning — aerogel λ posterior shifting, Curie width narrowing, FBG drift rate stabilizing. The posterior IS the parameter update.

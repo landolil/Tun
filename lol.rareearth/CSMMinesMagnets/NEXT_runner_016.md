@@ -192,7 +192,7 @@ After all 9 chapters:
 ```bash
 # After each document complete:
 git add -A
-git commit -m "lol.rareearth: DOC-XX Title — NNNN lines, XX formulas, XXX cross-refs, XX standards, 0 conflation"
+git commit -m lol.rareearth: DOC-XX Title — NNNN lines, XX formulas, XXX cross-refs, XX standards, 0 conflation
 git tag runner-016X-complete  # X = a/b/c for DOC-23/24/25
 git push origin kilo/digital-dolphin-50m
 git push origin runner-016X-complete

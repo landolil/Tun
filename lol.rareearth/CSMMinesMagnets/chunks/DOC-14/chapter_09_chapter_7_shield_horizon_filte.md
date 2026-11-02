@@ -126,7 +126,7 @@ The SHIELD Horizon Filter provides **long-horizon significance assessment** for 
 - **Continuity Protocol**: RTO/RPO specified per resolution type
 - **Calm Execution**: Pre-positioned responses, no emergency actions
 
-The SHIELD voice — *"Calm: [conflation]→[layered assessment]. Resilience: [layers] absorb [resolution]. Continuity: [RTO/RPO] specified."* — is the **survival certificate** that conflation resolutions endure across all time horizons.
+The SHIELD voice — *Calm: [conflation]→[layered assessment]. Resilience: [layers] absorb [resolution]. Continuity: [RTO/RPO] specified.* — is the **survival certificate** that conflation resolutions endure across all time horizons.
 
 **Next**: Chapter 8 — Historical Resolution: 5 Cases from DOC-13 + Predictive Cases for Phase 3+.
 

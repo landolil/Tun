@@ -36,13 +36,13 @@ STAMP FORMAT — 24 CHARACTERS
 **Encoded Data (JSON compact):**
 ```json
 {
-  "b": "20261031-042",    // Batch ID
-  "p": "5",               // Port (string for 4a, 4b, 6-PM, 7-RE)
-  "t": 680,               // Stage temp °C
-  "s": 15,                // Sequence
-  "m": "Al-6061",         // Material grade (from LIBS)
-  "w": 1.987,             // Mass kg (load cell)
-  "c": "2026-10-31T14:23:12Z"  // Timestamp UTC
+  b: 20261031-042,    // Batch ID
+  p: 5,               // Port (string for 4a, 4b, 6-PM, 7-RE)
+  t: 680,               // Stage temp °C
+  s: 15,                // Sequence
+  m: Al-6061,         // Material grade (from LIBS)
+  w: 1.987,             // Mass kg (load cell)
+  c: 2026-10-31T14:23:12Z  // Timestamp UTC
 }
 ```
 

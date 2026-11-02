@@ -67,7 +67,7 @@ The **Código de Aguas** (DFL 1.122, 1981, reformed Law 21.435/2022) governs *de
 ### 4.4 CRMA DNSH Water Criterion Compliance
 
 **EU Critical Raw Materials Act (Regulation 2024/1252) — DNSH Water Objective:**
-*"An activity must not be detrimental to the good status or good ecological status of water bodies (surface, groundwater, or marine waters)."*
+*An activity must not be detrimental to the good status or good ecological status of water bodies (surface, groundwater, or marine waters).*
 
 **CRMA Strategic Project DNSH Assessment (Art. 9, Annex II):**
 | DNSH Criterion | Threshold | Aegis-Forge Status |

@@ -111,7 +111,7 @@
 | **Recovery Time** | 5 years | **50–100 years (irreversible)** | **Structural collapse** |
 | **Water Quality** | No change | **Acid rock drainage risk (pyrite exposure)** | **New risk identified** |
 
-**Environmental Court 2024 Finding**: **Codelco EIA "substantially underestimates rock glacier hydrological function and irreversibility of intervention."**
+**Environmental Court 2024 Finding**: **Codelco EIA substantially underestimates rock glacier hydrological function and irreversibility of intervention.**
 
 #### U.2.3 El Teniente — Sewer Discharge Legacy
 

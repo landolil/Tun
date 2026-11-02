@@ -1,12 +1,12 @@
 # Conflation Check Results Summary
 conflation_results = {
-    "numerical_conflicts": 0,
-    "terminology_conflicts": 0,
-    "assumption_conflicts": 0,
-    "citation_conflicts": 0,
-    "formula_conflicts": 0,
-    "temporal_conflicts": 0,
-    "total_flags": 0
+    numerical_conflicts: 0,
+    terminology_conflicts: 0,
+    assumption_conflicts: 0,
+    citation_conflicts: 0,
+    formula_conflicts: 0,
+    temporal_conflicts: 0,
+    total_flags: 0
 }
 ```
 

@@ -18,7 +18,7 @@ How does the fabricator observe their own fabrication? The Aegis-Forge I manufac
 | **Braze (A-04)** | TC on fixture, vacuum gauge, RGA | 950°C ±5°C, <10⁻⁵ mbar, no O₂ spike | Abort if T drift >10°C; re-pump if vacuum lost |
 | **Module assembly (A-10)** | Thermal camera, V/I scope, POF OTDR | ZVS phase <5°, T_j <125°C, IL <0.5 dB | Re-work if ZVS fail; re-splice if IL >0.5 dB |
 
-**Self-reflection logic:** Each process machine evaluates its own output against the *mathematical key* (synchronization function predicates) in real-time. The flash sinter machine *is* the verification of its own density. The winding machine *is* the verification of its own fiber angle. The factory does not "inspect" — it *measures while making*.
+**Self-reflection logic:** Each process machine evaluates its own output against the *mathematical key* (synchronization function predicates) in real-time. The flash sinter machine *is* the verification of its own density. The winding machine *is* the verification of its own fiber angle. The factory does not inspect — it *measures while making*.
 
 #### Level 1 — Assembly-Level Witness (Gate Verification, Per Assembly)
 
@@ -77,33 +77,33 @@ How does the inside operator witness the manufacturing phenomenon into existence
 
 **Gate 1: First Article Authorization — Drum Flash Sinter (Week 7)**
 - **Action:** Sintering Engineer authorizes FA-01 cycle start after verifying powder lot, die condition, electrode life, argon purity.
-- **Witness requirement:** Engineer reviews real-time V/I trace for flash signature (resistivity drop). Confirms "flash event witnessed" in log.
+- **Witness requirement:** Engineer reviews real-time V/I trace for flash signature (resistivity drop). Confirms flash event witnessed in log.
 - **Why human:** The flash event is a *physical phase transition*, not a control parameter. No algorithm witnesses the percolation threshold — the engineer sees the V/I trace collapse and *knows* the material has transformed.
-- **Cognitive checkpoint:** "Did the powder become ceramic?" — pattern recognition of the flash signature.
+- **Cognitive checkpoint:** Did the powder become ceramic? — pattern recognition of the flash signature.
 
 **Gate 2: Synchronization Gate Sign-Off — SG-1, SG-2, SG-3 (Weeks 12, 16, 20)**
 - **Action:** Manufacturing Engineer + Quality Engineer dual-sign data package.
 - **Witness requirement:** Both review every UT scan, CMM report, test log. Any NCR → gate hold.
-- **Why human:** Quality acceptance is organizational, not algorithmic. No mathematical function accepts "the UT shows a 200 μm indication but we'll ship anyway." Human judgment weighs risk vs. schedule.
-- **Cognitive checkpoint:** "Does this assembly meet the mathematical key's verified predicate?" — explicit quality judgment.
+- **Why human:** Quality acceptance is organizational, not algorithmic. No mathematical function accepts the UT shows a 200 μm indication but we'll ship anyway. Human judgment weighs risk vs. schedule.
+- **Cognitive checkpoint:** Does this assembly meet the mathematical key's verified predicate? — explicit quality judgment.
 
 **Gate 3: Integration Bolt Ceremony — Flange Closure (Week 22)**
 - **Action:** Two-person torque verification: Operator A applies 160 N·m, Operator B verifies with independent wrench. Both sign.
 - **Witness requirement:** Ceramic bolts have no yield — only fracture. The ceremony *is* the safety barrier.
 - **Why human:** Torque verification is a *social protocol*, not a measurement. The second person's presence changes the first person's behavior (Hawthorne effect as safety feature).
-- **Cognitive checkpoint:** "Did we both witness the same torque?" — mutual verification of critical joint.
+- **Cognitive checkpoint:** Did we both witness the same torque? — mutual verification of critical joint.
 
 **Gate 4: FAT Authorization — CT-10 Hot Run (Week 26)**
 - **Action:** Plant Manager + Lead EE + Lead ME + Safety Engineer sign CT-10 data package for 6 batches.
 - **Witness requirement:** Review all 6 batch records: mass balance >99%, all outputs spec, zero SIF trips, digital twin sync.
-- **Why human:** Production readiness is organizational judgment. Data is necessary but not sufficient. Engineer judges: "Is the 0.8% mass balance gap on Batch 4 acceptable?" (Yes, within measurement uncertainty).
-- **Cognitive checkpoint:** "Is this Forge ready to ship?" — professional engineering judgment on system maturity.
+- **Why human:** Production readiness is organizational judgment. Data is necessary but not sufficient. Engineer judges: Is the 0.8% mass balance gap on Batch 4 acceptable? (Yes, within measurement uncertainty).
+- **Cognitive checkpoint:** Is this Forge ready to ship? — professional engineering judgment on system maturity.
 
 **Gate 5: Supplier First-Article Acceptance (Ongoing)**
 - **Action:** Procurement + Materials Engineering accept supplier FA lots (3 drums, 3 vessels, 8 modules).
 - **Witness requirement:** Compare supplier data to CSMFAB spec. Visit supplier for critical processes (flash sinter, winding, braze).
 - **Why human:** Supplier capability is relational, not transactional. The visit *is* the audit.
-- **Cognitive checkpoint:** "Does this supplier understand the mathematical key?" — judgment of supplier's process knowledge.
+- **Cognitive checkpoint:** Does this supplier understand the mathematical key? — judgment of supplier's process knowledge.
 
 #### The Participation Principle
 
@@ -127,7 +127,7 @@ What recursive sequence guarantees manufacturing fidelity at each scale? From th
 
 | Scale | Prepare | Execute | Verify | Authorize | Feedback |
 |---|---|---|---|---|---|
-| **Process (Flash)** | Powder lot cert, die inspect | 1800°C/50MPa/5min | V/I flash signature, LVDT shrinkage | Sinter Eng "flash witnessed" | Die life counter, powder lot trace |
+| **Process (Flash)** | Powder lot cert, die inspect | 1800°C/50MPa/5min | V/I flash signature, LVDT shrinkage | Sinter Eng flash witnessed | Die life counter, powder lot trace |
 | **Process (Winding)** | Mandrel CMM, roving cert | [±18°/90°]₄ @ 50 m/min | Laser angle, tension, cure, thickness | Mfg Eng + QA sign SG-2 | Fiber angle trend, mandrel wear |
 | **Assembly (Module)** | Parts kitting, PCB inspect | GaN mount, bond, program | ZVS, thermal, TSN, POF | Mfg Eng + QA sign SG-3 | Module efficiency trend, yield |
 | **Gate (Sync)** | All stream data packages | Gate review meeting | All predicates TRUE | Dual-sign (Mfg+QA) | Gate timing, NCR rate |
@@ -142,7 +142,7 @@ FOR each critical operation (flash sinter, winding, braze, module assembly, FBG 
     Prepare: Inputs certified (material certs, tool cal, operator qual)
     Execute: Run per work instruction, real-time sensor capture
     Verify: In-process data vs. physics model (V/I flash, laser angle, TIM bond, ZVS)
-    Authorize: Operator logs "event witnessed" (flash, ZVS, braze flow)
+    Authorize: Operator logs event witnessed (flash, ZVS, braze flow)
     Feedback: Update tool life, material lot history, operator qual
 ```
 

@@ -2,7 +2,7 @@
 
 Puerto Mejillones, located at 23°06'S, 70°27'W (65km north of Antofagasta), is Chile's premier deep-water bulk terminal. The port complex handles 8.5M tons annually (2024), with 92% mineral concentrates — primarily copper, molybdenum, and increasingly rare earth concentrates. Its natural depth (18-22m) accommodates Capesize vessels (180,000+ DWT) without dredging, providing a structural cost advantage for high-volume magnetic mineral exports.
 
-**Geographic Coordinates**: 23°06'18"S, 70°27'36"W
+**Geographic Coordinates**: 23°06'18S, 70°27'36W
 **Port Type**: Open coast, natural deep water (no breakwater required)
 **Annual Throughput (2024)**: 8.5M tons (7.8M tons mineral concentrates, 0.7M tons general/breakbulk)
 **Operating Hours**: 24/7/365
@@ -216,4 +216,4 @@ $$\text{Cost}_{storage} = \frac{\text{CAPEX}_{annualized} + \text{OPEX}_{annual}
 
 **Comparison**: Antofagasta open stockyard = USD 0.35/ton (but no climate control, no segregation, cross-contamination risk). TCMN premium = USD 0.14/ton for REE-grade assurance.
 
-**Strategic Value**: Enables "mine-to-ship" traceability without intermediate handling — critical for DFARS 252.225-7018 compliance (DOC-06, DOC-07 Ch. 8).
+**Strategic Value**: Enables mine-to-ship traceability without intermediate handling — critical for DFARS 252.225-7018 compliance (DOC-06, DOC-07 Ch. 8).

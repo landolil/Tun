@@ -177,7 +177,7 @@ Three-way synthesis with risk matrix and cross-stage dependencies.
 - [ ] `node scripts/split_chunks.js compress docs/PROD-XX_... docs/PROD-XX_....compressed.md`
 
 ### Git & Trackers (10 min each)
-- [ ] `git add -A && git commit -m "lol.forge: PROD-XX Title — NNN lines + 200 intro" && git push`
+- [ ] `git add -A && git commit -m lol.forge: PROD-XX Title — NNN lines + 200 intro && git push`
 - [ ] Update TODO.md micro-subtasks
 - [ ] Update Master_Todo.md
 - [ ] Update memory/2026-11-02.md
@@ -209,7 +209,7 @@ cd /workspace/app/Tun/lol.forge
 
 # 3. Start PROD-22 research
 # Read Aegis-Forge Vol 5 Phoenix Protocol
-cat "../seed/CSMFAB/CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator/Vol 5: Assembly Line Integration.md" | grep -A 200 "Phoenix Protocol"
+cat ../seed/CSMFAB/CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Separator/Vol 5: Assembly Line Integration.md | grep -A 200 Phoenix Protocol
 
 # 4. Write PROD-22 (use cat > or editor)
 # 5. Generate intros
@@ -221,8 +221,8 @@ cat "../seed/CSMFAB/CSMFAB0108 Aegis-Forge Thermal Cascade Inductive Material Se
 
 ## Git Identity
 ```
-git config user.name "Kilo Agent"
-git config user.email "kilo@carringtonstormmotors.com"
+git config user.name Kilo Agent
+git config user.email kilo@carringtonstormmotors.com
 ```
 
 ---

@@ -17,26 +17,26 @@
 
 ```json
 {
-  "scenario": "HFE-04",
-  "operator_ids": ["OP-2026-042", "OP-2026-088"],
-  "start_time": "2026-11-03T14:00:00Z",
-  "end_time": "2026-11-03T14:15:00Z",
-  "metrics": {
-    "task_completion_time_sec": 420,
-    "expert_baseline_sec": 380,
-    "completion_ratio": 1.105,
-    "errors_critical": 0,
-    "errors_minor": 1,
-    "sagat_score": 0.95,
-    "nasa_tlx": 55,
-    "alarm_count": 12,
-    "hmi_response_times_ms": {"L2": 180, "L3": 120, "L4": 35}
+  scenario: HFE-04,
+  operator_ids: [OP-2026-042, OP-2026-088],
+  start_time: 2026-11-03T14:00:00Z,
+  end_time: 2026-11-03T14:15:00Z,
+  metrics: {
+    task_completion_time_sec: 420,
+    expert_baseline_sec: 380,
+    completion_ratio: 1.105,
+    errors_critical: 0,
+    errors_minor: 1,
+    sagat_score: 0.95,
+    nasa_tlx: 55,
+    alarm_count: 12,
+    hmi_response_times_ms: {L2: 180, L3: 120, L4: 35}
   },
-  "rct_update": {
-    "operator_042": {"HFE-04": 0.92},
-    "operator_088": {"HFE-04": 0.88}
+  rct_update: {
+    operator_042: {HFE-04: 0.92},
+    operator_088: {HFE-04: 0.88}
   },
-  "disposition": "PASS"
+  disposition: PASS
 }
 ```
 

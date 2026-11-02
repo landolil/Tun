@@ -1,37 +1,37 @@
 # avl-baseline.yaml (versioned, signed)
-avl_version: "3.2.1"
-avl_tag: "avl-v3.2.1"
-last_updated: "2026-11-03T10:45:00Z"
-approved_by: "CM-001, Safety-001, SupplyChain-001"
+avl_version: 3.2.1
+avl_tag: avl-v3.2.1
+last_updated: 2026-11-03T10:45:00Z
+approved_by: CM-001, Safety-001, SupplyChain-001
 
 tier_1_critical:  # 12 suppliers — require SBOM, signed firmware, pen test, SLSA L3
-  - id: "SUP-001"
-    name: "GaN Systems"
-    component: "GS66516T GaN HEMT"
-    spec: "PROD-10 Sec 2.2"
+  - id: SUP-001
+    name: GaN Systems
+    component: GS66516T GaN HEMT
+    spec: PROD-10 Sec 2.2
     requirements: [SBOM, SIGNED_FIRMWARE, PEN_TEST, SLSA_L3, SECURE_BOOT]
     fa_qty: 3
-    requal_period: "12 months"
-    scn_process: "MANDATORY"
-  - id: "SUP-002"
-    name: "CoorsTek"
-    component: "ZrB₂-SiC Powder"
-    spec: "PROD-04 Sec 2, PROD-24 Table 2.1"
+    requal_period: 12 months
+    scn_process: MANDATORY
+  - id: SUP-002
+    name: CoorsTek
+    component: ZrB₂-SiC Powder
+    spec: PROD-04 Sec 2, PROD-24 Table 2.1
     requirements: [COA, PARTICLE_SIZE, IMPURITY, FLASH_SINTER_TRIAL]
     fa_qty: 3
-    requal_period: "6 months"
-    scn_process: "MANDATORY"
+    requal_period: 6 months
+    scn_process: MANDATORY
   # ... 10 more Tier 1
 
 tier_2_standard:  # 47 suppliers — standard QA
-  - id: "SUP-020"
-    name: "Kamenny Vek"
-    component: "Basalt Fiber Roving"
-    spec: "PROD-12 Sec 3.1"
+  - id: SUP-020
+    name: Kamenny Vek
+    component: Basalt Fiber Roving
+    spec: PROD-12 Sec 3.1
     requirements: [COA, TENSILE, CTE, MOISTURE]
     fa_qty: 1
-    requal_period: "24 months"
-    scn_process: "NOTIFICATION"
+    requal_period: 24 months
+    scn_process: NOTIFICATION
   # ... 46 more Tier 2
 ```
 

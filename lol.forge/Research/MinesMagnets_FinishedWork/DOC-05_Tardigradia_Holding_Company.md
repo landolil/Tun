@@ -21,7 +21,7 @@ TARDIGRADIA HOLDING COMPANY — MULTI-JURISDICTION CASCADE
 │        Financial LPs (pension funds, SWFs, family offices)                         │
 │   Governing Law: Delaware LP Act (6 Del. C. § 17-101 et seq.)                      │
 │   Tax: US partnership pass-through; no entity-level tax                            │
-│   CPTPP Coverage: "Covered investment" under Art 9 (Chile member since 2023)       │
+│   CPTPP Coverage: Covered investment under Art 9 (Chile member since 2023)       │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                       │ 100% ownership (via Tardigradia Chile SpA)
                                       ▼
@@ -89,11 +89,11 @@ TARDIGRADIA HOLDING COMPANY — MULTI-JURISDICTION CASCADE
 
 ### 1.5 CPTPP Investment Protection — Structural Integration
 
-The Tardigradia structure is designed to qualify as "covered investment" under **CPTPP Article 9 (Investment)**:
+The Tardigradia structure is designed to qualify as covered investment under **CPTPP Article 9 (Investment)**:
 
 | CPTPP Requirement | Tardigradia Satisfaction |
 |-------------------|-------------------------|
-| "Investment" definition (Art 9.1) | Concessions (derechos reales) + SpA shares + LP interests = covered |
+| Investment definition (Art 9.1) | Concessions (derechos reales) + SpA shares + LP interests = covered |
 | Fair & Equitable Treatment (Art 9.4) | FBC veto + CVO = FET compliance; community consent = FET evidence |
 | Expropriation protection (Art 9.5) | Environmental bonds first claim (Law 20,720 Art 134); trust assets segregated |
 | Performance requirements prohibited (Art 9.9) | No local content mandates; technology transfer voluntary (Aegis-Forge license) |
@@ -268,9 +268,9 @@ FUNDRAISING SEQUENCE — TRIGGER-GATED
 
 ### 3.1 Governance Philosophy — Veto Topology Over Democracy
 
-The Tardigradia governance architecture is not assembled from corporate democracy best practices; it is **forced** by the logical necessity of a multi-sovereign formation where community consent is a **hard constraint**, not a soft input. The architecture rests on a single, irreducible constraint: **Community Veto > Capital Control** — the proposition that water, environment, and indigenous boundaries are non-negotiable and must be structurally embedded as binding veto rights that cannot be diluted by capital raises, board votes, or acquisitions. No additional postulates — no "advisory" community seats, no "consultation" processes, no CSR committees — are required. The constraint is simply: *Community veto operator sits above board majority operator sits above capital operator*. Everything else is the shadow this constraint casts.
+The Tardigradia governance architecture is not assembled from corporate democracy best practices; it is **forced** by the logical necessity of a multi-sovereign formation where community consent is a **hard constraint**, not a soft input. The architecture rests on a single, irreducible constraint: **Community Veto > Capital Control** — the proposition that water, environment, and indigenous boundaries are non-negotiable and must be structurally embedded as binding veto rights that cannot be diluted by capital raises, board votes, or acquisitions. No additional postulates — no advisory community seats, no consultation processes, no CSR committees — are required. The constraint is simply: *Community veto operator sits above board majority operator sits above capital operator*. Everything else is the shadow this constraint casts.
 
-The apparent complexity of multi-layer governance — the Holdco GP Committee, the Chile SpA Board (7+1), the Opco Boards (5 each), the FBC Trustees, the CVO Oversight, the CORFO Observer — dissolves when viewed through the lens of this constraint. The FBC Class B shares with community veto are not "community engagement"; they are the **topological invariant** that locks community consent into the capital structure. The CVO binding veto is the **non-commutative operator** that ensures water/environment/indigenous decisions cannot be outvoted. The CORFO observer is the **state alignment operator** that ensures policy coherence without control. All are *derived* from the veto topology. No reduction occurs; the complexity is **resolved** because the constraint set is complete.
+The apparent complexity of multi-layer governance — the Holdco GP Committee, the Chile SpA Board (7+1), the Opco Boards (5 each), the FBC Trustees, the CVO Oversight, the CORFO Observer — dissolves when viewed through the lens of this constraint. The FBC Class B shares with community veto are not community engagement; they are the **topological invariant** that locks community consent into the capital structure. The CVO binding veto is the **non-commutative operator** that ensures water/environment/indigenous decisions cannot be outvoted. The CORFO observer is the **state alignment operator** that ensures policy coherence without control. All are *derived* from the veto topology. No reduction occurs; the complexity is **resolved** because the constraint set is complete.
 
 ### 3.2 Tardigradia Holdco GP — Executive Committee
 
@@ -362,7 +362,7 @@ The apparent complexity of multi-layer governance — the Holdco GP Committee, t
 
 ### 4.1 Equity Philosophy — Consent as Capital, Not Charity
 
-The FBC (Fondo de Beneficio Comunitario) trust equity structure is not assembled from CSR best practices; it is **forced** by the logical necessity of converting community consent into **legal capital with binding veto** that cannot be captured, diluted, or bypassed. The structure rests on a single, irreducible constraint: **Consent = Equity + Veto** — the proposition that Chilean communities hosting magnetic mineral operations must hold legal equity with hard veto rights over water, environment, and indigenous boundaries. No additional postulates — no "benefit agreements" without equity, no "community funds" without governance, no "social license" without legal teeth — are required. The constraint is simply: *Community equity is the price of social license; veto is the enforcement mechanism*. Everything else is the shadow this constraint casts.
+The FBC (Fondo de Beneficio Comunitario) trust equity structure is not assembled from CSR best practices; it is **forced** by the logical necessity of converting community consent into **legal capital with binding veto** that cannot be captured, diluted, or bypassed. The structure rests on a single, irreducible constraint: **Consent = Equity + Veto** — the proposition that Chilean communities hosting magnetic mineral operations must hold legal equity with hard veto rights over water, environment, and indigenous boundaries. No additional postulates — no benefit agreements without equity, no community funds without governance, no social license without legal teeth — are required. The constraint is simply: *Community equity is the price of social license; veto is the enforcement mechanism*. Everything else is the shadow this constraint casts.
 
 The apparent complexity of multi-trust architecture — FBC Holding (15% holdco), FBC Norte/Centro/Sur (20% opco each), FBC Manufacturing (15%), FBC Integration (10%), CDC Development Corporations, CVO Oversight — dissolves when viewed through the lens of this constraint. Each trust is a **deterministic node** in the consent topology: Holding trust governs strategic direction; Opco trusts govern cluster operations; Manufacturing/Integration trusts govern downstream value capture; CDCs govern local development; CVO governs operational veto. All are *derived* from the consent topology. No reduction occurs; the complexity is **resolved** because the constraint set is complete.
 
@@ -565,7 +565,7 @@ The Tardigradia IP strategy is not assembled from portfolio maximization; it is 
 
 ### 6.1 Partnership Philosophy — State as Strategic Ally, Not Regulator
 
-The Tardigradia-state partnership framework is not assembled from regulatory compliance; it is **forced** by the logical necessity of a strategic mineral formation where **the Chilean state is a capital partner, policy ally, and export promoter** — not merely a permitting authority. The framework rests on a single, irreducible constraint: **State Equity + Policy Alignment = Deployment Acceleration** — the proposition that CORFO equity, MinMin MOU, ProChile promotion, and BancoEstado green bonds reduce the cost of capital, accelerate permitting, and open export markets simultaneously. No additional postulates — no "government relations" lobbying, no regulatory capture, no subsidy dependence — are required. The constraint is simply: *State equity aligns policy; MOU aligns permitting; ProChile aligns markets; Green bonds align cost of capital*. Everything else is the shadow this constraint casts.
+The Tardigradia-state partnership framework is not assembled from regulatory compliance; it is **forced** by the logical necessity of a strategic mineral formation where **the Chilean state is a capital partner, policy ally, and export promoter** — not merely a permitting authority. The framework rests on a single, irreducible constraint: **State Equity + Policy Alignment = Deployment Acceleration** — the proposition that CORFO equity, MinMin MOU, ProChile promotion, and BancoEstado green bonds reduce the cost of capital, accelerate permitting, and open export markets simultaneously. No additional postulates — no government relations lobbying, no regulatory capture, no subsidy dependence — are required. The constraint is simply: *State equity aligns policy; MOU aligns permitting; ProChile aligns markets; Green bonds align cost of capital*. Everything else is the shadow this constraint casts.
 
 ### 6.2 CORFO (Corfo Ventures) — Equity Partner
 
@@ -584,10 +584,10 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 
 **Corfo Ventures Mandate Alignment:**
 - **Corfo 2030 Strategy:** Critical minerals, green hydrogen, advanced manufacturing
-- **Chilean Magnet Industry:** Direct alignment with MinMin "Chilean Magnet Industry Development" MOU
+- **Chilean Magnet Industry:** Direct alignment with MinMin Chilean Magnet Industry Development MOU
 - **Regional Development:** Antofagasta/Atacama/Coquimbo — Corfo regional offices co-located
 
-### 6.3 Ministerio de Minería — MOU "Chilean Magnet Industry Development"
+### 6.3 Ministerio de Minería — MOU Chilean Magnet Industry Development
 
 **MOU Structure (10-year term, auto-renewal unless material breach):**
 
@@ -597,7 +597,7 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 | **Concession Security** | Title protection for strategic minerals | Concession maintenance + investment | Sernageomin priority; no speculative cancellations |
 | **Infrastructure Coordination** | Grid, ports, water for magnet industry | Infrastructure investment plans | MinEnergía grid upgrades; MOP port access; DGA water allocation |
 | **Workforce Development** | Magnet manufacturing talent pipeline | Training programs + university partnerships | Corfo scholarships; MinEduc curriculum alignment |
-| **International Promotion** | "Chilean Magnets" brand | Export-ready product + certifications | ProChile pavilions (PDAC, MINExpo, Hannover); trade missions |
+| **International Promotion** | Chilean Magnets brand | Export-ready product + certifications | ProChile pavilions (PDAC, MINExpo, Hannover); trade missions |
 | **Data & Transparency** | Strategic mineral data sharing | Production data (aggregated) | Policy formulation; investor confidence |
 
 **MOU Enforcement:** Not legally binding (soft law) but **politically binding** — breach triggers Corfo Ventures pro-rata participation suspension and ProChile promotion withdrawal. Embedded in Corfo Ventures SHA side letter.
@@ -608,7 +608,7 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 
 | Element | Term |
 |---------|------|
-| **Brand** | "Chilean Magnets" — ProChile registered collective mark |
+| **Brand** | Chilean Magnets — ProChile registered collective mark |
 | **Pavilions** | PDAC (Toronto), MINExpo (Las Vegas), Hannover Messe, Battery Show (Norteamérica) |
 | **Co-Funding** | 50/50 ProChile/Tardigradia for pavilion costs |
 | **Trade Missions** | Annual Chile-US-EU magnet buyer missions (ProChile organized) |
@@ -654,7 +654,7 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 
 ### 7.1 Exit Philosophy — Community Protection in All Scenarios
 
-The Tardigradia exit strategy is not assembled from financial engineering; it is **forced** by the logical necessity of a formation where **community equity and veto rights must survive every exit scenario** — IPO, trade sale, secondary, or wind-down. The strategy rests on a single, irreducible constraint: **Exit = Community Continuity** — the proposition that no exit event can dilute FBC trust equity, remove CVO veto, or extinguish environmental bond priority. No additional postulates — no drag-along on community shares, no veto waiver for strategic buyers, no "clean exit" for capital — are required. The constraint is simply: *Capital exits; community stays; veto persists*. Everything else is the shadow this constraint casts.
+The Tardigradia exit strategy is not assembled from financial engineering; it is **forced** by the logical necessity of a formation where **community equity and veto rights must survive every exit scenario** — IPO, trade sale, secondary, or wind-down. The strategy rests on a single, irreducible constraint: **Exit = Community Continuity** — the proposition that no exit event can dilute FBC trust equity, remove CVO veto, or extinguish environmental bond priority. No additional postulates — no drag-along on community shares, no veto waiver for strategic buyers, no clean exit for capital — are required. The constraint is simply: *Capital exits; community stays; veto persists*. Everything else is the shadow this constraint casts.
 
 ### 7.2 Exit Pathways — Four Scenarios
 
@@ -749,7 +749,7 @@ The Tardigradia exit strategy is not assembled from financial engineering; it is
 
 ### 8.1 Risk Philosophy — Compliance as Formation Logic, Not Overlay
 
-The Tardigradia risk management framework is not assembled from compliance checklists; it is **forced** by the logical necessity of a multi-jurisdictional formation where **regulatory boundaries are structural constraints** that shape every operational decision. The framework rests on a single, irreducible constraint: **Compliance = Formation Geometry** — the proposition that FCPA, Chilean anti-corruption, sanctions, export controls, ESG reporting, and data privacy are not external overlays but the differential geometry of the sovereign-capital-community formation. No additional postulates — no "compliance department" separate from operations, no "ethics hotline" without operational teeth, no ESG report without production data — are required. The constraint is simply: *Regulatory constraint generates operational geometry generates compliance evidence*. Everything else is the shadow this constraint casts.
+The Tardigradia risk management framework is not assembled from compliance checklists; it is **forced** by the logical necessity of a multi-jurisdictional formation where **regulatory boundaries are structural constraints** that shape every operational decision. The framework rests on a single, irreducible constraint: **Compliance = Formation Geometry** — the proposition that FCPA, Chilean anti-corruption, sanctions, export controls, ESG reporting, and data privacy are not external overlays but the differential geometry of the sovereign-capital-community formation. No additional postulates — no compliance department separate from operations, no ethics hotline without operational teeth, no ESG report without production data — are required. The constraint is simply: *Regulatory constraint generates operational geometry generates compliance evidence*. Everything else is the shadow this constraint casts.
 
 ### 8.2 Anti-Corruption — Dual Jurisdiction Program
 
@@ -964,11 +964,11 @@ The Tardigradia risk management framework is not assembled from compliance check
 | Quality Gate | Target | DOC-05 Status | Verification Method |
 |--------------|--------|---------------|---------------------|
 | Lines ≥ 900 | 900 | ~1,400 (est.) | `wc -l` |
-| Formulas/LaTeX ≥ 20 | 20 | 30+ | `grep -c "\$"` |
-| Cross-refs ≥ 15 | 15 | 80+ | `grep -ic "DOC-\|CSM\|Chile\|Sernageomin\|CORFO\|FBC\|CVO" ` |
-| Standards ≥ 8 | 8 | 25+ | `grep -ic "ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|CFR" ` |
-| Conflation flags = 0 | 0 | 0 | `grep -ic "duplicate\|contradict\|overlap" ` |
-| TBD markers documented | ≥5 | 10 | `grep -c "TBD:RESEARCH"` |
+| Formulas/LaTeX ≥ 20 | 20 | 30+ | `grep -c \$` |
+| Cross-refs ≥ 15 | 15 | 80+ | `grep -ic DOC-\|CSM\|Chile\|Sernageomin\|CORFO\|FBC\|CVO ` |
+| Standards ≥ 8 | 8 | 25+ | `grep -ic ISO\|IEC\|ASTM\|NIJ\|MIL-STD\|DOE\|CFR\|Law\|Decreto\|CFR ` |
+| Conflation flags = 0 | 0 | 0 | `grep -ic duplicate\|contradict\|overlap ` |
+| TBD markers documented | ≥5 | 10 | `grep -c TBD:RESEARCH` |
 | Traceability Matrix present | Yes | Ch 9 | This chapter |
 | Chunk reassembly diff = 0 | 0 bytes | Pending | `write_large_file.py concat` |
 | Manifest checksums PASS | PASS | Pending | `write_large_file.py verify` |

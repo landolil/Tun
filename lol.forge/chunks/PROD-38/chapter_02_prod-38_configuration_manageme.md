@@ -60,10 +60,10 @@ ECO_gate(eco_class):
 **The atomic computation is the CUUID hash chain:**
 ```
 CUUID = SHA-256(
-  Git_tag_designed   ||  // e.g., "prod-v3.2.1"
-  Git_tag_built      ||  // e.g., "build-v3.2.0"
-  Git_tag_maintained ||  // e.g., "maintain-v3.2.1"
-  Git_tag_operated   ||  // e.g., "operate-v3.2.2"
+  Git_tag_designed   ||  // e.g., prod-v3.2.1
+  Git_tag_built      ||  // e.g., build-v3.2.0
+  Git_tag_maintained ||  // e.g., maintain-v3.2.1
+  Git_tag_operated   ||  // e.g., operate-v3.2.2
   CI_spec_hash          // SHA-256 of PROD spec section for this CI
 )
 ```
@@ -103,7 +103,7 @@ This 256-bit value is the **configuration DNA** — immutable, traceable, verifi
 **The fabricator sees the CM system as a distributed verification network.** Every commit, ECO, batch, SCN, rehearsal is a measurement. Every measurement updates BCO. Every BCO update adjusts gates, signatures, requal periods, rehearsal frequency.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not "administer a tool" — they **witness the configuration becoming the Forge's genetic code**:
+**How does the inside operator witness the phenomenon into existence?** The Configuration Manager does not administer a tool — they **witness the configuration becoming the Forge's genetic code**:
 
 1. **CM at ECO Gate (CCB Meeting)** witnesses the BCO evaluation: As-Designed tag, As-Built FA data, As-Maintained PM record, As-Operated twin state — four baselines converging on one CUUID. They *witness* the configuration becoming truth — no database, only physics-enforced cryptographic linkage.
 2. **Safety Engineer at Firmware Signing** witnesses the HSM ceremony: Builder key + CM key + Safety key — three signatures on one SFP. They *witness* the SIL-3 envelope becoming code — no algorithm accepts the risk, only human judgment at the boundary of consequence.

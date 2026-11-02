@@ -143,15 +143,15 @@ Where I_GIC_rated = continuous GIC rating from capability curve (e.g., 75 A).
 **Chile GIC Monitoring Specification (Summary):**
 ```json
 {
-  "standard": "IEEE C57.163-2023",
-  "sensor": "Hall-Effect CT, clamp-on, 0-500A DC",
-  "accuracy": "±5% or ±2A",
-  "sampling": "1 Hz minimum",
-  "sync": "GPS/IRIG-B, ≤1ms",
-  "alarms": {"L1": 10, "L2": 50, "L3": 100},
-  "integration": "IEC 61850, CEN SCADA, PI Historian",
-  "retention": "30d local, 1yr historian",
-  "deployment": "Phased per GVI, complete 2032"
+  standard: IEEE C57.163-2023,
+  sensor: Hall-Effect CT, clamp-on, 0-500A DC,
+  accuracy: ±5% or ±2A,
+  sampling: 1 Hz minimum,
+  sync: GPS/IRIG-B, ≤1ms,
+  alarms: {L1: 10, L2: 50, L3: 100},
+  integration: IEC 61850, CEN SCADA, PI Historian,
+  retention: 30d local, 1yr historian,
+  deployment: Phased per GVI, complete 2032
 }
 ```
 
@@ -265,7 +265,7 @@ This section consolidates the hardening strategy into an actionable deployment m
 | **110/66 kV (Wye)** | 0.25–0.50 | LNR (2.0 Ω) | — | Hall CT | 48–72 mo |
 | **All Others** | <0.25 | — | — | Hall CT (retrofit) | 2029–2032 |
 
-**Phase 1: Immediate (0–18 Months) — "Carrington Shield"**
+**Phase 1: Immediate (0–18 Months) — Carrington Shield**
 | Action | Substations | Units | CAPEX | Lead Agency | Milestone |
 |--------|-------------|-------|-------|-------------|-----------|
 | NBC Installation | Crucero, Antofagasta, Encuentro, Sección, Maitencillo | 12 | $22.5M | CEN / Tardigradia | Q4 2026 |
@@ -274,7 +274,7 @@ This section consolidates the hardening strategy into an actionable deployment m
 | Operational Protocols | CEN Control Center | — | $0.3M | CEN | Q1 2026 |
 | **TOTAL PHASE 1** | | | **$24.8M** | | |
 
-**Phase 2: Near-Term (18–36 Months) — "Mining Resilience"**
+**Phase 2: Near-Term (18–36 Months) — Mining Resilience**
 | Action | Substations | Units | CAPEX | Lead Agency | Milestone |
 |--------|-------------|-------|-------|-------------|-----------|
 | LNR Installation | Escondida, Collahuasi, Los Pelambres, Centinela, Chuquicamata, Radomiro, Gaby, Spence | 22 | $22M | CEN / Mining Cos | Q4 2027 |
@@ -283,7 +283,7 @@ This section consolidates the hardening strategy into an actionable deployment m
 | FBG Retrofit | All Phase 1 + 2 transformers | 34 | $10M | CEN / Tardigradia | Q4 2027 |
 | **TOTAL PHASE 2** | | | **$68M** | | |
 
-**Phase 3: Medium-Term (36–60 Months) — "Grid-Wide Resilience"**
+**Phase 3: Medium-Term (36–60 Months) — Grid-Wide Resilience**
 | Action | Substations | Units | CAPEX | Lead Agency | Milestone |
 |--------|-------------|-------|-------|-------------|-----------|
 | LNR Installation | Remaining 220/110 kV (40 units) | 40 | $40M | CEN | Q4 2029 |
@@ -293,7 +293,7 @@ This section consolidates the hardening strategy into an actionable deployment m
 | Full Monitoring | All ≥110 kV wye | 314 | $5M | CEN | Q4 2029 |
 | **TOTAL PHASE 3** | | | **$219M** | | |
 
-**Phase 4: Long-Term (60–120 Months) — "Complete Hardening"**
+**Phase 4: Long-Term (60–120 Months) — Complete Hardening**
 | Action | Scope | CAPEX | Timeline |
 |--------|-------|-------|----------|
 | Remaining 110/66 kV LNR | 80 units | $160M | 2030–2035 |
@@ -311,7 +311,7 @@ This section consolidates the hardening strategy into an actionable deployment m
 | **TOTAL** | **10** | **$492M** | |
 
 **Alignment with Chilean Planning Cycles:**
-- **PET 2025** (2024–2044): Includes GIC hardening as "Resilience Investment" category
+- **PET 2025** (2024–2044): Includes GIC hardening as Resilience Investment category
 - **PET 2027** (next cycle): Phase 2&3 projects enter as committed
 - **Ley de Transmisión (Law 20,936)**: Allows resilience investments in toll calculation
 - **CEN Annual Plan**: Annual budget allocation for Phase 1 (2025 budget cycle)

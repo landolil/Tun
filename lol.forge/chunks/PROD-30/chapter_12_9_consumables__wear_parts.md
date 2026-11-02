@@ -10,7 +10,7 @@
 | ZrO₂ pistons (port valves) | CSM-PIST-ZRO2-12mm | 16 pcs | 90 days | 4 pcs | 12 pcs | Zircar / Morgan |
 | Si₃N₄ bearing cartridges | CSM-BRG-SN-200 | 4 pcs | 120 days | 1 pcs | 2 pcs | CeramTec |
 | FBG interrogator bulbs | CSM-FBG-LD-1550 | 4 pcs | 30 days | 1 pcs | 2 pcs | Micron Optics |
-| PEX-a tubing (1" OD) | CSM-PEX-25-100 | 100 m | 14 days | 20 m | 200 m | Uponor |
+| PEX-a tubing (1 OD) | CSM-PEX-25-100 | 100 m | 14 days | 20 m | 200 m | Uponor |
 | Basalt roving (2400 tex) | CSM-BFR-2400 | 500 kg | 7 days | 100 kg | 4,200 kg | In-house |
 | Elium® resin (MMA) | CSM-ELM-MMA | 1000 L | 14 days | 200 L | 8,000 L | Arkema / In-house |
 | ZrB₂-SiC powder (drum) | CSM-POW-ZBS-001 | 200 kg | 0 days | 50 kg | 1,600 kg | In-house flash sinter |

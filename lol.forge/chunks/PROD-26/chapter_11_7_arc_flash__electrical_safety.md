@@ -2,7 +2,7 @@
 
 ### 7.1 Arc Flash Hazard Analysis
 
-| Location | Voltage | Bolted Fault Current | Clearing Time | Incident Energy (18") | PPE Category |
+| Location | Voltage | Bolted Fault Current | Clearing Time | Incident Energy (18) | PPE Category |
 |----------|---------|---------------------|---------------|----------------------|--------------|
 | **Grid Service** | 480 V | 25 kA | 0.1 s (breaker) | 4.2 cal/cm² | Cat 2 |
 | **XFMR Secondary** | 400 V | 15 kA | 0.05 s (fuse) | 1.8 cal/cm² | Cat 1 |
@@ -15,7 +15,7 @@
 |---------|----------------|----------|
 | **No exposed conductors** | All connections inside BFRP enclosures | NFPA 70E 130.5 |
 | **Bolted connections only** | Torque-verified, ZrO₂ insulated sleeves | NFPA 70E 110.14 |
-| **Incident energy <1.2 cal/cm²** | At working distance (18") for all process areas | NFPA 70E 130.5 |
+| **Incident energy <1.2 cal/cm²** | At working distance (18) for all process areas | NFPA 70E 130.5 |
 | **PPE Category 0** | No arc-rated PPE required inside forge boundary | NFPA 70E 130.7 |
 | **Arc-resistant boundaries** | BFRP vessel = arc containment | NFPA 70E 200.6 |
 | **Labels** | All enclosures labeled (voltage, energy, boundary) | NFPA 70E 130.5(H) |

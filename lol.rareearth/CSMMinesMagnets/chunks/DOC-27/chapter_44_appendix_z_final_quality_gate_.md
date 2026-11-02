@@ -66,7 +66,7 @@ CONFLATION AUDIT PASSED — 0 FLAGS
 4. `python3 ../../__Python_Tools/write_large_file.py compress FinishedWork/DOC-27_Community_Diaguita.md`
 5. `./scripts/generate_heuristic_intros.sh FinishedWork/DOC-27_Community_Diaguita.md`
 6. `git add chunks/DOC-27/ FinishedWork/DOC-27_*.md.gz FinishedWork/intros/DOC-27_*.md`
-7. `git commit -m "DOC-27: Diaguita Valleys — 5247 lines, 47 formulas, 298 cross-refs, 22 standards, 0 conflation"`
+7. `git commit -m DOC-27: Diaguita Valleys — 5247 lines, 47 formulas, 298 cross-refs, 22 standards, 0 conflation`
 8. `git tag runner-017b-complete && git push origin --tags`
 
 ---

@@ -14,7 +14,7 @@
 | **ITAR/DFARS Compliance** | Non-qualifying | **Qualifying (Chile CPTPP/FTA)** |
 
 **Strategic Pitch to JM/BASF/Umicore/Topsoe/Grace/Albemarle**:
-> "Chilean Ce/La 3N from Aegis-Forge: **Qualifying-country, ESG-compliant, price-stable, traceable, IRA 45X eligible** — **de-risk your FCC catalyst supply chain**."
+> Chilean Ce/La 3N from Aegis-Forge: **Qualifying-country, ESG-compliant, price-stable, traceable, IRA 45X eligible** — **de-risk your FCC catalyst supply chain**.
 
 ---
 

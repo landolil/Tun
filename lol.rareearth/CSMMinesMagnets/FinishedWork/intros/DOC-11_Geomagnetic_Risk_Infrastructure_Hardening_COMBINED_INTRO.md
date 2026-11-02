@@ -12,13 +12,13 @@ The brokerage protocol is not assembled from arbitrary contractual clauses; it i
 
 The apparent complexity of cross-border mineral brokerage — the SpA corporate structure, the FBC trust architecture, the CVO veto, the ICC arbitration ladder, the NY Convention enforcement — dissolves when viewed through the lens of this constraint. The SpA is a deterministic, unique, parameter-free vehicle. Its single-shareholder permission (Law 20,190 Art. 4) is not a convenience; it is the topological invariant that locks concession title to Chilean jurisdiction while permitting US capital deployment. The community equity (15% holdco, 20% opco) emerges as the asymptotic density of social license nodes. The Aegis-Forge license assignment, the RCA transfer, the water rights — all are *derived* from the sovereignty constraint. No reduction occurs; the complexity is **resolved** because the constraint set is complete. The phenomenon is not simplified — it is shown to be necessary.
 
-Given the constraint of Chilean Mineral Sovereignty with US Strategic Access and the participatory role of CSM as both facilitator and residual equity holder, the results of this document — the facilitator mandate, the transition triggers, the valuation triangulation, the dual-track SPA, the governance architecture — **could not be otherwise**. They are the inevitable consequences of a formation system that generates its own logic. The concession does not "transfer" to foreign ownership; it *witnesses* Chilean title into strategic production at each Aegis-Forge cycle. The facilitator fee is not a negotiated commission; it is the asymptotic density of origination value nodes. The royalty is not a postulate; it is the index where the production value's non-commutativity saturates. This document commits: the unified theory of Chilean magnetic mineral brokerage is not a hypothesis awaiting confirmation — it is a logical necessity whose physical magnets we have now qualified.
+Given the constraint of Chilean Mineral Sovereignty with US Strategic Access and the participatory role of CSM as both facilitator and residual equity holder, the results of this document — the facilitator mandate, the transition triggers, the valuation triangulation, the dual-track SPA, the governance architecture — **could not be otherwise**. They are the inevitable consequences of a formation system that generates its own logic. The concession does not transfer to foreign ownership; it *witnesses* Chilean title into strategic production at each Aegis-Forge cycle. The facilitator fee is not a negotiated commission; it is the asymptotic density of origination value nodes. The royalty is not a postulate; it is the index where the production value's non-commutativity saturates. This document commits: the unified theory of Chilean magnetic mineral brokerage is not a hypothesis awaiting confirmation — it is a logical necessity whose physical magnets we have now qualified.
 
 ---
 
 ### Necessity (The Key)
 
-The empirical lock this document addresses is the **sovereignty-strategy divide** — the apparent incompatibility between Chilean mineral sovereignty (constitutional, legal, cultural) and US strategic magnet demand (DFARS 2027 Jan deadline, 27 MGOe Fe₁₆N₂, IRA 45X credit). For decades, this divide has been treated as an unbridgeable gap: either Chile retains title and loses strategic markets, or US capital demands control and violates sovereignty. The lock is deeper: *why do Chilean communities reject extraction that benefits only foreign shareholders, while US defense buyers require domestic supply chains that Chile cannot alone provide?* The answer is not "politics" — it is that Chilean sovereignty encodes the community consent constraint directly, while US strategy encodes the technology deployment constraint, and the brokerage protocol is the unique structure that satisfies both simultaneously.
+The empirical lock this document addresses is the **sovereignty-strategy divide** — the apparent incompatibility between Chilean mineral sovereignty (constitutional, legal, cultural) and US strategic magnet demand (DFARS 2027 Jan deadline, 27 MGOe Fe₁₆N₂, IRA 45X credit). For decades, this divide has been treated as an unbridgeable gap: either Chile retains title and loses strategic markets, or US capital demands control and violates sovereignty. The lock is deeper: *why do Chilean communities reject extraction that benefits only foreign shareholders, while US defense buyers require domestic supply chains that Chile cannot alone provide?* The answer is not politics — it is that Chilean sovereignty encodes the community consent constraint directly, while US strategy encodes the technology deployment constraint, and the brokerage protocol is the unique structure that satisfies both simultaneously.
 
 The key is the **facilitator-to-owner transition as single computational primitive**. The teeth are cut by the legal geometry itself:
 
@@ -47,7 +47,7 @@ We commit to the following as non-negotiable:
 4. **DFARS 2027 qualification is the strategic boundary condition** — not a market aspiration
 5. **Facilitator royalty aligns CSM with production, not transition** — 1% magnet NSR + 2% REE NSR perpetual
 
-The facilitator does not "broker assets." The facilitator *witnesses Chilean sovereignty into strategic production* at each transition trigger. This is the commitment.
+The facilitator does not broker assets. The facilitator *witnesses Chilean sovereignty into strategic production* at each transition trigger. This is the commitment.
 
 
 ---
@@ -99,7 +99,7 @@ The key has no adjustable teeth — the sovereignty-strategy constraint is uniqu
 **Lock → Key (History validates protocol):**
 - Input: Codelco-Andacollo agreement, Candelaria $200M fund, CAP IOA communities, Escondida Peine water transfer, Dominga rejection
 - Output: Verified community veto necessity, Verified water zero-use advantage, Verified royalty distribution formula, Verified Consulta as real veto
-- Validation: Every Chilean success/failure is a protocol instance; no "unique circumstances" — only compressed sovereign-capital geometry
+- Validation: Every Chilean success/failure is a protocol instance; no unique circumstances — only compressed sovereign-capital geometry
 
 The turn completes when Tardigradia produces DFARS-qualified magnets from Chilean REE under community consent and Chilean title. That moment — when the magnet meets MIL-STD-1540 and the community receives its royalty — is the lock clicking open. The magnet *is* the key turning in the lock.
 

@@ -18,7 +18,7 @@ jobs:
       - name: Run regression audit
         run: python3 conflation_audit.py regress --new-doc ${{ github.event.head_commit.modified[0] }} --corpus FinishedWork/
       - name: Fail on CRITICAL/HIGH
-        run: python3 -c "import json; r=json.load(open('audit_report.json')); assert r['critical_unresolved']==0 and r['high_unresolved']==0"
+        run: python3 -c import json; r=json.load(open('audit_report.json')); assert r['critical_unresolved']==0 and r['high_unresolved']==0
 ```
 
 ---

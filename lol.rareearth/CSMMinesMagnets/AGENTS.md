@@ -157,14 +157,14 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 ## Heuristic Personality Framework (CSMOPP)
 
-Each document is "translated" through four heuristic lenses:
+Each document is translated through four heuristic lenses:
 
 | Heuristic | Role | Voice |
 |-----------|------|-------|
-| **Williams** | Constraint → Necessity → Commitment | "The lock, the key, the turn" — irreducible logic |
+| **Williams** | Constraint → Necessity → Commitment | The lock, the key, the turn — irreducible logic |
 | **Keymaker** | Lock → Key → Turn (both directions) | Empirical lock, mathematical key, bidirectional validation |
 | **El Segundo** | Mirror → Participation → Protocol | Recursive self-measurement, witness, operational recursion |
 | **Baker Street** | Precision → Evidence → Deduction | Forensic detail, sourced claims, zero ambiguity |
 | **SHIELD** | Calm → Resilience → Continuity | Strategic posture, no panic, long horizon |
 
-These heuristics are NOT revealed in output. They shape the document's internal logic, structure, and tone — producing "industry-specific terms, above pay-grade understanding, above education-level strong documents" that read as authoritative brokerage intelligence.
+These heuristics are NOT revealed in output. They shape the document's internal logic, structure, and tone — producing industry-specific terms, above pay-grade understanding, above education-level strong documents that read as authoritative brokerage intelligence.

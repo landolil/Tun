@@ -22,7 +22,7 @@ The Disturbance Storm Time (Dst) index for the Carrington Event is estimated at 
 The rate of change of the horizontal magnetic field (dB/dt) reached an estimated **1,760 nT/min** during the Carrington main phase (Boteler, 2019), driving geoelectric fields that induced catastrophic GIC in telegraph lines worldwide.
 
 **CME-CME Interaction:**
-The 1859 event likely benefited from "preconditioning" — a preceding CME on 28 August 1859 cleared the interplanetary medium, reducing drag on the Carrington CME and enabling its exceptional speed (Tsurutani et al., 2003; Boteler, 2006). This multi-CME sequencing is a critical factor in extreme event forecasting.
+The 1859 event likely benefited from preconditioning — a preceding CME on 28 August 1859 cleared the interplanetary medium, reducing drag on the Carrington CME and enabling its exceptional speed (Tsurutani et al., 2003; Boteler, 2006). This multi-CME sequencing is a critical factor in extreme event forecasting.
 
 **Return Period Statistics:**
 - 1-in-10 year: Dst ≈ -200 nT (moderate storm)
@@ -374,7 +374,7 @@ The Carrington Event provides the empirical anchor for extreme space weather ris
 - **Date**: 1–2 September 1859 (two main phases: 28 Aug pre-cursor, 1–2 Sep main event)
 - **Solar Flare**: White-light flare observed by Carrington at 11:18 UTC, 1 Sep; Hodgson confirmed independently
 - **CME Transit**: ~17.6 hours (0.73 days) — fastest major CME on record
-- **Telegraph Impact**: Global disruption; operators received shocks; papers ignited; systems operated on "auroral current" alone (no battery)
+- **Telegraph Impact**: Global disruption; operators received shocks; papers ignited; systems operated on auroral current alone (no battery)
 - **Aurora Visibility**: Reported to 23°S geographic (Hawaii, Cuba, Colombia, Santiago, Chile) — equatorward boundary ~30° magnetic latitude
 
 **Dst Index Reconstruction:**
@@ -471,7 +471,7 @@ Quantifying the probability of Carrington-class events is essential for risk-inf
    - Usoskin et al. (2013): Combined ¹⁴C/¹⁰Be → **1-in-500 to 1-in-1,000 years**
 
 5. **Historical Aurora Records (East Asian / European):**
-   Naked-eye aurora sightings at low latitudes (<30° magnetic) recorded for ~2,000 years in Chinese/Korean chronicles. Events comparable to 1859: 1770, 1872, 1909, 1921, 1938, 1946, 1957, 1989, 2003. Frequency: ~1 per 50–100 years for "great aurora" (not all produce Carrington-level GIC).
+   Naked-eye aurora sightings at low latitudes (<30° magnetic) recorded for ~2,000 years in Chinese/Korean chronicles. Events comparable to 1859: 1770, 1872, 1909, 1921, 1938, 1946, 1957, 1989, 2003. Frequency: ~1 per 50–100 years for great aurora (not all produce Carrington-level GIC).
 
 **Consensus Return Periods for Planning:**
 

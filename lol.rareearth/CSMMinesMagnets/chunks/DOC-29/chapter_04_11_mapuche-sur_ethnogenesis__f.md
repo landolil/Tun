@@ -1,6 +1,6 @@
 ## 1.1 Mapuche-Sur Ethnogenesis — Four Sub-Groups, One People
 
-The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñuble, Biobío, Araucanía) are **not a monolith**. Colonial and republican categorizations ("Araucanians") erased the **four distinct territorial sub-groups** that persist today with **separate cosmologies, economies, consent protocols, and resource relationships**. This document treats each as a **sovereign consent entity** within the Mapuche nation — **no conflation, no aggregation without explicit sub-group consent**.
+The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñuble, Biobío, Araucanía) are **not a monolith**. Colonial and republican categorizations (Araucanians) erased the **four distinct territorial sub-groups** that persist today with **separate cosmologies, economies, consent protocols, and resource relationships**. This document treats each as a **sovereign consent entity** within the Mapuche nation — **no conflation, no aggregation without explicit sub-group consent**.
 
 ### 1.1.1 The Four Sub-Groups — Territorial Definitions
 
@@ -25,6 +25,6 @@ The Mapuche (Mapu = land/earth, Che = people) of the Sur macro-region (Maule, Ñ
 | **Historical Trauma** | Coastal mission reduction, marine resource privatization | Biobío dam flooding (Ralco, Pangue, Angostura) | Porphyry mining (Los Bronces, Andina, El Teniente) | Forest substitution (Pinus/Eucalyptus), land loss |
 | **Current Mobilization** | Kawéskar WCS alliance, blue carbon rights | River restoration, dam removal, water sovereignty | Glacier protection, pewén restoration, mining veto | Native forest recovery, territorial autonomy |
 
-**Critical**: **Each sub-group requires separate FPIC process**. Aggregated "Mapuche consultation" is **legally invalid** (Environmental Court Rol 23.456-2023, Supreme Court Rol 124.567-2017).
+**Critical**: **Each sub-group requires separate FPIC process**. Aggregated Mapuche consultation is **legally invalid** (Environmental Court Rol 23.456-2023, Supreme Court Rol 124.567-2017).
 
 ---

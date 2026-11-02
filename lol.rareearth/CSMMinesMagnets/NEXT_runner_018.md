@@ -66,7 +66,7 @@ Cross-cutting synthesis across all 35 documents (Phases 1-5) producing 10 Strate
 **Primary**: **El Segundo** (Mirror/Participation/Protocol) — Synthesis requires recursive self-reflection across all prior work
 **Primary**: **Williams** (Constraint/Necessity/Commitment) — Architectural clarity on synthesis constraints
 **Secondary**: **Keymaker** (Lock/Key/Turn) — Computational primitives for cross-cutting models
-**Secondary**: **Baker Street** (Abduction) — Diagnostic synthesis: "what must be true for brokerage thesis to hold?"
+**Secondary**: **Baker Street** (Abduction) — Diagnostic synthesis: what must be true for brokerage thesis to hold?
 **Tertiary**: **SHIELD** (Detect/Protect/Validate) — Adversarial validation of synthesis claims
 
 **Intro Requirement**: 5 variants + Combined per document (same as Phase 5)
@@ -107,12 +107,12 @@ Cross-cutting synthesis across all 35 documents (Phases 1-5) producing 10 Strate
 
 ```json
 {
-  "interval": 120,
-  "subtask_timeout": 30,
-  "auto_continue": true,
-  "phase": 6,
-  "runner": "018",
-  "batch": "SYNTH-01, SYNTH-02, SYNTH-03"
+  interval: 120,
+  subtask_timeout: 30,
+  auto_continue: true,
+  phase: 6,
+  runner: 018,
+  batch: SYNTH-01, SYNTH-02, SYNTH-03
 }
 ```
 

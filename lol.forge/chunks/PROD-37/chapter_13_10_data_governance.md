@@ -15,16 +15,16 @@ Every data element carries **provenance metadata**:
 
 ```json
 {
-  "element": "FBG_042_T",
-  "value": 1847.3,
-  "unit": "°C",
-  "timestamp": "2026-11-03T09:15:00.100Z",
-  "lineage": {
-    "source": "PROD-10 Zone 4 FBG interrogator SN-2024-042",
-    "path": "FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka",
-    "transforms": ["kalman_filter", "twin_soft_reset"],
-    "merkle_root": "a3f2...",
-    "signature": "HSM-SCADA-L3:MEUCIQD..."
+  element: FBG_042_T,
+  value: 1847.3,
+  unit: °C,
+  timestamp: 2026-11-03T09:15:00.100Z,
+  lineage: {
+    source: PROD-10 Zone 4 FBG interrogator SN-2024-042,
+    path: FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka,
+    transforms: [kalman_filter, twin_soft_reset],
+    merkle_root: a3f2...,
+    signature: HSM-SCADA-L3:MEUCIQD...
   }
 }
 ```

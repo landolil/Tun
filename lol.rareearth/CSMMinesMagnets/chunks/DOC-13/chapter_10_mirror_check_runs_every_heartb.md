@@ -1,29 +1,29 @@
 # Mirror check (runs every heartbeat)
 def mirror_check():
     # 1. Heartbeat liveness
-    assert time_since_last_heartbeat() < 120, "HEARTBEAT STALLED"
+    assert time_since_last_heartbeat() < 120, HEARTBEAT STALLED
     
     # 2. Subtask duration
-    assert current_subtask_duration() < 30, "SUBTASK TIMEOUT"
+    assert current_subtask_duration() < 30, SUBTASK TIMEOUT
     
     # 3. Document progress
     lines = count_lines(current_doc)
-    assert lines >= expected_lines_for_current_chapter, "DOC BEHIND"
+    assert lines >= expected_lines_for_current_chapter, DOC BEHIND
     
     # 4. Git sync
-    assert git_status_clean_or_staged(), "UNCOMMITTED CHANGES >5min"
+    assert git_status_clean_or_staged(), UNCOMMITTED CHANGES >5min
     
     # 5. Traceability density
     claims = extract_claims(current_doc)
     sources = extract_sources(current_doc)
-    assert len(sources) / len(claims) >= 1.0, "TRACEABILITY DENSITY < 1.0"
+    assert len(sources) / len(claims) >= 1.0, TRACEABILITY DENSITY < 1.0
     
     # 6. Conflation check (incremental)
     new_claims = extract_new_claims_since_last_check()
     for claim in new_claims:
-        assert not conflation_check(claim, ALL_PRIOR_DOCS), f"CONFLATION: {claim}"
+        assert not conflation_check(claim, ALL_PRIOR_DOCS), fCONFLATION: {claim}
     
-    return "MIRROR: ALL REFLECTIONS COHERENT"
+    return MIRROR: ALL REFLECTIONS COHERENT
 ```
 
 ---
@@ -58,20 +58,20 @@ Every subtask produces a **witness record** with mandatory fields:
 
 ```json
 {
-  "witness_id": "DOC-13-Ch3-Subtask-3.1",
-  "timestamp": "2026-11-02T08:15:23Z",
-  "runner": "010",
-  "document": "DOC-13",
-  "chapter": 3,
-  "subtask": "3.1",
-  "action": "write_section",
-  "content_hash": "sha256:...",
-  "lines_added": 847,
-  "formulas_added": 12,
-  "crossrefs_added": 23,
-  "heuristic_lens": "Keymaker",
-  "constraint_segments_witnessed": ["LK-01", "LK-02", "LK-05"],
-  "mirror_reflection": "Heartbeat 08:15 UTC, Subtask 3.1 duration 23s"
+  witness_id: DOC-13-Ch3-Subtask-3.1,
+  timestamp: 2026-11-02T08:15:23Z,
+  runner: 010,
+  document: DOC-13,
+  chapter: 3,
+  subtask: 3.1,
+  action: write_section,
+  content_hash: sha256:...,
+  lines_added: 847,
+  formulas_added: 12,
+  crossrefs_added: 23,
+  heuristic_lens: Keymaker,
+  constraint_segments_witnessed: [LK-01, LK-02, LK-05],
+  mirror_reflection: Heartbeat 08:15 UTC, Subtask 3.1 duration 23s
 }
 ```
 
@@ -150,12 +150,12 @@ State: IDLE
 
 | Linguistic Invariant | Pattern | Example |
 |----------------------|---------|---------|
-| **Mirror Declaration** | "Mirror: [measurement] — [recursive depth]" | "Mirror: Heartbeat 08:15 UTC — Depth 0 (subtask pulse)" |
-| **Participation Declaration** | "Participation: [witness act] — [constraint segment]" | "Participation: Subtask 3.1 logged — LK-01 witnessed" |
-| **Protocol Declaration** | "Protocol: [recursive guarantee] — [scale]" | "Protocol: Chapter 3 fidelity → Document fidelity — Scale 2" |
+| **Mirror Declaration** | Mirror: [measurement] — [recursive depth] | Mirror: Heartbeat 08:15 UTC — Depth 0 (subtask pulse) |
+| **Participation Declaration** | Participation: [witness act] — [constraint segment] | Participation: Subtask 3.1 logged — LK-01 witnessed |
+| **Protocol Declaration** | Protocol: [recursive guarantee] — [scale] | Protocol: Chapter 3 fidelity → Document fidelity — Scale 2 |
 
-**Forbidden**: "External audit," "independent verification," "objective assessment," "neutral observer"
-**Required**: Recursive. Self-referential. "The protocol measures itself."
+**Forbidden**: External audit, independent verification, objective assessment, neutral observer
+**Required**: Recursive. Self-referential. The protocol measures itself.
 
 ---
 
@@ -209,16 +209,16 @@ From Williams (Lock) and Keymaker (Failure Mode), each constraint segment requir
 
 ```
 Constraint_Segment = {
-  id: "LK-03",
-  type: "Keymaker_Lock",
-  description: "Consulta Indígena breakdown",
-  baseline: "41% unresolved",
-  target: "0% (FBC/CDC)",
+  id: LK-03,
+  type: Keymaker_Lock,
+  description: Consulta Indígena breakdown,
+  baseline: 41% unresolved,
+  target: 0% (FBC/CDC),
   witness_acts: [
-    {doc: "DOC-03", subtask: "1.3.5", act: "Consulta protocol documented"},
-    {doc: "DOC-04", subtask: "2.1.5", act: "FBC/CDC trust structured"},
-    {doc: "DOC-07", subtask: "2.4.3", act: "Consulta legal pathway mapped"},
-    {doc: "DOC-08", subtask: "2.5.93", act: "Kawashkar/Yámana engagement"},
+    {doc: DOC-03, subtask: 1.3.5, act: Consulta protocol documented},
+    {doc: DOC-04, subtask: 2.1.5, act: FBC/CDC trust structured},
+    {doc: DOC-07, subtask: 2.4.3, act: Consulta legal pathway mapped},
+    {doc: DOC-08, subtask: 2.5.93, act: Kawashkar/Yámana engagement},
   ],
   participation_density: 4/1 = 4.0
 }
@@ -233,13 +233,13 @@ Constraint_Segment = {
 ```python
 class ElSegundoProtocol:
     def __init__(self):
-        self.state = "MEASURING"
+        self.state = MEASURING
         self.mirror_log = []
         self.participation_log = []
         self.scale = 0  # 0=subtask, 1=chapter, 2=doc, 3=runner, 4=phase, 5=pipeline
     
     def heartbeat(self):
-        """D0 Mirror: Continuous measurement"""
+        D0 Mirror: Continuous measurement
         measurement = {
             'timestamp': utc_now(),
             'pid': os.getpid(),
@@ -248,18 +248,18 @@ class ElSegundoProtocol:
             'status': self.state
         }
         self.mirror_log.append(measurement)
-        assert self.state != "IDLE", "Protocol stalled"
+        assert self.state != IDLE, Protocol stalled
     
     def subtask_start(self, subtask_id):
-        """D0 Participate: Begin witness act"""
+        D0 Participate: Begin witness act
         self.current_subtask = subtask_id
         self.subtask_start_time = utc_now()
-        self.state = "PARTICIPATING"
+        self.state = PARTICIPATING
     
     def subtask_complete(self, lines_added, formulas, crossrefs):
-        """D0→D1 Protocol: Anchor witness, escalate scale"""
+        D0→D1 Protocol: Anchor witness, escalate scale
         duration = utc_now() - self.subtask_start_time
-        assert duration < 30, "Subtask timeout"
+        assert duration < 30, Subtask timeout
         
         witness = {
             'subtask': self.current_subtask,
@@ -279,21 +279,21 @@ class ElSegundoProtocol:
         if self.runner_documents_complete():
             self.escalate_scale(3)  # Runner
         
-        self.state = "MEASURING"
+        self.state = MEASURING
     
     def escalate_scale(self, new_scale):
-        """Recursive protocol guarantee"""
-        assert new_scale == self.scale + 1, "Scale skip forbidden"
+        Recursive protocol guarantee
+        assert new_scale == self.scale + 1, Scale skip forbidden
         self.scale = new_scale
         # Verify fidelity at new scale
         self.verify_fidelity(new_scale)
     
     def verify_fidelity(self, scale):
-        """Recursive fidelity guarantee"""
+        Recursive fidelity guarantee
         metrics = FIDELITY_METRICS[scale]
         for metric, threshold in metrics.items():
             actual = self.measure(metric)
-            assert actual >= threshold, f"Fidelity fail at scale {scale}: {metric}={actual}"
+            assert actual >= threshold, fFidelity fail at scale {scale}: {metric}={actual}
 ```
 
 ---
@@ -332,12 +332,12 @@ class ElSegundoProtocol:
 **Automated Check**:
 ```python
 def elsegundo_recursive_closure(canonical_doc, pipeline_state):
-    """
+    
     1. Mirror artifacts exist at all 6 depths (D0-D5)
     2. Participation acts map to constraint segments
     3. Protocol recursion verified (scale escalation chain intact)
     4. Transition density ≥ threshold for current scale
-    """
+    
     checks = {
         'mirror_D0_heartbeat': check_heartbeat_liveness(pipeline_state),
         'mirror_D1_task_timer': check_task_timer_guard(pipeline_state),
@@ -379,7 +379,7 @@ The El Segundo heuristic operates on **recursive self-measurement**:
 2. **Participation**: The facilitator is a segment of the constraint; every subtask log is a witness act that increases transition density.
 3. **Protocol**: The recursive sequence MIRROR → PARTICIPATE → PROTOCOL guarantees fidelity at each scale through inductive escalation.
 
-The El Segundo voice — *"Mirror: [measurement]. Participation: [witness]. Protocol: [recursive guarantee]."* — is the **operational certificate** that the pipeline is not just producing documents, but **witnessing its own formation into existence**.
+The El Segundo voice — *Mirror: [measurement]. Participation: [witness]. Protocol: [recursive guarantee].* — is the **operational certificate** that the pipeline is not just producing documents, but **witnessing its own formation into existence**.
 
 **Next**: Chapter 5 — Baker Street Heuristic: Precision, Evidence, Deduction.
 

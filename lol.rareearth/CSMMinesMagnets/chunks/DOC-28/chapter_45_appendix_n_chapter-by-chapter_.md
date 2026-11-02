@@ -99,9 +99,9 @@ $$\Delta M_{dust} = \sum_{y=2015}^{2024} \left( \frac{\alpha_{dust,y} \cdot SW_{
 
 **Andina 244 Expansion Plan (Approved 2023, Halted 2024)**:
 - **Action**: **Excavate 0.08 km² of rock glacier toe** for waste rock dump expansion
-- **Mitigation Proposed**: "Rock glacier relocation" — **excavate and reposition ice-debris mix**
+- **Mitigation Proposed**: Rock glacier relocation — **excavate and reposition ice-debris mix**
 - **Pehuenche Objection**: **Butalmapu Acta 2023-07 — unanimous veto by 8 Lofs + 3 Machi**
-- **Environmental Court Ruling (2024)**: **"Rock glacier relocation is not scientifically validated; ice-debris structure cannot be reconstituted. Independent monitoring required before any intervention."**
+- **Environmental Court Ruling (2024)**: **Rock glacier relocation is not scientifically validated; ice-debris structure cannot be reconstituted. Independent monitoring required before any intervention.**
 
 **Current Status**: **Expansion suspended. Codelco must fund Pehuenche-appointed glaciologist (Dr. Mariana Correa, U. Chile) for 24-month monitoring. GPF oversees.**
 

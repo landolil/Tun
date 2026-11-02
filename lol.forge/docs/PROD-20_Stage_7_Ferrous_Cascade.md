@@ -76,7 +76,7 @@ Copper & Precious Metals                   Ferrous Cascade                      
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Ferrous Window": 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
+• The Ferrous Window: 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
 • At 1200°C: Cast iron melts, carbon steel (1370-1400°C), stainless (1400-1430°C) solid
 • At 1538°C: Pure Fe melts, Ni (1455°C), Co (1495°C) already liquid
 • At 1600°C: Cr (1907°C) remains solid → Stage 8; minerals (ZrO₂, REE oxides, Al₂O₃) solid
@@ -433,7 +433,7 @@ L_REE = (%REE_oxide in slag) / [%REE in metal]
 **MgO/Al₂O₃ from Upstream Dross — Critical Enabler:**
 - Stage 4 dross: 10 kg MgO, 5 kg flux
 - Stage 5 dross: 7 kg MgO/Al₂O₃, 2.5 kg flux
-- **Total "free" MgO/Al₂O₃: 17 kg** — no purchased flux needed
+- **Total free MgO/Al₂O₃: 17 kg** — no purchased flux needed
 - This is a **cascade advantage**: waste from Stages 4-5 becomes slag former for Stage 7
 
 ---

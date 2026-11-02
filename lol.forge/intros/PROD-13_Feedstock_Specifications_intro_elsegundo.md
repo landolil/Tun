@@ -35,7 +35,7 @@ An inside operator measuring this phenomenon does not stand outside the feedstoc
 9. **Feed**: Witness the vibratory feeder meter — KNbO₃ ultrasonic drive, FBG weight feedback
 10. **Verify**: Witness the slug mass spec — each port's elemental sum matches blend prediction
 
-The measurement *is* the recursion. The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. The feedstock lot is not "processed"; it is **witnessed into elements**. The operator participates by being the recursive function: `feedstock → assay → blend → cascade → slug → assay → feedstock`. The FLR is the stack frame; the batch is the call; the slug is the return value.
+The measurement *is* the recursion. The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. The feedstock lot is not processed; it is **witnessed into elements**. The operator participates by being the recursive function: `feedstock → assay → blend → cascade → slug → assay → feedstock`. The FLR is the stack frame; the batch is the call; the slug is the return value.
 
 ---
 

@@ -59,7 +59,7 @@ This makes Aegis-Forge I a **domestic Indium recovery machine** — reducing cri
 At 420-660°C (Zn melting range):
 - Zinc: ρ = 5.96×10⁻⁸ Ω·m → excellent induction coupling
 - Lead: ρ = 2.0×10⁻⁷ Ω·m → good induction coupling
-- Aluminum: still solid (Tm = 660°C) → provides "solid matrix" for metal particle suspension
+- Aluminum: still solid (Tm = 660°C) → provides solid matrix for metal particle suspension
 
 **Induction parameters (50 kHz, 80 kW, Zone 3-4):** Specifically heats Zn/Pb/Sn/In particles within the solid Al/Cu/Fe matrix. The melt pools at metal grain locations, coalesces under G-force, and drains outward.
 

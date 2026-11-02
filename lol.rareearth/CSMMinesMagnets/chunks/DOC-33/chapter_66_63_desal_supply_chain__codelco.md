@@ -6,7 +6,7 @@
 |-----------|---------------|
 | **Capacity** | **2,000 L/s** (Phase 1: 1,200 L/s operational 2022, Phase 2: 800 L/s 2026) |
 | **Intake** | Mejillones Bay (shared with Aguas Antofagasta, submerged 2km offshore) |
-| **Pipeline** | **2×48" (1,200mm) HDPE/Steel**, 180 km, 8 pump stations, 2,260m elevation gain |
+| **Pipeline** | **2×48 (1,200mm) HDPE/Steel**, 180 km, 8 pump stations, 2,260m elevation gain |
 | **Energy** | **4.2 kWh/m³** (pumping dominant) — **Solar PPA (Cerro Dominador) + Grid** |
 | **Delivery Points** | **Chuqui UG (100%), RT (50%), MH (100%), Municipal Calama (200 L/s)** |
 | **Redundancy** | **N+1 pumps**, emergency storage (50,000 m³ at each station), **interconnection with Aguas Antofagasta** |

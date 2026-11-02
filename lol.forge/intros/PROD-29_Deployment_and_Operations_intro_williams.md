@@ -13,11 +13,11 @@ The empirical gap is the **measured divergence between factory FAT performance a
 
 This document commits the Forge to **four non-negotiable deployment chains**:
 
-1. **IC-1..IC-10 re-execution is mandatory** — The 10 integration checkpoints from PROD-27 are not "repeated" — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). No feedstock until all 10 PASS with site data packages signed.
+1. **IC-1..IC-10 re-execution is mandatory** — The 10 integration checkpoints from PROD-27 are not repeated — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). No feedstock until all 10 PASS with site data packages signed.
 
 2. **Hot commissioning (CT-08) is the thermal proof** — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. The Forge must demonstrate thermal stability at 2200°C under site utility conditions. CT-08 data package is the *site* birth certificate.
 
-3. **SAT-05 six-batch validation is the performance gate** — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. This is not a "test" — it is the Forge proving it can execute its purpose at this site.
+3. **SAT-05 six-batch validation is the performance gate** — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. This is not a test — it is the Forge proving it can execute its purpose at this site.
 
 4. **SOP-002 batch execution is the operational invariant** — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the *only* authorized operating mode. No manual overrides, no recipe deviations without ECO (PROD-38). The operations philosophy is: **the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes.**
 

@@ -62,8 +62,8 @@ Each released lot receives a **Feedstock Lot Record (FLR)** containing:
 | **Source** | Supplier/Facility ID | ERI-Fresno-CA |
 | **Mass** | kg (net) | 22,500 kg |
 | **Date Received** | ISO 8601 | 2026-11-01T06:00:00Z |
-| **Assay Results** | JSON (element: mass%) | {"Cu": 24.5, "Au": 0.032, ...} |
-| **Physical Tests** | JSON | {"P80": 112, "moisture": 8.2, "bulk_density": 1.8} |
+| **Assay Results** | JSON (element: mass%) | {Cu: 24.5, Au: 0.032, ...} |
+| **Physical Tests** | JSON | {P80: 112, moisture: 8.2, bulk_density: 1.8} |
 | **Hazard Screen** | PASS/FAIL + values | PASS (Hg: 0.3ppm, NORM: 12µR/hr) |
 | **Blend Assignment** | Batch ID + mass fraction | BATCH-20261101-03: 15% (75 kg) |
 | **Release Authority** | QA Manager ID | QA-MGR-003 |

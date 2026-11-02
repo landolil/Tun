@@ -214,7 +214,7 @@ python3 ../../__Python_Tools/write_large_file.py verify-all chunks/
 python3 scripts/heartbeat_monitor.py --interval 120
 
 # Git commit and push
-git add -A && git commit -m "lol.forge: <description>" && git push
+git add -A && git commit -m lol.forge: <description> && git push
 ```
 
 ## Conventions

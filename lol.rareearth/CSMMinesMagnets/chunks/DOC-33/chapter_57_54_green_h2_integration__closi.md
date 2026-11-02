@@ -15,7 +15,7 @@
 | Parameter | Specification |
 |-----------|---------------|
 | **Route** | Mejillones (HIF) → Sierra Gorda → Calama (Aegis-Forge) — **180 km** |
-| **Diameter** | 12" (DN300) — **H₂-ready (API 5L X70, HIC resistant)** |
+| **Diameter** | 12 (DN300) — **H₂-ready (API 5L X70, HIC resistant)** |
 | **Pressure** | **50 bar** (compressor at HIF, let-down at Alpha-2) |
 | **Capacity** | **33.8 MW thermal equivalent** (Alpha-2 full inductive cascade) |
 | **Flow** | 12,000 Nm³/hr H₂ (99.97% purity, dew point -60°C) |
