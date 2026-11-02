@@ -1,0 +1,82 @@
+{
+  "chapter_01_intro.md": {
+    "size": 68,
+    "sha256": "8f5fd8821bc121c52aa59a3639593dfd90175b00d8542b7960c022e73d96559d"
+  },
+  "chapter_02_williams___keymaker___el_segun.md": {
+    "size": 12283,
+    "sha256": "17d38ca03aa9610a726e17ce62bc1f6b02f7ffcf02cbb290c5272733dad65da9"
+  },
+  "chapter_03_aegis-forge_i_thermal_modeling.md": {
+    "size": 413,
+    "sha256": "6462ee572f9e238f05e4fc32aaeddfb7e9b58693107916d55065e9dbbc6301c1"
+  },
+  "chapter_04_1_multi-physics_framework_over.md": {
+    "size": 3523,
+    "sha256": "aac07ad403d9454f0d01f8e7e7955d12a944e03458edb86364c56cb381907710"
+  },
+  "chapter_05_2_thermophysical_material_prop.md": {
+    "size": 7472,
+    "sha256": "5f48b2e954cf437f5dae43ba706f3a076fb7c70011bf592bbcbf717fe436819e"
+  },
+  "chapter_06_3_electromagnetic-thermal_fea_.md": {
+    "size": 3274,
+    "sha256": "8bba6c10f7333891980b35fcbfea82a739feef521292a255422edd4d1580288d"
+  },
+  "chapter_07_4_drum_thermal-structural_fea.md": {
+    "size": 3049,
+    "sha256": "872f02106f67cbaf38564747e96775abc8e517e9ad078f74cc0875953736c86c"
+  },
+  "chapter_08_5_cascade_cfd_gas-solid_flow_i.md": {
+    "size": 3233,
+    "sha256": "3db3d7465989f05d1822e4d932cdee552ce9d3f27b96081b3a829982df3c79d9"
+  },
+  "chapter_09_6_stage_thermal_models_1d_tran.md": {
+    "size": 5318,
+    "sha256": "f2ece0d1303fb3bd2809af838ac3a35c09f3476384ae3d933977a0e803d7dadd"
+  },
+  "chapter_10_7_vessel__insulation_fea.md": {
+    "size": 1969,
+    "sha256": "9a2609603ecd1dc2186f52e3b5c804a16bd1fa603df9109cd31a9603ca2e3f64"
+  },
+  "chapter_11_8_transient_thermal_cycling_an.md": {
+    "size": 1937,
+    "sha256": "05d7f73f952236ffdf1a1cbe648d2188456b24724ae6ceaf37306c16bbdbbf02"
+  },
+  "chapter_12_9_verification__validation_pla.md": {
+    "size": 2554,
+    "sha256": "3c88d3e08379d9d6eb5bb3cc2c953b70fb02ceee3167a712e93dbf359ce7383a"
+  },
+  "chapter_13_10_uncertainty_quantification_.md": {
+    "size": 1141,
+    "sha256": "c4c14e138a14f066c823e230a2d3423b27daa8098a3fe820b1f2e806b6855ca9"
+  },
+  "chapter_14_11_reduced-order_models_rom_fo.md": {
+    "size": 1796,
+    "sha256": "32dd13c6cdbdd07f4ec533b5f00b462469ce09da8d00e61b0ba63b7f414ef4c1"
+  },
+  "chapter_15_12_scaling_laws_226l_→_2000l_p.md": {
+    "size": 1322,
+    "sha256": "1ad63e65b373c1565e23f188ec9d674cb82c9a3172035a69fb986535280a54c4"
+  },
+  "chapter_16_13_cross-reference_matrix.md": {
+    "size": 1213,
+    "sha256": "e7f6d78175accd273ea0db9d7b92f70333a2a2b9b5062e15ef46fec8aef0ab2f"
+  },
+  "chapter_17_appendix_a_quick-reference_car.md": {
+    "size": 1699,
+    "sha256": "075bbd3488c98f2054f80c806fe6c752a50ab342324c7e90924d2a322a0f0eda"
+  },
+  "chapter_18_appendix_b_validation_test_mat.md": {
+    "size": 1102,
+    "sha256": "f1152bf05ddee224255c88ab81a4f6821a35a5ba77420e3d3b6d482f386f4039"
+  },
+  "chapter_19_appendix_c_rom_export_format_f.md": {
+    "size": 161,
+    "sha256": "c820c76360d29871c0b0bc7ad1a23ca5545c522e2c4e6a02728e0cc6d634fe7d"
+  },
+  "chapter_20_appendix_d_mesh_convergence_st.md": {
+    "size": 792,
+    "sha256": "92c920634f9d4fdb226c081e8dcf5fc313945006007e9b2e8dda5a49293f66cc"
+  }
+}
