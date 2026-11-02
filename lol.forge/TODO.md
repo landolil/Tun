@@ -237,14 +237,48 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 | 15.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-18` | 2 min | ✅ COMPLETE |
 | 15.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-18` | 2 min | ✅ COMPLETE |
 | 15.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-18_...` | 2 min | ✅ COMPLETE |
-| 15.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-18 Stage 5 Aluminum Window — 1052 lines + 200 intro" && git push` | 5 min | PENDING |
-| 15.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | PENDING |
+| 15.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-18 Stage 5 Aluminum Window — 1052 lines + 200 intro" && git push` | 5 min | ✅ COMPLETE |
+| 15.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | ✅ COMPLETE |
 
 ---
 
 ## AFTER ALL THREE DOCUMENTS COMPLETE
 - [ ] Create NEXT_runner_007.md for PROD-19, 20, 21 (Stages 6-8)
 - [ ] Update Master_Todo.md Phase 2 progress table
+
+---
+
+### PROD-19: Stage 6: Copper & Precious Metals (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read Vol 2 Stage 6 + PROD-17 PM carrier + PROD-18 residue + PROD-10, 08 | 30 min | ✅ COMPLETE |
+| 2.1 | Write Section 1 | Stage Parameters table, cascade context, feedstock composition | 15 min | ✅ COMPLETE |
+| 2.2 | Write Section 2 | Copper Melting and Separation Physics (thermophysics, induction, centrifugal) | 25 min | ✅ COMPLETE |
+| 2.3 | Write Section 3 | Precious Metal Partitioning to Anode Slime (thermodynamics, mass balance) | 25 min | ✅ COMPLETE |
+| 2.4 | Write Section 4 | Centrifuge Bowl Zones (4-zone design, anode casting carousel) | 25 min | ✅ COMPLETE |
+| 2.5 | Write Section 5 | Oxidation Control and Atmosphere Management (H₂/N₂, hydride control) | 20 min | ✅ COMPLETE |
+| 2.6 | Write Section 6 | Anode Casting and Slime Collection (mold specs, slime handling, FOLLOW-19) | 20 min | ✅ COMPLETE |
+| 2.7 | Write Section 7 | Electrorefining Integration (anode specs, refinery interface) | 15 min | ✅ COMPLETE |
+| 2.8 | Write Section 8 | Output Streams (summary table, mass balance) | 15 min | ✅ COMPLETE |
+| 2.9 | Write Section 9 | Throughput and Quality (production targets, quality specs, sampling) | 15 min | ✅ COMPLETE |
+| 2.10 | Write Section 10 | Energy Balance (inputs, recovery, net, exergy) | 15 min | ✅ COMPLETE |
+| 2.11 | Write Section 11 | Safety and Emissions (HAZOP, PPE, emission limits) | 15 min | ✅ COMPLETE |
+| 2.12 | Write Section 12 | Control System (cascade PID, anode carousel, safety interlocks) | 20 min | ✅ COMPLETE |
+| 2.13 | Write Section 13 | Cross-Reference Matrix (15 upstream/downstream docs) | 10 min | ✅ COMPLETE |
+| 2.14 | Appendix A | Quick-Reference Card | 10 min | ✅ COMPLETE |
+| 2.15 | Appendix B | Anode Slime Composition Detail for FOLLOW-19 | 15 min | ✅ COMPLETE |
+| 2.16 | Appendix C | Economic Analysis (revenue, OPEX, margin, sensitivity) | 15 min | ✅ COMPLETE |
+| 3.1 | Generate Williams Intro | ~67 lines: Constraint (Cu window), Necessity (PM recovery), Commitment (anode slime) | 20 min | ✅ COMPLETE |
+| 3.2 | Generate Keymaker Intro | ~67 lines: Lock (multi-PM separation), Key (CFDO-CB operator), Turn (theory↔practice) | 20 min | ✅ COMPLETE |
+| 3.3 | Generate El Segundo Intro | ~67 lines: Mirror (FBG/XRF/MS), Participation (operator witness), Protocol (recursive loops) | 20 min | ✅ COMPLETE |
+| 3.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | ✅ COMPLETE |
+| 4.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-19_... chunks/PROD-19` | 5 min | ✅ COMPLETE |
+| 4.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-19` | 2 min | ✅ COMPLETE |
+| 4.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-19` | 2 min | ✅ COMPLETE |
+| 4.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-19_...` | 2 min | ✅ COMPLETE |
+| 4.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-19 Stage 6 Copper & Precious Metals — 1086 lines + 200 intro" && git push` | 5 min | PENDING |
+| 4.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | PENDING |
 
 ---
 
