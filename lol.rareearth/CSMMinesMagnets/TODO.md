@@ -313,26 +313,56 @@
 
 ### Phase 4: Regional Deep Dives — Runners 004-006 (Tasks 216-410)
  
- #### 4.1 DOC-16: Norte Grande — Antofagasta & Atacama Regions (15 tasks)
- - [x] 4.1.1 Research Norte Grande IOCG/REE districts, Salar de Atacama brine systems
- - [x] 4.1.2 Map administrative divisions: Antofagasta (3 prov) + Atacama (3 prov)
- - [x] 4.1.3 Quantify district resources: Candelaria, Manto Verde, El Salvador, Spence, Cerro Colorado
- - [x] 4.1.4 Document Salar de Atacama REE-brine recovery potential (4,000 t/yr REE)
- - [x] 4.1.5 Map FCAB/Ferronor rail corridors + Antofagasta/Mejillones/Caldera/Panul ports
- - [x] 4.1.6 Analyze Atacameño/Lickanantay, Colla, Chango, Diaguita communities
- - [x] 4.1.7 Document SEREMI/GORE/DGA regulatory interface for Antofagasta/Atacama
- - [x] 4.1.8 Size Aegis-Forge clusters: Alpha-1/2 (IOCG), Bravo-1/2 (brine), Charlie-1 (centralized)
- - [x] 4.1.9 Cross-reference DOC-01..15 (national → regional refinement)
- - [x] 4.1.10 Draft DOC-16 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
- - [x] 4.1.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
- - [x] 4.1.12 Split into logical chunks → chunks/DOC-16/
- - [x] 4.1.13 Generate manifest & verify integrity
- - [x] 4.1.14 Compress FinishedWork original (.gz)
- - [x] 4.1.15 Log completion + git commit + tag runner-013-complete
- 
  #### 4.2 DOC-17: Norte Chico — Atacama South & Coquimbo Regions (15 tasks)
- #### 4.3 DOC-18: Zona Central — Valparaíso to Biobío (15 tasks)
- #### 4.4 DOC-19: Sur — Araucanía to Los Lagos (15 tasks)
+ - [x] 4.2.1 Research Norte Chico IOCG/REE districts, Diaguita territories, FCAB Los Colorados
+ - [x] 4.2.2 Map administrative divisions: Atacama South (2 prov) + Coquimbo (3 prov)
+ - [x] 4.2.3 Quantify district resources: Los Bronces Ext, El Romeral, El Algarrobo, Los Colorados, Dominga, Punta Cobre S.
+ - [x] 4.2.4 Document Diaguita valley consent pathways (Elqui, Limarí, Choapa, Huasco, Copiapó S.)
+ - [x] 4.2.5 Map FCAB Los Colorados rail + Puerto Guayacán/Coquimbo/Panul ports
+ - [x] 4.2.6 Analyze Diaguita communities, Dominga rejection precedent
+ - [x] 4.2.7 Document SEREMI Coquimbo/Atacama + GORE Coquimbo regulatory interface
+ - [x] 4.2.8 Size Aegis-Forge clusters: Alpha-3/4/5/6/7 (IOCG), Bravo-3/4 (ion-adsorption)
+ - [x] 4.2.9 Cross-reference DOC-01..16 (national → regional refinement)
+ - [x] 4.2.10 Draft DOC-17 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+ - [x] 4.2.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+ - [x] 4.2.12 Split into logical chunks → chunks/DOC-17/
+ - [x] 4.2.13 Generate manifest & verify integrity
+ - [x] 4.2.14 Compress FinishedWork original (.gz)
+ - [x] 4.2.15 Log completion + git commit + tag runner-014a-complete
+ 
+ #### 4.3 DOC-18: Zona Central — Valparaíso, Metropolitana, O'Higgins (15 tasks)
+ - [x] 4.3.1 Research Zona Central porphyry Cu-Mo-REE, Mapuche-Pehuenche, urban mining
+ - [x] 4.3.2 Map administrative divisions: Valparaíso (8 prov) + Metropolitana (6) + O'Higgins (3)
+ - [x] 4.3.3 Quantify district resources: Los Bronces, Andina, El Teniente, Los Pelambres, El Soldado, Chagres
+ - [x] 4.3.4 Document Santiago urban mining REE potential (377 t/yr NdPr from e-waste/catalysts)
+ - [x] 4.3.5 Map FCAB Central + EFE rail + Valparaíso/San Antonio/Los Vilos ports
+ - [x] 4.3.6 Analyze Mapuche-Pehuenche (high Andes) + urban recycler communities
+ - [x] 4.3.7 Document 3-region SEREMI/GORE + Glacier Law 21.435 regulatory interface
+ - [x] 4.3.8 Size Aegis-Forge clusters: Alpha-7/8/9/10/11 (porphyry), Bravo-5 (urban)
+ - [x] 4.3.9 Cross-reference DOC-01..17 (national → regional refinement)
+ - [x] 4.3.10 Draft DOC-18 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+ - [x] 4.3.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+ - [x] 4.3.12 Split into logical chunks → chunks/DOC-18/
+ - [x] 4.3.13 Generate manifest & verify integrity
+ - [x] 4.3.14 Compress FinishedWork original (.gz)
+ - [x] 4.3.15 Log completion + git commit + tag runner-014b-complete
+ 
+ #### 4.4 DOC-19: Sur — Maule, Ñuble, Biobío, Araucanía (15 tasks)
+ - [x] 4.4.1 Research Sur historical Fe, Biobío coal/metal, Araucanía epithermal, Coastal ion-adsorption REE
+ - [x] 4.4.2 Map administrative divisions: Maule (4) + Ñuble (3) + Biobío (4) + Araucanía (2)
+ - [x] 4.4.3 Quantify district resources: Maule Fe skarns, Biobío coal/metal, Araucanía epithermal, Coastal REE clays
+ - [x] 4.4.4 Document 4 Mapuche sub-groups (Lafkenche, Pewenche, Wenteche, Nagche) + urban recyclers
+ - [x] 4.4.5 Map EFE Sur rail + Talcahuano/San Vicente/Coronel ports
+ - [x] 4.4.6 Analyze Native Forest Law 20.283, Mapuche consent complexity
+ - [x] 4.4.7 Document 4-region SEREMI/GORE regulatory interface
+ - [x] 4.4.8 Size Aegis-Forge clusters: Alpha-12/13/14 (historical/epithermal), Bravo-6/7 (coastal/urban)
+ - [x] 4.4.9 Cross-reference DOC-01..18 (national → regional refinement)
+ - [x] 4.4.10 Draft DOC-19 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+ - [x] 4.4.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+ - [x] 4.4.12 Split into logical chunks → chunks/DOC-19/
+ - [x] 4.4.13 Generate manifest & verify integrity
+ - [x] 4.4.14 Compress FinishedWork original (.gz)
+ - [x] 4.4.15 Log completion + git commit + tag runner-014c-complete
  #### 4.5 DOC-20: Austral — Aysén & Magallanes (15 tasks)
  #### 4.6 DOC-21: Neodymium-Dysprosium Supply Chain Deep Dive (15 tasks)
  #### 4.7 DOC-22: Terbium-Samarium-Cobalt Specialty Magnets (15 tasks)
@@ -366,12 +396,12 @@
 
 ---
 
-## Current Sprint: Phase 4 Active — Runner 014 Starting (DOC-17..19)
+## Current Sprint: Phase 4 Batch 1 Complete — Runner 015 Starting (DOC-20..22)
 
 ### Immediate Next Actions (Next Session)
-1. [ ] Begin DOC-17: Regional Deep Dive — Norte Chico (Atacama South, Coquimbo)
-2. [ ] Begin DOC-18: Regional Deep Dive — Zona Central (Valparaíso, Metropolitana, O'Higgins)
-3. [ ] Begin DOC-19: Regional Deep Dive — Sur (Maule, Ñuble, Biobío, Araucanía)
+1. [ ] Begin DOC-20: Regional Deep Dive — Austral (Aysén, Magallanes)
+2. [ ] Begin DOC-21: Mineral-Specific — Neodymium-Dysprosium Supply Chain
+3. [ ] Begin DOC-22: Mineral-Specific — Terbium-Samarium-Cobalt Specialty
 4. [ ] Start heartbeat monitor
 5. [ ] Update RESUME_SESSION_MAGNETS.md
 
@@ -389,5 +419,6 @@
 - 2026-10-28: Runner 004 complete: DOC-09, DOC-10, DOC-11 done (Phase 3, first batch)
 - 2026-10-31: Runner 005 complete: DOC-12, DOC-13, DOC-14 done (Phase 3, second batch)
 - 2026-11-01: Runner 006 complete: DOC-15 done (Phase 3, final)
-- 2026-11-02: Runner 013 complete: DOC-16 done (Phase 4, first of Norte Grande)
-- 2026-11-02: Runner 014 starting: DOC-17, DOC-18, DOC-19 (Phase 4, Norte Chico, Zona Central, Sur)
+- 2026-11-02: Runner 013 complete: DOC-16 done (Phase 4, Norte Grande)
+- 2026-11-02: Runner 014 complete: DOC-17, DOC-18, DOC-19 done (Phase 4, Norte Chico, Zona Central, Sur)
+- 2026-11-02: Runner 015 starting: DOC-20, DOC-21, DOC-22 (Phase 4, Austral + Mineral-Specific batch 1)
