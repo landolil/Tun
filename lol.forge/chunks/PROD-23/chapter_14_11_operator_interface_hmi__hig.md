@@ -24,7 +24,7 @@
 
 ### 11.3 Training Simulator
 
-- **Platform:** Digital twin (PROD-37) in "shadow mode" — same models, simulated sensors
+- **Platform:** Digital twin (PROD-37) in shadow mode — same models, simulated sensors
 - **Scenarios:** Normal startup, feedstock variations, SIF trips, GIC event, cyber intrusion
 - **Certification:** Operators must complete 40 hrs sim + 20 hrs supervised before solo
 - **Recertification:** Annual (8 hrs sim + 1 emergency drill)

@@ -87,11 +87,11 @@
 # Write document (use Python for streaming large content)
 python3 << 'PYEOF'
 from pathlib import Path
-content = """# PROD-01: System Overview & Architecture
+content = # PROD-01: System Overview & Architecture
 ## CSMFAB000000000108 — Aegis-Forge I Planetary Centrifugal Inductive Material Separation
 [...900+ lines...]
-"""
-Path("docs/PROD-01_System_Overview.md").write_text(content)
+
+Path(docs/PROD-01_System_Overview.md).write_text(content)
 PYEOF
 
 # Generate heuristic intros
@@ -108,7 +108,7 @@ python3 ../../__Python_Tools/write_large_file.py verify chunks/PROD-01
 
 # Git commit
 git add -A
-git commit -m "lol.forge: PROD-01 System Overview — 900+ lines + 200 line combined intro"
+git commit -m lol.forge: PROD-01 System Overview — 900+ lines + 200 line combined intro
 git push
 ```
 

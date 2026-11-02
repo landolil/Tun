@@ -3,19 +3,19 @@ class HeartbeatMonitor:
     def __init__(self, interval: int = 120, project_dir: Path):
         self.interval = interval
         self.project_dir = project_dir
-        self.status_file = project_dir / "Logs/heartbeat_status.json"
-        self.log_file = project_dir / "Logs/heartbeat.log"
-        self.pid_file = project_dir / ".heartbeat_pid"
+        self.status_file = project_dir / Logs/heartbeat_status.json
+        self.log_file = project_dir / Logs/heartbeat.log
+        self.pid_file = project_dir / .heartbeat_pid
     
     def run(self):
-        """Main heartbeat loop"""
+        Main heartbeat loop
         self.write_pid()
         while True:
             self.heartbeat_cycle()
             time.sleep(self.interval)
     
     def heartbeat_cycle(self):
-        """Single heartbeat cycle with rotating checks"""
+        Single heartbeat cycle with rotating checks
         cycle = self.get_cycle_number()
         check_type = cycle % 4  # Rotate: Git, Source, Automation, Progress
         
@@ -23,7 +23,7 @@ class HeartbeatMonitor:
         status = self.run_check(check_type)
         
         # Log to heartbeat.log
-        log_entry = f"[HEARTBEAT] {timestamp} | Runner {self.current_runner} | {self.current_doc} | {self.current_subtask} | {status.lines} lines | {status.commits} commits | {status.status}"
+        log_entry = f[HEARTBEAT] {timestamp} | Runner {self.current_runner} | {self.current_doc} | {self.current_subtask} | {status.lines} lines | {status.commits} commits | {status.status}
         self.log_file.write(log_entry + '\n')
         
         # Update status JSON

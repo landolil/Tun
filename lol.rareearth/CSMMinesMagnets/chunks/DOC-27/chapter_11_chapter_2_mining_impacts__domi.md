@@ -7,7 +7,7 @@
 **Phase 1: Water Appropriation (1999–2008)**
 - **Water rights acquired**: 1.2 m³/s from Choapa basin (DGA titles 1995–2001)
 - **Impact**: Choapa baseflow at Salamanca **-18%** by 2008 (DGA fluviometric records)
-- **Community response**: Salamanca Diaguita assembly **first protection action (2005)** — **rejected** (water rights "legally acquired")
+- **Community response**: Salamanca Diaguita assembly **first protection action (2005)** — **rejected** (water rights legally acquired)
 
 **Phase 2: El Mauro Tailings Dam (2008–present)**
 - **Construction**: 2005–2008, **no Consulta Indígena** (Law 19.253 Art 34 not enforced pre-2017 precedent)
@@ -45,7 +45,7 @@ $$CI_{Choapa} = \underbrace{0.34}_{\text{baseflow loss}} + \underbrace{0.18}_{\t
 
 | Date | Event | Evidence | Legal Significance |
 |------|-------|----------|-------------------|
-| **2013-03** | Andes Iron submits EIA | EIA claims "no Indigenous communities in AoI" | **Material misrepresentation** — CONADI registry showed 15 communities |
+| **2013-03** | Andes Iron submits EIA | EIA claims no Indigenous communities in AoI | **Material misrepresentation** — CONADI registry showed 15 communities |
 | **2014-06** | SEA Coquimbo admits EIA | EIA enters evaluation | SEA failed to verify Indigenous presence |
 | **2015-03** | CONADI certifies 15 Diaguita communities in AoI | CONADI Oficio 1234/2015 | **Triggers mandatory Consulta Indígena (Law 19.253 Art 34)** |
 | **2015-09** | SEA initiates Consulta | SEA Res. Ex. 567/2015 | **First Consulta for major mining in Diaguita territory** |
@@ -86,6 +86,6 @@ $$CI_{Choapa} = \underbrace{0.34}_{\text{baseflow loss}} + \underbrace{0.18}_{\t
 - **Dry stack residue** — **non-toxic, revegetated in situ** with native species
 - **Footprint rehabilitation** — **progressive, concurrent with operation**
 
-**Consent Strategy for Bravo-3/4**: **Present as "agricultural water security project"** — **WSF co-investment (desalination/MAR) funded by REE revenue**. **Valley assemblies evaluate net water benefit** — **if WSF delivers >2× project water demand, consent pathway opens**. This is the **Keymaker Key** — **mathematical primitive: net water benefit ratio > 2.0**.
+**Consent Strategy for Bravo-3/4**: **Present as agricultural water security project** — **WSF co-investment (desalination/MAR) funded by REE revenue**. **Valley assemblies evaluate net water benefit** — **if WSF delivers >2× project water demand, consent pathway opens**. This is the **Keymaker Key** — **mathematical primitive: net water benefit ratio > 2.0**.
 
 ---

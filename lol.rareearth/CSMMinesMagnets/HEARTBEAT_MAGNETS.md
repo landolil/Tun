@@ -12,15 +12,15 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T10:13:44Z",
-  "current_runner": "018",
-  "current_document": "SYNTH-01",
-  "subtask": "research",
-  "subtask_start": "2026-11-02T10:13:44Z",
-  "documents_completed": 35,
-  "total_lines_written": 70000,
-  "git_commits_this_session": 1,
-  "status": "phase_transition"
+  last_heartbeat: 2026-11-02T10:13:44Z,
+  current_runner: 018,
+  current_document: SYNTH-01,
+  subtask: research,
+  subtask_start: 2026-11-02T10:13:44Z,
+  documents_completed: 35,
+  total_lines_written: 70000,
+  git_commits_this_session: 1,
+  status: phase_transition
 }
 ```
 
@@ -129,7 +129,7 @@
 tail -f Logs/heartbeat.log
 
 # Force heartbeat update
-echo "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > HEARTBEAT_MAGNETS.md.timestamp
+echo $(date -u +%Y-%m-%dT%H:%M:%SZ) > HEARTBEAT_MAGNETS.md.timestamp
 
 # Check monitor process
 ps aux | grep heartbeat_monitor

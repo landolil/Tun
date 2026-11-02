@@ -63,7 +63,7 @@ Copper & Precious Metals                   Ferrous Cascade                      
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Ferrous Window": 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
+• The Ferrous Window: 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
 • At 1200°C: Cast iron melts, carbon steel (1370-1400°C), stainless (1400-1430°C) solid
 • At 1538°C: Pure Fe melts, Ni (1455°C), Co (1495°C) already liquid
 • At 1600°C: Cr (1907°C) remains solid → Stage 8; minerals (ZrO₂, REE oxides, Al₂O₃) solid

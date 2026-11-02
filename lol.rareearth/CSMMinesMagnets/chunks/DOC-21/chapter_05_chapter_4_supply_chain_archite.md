@@ -53,7 +53,7 @@ MAGNET MANUFACTURING (US/Japan — DFARS Compliant)
     │
     ├── Sintered NdFeB (N42H-N55UH) — MP Materials, Noveon, Electron Energy
     ├── Sintered SmCo (1:5, 2:17) — Electron Energy, VAC, Arnold
-    ├── Fe₁₆N₂ (Niron) — α"-Fe₁₆N₂ 27 MGOe
+    ├── Fe₁₆N₂ (Niron) — α-Fe₁₆N₂ 27 MGOe
     └── Bonded/Hybrid — various
     │
     ▼

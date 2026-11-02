@@ -1,0 +1,1 @@
+#   - Tourism mono-culture vs Mining vs Industrial corridor vs Port city vs Pastoral

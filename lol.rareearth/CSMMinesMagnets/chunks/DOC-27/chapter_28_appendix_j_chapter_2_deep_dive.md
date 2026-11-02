@@ -22,7 +22,7 @@
 - **Factor 2 (Natural weathering)**: 25% As, 15% SO₄, 12% Mo — **background**
 - **Factor 3 (Agricultural return flow)**: 10% As, 7% SO₄, 6% Mo — **fertilizer/pesticide**
 
-**Conclusion**: **Tailings seepage contributes 65–82% of contaminant load** at Salamanca. **Not "natural background"** as company claims.
+**Conclusion**: **Tailings seepage contributes 65–82% of contaminant load** at Salamanca. **Not natural background** as company claims.
 
 ### J.2 CAP Minería — Magnetite Operations Water Balance
 

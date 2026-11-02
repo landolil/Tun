@@ -36,9 +36,9 @@ Each valley assembly operates under **Estatutos Comunales Diaguita** (validated 
 4. Vote: **show of hands, recorded by notary**
 5. **Unanimous opposition = veto recorded in Acta**
 6. **Unanimous support = consent recorded in Acta**
-7. **Split decision = "No Consensus" — deliberation continues next session**
+7. **Split decision = No Consensus — deliberation continues next session**
 
-**No majority voting** — this is the **Diaguita constitutional principle** (Estatutos Art. 12). **Aegis-Forge must present to each valley separately** — no "regional" presentation accepted.
+**No majority voting** — this is the **Diaguita constitutional principle** (Estatutos Art. 12). **Aegis-Forge must present to each valley separately** — no regional presentation accepted.
 
 ### 3.3 Legal Personality & Territorial Authority
 

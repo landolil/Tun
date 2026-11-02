@@ -48,7 +48,7 @@ Under Chilean law, CSM's facilitator role is structured through three complement
 Chilean securities law (Law 18,045) and SpA law (Law 20,190) do not explicitly regulate mining property brokerage. However, **Corredores de Bienes Raíces** regulations (Law 19,799) apply by analogy to mining concessions as real property interests. CSM registers as:
 
 - **Corredor de Bienes Raíces** (Real Estate Broker) — Registro de Corredores, Ministerio de Vivienda
-- **Specialization annotation**: "Concesiones Mineras y Derechos Mineros"
+- **Specialization annotation**: Concesiones Mineras y Derechos Mineros
 - **Bond requirement**: UF 500 (~$19,000) fidelity bond
 
 #### 1.2.3 Foreign Investment Facilitator — DL 600 & Chapter XIV Compendium

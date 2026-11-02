@@ -273,7 +273,7 @@ GIC flows through **wye-grounded transformer neutrals** into the grid. Motors co
   - Self-locking (holding torque at power-off)
   - Operate in vacuum, cryogenic, high-radiation
 - **Aegis-Forge Use**: Drum drive (high torque, precise speed), mold handlers
-- **Reference**: MDPI Micromachines 2024, "A Comprehensive Review of Piezoelectric Ultrasonic Motors"
+- **Reference**: MDPI Micromachines 2024, A Comprehensive Review of Piezoelectric Ultrasonic Motors
 
 **2. Synchronous Reluctance Motors (SynRM):**
 - **Principle**: Reluctance torque from rotor saliency (no permanent magnets)
@@ -284,7 +284,7 @@ GIC flows through **wye-grounded transformer neutrals** into the grid. Motors co
   - High efficiency (IE5), wide speed range
   - Fault-tolerant (no magnet demagnetization)
   - Lower cost than PM motors
-- **Reference**: Frontiers Mech. Eng. 2026, "Reduced-rare-earth PM motors"
+- **Reference**: Frontiers Mech. Eng. 2026, Reduced-rare-earth PM motors
 
 **3. Iron Nitride (Fe₁₆N₂) Permanent Magnet Motors:**
 - **Principle**: Alpha-double-prime Fe₁₆N₂ phase, 27 MGOe (Niron Magnetics)
@@ -587,7 +587,7 @@ Co-locating Aegis-Forge thermal cascade separation with power generation creates
 1. **Geothermal Gradient**: Andes provide natural heat sink for ORC condensers
 2. **Water Scarcity**: Air-cooled ORC/sCO₂ (no water consumption)
 3. **Carbon Credits**: SOFC biochar + ORC displacement → CDM/Article 6 credits
-4. **Regulatory**: CEN allows "behind-the-meter" generation for self-consumption
+4. **Regulatory**: CEN allows behind-the-meter generation for self-consumption
 
 **Key Formula — Net Grid Import with Co-Location:**
 ```

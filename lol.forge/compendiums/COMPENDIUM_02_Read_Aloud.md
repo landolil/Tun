@@ -1742,7 +1742,7 @@ Density stratification at G = 12.6 (150 RPM):
 
 [Table row: ,  PET, PC, PEEK ,  1.15-1.22 ,  Outer annulus (r ≈ 0.25-0.30 m) , ]
 
-Port 2 at drum OD (opens at 200°C): primarily discharges highest-density polymer melt first (PEEK, PC). [pause: short] As temperature rises through 450°C, lower-density polymers also flow. [pause: short] Output: Mixed polymer slug exiting Port 2, quenched in BFRP mold. [pause: short] This "mixed polymer block" is a downstream input for:
+Port 2 at drum OD (opens at 200°C): primarily discharges highest-density polymer melt first (PEEK, PC). [pause: short] As temperature rises through 450°C, lower-density polymers also flow. [pause: short] Output: Mixed polymer slug exiting Port 2, quenched in BFRP mold. [pause: short] This mixed polymer block is a downstream input for:
 
 [pause: short] Elium® reformulation (MMA-compatible melt blending)
 
@@ -2018,7 +2018,7 @@ At 420-660°C (Zn melting range):
 
 [pause: short] Lead: ρ = 2.0×10⁻⁷ Ω·m → good induction coupling
 
-[pause: short] Aluminum: still solid (Tm = 660°C) → provides "solid matrix" for metal particle suspension
+[pause: short] Aluminum: still solid (Tm = 660°C) → provides solid matrix for metal particle suspension
 
 Induction parameters (50 kHz, 80 kW, Zone 3-4): Specifically heats Zn/Pb/Sn/In particles within the solid Al/Cu/Fe matrix. [pause: short] The melt pools at metal grain locations, coalesces under G-force, and drains outward. [pause: short] Skin depths at 50 kHz, 500°C:
 
@@ -2451,7 +2451,7 @@ Where [Inline equation: k = k_0 \exp(-E_a/RT)], [Inline equation: E_a \approx 52
 At 2000°C: ~95% dissociation in 10 min
 At 2200°C: >99% dissociation in 5 min
 
-Process strategy: Ramp to 2200°C, hold 10 min for complete dissociation. [pause: short] SiO₂ joins slag matrix; ZrO₂ remains as discrete high-density particles (ρ = 5.68 g/cm³) — centrifugally separable! [pause: short] --- 10.3 Stage 8 Output: "Mineral Concentrate Slug" — The Treasure Chest ---
+Process strategy: Ramp to 2200°C, hold 10 min for complete dissociation. [pause: short] SiO₂ joins slag matrix; ZrO₂ remains as discrete high-density particles (ρ = 5.68 g/cm³) — centrifugally separable! [pause: short] --- 10.3 Stage 8 Output: Mineral Concentrate Slug — The Treasure Chest ---
 
 The partially fused slag-like material exiting Port 8 (2200°C set-point) is rich in Zr, Ti, rare earth oxides, Al₂O₃, SiO₂. [pause: short] This is the primary input for the Materials Study Part V critical mineral recovery program. [pause: short] Chemical analyses of Port 8 output from mixed electronics recycling (per ton input):
 
@@ -3483,7 +3483,7 @@ At 2 kHz (Zone 7, Stage 7):
 
 [pause: short] Total Fe heating: 10-20× Al at same B-field
 
-The frequency ladder IS the separation mechanism: Each frequency "unlocks" one material class while leaving others solid or poorly coupled. [pause: short] --- 3.4 Stage 4 Detail — Indium First Strategy at 50 kHz ---
+The frequency ladder IS the separation mechanism: Each frequency unlocks one material class while leaving others solid or poorly coupled. [pause: short] --- 3.4 Stage 4 Detail — Indium First Strategy at 50 kHz ---
 
 Zone 3 (50 kHz) handles Stage 4 (420-900°C) where Zn, Pb, Sn, In melt. [pause: short] At 50 kHz:
 
@@ -4030,7 +4030,7 @@ Phase detection: FPGA-based quadrature demodulation (I/Q) at switching frequency
 
 [pause: short] Latency: < 1 μs
 
-Resonance lock indicator: Phase error < 0.5° sustained for 100 ms → "LOCKED" status to Master PLC. [pause: short] --- 7.4 Impedance Matching — Variable Frequency as Control Knob ---
+Resonance lock indicator: Phase error < 0.5° sustained for 100 ms → LOCKED status to Master PLC. [pause: short] --- 7.4 Impedance Matching — Variable Frequency as Control Knob ---
 
 Load impedance seen by inverter:
 
@@ -7239,7 +7239,7 @@ The Aegis-Forge I drum assembly (drum + vessel + coil bank + seals) is a single 
 
 [Table row: ,  Cooling water ,  PEX-a, 25 mm OD, 2 circuits ,  Flow 50 L/min, ΔP <2 bar ,  Flow meter , ]
 
-[Table row: ,  Gas connections ,  N₂/Ar, ZrO₂ fittings, 1" PEX-a ,  Pressure 3 bar, leak <10⁻⁵ ,  Bubble test , ]
+[Table row: ,  Gas connections ,  N₂/Ar, ZrO₂ fittings, 1 PEX-a ,  Pressure 3 bar, leak <10⁻⁵ ,  Bubble test , ]
 
 [Table row: ,  Instrumentation ,  384 FBG, 8 AE, 8 Coriolis ,  All channels active ,  Auto-scan , ]
 
@@ -7576,7 +7576,7 @@ This document specifies the complete engineering of the Acoustic Mineral Liberat
 
 [pause: short] Economic impact: downstream induction efficiency gain, operational cost
 
-Design Mandate: Mechanical liberation precedes thermal separation. [pause: short] The 40-60% downstream induction efficiency gain from Stage 0 acoustic pre-processing is not optional — it is the empirical lock that makes the thermal cascade viable. [pause: short] The AMLS does not "crush"; it witnesses the grain boundary into release through resonant fatigue and cavitation shock. [pause: short] [pause: long]
+Design Mandate: Mechanical liberation precedes thermal separation. [pause: short] The 40-60% downstream induction efficiency gain from Stage 0 acoustic pre-processing is not optional — it is the empirical lock that makes the thermal cascade viable. [pause: short] The AMLS does not crush; it witnesses the grain boundary into release through resonant fatigue and cavitation shock. [pause: short] [pause: long]
 
 --- 2. [pause: short] Liberation Physics ---
 
@@ -8897,7 +8897,7 @@ This document specifies the complete engineering of the BFRP/Elium® outer press
 
 [pause: short] Downstream integration with Assembly Line 113 (drum insertion, flange alignment, gas connections)
 
-Design Mandate: The vessel is the dielectric pressure boundary — it must contain 10 bar N₂/Ar atmosphere while thermally isolating the BFRP (Tg=80°C) from the 2200°C drum. [pause: short] No structural metals. [pause: short] Zero ferromagnetic materials. [pause: short] Zero conductive paths to earth ground. [pause: short] The vessel does not "contain." The vessel witnesses the pressure-thermal duality into a single survivable boundary. [pause: short] This document commits to the non-negotiable physics of a dielectric pressure vessel at extreme thermal gradient. [pause: short] [pause: long]
+Design Mandate: The vessel is the dielectric pressure boundary — it must contain 10 bar N₂/Ar atmosphere while thermally isolating the BFRP (Tg=80°C) from the 2200°C drum. [pause: short] No structural metals. [pause: short] Zero ferromagnetic materials. [pause: short] Zero conductive paths to earth ground. [pause: short] The vessel does not contain. The vessel witnesses the pressure-thermal duality into a single survivable boundary. [pause: short] This document commits to the non-negotiable physics of a dielectric pressure vessel at extreme thermal gradient. [pause: short] [pause: long]
 
 --- 2. [pause: short] Vessel Geometry & Requirements ---
 
@@ -11960,7 +11960,7 @@ Generated: 2026-10-31 19:25:00 UTC
 
 --- Constraint (The Lock) ---
 
-The GFGS subsystem is forced by a single irreducible constraint: Zero Emission as Thermodynamic Closure — every gas molecule generated by the thermal cascade must be captured, classified, and converted to solid or liquid product. [pause: short] There is no "vent to atmosphere" path. [pause: short] The constraint is not environmental regulation; it is mass balance. [pause: short] The cascade processes 50 kg feedstock and generates ~15 kg gas-phase products per batch (water, organics, pyrolysis gas, acid gases, metal vapors, CO₂). [pause: short] If any fraction escapes, the system violates its own physics — an open system cannot claim complete elemental extraction. [pause: short] The machine must be a hermetically sealed dielectric citadel where gas phase is a transient state, not an exit state. [pause: short] This constraint manifests as the Closed-Loop N₂ Atmosphere Architecture: nitrogen circulates continuously as carrier gas, sweeping each stage's exhaust through five stage-specific treatment trains before returning to the drum. [pause: short] The N₂ inventory (2-3 kg/cycle) is the thermal ballast and the material conveyor. [pause: short] No air ingress (oxygen = uncontrolled combustion). [pause: short] No gas egress (every species recovered). [pause: short] The positive pressure (1.2-2.5 bar) is the physical enforcement of closure — leakage is outward only. [pause: short] The constraint writes the entire architecture: five treatment trains (A-E), PSA CO₂ separation, plasma torch polisher, three-layer pressure relief. [pause: short] Every parameter derives from the capture target: water at 80→5°C, organics at 80/25/5°C fractionation, pyrolysis gas at 18.5 MJ/m³ recovery, acid gases at <1 ppm outlet, metal vapors at >99% capture, dioxins at 6-log destruction. [pause: short] There are no free parameters — the periodic table's gas-phase species determine the trains. [pause: short] [pause: long]
+The GFGS subsystem is forced by a single irreducible constraint: Zero Emission as Thermodynamic Closure — every gas molecule generated by the thermal cascade must be captured, classified, and converted to solid or liquid product. [pause: short] There is no vent to atmosphere path. [pause: short] The constraint is not environmental regulation; it is mass balance. [pause: short] The cascade processes 50 kg feedstock and generates ~15 kg gas-phase products per batch (water, organics, pyrolysis gas, acid gases, metal vapors, CO₂). [pause: short] If any fraction escapes, the system violates its own physics — an open system cannot claim complete elemental extraction. [pause: short] The machine must be a hermetically sealed dielectric citadel where gas phase is a transient state, not an exit state. [pause: short] This constraint manifests as the Closed-Loop N₂ Atmosphere Architecture: nitrogen circulates continuously as carrier gas, sweeping each stage's exhaust through five stage-specific treatment trains before returning to the drum. [pause: short] The N₂ inventory (2-3 kg/cycle) is the thermal ballast and the material conveyor. [pause: short] No air ingress (oxygen = uncontrolled combustion). [pause: short] No gas egress (every species recovered). [pause: short] The positive pressure (1.2-2.5 bar) is the physical enforcement of closure — leakage is outward only. [pause: short] The constraint writes the entire architecture: five treatment trains (A-E), PSA CO₂ separation, plasma torch polisher, three-layer pressure relief. [pause: short] Every parameter derives from the capture target: water at 80→5°C, organics at 80/25/5°C fractionation, pyrolysis gas at 18.5 MJ/m³ recovery, acid gases at <1 ppm outlet, metal vapors at >99% capture, dioxins at 6-log destruction. [pause: short] There are no free parameters — the periodic table's gas-phase species determine the trains. [pause: short] [pause: long]
 
 --- Necessity (The Key) ---
 
@@ -11970,7 +11970,7 @@ The lock this document addresses is the emission-recovery gap — every historic
 
 We commit to the following as non-negotiable:
 
-1) Zero atmospheric release — <0.1 ppm total organics at vent. [pause: short] Not "low emissions" — zero. [pause: short] Every molecule accounted for. [pause: short] 2) N₂ carrier gas recycling >99.5% per cycle — make-up cost <$0.30/batch. [pause: short] The loop is closed. [pause: short] 3) CO₂ capture 95-99% purity, 90% recovery — reused as drum purge + geopolymer curing. [pause: short] CO₂ is product, not waste. [pause: short] 4) Energy recovery from pyrolysis gas 18.5 MJ/m³ — supplements Stage 7-8 induction, reducing electricity cost. [pause: short] 5) Acid gas neutralization HCl <1 ppm, SO₂ <1 ppm — dry lime scrubber, solid byproducts utilized. [pause: short] 6) Metal vapor capture Zn >99%, Pb >99.5% — two-stage condenser, Zn as electrolytic-grade liquid. [pause: short] 7) Dioxin/furan destruction >99.9999% — plasma torch polisher as final guarantee. [pause: short] 8) All-dielectric construction — zero structural metals in gas path. [pause: short] BFRP, ZrO₂, PEEK CF40, ceramic valves only. [pause: short] The GFGS does not "treat emissions." The GFGS witnesses the gas phase into solid products — the final measurement in the cascade sequence. [pause: short] [pause: long]
+1) Zero atmospheric release — <0.1 ppm total organics at vent. [pause: short] Not low emissions — zero. [pause: short] Every molecule accounted for. [pause: short] 2) N₂ carrier gas recycling >99.5% per cycle — make-up cost <$0.30/batch. [pause: short] The loop is closed. [pause: short] 3) CO₂ capture 95-99% purity, 90% recovery — reused as drum purge + geopolymer curing. [pause: short] CO₂ is product, not waste. [pause: short] 4) Energy recovery from pyrolysis gas 18.5 MJ/m³ — supplements Stage 7-8 induction, reducing electricity cost. [pause: short] 5) Acid gas neutralization HCl <1 ppm, SO₂ <1 ppm — dry lime scrubber, solid byproducts utilized. [pause: short] 6) Metal vapor capture Zn >99%, Pb >99.5% — two-stage condenser, Zn as electrolytic-grade liquid. [pause: short] 7) Dioxin/furan destruction >99.9999% — plasma torch polisher as final guarantee. [pause: short] 8) All-dielectric construction — zero structural metals in gas path. [pause: short] BFRP, ZrO₂, PEEK CF40, ceramic valves only. [pause: short] The GFGS does not treat emissions. The GFGS witnesses the gas phase into solid products — the final measurement in the cascade sequence. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Lock, Key, Turn ---
 
@@ -12466,13 +12466,13 @@ Encoded Data (JSON compact):
 
 [Code block]
 {
-  "b": "20261031-042",    // Batch ID
-  "p": "5",               // Port (string for 4a, 4b, 6-PM, 7-RE)
-  "t": 680,               // Stage temp °C
-  "s": 15,                // Sequence
-  "m": "Al-6061",         // Material grade (from LIBS)
-  "w": 1.987,             // Mass kg (load cell)
-  "c": "2026-10-31T14:23:12Z"  // Timestamp UTC
+  b: 20261031-042,    // Batch ID
+  p: 5,               // Port (string for 4a, 4b, 6-PM, 7-RE)
+  t: 680,               // Stage temp °C
+  s: 15,                // Sequence
+  m: Al-6061,         // Material grade (from LIBS)
+  w: 1.987,             // Mass kg (load cell)
+  c: 2026-10-31T14:23:12Z  // Timestamp UTC
 }
 [End code block]
 
@@ -12712,40 +12712,40 @@ Routing Logic (FPGA Implementation):
 [Code block]
 IF stream == S-07 (Copper):
   IF Cu >= 99.5% AND (Au+Ag+Pd) >= 50 ppm:
-    GRADE = "DIRECT_USE" → Machine 114 (Cu wire drawing)
+    GRADE = DIRECT_USE → Machine 114 (Cu wire drawing)
   ELSE IF Cu >= 99.0%:
-    GRADE = "REFINEMENT" → Machine 114 (fire refining first)
+    GRADE = REFINEMENT → Machine 114 (fire refining first)
   ELSE:
-    GRADE = "COMMERCIAL_SALE" → Commodity copper market
+    GRADE = COMMERCIAL_SALE → Commodity copper market
 
 IF stream == S-06 (Aluminum):
   IF Al >= 95% AND Fe+Si <= 1%:
-    GRADE = "COMMERCIAL_SALE" → Secondary Al market (CSM uses no Al)
+    GRADE = COMMERCIAL_SALE → Secondary Al market (CSM uses no Al)
   ELSE:
-    GRADE = "REFINEMENT" → Machine 114 (fractional crystallization)
+    GRADE = REFINEMENT → Machine 114 (fractional crystallization)
 
 IF stream == S-09 (Ferrous):
   IF Fe >= 95% AND (Nd+Sm+Dy) >= 0.1%:
-    GRADE = "DIRECT_USE" → Machine 113 (RE leach → magnet feed)
+    GRADE = DIRECT_USE → Machine 113 (RE leach → magnet feed)
   ELSE IF Fe >= 98%:
-    GRADE = "COMMERCIAL_SALE" → Steel mill feed
+    GRADE = COMMERCIAL_SALE → Steel mill feed
   ELSE:
-    GRADE = "REFINEMENT" → Machine 113 (slag adjustment)
+    GRADE = REFINEMENT → Machine 113 (slag adjustment)
 
 IF stream == S-04 (Indium):
   IF In >= 10% AND Sn+Zn <= 30%:
-    GRADE = "DIRECT_USE" → Machine 119 (YInMn synthesis)
+    GRADE = DIRECT_USE → Machine 119 (YInMn synthesis)
   ELSE:
-    GRADE = "REFINEMENT" → Ionic liquid extraction (Phoenix)
+    GRADE = REFINEMENT → Ionic liquid extraction (Phoenix)
 
 IF stream == S-11 (Mineral):
   IF ZrO₂ >= 60% AND REE >= 2%:
-    GRADE = "DIRECT_USE" → Machine 113 (Zr/Ti/REE hydromet)
+    GRADE = DIRECT_USE → Machine 113 (Zr/Ti/REE hydromet)
   ELSE:
-    GRADE = "STOCKPILE" → Await Phase 2 hydromet capacity
+    GRADE = STOCKPILE → Await Phase 2 hydromet capacity
 
 DEFAULT:
-  GRADE = "COMMERCIAL_SALE"
+  GRADE = COMMERCIAL_SALE
 [End code block]
 
 --- 5.6 Three-Way Routing Conveyors ---
@@ -12927,21 +12927,21 @@ Registry Entry for Each Seed Material:
 
 [Code block]
 {
-  "material_id": "ZrB2-20261031-042-A",
-  "source_slug": "S-11-BATCH-20261031-042-8-1676-0007",
-  "phoenix_generation": 0,
-  "source_feedstock": "Zircon sand (Australia, Iluka Resources, Lot ZS-2026-044)",
-  "processing_path": [
-    "AMLS: 20 min LF+US liberation",
-    "Forge Stage 8: 1700°C, 20 min dwell",
-    "Hydromet: H2SO4 leach, Y-co-precipitation",
-    "Calcination: 1200°C, 4h",
-    "Carbothermal: 1700°C, 16h, B2O3+C"
+  material_id: ZrB2-20261031-042-A,
+  source_slug: S-11-BATCH-20261031-042-8-1676-0007,
+  phoenix_generation: 0,
+  source_feedstock: Zircon sand (Australia, Iluka Resources, Lot ZS-2026-044),
+  processing_path: [
+    AMLS: 20 min LF+US liberation,
+    Forge Stage 8: 1700°C, 20 min dwell,
+    Hydromet: H2SO4 leach, Y-co-precipitation,
+    Calcination: 1200°C, 4h,
+    Carbothermal: 1700°C, 16h, B2O3+C
   ],
-  "final_purity": "ZrB2 99.2%, O 0.8%, C 0.3%, Fe 0.02%",
-  "certification": "CSMFAB-SEED-ZRB2-V1.0",
-  "allocated_to": "Flash Sintering Run FS-20261101-003",
-  "allocated_products": ["Aegis-C-Panel-042", "Stove-Burner-017", "Crucible-Set-009"]
+  final_purity: ZrB2 99.2%, O 0.8%, C 0.3%, Fe 0.02%,
+  certification: CSMFAB-SEED-ZRB2-V1.0,
+  allocated_to: Flash Sintering Run FS-20261101-003,
+  allocated_products: [Aegis-C-Panel-042, Stove-Burner-017, Crucible-Set-009]
 }
 [End code block]
 
@@ -13142,14 +13142,14 @@ HANDOFF STATION
 │                                                                              │
 │  DATA PACKET TRANSFERRED TO DOWNSTREAM MACHINE MES:                         │
 │  {                                                                           │
-│    "slug_id": "uuid",                                                       │
-│    "batch_id": "BATCH-20261031-042",                                       │
-│    "grade": "DIRECT_USE",                                                   │
-│    "mass_kg": 1.987,                                                        │
-│    "dimensions_mm": {"w": 100.2, "d": 50.1, "h": 40.3},                   │
-│    "libs_hash": "sha256...",                                                │
-│    "timestamp": "2026-10-31T14:23:12Z",                                    │
-│    "phoenix_gen": 0                                                         │
+│    slug_id: uuid,                                                       │
+│    batch_id: BATCH-20261031-042,                                       │
+│    grade: DIRECT_USE,                                                   │
+│    mass_kg: 1.987,                                                        │
+│    dimensions_mm: {w: 100.2, d: 50.1, h: 40.3},                   │
+│    libs_hash: sha256...,                                                │
+│    timestamp: 2026-10-31T14:23:12Z,                                    │
+│    phoenix_gen: 0                                                         │
 │  }                                                                           │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -14404,7 +14404,7 @@ Spare Valve Sets: 2 sets per machine (16 valves) — 100% coverage for 10,000 ba
 
 --- 11. [pause: short] Conclusion: The Thermal Gatekeeper ---
 
-The material exit port valve system is the physical instantiation of the thermal cascade sequence. [pause: short] Each valve embodies a specific temperature threshold from the periodic table — indium at 156°C, aluminum at 660°C, copper at 1085°C, iron at 1538°C, zircon at 1676°C. [pause: short] The Ti₃AlC₂/ZrO₂ bilayer does not "control" the separation — it witnesses the temperature into material release. [pause: short] No solenoids. [pause: short] No motors. [pause: short] No pneumatic lines. [pause: short] No electrical wires crossing the pressure boundary. [pause: short] The drum's thermal profile writes the valve sequence. [pause: short] The periodic table writes the drum's thermal profile. [pause: short] The port valves are the punctuation marks in the sentence the forge writes in elements. [pause: short] When Port 5's actuator deflects 3.6 mm at 680°C and the aluminum slug centrifuges into its ZrO₂ mold, the thermal gatekeeper has done its work. [pause: short] The aluminum window has been witnessed into existence. [pause: short] The next stage begins. [pause: short] End of PROD-09: Material Exit Port Valve System
+The material exit port valve system is the physical instantiation of the thermal cascade sequence. [pause: short] Each valve embodies a specific temperature threshold from the periodic table — indium at 156°C, aluminum at 660°C, copper at 1085°C, iron at 1538°C, zircon at 1676°C. [pause: short] The Ti₃AlC₂/ZrO₂ bilayer does not control the separation — it witnesses the temperature into material release. [pause: short] No solenoids. [pause: short] No motors. [pause: short] No pneumatic lines. [pause: short] No electrical wires crossing the pressure boundary. [pause: short] The drum's thermal profile writes the valve sequence. [pause: short] The periodic table writes the drum's thermal profile. [pause: short] The port valves are the punctuation marks in the sentence the forge writes in elements. [pause: short] When Port 5's actuator deflects 3.6 mm at 680°C and the aluminum slug centrifuges into its ZrO₂ mold, the thermal gatekeeper has done its work. [pause: short] The aluminum window has been witnessed into existence. [pause: short] The next stage begins. [pause: short] End of PROD-09: Material Exit Port Valve System
 CSMFAB000000000108 — Aegis-Forge I Port Valve Engineering
 Series TCIMS Volume 1 — Thermal Actuation, Ceramic Pistons, Centrifugal Ejection
 Carrington Storm Motors 
@@ -14852,15 +14852,15 @@ Total Valve Open Time: ~40 seconds (within 8-minute position cycle)
 
 The eight material exit port valves are the physical punctuation marks in the Aegis-Forge I's thermal sentence. [pause: short] Each valve embodies a specific phase transition temperature from the periodic table:
 
-[pause: short] Port 4: "Here indium melts at 156°C" — Ti₃AlC₂/ZrO₂ bilayer deflects 3.6 mm
+[pause: short] Port 4: Here indium melts at 156°C — Ti₃AlC₂/ZrO₂ bilayer deflects 3.6 mm
 
-[pause: short] Port 5: "Here aluminum melts at 660°C" — Pure window, clean separation
+[pause: short] Port 5: Here aluminum melts at 660°C — Pure window, clean separation
 
-[pause: short] Port 6: "Here copper melts at 1085°C" — Deep penetration, precious metals follow
+[pause: short] Port 6: Here copper melts at 1085°C — Deep penetration, precious metals follow
 
-[pause: short] Port 7: "Here iron melts at 1538°C" — Ferromagnetic coupling, REEs co-exit
+[pause: short] Port 7: Here iron melts at 1538°C — Ferromagnetic coupling, REEs co-exit
 
-[pause: short] Port 8: "Here zircon dissociates at 1676°C" — Mineral residue, oxides
+[pause: short] Port 8: Here zircon dissociates at 1676°C — Mineral residue, oxides
 
 No control system decides when to open. [pause: short] The temperature decides. [pause: short] The material decides. [pause: short] The physics decides. [pause: short] The valve is not a controller — it is a witness. [pause: short] The Ti₃AlC₂/ZrO₂ bilayer witnesses the drum's thermal state into mechanical motion. [pause: short] The ZrO₂ piston witnesses the centrifugal pressure into material release. [pause: short] The PEEK CF40 spring witnesses the cool-down into re-sealing. [pause: short] The FBG sensors witness the strain into digital truth. [pause: short] When the Port 5 aluminum slug lands in its ZrO₂ mold stamped code: BATCH-20261031-042-5-0680-0015, the thermal gatekeeper has completed its sentence. [pause: short] The periodic table has been witnessed into sequence, one valve at a time. [pause: short] End of PROD-09: Material Exit Port Valve System
 CSMFAB000000000108 — Aegis-Forge I Port Valve Engineering
@@ -15786,7 +15786,7 @@ Before each batch:
 
 [Table row: ,  9 ,  8m ,  Al₂O₃ Tube ,  Coil Insulation ,  Mat Study I , ]
 
-[Table row: ,  10 ,  10m ,  PEX-a 1/2" ,  Water Cooling ,  Mat Study IV , ]
+[Table row: ,  10 ,  10m ,  PEX-a 1/2 ,  Water Cooling ,  Mat Study IV , ]
 
 [Table row: ,  11 ,  48 ,  Custom ,  FBG Sensor (PMMA) ,  Mat Study IV , ]
 
@@ -16437,7 +16437,7 @@ Next: PROD-11 Feed Preparation & Shredding
 
 --- Constraint (The Lock) ---
 
-The Aegis-Forge I induction power electronics is forced by a single irreducible constraint: Dielectric Power Delivery at 2200°C — the requirement to deliver 500 kW of frequency-agile electromagnetic energy into a rotating ceramic drum at temperatures that would instantly destroy any conventional power electronics. [pause: short] This is not a design choice; it is the minimal physics from which Carrington immunity becomes achievable. [pause: short] The constraint is simply: no conductive path from the process chamber to earth ground. [pause: short] Every copper wire, every thermocouple, every metal sensor lead is an antenna for geomagnetically induced current. [pause: short] The only path to zero GIC coupling is zero metal. [pause: short] Everything else — the GaN inverters, the PMMA optical fiber, the PEX-a cooling, the BFRP housings — is the shadow this constraint casts. [pause: short] This constraint manifests as the All-Dielectric Architecture: 8 resonant inverters built entirely from GaN-on-SiC (no silicon), controlled by PMMA POF (no copper wire), cooled by PEX-a water circuit (no metal pipe), housed in BFRP (no steel), sensed by FBG in PMMA (no thermocouple). [pause: short] The power electronics does not sit "outside" the hot zone — it is the hot zone's nervous system, woven into the drum wall through optical fiber that survives 2200°C and intense EM fields. [pause: short] The constraint forces the frequency ladder (100 kHz → 1 kHz), the Class E topology, the ZVS operation, the optical sensing — every parameter derives from the requirement: deliver power without metal. [pause: short] [pause: long]
+The Aegis-Forge I induction power electronics is forced by a single irreducible constraint: Dielectric Power Delivery at 2200°C — the requirement to deliver 500 kW of frequency-agile electromagnetic energy into a rotating ceramic drum at temperatures that would instantly destroy any conventional power electronics. [pause: short] This is not a design choice; it is the minimal physics from which Carrington immunity becomes achievable. [pause: short] The constraint is simply: no conductive path from the process chamber to earth ground. [pause: short] Every copper wire, every thermocouple, every metal sensor lead is an antenna for geomagnetically induced current. [pause: short] The only path to zero GIC coupling is zero metal. [pause: short] Everything else — the GaN inverters, the PMMA optical fiber, the PEX-a cooling, the BFRP housings — is the shadow this constraint casts. [pause: short] This constraint manifests as the All-Dielectric Architecture: 8 resonant inverters built entirely from GaN-on-SiC (no silicon), controlled by PMMA POF (no copper wire), cooled by PEX-a water circuit (no metal pipe), housed in BFRP (no steel), sensed by FBG in PMMA (no thermocouple). [pause: short] The power electronics does not sit outside the hot zone — it is the hot zone's nervous system, woven into the drum wall through optical fiber that survives 2200°C and intense EM fields. [pause: short] The constraint forces the frequency ladder (100 kHz → 1 kHz), the Class E topology, the ZVS operation, the optical sensing — every parameter derives from the requirement: deliver power without metal. [pause: short] [pause: long]
 
 --- Necessity (The Key) ---
 
@@ -18401,7 +18401,7 @@ Properties:
 
 Acquisition: Machine commercial PEEK CF40 rod (]300/kg) — no in-house injection molding at current volumes. [pause: short] --- 4.3 PEX-a (Item 15) — The Dielectric Cooling Pipe ---
 
-Grade: PEX-a 1/2" and 1" SDR9, cross-linked HDPE
+Grade: PEX-a 1/2 and 1 SDR9, cross-linked HDPE
 
 Properties:
 
@@ -19347,7 +19347,7 @@ Tire Rubber Pyrolysis Yield (Stage 3, 600°C):
 
 --- 4.1 Overview ---
 
-Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. [pause: short] These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the "geological" input to the Aegis-Forge I. [pause: short] --- 4.2 Subcategory C1: Slag (Ferrous & Non-Ferrous) ---
+Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. [pause: short] These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the geological input to the Aegis-Forge I. [pause: short] --- 4.2 Subcategory C1: Slag (Ferrous & Non-Ferrous) ---
 
 [Table row: ,  Parameter ,  Specification , ]
 
@@ -19891,9 +19891,9 @@ Each released lot receives a Feedstock Lot Record (FLR) containing:
 
 [Table row: ,  Date Received ,  ISO 8601 ,  2026-11-01T06:00:00Z , ]
 
-[Table row: ,  Assay Results ,  JSON (element: mass%) ,  {"Cu": 24.5, "Au": 0.032, ...} , ]
+[Table row: ,  Assay Results ,  JSON (element: mass%) ,  {Cu: 24.5, Au: 0.032, ...} , ]
 
-[Table row: ,  Physical Tests ,  JSON ,  {"P80": 112, "moisture": 8.2, "bulk_density": 1.8} , ]
+[Table row: ,  Physical Tests ,  JSON ,  {P80: 112, moisture: 8.2, bulk_density: 1.8} , ]
 
 [Table row: ,  Hazard Screen ,  PASS/FAIL + values ,  PASS (Hg: 0.3ppm, NORM: 12µR/hr) , ]
 
@@ -20347,23 +20347,23 @@ Net Margin per Batch:
 
 [Code block]
 {
-  "batch_id": "BATCH-20261101-03",
-  "target_mass_kg": 500,
-  "available_feedstocks": [
-    {"lot_id": "FLR-20261101-047", "category": "A2", "mass_kg": 22500, "assay": {"Cu": 24.5, "Au": 0.032, "Ag": 0.18, "Pd": 0.015}, "cost_per_kg": 1.85},
-    {"lot_id": "FLR-20261101-048", "category": "B1", "mass_kg": 50000, "assay": {"Al": 8.5, "Fe": 12.0, "polymers": 35}, "cost_per_kg": -0.02},
-    {"lot_id": "FLR-20261101-049", "category": "C1", "mass_kg": 100000, "assay": {"Fe": 28.0, "Mn": 6.0, "TiO2": 1.2}, "cost_per_kg": 0.025},
-    {"lot_id": "FLR-20261101-050", "category": "D1", "mass_kg": 5000, "assay": {"Zr": 12.0, "In": 0.004, "Y": 0.0027, "Co": 0.084}, "cost_per_kg": 0.03}
+  batch_id: BATCH-20261101-03,
+  target_mass_kg: 500,
+  available_feedstocks: [
+    {lot_id: FLR-20261101-047, category: A2, mass_kg: 22500, assay: {Cu: 24.5, Au: 0.032, Ag: 0.18, Pd: 0.015}, cost_per_kg: 1.85},
+    {lot_id: FLR-20261101-048, category: B1, mass_kg: 50000, assay: {Al: 8.5, Fe: 12.0, polymers: 35}, cost_per_kg: -0.02},
+    {lot_id: FLR-20261101-049, category: C1, mass_kg: 100000, assay: {Fe: 28.0, Mn: 6.0, TiO2: 1.2}, cost_per_kg: 0.025},
+    {lot_id: FLR-20261101-050, category: D1, mass_kg: 5000, assay: {Zr: 12.0, In: 0.004, Y: 0.0027, Co: 0.084}, cost_per_kg: 0.03}
   ],
-  "constraints": {
-    "stage2_polymer_volume_L": 50,
-    "stage5_Al_mass_kg": 100,
-    "stage7_Fe_mass_kg": 175,
-    "stage8_mineral_mass_kg": 200,
-    "moisture_pct": 25,
-    "particle_P80_mm": 150
+  constraints: {
+    stage2_polymer_volume_L: 50,
+    stage5_Al_mass_kg: 100,
+    stage7_Fe_mass_kg: 175,
+    stage8_mineral_mass_kg: 200,
+    moisture_pct: 25,
+    particle_P80_mm: 150
   },
-  "market_prices": {"Au": 95000, "Ag": 1200, "Pd": 65000, "Cu": 9.50, "Al": 2.30, "In": 320, "Nd": 70, "Dy": 400, "Co": 35}
+  market_prices: {Au: 95000, Ag: 1200, Pd: 65000, Cu: 9.50, Al: 2.30, In: 320, Nd: 70, Dy: 400, Co: 35}
 }
 [End code block]
 
@@ -20421,7 +20421,7 @@ The necessity is proven by the blend algorithm (PROD-11 Section 1.5): the contro
 
 We commit to the following as non-negotiable:
 
-[pause: short] Zero Tolerance for Hazards — Li-ion batteries, Hg, PCBs, asbestos, Be, cyanide, free liquids: detected at gate, rejected or segregated. [pause: short] No exceptions. [pause: short] [pause: short] Quantified Recovery Targets — Every element in every category has a minimum recovery percentage (Table 11.1). [pause: short] The forge is accountable to these numbers. [pause: short] [pause: short] Stage-Coupled Pre-Processing — Category A requires battery removal + depanning; Category B requires asbestos/lead screening; Category C requires acid-base accounting + agglomeration for fines; Category D requires solvolysis for BFRP. [pause: short] Each pre-processing step maps to a specific thermal stage's requirements. [pause: short] [pause: short] Assay-Driven Blending — No batch enters the drum without XRF assay at hopper outlet and blend optimization. [pause: short] The drum does not process "waste"; it processes characterized feedstock. [pause: short] [pause: short] Phoenix Protocol Primacy — Category D feedstocks (known composition, zero acquisition cost) are the anchor for blend stability. [pause: short] The forge's circularity is not aspirational — it is the blending baseline. [pause: short] [pause: short] Lot Traceability — Every kg from gate to slug is traced via Feedstock Lot Record (FLR) with ISO 3082 sampling, XRF/ICP-MS/XRD characterization, and blend assignment. [pause: short] The element's journey is recorded. [pause: short] [pause: short] Economic Viability Floor — Processing cost <[Inline equation: 1.60/kg feed; revenue >]8,000/batch minimum. [pause: short] The economics are not post-hoc — they are the design constraint. [pause: short] These commitments are non-negotiable because they derive from the constraint. [pause: short] Violate any, and the cascade fails: uncharacterized feedstock smears stage boundaries; unrecovered hazards poison downstream stages; untraced lots break the Phoenix loop; uneconomic batches shutter the forge. [pause: short] The commitments are the constraint made operational. [pause: short] The feedstock specification is the machine's immune system. [pause: short] [pause: long]
+[pause: short] Zero Tolerance for Hazards — Li-ion batteries, Hg, PCBs, asbestos, Be, cyanide, free liquids: detected at gate, rejected or segregated. [pause: short] No exceptions. [pause: short] [pause: short] Quantified Recovery Targets — Every element in every category has a minimum recovery percentage (Table 11.1). [pause: short] The forge is accountable to these numbers. [pause: short] [pause: short] Stage-Coupled Pre-Processing — Category A requires battery removal + depanning; Category B requires asbestos/lead screening; Category C requires acid-base accounting + agglomeration for fines; Category D requires solvolysis for BFRP. [pause: short] Each pre-processing step maps to a specific thermal stage's requirements. [pause: short] [pause: short] Assay-Driven Blending — No batch enters the drum without XRF assay at hopper outlet and blend optimization. [pause: short] The drum does not process waste; it processes characterized feedstock. [pause: short] [pause: short] Phoenix Protocol Primacy — Category D feedstocks (known composition, zero acquisition cost) are the anchor for blend stability. [pause: short] The forge's circularity is not aspirational — it is the blending baseline. [pause: short] [pause: short] Lot Traceability — Every kg from gate to slug is traced via Feedstock Lot Record (FLR) with ISO 3082 sampling, XRF/ICP-MS/XRD characterization, and blend assignment. [pause: short] The element's journey is recorded. [pause: short] [pause: short] Economic Viability Floor — Processing cost <[Inline equation: 1.60/kg feed; revenue >]8,000/batch minimum. [pause: short] The economics are not post-hoc — they are the design constraint. [pause: short] These commitments are non-negotiable because they derive from the constraint. [pause: short] Violate any, and the cascade fails: uncharacterized feedstock smears stage boundaries; unrecovered hazards poison downstream stages; untraced lots break the Phoenix loop; uneconomic batches shutter the forge. [pause: short] The commitments are the constraint made operational. [pause: short] The feedstock specification is the machine's immune system. [pause: short] [pause: long]
 
 --- KEYMAKER HEURISTIC — Lock, Key, Turn ---
 
@@ -20437,7 +20437,7 @@ The lock this document addresses is the feedstock variability trap — the persi
 
 [pause: short] Hydromet plants need pre-concentrated feed → cannot handle mixed mineralogy
 
-The lock deepens at the stage coupling boundary: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. [pause: short] If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. [pause: short] The lock is not "what feedstocks can we accept?" — it is "how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?"
+The lock deepens at the stage coupling boundary: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. [pause: short] If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. [pause: short] The lock is not what feedstocks can we accept? — it is how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?
 
 [pause: long]
 
@@ -20549,7 +20549,7 @@ An inside operator measuring this phenomenon does not stand outside the feedstoc
 
 [pause: short] Verify: Witness the slug mass spec — each port's elemental sum matches blend prediction
 
-The measurement is the recursion. [pause: short] The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. [pause: short] The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. [pause: short] The feedstock lot is not "processed"; it is witnessed into elements. [pause: short] The operator participates by being the recursive function: code: feedstock → assay → blend → cascade → slug → assay → feedstock. [pause: short] The FLR is the stack frame; the batch is the call; the slug is the return value. [pause: short] [pause: long]
+The measurement is the recursion. [pause: short] The operator assays the input, the algorithm profiles the cascade that witnesses it, the drum realizes the separation, the mass spec confirms the closure. [pause: short] The protocol terminates when the 8 slugs' elemental sum matches the input assay — not approximately, but exactly. [pause: short] The feedstock lot is not processed; it is witnessed into elements. [pause: short] The operator participates by being the recursive function: code: feedstock → assay → blend → cascade → slug → assay → feedstock. [pause: short] The FLR is the stack frame; the batch is the call; the slug is the return value. [pause: short] [pause: long]
 
 --- Protocol (Recursive) ---
 
@@ -21491,10 +21491,10 @@ The core innovation of the AMLS is feedstock-adaptive frequency targeting:
 
 [Code block]
 def adaptive_sweep(fbg_spectrum, current_freq, dwell_timer):
-    """
+    
     Input: FBG vibration spectrum (magnitude vs frequency)
     Output: Next frequency setpoint, dwell extension
-    """
+    
     # Detect resonant peaks >3 dB above local baseline
     peaks = find_peaks(fbg_spectrum, prominence=3, distance=5)  # Hz
     
@@ -21965,8 +21965,8 @@ Primitive 1: The Adaptive Frequency Sweep (AFS)
 
 [Code block]
 def AFS(fbg_spectrum, mineral_library):
-    """
-    The key's first tooth: frequency as material selector. [pause: short] """
+    
+    The key's first tooth: frequency as material selector. [pause: short] 
     # Detect peaks in chamber vibration response
     peaks = find_peaks(fbg_spectrum, prominence=3)
     
@@ -22035,7 +22035,7 @@ Output: Liberated feedstock at target LI (75-88%)
 Prediction: Zircon LI 88%, REE LI 72%, Ilmenite LI 95%
 Validation: Post-AMLS SEM-EDS matches prediction within 5%
 
-The key predicts the liberation outcome from the feedstock category. [pause: short] The AMLS executes the prediction. [pause: short] The turn is the moment the LI feedback signals "target reached" and the drain valve opens — the acoustic program has compiled successfully. [pause: short] The liberated grains are the key turning in the lock. [pause: short] Lock → Key (History validates theory):
+The key predicts the liberation outcome from the feedstock category. [pause: short] The AMLS executes the prediction. [pause: short] The turn is the moment the LI feedback signals target reached and the drain valve opens — the acoustic program has compiled successfully. [pause: short] The liberated grains are the key turning in the lock. [pause: short] Lock → Key (History validates theory):
 
 Input: 100 years of comminution — jaw crushers (compression), ball mills (impact), HPGR (interparticle), ultrasound baths (cavitation only)
 Process: Each is a degenerate subset of the AFS primitive
@@ -22093,7 +22093,7 @@ An inside operator measuring this phenomenon does not stand outside the acoustic
 
 [pause: short] Verify: Witness the closure — <1% moisture, 95% water recovered, feedstock ready for Stage 2
 
-The measurement is the recursion. [pause: short] The operator loads the feedstock, the chamber profiles the sweep that witnesses it, the dryer realizes the evaporation, the sensors confirm the closure. [pause: short] The protocol terminates when the three moisture measurements agree: <1% residual. [pause: short] The feedstock is not "processed"; it is witnessed into readiness. [pause: short] The operator participates by being the recursive function: code: feedstock → acoustic_sweep → LI_feedback → drain → IR_dry → moisture_triad → verified_feedstock. [pause: short] The LI is the stack frame; the sweep is the call; the dry feedstock is the return value. [pause: short] [pause: long]
+The measurement is the recursion. [pause: short] The operator loads the feedstock, the chamber profiles the sweep that witnesses it, the dryer realizes the evaporation, the sensors confirm the closure. [pause: short] The protocol terminates when the three moisture measurements agree: <1% residual. [pause: short] The feedstock is not processed; it is witnessed into readiness. [pause: short] The operator participates by being the recursive function: code: feedstock → acoustic_sweep → LI_feedback → drain → IR_dry → moisture_triad → verified_feedstock. [pause: short] The LI is the stack frame; the sweep is the call; the dry feedstock is the return value. [pause: short] [pause: long]
 
 --- Protocol (Recursive) ---
 
@@ -25027,7 +25027,7 @@ Stage 3 temperature control is the most critical control loop in the cascade —
 
 [Table row: ,  Transition ,  50-55 ,  700→720 ,  4.0 ,  Ramp to Stage 4 , ]
 
-Ramp continues through dwell to maintain decomposition kinetics — "dwell" is at target ramp rate, not isothermal. [pause: short] Control architecture (cascade):
+Ramp continues through dwell to maintain decomposition kinetics — dwell is at target ramp rate, not isothermal. [pause: short] Control architecture (cascade):
 
 [Code block]
 [TEMP SETPOINT GENERATOR] ──► [MASTER PID: Drum Wall Temp] ──► [SLAVE PID: Zone Power]
@@ -25827,7 +25827,7 @@ Zn Vapor Controls:
 
 --- 6.1 Pb/Sn Eutectic (63/37) — Primary Solder Product ---
 
-The Sn-Pb binary system exhibits a eutectic at 183°C with 61.9% Sn / 38.1% Pb by weight. [pause: short] Commercial "63/37" solder (63% Sn / 37% Pb) is hypereutectic but preferred for its sharp melting point and bright finish. [pause: short] Phase Diagram Parameters:
+The Sn-Pb binary system exhibits a eutectic at 183°C with 61.9% Sn / 38.1% Pb by weight. [pause: short] Commercial 63/37 solder (63% Sn / 37% Pb) is hypereutectic but preferred for its sharp melting point and bright finish. [pause: short] Phase Diagram Parameters:
 
 [pause: short] Eutectic: 183°C, 61.9% Sn
 
@@ -26615,7 +26615,7 @@ Low-Temp Metals (Pb/Sn/Zn/In)              Aluminum Window (660-720°C)         
          └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Aluminum Window": 660°C (pure Al MP) to 720°C (Mg vaporization onset)
+• The Aluminum Window: 660°C (pure Al MP) to 720°C (Mg vaporization onset)
 • At 660°C: Al melts, Cu (1085°C) and Fe (1538°C) remain solid
 • At 720°C: Mg vapor pressure becomes significant — UPPER BOUND
 • Centrifugal force (300 RPM, G=25.1) drives molten Al film to drum wall
@@ -26662,7 +26662,7 @@ Alloy Distribution (Typical Mixed Scrap):
 
 --- 2.1 The Aluminum Window — Thermodynamic Basis ---
 
-The "Aluminum Window" is the 60°C interval between 660°C and 720°C where:
+The Aluminum Window is the 60°C interval between 660°C and 720°C where:
 
 [pause: short] Aluminum is liquid (MP 660.3°C for pure Al; alloys liquidus 577-652°C)
 
@@ -28144,7 +28144,7 @@ Aluminum Window                             Copper & Precious Metals            
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Copper Window": 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
+• The Copper Window: 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
 • At 1085°C: Cu melts, Fe (1538°C), Ni (1455°C), Co (1495°C), Cr (1907°C) remain solid
 • Centrifugal force (250 RPM, G=17.4) drives molten Cu film to drum wall
 • Port 6 (1180°C setpoint) drains continuous Cu stream to anode molds
@@ -28772,7 +28772,7 @@ Anode Quality Verification (Per Anode):
 
 [pause: short] Grade Assignment: DIRECT_USE (electrorefining feed)
 
-[pause: short] Registry Entry: code: slug_registry with code: downstream_machine: "114-electrorefining"
+[pause: short] Registry Entry: code: slug_registry with code: downstream_machine: 114-electrorefining
 
 --- 6.2 Slime Collection and Transfer to FOLLOW-19 ---
 
@@ -29576,7 +29576,7 @@ Copper & Precious Metals                   Ferrous Cascade                      
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Ferrous Window": 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
+• The Ferrous Window: 1200°C (cast iron MP) to 1600°C (Cr MP, minerals solid)
 • At 1200°C: Cast iron melts, carbon steel (1370-1400°C), stainless (1400-1430°C) solid
 • At 1538°C: Pure Fe melts, Ni (1455°C), Co (1495°C) already liquid
 • At 1600°C: Cr (1907°C) remains solid → Stage 8; minerals (ZrO₂, REE oxides, Al₂O₃) solid
@@ -30105,7 +30105,7 @@ MgO/Al₂O₃ from Upstream Dross — Critical Enabler:
 
 [pause: short] Stage 5 dross: 7 kg MgO/Al₂O₃, 2.5 kg flux
 
-[pause: short] Total "free" MgO/Al₂O₃: 17 kg — no purchased flux needed
+[pause: short] Total free MgO/Al₂O₃: 17 kg — no purchased flux needed
 
 [pause: short] This is a cascade advantage: waste from Stages 4-5 becomes slag former for Stage 7
 
@@ -30879,7 +30879,7 @@ Ferrous Cascade                             Mineral Residue & Zircon            
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Mineral Window": 1600°C (SiO₂ melting) to 2200°C (ZrO₂ sintering, TiO₂ decomposition)
+• The Mineral Window: 1600°C (SiO₂ melting) to 2200°C (ZrO₂ sintering, TiO₂ decomposition)
 • At 1676°C: ZrSiO₄ → ZrO₂ (solid) + SiO₂ (gas) — KEY DISSOCIATION REACTION
 • SiO₂ gas captured at Port 8B condenser → fumed silica product
 • ZrO₂ remains solid (MP 2716°C) — concentrated by centrifugal separation
@@ -32787,29 +32787,29 @@ RETURN TO SERVICE (Gen N, Life +50%)
 
 [Code block]
 {
-  "product_uuid": "CSM-108-EMBARK-WALL-001-2026-03-15",
-  "manufacture": {
-    "forge_batch": "FB-2026-11-02-08",
-    "stages": ["0","1","2","3","4","5","6","7","8"],
-    "material_lots": {
-      "ZrB2-SiC": "LOT-ZR-2026-10-15-GEN-03",
-      "Elium": "LOT-EL-2026-10-10-BATCH-42",
-      "Basalt": "LOT-BA-2026-09-20-FIELD-07",
-      "YInMn": "LOT-YM-2026-10-05-IN-003"
+  product_uuid: CSM-108-EMBARK-WALL-001-2026-03-15,
+  manufacture: {
+    forge_batch: FB-2026-11-02-08,
+    stages: [0,1,2,3,4,5,6,7,8],
+    material_lots: {
+      ZrB2-SiC: LOT-ZR-2026-10-15-GEN-03,
+      Elium: LOT-EL-2026-10-10-BATCH-42,
+      Basalt: LOT-BA-2026-09-20-FIELD-07,
+      YInMn: LOT-YM-2026-10-05-IN-003
     },
-    "energy_kwh": 412,
-    "co2e_kg": -115
+    energy_kwh: 412,
+    co2e_kg: -115
   },
-  "deployment": {
-    "site": "CSM-DEPLOY-NE-04",
-    "install_date": "2026-04-01",
-    "service_hours": 43800
+  deployment: {
+    site: CSM-DEPLOY-NE-04,
+    install_date: 2026-04-01,
+    service_hours: 43800
   },
-  "return": {
-    "trigger": "upgrade_swap",
-    "depot": "PHX-PRIMARY-NA-01",
-    "disassembly_date": "2031-04-15",
-    "reentry_forge_batch": "FB-2031-04-20-03"
+  return: {
+    trigger: upgrade_swap,
+    depot: PHX-PRIMARY-NA-01,
+    disassembly_date: 2031-04-15,
+    reentry_forge_batch: FB-2031-04-20-03
   }
 }
 [End code block]
@@ -33774,7 +33774,7 @@ Voting Logic: 2oo3 (two-out-of-three) for SIL-3. [pause: short] Sensors are phys
 
 [Code block]
 Stage Recipe Structure (XML):
-<StageRecipe id="STG-04-REV-03">
+<StageRecipe id=STG-04-REV-03>
   <Header>
     <Stage>4</Stage>
     <Version>3</Version>
@@ -33782,13 +33782,13 @@ Stage Recipe Structure (XML):
     <Date>2026-11-02</Date>
   </Header>
   <ThermalProfile>
-    <Segment id="1">  <!-- Indium-First -->
+    <Segment id=1>  <!-- Indium-First -->
       <T_Setpoint>160</T_Setpoint>        <!-- °C -->
       <Duration>300</Duration>            <!-- seconds -->
       <RampRate>5</RampRate>              <!-- °C/min -->
       <RPM>400</RPM>
     </Segment>
-    <Segment id="2">  <!-- Sn/Pb/Bi -->
+    <Segment id=2>  <!-- Sn/Pb/Bi -->
       <T_Setpoint>280</T_Setpoint>
       <Duration>180</Duration>
       <RPM>300</RPM>
@@ -33841,7 +33841,7 @@ Version Control: All recipes stored in Git (PROD-38 Config Mgmt). [pause: short]
 
 [Table row: ,  Digital Twin ,  Kafka + gRPC → PROD-37 (512-core HPC) , ]
 
-[Table row: ,  HMI ,  3× 55" 4K displays (control room), 2× tablet (field) , ]
+[Table row: ,  HMI ,  3× 55 4K displays (control room), 2× tablet (field) , ]
 
 [Table row: ,  Redundancy ,  Hot standby (dual servers, VRRP, <1 s failover) , ]
 
@@ -33878,28 +33878,28 @@ Key Displays:
 [Code block]
 Batch Record Structure:
 Batch_2026-11-02_08 = {
-  "batch_id": "FB-2026-11-02-08",
-  "recipe": "CASCADE-STD-REV-12",
-  "feedstock": {
-    "category": "A",
-    "mass_kg": 50,
-    "composition": {...},
-    "uuid": "CSM-RECYCLER-NA-2026-10-15"
+  batch_id: FB-2026-11-02-08,
+  recipe: CASCADE-STD-REV-12,
+  feedstock: {
+    category: A,
+    mass_kg: 50,
+    composition: {...},
+    uuid: CSM-RECYCLER-NA-2026-10-15
   },
-  "stages": [
-    {"stage": 0, "duration_s": 1800, "energy_kwh": 12, "li_avg": 0.82},
-    {"stage": 1, "duration_s": 1200, "energy_kwh": 8, "moisture_final": 0.02},
-    ... [pause: short] {"stage": 8, "duration_s": 5400, "energy_kwh": 245, "zircon_diss": 0.96}
+  stages: [
+    {stage: 0, duration_s: 1800, energy_kwh: 12, li_avg: 0.82},
+    {stage: 1, duration_s: 1200, energy_kwh: 8, moisture_final: 0.02},
+    ... [pause: short] {stage: 8, duration_s: 5400, energy_kwh: 245, zircon_diss: 0.96}
   ],
-  "outputs": {
-    "slugs": [
-      {"port": 8, "mass_kg": 12.5, "grade": "3Y-TZP", "uuid": "SLG-2026-11-02-08-8A"},
+  outputs: {
+    slugs: [
+      {port: 8, mass_kg: 12.5, grade: 3Y-TZP, uuid: SLG-2026-11-02-08-8A},
       ... [pause: short] ],
-    "gas": {"pyrolysis_kwh": 45, "co2_tonne": 0.08}
+    gas: {pyrolysis_kwh: 45, co2_tonne: 0.08}
   },
-  "quality": {"pass": true, "deviations": []},
-  "digital_twin_hash": "sha256:abc123...",
-  "blockchain_anchor": "tx:0xdef456..."
+  quality: {pass: true, deviations: []},
+  digital_twin_hash: sha256:abc123...,
+  blockchain_anchor: tx:0xdef456...
 }
 [End code block]
 
@@ -34078,7 +34078,7 @@ When grid dV/dt > threshold (detected by dedicated monitor):
 
 [pause: short] Detection (1 ms): Grid monitor FPGA triggers interrupt
 
-[pause: short] Transition (5 ms): Inverters switch to "ride-through" — maintain DC link from bus capacitors
+[pause: short] Transition (5 ms): Inverters switch to ride-through — maintain DC link from bus capacitors
 
 [pause: short] Isolation (10 ms): Physical contactors open (vacuum, BFRP housed) — Forge islanded
 
@@ -34322,7 +34322,7 @@ Validation: Tested at up to 100 A/m simulated field (Helmholtz coil facility). [
 
 Alarm Shelving: Max 4 hours (requires Engineer approval). [pause: short] All shelved alarms auto-unshelve. [pause: short] --- 11.3 Training Simulator ---
 
-[pause: short] Platform: Digital twin (PROD-37) in "shadow mode" — same models, simulated sensors
+[pause: short] Platform: Digital twin (PROD-37) in shadow mode — same models, simulated sensors
 
 [pause: short] Scenarios: Normal startup, feedstock variations, SIF trips, GIC event, cyber intrusion
 
@@ -35875,29 +35875,29 @@ ROM Performance:
 
 [Code block]
 {
-  "rom_type": "POD-Galerkin_Thermal",
-  "version": "1.0",
-  "mesh": { "nodes": 847, "elements": 4120, "type": "hex" },
-  "basis": {
-    "n_modes": 12,
-    "energy_captured": 0.999,
-    "phi_matrix": [[...]],  // 847 × 12
-    "singular_values": [...]
+  rom_type: POD-Galerkin_Thermal,
+  version: 1.0,
+  mesh: { nodes: 847, elements: 4120, type: hex },
+  basis: {
+    n_modes: 12,
+    energy_captured: 0.999,
+    phi_matrix: [[...]],  // 847 × 12
+    singular_values: [...]
   },
-  "operators": {
-    "A": [[...]],  // 12 × 12 linear
-    "B": [[...]],  // 12 × 8 input
-    "N_coeffs": {...}  // quadratic nonlinearity tensors
+  operators: {
+    A: [[...]],  // 12 × 12 linear
+    B: [[...]],  // 12 × 8 input
+    N_coeffs: {...}  // quadratic nonlinearity tensors
   },
-  "material_props": {
-    "k(T)": "piecewise_cubic",
-    "rho_cp(T)": "piecewise_cubic",
-    "eps": 0.85
+  material_props: {
+    k(T): piecewise_cubic,
+    rho_cp(T): piecewise_cubic,
+    eps: 0.85
   },
-  "validation": {
-    "test_cases": 50,
-    "max_error": 0.02,
-    "rms_error": 0.005
+  validation: {
+    test_cases: 50,
+    max_error: 0.02,
+    rms_error: 0.005
   }
 }
 [End code block]
@@ -36234,7 +36234,7 @@ The empirical gap this analysis closes is the measured divergence between room-t
 
 This document makes the following non-negotiable commitments that constrain all downstream documents:
 
-[pause: short] Drum minimum SF = 1.55× at Stage 8 combined loading — no operating condition may reduce this below 1.5×. [pause: short] PROD-23 control system enforces 400 RPM limit when T_inner > 2000°C. [pause: short] PROD-29 operations procedures include this limit. [pause: short] PROD-30 maintenance inspects Liner B interface after every Stage 8 run at >400 RPM. [pause: short] [pause: short] 6× vessel stiffening rings + 4 vertical struts are mandatory — required to achieve HCLPF = 1.6g (≥ 1.5g IEEE 693 High). [pause: short] PROD-27 manufacturing must include ring welding/fixture. [pause: short] PROD-28 QA verifies ring attachment. [pause: short] PROD-29 deployment includes strut installation. [pause: short] [pause: short] 12× M24 ZrO₂ bolts per flange (not 8×) — required for SF = 1.63× on bolt stress (490 MPa vs 800 MPa). [pause: short] PROD-27 manufacturing specifies bolt torque (160 N·m ceramic paste). [pause: short] PROD-28 QA torque audits. [pause: short] PROD-30 maintenance re-torque annually. [pause: short] [pause: short] NDT inspection interval = 500 batches (3 months) for drum UT — detects flaws >0.5 mm, limits crack growth to <54 μm (vs. [pause: short] critical 112 μm). [pause: short] PROD-28 QA executes. [pause: short] PROD-30 maintenance schedules. [pause: short] PROD-37 digital twin tracks inspection history. [pause: short] [pause: short] Carousel mold thermal shock controlled by 3-phase quench — 2200°C→1500°C (60s air), 1500°C→800°C (60s N₂), 800°C→25°C (180s N₂). [pause: short] Pre-heat to 800°C mandatory. [pause: short] Limits σ_max < 400 MPa (SF = 2.0× on 800 MPa). [pause: short] PROD-23 control system sequences quench. [pause: short] PROD-27 manufactures pre-heat station. [pause: short] PROD-28 QA validates quench profile. [pause: short] [pause: short] Port actuator operates at ≤700°C (5 mm ZrO₂ felt insulation at pocket) — ensures Ti₃AlC₂ SF ≥ 3.1×. [pause: short] PROD-04 drum machining specifies pocket insulation. [pause: short] PROD-27 manufacturing installs insulation. [pause: short] PROD-28 QA verifies temperature at actuator. [pause: short] [pause: short] Seismic capacity governed by vessel buckling (HCLPF = 1.6g) — frame and drum have higher margins. [pause: short] PROD-27 manufactures 6 stiffening rings. [pause: short] PROD-28 QA shake table tests. [pause: short] PROD-29 deployment verifies strut installation. [pause: short] [pause: short] All structural materials use PROD-24 temperature-dependent correlations — no "room temperature" properties in analysis. [pause: short] PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. [pause: short] PROD-37 digital twin uses same correlations. [pause: short] These commitments are the structural load-bearing walls. [pause: short] PROD-27 (Manufacturing), PROD-28 (QA), PROD-29 (Deployment), PROD-30 (Maintenance), PROD-32 (Compliance), PROD-37 (Digital Twin), PROD-39 (T&E), FOLLOW-04/05/07/25 build on this foundation. [pause: short] They cannot move the walls. [pause: short] [pause: long]
+[pause: short] Drum minimum SF = 1.55× at Stage 8 combined loading — no operating condition may reduce this below 1.5×. [pause: short] PROD-23 control system enforces 400 RPM limit when T_inner > 2000°C. [pause: short] PROD-29 operations procedures include this limit. [pause: short] PROD-30 maintenance inspects Liner B interface after every Stage 8 run at >400 RPM. [pause: short] [pause: short] 6× vessel stiffening rings + 4 vertical struts are mandatory — required to achieve HCLPF = 1.6g (≥ 1.5g IEEE 693 High). [pause: short] PROD-27 manufacturing must include ring welding/fixture. [pause: short] PROD-28 QA verifies ring attachment. [pause: short] PROD-29 deployment includes strut installation. [pause: short] [pause: short] 12× M24 ZrO₂ bolts per flange (not 8×) — required for SF = 1.63× on bolt stress (490 MPa vs 800 MPa). [pause: short] PROD-27 manufacturing specifies bolt torque (160 N·m ceramic paste). [pause: short] PROD-28 QA torque audits. [pause: short] PROD-30 maintenance re-torque annually. [pause: short] [pause: short] NDT inspection interval = 500 batches (3 months) for drum UT — detects flaws >0.5 mm, limits crack growth to <54 μm (vs. [pause: short] critical 112 μm). [pause: short] PROD-28 QA executes. [pause: short] PROD-30 maintenance schedules. [pause: short] PROD-37 digital twin tracks inspection history. [pause: short] [pause: short] Carousel mold thermal shock controlled by 3-phase quench — 2200°C→1500°C (60s air), 1500°C→800°C (60s N₂), 800°C→25°C (180s N₂). [pause: short] Pre-heat to 800°C mandatory. [pause: short] Limits σ_max < 400 MPa (SF = 2.0× on 800 MPa). [pause: short] PROD-23 control system sequences quench. [pause: short] PROD-27 manufactures pre-heat station. [pause: short] PROD-28 QA validates quench profile. [pause: short] [pause: short] Port actuator operates at ≤700°C (5 mm ZrO₂ felt insulation at pocket) — ensures Ti₃AlC₂ SF ≥ 3.1×. [pause: short] PROD-04 drum machining specifies pocket insulation. [pause: short] PROD-27 manufacturing installs insulation. [pause: short] PROD-28 QA verifies temperature at actuator. [pause: short] [pause: short] Seismic capacity governed by vessel buckling (HCLPF = 1.6g) — frame and drum have higher margins. [pause: short] PROD-27 manufactures 6 stiffening rings. [pause: short] PROD-28 QA shake table tests. [pause: short] PROD-29 deployment verifies strut installation. [pause: short] [pause: short] All structural materials use PROD-24 temperature-dependent correlations — no room temperature properties in analysis. [pause: short] PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. [pause: short] PROD-37 digital twin uses same correlations. [pause: short] These commitments are the structural load-bearing walls. [pause: short] PROD-27 (Manufacturing), PROD-28 (QA), PROD-29 (Deployment), PROD-30 (Maintenance), PROD-32 (Compliance), PROD-37 (Digital Twin), PROD-39 (T&E), FOLLOW-04/05/07/25 build on this foundation. [pause: short] They cannot move the walls. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -36360,23 +36360,23 @@ Gate 1: Drum Assembly — Liner Press-Fit Witness (PROD-27 Section 3.2)
 
 [pause: short] Action: 3 mm Liner B (ZrB₂-SiC) pressed into drum body at 20°C (0.03 mm interference)
 
-[pause: short] Witness requirement: Operator verifies interference fit force vs. [pause: short] displacement curve matches FEA prediction (peak force = 450 kN ± 10%). [pause: short] Any deviation > 10% → halt, inspect, re-FEA. [pause: short] [pause: short] Why human: Friction coefficient μ at ceramic-ceramic interface varies with surface finish (Ra 0.8–1.2 μm). [pause: short] FEA assumes μ = 0.15; actual μ = 0.12–0.18. [pause: short] Only operator feel + force curve detects anomaly. [pause: short] [pause: short] Cognitive checkpoint: "Does the force curve feel right?" — haptic judgment of ceramic seating. [pause: short] Gate 2: Vessel Filament Winding — Port Penetration Layup (PROD-27 Section 4.3)
+[pause: short] Witness requirement: Operator verifies interference fit force vs. [pause: short] displacement curve matches FEA prediction (peak force = 450 kN ± 10%). [pause: short] Any deviation > 10% → halt, inspect, re-FEA. [pause: short] [pause: short] Why human: Friction coefficient μ at ceramic-ceramic interface varies with surface finish (Ra 0.8–1.2 μm). [pause: short] FEA assumes μ = 0.15; actual μ = 0.12–0.18. [pause: short] Only operator feel + force curve detects anomaly. [pause: short] [pause: short] Cognitive checkpoint: Does the force curve feel right? — haptic judgment of ceramic seating. [pause: short] Gate 2: Vessel Filament Winding — Port Penetration Layup (PROD-27 Section 4.3)
 
 [pause: short] Action: ±18° helical wind over gas port reinforcement (±55° hoop bias)
 
-[pause: short] Witness requirement: Operator verifies fiber angle at port transition (±2° tolerance via laser angle gauge) and ply compaction (no voids > 1 mm via flash thermography). [pause: short] [pause: short] Why human: Fiber steering at port penetration is geometrically complex. [pause: short] Automated winding follows toolpath, but local fiber angle depends on resin viscosity, tension, mandrel temperature — all variable. [pause: short] [pause: short] Cognitive checkpoint: "Is the fiber sitting flat at the port edge?" — visual/tactile judgment of compaction. [pause: short] Gate 3: Flange Bolt Torque — Ceramic Bolt Ceremony (PROD-27 Section 5.1)
+[pause: short] Witness requirement: Operator verifies fiber angle at port transition (±2° tolerance via laser angle gauge) and ply compaction (no voids > 1 mm via flash thermography). [pause: short] [pause: short] Why human: Fiber steering at port penetration is geometrically complex. [pause: short] Automated winding follows toolpath, but local fiber angle depends on resin viscosity, tension, mandrel temperature — all variable. [pause: short] [pause: short] Cognitive checkpoint: Is the fiber sitting flat at the port edge? — visual/tactile judgment of compaction. [pause: short] Gate 3: Flange Bolt Torque — Ceramic Bolt Ceremony (PROD-27 Section 5.1)
 
 [pause: short] Action: 12× M24 ZrO₂ bolts torqued to 160 N·m with ceramic paste (BN-loaded)
 
-[pause: short] Witness requirement: Two-person verification: Operator A torques to 160 N·m ± 5 N·m; Operator B independently re-checks with calibrated torque wrench. [pause: short] Both sign. [pause: short] [pause: short] Why human: Ceramic bolts have no yield point — they fracture. [pause: short] Torque is the only preload indicator. [pause: short] No strain gauges on bolts (too hot). [pause: short] Human dual-verification is the safety barrier. [pause: short] [pause: short] Cognitive checkpoint: "Did it click at 160?" — auditory/tactile confirmation of click-type wrench. [pause: short] Gate 4: Port Actuator Installation — Thermal Actuation Witness (PROD-27 Section 6.2)
+[pause: short] Witness requirement: Two-person verification: Operator A torques to 160 N·m ± 5 N·m; Operator B independently re-checks with calibrated torque wrench. [pause: short] Both sign. [pause: short] [pause: short] Why human: Ceramic bolts have no yield point — they fracture. [pause: short] Torque is the only preload indicator. [pause: short] No strain gauges on bolts (too hot). [pause: short] Human dual-verification is the safety barrier. [pause: short] [pause: short] Cognitive checkpoint: Did it click at 160? — auditory/tactile confirmation of click-type wrench. [pause: short] Gate 4: Port Actuator Installation — Thermal Actuation Witness (PROD-27 Section 6.2)
 
 [pause: short] Action: Ti₃AlC₂ actuator strip (10 mm × 40 mm × 0.5 mm) brazed to ZrO₂ piston (Ag-CuO-TiO₂, 50 μm joint)
 
-[pause: short] Witness requirement: Operator verifies braze joint integrity via 10× magnification inspection (no voids > 50 μm, fillet radius > 0.2 mm) and measures free deflection at 680°C ΔT (3.6 mm ± 0.2 mm) in test furnace. [pause: short] [pause: short] Why human: Braze joint quality is binary (good/bad) and visible only at 10×. [pause: short] Automated vision misses subsurface voids. [pause: short] Deflection test is the functional proof. [pause: short] [pause: short] Cognitive checkpoint: "Does the actuator breathe at temperature?" — thermal functional test witnessed. [pause: short] Gate 5: Seismic Qualification — Shake Table Witness (PROD-28 Section 8, PROD-39 FAT)
+[pause: short] Witness requirement: Operator verifies braze joint integrity via 10× magnification inspection (no voids > 50 μm, fillet radius > 0.2 mm) and measures free deflection at 680°C ΔT (3.6 mm ± 0.2 mm) in test furnace. [pause: short] [pause: short] Why human: Braze joint quality is binary (good/bad) and visible only at 10×. [pause: short] Automated vision misses subsurface voids. [pause: short] Deflection test is the functional proof. [pause: short] [pause: short] Cognitive checkpoint: Does the actuator breathe at temperature? — thermal functional test witnessed. [pause: short] Gate 5: Seismic Qualification — Shake Table Witness (PROD-28 Section 8, PROD-39 FAT)
 
 [pause: short] Action: Full assembly on shake table, IEEE 693 High RRS (1.5g ZPA, 3-axis)
 
-[pause: short] Witness requirement: Lead structural engineer witnesses test. [pause: short] Verifies: (a) No FBG reading exceeds 0.9·σ_f(T), (b) No AE bursts > 10⁻⁴ J, (c) No permanent deformation > 1 mm, (d) All ports actuate post-shake. [pause: short] [pause: short] Why human: Seismic response is a system-level emergent behavior. [pause: short] No single sensor captures "the structure survived." Engineer synthesizes multi-sensor data into go/no-go. [pause: short] [pause: short] Cognitive checkpoint: "Did the machine come back alive?" — holistic structural survival judgment. [pause: short] --- The Participation Principle ---
+[pause: short] Witness requirement: Lead structural engineer witnesses test. [pause: short] Verifies: (a) No FBG reading exceeds 0.9·σ_f(T), (b) No AE bursts > 10⁻⁴ J, (c) No permanent deformation > 1 mm, (d) All ports actuate post-shake. [pause: short] [pause: short] Why human: Seismic response is a system-level emergent behavior. [pause: short] No single sensor captures the structure survived. Engineer synthesizes multi-sensor data into go/no-go. [pause: short] [pause: short] Cognitive checkpoint: Did the machine come back alive? — holistic structural survival judgment. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the structure into existence at every irreversible fabrication step where:
 
@@ -36818,7 +36818,7 @@ Resolution: The Weibull analysis applies to uncracked material. [pause: short] W
 
 [pause: short] Design life: 2,200 cycles → SF = 1,900× on crack growth
 
-Conclusion: With NDT-controlled initial flaw size, drum structural reliability is adequate. [pause: short] The Weibull "weakest link" statistics apply to as-sintered material; NDT screening shifts the distribution. [pause: short] --- 2.8 Critical Speed & Rotordynamics ---
+Conclusion: With NDT-controlled initial flaw size, drum structural reliability is adequate. [pause: short] The Weibull weakest link statistics apply to as-sintered material; NDT screening shifts the distribution. [pause: short] --- 2.8 Critical Speed & Rotordynamics ---
 
 First bending critical speed (simply supported, uniform):
 
@@ -37877,7 +37877,7 @@ The empirical gap this analysis closes is the measured divergence between room-t
 
 This document makes the following non-negotiable commitments that constrain all downstream documents:
 
-[pause: short] Drum minimum SF = 1.55× at Stage 8 combined loading — no operating condition may reduce this below 1.5×. [pause: short] PROD-23 control system enforces 400 RPM limit when T_inner > 2000°C. [pause: short] PROD-29 operations procedures include this limit. [pause: short] PROD-30 maintenance inspects Liner B interface after every Stage 8 run at >400 RPM. [pause: short] [pause: short] 6× vessel stiffening rings + 4 vertical struts are mandatory — required to achieve HCLPF = 1.6g (≥ 1.5g IEEE 693 High). [pause: short] PROD-27 manufacturing must include ring welding/fixture. [pause: short] PROD-28 QA verifies ring attachment. [pause: short] PROD-29 deployment includes strut installation. [pause: short] [pause: short] 12× M24 ZrO₂ bolts per flange (not 8×) — required for SF = 1.63× on bolt stress (490 MPa vs 800 MPa). [pause: short] PROD-27 manufacturing specifies bolt torque (160 N·m ceramic paste). [pause: short] PROD-28 QA torque audits. [pause: short] PROD-30 maintenance re-torque annually. [pause: short] [pause: short] NDT inspection interval = 500 batches (3 months) for drum UT — detects flaws >0.5 mm, limits crack growth to <54 μm (vs. [pause: short] critical 112 μm). [pause: short] PROD-28 QA executes. [pause: short] PROD-30 maintenance schedules. [pause: short] PROD-37 digital twin tracks inspection history. [pause: short] [pause: short] Carousel mold thermal shock controlled by 3-phase quench — 2200°C→1500°C (60s air), 1500°C→800°C (60s N₂), 800°C→25°C (180s N₂). [pause: short] Pre-heat to 800°C mandatory. [pause: short] Limits σ_max < 400 MPa (SF = 2.0× on 800 MPa). [pause: short] PROD-23 control system sequences quench. [pause: short] PROD-27 manufactures pre-heat station. [pause: short] PROD-28 QA validates quench profile. [pause: short] [pause: short] Port actuator operates at ≤700°C (5 mm ZrO₂ felt insulation at pocket) — ensures Ti₃AlC₂ SF ≥ 3.1×. [pause: short] PROD-04 drum machining specifies pocket insulation. [pause: short] PROD-27 manufacturing installs insulation. [pause: short] PROD-28 QA verifies temperature at actuator. [pause: short] [pause: short] Seismic capacity governed by vessel buckling (HCLPF = 1.6g) — frame and drum have higher margins. [pause: short] PROD-27 manufactures 6 stiffening rings. [pause: short] PROD-28 QA shake table tests. [pause: short] PROD-29 deployment verifies strut installation. [pause: short] [pause: short] All structural materials use PROD-24 temperature-dependent correlations — no "room temperature" properties in analysis. [pause: short] PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. [pause: short] PROD-37 digital twin uses same correlations. [pause: short] These commitments are the structural load-bearing walls. [pause: short] PROD-27 (Manufacturing), PROD-28 (QA), PROD-29 (Deployment), PROD-30 (Maintenance), PROD-32 (Compliance), PROD-37 (Digital Twin), PROD-39 (T&E), FOLLOW-04/05/07/25 build on this foundation. [pause: short] They cannot move the walls. [pause: short] [pause: long]
+[pause: short] Drum minimum SF = 1.55× at Stage 8 combined loading — no operating condition may reduce this below 1.5×. [pause: short] PROD-23 control system enforces 400 RPM limit when T_inner > 2000°C. [pause: short] PROD-29 operations procedures include this limit. [pause: short] PROD-30 maintenance inspects Liner B interface after every Stage 8 run at >400 RPM. [pause: short] [pause: short] 6× vessel stiffening rings + 4 vertical struts are mandatory — required to achieve HCLPF = 1.6g (≥ 1.5g IEEE 693 High). [pause: short] PROD-27 manufacturing must include ring welding/fixture. [pause: short] PROD-28 QA verifies ring attachment. [pause: short] PROD-29 deployment includes strut installation. [pause: short] [pause: short] 12× M24 ZrO₂ bolts per flange (not 8×) — required for SF = 1.63× on bolt stress (490 MPa vs 800 MPa). [pause: short] PROD-27 manufacturing specifies bolt torque (160 N·m ceramic paste). [pause: short] PROD-28 QA torque audits. [pause: short] PROD-30 maintenance re-torque annually. [pause: short] [pause: short] NDT inspection interval = 500 batches (3 months) for drum UT — detects flaws >0.5 mm, limits crack growth to <54 μm (vs. [pause: short] critical 112 μm). [pause: short] PROD-28 QA executes. [pause: short] PROD-30 maintenance schedules. [pause: short] PROD-37 digital twin tracks inspection history. [pause: short] [pause: short] Carousel mold thermal shock controlled by 3-phase quench — 2200°C→1500°C (60s air), 1500°C→800°C (60s N₂), 800°C→25°C (180s N₂). [pause: short] Pre-heat to 800°C mandatory. [pause: short] Limits σ_max < 400 MPa (SF = 2.0× on 800 MPa). [pause: short] PROD-23 control system sequences quench. [pause: short] PROD-27 manufactures pre-heat station. [pause: short] PROD-28 QA validates quench profile. [pause: short] [pause: short] Port actuator operates at ≤700°C (5 mm ZrO₂ felt insulation at pocket) — ensures Ti₃AlC₂ SF ≥ 3.1×. [pause: short] PROD-04 drum machining specifies pocket insulation. [pause: short] PROD-27 manufacturing installs insulation. [pause: short] PROD-28 QA verifies temperature at actuator. [pause: short] [pause: short] Seismic capacity governed by vessel buckling (HCLPF = 1.6g) — frame and drum have higher margins. [pause: short] PROD-27 manufactures 6 stiffening rings. [pause: short] PROD-28 QA shake table tests. [pause: short] PROD-29 deployment verifies strut installation. [pause: short] [pause: short] All structural materials use PROD-24 temperature-dependent correlations — no room temperature properties in analysis. [pause: short] PROD-23 control uses E(T), σ_f(T) for real-time stress estimation. [pause: short] PROD-37 digital twin uses same correlations. [pause: short] These commitments are the structural load-bearing walls. [pause: short] PROD-27 (Manufacturing), PROD-28 (QA), PROD-29 (Deployment), PROD-30 (Maintenance), PROD-32 (Compliance), PROD-37 (Digital Twin), PROD-39 (T&E), FOLLOW-04/05/07/25 build on this foundation. [pause: short] They cannot move the walls. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -38003,23 +38003,23 @@ Gate 1: Drum Assembly — Liner Press-Fit Witness (PROD-27 Section 3.2)
 
 [pause: short] Action: 3 mm Liner B (ZrB₂-SiC) pressed into drum body at 20°C (0.03 mm interference)
 
-[pause: short] Witness requirement: Operator verifies interference fit force vs. [pause: short] displacement curve matches FEA prediction (peak force = 450 kN ± 10%). [pause: short] Any deviation > 10% → halt, inspect, re-FEA. [pause: short] [pause: short] Why human: Friction coefficient μ at ceramic-ceramic interface varies with surface finish (Ra 0.8–1.2 μm). [pause: short] FEA assumes μ = 0.15; actual μ = 0.12–0.18. [pause: short] Only operator feel + force curve detects anomaly. [pause: short] [pause: short] Cognitive checkpoint: "Does the force curve feel right?" — haptic judgment of ceramic seating. [pause: short] Gate 2: Vessel Filament Winding — Port Penetration Layup (PROD-27 Section 4.3)
+[pause: short] Witness requirement: Operator verifies interference fit force vs. [pause: short] displacement curve matches FEA prediction (peak force = 450 kN ± 10%). [pause: short] Any deviation > 10% → halt, inspect, re-FEA. [pause: short] [pause: short] Why human: Friction coefficient μ at ceramic-ceramic interface varies with surface finish (Ra 0.8–1.2 μm). [pause: short] FEA assumes μ = 0.15; actual μ = 0.12–0.18. [pause: short] Only operator feel + force curve detects anomaly. [pause: short] [pause: short] Cognitive checkpoint: Does the force curve feel right? — haptic judgment of ceramic seating. [pause: short] Gate 2: Vessel Filament Winding — Port Penetration Layup (PROD-27 Section 4.3)
 
 [pause: short] Action: ±18° helical wind over gas port reinforcement (±55° hoop bias)
 
-[pause: short] Witness requirement: Operator verifies fiber angle at port transition (±2° tolerance via laser angle gauge) and ply compaction (no voids > 1 mm via flash thermography). [pause: short] [pause: short] Why human: Fiber steering at port penetration is geometrically complex. [pause: short] Automated winding follows toolpath, but local fiber angle depends on resin viscosity, tension, mandrel temperature — all variable. [pause: short] [pause: short] Cognitive checkpoint: "Is the fiber sitting flat at the port edge?" — visual/tactile judgment of compaction. [pause: short] Gate 3: Flange Bolt Torque — Ceramic Bolt Ceremony (PROD-27 Section 5.1)
+[pause: short] Witness requirement: Operator verifies fiber angle at port transition (±2° tolerance via laser angle gauge) and ply compaction (no voids > 1 mm via flash thermography). [pause: short] [pause: short] Why human: Fiber steering at port penetration is geometrically complex. [pause: short] Automated winding follows toolpath, but local fiber angle depends on resin viscosity, tension, mandrel temperature — all variable. [pause: short] [pause: short] Cognitive checkpoint: Is the fiber sitting flat at the port edge? — visual/tactile judgment of compaction. [pause: short] Gate 3: Flange Bolt Torque — Ceramic Bolt Ceremony (PROD-27 Section 5.1)
 
 [pause: short] Action: 12× M24 ZrO₂ bolts torqued to 160 N·m with ceramic paste (BN-loaded)
 
-[pause: short] Witness requirement: Two-person verification: Operator A torques to 160 N·m ± 5 N·m; Operator B independently re-checks with calibrated torque wrench. [pause: short] Both sign. [pause: short] [pause: short] Why human: Ceramic bolts have no yield point — they fracture. [pause: short] Torque is the only preload indicator. [pause: short] No strain gauges on bolts (too hot). [pause: short] Human dual-verification is the safety barrier. [pause: short] [pause: short] Cognitive checkpoint: "Did it click at 160?" — auditory/tactile confirmation of click-type wrench. [pause: short] Gate 4: Port Actuator Installation — Thermal Actuation Witness (PROD-27 Section 6.2)
+[pause: short] Witness requirement: Two-person verification: Operator A torques to 160 N·m ± 5 N·m; Operator B independently re-checks with calibrated torque wrench. [pause: short] Both sign. [pause: short] [pause: short] Why human: Ceramic bolts have no yield point — they fracture. [pause: short] Torque is the only preload indicator. [pause: short] No strain gauges on bolts (too hot). [pause: short] Human dual-verification is the safety barrier. [pause: short] [pause: short] Cognitive checkpoint: Did it click at 160? — auditory/tactile confirmation of click-type wrench. [pause: short] Gate 4: Port Actuator Installation — Thermal Actuation Witness (PROD-27 Section 6.2)
 
 [pause: short] Action: Ti₃AlC₂ actuator strip (10 mm × 40 mm × 0.5 mm) brazed to ZrO₂ piston (Ag-CuO-TiO₂, 50 μm joint)
 
-[pause: short] Witness requirement: Operator verifies braze joint integrity via 10× magnification inspection (no voids > 50 μm, fillet radius > 0.2 mm) and measures free deflection at 680°C ΔT (3.6 mm ± 0.2 mm) in test furnace. [pause: short] [pause: short] Why human: Braze joint quality is binary (good/bad) and visible only at 10×. [pause: short] Automated vision misses subsurface voids. [pause: short] Deflection test is the functional proof. [pause: short] [pause: short] Cognitive checkpoint: "Does the actuator breathe at temperature?" — thermal functional test witnessed. [pause: short] Gate 5: Seismic Qualification — Shake Table Witness (PROD-28 Section 8, PROD-39 FAT)
+[pause: short] Witness requirement: Operator verifies braze joint integrity via 10× magnification inspection (no voids > 50 μm, fillet radius > 0.2 mm) and measures free deflection at 680°C ΔT (3.6 mm ± 0.2 mm) in test furnace. [pause: short] [pause: short] Why human: Braze joint quality is binary (good/bad) and visible only at 10×. [pause: short] Automated vision misses subsurface voids. [pause: short] Deflection test is the functional proof. [pause: short] [pause: short] Cognitive checkpoint: Does the actuator breathe at temperature? — thermal functional test witnessed. [pause: short] Gate 5: Seismic Qualification — Shake Table Witness (PROD-28 Section 8, PROD-39 FAT)
 
 [pause: short] Action: Full assembly on shake table, IEEE 693 High RRS (1.5g ZPA, 3-axis)
 
-[pause: short] Witness requirement: Lead structural engineer witnesses test. [pause: short] Verifies: (a) No FBG reading exceeds 0.9·σ_f(T), (b) No AE bursts > 10⁻⁴ J, (c) No permanent deformation > 1 mm, (d) All ports actuate post-shake. [pause: short] [pause: short] Why human: Seismic response is a system-level emergent behavior. [pause: short] No single sensor captures "the structure survived." Engineer synthesizes multi-sensor data into go/no-go. [pause: short] [pause: short] Cognitive checkpoint: "Did the machine come back alive?" — holistic structural survival judgment. [pause: short] --- The Participation Principle ---
+[pause: short] Witness requirement: Lead structural engineer witnesses test. [pause: short] Verifies: (a) No FBG reading exceeds 0.9·σ_f(T), (b) No AE bursts > 10⁻⁴ J, (c) No permanent deformation > 1 mm, (d) All ports actuate post-shake. [pause: short] [pause: short] Why human: Seismic response is a system-level emergent behavior. [pause: short] No single sensor captures the structure survived. Engineer synthesizes multi-sensor data into go/no-go. [pause: short] [pause: short] Cognitive checkpoint: Did the machine come back alive? — holistic structural survival judgment. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the structure into existence at every irreversible fabrication step where:
 
@@ -38156,13 +38156,13 @@ The Aegis-Forge I electrical safety architecture is forced into its all-dielectr
 
 [pause: short] Power distribution: Isolation transformer (Δ-Y, floating secondary), NGR 5A — no ground reference on process side
 
-What breaks if violated: A single copper wire for "just the E-stop" → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. [pause: short] The constraint is binary: all-dielectric or dead forge. [pause: short] [pause: long]
+What breaks if violated: A single copper wire for just the E-stop → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. [pause: short] The constraint is binary: all-dielectric or dead forge. [pause: short] [pause: long]
 
 --- Necessity (The Key) ---
 
 The empirical gap this document closes is the measured divergence between standard industrial electrical safety (grounded, copper-wired, EMC-compliant) and the verified behavior of the Aegis-Forge I under combined Carrington GIC + 500 kW induction + 2200°C thermomechanical loading. [pause: short] Three specific gaps demand this architecture:
 
-[pause: short] Standard grounding creates the GIC antenna: IEEE 142 / NFPA 70 require equipment grounding conductors. [pause: short] But in a 5000 nT/s event, the ground conductor is the antenna. [pause: short] The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. [pause: short] A grounded forge would see 100 A flowing through its "safety ground" into the GaN gate drivers. [pause: short] The gap: grounding for safety vs. [pause: short] grounding as GIC antenna. [pause: short] [pause: short] Standard EMC assumes copper shielding: CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. [pause: short] But in the forge, a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that concentrates eddy currents. [pause: short] The measured field inside PROD-03 coil housing is 39.6 mT at Z8. [pause: short] A steel enclosure would see 50 kW of eddy current heating. [pause: short] The gap: metallic shielding vs. [pause: short] dielectric transparency. [pause: short] [pause: short] Standard SIL-3 assumes independent channels: IEC 61508 2oo3 voting assumes physical separation. [pause: short] But in the forge, all 3 FBG sensors per zone share: same interrogator, same POF cable tray, same 24 VDC supply, same RTU. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The gap: independent channels vs. [pause: short] shared infrastructure in constrained volume. [pause: short] Measured data demanding this approach:
+[pause: short] Standard grounding creates the GIC antenna: IEEE 142 / NFPA 70 require equipment grounding conductors. [pause: short] But in a 5000 nT/s event, the ground conductor is the antenna. [pause: short] The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. [pause: short] A grounded forge would see 100 A flowing through its safety ground into the GaN gate drivers. [pause: short] The gap: grounding for safety vs. [pause: short] grounding as GIC antenna. [pause: short] [pause: short] Standard EMC assumes copper shielding: CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. [pause: short] But in the forge, a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that concentrates eddy currents. [pause: short] The measured field inside PROD-03 coil housing is 39.6 mT at Z8. [pause: short] A steel enclosure would see 50 kW of eddy current heating. [pause: short] The gap: metallic shielding vs. [pause: short] dielectric transparency. [pause: short] [pause: short] Standard SIL-3 assumes independent channels: IEC 61508 2oo3 voting assumes physical separation. [pause: short] But in the forge, all 3 FBG sensors per zone share: same interrogator, same POF cable tray, same 24 VDC supply, same RTU. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The gap: independent channels vs. [pause: short] shared infrastructure in constrained volume. [pause: short] Measured data demanding this approach:
 
 [pause: short] PROD-23 GIC ride-through test: 100 A/m Helmholtz field, 30 min — zero spurious trips, zero data loss
 
@@ -38172,7 +38172,7 @@ The empirical gap this document closes is the measured divergence between standa
 
 [pause: short] PROD-25 megger test: All 50+ penetrations >1 GΩ at 500 VDC — no conductive leakage
 
-[pause: short] PROD-10 arc flash calc: 0.3 cal/cm² at 18" (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
+[pause: short] PROD-10 arc flash calc: 0.3 cal/cm² at 18 (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
 
 [pause: long]
 
@@ -38188,7 +38188,7 @@ This document makes the following non-negotiable commitments that constrain all 
 
 The fabrication fidelity gap in Aegis-Forge I electrical safety is the divergence between IEC 61508 / NFPA 70E compliant design and the measured behavior of an all-dielectric control system inside a 500 kW induction furnace at 2200°C during a Carrington storm. [pause: short] Three specific locks prevent traditional electrical safety engineering from closing this gap:
 
-[pause: short] Grounding is the vulnerability, not the protection: Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. [pause: short] But in the forge, the ground conductor becomes the GIC antenna. [pause: short] 5000 nT/s induces >100 V/km. [pause: short] A 50 m ground wire = 5 V common-mode. [pause: short] The GaN gate driver threshold is 6 V. [pause: short] The "safety ground" destroys the safety system. [pause: short] The lock: safety ground as GIC antenna. [pause: short] [pause: short] EMC shielding requires conductivity — the forge forbids it: CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. [pause: short] But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. [pause: short] The measured B-field at Z8 is 39.6 mT. [pause: short] Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. [pause: short] The cabinet would melt. [pause: short] The lock: metallic shielding as induction heater. [pause: short] [pause: short] SIL-3 independence assumes no shared infrastructure: IEC 61508 2oo3 voting requires physical separation of sensors, logic solvers, and final elements. [pause: short] But the forge has: 3 FBG sensors sharing 1 interrogator, 3 RTUs sharing 1 TSN ring, 3 SIS FPGAs sharing 1 TSN VLAN, all powered from 1 DC bus. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The lock: shared infrastructure as common cause failure. [pause: short] Common thread: Every lock is a standard safety practice that becomes a hazard in the forge's unique electromagnetic-thermal environment. [pause: short] The empirical lock is the sum of all safety practices that invert under Carrington + induction + temperature. [pause: short] [pause: long]
+[pause: short] Grounding is the vulnerability, not the protection: Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. [pause: short] But in the forge, the ground conductor becomes the GIC antenna. [pause: short] 5000 nT/s induces >100 V/km. [pause: short] A 50 m ground wire = 5 V common-mode. [pause: short] The GaN gate driver threshold is 6 V. [pause: short] The safety ground destroys the safety system. [pause: short] The lock: safety ground as GIC antenna. [pause: short] [pause: short] EMC shielding requires conductivity — the forge forbids it: CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. [pause: short] But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. [pause: short] The measured B-field at Z8 is 39.6 mT. [pause: short] Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. [pause: short] The cabinet would melt. [pause: short] The lock: metallic shielding as induction heater. [pause: short] [pause: short] SIL-3 independence assumes no shared infrastructure: IEC 61508 2oo3 voting requires physical separation of sensors, logic solvers, and final elements. [pause: short] But the forge has: 3 FBG sensors sharing 1 interrogator, 3 RTUs sharing 1 TSN ring, 3 SIS FPGAs sharing 1 TSN VLAN, all powered from 1 DC bus. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The lock: shared infrastructure as common cause failure. [pause: short] Common thread: Every lock is a standard safety practice that becomes a hazard in the forge's unique electromagnetic-thermal environment. [pause: short] The empirical lock is the sum of all safety practices that invert under Carrington + induction + temperature. [pause: short] [pause: long]
 
 --- The Mathematical Key ---
 
@@ -38290,15 +38290,15 @@ How does the inside operator witness the electrical phenomenon into existence? [
 
 Gate 1: Batch Recipe Authorization — Electrical Load Profile (PROD-29 Section 4.1)
 
-[pause: short] Action: Feedstock UUID scanned → Category A–D → Operator confirms recipe. [pause: short] Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates. [pause: short] [pause: short] Witness requirement: Operator verifies recipe power profile matches feedstock composition. [pause: short] Category A (PCBs) = high Z6/Z7 power. [pause: short] Category C (batteries) = high Z3/Z4 power. [pause: short] Wrong profile = thermal runaway or incomplete separation. [pause: short] [pause: short] Why human: Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). [pause: short] No sensor measures "Category A-ness" — only composition. [pause: short] Operator judgment maps composition to recipe. [pause: short] [pause: short] Cognitive checkpoint: "Does this power profile match what I see in the feed?" — pattern recognition of feedstock vs. [pause: short] recipe. [pause: short] Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)
+[pause: short] Action: Feedstock UUID scanned → Category A–D → Operator confirms recipe. [pause: short] Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates. [pause: short] [pause: short] Witness requirement: Operator verifies recipe power profile matches feedstock composition. [pause: short] Category A (PCBs) = high Z6/Z7 power. [pause: short] Category C (batteries) = high Z3/Z4 power. [pause: short] Wrong profile = thermal runaway or incomplete separation. [pause: short] [pause: short] Why human: Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). [pause: short] No sensor measures Category A-ness — only composition. [pause: short] Operator judgment maps composition to recipe. [pause: short] [pause: short] Cognitive checkpoint: Does this power profile match what I see in the feed? — pattern recognition of feedstock vs. [pause: short] recipe. [pause: short] Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)
 
-[pause: short] Action: Stage complete → Shift Lead reviews: energy delivered vs. [pause: short] planned, gas composition vs. [pause: short] setpoint, SIF events, anomaly flags, thermal model residuals. [pause: short] [pause: short] Witness requirement: For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). [pause: short] For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. [pause: short] For Stage 8: SiO₂ condenser flow verification (mass spec). [pause: short] [pause: short] Why human: SIF events are recorded but not interpreted. [pause: short] A "cooling water loss" SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. [pause: short] Anomaly flags are data — operator judges significance. [pause: short] [pause: short] Cognitive checkpoint: "Is the electrical state clean for the next stage?" — synthesis of energy, gas, SIF, anomaly data. [pause: short] Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)
+[pause: short] Action: Stage complete → Shift Lead reviews: energy delivered vs. [pause: short] planned, gas composition vs. [pause: short] setpoint, SIF events, anomaly flags, thermal model residuals. [pause: short] [pause: short] Witness requirement: For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). [pause: short] For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. [pause: short] For Stage 8: SiO₂ condenser flow verification (mass spec). [pause: short] [pause: short] Why human: SIF events are recorded but not interpreted. [pause: short] A cooling water loss SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. [pause: short] Anomaly flags are data — operator judges significance. [pause: short] [pause: short] Cognitive checkpoint: Is the electrical state clean for the next stage? — synthesis of energy, gas, SIF, anomaly data. [pause: short] Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)
 
-[pause: short] Action: Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37). [pause: short] [pause: short] Witness requirement: Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. [pause: short] Blockchain record immutable. [pause: short] [pause: short] Why human: Risk acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts "we'll run with SIF-00-07 bypassed because NGR monitor is drifting." Human judgment weighs production loss vs. [pause: short] safety margin. [pause: short] [pause: short] Cognitive checkpoint: "Do I accept this risk for this duration with these compensations?" — explicit risk acceptance. [pause: short] Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)
+[pause: short] Action: Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37). [pause: short] [pause: short] Witness requirement: Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. [pause: short] Blockchain record immutable. [pause: short] [pause: short] Why human: Risk acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts we'll run with SIF-00-07 bypassed because NGR monitor is drifting. Human judgment weighs production loss vs. [pause: short] safety margin. [pause: short] [pause: short] Cognitive checkpoint: Do I accept this risk for this duration with these compensations? — explicit risk acceptance. [pause: short] Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)
 
-[pause: short] Action: Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. [pause: short] Authorizes staged grid reconnect with utility coordination. [pause: short] [pause: short] Witness requirement: Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. [pause: short] If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. [pause: short] Operator verifies model-predicted ]dT/dt[Inline equation:  < 100°C/s. [pause: short] [pause: short] Why human: Grid coordination requires utility communication (voice, not data diode). [pause: short] Thermal shock judgment combines model prediction + operator experience. [pause: short] No algorithm coordinates with utility dispatcher. [pause: short] [pause: short] Cognitive checkpoint: "Did the forge survive the storm intact?" — holistic electrical-thermal survival judgment. [pause: short] Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)
+[pause: short] Action: Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. [pause: short] Authorizes staged grid reconnect with utility coordination. [pause: short] [pause: short] Witness requirement: Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. [pause: short] If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. [pause: short] Operator verifies model-predicted ]dT/dt[Inline equation:  < 100°C/s. [pause: short] [pause: short] Why human: Grid coordination requires utility communication (voice, not data diode). [pause: short] Thermal shock judgment combines model prediction + operator experience. [pause: short] No algorithm coordinates with utility dispatcher. [pause: short] [pause: short] Cognitive checkpoint: Did the forge survive the storm intact? — holistic electrical-thermal survival judgment. [pause: short] Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)
 
-[pause: short] Action: Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run. [pause: short] [pause: short] Witness requirement: Reviews all 10 test reports, signs each. [pause: short] Any deviation from spec → NCR (PROD-28) → root cause → re-test. [pause: short] [pause: short] Why human: Test data is necessary but not sufficient. [pause: short] Engineer judges: "Is the 2.3 ms TSN latency spike in CT-05 acceptable?" (Yes, <100 μs guard band). [pause: short] "Is the 0.5 pC PD on XFMR acceptable?" (Yes, <5 pC limit). [pause: short] Data + judgment = sign-off. [pause: short] [pause: short] Cognitive checkpoint: "Does this electrical system meet spec in the real world?" — professional engineering judgment. [pause: short] --- The Participation Principle ---
+[pause: short] Action: Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run. [pause: short] [pause: short] Witness requirement: Reviews all 10 test reports, signs each. [pause: short] Any deviation from spec → NCR (PROD-28) → root cause → re-test. [pause: short] [pause: short] Why human: Test data is necessary but not sufficient. [pause: short] Engineer judges: Is the 2.3 ms TSN latency spike in CT-05 acceptable? (Yes, <100 μs guard band). [pause: short] Is the 0.5 pC PD on XFMR acceptable? (Yes, <5 pC limit). [pause: short] Data + judgment = sign-off. [pause: short] [pause: short] Cognitive checkpoint: Does this electrical system meet spec in the real world? — professional engineering judgment. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the electrical system into existence at every irreversible authorization point where:
 
@@ -38847,7 +38847,7 @@ Criteria C: Temporary degradation, operator intervention
 
 --- 7.1 Arc Flash Hazard Analysis ---
 
-[Table row: ,  Location ,  Voltage ,  Bolted Fault Current ,  Clearing Time ,  Incident Energy (18") ,  PPE Category , ]
+[Table row: ,  Location ,  Voltage ,  Bolted Fault Current ,  Clearing Time ,  Incident Energy (18) ,  PPE Category , ]
 
 [Table row: , ----------, ---------, ---------------------, ---------------, ----------------------, --------------, ]
 
@@ -38869,7 +38869,7 @@ Criteria C: Temporary degradation, operator intervention
 
 [Table row: ,  Bolted connections only ,  Torque-verified, ZrO₂ insulated sleeves ,  NFPA 70E 110.14 , ]
 
-[Table row: ,  Incident energy <1.2 cal/cm² ,  At working distance (18") for all process areas ,  NFPA 70E 130.5 , ]
+[Table row: ,  Incident energy <1.2 cal/cm² ,  At working distance (18) for all process areas ,  NFPA 70E 130.5 , ]
 
 [Table row: ,  PPE Category 0 ,  No arc-rated PPE required inside forge boundary ,  NFPA 70E 130.7 , ]
 
@@ -38990,7 +38990,7 @@ PFD<sub>avg</sub> Calculation: Σ(PFD<sub>sensor</sub> + PFD<sub>logic</sub> + P
 
 --- 9.1 Grounding Philosophy ---
 
-Single-Point Ground at Substation Only. [pause: short] No ground reference anywhere in the process zone. [pause: short] All "grounding" inside the forge is equipotential bonding via 1 MΩ bleed resistors for static dissipation only. [pause: short] [Code block]
+Single-Point Ground at Substation Only. [pause: short] No ground reference anywhere in the process zone. [pause: short] All grounding inside the forge is equipotential bonding via 1 MΩ bleed resistors for static dissipation only. [pause: short] [Code block]
 GROUNDING TOPOLOGY:
 Utility Substation (Single Point)
        │
@@ -39561,13 +39561,13 @@ The Aegis-Forge I electrical safety architecture is forced into its all-dielectr
 
 [pause: short] Power distribution: Isolation transformer (Δ-Y, floating secondary), NGR 5A — no ground reference on process side
 
-What breaks if violated: A single copper wire for "just the E-stop" → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. [pause: short] The constraint is binary: all-dielectric or dead forge. [pause: short] [pause: long]
+What breaks if violated: A single copper wire for just the E-stop → GIC antenna → 5 V common-mode on GaN gate → GaN shoot-through → 500 kW inverter destruction → drum thermal runaway → vessel overpressure → catastrophic failure. [pause: short] The constraint is binary: all-dielectric or dead forge. [pause: short] [pause: long]
 
 --- Necessity (The Key) ---
 
 The empirical gap this document closes is the measured divergence between standard industrial electrical safety (grounded, copper-wired, EMC-compliant) and the verified behavior of the Aegis-Forge I under combined Carrington GIC + 500 kW induction + 2200°C thermomechanical loading. [pause: short] Three specific gaps demand this architecture:
 
-[pause: short] Standard grounding creates the GIC antenna: IEEE 142 / NFPA 70 require equipment grounding conductors. [pause: short] But in a 5000 nT/s event, the ground conductor is the antenna. [pause: short] The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. [pause: short] A grounded forge would see 100 A flowing through its "safety ground" into the GaN gate drivers. [pause: short] The gap: grounding for safety vs. [pause: short] grounding as GIC antenna. [pause: short] [pause: short] Standard EMC assumes copper shielding: CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. [pause: short] But in the forge, a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that concentrates eddy currents. [pause: short] The measured field inside PROD-03 coil housing is 39.6 mT at Z8. [pause: short] A steel enclosure would see 50 kW of eddy current heating. [pause: short] The gap: metallic shielding vs. [pause: short] dielectric transparency. [pause: short] [pause: short] Standard SIL-3 assumes independent channels: IEC 61508 2oo3 voting assumes physical separation. [pause: short] But in the forge, all 3 FBG sensors per zone share: same interrogator, same POF cable tray, same 24 VDC supply, same RTU. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The gap: independent channels vs. [pause: short] shared infrastructure in constrained volume. [pause: short] Measured data demanding this approach:
+[pause: short] Standard grounding creates the GIC antenna: IEEE 142 / NFPA 70 require equipment grounding conductors. [pause: short] But in a 5000 nT/s event, the ground conductor is the antenna. [pause: short] The measured GIC on Hydro-Québec 1989 was 100 A on neutral conductors. [pause: short] A grounded forge would see 100 A flowing through its safety ground into the GaN gate drivers. [pause: short] The gap: grounding for safety vs. [pause: short] grounding as GIC antenna. [pause: short] [pause: short] Standard EMC assumes copper shielding: CISPR 11 / IEC 61000-4 assume metallic enclosures and shielded cables. [pause: short] But in the forge, a steel cabinet at 2200°C ambient (radiative coupling) with 500 kW of 1–100 kHz magnetic fields becomes a Faraday cage that concentrates eddy currents. [pause: short] The measured field inside PROD-03 coil housing is 39.6 mT at Z8. [pause: short] A steel enclosure would see 50 kW of eddy current heating. [pause: short] The gap: metallic shielding vs. [pause: short] dielectric transparency. [pause: short] [pause: short] Standard SIL-3 assumes independent channels: IEC 61508 2oo3 voting assumes physical separation. [pause: short] But in the forge, all 3 FBG sensors per zone share: same interrogator, same POF cable tray, same 24 VDC supply, same RTU. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The gap: independent channels vs. [pause: short] shared infrastructure in constrained volume. [pause: short] Measured data demanding this approach:
 
 [pause: short] PROD-23 GIC ride-through test: 100 A/m Helmholtz field, 30 min — zero spurious trips, zero data loss
 
@@ -39577,7 +39577,7 @@ The empirical gap this document closes is the measured divergence between standa
 
 [pause: short] PROD-25 megger test: All 50+ penetrations >1 GΩ at 500 VDC — no conductive leakage
 
-[pause: short] PROD-10 arc flash calc: 0.3 cal/cm² at 18" (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
+[pause: short] PROD-10 arc flash calc: 0.3 cal/cm² at 18 (process) vs 4.2 cal/cm² (grid) — Cat 0 PPE
 
 [pause: long]
 
@@ -39593,7 +39593,7 @@ This document makes the following non-negotiable commitments that constrain all 
 
 The fabrication fidelity gap in Aegis-Forge I electrical safety is the divergence between IEC 61508 / NFPA 70E compliant design and the measured behavior of an all-dielectric control system inside a 500 kW induction furnace at 2200°C during a Carrington storm. [pause: short] Three specific locks prevent traditional electrical safety engineering from closing this gap:
 
-[pause: short] Grounding is the vulnerability, not the protection: Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. [pause: short] But in the forge, the ground conductor becomes the GIC antenna. [pause: short] 5000 nT/s induces >100 V/km. [pause: short] A 50 m ground wire = 5 V common-mode. [pause: short] The GaN gate driver threshold is 6 V. [pause: short] The "safety ground" destroys the safety system. [pause: short] The lock: safety ground as GIC antenna. [pause: short] [pause: short] EMC shielding requires conductivity — the forge forbids it: CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. [pause: short] But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. [pause: short] The measured B-field at Z8 is 39.6 mT. [pause: short] Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. [pause: short] The cabinet would melt. [pause: short] The lock: metallic shielding as induction heater. [pause: short] [pause: short] SIL-3 independence assumes no shared infrastructure: IEC 61508 2oo3 voting requires physical separation of sensors, logic solvers, and final elements. [pause: short] But the forge has: 3 FBG sensors sharing 1 interrogator, 3 RTUs sharing 1 TSN ring, 3 SIS FPGAs sharing 1 TSN VLAN, all powered from 1 DC bus. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The lock: shared infrastructure as common cause failure. [pause: short] Common thread: Every lock is a standard safety practice that becomes a hazard in the forge's unique electromagnetic-thermal environment. [pause: short] The empirical lock is the sum of all safety practices that invert under Carrington + induction + temperature. [pause: short] [pause: long]
+[pause: short] Grounding is the vulnerability, not the protection: Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. [pause: short] But in the forge, the ground conductor becomes the GIC antenna. [pause: short] 5000 nT/s induces >100 V/km. [pause: short] A 50 m ground wire = 5 V common-mode. [pause: short] The GaN gate driver threshold is 6 V. [pause: short] The safety ground destroys the safety system. [pause: short] The lock: safety ground as GIC antenna. [pause: short] [pause: short] EMC shielding requires conductivity — the forge forbids it: CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. [pause: short] But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. [pause: short] The measured B-field at Z8 is 39.6 mT. [pause: short] Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. [pause: short] The cabinet would melt. [pause: short] The lock: metallic shielding as induction heater. [pause: short] [pause: short] SIL-3 independence assumes no shared infrastructure: IEC 61508 2oo3 voting requires physical separation of sensors, logic solvers, and final elements. [pause: short] But the forge has: 3 FBG sensors sharing 1 interrogator, 3 RTUs sharing 1 TSN ring, 3 SIS FPGAs sharing 1 TSN VLAN, all powered from 1 DC bus. [pause: short] A single interrogator failure = common cause = all 3 channels lost. [pause: short] The lock: shared infrastructure as common cause failure. [pause: short] Common thread: Every lock is a standard safety practice that becomes a hazard in the forge's unique electromagnetic-thermal environment. [pause: short] The empirical lock is the sum of all safety practices that invert under Carrington + induction + temperature. [pause: short] [pause: long]
 
 --- The Mathematical Key ---
 
@@ -39695,15 +39695,15 @@ How does the inside operator witness the electrical phenomenon into existence? [
 
 Gate 1: Batch Recipe Authorization — Electrical Load Profile (PROD-29 Section 4.1)
 
-[pause: short] Action: Feedstock UUID scanned → Category A–D → Operator confirms recipe. [pause: short] Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates. [pause: short] [pause: short] Witness requirement: Operator verifies recipe power profile matches feedstock composition. [pause: short] Category A (PCBs) = high Z6/Z7 power. [pause: short] Category C (batteries) = high Z3/Z4 power. [pause: short] Wrong profile = thermal runaway or incomplete separation. [pause: short] [pause: short] Why human: Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). [pause: short] No sensor measures "Category A-ness" — only composition. [pause: short] Operator judgment maps composition to recipe. [pause: short] [pause: short] Cognitive checkpoint: "Does this power profile match what I see in the feed?" — pattern recognition of feedstock vs. [pause: short] recipe. [pause: short] Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)
+[pause: short] Action: Feedstock UUID scanned → Category A–D → Operator confirms recipe. [pause: short] Recipe defines 8-zone power profile (0–500 kW each), frequency ladder, thermal ramp rates. [pause: short] [pause: short] Witness requirement: Operator verifies recipe power profile matches feedstock composition. [pause: short] Category A (PCBs) = high Z6/Z7 power. [pause: short] Category C (batteries) = high Z3/Z4 power. [pause: short] Wrong profile = thermal runaway or incomplete separation. [pause: short] [pause: short] Why human: Feedstock composition has irreducible variability (Category A: 15–25% Cu, 5–15% Fe, 0.1–0.5% PM). [pause: short] No sensor measures Category A-ness — only composition. [pause: short] Operator judgment maps composition to recipe. [pause: short] [pause: short] Cognitive checkpoint: Does this power profile match what I see in the feed? — pattern recognition of feedstock vs. [pause: short] recipe. [pause: short] Gate 2: Stage Transition Gate — Electrical State Verification (PROD-29 Section 4.3)
 
-[pause: short] Action: Stage complete → Shift Lead reviews: energy delivered vs. [pause: short] planned, gas composition vs. [pause: short] setpoint, SIF events, anomaly flags, thermal model residuals. [pause: short] [pause: short] Witness requirement: For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). [pause: short] For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. [pause: short] For Stage 8: SiO₂ condenser flow verification (mass spec). [pause: short] [pause: short] Why human: SIF events are recorded but not interpreted. [pause: short] A "cooling water loss" SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. [pause: short] Anomaly flags are data — operator judges significance. [pause: short] [pause: short] Cognitive checkpoint: "Is the electrical state clean for the next stage?" — synthesis of energy, gas, SIF, anomaly data. [pause: short] Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)
+[pause: short] Action: Stage complete → Shift Lead reviews: energy delivered vs. [pause: short] planned, gas composition vs. [pause: short] setpoint, SIF events, anomaly flags, thermal model residuals. [pause: short] [pause: short] Witness requirement: For Stage 4: visual In-grade confirmation (pyrometer + XRF at Port 4A). [pause: short] For Stage 6: H₂ <4% verification (ZrO₂ pO₂ probe) before Port 6B open. [pause: short] For Stage 8: SiO₂ condenser flow verification (mass spec). [pause: short] [pause: short] Why human: SIF events are recorded but not interpreted. [pause: short] A cooling water loss SIF that self-cleared in 50 s might indicate pump cavitation — operator judges if pump needs replacement. [pause: short] Anomaly flags are data — operator judges significance. [pause: short] [pause: short] Cognitive checkpoint: Is the electrical state clean for the next stage? — synthesis of energy, gas, SIF, anomaly data. [pause: short] Gate 3: SIF Bypass Authorization — Organizational Risk Acceptance (PROD-29 Section 5.2)
 
-[pause: short] Action: Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37). [pause: short] [pause: short] Witness requirement: Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. [pause: short] Blockchain record immutable. [pause: short] [pause: short] Why human: Risk acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts "we'll run with SIF-00-07 bypassed because NGR monitor is drifting." Human judgment weighs production loss vs. [pause: short] safety margin. [pause: short] [pause: short] Cognitive checkpoint: "Do I accept this risk for this duration with these compensations?" — explicit risk acceptance. [pause: short] Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)
+[pause: short] Action: Dual-key (Shift Lead + Safety Engineer), time-limited (4 hr max), blockchain-audited (Hyperledger Fabric, PROD-37). [pause: short] [pause: short] Witness requirement: Both signatories review: which SIF, why bypass, compensating measures, risk assessment, expiration time. [pause: short] Blockchain record immutable. [pause: short] [pause: short] Why human: Risk acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts we'll run with SIF-00-07 bypassed because NGR monitor is drifting. Human judgment weighs production loss vs. [pause: short] safety margin. [pause: short] [pause: short] Cognitive checkpoint: Do I accept this risk for this duration with these compensations? — explicit risk acceptance. [pause: short] Gate 4: Carrington Ride-Through Exit — Post-Storm Recovery (PROD-29 Section 5.4)
 
-[pause: short] Action: Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. [pause: short] Authorizes staged grid reconnect with utility coordination. [pause: short] [pause: short] Witness requirement: Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. [pause: short] If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. [pause: short] Operator verifies model-predicted ]dT/dt[Inline equation:  < 100°C/s. [pause: short] [pause: short] Why human: Grid coordination requires utility communication (voice, not data diode). [pause: short] Thermal shock judgment combines model prediction + operator experience. [pause: short] No algorithm coordinates with utility dispatcher. [pause: short] [pause: short] Cognitive checkpoint: "Did the forge survive the storm intact?" — holistic electrical-thermal survival judgment. [pause: short] Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)
+[pause: short] Action: Grid stable 30 min → Operator verifies: drum thermal state (no shock >100°C/s), SIF health (all 24 SIL-3 OK), FBG/PTP/TSN sync, LiFePO₄ charge >80%. [pause: short] Authorizes staged grid reconnect with utility coordination. [pause: short] [pause: short] Witness requirement: Thermal shock check is critical — drum at 2200°C, grid reconnect causes inrush. [pause: short] If drum cooled >100°C/s during island, thermal stress could crack ZrB₂-SiC. [pause: short] Operator verifies model-predicted ]dT/dt[Inline equation:  < 100°C/s. [pause: short] [pause: short] Why human: Grid coordination requires utility communication (voice, not data diode). [pause: short] Thermal shock judgment combines model prediction + operator experience. [pause: short] No algorithm coordinates with utility dispatcher. [pause: short] [pause: short] Cognitive checkpoint: Did the forge survive the storm intact? — holistic electrical-thermal survival judgment. [pause: short] Gate 5: FAT/SAT Sign-Off — Electrical Qualification Acceptance (PROD-39)
 
-[pause: short] Action: Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run. [pause: short] [pause: short] Witness requirement: Reviews all 10 test reports, signs each. [pause: short] Any deviation from spec → NCR (PROD-28) → root cause → re-test. [pause: short] [pause: short] Why human: Test data is necessary but not sufficient. [pause: short] Engineer judges: "Is the 2.3 ms TSN latency spike in CT-05 acceptable?" (Yes, <100 μs guard band). [pause: short] "Is the 0.5 pC PD on XFMR acceptable?" (Yes, <5 pC limit). [pause: short] Data + judgment = sign-off. [pause: short] [pause: short] Cognitive checkpoint: "Does this electrical system meet spec in the real world?" — professional engineering judgment. [pause: short] --- The Participation Principle ---
+[pause: short] Action: Lead Electrical Engineer witnesses: CT-01 rotordynamics, CT-02 hydrotest, CT-03 megger/hipot, CT-04 SIF proof, CT-05 resonance, CT-06 FBG cal, CT-07 GIC ride-through, CT-08 thermal cycle, CT-09 seismic, CT-10 integrated run. [pause: short] [pause: short] Witness requirement: Reviews all 10 test reports, signs each. [pause: short] Any deviation from spec → NCR (PROD-28) → root cause → re-test. [pause: short] [pause: short] Why human: Test data is necessary but not sufficient. [pause: short] Engineer judges: Is the 2.3 ms TSN latency spike in CT-05 acceptable? (Yes, <100 μs guard band). [pause: short] Is the 0.5 pC PD on XFMR acceptable? (Yes, <5 pC limit). [pause: short] Data + judgment = sign-off. [pause: short] [pause: short] Cognitive checkpoint: Does this electrical system meet spec in the real world? — professional engineering judgment. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the electrical system into existence at every irreversible authorization point where:
 
@@ -40266,7 +40266,7 @@ Criteria C: Temporary degradation, operator intervention
 
 --- 7.1 Arc Flash Hazard Analysis ---
 
-[Table row: ,  Location ,  Voltage ,  Bolted Fault Current ,  Clearing Time ,  Incident Energy (18") ,  PPE Category , ]
+[Table row: ,  Location ,  Voltage ,  Bolted Fault Current ,  Clearing Time ,  Incident Energy (18) ,  PPE Category , ]
 
 [Table row: , ----------, ---------, ---------------------, ---------------, ----------------------, --------------, ]
 
@@ -40288,7 +40288,7 @@ Criteria C: Temporary degradation, operator intervention
 
 [Table row: ,  Bolted connections only ,  Torque-verified, ZrO₂ insulated sleeves ,  NFPA 70E 110.14 , ]
 
-[Table row: ,  Incident energy <1.2 cal/cm² ,  At working distance (18") for all process areas ,  NFPA 70E 130.5 , ]
+[Table row: ,  Incident energy <1.2 cal/cm² ,  At working distance (18) for all process areas ,  NFPA 70E 130.5 , ]
 
 [Table row: ,  PPE Category 0 ,  No arc-rated PPE required inside forge boundary ,  NFPA 70E 130.7 , ]
 
@@ -40409,7 +40409,7 @@ PFD<sub>avg</sub> Calculation: Σ(PFD<sub>sensor</sub> + PFD<sub>logic</sub> + P
 
 --- 9.1 Grounding Philosophy ---
 
-Single-Point Ground at Substation Only. [pause: short] No ground reference anywhere in the process zone. [pause: short] All "grounding" inside the forge is equipotential bonding via 1 MΩ bleed resistors for static dissipation only. [pause: short] [Code block]
+Single-Point Ground at Substation Only. [pause: short] No ground reference anywhere in the process zone. [pause: short] All grounding inside the forge is equipotential bonding via 1 MΩ bleed resistors for static dissipation only. [pause: short] [Code block]
 GROUNDING TOPOLOGY:
 Utility Substation (Single Point)
        │
@@ -41070,7 +41070,7 @@ What the machine sees during each operation:
 
 [Table row: ,  Module assembly (A-10) ,  Thermal camera, V/I scope, POF OTDR ,  ZVS phase <5°, T_j <125°C, IL <0.5 dB ,  Re-work if ZVS fail; re-splice if IL >0.5 dB , ]
 
-Self-reflection logic: Each process machine evaluates its own output against the mathematical key (synchronization function predicates) in real-time. [pause: short] The flash sinter machine is the verification of its own density. [pause: short] The winding machine is the verification of its own fiber angle. [pause: short] The factory does not "inspect" — it measures while making. [pause: short] --- Level 1 — Assembly-Level Witness (Gate Verification, Per Assembly) ---
+Self-reflection logic: Each process machine evaluates its own output against the mathematical key (synchronization function predicates) in real-time. [pause: short] The flash sinter machine is the verification of its own density. [pause: short] The winding machine is the verification of its own fiber angle. [pause: short] The factory does not inspect — it measures while making. [pause: short] --- Level 1 — Assembly-Level Witness (Gate Verification, Per Assembly) ---
 
 What the gate evaluator sees at each synchronization gate:
 
@@ -41136,15 +41136,15 @@ How does the inside operator witness the manufacturing phenomenon into existence
 
 Gate 1: First Article Authorization — Drum Flash Sinter (Week 7)
 
-[pause: short] Action: Sintering Engineer authorizes FA-01 cycle start after verifying powder lot, die condition, electrode life, argon purity. [pause: short] [pause: short] Witness requirement: Engineer reviews real-time V/I trace for flash signature (resistivity drop). [pause: short] Confirms "flash event witnessed" in log. [pause: short] [pause: short] Why human: The flash event is a physical phase transition, not a control parameter. [pause: short] No algorithm witnesses the percolation threshold — the engineer sees the V/I trace collapse and knows the material has transformed. [pause: short] [pause: short] Cognitive checkpoint: "Did the powder become ceramic?" — pattern recognition of the flash signature. [pause: short] Gate 2: Synchronization Gate Sign-Off — SG-1, SG-2, SG-3 (Weeks 12, 16, 20)
+[pause: short] Action: Sintering Engineer authorizes FA-01 cycle start after verifying powder lot, die condition, electrode life, argon purity. [pause: short] [pause: short] Witness requirement: Engineer reviews real-time V/I trace for flash signature (resistivity drop). [pause: short] Confirms flash event witnessed in log. [pause: short] [pause: short] Why human: The flash event is a physical phase transition, not a control parameter. [pause: short] No algorithm witnesses the percolation threshold — the engineer sees the V/I trace collapse and knows the material has transformed. [pause: short] [pause: short] Cognitive checkpoint: Did the powder become ceramic? — pattern recognition of the flash signature. [pause: short] Gate 2: Synchronization Gate Sign-Off — SG-1, SG-2, SG-3 (Weeks 12, 16, 20)
 
-[pause: short] Action: Manufacturing Engineer + Quality Engineer dual-sign data package. [pause: short] [pause: short] Witness requirement: Both review every UT scan, CMM report, test log. [pause: short] Any NCR → gate hold. [pause: short] [pause: short] Why human: Quality acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts "the UT shows a 200 μm indication but we'll ship anyway." Human judgment weighs risk vs. [pause: short] schedule. [pause: short] [pause: short] Cognitive checkpoint: "Does this assembly meet the mathematical key's verified predicate?" — explicit quality judgment. [pause: short] Gate 3: Integration Bolt Ceremony — Flange Closure (Week 22)
+[pause: short] Action: Manufacturing Engineer + Quality Engineer dual-sign data package. [pause: short] [pause: short] Witness requirement: Both review every UT scan, CMM report, test log. [pause: short] Any NCR → gate hold. [pause: short] [pause: short] Why human: Quality acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts the UT shows a 200 μm indication but we'll ship anyway. Human judgment weighs risk vs. [pause: short] schedule. [pause: short] [pause: short] Cognitive checkpoint: Does this assembly meet the mathematical key's verified predicate? — explicit quality judgment. [pause: short] Gate 3: Integration Bolt Ceremony — Flange Closure (Week 22)
 
-[pause: short] Action: Two-person torque verification: Operator A applies 160 N·m, Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] [pause: short] Witness requirement: Ceramic bolts have no yield — only fracture. [pause: short] The ceremony is the safety barrier. [pause: short] [pause: short] Why human: Torque verification is a social protocol, not a measurement. [pause: short] The second person's presence changes the first person's behavior (Hawthorne effect as safety feature). [pause: short] [pause: short] Cognitive checkpoint: "Did we both witness the same torque?" — mutual verification of critical joint. [pause: short] Gate 4: FAT Authorization — CT-10 Hot Run (Week 26)
+[pause: short] Action: Two-person torque verification: Operator A applies 160 N·m, Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] [pause: short] Witness requirement: Ceramic bolts have no yield — only fracture. [pause: short] The ceremony is the safety barrier. [pause: short] [pause: short] Why human: Torque verification is a social protocol, not a measurement. [pause: short] The second person's presence changes the first person's behavior (Hawthorne effect as safety feature). [pause: short] [pause: short] Cognitive checkpoint: Did we both witness the same torque? — mutual verification of critical joint. [pause: short] Gate 4: FAT Authorization — CT-10 Hot Run (Week 26)
 
-[pause: short] Action: Plant Manager + Lead EE + Lead ME + Safety Engineer sign CT-10 data package for 6 batches. [pause: short] [pause: short] Witness requirement: Review all 6 batch records: mass balance >99%, all outputs spec, zero SIF trips, digital twin sync. [pause: short] [pause: short] Why human: Production readiness is organizational judgment. [pause: short] Data is necessary but not sufficient. [pause: short] Engineer judges: "Is the 0.8% mass balance gap on Batch 4 acceptable?" (Yes, within measurement uncertainty). [pause: short] [pause: short] Cognitive checkpoint: "Is this Forge ready to ship?" — professional engineering judgment on system maturity. [pause: short] Gate 5: Supplier First-Article Acceptance (Ongoing)
+[pause: short] Action: Plant Manager + Lead EE + Lead ME + Safety Engineer sign CT-10 data package for 6 batches. [pause: short] [pause: short] Witness requirement: Review all 6 batch records: mass balance >99%, all outputs spec, zero SIF trips, digital twin sync. [pause: short] [pause: short] Why human: Production readiness is organizational judgment. [pause: short] Data is necessary but not sufficient. [pause: short] Engineer judges: Is the 0.8% mass balance gap on Batch 4 acceptable? (Yes, within measurement uncertainty). [pause: short] [pause: short] Cognitive checkpoint: Is this Forge ready to ship? — professional engineering judgment on system maturity. [pause: short] Gate 5: Supplier First-Article Acceptance (Ongoing)
 
-[pause: short] Action: Procurement + Materials Engineering accept supplier FA lots (3 drums, 3 vessels, 8 modules). [pause: short] [pause: short] Witness requirement: Compare supplier data to CSMFAB spec. [pause: short] Visit supplier for critical processes (flash sinter, winding, braze). [pause: short] [pause: short] Why human: Supplier capability is relational, not transactional. [pause: short] The visit is the audit. [pause: short] [pause: short] Cognitive checkpoint: "Does this supplier understand the mathematical key?" — judgment of supplier's process knowledge. [pause: short] --- The Participation Principle ---
+[pause: short] Action: Procurement + Materials Engineering accept supplier FA lots (3 drums, 3 vessels, 8 modules). [pause: short] [pause: short] Witness requirement: Compare supplier data to CSMFAB spec. [pause: short] Visit supplier for critical processes (flash sinter, winding, braze). [pause: short] [pause: short] Why human: Supplier capability is relational, not transactional. [pause: short] The visit is the audit. [pause: short] [pause: short] Cognitive checkpoint: Does this supplier understand the mathematical key? — judgment of supplier's process knowledge. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the manufacturing into existence at every irreversible authorization point where:
 
@@ -41168,7 +41168,7 @@ At every scale, the protocol is: Prepare → Execute → Verify → Authorize �
 
 [Table row: , ---, ---, ---, ---, ---, ---, ]
 
-[Table row: ,  Process (Flash) ,  Powder lot cert, die inspect ,  1800°C/50MPa/5min ,  V/I flash signature, LVDT shrinkage ,  Sinter Eng "flash witnessed" ,  Die life counter, powder lot trace , ]
+[Table row: ,  Process (Flash) ,  Powder lot cert, die inspect ,  1800°C/50MPa/5min ,  V/I flash signature, LVDT shrinkage ,  Sinter Eng flash witnessed ,  Die life counter, powder lot trace , ]
 
 [Table row: ,  Process (Winding) ,  Mandrel CMM, roving cert ,  [±18°/90°]₄ @ 50 m/min ,  Laser angle, tension, cure, thickness ,  Mfg Eng + QA sign SG-2 ,  Fiber angle trend, mandrel wear , ]
 
@@ -41189,7 +41189,7 @@ FOR each critical operation (flash sinter, winding, braze, module assembly, FBG 
     Prepare: Inputs certified (material certs, tool cal, operator qual)
     Execute: Run per work instruction, real-time sensor capture
     Verify: In-process data vs. [pause: short] physics model (V/I flash, laser angle, TIM bond, ZVS)
-    Authorize: Operator logs "event witnessed" (flash, ZVS, braze flow)
+    Authorize: Operator logs event witnessed (flash, ZVS, braze flow)
     Feedback: Update tool life, material lot history, operator qual
 [End code block]
 
@@ -42649,7 +42649,7 @@ What the machine sees during each operation:
 
 [Table row: ,  Module assembly (A-10) ,  Thermal camera, V/I scope, POF OTDR ,  ZVS phase <5°, T_j <125°C, IL <0.5 dB ,  Re-work if ZVS fail; re-splice if IL >0.5 dB , ]
 
-Self-reflection logic: Each process machine evaluates its own output against the mathematical key (synchronization function predicates) in real-time. [pause: short] The flash sinter machine is the verification of its own density. [pause: short] The winding machine is the verification of its own fiber angle. [pause: short] The factory does not "inspect" — it measures while making. [pause: short] --- Level 1 — Assembly-Level Witness (Gate Verification, Per Assembly) ---
+Self-reflection logic: Each process machine evaluates its own output against the mathematical key (synchronization function predicates) in real-time. [pause: short] The flash sinter machine is the verification of its own density. [pause: short] The winding machine is the verification of its own fiber angle. [pause: short] The factory does not inspect — it measures while making. [pause: short] --- Level 1 — Assembly-Level Witness (Gate Verification, Per Assembly) ---
 
 What the gate evaluator sees at each synchronization gate:
 
@@ -42715,15 +42715,15 @@ How does the inside operator witness the manufacturing phenomenon into existence
 
 Gate 1: First Article Authorization — Drum Flash Sinter (Week 7)
 
-[pause: short] Action: Sintering Engineer authorizes FA-01 cycle start after verifying powder lot, die condition, electrode life, argon purity. [pause: short] [pause: short] Witness requirement: Engineer reviews real-time V/I trace for flash signature (resistivity drop). [pause: short] Confirms "flash event witnessed" in log. [pause: short] [pause: short] Why human: The flash event is a physical phase transition, not a control parameter. [pause: short] No algorithm witnesses the percolation threshold — the engineer sees the V/I trace collapse and knows the material has transformed. [pause: short] [pause: short] Cognitive checkpoint: "Did the powder become ceramic?" — pattern recognition of the flash signature. [pause: short] Gate 2: Synchronization Gate Sign-Off — SG-1, SG-2, SG-3 (Weeks 12, 16, 20)
+[pause: short] Action: Sintering Engineer authorizes FA-01 cycle start after verifying powder lot, die condition, electrode life, argon purity. [pause: short] [pause: short] Witness requirement: Engineer reviews real-time V/I trace for flash signature (resistivity drop). [pause: short] Confirms flash event witnessed in log. [pause: short] [pause: short] Why human: The flash event is a physical phase transition, not a control parameter. [pause: short] No algorithm witnesses the percolation threshold — the engineer sees the V/I trace collapse and knows the material has transformed. [pause: short] [pause: short] Cognitive checkpoint: Did the powder become ceramic? — pattern recognition of the flash signature. [pause: short] Gate 2: Synchronization Gate Sign-Off — SG-1, SG-2, SG-3 (Weeks 12, 16, 20)
 
-[pause: short] Action: Manufacturing Engineer + Quality Engineer dual-sign data package. [pause: short] [pause: short] Witness requirement: Both review every UT scan, CMM report, test log. [pause: short] Any NCR → gate hold. [pause: short] [pause: short] Why human: Quality acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts "the UT shows a 200 μm indication but we'll ship anyway." Human judgment weighs risk vs. [pause: short] schedule. [pause: short] [pause: short] Cognitive checkpoint: "Does this assembly meet the mathematical key's verified predicate?" — explicit quality judgment. [pause: short] Gate 3: Integration Bolt Ceremony — Flange Closure (Week 22)
+[pause: short] Action: Manufacturing Engineer + Quality Engineer dual-sign data package. [pause: short] [pause: short] Witness requirement: Both review every UT scan, CMM report, test log. [pause: short] Any NCR → gate hold. [pause: short] [pause: short] Why human: Quality acceptance is organizational, not algorithmic. [pause: short] No mathematical function accepts the UT shows a 200 μm indication but we'll ship anyway. Human judgment weighs risk vs. [pause: short] schedule. [pause: short] [pause: short] Cognitive checkpoint: Does this assembly meet the mathematical key's verified predicate? — explicit quality judgment. [pause: short] Gate 3: Integration Bolt Ceremony — Flange Closure (Week 22)
 
-[pause: short] Action: Two-person torque verification: Operator A applies 160 N·m, Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] [pause: short] Witness requirement: Ceramic bolts have no yield — only fracture. [pause: short] The ceremony is the safety barrier. [pause: short] [pause: short] Why human: Torque verification is a social protocol, not a measurement. [pause: short] The second person's presence changes the first person's behavior (Hawthorne effect as safety feature). [pause: short] [pause: short] Cognitive checkpoint: "Did we both witness the same torque?" — mutual verification of critical joint. [pause: short] Gate 4: FAT Authorization — CT-10 Hot Run (Week 26)
+[pause: short] Action: Two-person torque verification: Operator A applies 160 N·m, Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] [pause: short] Witness requirement: Ceramic bolts have no yield — only fracture. [pause: short] The ceremony is the safety barrier. [pause: short] [pause: short] Why human: Torque verification is a social protocol, not a measurement. [pause: short] The second person's presence changes the first person's behavior (Hawthorne effect as safety feature). [pause: short] [pause: short] Cognitive checkpoint: Did we both witness the same torque? — mutual verification of critical joint. [pause: short] Gate 4: FAT Authorization — CT-10 Hot Run (Week 26)
 
-[pause: short] Action: Plant Manager + Lead EE + Lead ME + Safety Engineer sign CT-10 data package for 6 batches. [pause: short] [pause: short] Witness requirement: Review all 6 batch records: mass balance >99%, all outputs spec, zero SIF trips, digital twin sync. [pause: short] [pause: short] Why human: Production readiness is organizational judgment. [pause: short] Data is necessary but not sufficient. [pause: short] Engineer judges: "Is the 0.8% mass balance gap on Batch 4 acceptable?" (Yes, within measurement uncertainty). [pause: short] [pause: short] Cognitive checkpoint: "Is this Forge ready to ship?" — professional engineering judgment on system maturity. [pause: short] Gate 5: Supplier First-Article Acceptance (Ongoing)
+[pause: short] Action: Plant Manager + Lead EE + Lead ME + Safety Engineer sign CT-10 data package for 6 batches. [pause: short] [pause: short] Witness requirement: Review all 6 batch records: mass balance >99%, all outputs spec, zero SIF trips, digital twin sync. [pause: short] [pause: short] Why human: Production readiness is organizational judgment. [pause: short] Data is necessary but not sufficient. [pause: short] Engineer judges: Is the 0.8% mass balance gap on Batch 4 acceptable? (Yes, within measurement uncertainty). [pause: short] [pause: short] Cognitive checkpoint: Is this Forge ready to ship? — professional engineering judgment on system maturity. [pause: short] Gate 5: Supplier First-Article Acceptance (Ongoing)
 
-[pause: short] Action: Procurement + Materials Engineering accept supplier FA lots (3 drums, 3 vessels, 8 modules). [pause: short] [pause: short] Witness requirement: Compare supplier data to CSMFAB spec. [pause: short] Visit supplier for critical processes (flash sinter, winding, braze). [pause: short] [pause: short] Why human: Supplier capability is relational, not transactional. [pause: short] The visit is the audit. [pause: short] [pause: short] Cognitive checkpoint: "Does this supplier understand the mathematical key?" — judgment of supplier's process knowledge. [pause: short] --- The Participation Principle ---
+[pause: short] Action: Procurement + Materials Engineering accept supplier FA lots (3 drums, 3 vessels, 8 modules). [pause: short] [pause: short] Witness requirement: Compare supplier data to CSMFAB spec. [pause: short] Visit supplier for critical processes (flash sinter, winding, braze). [pause: short] [pause: short] Why human: Supplier capability is relational, not transactional. [pause: short] The visit is the audit. [pause: short] [pause: short] Cognitive checkpoint: Does this supplier understand the mathematical key? — judgment of supplier's process knowledge. [pause: short] --- The Participation Principle ---
 
 The operator witnesses the manufacturing into existence at every irreversible authorization point where:
 
@@ -42747,7 +42747,7 @@ At every scale, the protocol is: Prepare → Execute → Verify → Authorize �
 
 [Table row: , ---, ---, ---, ---, ---, ---, ]
 
-[Table row: ,  Process (Flash) ,  Powder lot cert, die inspect ,  1800°C/50MPa/5min ,  V/I flash signature, LVDT shrinkage ,  Sinter Eng "flash witnessed" ,  Die life counter, powder lot trace , ]
+[Table row: ,  Process (Flash) ,  Powder lot cert, die inspect ,  1800°C/50MPa/5min ,  V/I flash signature, LVDT shrinkage ,  Sinter Eng flash witnessed ,  Die life counter, powder lot trace , ]
 
 [Table row: ,  Process (Winding) ,  Mandrel CMM, roving cert ,  [±18°/90°]₄ @ 50 m/min ,  Laser angle, tension, cure, thickness ,  Mfg Eng + QA sign SG-2 ,  Fiber angle trend, mandrel wear , ]
 
@@ -42768,7 +42768,7 @@ FOR each critical operation (flash sinter, winding, braze, module assembly, FBG 
     Prepare: Inputs certified (material certs, tool cal, operator qual)
     Execute: Run per work instruction, real-time sensor capture
     Verify: In-process data vs. [pause: short] physics model (V/I flash, laser angle, TIM bond, ZVS)
-    Authorize: Operator logs "event witnessed" (flash, ZVS, braze flow)
+    Authorize: Operator logs event witnessed (flash, ZVS, braze flow)
     Feedback: Update tool life, material lot history, operator qual
 [End code block]
 
@@ -42900,9 +42900,9 @@ The fabricator observes their own fabrication through three recursive sensor loo
 
 The inside operator witnesses the phenomenon at four non-automatable gates where human judgment closes the loop that sensors cannot:
 
-[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as "within tolerance." The witness says: "This is not drift — this is a cold plate contact issue."
+[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as within tolerance. The witness says: This is not drift — this is a cold plate contact issue.
 
-[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: "I saw the system protect itself." No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: "This is what we built for."
+[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: I saw the system protect itself. No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: This is what we built for.
 
 The Participation: *four moments where the human is not monitoring — they are witnessing the phenomenon into existence, adding the judgment that transforms data into certification. [pause: short] --- Protocol (Recursive) ---
 
@@ -43014,9 +43014,9 @@ The fabricator observes their own fabrication through three recursive sensor loo
 
 The inside operator witnesses the phenomenon at four non-automatable gates where human judgment closes the loop that sensors cannot:
 
-[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as "within tolerance." The witness says: "This is not drift — this is a cold plate contact issue."
+[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as within tolerance. The witness says: This is not drift — this is a cold plate contact issue.
 
-[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: "I saw the system protect itself." No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: "This is what we built for."
+[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: I saw the system protect itself. No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: This is what we built for.
 
 The Participation: four moments where the human is not monitoring — they are witnessing the phenomenon into existence, adding the judgment that transforms data into certification. [pause: short] --- Protocol (Recursive) ---
 
@@ -44120,9 +44120,9 @@ The fabricator observes their own fabrication through three recursive sensor loo
 
 The inside operator witnesses the phenomenon at four non-automatable gates where human judgment closes the loop that sensors cannot:
 
-[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as "within tolerance." The witness says: "This is not drift — this is a cold plate contact issue."
+[pause: short] Gate SG-2 (Flange Torque Ceremony): 24 bolts, 160 N·m ±5 N·m, dual-verify (two operators, independent torque wrenches, acoustic emission monitoring). [pause: short] The wrench click is not the witness — the operator's tactile confirmation of breakaway torque on re-check, and the AE silence during final 10 N·m, are the witness. [pause: short] No sensor replaces the mechanic's hand feeling the bolt stretch uniformly across the PEEK CF40 flange face. [pause: short] This gate takes 45 minutes; it cannot be rushed. [pause: short] [pause: short] Gate SG-3 (FBG Calibration Verification): CT-06 requires 5 reference temperatures (25/500/1000/1500/2000°C) on all 384 channels. [pause: short] The automated interrogator sweeps and fits; but the SIS Engineer witnesses the residuals — plotting measured vs. [pause: short] reference, checking R² > 0.999, verifying no channel drifts >0.1 nm/°C from PQR. [pause: short] The human eye catches the systematic offset (e.g., all Zone 3 channels +0.3 nm) that the algorithm accepts as within tolerance. The witness says: This is not drift — this is a cold plate contact issue.
 
-[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: "I saw the system protect itself." No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: "This is what we built for."
+[pause: short] Gate CT-04 (SIS Proof Test): Injecting 24 SIL-3 trip conditions (overpressure, overtemperature, vibration, GIC, loss of comms) and verifying <50 ms trip on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the trip logic — watching the 2oo3 voter agree, the SOE (Sequence of Events) timestamp align across zones, the FBG data freeze at trip instant. [pause: short] The witness signs: I saw the system protect itself. No auto-report replaces this. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch): Six batches, mass balance >99%, all outputs spec. [pause: short] The Plant Manager witnesses the slug pour — ZrO₂ mold fill, quench steam plume, mass spec reading. [pause: short] The digital twin says PASS; the witness sees the metal flow. [pause: short] The witness says: This is what we built for.
 
 The Participation: *four moments where the human is not monitoring — they are witnessing the phenomenon into existence, adding the judgment that transforms data into certification. [pause: short] --- Protocol (Recursive) ---
 
@@ -44188,7 +44188,7 @@ The empirical gap is the measured divergence between factory FAT performance and
 
 This document commits the Forge to four non-negotiable deployment chains:
 
-[pause: short] IC-1..IC-10 re-execution is mandatory — The 10 integration checkpoints from PROD-27 are not "repeated" — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). [pause: short] No feedstock until all 10 PASS with site data packages signed. [pause: short] [pause: short] Hot commissioning (CT-08) is the thermal proof — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. [pause: short] The Forge must demonstrate thermal stability at 2200°C under site utility conditions. [pause: short] CT-08 data package is the site birth certificate. [pause: short] [pause: short] SAT-05 six-batch validation is the performance gate — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. [pause: short] This is not a "test" — it is the Forge proving it can execute its purpose at this site. [pause: short] [pause: short] SOP-002 batch execution is the operational invariant — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the only authorized operating mode. [pause: short] No manual overrides, no recipe deviations without ECO (PROD-38). [pause: short] The operations philosophy is: the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes. [pause: short] These commitments cascade: PROD-30 PM schedules inherit IC re-verification intervals; PROD-31 OPEX model inherits energy/ton from SAT-05; PROD-32 permitting inherits CEMS/IC-7 data; PROD-34 training inherits SOP-002 as the core competency. [pause: short] The Turn: deployment is the Forge witnessing its own birth at the site — the same mathematical key (synchronization function) that governed manufacturing now governs commissioning, and the same operator witness gates (bolt ceremony, SIF proof, slug pour) that certified manufacturing now certify operations. [pause: short] [pause: long]
+[pause: short] IC-1..IC-10 re-execution is mandatory — The 10 integration checkpoints from PROD-27 are not repeated — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). [pause: short] No feedstock until all 10 PASS with site data packages signed. [pause: short] [pause: short] Hot commissioning (CT-08) is the thermal proof — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. [pause: short] The Forge must demonstrate thermal stability at 2200°C under site utility conditions. [pause: short] CT-08 data package is the site birth certificate. [pause: short] [pause: short] SAT-05 six-batch validation is the performance gate — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. [pause: short] This is not a test — it is the Forge proving it can execute its purpose at this site. [pause: short] [pause: short] SOP-002 batch execution is the operational invariant — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the only authorized operating mode. [pause: short] No manual overrides, no recipe deviations without ECO (PROD-38). [pause: short] The operations philosophy is: the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes. [pause: short] These commitments cascade: PROD-30 PM schedules inherit IC re-verification intervals; PROD-31 OPEX model inherits energy/ton from SAT-05; PROD-32 permitting inherits CEMS/IC-7 data; PROD-34 training inherits SOP-002 as the core competency. [pause: short] The Turn: deployment is the Forge witnessing its own birth at the site — the same mathematical key (synchronization function) that governed manufacturing now governs commissioning, and the same operator witness gates (bolt ceremony, SIF proof, slug pour) that certified manufacturing now certify operations. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -44240,11 +44240,11 @@ History confirms theory: site parameters are the only variables; the mathematica
 
 The fabricator observes their own deployment through three nested metrology loops that close at the speed of the site:
 
-[pause: short] Cold Commissioning Mirror (IC-1..IC-10, real-time): Each integration checkpoint is a self-measurement. [pause: short] IC-1 measures ground resistance and compares to the synchronization function predicate — if [Inline equation: R_{ground} > 5\Omega], the predicate is FALSE and the gate does not pass. [pause: short] The ME Lead does not "inspect" the ground grid — the ground grid measures itself via fall-of-potential and the synchronization function evaluates. [pause: short] IC-4 measures TSN latency and PTP offset and the SIS FPGA evaluates its own GIC ride-through at site impedance. [pause: short] The mirror is not a separate inspection — it is the verification predicate executing on live site data. [pause: short] [pause: short] Hot Commissioning Mirror (CT-08, 24-hour thermal): The thermal model (PROD-24 V&V) runs in parallel with the physical Forge at 1 kHz on the Zone RTUs. [pause: short] The model predicts [Inline equation: T_{inner}] from FBG flange measurements; the residual [Inline equation: (T_{FBG} - T_{model})] is the mirror's error signal. [pause: short] If residual >2°C RMS at any zone, the model re-identifies its parameters (convective conductance [Inline equation: hA], radiative conductance [Inline equation: \epsilon\sigma A]) in real-time. [pause: short] The Forge recalibrates its own thermal self-model during the 24-hour ramp. [pause: short] The mirror is the model watching the reality and correcting itself. [pause: short] [pause: short] Operational Mirror (SOP-002 batch execution, continuous): The digital twin (PROD-37) runs the same synchronization function at 10 Hz on the 512-state vector. [pause: short] The twin's auto-encoder learns the nominal manifold of batch execution. [pause: short] Reconstruction error >3σ → parameter guard tightening (e.g., ramp rate -5%, hold time +2 min). [pause: short] The twin watches the Forge execute batches and tightens the Forge's own operating envelope. [pause: short] The mirror is the fleet twin reflecting the single Forge's performance back to it as operating constraints. [pause: short] The Mirror: deployment is not verified by external inspection — the Forge verifies itself at the site through the same synchronization function that governed its manufacturing, now parameterized by site measurements. [pause: short] --- Participation (Witness) ---
+[pause: short] Cold Commissioning Mirror (IC-1..IC-10, real-time): Each integration checkpoint is a self-measurement. [pause: short] IC-1 measures ground resistance and compares to the synchronization function predicate — if [Inline equation: R_{ground} > 5\Omega], the predicate is FALSE and the gate does not pass. [pause: short] The ME Lead does not inspect the ground grid — the ground grid measures itself via fall-of-potential and the synchronization function evaluates. [pause: short] IC-4 measures TSN latency and PTP offset and the SIS FPGA evaluates its own GIC ride-through at site impedance. [pause: short] The mirror is not a separate inspection — it is the verification predicate executing on live site data. [pause: short] [pause: short] Hot Commissioning Mirror (CT-08, 24-hour thermal): The thermal model (PROD-24 V&V) runs in parallel with the physical Forge at 1 kHz on the Zone RTUs. [pause: short] The model predicts [Inline equation: T_{inner}] from FBG flange measurements; the residual [Inline equation: (T_{FBG} - T_{model})] is the mirror's error signal. [pause: short] If residual >2°C RMS at any zone, the model re-identifies its parameters (convective conductance [Inline equation: hA], radiative conductance [Inline equation: \epsilon\sigma A]) in real-time. [pause: short] The Forge recalibrates its own thermal self-model during the 24-hour ramp. [pause: short] The mirror is the model watching the reality and correcting itself. [pause: short] [pause: short] Operational Mirror (SOP-002 batch execution, continuous): The digital twin (PROD-37) runs the same synchronization function at 10 Hz on the 512-state vector. [pause: short] The twin's auto-encoder learns the nominal manifold of batch execution. [pause: short] Reconstruction error >3σ → parameter guard tightening (e.g., ramp rate -5%, hold time +2 min). [pause: short] The twin watches the Forge execute batches and tightens the Forge's own operating envelope. [pause: short] The mirror is the fleet twin reflecting the single Forge's performance back to it as operating constraints. [pause: short] The Mirror: deployment is not verified by external inspection — the Forge verifies itself at the site through the same synchronization function that governed its manufacturing, now parameterized by site measurements. [pause: short] --- Participation (Witness) ---
 
 The inside operator witnesses the deployment phenomenon at five non-automatable gates where human judgment closes the loop that predicates cannot:
 
-[pause: short] Gate IC-1 (Foundation Acceptance): ME Lead reviews laser tracker survey + ground resistance + anchor torque. [pause: short] The data is necessary but not sufficient. [pause: short] The witness stands on the foundation and judges: "Does this mat feel solid? [pause: short] Are the isolator pockets truly level?" The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque). [pause: short] [pause: short] Gate IC-2 (Bolt Ceremony Re-enactment): The vessel flange bolt ceremony (PROD-27 SG-2) is repeated at site. [pause: short] Two operators, dual-verify 160 N·m on 24× M24 ZrO₂ bolts. [pause: short] The wrench click is not the witness — the mutual verification is. [pause: short] Operator A torques; Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] The ceremony is the safety barrier for the pressure boundary. [pause: short] No torque transducer replaces the human pair. [pause: short] [pause: short] Gate CT-08 (Hot Commissioning Authorization): After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. [pause: short] The digital twin says PASS; the witnesses judge the anomalies: "Zone 3 ramp was 8% slow — acceptable?" "FBG Channel 247 drifted 0.3 nm — within tolerance?" The human judgment on edge cases is the authorization. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch Witness): Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. [pause: short] The twin says mass balance 99.7%; the witness sees the metal flow. [pause: short] "This is what we built for." The witness says: "Batch 1 AUTHORIZED FOR RELEASE."
+[pause: short] Gate IC-1 (Foundation Acceptance): ME Lead reviews laser tracker survey + ground resistance + anchor torque. [pause: short] The data is necessary but not sufficient. [pause: short] The witness stands on the foundation and judges: Does this mat feel solid? [pause: short] Are the isolator pockets truly level? The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque). [pause: short] [pause: short] Gate IC-2 (Bolt Ceremony Re-enactment): The vessel flange bolt ceremony (PROD-27 SG-2) is repeated at site. [pause: short] Two operators, dual-verify 160 N·m on 24× M24 ZrO₂ bolts. [pause: short] The wrench click is not the witness — the mutual verification is. [pause: short] Operator A torques; Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] The ceremony is the safety barrier for the pressure boundary. [pause: short] No torque transducer replaces the human pair. [pause: short] [pause: short] Gate CT-08 (Hot Commissioning Authorization): After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. [pause: short] The digital twin says PASS; the witnesses judge the anomalies: Zone 3 ramp was 8% slow — acceptable? FBG Channel 247 drifted 0.3 nm — within tolerance? The human judgment on edge cases is the authorization. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch Witness): Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. [pause: short] The twin says mass balance 99.7%; the witness sees the metal flow. [pause: short] This is what we built for. The witness says: Batch 1 AUTHORIZED FOR RELEASE.
 
 [pause: short] Gate SOP-006 (Carrington Ride-Through Exit): Post-GIC event, grid stable 30 min. [pause: short] Shift Lead + Safety Engineer verify drum thermal state (no shock >100°C/s via FBG), SIF health (all 24 green), authorize staged grid reconnect with utility coordination. [pause: short] The algorithm monitors; the humans authorize the consequence of reconnecting to a potentially unstable grid. [pause: short] The Participation: five moments where the human is not monitoring — they are witnessing the deployment into existence, adding the judgment that transforms verified predicates into authorized operations. [pause: short] --- Protocol (Recursive) ---
 
@@ -44262,7 +44262,7 @@ Meso (per commissioning phase, days):
 
 Macro (per validation, weeks):
 
-[pause: short] SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs "OPERATIONAL") → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
+[pause: short] SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs OPERATIONAL) → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
 
 Meta (per fleet, months):
 
@@ -44297,7 +44297,7 @@ Date: November 2026 | Classification: Product Specification — Deployment & Ope
 
 --- 1.1 Deployment Philosophy ---
 
-The Aegis-Forge I is not "installed" — it is commissioned into operation. [pause: short] The distinction is fundamental: a conventional machine arrives, is bolted down, and started. [pause: short] The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. [pause: short] Deployment is the continuation of the synchronization function (PROD-27 Keymaker Key) from factory gates to site gates:
+The Aegis-Forge I is not installed — it is commissioned into operation. [pause: short] The distinction is fundamental: a conventional machine arrives, is bolted down, and started. [pause: short] The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. [pause: short] Deployment is the continuation of the synchronization function (PROD-27 Keymaker Key) from factory gates to site gates:
 
 [Equation: SG_{site} = SG_4 \land \bigwedge_{i=1}^{10} IC_i \land \bigwedge_{j=1}^{5} SAT_j]
 
@@ -44577,7 +44577,7 @@ Re-execution of PROD-27 IC-1..IC-10 at site with site-specific verification
 
 [Table row: ,  LOTO verification ,  Physical attempt ,  Zero energy isolation failures , ]
 
-[Table row: ,  Arc flash boundaries ,  Calculation + labels ,  Cat 0 at 18" (PROD-26) , ]
+[Table row: ,  Arc flash boundaries ,  Calculation + labels ,  Cat 0 at 18 (PROD-26) , ]
 
 [Table row: ,  Confined space ,  Atmosphere test ,  O₂ 19.5-23.5%, LEL <10%, H₂S <10 ppm , ]
 
@@ -44734,7 +44734,7 @@ PHASE 1: FEED PREPARATION (0-15 min)
 ├── 1.1 Scan feedstock QR → verify Category A-D (PROD-13)
 ├── 1.2 Load shredder → verify <150 mm, ferrous removed (PROD-11)
 ├── 1.3 Confirm drum empty (Carousel position 1, FBG + encoder)
-└── 1.4 Operator confirms recipe match → "BATCH <ID> RECIPE CONFIRMED"
+└── 1.4 Operator confirms recipe match → BATCH <ID> RECIPE CONFIRMED
 
 PHASE 2: CASCADE EXECUTION (15-105 min)
 ├── 2.1 Stage 0-1: Acoustic + Drying (auto, FBG/PID controlled)
@@ -44750,13 +44750,13 @@ PHASE 3: SLUG POUR & DATA CAPTURE (105-115 min)
 ├── 3.1 Carousel positions molds → N₂ quench → mass spec spot check
 ├── 3.2 Each slug: LIBS scan → QR stamp → weight → mass spec → vault
 ├── 3.3 Batch mass balance calculated → digital twin sync
-├── 3.4 Operator reviews batch record → "BATCH <ID> COMPLETE"
+├── 3.4 Operator reviews batch record → BATCH <ID> COMPLETE
 └── 3.5 Data package auto-signed → Hyperledger commit
 
 PHASE 4: INTER-BATCH RESET (115-120 min)
 ├── 4.1 Drum rotation to Position 1 (empty)
 ├── 4.2 Gas purge (N₂ 200 Nm³/hr × 5 min)
-├── 4.3 SIF status verify → "READY FOR NEXT BATCH"
+├── 4.3 SIF status verify → READY FOR NEXT BATCH
 └── 4.4 Shift handover log entry (if shift change)
 [End code block]
 
@@ -45227,7 +45227,7 @@ The empirical gap is the measured divergence between factory FAT performance and
 
 This document commits the Forge to four non-negotiable deployment chains:
 
-[pause: short] IC-1..IC-10 re-execution is mandatory — The 10 integration checkpoints from PROD-27 are not "repeated" — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). [pause: short] No feedstock until all 10 PASS with site data packages signed. [pause: short] [pause: short] Hot commissioning (CT-08) is the thermal proof — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. [pause: short] The Forge must demonstrate thermal stability at 2200°C under site utility conditions. [pause: short] CT-08 data package is the site birth certificate. [pause: short] [pause: short] SAT-05 six-batch validation is the performance gate — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. [pause: short] This is not a "test" — it is the Forge proving it can execute its purpose at this site. [pause: short] [pause: short] SOP-002 batch execution is the operational invariant — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the only authorized operating mode. [pause: short] No manual overrides, no recipe deviations without ECO (PROD-38). [pause: short] The operations philosophy is: the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes. [pause: short] These commitments cascade: PROD-30 PM schedules inherit IC re-verification intervals; PROD-31 OPEX model inherits energy/ton from SAT-05; PROD-32 permitting inherits CEMS/IC-7 data; PROD-34 training inherits SOP-002 as the core competency. [pause: short] The Turn: deployment is the Forge witnessing its own birth at the site — the same mathematical key (synchronization function) that governed manufacturing now governs commissioning, and the same operator witness gates (bolt ceremony, SIF proof, slug pour) that certified manufacturing now certify operations. [pause: short] [pause: long]
+[pause: short] IC-1..IC-10 re-execution is mandatory — The 10 integration checkpoints from PROD-27 are not repeated — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). [pause: short] No feedstock until all 10 PASS with site data packages signed. [pause: short] [pause: short] Hot commissioning (CT-08) is the thermal proof — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. [pause: short] The Forge must demonstrate thermal stability at 2200°C under site utility conditions. [pause: short] CT-08 data package is the site birth certificate. [pause: short] [pause: short] SAT-05 six-batch validation is the performance gate — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. [pause: short] This is not a test — it is the Forge proving it can execute its purpose at this site. [pause: short] [pause: short] SOP-002 batch execution is the operational invariant — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the only authorized operating mode. [pause: short] No manual overrides, no recipe deviations without ECO (PROD-38). [pause: short] The operations philosophy is: the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes. [pause: short] These commitments cascade: PROD-30 PM schedules inherit IC re-verification intervals; PROD-31 OPEX model inherits energy/ton from SAT-05; PROD-32 permitting inherits CEMS/IC-7 data; PROD-34 training inherits SOP-002 as the core competency. [pause: short] The Turn: deployment is the Forge witnessing its own birth at the site — the same mathematical key (synchronization function) that governed manufacturing now governs commissioning, and the same operator witness gates (bolt ceremony, SIF proof, slug pour) that certified manufacturing now certify operations. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -45279,11 +45279,11 @@ History confirms theory: site parameters are the only variables; the mathematica
 
 The fabricator observes their own deployment through three nested metrology loops that close at the speed of the site:
 
-[pause: short] Cold Commissioning Mirror (IC-1..IC-10, real-time): Each integration checkpoint is a self-measurement. [pause: short] IC-1 measures ground resistance and compares to the synchronization function predicate — if [Inline equation: R_{ground} > 5\Omega], the predicate is FALSE and the gate does not pass. [pause: short] The ME Lead does not "inspect" the ground grid — the ground grid measures itself via fall-of-potential and the synchronization function evaluates. [pause: short] IC-4 measures TSN latency and PTP offset and the SIS FPGA evaluates its own GIC ride-through at site impedance. [pause: short] The mirror is not a separate inspection — it is the verification predicate executing on live site data. [pause: short] [pause: short] Hot Commissioning Mirror (CT-08, 24-hour thermal): The thermal model (PROD-24 V&V) runs in parallel with the physical Forge at 1 kHz on the Zone RTUs. [pause: short] The model predicts [Inline equation: T_{inner}] from FBG flange measurements; the residual [Inline equation: (T_{FBG} - T_{model})] is the mirror's error signal. [pause: short] If residual >2°C RMS at any zone, the model re-identifies its parameters (convective conductance [Inline equation: hA], radiative conductance [Inline equation: \epsilon\sigma A]) in real-time. [pause: short] The Forge recalibrates its own thermal self-model during the 24-hour ramp. [pause: short] The mirror is the model watching the reality and correcting itself. [pause: short] [pause: short] Operational Mirror (SOP-002 batch execution, continuous): The digital twin (PROD-37) runs the same synchronization function at 10 Hz on the 512-state vector. [pause: short] The twin's auto-encoder learns the nominal manifold of batch execution. [pause: short] Reconstruction error >3σ → parameter guard tightening (e.g., ramp rate -5%, hold time +2 min). [pause: short] The twin watches the Forge execute batches and tightens the Forge's own operating envelope. [pause: short] The mirror is the fleet twin reflecting the single Forge's performance back to it as operating constraints. [pause: short] The Mirror: deployment is not verified by external inspection — the Forge verifies itself at the site through the same synchronization function that governed its manufacturing, now parameterized by site measurements. [pause: short] --- Participation (Witness) ---
+[pause: short] Cold Commissioning Mirror (IC-1..IC-10, real-time): Each integration checkpoint is a self-measurement. [pause: short] IC-1 measures ground resistance and compares to the synchronization function predicate — if [Inline equation: R_{ground} > 5\Omega], the predicate is FALSE and the gate does not pass. [pause: short] The ME Lead does not inspect the ground grid — the ground grid measures itself via fall-of-potential and the synchronization function evaluates. [pause: short] IC-4 measures TSN latency and PTP offset and the SIS FPGA evaluates its own GIC ride-through at site impedance. [pause: short] The mirror is not a separate inspection — it is the verification predicate executing on live site data. [pause: short] [pause: short] Hot Commissioning Mirror (CT-08, 24-hour thermal): The thermal model (PROD-24 V&V) runs in parallel with the physical Forge at 1 kHz on the Zone RTUs. [pause: short] The model predicts [Inline equation: T_{inner}] from FBG flange measurements; the residual [Inline equation: (T_{FBG} - T_{model})] is the mirror's error signal. [pause: short] If residual >2°C RMS at any zone, the model re-identifies its parameters (convective conductance [Inline equation: hA], radiative conductance [Inline equation: \epsilon\sigma A]) in real-time. [pause: short] The Forge recalibrates its own thermal self-model during the 24-hour ramp. [pause: short] The mirror is the model watching the reality and correcting itself. [pause: short] [pause: short] Operational Mirror (SOP-002 batch execution, continuous): The digital twin (PROD-37) runs the same synchronization function at 10 Hz on the 512-state vector. [pause: short] The twin's auto-encoder learns the nominal manifold of batch execution. [pause: short] Reconstruction error >3σ → parameter guard tightening (e.g., ramp rate -5%, hold time +2 min). [pause: short] The twin watches the Forge execute batches and tightens the Forge's own operating envelope. [pause: short] The mirror is the fleet twin reflecting the single Forge's performance back to it as operating constraints. [pause: short] The Mirror: deployment is not verified by external inspection — the Forge verifies itself at the site through the same synchronization function that governed its manufacturing, now parameterized by site measurements. [pause: short] --- Participation (Witness) ---
 
 The inside operator witnesses the deployment phenomenon at five non-automatable gates where human judgment closes the loop that predicates cannot:
 
-[pause: short] Gate IC-1 (Foundation Acceptance): ME Lead reviews laser tracker survey + ground resistance + anchor torque. [pause: short] The data is necessary but not sufficient. [pause: short] The witness stands on the foundation and judges: "Does this mat feel solid? [pause: short] Are the isolator pockets truly level?" The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque). [pause: short] [pause: short] Gate IC-2 (Bolt Ceremony Re-enactment): The vessel flange bolt ceremony (PROD-27 SG-2) is repeated at site. [pause: short] Two operators, dual-verify 160 N·m on 24× M24 ZrO₂ bolts. [pause: short] The wrench click is not the witness — the mutual verification is. [pause: short] Operator A torques; Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] The ceremony is the safety barrier for the pressure boundary. [pause: short] No torque transducer replaces the human pair. [pause: short] [pause: short] Gate CT-08 (Hot Commissioning Authorization): After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. [pause: short] The digital twin says PASS; the witnesses judge the anomalies: "Zone 3 ramp was 8% slow — acceptable?" "FBG Channel 247 drifted 0.3 nm — within tolerance?" The human judgment on edge cases is the authorization. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch Witness): Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. [pause: short] The twin says mass balance 99.7%; the witness sees the metal flow. [pause: short] "This is what we built for." The witness says: "Batch 1 AUTHORIZED FOR RELEASE."
+[pause: short] Gate IC-1 (Foundation Acceptance): ME Lead reviews laser tracker survey + ground resistance + anchor torque. [pause: short] The data is necessary but not sufficient. [pause: short] The witness stands on the foundation and judges: Does this mat feel solid? [pause: short] Are the isolator pockets truly level? The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque). [pause: short] [pause: short] Gate IC-2 (Bolt Ceremony Re-enactment): The vessel flange bolt ceremony (PROD-27 SG-2) is repeated at site. [pause: short] Two operators, dual-verify 160 N·m on 24× M24 ZrO₂ bolts. [pause: short] The wrench click is not the witness — the mutual verification is. [pause: short] Operator A torques; Operator B verifies with independent wrench. [pause: short] Both sign. [pause: short] The ceremony is the safety barrier for the pressure boundary. [pause: short] No torque transducer replaces the human pair. [pause: short] [pause: short] Gate CT-08 (Hot Commissioning Authorization): After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. [pause: short] The digital twin says PASS; the witnesses judge the anomalies: Zone 3 ramp was 8% slow — acceptable? FBG Channel 247 drifted 0.3 nm — within tolerance? The human judgment on edge cases is the authorization. [pause: short] [pause: short] Gate SAT-05 (First Hot Batch Witness): Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. [pause: short] The twin says mass balance 99.7%; the witness sees the metal flow. [pause: short] This is what we built for. The witness says: Batch 1 AUTHORIZED FOR RELEASE.
 
 [pause: short] Gate SOP-006 (Carrington Ride-Through Exit): Post-GIC event, grid stable 30 min. [pause: short] Shift Lead + Safety Engineer verify drum thermal state (no shock >100°C/s via FBG), SIF health (all 24 green), authorize staged grid reconnect with utility coordination. [pause: short] The algorithm monitors; the humans authorize the consequence of reconnecting to a potentially unstable grid. [pause: short] The Participation: five moments where the human is not monitoring — they are witnessing the deployment into existence, adding the judgment that transforms verified predicates into authorized operations. [pause: short] --- Protocol (Recursive) ---
 
@@ -45301,7 +45301,7 @@ Meso (per commissioning phase, days):
 
 Macro (per validation, weeks):
 
-[pause: short] SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs "OPERATIONAL") → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
+[pause: short] SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs OPERATIONAL) → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
 
 Meta (per fleet, months):
 
@@ -45377,13 +45377,13 @@ The fabricator observes their own sustainment through three recursive metrology 
 
 [pause: short] FBG Health Mirror (125 Hz continuous): The 384 FBG channels stream wavelength data to PROD-37 twin, which runs the Bayesian health update (PROD-28 Keymaker Key) in real-time. [pause: short] The twin is the maintenance planner — it computes ]\Lambda = P(data
 [Table row: , degradation)/P(data, ]
-nominal)[Inline equation:  for every channel, every component, every system. [pause: short] When ]\Lambda > 10[Inline equation: , the twin auto-generates an NCR before the operator acknowledges it. [pause: short] The mirror is not a report — it is the Forge's nervous system diagnosing itself. [pause: short] [pause: short] AE/Vibration Mirror (Continuous): The 8-channel AE on the vessel and bearing accelerometers feed the twin's spectral analysis engines. [pause: short] Felicity ratio, b-value, RA-value, spectral kurtosis — these are the Forge's "pain signals." The twin correlates AE clusters with FBG strain hotspots and vibration harmonics. [pause: short] A delamination at a gas port produces: AE cluster at 45° azimuth + FBG strain spike on adjacent channels + 2× vibration RMS on nearest bearing. [pause: short] The mirror fuses these into a single health state. [pause: short] [pause: short] Fleet Twin Mirror (Monthly): PROD-37 aggregates all Forges' maintenance data — PM compliance, CBM alerts, NCR rates, spare consumption, overhaul durations. [pause: short] The auto-encoder learns the nominal manifold; reconstruction error >3σ on any Forge triggers parameter guard tightening (e.g., ramp rate -5%, UT interval -2 months). [pause: short] The fleet reflects the single Forge's degradation back to it as operating constraints. [pause: short] The Mirror: maintenance is not planned by a scheduler — it is triggered by the Forge's own sensorium reflecting its degradation through the twin's Bayesian lens. [pause: short] --- Participation (Witness) ---
+nominal)[Inline equation:  for every channel, every component, every system. [pause: short] When ]\Lambda > 10[Inline equation: , the twin auto-generates an NCR before the operator acknowledges it. [pause: short] The mirror is not a report — it is the Forge's nervous system diagnosing itself. [pause: short] [pause: short] AE/Vibration Mirror (Continuous): The 8-channel AE on the vessel and bearing accelerometers feed the twin's spectral analysis engines. [pause: short] Felicity ratio, b-value, RA-value, spectral kurtosis — these are the Forge's pain signals. The twin correlates AE clusters with FBG strain hotspots and vibration harmonics. [pause: short] A delamination at a gas port produces: AE cluster at 45° azimuth + FBG strain spike on adjacent channels + 2× vibration RMS on nearest bearing. [pause: short] The mirror fuses these into a single health state. [pause: short] [pause: short] Fleet Twin Mirror (Monthly): PROD-37 aggregates all Forges' maintenance data — PM compliance, CBM alerts, NCR rates, spare consumption, overhaul durations. [pause: short] The auto-encoder learns the nominal manifold; reconstruction error >3σ on any Forge triggers parameter guard tightening (e.g., ramp rate -5%, UT interval -2 months). [pause: short] The fleet reflects the single Forge's degradation back to it as operating constraints. [pause: short] The Mirror: maintenance is not planned by a scheduler — it is triggered by the Forge's own sensorium reflecting its degradation through the twin's Bayesian lens. [pause: short] --- Participation (Witness) ---
 
 The inside operator witnesses the sustainment phenomenon at four non-automatable gates where human judgment authorizes maintenance consequence:
 
-[pause: short] Gate: Annual SIF Proof Test (CT-04 re-execution): SIS Engineer injects 24 trip conditions, watches <50 ms response on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the voter agreement — 2oo3 logic, SOE timestamps, FBG freeze at trip. [pause: short] The witness signs: "I saw the safety system protect itself." No auto-report replaces this. [pause: short] [pause: short] Gate: 18-Month Drum Swap Bolt Ceremony: The vessel flange re-bolting (24× M24 ZrO₂ at 160 N·m ±5 N·m, dual-verify, AE monitoring) is repeated. [pause: short] Two operators, independent wrenches, mutual verification. [pause: short] The ceramic bolts have no yield — the ceremony is the safety barrier for the pressure boundary. [pause: short] The witness says: "We both felt the same torque."
+[pause: short] Gate: Annual SIF Proof Test (CT-04 re-execution): SIS Engineer injects 24 trip conditions, watches <50 ms response on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the voter agreement — 2oo3 logic, SOE timestamps, FBG freeze at trip. [pause: short] The witness signs: I saw the safety system protect itself. No auto-report replaces this. [pause: short] [pause: short] Gate: 18-Month Drum Swap Bolt Ceremony: The vessel flange re-bolting (24× M24 ZrO₂ at 160 N·m ±5 N·m, dual-verify, AE monitoring) is repeated. [pause: short] Two operators, independent wrenches, mutual verification. [pause: short] The ceramic bolts have no yield — the ceremony is the safety barrier for the pressure boundary. [pause: short] The witness says: We both felt the same torque.
 
-[pause: short] Gate: Major Overhaul Authorization (Day 7 CT-08/SAT-05): After 7-day overhaul, Plant Manager + Lead EE + Lead ME + Safety Engineer review the abbreviated CT-08 and first hot batch. [pause: short] The twin says PASS; the witnesses judge the edge cases: "Zone 5 ramp 5% slow after drum swap — acceptable?" "FBG Channel 12 drift 0.4 nm — within tolerance?" Human judgment on post-overhaul anomalies is the authorization. [pause: short] [pause: short] Gate: Spare Part First-Article Acceptance: When a critical spare (refurbished drum, vessel, module) arrives from regional depot, ME + QA + Supplier Engineer witness the acceptance tests. [pause: short] The QR/blockchain shows factory data; the witnesses verify the part at site — UT, dimensions, FBG survival, functional test. [pause: short] The witness says: "This spare is equivalent to the original."
+[pause: short] Gate: Major Overhaul Authorization (Day 7 CT-08/SAT-05): After 7-day overhaul, Plant Manager + Lead EE + Lead ME + Safety Engineer review the abbreviated CT-08 and first hot batch. [pause: short] The twin says PASS; the witnesses judge the edge cases: Zone 5 ramp 5% slow after drum swap — acceptable? FBG Channel 12 drift 0.4 nm — within tolerance? Human judgment on post-overhaul anomalies is the authorization. [pause: short] [pause: short] Gate: Spare Part First-Article Acceptance: When a critical spare (refurbished drum, vessel, module) arrives from regional depot, ME + QA + Supplier Engineer witness the acceptance tests. [pause: short] The QR/blockchain shows factory data; the witnesses verify the part at site — UT, dimensions, FBG survival, functional test. [pause: short] The witness says: This spare is equivalent to the original.
 
 The Participation: four moments where the human is not monitoring — they are witnessing the sustainment into existence, adding the judgment that transforms sensor data into certified readiness. [pause: short] --- Protocol (Recursive) ---
 
@@ -46060,7 +46060,7 @@ Action if Failed: Mold replacement (spare set on-site); dimension mapping to slu
 
 [Table row: ,  FBG interrogator bulbs ,  CSM-FBG-LD-1550 ,  4 pcs ,  30 days ,  1 pcs ,  2 pcs ,  Micron Optics , ]
 
-[Table row: ,  PEX-a tubing (1" OD) ,  CSM-PEX-25-100 ,  100 m ,  14 days ,  20 m ,  200 m ,  Uponor , ]
+[Table row: ,  PEX-a tubing (1 OD) ,  CSM-PEX-25-100 ,  100 m ,  14 days ,  20 m ,  200 m ,  Uponor , ]
 
 [Table row: ,  Basalt roving (2400 tex) ,  CSM-BFR-2400 ,  500 kg ,  7 days ,  100 kg ,  4,200 kg ,  In-house , ]
 
@@ -46230,9 +46230,9 @@ baseline)
     Lambda = compute_likelihood_ratio(alpha_post, beta_post, alpha_baseline, beta_baseline)
     
     if Lambda > 10:
-        trigger_ncr(channel_id, "FBG_DRIFT", Lambda, t)
+        trigger_ncr(channel_id, FBG_DRIFT, Lambda, t)
     elif Lambda > 5:
-        trigger_alert(channel_id, "FBG_DRIFT_WARN", Lambda, t)
+        trigger_alert(channel_id, FBG_DRIFT_WARN, Lambda, t)
     
     return alpha_post, beta_post, Lambda
 [End code block]
@@ -46433,7 +46433,7 @@ D1: Problem Statement (What, Where, When, Extent, IS/IS NOT)
 D2: Interim Containment (Forge status: run/reduced/stop; safety first)
 D3: Root Cause Identification
 
-[pause: short] Fault Tree Top Event: e.g., "FBG channel dropout Zone 3"
+[pause: short] Fault Tree Top Event: e.g., FBG channel dropout Zone 3
 
 [pause: short] Gates: AND/OR logic from PROD-25 FEA + PROD-26 GIC + PROD-28 NCR history
 
@@ -46913,13 +46913,13 @@ The fabricator observes their own sustainment through three recursive metrology 
 
 [pause: short] FBG Health Mirror (125 Hz continuous): The 384 FBG channels stream wavelength data to PROD-37 twin, which runs the Bayesian health update (PROD-28 Keymaker Key) in real-time. [pause: short] The twin is the maintenance planner — it computes ]\Lambda = P(data
 [Table row: , degradation)/P(data, ]
-nominal)[Inline equation:  for every channel, every component, every system. [pause: short] When ]\Lambda > 10[Inline equation: , the twin auto-generates an NCR before the operator acknowledges it. [pause: short] The mirror is not a report — it is the Forge's nervous system diagnosing itself. [pause: short] [pause: short] AE/Vibration Mirror (Continuous): The 8-channel AE on the vessel and bearing accelerometers feed the twin's spectral analysis engines. [pause: short] Felicity ratio, b-value, RA-value, spectral kurtosis — these are the Forge's "pain signals." The twin correlates AE clusters with FBG strain hotspots and vibration harmonics. [pause: short] A delamination at a gas port produces: AE cluster at 45° azimuth + FBG strain spike on adjacent channels + 2× vibration RMS on nearest bearing. [pause: short] The mirror fuses these into a single health state. [pause: short] [pause: short] Fleet Twin Mirror (Monthly): PROD-37 aggregates all Forges' maintenance data — PM compliance, CBM alerts, NCR rates, spare consumption, overhaul durations. [pause: short] The auto-encoder learns the nominal manifold; reconstruction error >3σ on any Forge triggers parameter guard tightening (e.g., ramp rate -5%, UT interval -2 months). [pause: short] The fleet reflects the single Forge's degradation back to it as operating constraints. [pause: short] The Mirror: maintenance is not planned by a scheduler — it is triggered by the Forge's own sensorium reflecting its degradation through the twin's Bayesian lens. [pause: short] --- Participation (Witness) ---
+nominal)[Inline equation:  for every channel, every component, every system. [pause: short] When ]\Lambda > 10[Inline equation: , the twin auto-generates an NCR before the operator acknowledges it. [pause: short] The mirror is not a report — it is the Forge's nervous system diagnosing itself. [pause: short] [pause: short] AE/Vibration Mirror (Continuous): The 8-channel AE on the vessel and bearing accelerometers feed the twin's spectral analysis engines. [pause: short] Felicity ratio, b-value, RA-value, spectral kurtosis — these are the Forge's pain signals. The twin correlates AE clusters with FBG strain hotspots and vibration harmonics. [pause: short] A delamination at a gas port produces: AE cluster at 45° azimuth + FBG strain spike on adjacent channels + 2× vibration RMS on nearest bearing. [pause: short] The mirror fuses these into a single health state. [pause: short] [pause: short] Fleet Twin Mirror (Monthly): PROD-37 aggregates all Forges' maintenance data — PM compliance, CBM alerts, NCR rates, spare consumption, overhaul durations. [pause: short] The auto-encoder learns the nominal manifold; reconstruction error >3σ on any Forge triggers parameter guard tightening (e.g., ramp rate -5%, UT interval -2 months). [pause: short] The fleet reflects the single Forge's degradation back to it as operating constraints. [pause: short] The Mirror: maintenance is not planned by a scheduler — it is triggered by the Forge's own sensorium reflecting its degradation through the twin's Bayesian lens. [pause: short] --- Participation (Witness) ---
 
 The inside operator witnesses the sustainment phenomenon at four non-automatable gates where human judgment authorizes maintenance consequence:
 
-[pause: short] Gate: Annual SIF Proof Test (CT-04 re-execution): SIS Engineer injects 24 trip conditions, watches <50 ms response on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the voter agreement — 2oo3 logic, SOE timestamps, FBG freeze at trip. [pause: short] The witness signs: "I saw the safety system protect itself." No auto-report replaces this. [pause: short] [pause: short] Gate: 18-Month Drum Swap Bolt Ceremony: The vessel flange re-bolting (24× M24 ZrO₂ at 160 N·m ±5 N·m, dual-verify, AE monitoring) is repeated. [pause: short] Two operators, independent wrenches, mutual verification. [pause: short] The ceramic bolts have no yield — the ceremony is the safety barrier for the pressure boundary. [pause: short] The witness says: "We both felt the same torque."
+[pause: short] Gate: Annual SIF Proof Test (CT-04 re-execution): SIS Engineer injects 24 trip conditions, watches <50 ms response on TSN VLAN 10. [pause: short] The automation runs the sequence; but the SIS Engineer witnesses the voter agreement — 2oo3 logic, SOE timestamps, FBG freeze at trip. [pause: short] The witness signs: I saw the safety system protect itself. No auto-report replaces this. [pause: short] [pause: short] Gate: 18-Month Drum Swap Bolt Ceremony: The vessel flange re-bolting (24× M24 ZrO₂ at 160 N·m ±5 N·m, dual-verify, AE monitoring) is repeated. [pause: short] Two operators, independent wrenches, mutual verification. [pause: short] The ceramic bolts have no yield — the ceremony is the safety barrier for the pressure boundary. [pause: short] The witness says: We both felt the same torque.
 
-[pause: short] Gate: Major Overhaul Authorization (Day 7 CT-08/SAT-05): After 7-day overhaul, Plant Manager + Lead EE + Lead ME + Safety Engineer review the abbreviated CT-08 and first hot batch. [pause: short] The twin says PASS; the witnesses judge the edge cases: "Zone 5 ramp 5% slow after drum swap — acceptable?" "FBG Channel 12 drift 0.4 nm — within tolerance?" Human judgment on post-overhaul anomalies is the authorization. [pause: short] [pause: short] Gate: Spare Part First-Article Acceptance: When a critical spare (refurbished drum, vessel, module) arrives from regional depot, ME + QA + Supplier Engineer witness the acceptance tests. [pause: short] The QR/blockchain shows factory data; the witnesses verify the part at site — UT, dimensions, FBG survival, functional test. [pause: short] The witness says: "This spare is equivalent to the original."
+[pause: short] Gate: Major Overhaul Authorization (Day 7 CT-08/SAT-05): After 7-day overhaul, Plant Manager + Lead EE + Lead ME + Safety Engineer review the abbreviated CT-08 and first hot batch. [pause: short] The twin says PASS; the witnesses judge the edge cases: Zone 5 ramp 5% slow after drum swap — acceptable? FBG Channel 12 drift 0.4 nm — within tolerance? Human judgment on post-overhaul anomalies is the authorization. [pause: short] [pause: short] Gate: Spare Part First-Article Acceptance: When a critical spare (refurbished drum, vessel, module) arrives from regional depot, ME + QA + Supplier Engineer witness the acceptance tests. [pause: short] The QR/blockchain shows factory data; the witnesses verify the part at site — UT, dimensions, FBG survival, functional test. [pause: short] The witness says: This spare is equivalent to the original.
 
 The Participation: four moments where the human is not monitoring — they are witnessing the sustainment into existence, adding the judgment that transforms sensor data into certified readiness. [pause: short] --- Protocol (Recursive) ---
 
@@ -46971,11 +46971,11 @@ Synthesis: The Lock (Williams) is the zero-metal/SIL-3 maintenance constraint. [
 
 The irreducible principle forcing this economic architecture is the Forge must be economically viable as a standalone unit while simultaneously generating the circular economics that make the Phoenix Protocol self-funding. [pause: short] A conventional waste processor optimizes for gate fees + commodity output. [pause: short] The Forge optimizes for three simultaneous objectives: (1) positive NPV at single-unit scale, (2) carbon-negative operations that monetize sequestration, (3) EOL return economics that fund the next generation of Forges. [pause: short] The Lock: every economic assumption must be validated by the physics of the cascade — no financial engineering can substitute for thermodynamic reality. [pause: short] The cascade's 8-stage temperature profile (160°C → 2200°C) is not a process choice — it is the periodic table expressing itself through Gibbs free energy minima. [pause: short] Indium MUST come out at 160°C (MP 156.6°C). [pause: short] Aluminum MUST come out at 660°C. [pause: short] Copper MUST come out at 1085°C. [pause: short] Zircon MUST dissociate at 1676°C. [pause: short] The economic model is DERIVED from these invariants, not imposed upon them. [pause: short] Any economic model that treats temperature stages as adjustable parameters is fiction. [pause: short] --- Necessity (The Key) ---
 
-The empirical gap is the absence of any economic framework for a zero-metal, Carrington-immune, SIL-3 industrial machine that makes its own body from its own waste. [pause: short] Conventional CAPEX models assume steel vessels, copper windings, thermocouple instrumentation — all of which become GIC antennas in a Carrington event. [pause: short] Conventional OPEX models assume thermocouple replacement, metallic tool maintenance, grounded electrical safety. [pause: short] Conventional revenue models assume single-commodity output (copper cathode). [pause: short] The Forge produces 17 simultaneous streams from a single feedstock, with the highest-value stream (indium) emerging at the LOWEST temperature stage — inverting the conventional "high temp = high value" heuristic. [pause: short] The Key: a physics-derived economic model where every cost and revenue line traces to a specific stage, temperature, and material invariant of the cascade. [pause: short] The CAPEX is not a lump sum — it is the sum of 10 WBS elements each tied to a zero-metal fabrication constraint (flash sintering, filament winding, In-foil TIM, GaN Class E). [pause: short] The OPEX is not a percentage of CAPEX — it is the sum of 6 consumable categories each tied to a specific wear mechanism (drum liner erosion, FBG drift, PEEK CF40 creep, ZrO₂ piston wear). [pause: short] The revenue is not a blended commodity price — it is 17 distinct streams each with its own market dynamics, purity requirements, and Phoenix Protocol re-entry path. [pause: short] --- Commitment (The Turn) ---
+The empirical gap is the absence of any economic framework for a zero-metal, Carrington-immune, SIL-3 industrial machine that makes its own body from its own waste. [pause: short] Conventional CAPEX models assume steel vessels, copper windings, thermocouple instrumentation — all of which become GIC antennas in a Carrington event. [pause: short] Conventional OPEX models assume thermocouple replacement, metallic tool maintenance, grounded electrical safety. [pause: short] Conventional revenue models assume single-commodity output (copper cathode). [pause: short] The Forge produces 17 simultaneous streams from a single feedstock, with the highest-value stream (indium) emerging at the LOWEST temperature stage — inverting the conventional high temp = high value heuristic. [pause: short] The Key: a physics-derived economic model where every cost and revenue line traces to a specific stage, temperature, and material invariant of the cascade. [pause: short] The CAPEX is not a lump sum — it is the sum of 10 WBS elements each tied to a zero-metal fabrication constraint (flash sintering, filament winding, In-foil TIM, GaN Class E). [pause: short] The OPEX is not a percentage of CAPEX — it is the sum of 6 consumable categories each tied to a specific wear mechanism (drum liner erosion, FBG drift, PEEK CF40 creep, ZrO₂ piston wear). [pause: short] The revenue is not a blended commodity price — it is 17 distinct streams each with its own market dynamics, purity requirements, and Phoenix Protocol re-entry path. [pause: short] --- Commitment (The Turn) ---
 
 This document commits the Forge to four non-negotiable economic chains:
 
-[pause: short] Single-unit viability at Phase 1 — The Forge must achieve 28% IRR and 3.2-year payback at 1 unit (226 ton/day) WITHOUT Phoenix Protocol revenue (which is a loss leader at -[Inline equation: 0.13/batch). [pause: short] The metal revenue alone (]82.7M/yr net) must cover OPEX ([Inline equation: 7.7M/yr) and debt service (]3.2M/yr) with 23× DSCR. [pause: short] No "strategic loss leader" hand-waving. [pause: short] [pause: short] Carbon negativity is a revenue line, not a cost — -2.3 tCO₂e/ton EOL processed is a PHYSICAL RESULT of MgO carbonation (Stage 7 slag) + avoided primary production (Zr, In, REE, Cu). [pause: short] At [Inline equation: 50/tCO₂e this is ]575K/yr/Forge at 50-Forge network. [pause: short] The model does not "buy offsets" — the Forge IS the offset. [pause: short] [pause: short] Phoenix Protocol breaks even at 2.5 Forges — The depot network ([Inline equation: 10M capex, ]3.3M/yr ops) is funded by virgin e-waste gate fees + PM revenue. [pause: short] The EOL blend ratio optimization (40-60% EOL) maximizes high-value In/Y/Co recovery from known-composition Aegis products. [pause: short] The economic model proves the Forge becomes MORE profitable as waste disposal costs rise. [pause: short] [pause: short] Scale economics follow physics, not finance — Gen-II (2000 L) achieves 41% IRR and 2.1-year payback because CAPEX scales at 0.67× (physics: volume/area ratios) while throughput scales at 1.0× (linear). [pause: short] OPEX/ton drops 40% (energy/ton -28%, labor/ton -58%). [pause: short] The economic model is the cascade's thermodynamics expressed in dollars. [pause: short] [pause: long]
+[pause: short] Single-unit viability at Phase 1 — The Forge must achieve 28% IRR and 3.2-year payback at 1 unit (226 ton/day) WITHOUT Phoenix Protocol revenue (which is a loss leader at -[Inline equation: 0.13/batch). [pause: short] The metal revenue alone (]82.7M/yr net) must cover OPEX ([Inline equation: 7.7M/yr) and debt service (]3.2M/yr) with 23× DSCR. [pause: short] No strategic loss leader hand-waving. [pause: short] [pause: short] Carbon negativity is a revenue line, not a cost — -2.3 tCO₂e/ton EOL processed is a PHYSICAL RESULT of MgO carbonation (Stage 7 slag) + avoided primary production (Zr, In, REE, Cu). [pause: short] At [Inline equation: 50/tCO₂e this is ]575K/yr/Forge at 50-Forge network. [pause: short] The model does not buy offsets — the Forge IS the offset. [pause: short] [pause: short] Phoenix Protocol breaks even at 2.5 Forges — The depot network ([Inline equation: 10M capex, ]3.3M/yr ops) is funded by virgin e-waste gate fees + PM revenue. [pause: short] The EOL blend ratio optimization (40-60% EOL) maximizes high-value In/Y/Co recovery from known-composition Aegis products. [pause: short] The economic model proves the Forge becomes MORE profitable as waste disposal costs rise. [pause: short] [pause: short] Scale economics follow physics, not finance — Gen-II (2000 L) achieves 41% IRR and 2.1-year payback because CAPEX scales at 0.67× (physics: volume/area ratios) while throughput scales at 1.0× (linear). [pause: short] OPEX/ton drops 40% (energy/ton -28%, labor/ton -58%). [pause: short] The economic model is the cascade's thermodynamics expressed in dollars. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -46983,7 +46983,7 @@ This document commits the Forge to four non-negotiable economic chains:
 
 The fabrication fidelity gap in Forge economics is the divergence between project finance templates (designed for steel/concrete/commodity plants) and the reality of a 226 L, 2200°C, zero-metal, SIL-3, carbon-negative, self-replicating industrial machine. [pause: short] Three specific locks prevent conventional economic modeling from closing this gap:
 
-[pause: short] Revenue concurrency lock: Conventional plants produce ONE primary product. [pause: short] The Forge produces 17 streams simultaneously from a SINGLE feedstock batch. [pause: short] The revenue is not additive — it is COUPLED. [pause: short] Indium recovery at Stage 4 (160°C) ENABLES copper anode slime PM concentration at Stage 6 (1085°C) because In/Sn melt scavenges Au/Ag/Pd. [pause: short] Aluminum separation at Stage 5 (660°C) CONDITIONS the ferrous feed at Stage 7 by removing Mg. [pause: short] The economic model must capture these cross-stage couplings or it double-counts/under-counts value. [pause: short] [pause: short] CAPEX physics lock: Conventional CAPEX scales with "plant capacity" as a monetary proxy. [pause: short] The Forge's CAPEX scales with PHYSICAL INVARIANTS: drum diameter (600 mm → flash sinter physics), vessel ID (900 mm → Barlow's formula), coil zones (8 → frequency ladder 100kHz→1kHz), GaN modules (8 → 500 kW/zone). [pause: short] You cannot "value engineer" the flash sinter furnace — it IS the drum. [pause: short] You cannot "substitute" the BFRP vessel — it IS the pressure boundary. [pause: short] The CAPEX is the sum of physics constraints, not procurement choices. [pause: short] [pause: short] Circularity valuation lock: Conventional NPV treats "recycling" as a cost center. [pause: short] The Forge's Phoenix Protocol makes recycling a REVENUE CENTER with its own IRR. [pause: short] The depot network ([Inline equation: 10M capex) pays back in 4 days per primary depot (]286K/day savings vs. [pause: short] virgin feedstock). [pause: short] The drum autopoiesis (31 generations, 15,500 batches) reduces ZrB₂-SiC cost from [Inline equation: 180K/drum (virgin) to ]5.8K/drum (recycled). [pause: short] The economic model must value the RECURSIVE quality degradation (O₂ 0.5%→0.7% over 31 gen) and the RECURSIVE carbon credit (MgO carbonation each generation). [pause: short] --- The Mathematical Key ---
+[pause: short] Revenue concurrency lock: Conventional plants produce ONE primary product. [pause: short] The Forge produces 17 streams simultaneously from a SINGLE feedstock batch. [pause: short] The revenue is not additive — it is COUPLED. [pause: short] Indium recovery at Stage 4 (160°C) ENABLES copper anode slime PM concentration at Stage 6 (1085°C) because In/Sn melt scavenges Au/Ag/Pd. [pause: short] Aluminum separation at Stage 5 (660°C) CONDITIONS the ferrous feed at Stage 7 by removing Mg. [pause: short] The economic model must capture these cross-stage couplings or it double-counts/under-counts value. [pause: short] [pause: short] CAPEX physics lock: Conventional CAPEX scales with plant capacity as a monetary proxy. [pause: short] The Forge's CAPEX scales with PHYSICAL INVARIANTS: drum diameter (600 mm → flash sinter physics), vessel ID (900 mm → Barlow's formula), coil zones (8 → frequency ladder 100kHz→1kHz), GaN modules (8 → 500 kW/zone). [pause: short] You cannot value engineer the flash sinter furnace — it IS the drum. [pause: short] You cannot substitute the BFRP vessel — it IS the pressure boundary. [pause: short] The CAPEX is the sum of physics constraints, not procurement choices. [pause: short] [pause: short] Circularity valuation lock: Conventional NPV treats recycling as a cost center. [pause: short] The Forge's Phoenix Protocol makes recycling a REVENUE CENTER with its own IRR. [pause: short] The depot network ([Inline equation: 10M capex) pays back in 4 days per primary depot (]286K/day savings vs. [pause: short] virgin feedstock). [pause: short] The drum autopoiesis (31 generations, 15,500 batches) reduces ZrB₂-SiC cost from [Inline equation: 180K/drum (virgin) to ]5.8K/drum (recycled). [pause: short] The economic model must value the RECURSIVE quality degradation (O₂ 0.5%→0.7% over 31 gen) and the RECURSIVE carbon credit (MgO carbonation each generation). [pause: short] --- The Mathematical Key ---
 
 The single computational primitive that generates the economic solution is the Physics-Constrained Cash Flow Operator (PCCFO) evaluated at each cascade stage:
 
@@ -48421,11 +48421,11 @@ Cross-referenced: PROD-22, 27, 28, 29, 30, FOLLOW-23, 24
 
 The irreducible principle forcing this economic architecture is the Forge must be economically viable as a standalone unit while simultaneously generating the circular economics that make the Phoenix Protocol self-funding. [pause: short] A conventional waste processor optimizes for gate fees + commodity output. [pause: short] The Forge optimizes for three simultaneous objectives: (1) positive NPV at single-unit scale, (2) carbon-negative operations that monetize sequestration, (3) EOL return economics that fund the next generation of Forges. [pause: short] The Lock: every economic assumption must be validated by the physics of the cascade — no financial engineering can substitute for thermodynamic reality. [pause: short] The cascade's 8-stage temperature profile (160°C → 2200°C) is not a process choice — it is the periodic table expressing itself through Gibbs free energy minima. [pause: short] Indium MUST come out at 160°C (MP 156.6°C). [pause: short] Aluminum MUST come out at 660°C. [pause: short] Copper MUST come out at 1085°C. [pause: short] Zircon MUST dissociate at 1676°C. [pause: short] The economic model is DERIVED from these invariants, not imposed upon them. [pause: short] Any economic model that treats temperature stages as adjustable parameters is fiction. [pause: short] --- Necessity (The Key) ---
 
-The empirical gap is the absence of any economic framework for a zero-metal, Carrington-immune, SIL-3 industrial machine that makes its own body from its own waste. [pause: short] Conventional CAPEX models assume steel vessels, copper windings, thermocouple instrumentation — all of which become GIC antennas in a Carrington event. [pause: short] Conventional OPEX models assume thermocouple replacement, metallic tool maintenance, grounded electrical safety. [pause: short] Conventional revenue models assume single-commodity output (copper cathode). [pause: short] The Forge produces 17 simultaneous streams from a single feedstock, with the highest-value stream (indium) emerging at the LOWEST temperature stage — inverting the conventional "high temp = high value" heuristic. [pause: short] The Key: a physics-derived economic model where every cost and revenue line traces to a specific stage, temperature, and material invariant of the cascade. [pause: short] The CAPEX is not a lump sum — it is the sum of 10 WBS elements each tied to a zero-metal fabrication constraint (flash sintering, filament winding, In-foil TIM, GaN Class E). [pause: short] The OPEX is not a percentage of CAPEX — it is the sum of 6 consumable categories each tied to a specific wear mechanism (drum liner erosion, FBG drift, PEEK CF40 creep, ZrO₂ piston wear). [pause: short] The revenue is not a blended commodity price — it is 17 distinct streams each with its own market dynamics, purity requirements, and Phoenix Protocol re-entry path. [pause: short] --- Commitment (The Turn) ---
+The empirical gap is the absence of any economic framework for a zero-metal, Carrington-immune, SIL-3 industrial machine that makes its own body from its own waste. [pause: short] Conventional CAPEX models assume steel vessels, copper windings, thermocouple instrumentation — all of which become GIC antennas in a Carrington event. [pause: short] Conventional OPEX models assume thermocouple replacement, metallic tool maintenance, grounded electrical safety. [pause: short] Conventional revenue models assume single-commodity output (copper cathode). [pause: short] The Forge produces 17 simultaneous streams from a single feedstock, with the highest-value stream (indium) emerging at the LOWEST temperature stage — inverting the conventional high temp = high value heuristic. [pause: short] The Key: a physics-derived economic model where every cost and revenue line traces to a specific stage, temperature, and material invariant of the cascade. [pause: short] The CAPEX is not a lump sum — it is the sum of 10 WBS elements each tied to a zero-metal fabrication constraint (flash sintering, filament winding, In-foil TIM, GaN Class E). [pause: short] The OPEX is not a percentage of CAPEX — it is the sum of 6 consumable categories each tied to a specific wear mechanism (drum liner erosion, FBG drift, PEEK CF40 creep, ZrO₂ piston wear). [pause: short] The revenue is not a blended commodity price — it is 17 distinct streams each with its own market dynamics, purity requirements, and Phoenix Protocol re-entry path. [pause: short] --- Commitment (The Turn) ---
 
 This document commits the Forge to four non-negotiable economic chains:
 
-[pause: short] Single-unit viability at Phase 1 — The Forge must achieve 28% IRR and 3.2-year payback at 1 unit (226 ton/day) WITHOUT Phoenix Protocol revenue (which is a loss leader at -[Inline equation: 0.13/batch). [pause: short] The metal revenue alone (]82.7M/yr net) must cover OPEX ([Inline equation: 7.7M/yr) and debt service (]3.2M/yr) with 23× DSCR. [pause: short] No "strategic loss leader" hand-waving. [pause: short] [pause: short] Carbon negativity is a revenue line, not a cost — -2.3 tCO₂e/ton EOL processed is a PHYSICAL RESULT of MgO carbonation (Stage 7 slag) + avoided primary production (Zr, In, REE, Cu). [pause: short] At [Inline equation: 50/tCO₂e this is ]575K/yr/Forge at 50-Forge network. [pause: short] The model does not "buy offsets" — the Forge IS the offset. [pause: short] [pause: short] Phoenix Protocol breaks even at 2.5 Forges — The depot network ([Inline equation: 10M capex, ]3.3M/yr ops) is funded by virgin e-waste gate fees + PM revenue. [pause: short] The EOL blend ratio optimization (40-60% EOL) maximizes high-value In/Y/Co recovery from known-composition Aegis products. [pause: short] The economic model proves the Forge becomes MORE profitable as waste disposal costs rise. [pause: short] [pause: short] Scale economics follow physics, not finance — Gen-II (2000 L) achieves 41% IRR and 2.1-year payback because CAPEX scales at 0.67× (physics: volume/area ratios) while throughput scales at 1.0× (linear). [pause: short] OPEX/ton drops 40% (energy/ton -28%, labor/ton -58%). [pause: short] The economic model is the cascade's thermodynamics expressed in dollars. [pause: short] [pause: long]
+[pause: short] Single-unit viability at Phase 1 — The Forge must achieve 28% IRR and 3.2-year payback at 1 unit (226 ton/day) WITHOUT Phoenix Protocol revenue (which is a loss leader at -[Inline equation: 0.13/batch). [pause: short] The metal revenue alone (]82.7M/yr net) must cover OPEX ([Inline equation: 7.7M/yr) and debt service (]3.2M/yr) with 23× DSCR. [pause: short] No strategic loss leader hand-waving. [pause: short] [pause: short] Carbon negativity is a revenue line, not a cost — -2.3 tCO₂e/ton EOL processed is a PHYSICAL RESULT of MgO carbonation (Stage 7 slag) + avoided primary production (Zr, In, REE, Cu). [pause: short] At [Inline equation: 50/tCO₂e this is ]575K/yr/Forge at 50-Forge network. [pause: short] The model does not buy offsets — the Forge IS the offset. [pause: short] [pause: short] Phoenix Protocol breaks even at 2.5 Forges — The depot network ([Inline equation: 10M capex, ]3.3M/yr ops) is funded by virgin e-waste gate fees + PM revenue. [pause: short] The EOL blend ratio optimization (40-60% EOL) maximizes high-value In/Y/Co recovery from known-composition Aegis products. [pause: short] The economic model proves the Forge becomes MORE profitable as waste disposal costs rise. [pause: short] [pause: short] Scale economics follow physics, not finance — Gen-II (2000 L) achieves 41% IRR and 2.1-year payback because CAPEX scales at 0.67× (physics: volume/area ratios) while throughput scales at 1.0× (linear). [pause: short] OPEX/ton drops 40% (energy/ton -28%, labor/ton -58%). [pause: short] The economic model is the cascade's thermodynamics expressed in dollars. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -48433,7 +48433,7 @@ This document commits the Forge to four non-negotiable economic chains:
 
 The fabrication fidelity gap in Forge economics is the divergence between project finance templates (designed for steel/concrete/commodity plants) and the reality of a 226 L, 2200°C, zero-metal, SIL-3, carbon-negative, self-replicating industrial machine. [pause: short] Three specific locks prevent conventional economic modeling from closing this gap:
 
-[pause: short] Revenue concurrency lock: Conventional plants produce ONE primary product. [pause: short] The Forge produces 17 streams simultaneously from a SINGLE feedstock batch. [pause: short] The revenue is not additive — it is COUPLED. [pause: short] Indium recovery at Stage 4 (160°C) ENABLES copper anode slime PM concentration at Stage 6 (1085°C) because In/Sn melt scavenges Au/Ag/Pd. [pause: short] Aluminum separation at Stage 5 (660°C) CONDITIONS the ferrous feed at Stage 7 by removing Mg. [pause: short] The economic model must capture these cross-stage couplings or it double-counts/under-counts value. [pause: short] [pause: short] CAPEX physics lock: Conventional CAPEX scales with "plant capacity" as a monetary proxy. [pause: short] The Forge's CAPEX scales with PHYSICAL INVARIANTS: drum diameter (600 mm → flash sinter physics), vessel ID (900 mm → Barlow's formula), coil zones (8 → frequency ladder 100kHz→1kHz), GaN modules (8 → 500 kW/zone). [pause: short] You cannot "value engineer" the flash sinter furnace — it IS the drum. [pause: short] You cannot "substitute" the BFRP vessel — it IS the pressure boundary. [pause: short] The CAPEX is the sum of physics constraints, not procurement choices. [pause: short] [pause: short] Circularity valuation lock: Conventional NPV treats "recycling" as a cost center. [pause: short] The Forge's Phoenix Protocol makes recycling a REVENUE CENTER with its own IRR. [pause: short] The depot network ([Inline equation: 10M capex) pays back in 4 days per primary depot (]286K/day savings vs. [pause: short] virgin feedstock). [pause: short] The drum autopoiesis (31 generations, 15,500 batches) reduces ZrB₂-SiC cost from [Inline equation: 180K/drum (virgin) to ]5.8K/drum (recycled). [pause: short] The economic model must value the RECURSIVE quality degradation (O₂ 0.5%→0.7% over 31 gen) and the RECURSIVE carbon credit (MgO carbonation each generation). [pause: short] --- The Mathematical Key ---
+[pause: short] Revenue concurrency lock: Conventional plants produce ONE primary product. [pause: short] The Forge produces 17 streams simultaneously from a SINGLE feedstock batch. [pause: short] The revenue is not additive — it is COUPLED. [pause: short] Indium recovery at Stage 4 (160°C) ENABLES copper anode slime PM concentration at Stage 6 (1085°C) because In/Sn melt scavenges Au/Ag/Pd. [pause: short] Aluminum separation at Stage 5 (660°C) CONDITIONS the ferrous feed at Stage 7 by removing Mg. [pause: short] The economic model must capture these cross-stage couplings or it double-counts/under-counts value. [pause: short] [pause: short] CAPEX physics lock: Conventional CAPEX scales with plant capacity as a monetary proxy. [pause: short] The Forge's CAPEX scales with PHYSICAL INVARIANTS: drum diameter (600 mm → flash sinter physics), vessel ID (900 mm → Barlow's formula), coil zones (8 → frequency ladder 100kHz→1kHz), GaN modules (8 → 500 kW/zone). [pause: short] You cannot value engineer the flash sinter furnace — it IS the drum. [pause: short] You cannot substitute the BFRP vessel — it IS the pressure boundary. [pause: short] The CAPEX is the sum of physics constraints, not procurement choices. [pause: short] [pause: short] Circularity valuation lock: Conventional NPV treats recycling as a cost center. [pause: short] The Forge's Phoenix Protocol makes recycling a REVENUE CENTER with its own IRR. [pause: short] The depot network ([Inline equation: 10M capex) pays back in 4 days per primary depot (]286K/day savings vs. [pause: short] virgin feedstock). [pause: short] The drum autopoiesis (31 generations, 15,500 batches) reduces ZrB₂-SiC cost from [Inline equation: 180K/drum (virgin) to ]5.8K/drum (recycled). [pause: short] The economic model must value the RECURSIVE quality degradation (O₂ 0.5%→0.7% over 31 gen) and the RECURSIVE carbon credit (MgO carbonation each generation). [pause: short] --- The Mathematical Key ---
 
 The single computational primitive that generates the economic solution is the Physics-Constrained Cash Flow Operator (PCCFO) evaluated at each cascade stage:
 
@@ -48498,7 +48498,7 @@ The empirical gap is the absence of any regulatory precedent for a zero-metal, C
 
 This document commits the Forge to four non-negotiable regulatory chains:
 
-[pause: short] Zero-discharge is absolute — No process wastewater discharge permit. [pause: short] Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. [pause: short] NPDES only for stormwater. [pause: short] This is not "minimization" — it is elimination. [pause: short] [pause: short] All-dielectric compliance is mandatory — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). [pause: short] No "waiver" — the Forge demonstrates superior GIC immunity through physics, not exception. [pause: short] [pause: short] SIL-3 SIFs are immutable — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). [pause: short] No risk-based interval extension. [pause: short] No CBM substitution. [pause: short] This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon. [pause: short] [pause: short] Carbon negativity is a compliance asset — -2.3 tCO₂e/ton EOL is not "offsets purchased" — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). [pause: short] The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program. [pause: short] [pause: long]
+[pause: short] Zero-discharge is absolute — No process wastewater discharge permit. [pause: short] Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. [pause: short] NPDES only for stormwater. [pause: short] This is not minimization — it is elimination. [pause: short] [pause: short] All-dielectric compliance is mandatory — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). [pause: short] No waiver — the Forge demonstrates superior GIC immunity through physics, not exception. [pause: short] [pause: short] SIL-3 SIFs are immutable — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). [pause: short] No risk-based interval extension. [pause: short] No CBM substitution. [pause: short] This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon. [pause: short] [pause: short] Carbon negativity is a compliance asset — -2.3 tCO₂e/ton EOL is not offsets purchased — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). [pause: short] The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -48506,7 +48506,7 @@ This document commits the Forge to four non-negotiable regulatory chains:
 
 The fabrication fidelity gap in Forge regulatory compliance is the divergence between prescriptive regulatory codes (written for steel/concrete/copper plants) and the performance reality of a zero-metal, all-dielectric, 2200°C, Carrington-immune industrial machine. [pause: short] Three specific locks prevent conventional compliance engineering from closing this gap:
 
-[pause: short] Prescriptive vs. [pause: short] Performance Lock: Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: "steel vessel per Sec VIII," "grounding per NFPA 70," "thermocouples per ISA," "copper conduit per NEC." The Forge uses NONE of these materials or methods. [pause: short] The lock: regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior. [pause: short] [pause: short] Common-Cause Failure Lock: IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. [pause: short] The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). [pause: short] A single interrogator failure = 3 SIF channels lost. [pause: short] The lock: regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality. [pause: short] [pause: short] Carbon Accounting Lock: Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats "recycling" as avoided emissions (Scope 3) and "sequestration" as separate projects. [pause: short] The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. [pause: short] The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. [pause: short] The lock: regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration. [pause: short] --- The Mathematical Key ---
+[pause: short] Prescriptive vs. [pause: short] Performance Lock: Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: steel vessel per Sec VIII, grounding per NFPA 70, thermocouples per ISA, copper conduit per NEC. The Forge uses NONE of these materials or methods. [pause: short] The lock: regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior. [pause: short] [pause: short] Common-Cause Failure Lock: IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. [pause: short] The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). [pause: short] A single interrogator failure = 3 SIF channels lost. [pause: short] The lock: regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality. [pause: short] [pause: short] Carbon Accounting Lock: Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats recycling as avoided emissions (Scope 3) and sequestration as separate projects. [pause: short] The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. [pause: short] The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. [pause: short] The lock: regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration. [pause: short] --- The Mathematical Key ---
 
 The single computational primitive that generates the compliance solution is the Regulatory Equivalence Operator (REO) evaluated at each prescriptive requirement:
 
@@ -48517,8 +48517,8 @@ REO[R_prescriptive, P_forge, M_forge, D_forge] =
               Witness(P_forge) ∈ Operator_Gates
 
 Where:
-R_prescriptive = Prescriptive requirement (e.g., "steel vessel per ASME Sec VIII")
-P_forge = Forge performance demonstration (e.g., "BFRP vessel per Sec X + FEA HCLPF >1.6g")
+R_prescriptive = Prescriptive requirement (e.g., steel vessel per ASME Sec VIII)
+P_forge = Forge performance demonstration (e.g., BFRP vessel per Sec X + FEA HCLPF >1.6g)
 M_forge = Forge measurement system (FBG, AE, CEMS, LIBS, mass spec, CT)
 D_forge = Forge data integrity (Hyperledger, PTP <1μs, TSN determinism)
 [End code block]
@@ -48783,7 +48783,7 @@ Hydromet Circuit Treatment Unit:
 
 [Table row: ,  Sulfur Dioxide (SO₂) ,  3,000 (Stage 7-8) ,  5,000 ,  No , ]
 
-Covered Process: "Stage 3-8 Thermal Processing including H₂/CO/NH₃/Cl₂/HCl systems"
+Covered Process: Stage 3-8 Thermal Processing including H₂/CO/NH₃/Cl₂/HCl systems
 
 --- 3.2 PSM 14-Element Implementation ---
 
@@ -48901,7 +48901,7 @@ Worst-Case Release (WCR):
 
 Alternative Release Scenario (ARS):
 
-[pause: short] Scenario: H₂ storage (15,000 lbs) leak 1" pipe, 10-min, ignition
+[pause: short] Scenario: H₂ storage (15,000 lbs) leak 1 pipe, 10-min, ignition
 
 [pause: short] Model: ALOHA, BLEVE + vapor cloud explosion
 
@@ -49121,7 +49121,7 @@ Control Room:
 
 --- 7.3 Arc Flash (NFPA 70E) ---
 
-[Table row: ,  Location ,  Voltage ,  Bolted Fault ,  Arcing Fault ,  Incident Energy (18") ,  PPE Category , ]
+[Table row: ,  Location ,  Voltage ,  Bolted Fault ,  Arcing Fault ,  Incident Energy (18) ,  PPE Category , ]
 
 [Table row: , ----------, ---------, --------------, --------------, ----------------------, --------------, ]
 
@@ -49945,7 +49945,7 @@ The empirical gap is the absence of any regulatory precedent for a zero-metal, C
 
 This document commits the Forge to four non-negotiable regulatory chains:
 
-[pause: short] Zero-discharge is absolute — No process wastewater discharge permit. [pause: short] Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. [pause: short] NPDES only for stormwater. [pause: short] This is not "minimization" — it is elimination. [pause: short] [pause: short] All-dielectric compliance is mandatory — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). [pause: short] No "waiver" — the Forge demonstrates superior GIC immunity through physics, not exception. [pause: short] [pause: short] SIL-3 SIFs are immutable — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). [pause: short] No risk-based interval extension. [pause: short] No CBM substitution. [pause: short] This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon. [pause: short] [pause: short] Carbon negativity is a compliance asset — -2.3 tCO₂e/ton EOL is not "offsets purchased" — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). [pause: short] The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program. [pause: short] [pause: long]
+[pause: short] Zero-discharge is absolute — No process wastewater discharge permit. [pause: short] Closed-loop water with DI polisher, scrubber bleed to Stage 7 slag, cooling blowdown recycled. [pause: short] NPDES only for stormwater. [pause: short] This is not minimization — it is elimination. [pause: short] [pause: short] All-dielectric compliance is mandatory — Every regulatory requirement for grounding, shielding, metallic conduit, copper wiring, thermocouples is met through equivalent dielectric performance (PMMA POF, PEX-a, BFRP, YInMn glaze, ceramic bushings). [pause: short] No waiver — the Forge demonstrates superior GIC immunity through physics, not exception. [pause: short] [pause: short] SIL-3 SIFs are immutable — 24 SIFs, 2oo3 voting, PFD<10⁻³, annual proof test (CT-04). [pause: short] No risk-based interval extension. [pause: short] No CBM substitution. [pause: short] This is the safety load-bearing wall that PROD-23, 26, 28, 29, 30, 39 all build upon. [pause: short] [pause: short] Carbon negativity is a compliance asset — -2.3 tCO₂e/ton EOL is not offsets purchased — it is MgO carbonation (measured) + avoided primary production (calculated from mass balance). [pause: short] The NEPA EA, Title V permit, and RMP all treat this as a quantified environmental benefit, not a separate program. [pause: short] [pause: long]
 
 --- Keymaker Heuristic — Implementation Precision ---
 
@@ -49953,7 +49953,7 @@ This document commits the Forge to four non-negotiable regulatory chains:
 
 The fabrication fidelity gap in Forge regulatory compliance is the divergence between prescriptive regulatory codes (written for steel/concrete/copper plants) and the performance reality of a zero-metal, all-dielectric, 2200°C, Carrington-immune industrial machine. [pause: short] Three specific locks prevent conventional compliance engineering from closing this gap:
 
-[pause: short] Prescriptive vs. [pause: short] Performance Lock: Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: "steel vessel per Sec VIII," "grounding per NFPA 70," "thermocouples per ISA," "copper conduit per NEC." The Forge uses NONE of these materials or methods. [pause: short] The lock: regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior. [pause: short] [pause: short] Common-Cause Failure Lock: IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. [pause: short] The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). [pause: short] A single interrogator failure = 3 SIF channels lost. [pause: short] The lock: regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality. [pause: short] [pause: short] Carbon Accounting Lock: Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats "recycling" as avoided emissions (Scope 3) and "sequestration" as separate projects. [pause: short] The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. [pause: short] The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. [pause: short] The lock: regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration. [pause: short] --- The Mathematical Key ---
+[pause: short] Prescriptive vs. [pause: short] Performance Lock: Every major code (ASME, NFPA, OSHA, EPA, IEEE) prescribes MATERIALS AND METHODS: steel vessel per Sec VIII, grounding per NFPA 70, thermocouples per ISA, copper conduit per NEC. The Forge uses NONE of these materials or methods. [pause: short] The lock: regulatory codes specify the how; the Forge must prove the what (safety/environmental outcome) is equivalent or superior. [pause: short] [pause: short] Common-Cause Failure Lock: IEC 61508 SIL-3 assumes 2oo3 voting on PHYSICALLY INDEPENDENT channels. [pause: short] The Forge's 24 SIFs share: FBG interrogators (3 zones per interrogator), TSN network (single dual-ring), 24 VDC power (single DC bus), RTU chassis (shared ARM cores). [pause: short] A single interrogator failure = 3 SIF channels lost. [pause: short] The lock: regulatory independence assumptions fail in the Forge's constrained, shared-infrastructure reality. [pause: short] [pause: short] Carbon Accounting Lock: Conventional GHG accounting (GHG Protocol, 40 CFR 98) treats recycling as avoided emissions (Scope 3) and sequestration as separate projects. [pause: short] The Forge's MgO carbonation happens INSIDE the process vessel (Stage 7 slag) as an inherent process outcome, not a separate project. [pause: short] The Phoenix Protocol circularity means the SAME drum sequesters CO₂ 31 times over 15,500 batches. [pause: short] The lock: regulatory carbon frameworks don't model recursive, in-process, multi-generation sequestration. [pause: short] --- The Mathematical Key ---
 
 The single computational primitive that generates the compliance solution is the Regulatory Equivalence Operator (REO) evaluated at each prescriptive requirement:
 
@@ -49964,8 +49964,8 @@ REO[R_prescriptive, P_forge, M_forge, D_forge] =
               Witness(P_forge) ∈ Operator_Gates
 
 Where:
-R_prescriptive = Prescriptive requirement (e.g., "steel vessel per ASME Sec VIII")
-P_forge = Forge performance demonstration (e.g., "BFRP vessel per Sec X + FEA HCLPF >1.6g")
+R_prescriptive = Prescriptive requirement (e.g., steel vessel per ASME Sec VIII)
+P_forge = Forge performance demonstration (e.g., BFRP vessel per Sec X + FEA HCLPF >1.6g)
 M_forge = Forge measurement system (FBG, AE, CEMS, LIBS, mass spec, CT)
 D_forge = Forge data integrity (Hyperledger, PTP <1μs, TSN determinism)
 [End code block]
@@ -50100,7 +50100,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Inbound: LIBS spot-check on every ZrB₂/SiC drum at receiving dock (O₂ <0.5%, moisture <0.1%, PSD D50=1.5±0.3μm). [pause: short] PMMA POF attenuation logged per spool (<0.15 dB/m @ 1550 nm). [pause: short] Elium® viscosity verified per IBC (150±20 mPa·s). [pause: short] [pause: short] Warehouse: Zone A (critical powders) — continuous O₂/RH/temp logging, Novec fire suppression armed, desiccant regeneration cycles tracked. [pause: short] Zone F (Phoenix crates) — RFID portal scans every crate in/out, cycle count vs. [pause: short] 500-cycle life, wash bay throughput logged. [pause: short] [pause: short] Depot Network: Every Tertiary hub QR-scans returns → Category D1-D7 → crate UUID. [pause: short] Every Secondary hub discharges batteries/capacitors → logs SOC. [pause: short] Every Primary hub runs LIBS/XRF on 100% disassembly output → feeds CMF-RQT M_return vector in real-time. [pause: short] [pause: short] Transport: Electric Class 8 trucks report SOC, location, crate UUIDs, carbon intensity per km to PRISM platform. [pause: short] Rail cars tracked via AEI tags, temperature/humidity logged for Elium® reefers. [pause: short] [pause: short] Stockpile: ITAR cage (In) — weight scale + vacuum sensor + N₂ pressure logged hourly. [pause: short] Desiccant cabinets — RH/temp logged, desiccant regeneration scheduled. [pause: short] The fabricator sees the supply chain as a distributed sensor network. [pause: short] Every material movement is a measurement. [pause: short] Every measurement updates CMF-RQT. [pause: short] Every CMF-RQT update adjusts blend ratio, depot routing, stockpile draw, AVL orders. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The supply chain operator does not "manage" — they witness material becoming Forge:
+How does the inside operator witness the phenomenon into existence? [pause: short] The supply chain operator does not manage — they witness material becoming Forge:
 
 [pause: short] Receiving Dock Operator witnesses ZrB₂ drums arrive: scans RFID, runs LIBS, signs COA, assigns to Zone A slot. [pause: short] They feel the 25 kg drum mass, see the Ar backfill pressure, know this powder becomes Drum Zone B at 1676°C. [pause: short] [pause: short] Depot Disassembly Tech witnesses Aegis-C Panel return: 15-min auto cycle, watches vision-guided 6-axis extract PCBs, sees Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. [pause: short] They witness EOL becoming feedstock. [pause: short] [pause: short] Warehouse Stocker witnesses crate return: RFID portal beeps, checks cycle count (347/500), routes to wash bay, watches 99% water recycle, stages for redeploy. [pause: short] They witness the crate's 14-day recursive life. [pause: short] [pause: short] Blend Ratio Engineer witnesses MFC adjust P_blend from 48% to 52% EOL: sees LIBS data from Primary Depot NA showing In spike in D4 stream, approves gate fee increase from ]50 to [Inline equation: 75/ton, watches Stage 4 indium recovery rise from 6.4g to 7.1g/batch. [pause: short] They witness economics driving physics. [pause: short] No dashboards. [pause: short] No reports. [pause: short] Direct sensory-motor coupling to the material flow. [pause: short] The operator's hands are on the crate, the LIBS gun, the blend ratio knob. [pause: short] They are inside the CMF-RQT. [pause: short] --- Protocol (Recursive) ---
 
@@ -50280,7 +50280,7 @@ Supply Chain Risk Management (SCRM) Process:
 
 [Table row: , ----------, -------------, --------, ---------------, ]
 
-[Table row: ,  PEX-a Tubing ,  Cooling circuits (16 L/min) ,  Uponor (US/DE) ,  SDR 11, 1" OD, 200 m/Forge , ]
+[Table row: ,  PEX-a Tubing ,  Cooling circuits (16 L/min) ,  Uponor (US/DE) ,  SDR 11, 1 OD, 200 m/Forge , ]
 
 [Table row: ,  PMMA POF ,  Fieldbus (384 ch FBG + control) ,  Mitsubishi (JP), Toray (JP) ,  1550 nm, 100 m max, <0.15 dB/m , ]
 
@@ -50656,7 +50656,7 @@ Key Insight: Higher gate fees → higher EOL blend → more high-value In/Y/Co r
 
 [Table row: ,  Rail Siding ,  Dedicated 2-track, 500 m, 286k lb capacity, covered unloading , ]
 
-[Table row: ,  Truck Dock ,  4 bays, 48" dock height, levelers, overhead doors (14'×14') , ]
+[Table row: ,  Truck Dock ,  4 bays, 48 dock height, levelers, overhead doors (14'×14') , ]
 
 [Table row: ,  Crane ,  10t overhead (forge bay), 5t jib (receiving), 2t mobile (depot) , ]
 
@@ -51260,7 +51260,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Inbound: LIBS spot-check on every ZrB₂/SiC drum at receiving dock (O₂ <0.5%, moisture <0.1%, PSD D50=1.5±0.3μm). [pause: short] PMMA POF attenuation logged per spool (<0.15 dB/m @ 1550 nm). [pause: short] Elium® viscosity verified per IBC (150±20 mPa·s). [pause: short] [pause: short] Warehouse: Zone A (critical powders) — continuous O₂/RH/temp logging, Novec fire suppression armed, desiccant regeneration cycles tracked. [pause: short] Zone F (Phoenix crates) — RFID portal scans every crate in/out, cycle count vs. [pause: short] 500-cycle life, wash bay throughput logged. [pause: short] [pause: short] Depot Network: Every Tertiary hub QR-scans returns → Category D1-D7 → crate UUID. [pause: short] Every Secondary hub discharges batteries/capacitors → logs SOC. [pause: short] Every Primary hub runs LIBS/XRF on 100% disassembly output → feeds CMF-RQT M_return vector in real-time. [pause: short] [pause: short] Transport: Electric Class 8 trucks report SOC, location, crate UUIDs, carbon intensity per km to PRISM platform. [pause: short] Rail cars tracked via AEI tags, temperature/humidity logged for Elium® reefers. [pause: short] [pause: short] Stockpile: ITAR cage (In) — weight scale + vacuum sensor + N₂ pressure logged hourly. [pause: short] Desiccant cabinets — RH/temp logged, desiccant regeneration scheduled. [pause: short] The fabricator sees the supply chain as a distributed sensor network. [pause: short] Every material movement is a measurement. [pause: short] Every measurement updates CMF-RQT. [pause: short] Every CMF-RQT update adjusts blend ratio, depot routing, stockpile draw, AVL orders. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The supply chain operator does not "manage" — they witness material becoming Forge:
+How does the inside operator witness the phenomenon into existence? [pause: short] The supply chain operator does not manage — they witness material becoming Forge:
 
 [pause: short] Receiving Dock Operator witnesses ZrB₂ drums arrive: scans RFID, runs LIBS, signs COA, assigns to Zone A slot. [pause: short] They feel the 25 kg drum mass, see the Ar backfill pressure, know this powder becomes Drum Zone B at 1676°C. [pause: short] [pause: short] Depot Disassembly Tech witnesses Aegis-C Panel return: 15-min auto cycle, watches vision-guided 6-axis extract PCBs, sees Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. [pause: short] They witness EOL becoming feedstock. [pause: short] [pause: short] Warehouse Stocker witnesses crate return: RFID portal beeps, checks cycle count (347/500), routes to wash bay, watches 99% water recycle, stages for redeploy. [pause: short] They witness the crate's 14-day recursive life. [pause: short] [pause: short] Blend Ratio Engineer witnesses MFC adjust P_blend from 48% to 52% EOL: sees LIBS data from Primary Depot NA showing In spike in D4 stream, approves gate fee increase from ]50 to $75/ton, watches Stage 4 indium recovery rise from 6.4g to 7.1g/batch. [pause: short] They witness economics driving physics. [pause: short] No dashboards. [pause: short] No reports. [pause: short] Direct sensory-motor coupling to the material flow. [pause: short] The operator's hands are on the crate, the LIBS gun, the blend ratio knob. [pause: short] They are inside the CMF-RQT. [pause: short] --- Protocol (Recursive) ---
 
@@ -51411,7 +51411,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Knowledge Assessment: Written exams proctored on air-gapped SCADA workstations, questions drawn from PROD-02, 03, 10, 23, 28 question banks (500+ items, version-controlled in Git via PROD-38). [pause: short] Item response theory (IRT) calibrates difficulty; >3σ deviation from fleet mean triggers curriculum review. [pause: short] [pause: short] Skill Assessment: Practical sign-offs recorded via QR on DQR (Hyperledger). [pause: short] Instructor scans operator badge + task badge → timestamp + GPS + sensor data (FBG strain on tool, IR on workpiece). [pause: short] No paper sign-offs — the act of signing is the sensor record. [pause: short] [pause: short] Simulator Telemetry: Every scenario run streams 200+ parameters (PID gains, SIF states, FBG wavelengths, MFC flows, twin health Λ) to PROD-37 at 10 Hz. [pause: short] ML autoencoder (FOLLOW-29) flags >3σ deviation from expert policy → auto-generates remediation scenario. [pause: short] [pause: short] Judgment Assessment: Oral board recorded (audio + HMI screen capture) → transcribed → NLP analyzed for decision logic patterns. [pause: short] Expert vs. [pause: short] novice classification feeds RCT Ω_fleet tensor. [pause: short] [pause: short] Behavioral Observation: 90-day log via shift handover QR scans. [pause: short] Each handover: outgoing scans incoming badge → 5-question safety culture pulse (Likert) → sentiment analysis trends. [pause: short] The fabricator sees the training program as a distributed sensor network. [pause: short] Every assessment is a measurement. [pause: short] Every measurement updates RCT. [pause: short] Every RCT update adjusts curriculum hours, scenario weights, recertification triggers. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The training operator does not "instruct" — they witness competency becoming Forge:
+How does the inside operator witness the phenomenon into existence? [pause: short] The training operator does not instruct — they witness competency becoming Forge:
 
 [pause: short] Apprentice at Cold Startup (O-01 Simulator) witnesses the 90-minute sequence: HVAC → SIS proof → FBG cal → ZVS verify → drum drive → gas purge → recipe load. [pause: short] They feel the 100 kHz FPGA gate drive latency in the L0 replica, see the TSN schedule slots on the L1 RTU, know this sequence protects the 2200°C drum from thermal shock. [pause: short] [pause: short] Journeyman at SIF Bypass (Oral Board) witnesses the dual-key moment: Shift Lead + Safety Engineer, 4-hr time limit, blockchain audit trail. [pause: short] They witness the organizational risk acceptance — no algorithm, no procedure, only human judgment at the boundary of consequence. [pause: short] [pause: short] Depot Tech at Solvolysis (P-02 Simulator) watches Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. [pause: short] They witness the EOL product becoming the Forge's next batch of feedstock — the CMF-RQT M_return vector becoming M_virgin. [pause: short] [pause: short] Master at Teach-Back witnesses the Apprentice's first Stage 4 indium-first discharge authorization. [pause: short] They witness the recursive loop closed: the Master who was once Apprentice now authorizes the next generation at Gate FO-J-01. [pause: short] No slide decks. [pause: short] No checklists. [pause: short] Direct sensory-motor coupling to the RCT tensor. [pause: short] The instructor's hands are on the simulator emergency stop, the oral board recording, the DQR blockchain entry. [pause: short] They are inside the RCT. [pause: short] --- Protocol (Recursive) ---
 
@@ -51513,7 +51513,7 @@ The Aegis-Forge I training and certification program is a zero-metal, Carrington
 
 --- 2. [pause: short] Training Program Overview & Philosophy ---
 
---- 2.1 Training Philosophy: "Witness, Don't Monitor" ---
+--- 2.1 Training Philosophy: Witness, Don't Monitor ---
 
 The Forge training philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): operators do not monitor — they witness the phenomenon into existence. [pause: short] This requires training that develops sensory-motor coupling to the process, not dashboard interpretation skills. [pause: short] Three Training Pillars:
 
@@ -51800,7 +51800,7 @@ Procedure (PROD-29):
 
 [pause: short] SCADA: recipe load (ISA-88 XML), batch UUID generation, twin sync
 
-Assessment: Simulator — execute cold startup to "Ready for Feed" in <90 min
+Assessment: Simulator — execute cold startup to Ready for Feed in <90 min
 
 --- 7.2 Module O-02: Hot Commissioning & Steady State (24 hrs) ---
 
@@ -52076,7 +52076,7 @@ Instructor (+200 hrs = 1800 total):
 
 [Table row: ,  Hardware ,  4× RTX 6000 Ada, 128 GB RAM, 10 Gbps TSN interface to SCADA replica , ]
 
-[Table row: ,  Visualization ,  6× 24" monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) , ]
+[Table row: ,  Visualization ,  6× 24 monitors (ISA-101 HMI), 3D digital twin view (Unreal Engine 5) , ]
 
 [Table row: ,  Interfaces ,  L0 FPGA replica, L1 RTU (ARM), L2 PLC (Codesys), L3 SCADA (Ignition) , ]
 
@@ -52411,13 +52411,13 @@ QA Inspector Signature: _______________  Date: __________
 
 [Table row: , ------, ----------, ---------------, ]
 
-[Table row: ,  Stage Transition ,  "Walk me through Stage 4→5 gate. [pause: short] What LIBS/XRF data do you require?" ,  Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C , ]
+[Table row: ,  Stage Transition ,  Walk me through Stage 4→5 gate. [pause: short] What LIBS/XRF data do you require? ,  Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C , ]
 
-[Table row: ,  SIF Bypass ,  "Zone 2 overtemperature SIF nuisance trips. [pause: short] Justify 4-hr bypass." ,  Risk assessment: process impact vs. [pause: short] safety margin, dual-key, blockchain log , ]
+[Table row: ,  SIF Bypass ,  Zone 2 overtemperature SIF nuisance trips. [pause: short] Justify 4-hr bypass. ,  Risk assessment: process impact vs. [pause: short] safety margin, dual-key, blockchain log , ]
 
-[Table row: ,  Carrington Exit ,  "Grid stable 30 min post-storm. [pause: short] What verifies before reconnect?" ,  Drum thermal shock <100°C/s, SIF health all green, utility coordination , ]
+[Table row: ,  Carrington Exit ,  Grid stable 30 min post-storm. [pause: short] What verifies before reconnect? ,  Drum thermal shock <100°C/s, SIF health all green, utility coordination , ]
 
-[Table row: ,  Phoenix Blend ,  "Primary Depot NA reports In spike in D4. [pause: short] Adjust P_blend?" ,  MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification , ]
+[Table row: ,  Phoenix Blend ,  Primary Depot NA reports In spike in D4. [pause: short] Adjust P_blend? ,  MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification , ]
 
 [pause: long]
 
@@ -52556,7 +52556,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Knowledge Assessment: Written exams proctored on air-gapped SCADA workstations, questions drawn from PROD-02, 03, 10, 23, 28 question banks (500+ items, version-controlled in Git via PROD-38). [pause: short] Item response theory (IRT) calibrates difficulty; >3σ deviation from fleet mean triggers curriculum review. [pause: short] [pause: short] Skill Assessment: Practical sign-offs recorded via QR on DQR (Hyperledger). [pause: short] Instructor scans operator badge + task badge → timestamp + GPS + sensor data (FBG strain on tool, IR on workpiece). [pause: short] No paper sign-offs — the act of signing is the sensor record. [pause: short] [pause: short] Simulator Telemetry: Every scenario run streams 200+ parameters (PID gains, SIF states, FBG wavelengths, MFC flows, twin health Λ) to PROD-37 at 10 Hz. [pause: short] ML autoencoder (FOLLOW-29) flags >3σ deviation from expert policy → auto-generates remediation scenario. [pause: short] [pause: short] Judgment Assessment: Oral board recorded (audio + HMI screen capture) → transcribed → NLP analyzed for decision logic patterns. [pause: short] Expert vs. [pause: short] novice classification feeds RCT Ω_fleet tensor. [pause: short] [pause: short] Behavioral Observation: 90-day log via shift handover QR scans. [pause: short] Each handover: outgoing scans incoming badge → 5-question safety culture pulse (Likert) → sentiment analysis trends. [pause: short] The fabricator sees the training program as a distributed sensor network. [pause: short] Every assessment is a measurement. [pause: short] Every measurement updates RCT. [pause: short] Every RCT update adjusts curriculum hours, scenario weights, recertification triggers. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The training operator does not "instruct" — they witness competency becoming Forge:
+How does the inside operator witness the phenomenon into existence? [pause: short] The training operator does not instruct — they witness competency becoming Forge:
 
 [pause: short] Apprentice at Cold Startup (O-01 Simulator) witnesses the 90-minute sequence: HVAC → SIS proof → FBG cal → ZVS verify → drum drive → gas purge → recipe load. [pause: short] They feel the 100 kHz FPGA gate drive latency in the L0 replica, see the TSN schedule slots on the L1 RTU, know this sequence protects the 2200°C drum from thermal shock. [pause: short] [pause: short] Journeyman at SIF Bypass (Oral Board) witnesses the dual-key moment: Shift Lead + Safety Engineer, 4-hr time limit, blockchain audit trail. [pause: short] They witness the organizational risk acceptance — no algorithm, no procedure, only human judgment at the boundary of consequence. [pause: short] [pause: short] Depot Tech at Solvolysis (P-02 Simulator) watches Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. [pause: short] They witness the EOL product becoming the Forge's next batch of feedstock — the CMF-RQT M_return vector becoming M_virgin. [pause: short] [pause: short] Master at Teach-Back witnesses the Apprentice's first Stage 4 indium-first discharge authorization. [pause: short] They witness the recursive loop closed: the Master who was once Apprentice now authorizes the next generation at Gate FO-J-01. [pause: short] No slide decks. [pause: short] No checklists. [pause: short] Direct sensory-motor coupling to the RCT tensor. [pause: short] The instructor's hands are on the simulator emergency stop, the oral board recording, the DQR blockchain entry. [pause: short] They are inside the RCT. [pause: short] --- Protocol (Recursive) ---
 
@@ -52712,7 +52712,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Perceptual Calibration: HMI color mapping (wavelength→color) validated via operator color-naming tasks on air-gapped SCADA. [pause: short] >3σ deviation from fleet mean → color LUT recalibration. [pause: short] Item response theory tracks perceptual drift. [pause: short] [pause: short] Cognitive Load Telemetry: NASA-TLX assessed per shift via 6-question pulse (QR on DQR). [pause: short] Real-time TLX estimate from HMI interaction: click rate, scroll depth, alarm acknowledgment latency, gaze tracking (optional IR camera). [pause: short] ML autoencoder (FOLLOW-29) flags >3σ from role baseline. [pause: short] [pause: short] Physical Ergonomics Monitoring: Tool use tracked via QR (badge + tool badge). [pause: short] Force/torque on BFRP wrench via embedded FBG strain. [pause: short] Posture via ceiling-mounted IR depth (opt-in). [pause: short] NIOSH lift index calculated per task → cumulative daily dose. [pause: short] [pause: short] PPE Integrity: Proximity suit RF tag + PAPR flow sensor → don/doff timestamp, cycle count, filter life. [pause: short] QR scan at zone entry/exit → DQR log. [pause: short] Buddy check photo → blockchain. [pause: short] [pause: short] Egress Drill Performance: Monthly unannounced egress from Z4/Z6. [pause: short] Time-to-safe-zone logged. [pause: short] Route choice vs. [pause: short] dynamic LED analyzed. [pause: short] Refuge station supply check. [pause: short] The fabricator sees the HFE program as a distributed sensor network. [pause: short] Every human-system interaction is a measurement. [pause: short] Every measurement updates HSCT. [pause: short] Every HSCT update adjusts HMI colors, alarm thresholds, PPE specs, clearance requirements, shift schedules. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The HFE engineer does not "design" — they witness the human becoming the Forge's nervous system:
+How does the inside operator witness the phenomenon into existence? [pause: short] The HFE engineer does not design — they witness the human becoming the Forge's nervous system:
 
 [pause: short] Apprentice at Cold Startup (O-01 Simulator) witnesses the 90-minute sequence through 6 monitors: they feel the trackball resistance as they navigate Level 1→2→3, see the predictive highlight on Port 4A setpoint, know this HMI is their sensory extension into the 2200°C drum. [pause: short] [pause: short] Journeyman at SG-2 Flange Torque witnesses the dual-wrench ceremony: they feel the 160 N·m breakaway torque through the BFRP wrench, hear the AE silence, know their tactile judgment certifies what no sensor can measure. [pause: short] [pause: short] Shift Lead at Carrington Exit witnesses the 30-min grid-stable decision: they see the drum thermal shock trend on Level 1, hear the utility coordination on voice comms, know their authorization reconnects the Forge to the world. [pause: short] [pause: short] Depot Tech at LIBS Classification witnesses the plasma flash: they see the spectral lines on Monitor 5, hear the auto-classification beep, know their override decision changes the CMF-RQT M_return vector that feeds tomorrow's Stage 4 indium. [pause: short] No wireframes. [pause: short] No usability labs. [pause: short] Direct sensory-motor coupling to the HSCT tensor. [pause: short] The HFE engineer's hands are on the trackball, the BFRP wrench, the dual-key token, the LIBS trigger. [pause: short] They are inside the HSCT. [pause: short] --- Protocol (Recursive) ---
 
@@ -52826,7 +52826,7 @@ The Aegis-Forge I human factors and ergonomics (HFE) program is a zero-metal, Ca
 
 --- 2. [pause: short] HFE Program Overview & Regulatory Basis ---
 
---- 2.1 Design Philosophy: "Embodied Cognition in Dielectric Space" ---
+--- 2.1 Design Philosophy: Embodied Cognition in Dielectric Space ---
 
 The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): the operator does not monitor — they witness the phenomenon into existence through direct sensory-motor coupling. [pause: short] This requires HFE that designs for embodiment, not observation. [pause: short] Three HFE Pillars:
 
@@ -52866,9 +52866,9 @@ Room Specifications:
 
 [pause: short] Operators: 4 stations (FO-1, FO-2, DT-1, DT-2) in semi-circle
 
-[pause: short] Sightlines: All stations → 6× 24" monitors (3×2 array) + 1× 55" overview wall display
+[pause: short] Sightlines: All stations → 6× 24 monitors (3×2 array) + 1× 55 overview wall display
 
-[pause: short] Viewing Distance: 700-900 mm (optimal for 24" 1920×1080)
+[pause: short] Viewing Distance: 700-900 mm (optimal for 24 1920×1080)
 
 [pause: short] Viewing Angle: ±35° horizontal, ±20° vertical from center
 
@@ -53020,7 +53020,7 @@ No red/green combinations (deuteranopia safe). [pause: short] All states have sh
 
 [pause: short] Secondary: Touchscreen on Monitor 6 (diagnostics only)
 
-[pause: short] Tertiary: Voice commands (noise-canceling headset, "Forge: Zone 3 PID auto")
+[pause: short] Tertiary: Voice commands (noise-canceling headset, Forge: Zone 3 PID auto)
 
 [pause: short] Gesture: Leap Motion for 3D twin manipulation (Monitor 6)
 
@@ -53260,7 +53260,7 @@ ISA-101 Level 1 Display Rules:
 
 Cognitive Offload Features:
 
-[pause: short] Auto-Summary: "Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec" (vs. [pause: short] raw XRF table)
+[pause: short] Auto-Summary: Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec (vs. [pause: short] raw XRF table)
 
 [pause: short] Predictive Highlight: Twin predicts Stage 6 Cu grade → pre-highlight Port 6B setpoint
 
@@ -53274,11 +53274,11 @@ Cognitive Offload Features:
 
 [Table row: , ------, ----------------, ]
 
-[Table row: ,  Over-reliance on Twin ,  "Twin Uncertainty" badge on every recommendation (σ from ensemble) , ]
+[Table row: ,  Over-reliance on Twin ,  Twin Uncertainty badge on every recommendation (σ from ensemble) , ]
 
 [Table row: ,  Alarm Flood Paralysis ,  ISA-18.2 chattering filter + priority-only audio + SL alarm ownership , ]
 
-[Table row: ,  Confirmation Bias ,  Forced "devil's advocate" at SG-2, SG-3, CT-04, SAT-05: "What if wrong?" , ]
+[Table row: ,  Confirmation Bias ,  Forced devil's advocate at SG-2, SG-3, CT-04, SAT-05: What if wrong? , ]
 
 [Table row: ,  Mode Confusion ,  L0/L1/L2/L3 mode explicit on all displays (color + text + icon) , ]
 
@@ -53386,7 +53386,7 @@ Forge Operators: 4 teams (A/B/C/D), each 4 operators (2 FO + 2 DT cross-trained)
 
 [Table row: ,  Biometric Monitoring ,  Optional: wrist HRV, eyelid closure (IR camera on monitor) → fatigue alert , ]
 
-[Table row: ,  Shift Handover ,  30-min overlap, structured QR handover (DQR log), verbal "three concerns" , ]
+[Table row: ,  Shift Handover ,  30-min overlap, structured QR handover (DQR log), verbal three concerns , ]
 
 --- 11.3 Fatigue Risk Assessment (PROD-34 Training) ---
 
@@ -53475,7 +53475,7 @@ Aggregate System HEP (for batch): ~0.05 (1 in 20 batches has human error requiri
 [Code block]
 PLAN VIEW — CONTROL ROOM (8m × 6m)
 
-    NORTH WALL (55" Overview Display)
+    NORTH WALL (55 Overview Display)
     ┌────────────────────────────────────────────────────┐
     │                                                    │
     │   [FO-1]    [FO-2]    [DT-1]    [DT-2]            │
@@ -53493,7 +53493,7 @@ PLAN VIEW — CONTROL ROOM (8m × 6m)
     └────────────────────────────────────────────────────┘
     SOUTH WALL (Entry/Exit → Corridor → Z0 Safe Zone)
 
-KEY: M1-M6 = 24" Monitors (3×2 array per station)
+KEY: M1-M6 = 24 Monitors (3×2 array per station)
      All stations identical hardware, role-specific layouts
 [End code block]
 
@@ -53572,7 +53572,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 --- E.1 Level 1 — Process Overview Screen (Wall Display) ---
 
-Layout: 55" 4K Display (3840×2160)
+Layout: 55 4K Display (3840×2160)
 
 [Table row: ,  Region ,  Content ,  Update Rate ,  Interaction , ]
 
@@ -53598,7 +53598,7 @@ Color Coding on Cascade Schematic:
 
 --- E.2 Level 2 — Stage Group Detail (Monitor 1-3) ---
 
-Layout per Monitor: 24" 1920×1080, 3 panes horizontal
+Layout per Monitor: 24 1920×1080, 3 panes horizontal
 
 [Table row: ,  Pane ,  Stage Group ,  Key Parameters , ]
 
@@ -53622,7 +53622,7 @@ Interaction Model:
 
 --- E.3 Level 3 — Zone RTU Detail (Monitor 4) ---
 
-Layout: 24" 1920×1080, 4 quadrants
+Layout: 24 1920×1080, 4 quadrants
 
 [Table row: ,  Quadrant ,  Content ,  Source , ]
 
@@ -53638,7 +53638,7 @@ Layout: 24" 1920×1080, 4 quadrants
 
 --- E.4 Level 4 — Diagnostic/Configuration (Monitor 6) ---
 
-Layout: 24" 1920×1080, Tabbed Interface
+Layout: 24 1920×1080, Tabbed Interface
 
 [Table row: ,  Tab ,  Content ,  Update , ]
 
@@ -53752,11 +53752,11 @@ Time Target: <30 min total
 
 [Table row: , ------, -------------------, ------------------------, ]
 
-[Table row: ,  Over-reliance on Twin ,  Every twin recommendation shows uncertainty badge: "Twin σ = ±12°C" (ensemble std dev) ,  Simulator: "Twin Wrong" scenarios where ML prediction diverges from physics , ]
+[Table row: ,  Over-reliance on Twin ,  Every twin recommendation shows uncertainty badge: Twin σ = ±12°C (ensemble std dev) ,  Simulator: Twin Wrong scenarios where ML prediction diverges from physics , ]
 
 [Table row: ,  Alarm Flood Paralysis ,  ISA-18.2 chattering filter (3 alarms/10s same source → suppress), Priority-only audio (P1 only) ,  PROD-34: Alarm flood scenarios, SL owns alarm response , ]
 
-[Table row: ,  Confirmation Bias ,  Forced "What if wrong?" prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) ,  Oral board: devil's advocate role played by Safety Engineer , ]
+[Table row: ,  Confirmation Bias ,  Forced What if wrong? prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) ,  Oral board: devil's advocate role played by Safety Engineer , ]
 
 [Table row: ,  Mode Confusion ,  L0/L1/L2/L3 mode explicit: color ring (Blue/Green/Amber/Red) + text + icon on every display ,  Simulator: mode transition scenarios, explicit mode callouts , ]
 
@@ -53770,7 +53770,7 @@ SL Real-Time Workload Monitor (HMI Monitor 4):
 
 [pause: short] Color coding: Green <60, Amber 60-80, Red >80
 
-[pause: short] Auto-suggestion: "FO-1 TLX 82 → reassign Zone 5 MFC to FO-2"
+[pause: short] Auto-suggestion: FO-1 TLX 82 → reassign Zone 5 MFC to FO-2
 
 [pause: short] SL acknowledgment required for redistribution
 
@@ -53914,7 +53914,7 @@ Proximity Suit + PAPR System Test:
 
 Monthly Unannounced Drill Protocol:
 
-[pause: short] Trigger: SL activates "Egress Drill" via HMI (logged, timestamped)
+[pause: short] Trigger: SL activates Egress Drill via HMI (logged, timestamped)
 
 [pause: short] Measurement: Time from drill start to all personnel at Z0 safe zone
 
@@ -54090,7 +54090,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Perceptual Calibration: HMI color mapping (wavelength→color) validated via operator color-naming tasks on air-gapped SCADA. [pause: short] >3σ deviation from fleet mean → color LUT recalibration. [pause: short] Item response theory tracks perceptual drift. [pause: short] [pause: short] Cognitive Load Telemetry: NASA-TLX assessed per shift via 6-question pulse (QR on DQR). [pause: short] Real-time TLX estimate from HMI interaction: click rate, scroll depth, alarm acknowledgment latency, gaze tracking (optional IR camera). [pause: short] ML autoencoder (FOLLOW-29) flags >3σ from role baseline. [pause: short] [pause: short] Physical Ergonomics Monitoring: Tool use tracked via QR (badge + tool badge). [pause: short] Force/torque on BFRP wrench via embedded FBG strain. [pause: short] Posture via ceiling-mounted IR depth (opt-in). [pause: short] NIOSH lift index calculated per task → cumulative daily dose. [pause: short] [pause: short] PPE Integrity: Proximity suit RF tag + PAPR flow sensor → don/doff timestamp, cycle count, filter life. [pause: short] QR scan at zone entry/exit → DQR log. [pause: short] Buddy check photo → blockchain. [pause: short] [pause: short] Egress Drill Performance: Monthly unannounced egress from Z4/Z6. [pause: short] Time-to-safe-zone logged. [pause: short] Route choice vs. [pause: short] dynamic LED analyzed. [pause: short] Refuge station supply check. [pause: short] The fabricator sees the HFE program as a distributed sensor network. [pause: short] Every human-system interaction is a measurement. [pause: short] Every measurement updates HSCT. [pause: short] Every HSCT update adjusts HMI colors, alarm thresholds, PPE specs, clearance requirements, shift schedules. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The HFE engineer does not "design" — they witness the human becoming the Forge's nervous system:
+How does the inside operator witness the phenomenon into existence? [pause: short] The HFE engineer does not design — they witness the human becoming the Forge's nervous system:
 
 [pause: short] Apprentice at Cold Startup (O-01 Simulator) witnesses the 90-minute sequence through 6 monitors: they feel the trackball resistance as they navigate Level 1→2→3, see the predictive highlight on Port 4A setpoint, know this HMI is their sensory extension into the 2200°C drum. [pause: short] [pause: short] Journeyman at SG-2 Flange Torque witnesses the dual-wrench ceremony: they feel the 160 N·m breakaway torque through the BFRP wrench, hear the AE silence, know their tactile judgment certifies what no sensor can measure. [pause: short] [pause: short] Shift Lead at Carrington Exit witnesses the 30-min grid-stable decision: they see the drum thermal shock trend on Level 1, hear the utility coordination on voice comms, know their authorization reconnects the Forge to the world. [pause: short] [pause: short] Depot Tech at LIBS Classification witnesses the plasma flash: they see the spectral lines on Monitor 5, hear the auto-classification beep, know their override decision changes the CMF-RQT M_return vector that feeds tomorrow's Stage 4 indium. [pause: short] No wireframes. [pause: short] No usability labs. [pause: short] Direct sensory-motor coupling to the HSCT tensor. [pause: short] The HFE engineer's hands are on the trackball, the BFRP wrench, the dual-key token, the LIBS trigger. [pause: short] They are inside the HSCT. [pause: short] --- Protocol (Recursive) ---
 
@@ -54263,7 +54263,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Network Telemetry: TSN switch mirrors capture every frame on VLANs 10-50; Zeek/Suricata parse with custom TSN dissectors; per-stream counters (rate, size, timing, VLAN) stream to PROD-37 at 10 Hz. [pause: short] Anomaly: VLAN 10 frame from unauthorized MAC → immediate port shutdown. [pause: short] [pause: short] Process Telemetry: 384 FBG channels @ 125 Hz → 10 Hz aggregated → PROD-37 ML autoencoder (FOLLOW-29) computes reconstruction error >3σ → auto-NCR. [pause: short] Spatial correlation check across adjacent channels detects localized tamper. [pause: short] [pause: short] Safety Telemetry: 24 SIFs SOE timestamps aligned across zones; 2oo3 vote logic verified per cycle; unexpected trip (no process cause) → immediate SIF lockdown + SL alert. [pause: short] [pause: short] Firmware Telemetry: Boot-time hash verification (SHA-256) on all L0/L1/L2/L3; mismatch → boot halt + SL + Controls Eng. [pause: short] Weekly automated SBOM diff vs. [pause: short] TUF repo; drift → block deploy. [pause: short] [pause: short] Access Telemetry: Every JIT request logged (requestor, approver, duration, actions); badge-in/out at zone gates; USB port monitors on all OT workstations; UEBA on access patterns. [pause: short] The fabricator sees the security program as a distributed sensor network. [pause: short] Every frame, wavelength, vote, hash, and badge swipe is a measurement. [pause: short] Every measurement updates CPAT. [pause: short] Every CPAT update adjusts TSN gates, FBG thresholds, SIF logic, firmware pins, JIT policies. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The security engineer does not "monitor" — they witness the security posture becoming the Forge's immune response:
+How does the inside operator witness the phenomenon into existence? [pause: short] The security engineer does not monitor — they witness the security posture becoming the Forge's immune response:
 
 [pause: short] Shift Lead at SIF Bypass Gate (IR-01) witnesses the dual-key moment: YubiKey + Safety Eng YubiKey, 4-hr blockchain timer starts, SOE logs every SIF state change. [pause: short] They witness the organizational risk acceptance — no algorithm, only human judgment at the boundary of consequence. [pause: short] [pause: short] Cyber Engineer at TSN Schedule Freeze witnesses the FAT gate control list: 1 ms cycle, 4 slices, 100 μs guard band, VLAN 10 highest priority. [pause: short] They witness the deterministic schedule as the access control — no frame crosses VLAN boundaries without explicit gate entry. [pause: short] The schedule IS the firewall. [pause: short] [pause: short] MT at Firmware Staged Rollout witnesses the 1-zone → 1-stage → full progression: Zone 3 RTU firmware update, 24 hr soak, CT-04 partial-stroke, then Stage 4 PLC. [pause: short] They witness the supply chain becoming trust — signed image, SBOM match, TUF repo, in-toto attestation. [pause: short] [pause: short] Depot Tech at LIBS Classification witnesses the plasma flash on Monitor 5, knows their override decision changes CMF-RQT M_return vector. [pause: short] They witness the cyber-physical boundary — their physical action at the depot changes the digital twin's feedstock model that feeds the Forge's Stage 4 indium recovery. [pause: short] No dashboards. [pause: short] No SIEM alerts without context. [pause: short] Direct sensory-motor coupling to the CPAT tensor. [pause: short] The security engineer's hands are on the YubiKey, the TSN gate control list, the firmware hash, the LIBS trigger. [pause: short] They are inside the CPAT. [pause: short] --- Protocol (Recursive) ---
 
@@ -54546,9 +54546,9 @@ The 384 FBG channels (125 Hz each) serve dual purpose: process temperature/strai
 --- Runs at 10 Hz on PROD-37 Digital Twin (512-core HPC) ---
 
 def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
-    """
+    
     fbg_state_vector: 384 wavelengths @ 125 Hz → 10 Hz aggregated
-    """
+    
     # 1. [pause: short] Thermal model residual (from PROD-24)
     residual = fbg_state_vector - thermal_admittance_model.predict(fbg_state_vector)
     
@@ -54565,7 +54565,7 @@ def detect_fbg_tamper(fbg_state_vector: np.ndarray) -> TamperAlert:
         return TamperAlert(
             channels=identify_anomalous_channels(fbg_state_vector),
             score=tamper_score,
-            recommended_action="SL review, potential SIF bypass, physical inspection"
+            recommended_action=SL review, potential SIF bypass, physical inspection
         )
     return None
 [End code block]
@@ -54779,7 +54779,7 @@ ALERT = (Network_Anomaly ∧ Process_Deviation) ∨
 
 [pause: short] DETECT: IDS-004 triggers (SIF trip without process cause OR dual-key not presented)
 
-[pause: short] CONTAIN: SIS FPGA locks all 24 SIFs in "armed" state; no further bypass possible
+[pause: short] CONTAIN: SIS FPGA locks all 24 SIFs in armed state; no further bypass possible
 
 [pause: short] ERADICATE: SL + Safety Eng investigate; revoke compromised tokens; rotate keys
 
@@ -55170,10 +55170,10 @@ class FBGTamperClassifier:
         self.spatial_graph = SpatialCorrelationGraph()  # 384-channel topology
         
     def classify(self, fbg_wavelengths: np.ndarray) -> TamperClassification:
-        """
+        
         fbg_wavelengths: shape (384,) - current wavelength readings (nm)
         Returns: TamperClassification enum + confidence + affected channels
-        """
+        
         
         # Hypothesis H0: Nominal thermal operation
         thermal_pred = self.thermal_model.predict(fbg_wavelengths)
@@ -55248,40 +55248,40 @@ class FBGTamperClassifier:
 
 [Code block]
 {
-  "bomFormat": "CycloneDX",
-  "specVersion": "1.5",
-  "version": 1,
-  "metadata": {
-    "timestamp": "2026-11-03T09:15:00Z",
-    "tools": [{"vendor": "Syft", "version": "0.90.0"}],
-    "component": {
-      "type": "firmware",
-      "name": "L1_RTU_Firmware",
-      "version": "2.1.4",
-      "hashes": [
-        {"alg": "SHA-256", "content": "a1b2c3d4..."},
-        {"alg": "SHA-384", "content": "e5f6g7h8..."}
+  bomFormat: CycloneDX,
+  specVersion: 1.5,
+  version: 1,
+  metadata: {
+    timestamp: 2026-11-03T09:15:00Z,
+    tools: [{vendor: Syft, version: 0.90.0}],
+    component: {
+      type: firmware,
+      name: L1_RTU_Firmware,
+      version: 2.1.4,
+      hashes: [
+        {alg: SHA-256, content: a1b2c3d4...},
+        {alg: SHA-384, content: e5f6g7h8...}
       ],
-      "licenses": [{"license": {"id": "Proprietary"}}],
-      "properties": [
-        {"name": "SLSA_Level", "value": "3"},
-        {"name": "Build_Timestamp", "value": "2026-11-03T06:00:00Z"},
-        {"name": "Git_Commit", "value": "abc123def456"},
-        {"name": "Signing_Key", "value": "RSA-4096:HSM:CSM-ROOT-CA"}
+      licenses: [{license: {id: Proprietary}}],
+      properties: [
+        {name: SLSA_Level, value: 3},
+        {name: Build_Timestamp, value: 2026-11-03T06:00:00Z},
+        {name: Git_Commit, value: abc123def456},
+        {name: Signing_Key, value: RSA-4096:HSM:CSM-ROOT-CA}
       ]
     }
   },
-  "components": [
-    {"type": "library", "name": "Zephyr_RTOS", "version": "3.5.0", "hashes": [...], "purl": "pkg:github/zephyrproject/zephyr@3.5.0"},
-    {"type": "library", "name": "mbedTLS", "version": "3.5.0", "hashes": [...], "purl": "pkg:github/Mbed-TLS/mbedtls@3.5.0"},
-    {"type": "library", "name": "TSN_Stack", "version": "1.2.0", "hashes": [...], "purl": "pkg:github/csmfab/tsn-stack@1.2.0"},
-    {"type": "library", "name": "FBG_Driver", "version": "1.0.3", "hashes": [...], "purl": "pkg:github/csmfab/fbg-driver@1.0.3"},
-    {"type": "library", "name": "PID_Controller", "version": "2.0.1", "hashes": [...], "purl": "pkg:github/csmfab/pid-controller@2.0.1"}
+  components: [
+    {type: library, name: Zephyr_RTOS, version: 3.5.0, hashes: [...], purl: pkg:github/zephyrproject/zephyr@3.5.0},
+    {type: library, name: mbedTLS, version: 3.5.0, hashes: [...], purl: pkg:github/Mbed-TLS/mbedtls@3.5.0},
+    {type: library, name: TSN_Stack, version: 1.2.0, hashes: [...], purl: pkg:github/csmfab/tsn-stack@1.2.0},
+    {type: library, name: FBG_Driver, version: 1.0.3, hashes: [...], purl: pkg:github/csmfab/fbg-driver@1.0.3},
+    {type: library, name: PID_Controller, version: 2.0.1, hashes: [...], purl: pkg:github/csmfab/pid-controller@2.0.1}
   ],
-  "dependencies": [
-    {"ref": "L1_RTU_Firmware", "dependsOn": ["Zephyr_RTOS", "mbedTLS", "TSN_Stack", "FBG_Driver", "PID_Controller"]}
+  dependencies: [
+    {ref: L1_RTU_Firmware, dependsOn: [Zephyr_RTOS, mbedTLS, TSN_Stack, FBG_Driver, PID_Controller]}
   ],
-  "vulnerabilities": []
+  vulnerabilities: []
 }
 [End code block]
 
@@ -55580,7 +55580,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Network Telemetry: TSN switch mirrors capture every frame on VLANs 10-50; Zeek/Suricata parse with custom TSN dissectors; per-stream counters (rate, size, timing, VLAN) stream to PROD-37 at 10 Hz. [pause: short] Anomaly: VLAN 10 frame from unauthorized MAC → immediate port shutdown. [pause: short] [pause: short] Process Telemetry: 384 FBG channels @ 125 Hz → 10 Hz aggregated → PROD-37 ML autoencoder (FOLLOW-29) computes reconstruction error >3σ → auto-NCR. [pause: short] Spatial correlation check across adjacent channels detects localized tamper. [pause: short] [pause: short] Safety Telemetry: 24 SIFs SOE timestamps aligned across zones; 2oo3 vote logic verified per cycle; unexpected trip (no process cause) → immediate SIF lockdown + SL alert. [pause: short] [pause: short] Firmware Telemetry: Boot-time hash verification (SHA-256) on all L0/L1/L2/L3; mismatch → boot halt + SL + Controls Eng. [pause: short] Weekly automated SBOM diff vs. [pause: short] TUF repo; drift → block deploy. [pause: short] [pause: short] Access Telemetry: Every JIT request logged (requestor, approver, duration, actions); badge-in/out at zone gates; USB port monitors on all OT workstations; UEBA on access patterns. [pause: short] The fabricator sees the security program as a distributed sensor network. [pause: short] Every frame, wavelength, vote, hash, and badge swipe is a measurement. [pause: short] Every measurement updates CPAT. [pause: short] Every CPAT update adjusts TSN gates, FBG thresholds, SIF logic, firmware pins, JIT policies. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The security engineer does not "monitor" — they witness the security posture becoming the Forge's immune response:
+How does the inside operator witness the phenomenon into existence? [pause: short] The security engineer does not monitor — they witness the security posture becoming the Forge's immune response:
 
 [pause: short] Shift Lead at SIF Bypass Gate (IR-01) witnesses the dual-key moment: YubiKey + Safety Eng YubiKey, 4-hr blockchain timer starts, SOE logs every SIF state change. [pause: short] They witness the organizational risk acceptance — no algorithm, only human judgment at the boundary of consequence. [pause: short] [pause: short] Cyber Engineer at TSN Schedule Freeze witnesses the FAT gate control list: 1 ms cycle, 4 slices, 100 μs guard band, VLAN 10 highest priority. [pause: short] They witness the deterministic schedule as the access control — no frame crosses VLAN boundaries without explicit gate entry. [pause: short] The schedule IS the firewall. [pause: short] [pause: short] MT at Firmware Staged Rollout witnesses the 1-zone → 1-stage → full progression: Zone 3 RTU firmware update, 24 hr soak, CT-04 partial-stroke, then Stage 4 PLC. [pause: short] They witness the supply chain becoming trust — signed image, SBOM match, TUF repo, in-toto attestation. [pause: short] [pause: short] Depot Tech at LIBS Classification witnesses the plasma flash on Monitor 5, knows their override decision changes CMF-RQT M_return vector. [pause: short] They witness the cyber-physical boundary — their physical action at the depot changes the digital twin's feedstock model that feeds the Forge's Stage 4 indium recovery. [pause: short] No dashboards. [pause: short] No SIEM alerts without context. [pause: short] Direct sensory-motor coupling to the CPAT tensor. [pause: short] The security engineer's hands are on the YubiKey, the TSN gate control list, the firmware hash, the LIBS trigger. [pause: short] They are inside the CPAT. [pause: short] --- Protocol (Recursive) ---
 
@@ -55733,7 +55733,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] L0 Microsecond Mirror (FPGA): Gate-level witness — desat detect at 10 ns, ZVS timestamp vs. [pause: short] gate command, current sense at 1 MHz. [pause: short] The FPGA sees the switch fail before it destroys itself. [pause: short] ZVS achievement >99.9%/cycle logged to local buffer. [pause: short] [pause: short] L1 Millisecond Mirror (RTU): Thermal reconstruction witness — 48 FBG inputs/zone → T_inner prediction ±5°C at 2200°C. [pause: short] Model residual <2°C RMS or re-identification triggers. [pause: short] The RTU verifies its own thermal state estimation in real time. [pause: short] [pause: short] L2 100 ms Mirror (PLC): Cascade consistency witness — mass-energy balance across stages. [pause: short] XRF/LIBS composition → feedforward. [pause: short] Elemental closure >99.5%/batch or investigation flagged. [pause: short] The PLC watches the multi-physics handshake converge. [pause: short] [pause: short] L3 10 Hz Mirror (Twin HPC): Digital twin self-witness — POD-Galerkin ROM (12 modes) vs. [pause: short] FEA vs. [pause: short] 384 FBG channels; LSTM autoencoder (FOLLOW-29) on residuals >3σ; Sobol indices vs. [pause: short] observed variance. [pause: short] The forge watches its simulation watching the forge. [pause: short] [pause: short] L4 Continuous Mirror (Fleet): Bayesian posterior witness — HMC chains on 20 parameters across N Forges. [pause: short] Gelman-Rubin R̂ < 1.01 or re-sample. [pause: short] The fleet watches its own learning converge. [pause: short] The fabricator sees the data system as a distributed sensor network. [pause: short] Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. [pause: short] Every measurement updates MR-PCKF. [pause: short] Every MR-PCKF update adjusts PID gains, FBG thresholds, SIF logic, firmware pins, JIT policies, training scenarios, spare forecasts. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The data engineer does not "monitor dashboards" — they witness the data becoming the Forge's nervous system:
+How does the inside operator witness the phenomenon into existence? [pause: short] The data engineer does not monitor dashboards — they witness the data becoming the Forge's nervous system:
 
 [pause: short] Controls Engineer at Twin Sync Gate (every 100 ms) witnesses the merkle-verified frame: 384 FBG channels, 8 zone states, 24 SIF states, merkle root, HSM signature. [pause: short] They witness the air-gap becoming trust — no IP route, no wireless, only physics-enforced unidirectional flow. [pause: short] The data diode IS the firewall. [pause: short] [pause: short] Data Scientist at Autoencoder Retraining witnesses the monthly HMC: 512 cores, 4 chains, 2000 samples, 20 parameters. [pause: short] They witness the fleet learning — aerogel λ posterior shifting, Curie width narrowing, FBG drift rate stabilizing. [pause: short] The posterior IS the parameter update. [pause: short] [pause: short] Maintenance Planner at Λ Threshold Crossing witnesses the auto-work-order: Component UUID, current Λ, trend, RUL distribution, required parts, certifications, permits. [pause: short] They witness the anomaly becoming action — no dashboard hunting, direct sensory-motor coupling to the work order. [pause: short] [pause: short] Operator at Anomaly Card (PROD-35 HMI) witnesses the SEV-2 card: Location, twin prediction T+60s, root cause, recommended actions. [pause: short] They witness the data becoming judgment — acknowledge, execute, verify. [pause: short] The anomaly card IS the decision support. [pause: short] [pause: short] Training Instructor at Scenario Deploy witnesses the simulator: Real twin trajectory, injected anomaly, operator response, RCT update. [pause: short] They witness the fleet experience becoming individual competency — the scenario IS the lesson. [pause: short] No dashboards without actions. [pause: short] No alerts without context. [pause: short] No data without lineage. [pause: short] Direct sensory-motor coupling to the MR-PCKF tensor. [pause: short] The data engineer's hands are on the HSM, the merkle root, the autoencoder weights, the HMC chains, the anomaly card. [pause: short] They are inside the MR-PCKF. [pause: short] --- Protocol (Recursive) ---
 
@@ -55970,28 +55970,28 @@ Per PROD-24 commitment #7, the ROM is POD-Galerkin with 12 modes, 118× speedup.
 
 [Code block]
 {
-  "rom_version": "2.1.3",
-  "modes": 12,
-  "speedup_factor": 118,
-  "state_dim": 384,
-  "input_dim": 8,
-  "output_dim": 384,
-  "A": [[...]],     // 12×12 system matrix
-  "B": [[...]],     // 12×8 input matrix
-  "C": [[...]],     // 384×12 output matrix
-  "N_quadratic": [[[...]]],  // 12×12×12 quadratic terms
-  "material_correlations": {
-    "rho_c": "piecewise_cubic_hermite(T)",
-    "k": "piecewise_cubic_hermite(T)",
-    "alpha": "piecewise_cubic_hermite(T)",
-    "E": "piecewise_cubic_hermite(T)",
-    "mu_r": "sigmoid(T, Tc=770, width=8)"
+  rom_version: 2.1.3,
+  modes: 12,
+  speedup_factor: 118,
+  state_dim: 384,
+  input_dim: 8,
+  output_dim: 384,
+  A: [[...]],     // 12×12 system matrix
+  B: [[...]],     // 12×8 input matrix
+  C: [[...]],     // 384×12 output matrix
+  N_quadratic: [[[...]]],  // 12×12×12 quadratic terms
+  material_correlations: {
+    rho_c: piecewise_cubic_hermite(T),
+    k: piecewise_cubic_hermite(T),
+    alpha: piecewise_cubic_hermite(T),
+    E: piecewise_cubic_hermite(T),
+    mu_r: sigmoid(T, Tc=770, width=8)
   },
-  "validation": {
-    "gci": "<2%",
-    "fbgrms": "<5°C",
-    "stress_rms": "<10 MPa",
-    "energy_balance": "<5%"
+  validation: {
+    gci: <2%,
+    fbgrms: <5°C,
+    stress_rms: <10 MPa,
+    energy_balance: <5%
   }
 }
 [End code block]
@@ -56012,7 +56012,7 @@ Every 100 ms (10 Hz):
 ₂ > 3σ_threshold:
        a. [pause: short] Log synchronization anomaly
        b. [pause: short] Trigger ML autoencoder retraining (FOLLOW-29)
-       c. [pause: short] Operator alert: "Twin drift detected — review recommended"
+       c. [pause: short] Operator alert: Twin drift detected — review recommended
 
 [pause: short] Update twin initial condition: x_twin ← x_process (soft reset, ω = 0.1)
 
@@ -56441,16 +56441,16 @@ Every data element carries provenance metadata:
 
 [Code block]
 {
-  "element": "FBG_042_T",
-  "value": 1847.3,
-  "unit": "°C",
-  "timestamp": "2026-11-03T09:15:00.100Z",
-  "lineage": {
-    "source": "PROD-10 Zone 4 FBG interrogator SN-2024-042",
-    "path": "FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka",
-    "transforms": ["kalman_filter", "twin_soft_reset"],
-    "merkle_root": "a3f2...",
-    "signature": "HSM-SCADA-L3:MEUCIQD..."
+  element: FBG_042_T,
+  value: 1847.3,
+  unit: °C,
+  timestamp: 2026-11-03T09:15:00.100Z,
+  lineage: {
+    source: PROD-10 Zone 4 FBG interrogator SN-2024-042,
+    path: FPGA(L0) → RTU(L1) → PLC(L2) → SCADA(L3) → Data Diode → Kafka,
+    transforms: [kalman_filter, twin_soft_reset],
+    merkle_root: a3f2...,
+    signature: HSM-SCADA-L3:MEUCIQD...
   }
 }
 [End code block]
@@ -56493,13 +56493,13 @@ This provides tamper-evident audit trail for regulatory and liability purposes. 
 
 [Table row: , -------, ---------, ---------, ---------, ----------, ]
 
-[Table row: ,  L1 Overview ,  55" wall ,  1 Hz ,  Forge health, stage status, energy, yield, anomalies ,  Shift Lead, Visitors , ]
+[Table row: ,  L1 Overview ,  55 wall ,  1 Hz ,  Forge health, stage status, energy, yield, anomalies ,  Shift Lead, Visitors , ]
 
-[Table row: ,  L2 Unit ,  32" console ,  1 Hz ,  Zone power, drum profile, SIF states, gas ,  Operator (Forge) , ]
+[Table row: ,  L2 Unit ,  32 console ,  1 Hz ,  Zone power, drum profile, SIF states, gas ,  Operator (Forge) , ]
 
-[Table row: ,  L3 Detail ,  27" console ,  10 Hz ,  FBG heatmap, twin prediction, Λ_ML, CPAT ,  Controls Engineer , ]
+[Table row: ,  L3 Detail ,  27 console ,  10 Hz ,  FBG heatmap, twin prediction, Λ_ML, CPAT ,  Controls Engineer , ]
 
-[Table row: ,  L4 Diagnostic ,  27" console ,  100 Hz ,  Raw FBG, EM waveforms, AE spectrum, ROM residuals ,  Maintenance, Cyber , ]
+[Table row: ,  L4 Diagnostic ,  27 console ,  100 Hz ,  Raw FBG, EM waveforms, AE spectrum, ROM residuals ,  Maintenance, Cyber , ]
 
 --- 11.2 3D Twin View ---
 
@@ -56507,7 +56507,7 @@ This provides tamper-evident audit trail for regulatory and liability purposes. 
 
 [pause: short] Twin overlay: Predicted T+1s, T+10s, T+60s as semi-transparent layers
 
-[pause: short] Anomaly cards: Pinned to 3D location (e.g., "Λ_ML=12.3 at Z=450mm, θ=120°")
+[pause: short] Anomaly cards: Pinned to 3D location (e.g., Λ_ML=12.3 at Z=450mm, θ=120°)
 
 [pause: short] Interaction: Touch/click → drill to L4 diagnostic for that zone
 
@@ -56849,7 +56849,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] L0 Microsecond Mirror (FPGA): Gate-level witness — desat detect at 10 ns, ZVS timestamp vs. [pause: short] gate command, current sense at 1 MHz. [pause: short] The FPGA sees the switch fail before it destroys itself. [pause: short] ZVS achievement >99.9%/cycle logged to local buffer. [pause: short] [pause: short] L1 Millisecond Mirror (RTU): Thermal reconstruction witness — 48 FBG inputs/zone → T_inner prediction ±5°C at 2200°C. [pause: short] Model residual <2°C RMS or re-identification triggers. [pause: short] The RTU verifies its own thermal state estimation in real time. [pause: short] [pause: short] L2 100 ms Mirror (PLC): Cascade consistency witness — mass-energy balance across stages. [pause: short] XRF/LIBS composition → feedforward. [pause: short] Elemental closure >99.5%/batch or investigation flagged. [pause: short] The PLC watches the multi-physics handshake converge. [pause: short] [pause: short] L3 10 Hz Mirror (Twin HPC): Digital twin self-witness — POD-Galerkin ROM (12 modes) vs. [pause: short] FEA vs. [pause: short] 384 FBG channels; LSTM autoencoder (FOLLOW-29) on residuals >3σ; Sobol indices vs. [pause: short] observed variance. [pause: short] The forge watches its simulation watching the forge. [pause: short] [pause: short] L4 Continuous Mirror (Fleet): Bayesian posterior witness — HMC chains on 20 parameters across N Forges. [pause: short] Gelman-Rubin R̂ < 1.01 or re-sample. [pause: short] The fleet watches its own learning converge. [pause: short] The fabricator sees the data system as a distributed sensor network. [pause: short] Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. [pause: short] Every measurement updates MR-PCKF. [pause: short] Every MR-PCKF update adjusts PID gains, FBG thresholds, SIF logic, firmware pins, JIT policies, training scenarios, spare forecasts. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The data engineer does not "monitor dashboards" — they witness the data becoming the Forge's nervous system:
+How does the inside operator witness the phenomenon into existence? [pause: short] The data engineer does not monitor dashboards — they witness the data becoming the Forge's nervous system:
 
 [pause: short] Controls Engineer at Twin Sync Gate (every 100 ms) witnesses the merkle-verified frame: 384 FBG channels, 8 zone states, 24 SIF states, merkle root, HSM signature. [pause: short] They witness the air-gap becoming trust — no IP route, no wireless, only physics-enforced unidirectional flow. [pause: short] The data diode IS the firewall. [pause: short] [pause: short] Data Scientist at Autoencoder Retraining witnesses the monthly HMC: 512 cores, 4 chains, 2000 samples, 20 parameters. [pause: short] They witness the fleet learning — aerogel λ posterior shifting, Curie width narrowing, FBG drift rate stabilizing. [pause: short] The posterior IS the parameter update. [pause: short] [pause: short] Maintenance Planner at Λ Threshold Crossing witnesses the auto-work-order: Component UUID, current Λ, trend, RUL distribution, required parts, certifications, permits. [pause: short] They witness the anomaly becoming action — no dashboard hunting, direct sensory-motor coupling to the work order. [pause: short] [pause: short] Operator at Anomaly Card (PROD-35 HMI) witnesses the SEV-2 card: Location, twin prediction T+60s, root cause, recommended actions. [pause: short] They witness the data becoming judgment — acknowledge, execute, verify. [pause: short] The anomaly card IS the decision support. [pause: short] [pause: short] Training Instructor at Scenario Deploy witnesses the simulator: Real twin trajectory, injected anomaly, operator response, RCT update. [pause: short] They witness the fleet experience becoming individual competency — the scenario IS the lesson. [pause: short] No dashboards without actions. [pause: short] No alerts without context. [pause: short] No data without lineage. [pause: short] Direct sensory-motor coupling to the MR-PCKF tensor. [pause: short] The data engineer's hands are on the HSM, the merkle root, the autoencoder weights, the HMC chains, the anomaly card. [pause: short] They are inside the MR-PCKF. [pause: short] --- Protocol (Recursive) ---
 
@@ -56982,16 +56982,16 @@ This one operator generates the entire CM program: GitOps workflow, ECO lifecycl
 CUUID = SHA-256(
   Git_tag_designed   
 [Table row: , , ]
-  // e.g., "prod-v3.2.1"
+  // e.g., prod-v3.2.1
   Git_tag_built      
 [Table row: , , ]
-  // e.g., "build-v3.2.0"
+  // e.g., build-v3.2.0
   Git_tag_maintained 
 [Table row: , , ]
-  // e.g., "maintain-v3.2.1"
+  // e.g., maintain-v3.2.1
   Git_tag_operated   
 [Table row: , , ]
-  // e.g., "operate-v3.2.2"
+  // e.g., operate-v3.2.2
   CI_spec_hash          // SHA-256 of PROD spec section for this CI
 )
 [End code block]
@@ -57032,7 +57032,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Git Commit Mirror (Per Commit): Every commit to main/release — signature verified, lint passed, typecheck passed, test passed, split-chunks verified. [pause: short] The CI pipeline sees the change before it enters the baseline. [pause: short] Unsigned commit = rejected. [pause: short] Broken chunk = rejected. [pause: short] Failed test = rejected. [pause: short] [pause: short] ECO Gate Mirror (Per ECO): Every ECO at CCB — BCO evaluated, Safety verdict, Cyber verdict, QA verdict, traceability matrix updated. [pause: short] The CCB watches the configuration converge. [pause: short] Conditional approval = mandatory follow-up ECO tracked. [pause: short] [pause: short] Baseline Drift Mirror (Per Batch): Every production batch — As-Operated vs. [pause: short] As-Designed Δx measured by twin (PROD-37). [pause: short] CUUID linkage verified. [pause: short] Firmware hashes vs. [pause: short] TUF targets compared. [pause: short] SBOM diff computed. [pause: short] The twin watches the configuration hold. [pause: short] [pause: short] Supplier Mirror (Per SCN): Every supplier change notification — impact analysis logged, FA data received, requalification scheduled. [pause: short] The AVL watches the supply chain stabilize. [pause: short] [pause: short] DR Mirror (Per Quarter): Every DR rehearsal — cold standby booted, golden images verified, RTO/RPO measured, blockchain continuity checked. [pause: short] The standby watches the recovery capability persist. [pause: short] The fabricator sees the CM system as a distributed verification network. [pause: short] Every commit, ECO, batch, SCN, rehearsal is a measurement. [pause: short] Every measurement updates BCO. [pause: short] Every BCO update adjusts gates, signatures, requal periods, rehearsal frequency. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The Configuration Manager does not "administer a tool" — they witness the configuration becoming the Forge's genetic code:
+How does the inside operator witness the phenomenon into existence? [pause: short] The Configuration Manager does not administer a tool — they witness the configuration becoming the Forge's genetic code:
 
 [pause: short] CM at ECO Gate (CCB Meeting) witnesses the BCO evaluation: As-Designed tag, As-Built FA data, As-Maintained PM record, As-Operated twin state — four baselines converging on one CUUID. [pause: short] They witness the configuration becoming truth — no database, only physics-enforced cryptographic linkage. [pause: short] [pause: short] Safety Engineer at Firmware Signing witnesses the HSM ceremony: Builder key + CM key + Safety key — three signatures on one SFP. [pause: short] They witness the SIL-3 envelope becoming code — no algorithm accepts the risk, only human judgment at the boundary of consequence. [pause: short] [pause: short] Supplier Quality at SCN Disposition witnesses the FA data package: 3 units, CT tests, material certs, process records. [pause: short] They witness the supply chain becoming trust — no ERP entry, only empirical validation. [pause: short] [pause: short] Shift Lead at DR Rehearsal witnesses the cold standby boot: Git clone → golden images → firmware verify → twin sync → CT-04 SIF proof. [pause: short] They witness the recovery becoming capability — no runbook, only muscle memory. [pause: short] [pause: short] Auditor at Continuous Twin Audit witnesses the 10 Hz CUUID verification: Process state vs. [pause: short] As-Operated baseline, merkle chain intact, firmware hashes matching. [pause: short] They witness the configuration becoming immortal — no sampling, only continuous proof. [pause: short] No dashboards without gates. [pause: short] No approvals without signatures. [pause: short] No baselines without CUUIDs. [pause: short] Direct sensory-motor coupling to the BCO tensor. [pause: short] The CM's hands are on the HSM, the Git tag, the CUUID, the SCN, the DR script. [pause: short] They are inside the BCO. [pause: short] --- Protocol (Recursive) ---
 
@@ -57323,15 +57323,15 @@ required_status_checks:
   strict: true
   contexts:
 
-[pause: short] "ci/lint"
+[pause: short] ci/lint
 
-[pause: short] "ci/typecheck"
+[pause: short] ci/typecheck
 
-[pause: short] "ci/test"
+[pause: short] ci/test
 
-[pause: short] "ci/signature-verify"
+[pause: short] ci/signature-verify
 
-[pause: short] "ci/split-chunks-verify"
+[pause: short] ci/split-chunks-verify
 enforce_admins: true
 required_linear_history: true
 allow_force_pushes: false
@@ -57491,40 +57491,40 @@ Every configuration item carries a Configuration UUID (CUUID) linking all four v
 
 [Code block]
 {
-  "cuuid": "CI-02-01-DRUM-2026-00042",
-  "ci_type": "CI-02-01",
-  "description": "Drum Assembly, Forge-003, Liner B ZrB₂-SiC",
-  "baselines": {
-    "as_designed": {
-      "tag": "design-v3.2.1",
-      "spec": "PROD-04 rev 3.2.1",
-      "drawing": "DRW-DRUM-042 rev C"
+  cuuid: CI-02-01-DRUM-2026-00042,
+  ci_type: CI-02-01,
+  description: Drum Assembly, Forge-003, Liner B ZrB₂-SiC,
+  baselines: {
+    as_designed: {
+      tag: design-v3.2.1,
+      spec: PROD-04 rev 3.2.1,
+      drawing: DRW-DRUM-042 rev C
     },
-    "as_built": {
-      "tag": "build-v3.2.0",
-      "serial": "DRM-2026-00042",
-      "fat_data": "CT-01 through CT-10 passed 2026-10-15",
-      "material_certs": ["BATCH-ZRB2-2026-087", "BATCH-SIC-2026-112"]
+    as_built: {
+      tag: build-v3.2.0,
+      serial: DRM-2026-00042,
+      fat_data: CT-01 through CT-10 passed 2026-10-15,
+      material_certs: [BATCH-ZRB2-2026-087, BATCH-SIC-2026-112]
     },
-    "as_maintained": {
-      "tag": "maintain-v3.2.1",
-      "last_pm": "CT-08 2026-11-01 (2000 hr reline)",
-      "modifications": ["ECO-1042: Liner B thickness +2mm"],
-      "spare_status": "Spare DRM-2026-00043 staged"
+    as_maintained: {
+      tag: maintain-v3.2.1,
+      last_pm: CT-08 2026-11-01 (2000 hr reline),
+      modifications: [ECO-1042: Liner B thickness +2mm],
+      spare_status: Spare DRM-2026-00043 staged
     },
-    "as_operated": {
-      "tag": "operate-v3.2.2",
-      "current_recipe": "CAT-B-2026-11 v2.1",
-      "twin_state": "merkle_root a3f2... [pause: short] block 142857",
-      "operator_certs": ["OP-2026-042", "OP-2026-088"]
+    as_operated: {
+      tag: operate-v3.2.2,
+      current_recipe: CAT-B-2026-11 v2.1,
+      twin_state: merkle_root a3f2... [pause: short] block 142857,
+      operator_certs: [OP-2026-042, OP-2026-088]
     }
   },
-  "lifecycle": {
-    "created": "2026-06-15",
-    "manufactured": "2026-10-01",
-    "deployed": "2026-10-20",
-    "next_pm": "2027-04-01",
-    "phoenix_return_est": "2031-10-20"
+  lifecycle: {
+    created: 2026-06-15,
+    manufactured: 2026-10-01,
+    deployed: 2026-10-20,
+    next_pm: 2027-04-01,
+    phoenix_return_est: 2031-10-20
   }
 }
 [End code block]
@@ -57589,40 +57589,40 @@ Every firmware release produces a Signed Firmware Package (SFP):
 
 [Code block]
 {
-  "package": "sfp-rtu-v3.0.1.tar.gz.sig",
-  "component": "CI-03-02",
-  "version": "rtu-v3.0.1",
-  "git_commit": "a1b2c3d4e5f6...",
-  "git_tag": "rtu-v3.0.1",
-  "builder": "CI-CD Pipeline (SLSA Level 3)",
-  "build_timestamp": "2026-11-03T10:45:00Z",
-  "sbom": "sbom-rtu-v3.0.1.cyclonedx.json",
-  "in_toto": "in-toto-link-rtu-v3.0.1.json",
-  "signatures": [
+  package: sfp-rtu-v3.0.1.tar.gz.sig,
+  component: CI-03-02,
+  version: rtu-v3.0.1,
+  git_commit: a1b2c3d4e5f6...,
+  git_tag: rtu-v3.0.1,
+  builder: CI-CD Pipeline (SLSA Level 3),
+  build_timestamp: 2026-11-03T10:45:00Z,
+  sbom: sbom-rtu-v3.0.1.cyclonedx.json,
+  in_toto: in-toto-link-rtu-v3.0.1.json,
+  signatures: [
     {
-      "role": "builder",
-      "key_id": "HSM-BUILDER-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: builder,
+      key_id: HSM-BUILDER-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "cm",
-      "key_id": "HSM-CM-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: cm,
+      key_id: HSM-CM-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "safety",
-      "key_id": "HSM-SAFETY-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: safety,
+      key_id: HSM-SAFETY-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     }
   ],
-  "verification": {
-    "sha256": "a3f2...",
-    "reproducible_build": true,
-    "slsa_level": 3,
-    "tuf_target": "targets/rtu/v3.0.1/target.json"
+  verification: {
+    sha256: a3f2...,
+    reproducible_build: true,
+    slsa_level: 3,
+    tuf_target: targets/rtu/v3.0.1/target.json
   }
 }
 [End code block]
@@ -57632,10 +57632,10 @@ Every firmware release produces a Signed Firmware Package (SFP):
 Every firmware/software release includes a CycloneDX SBOM (PROD-36 requirement):
 
 [Code block]
-<?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5"
-     serialNumber="urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f"
-     version="1">
+<?xml version=1.0 encoding=UTF-8?>
+<bom xmlns=http://cyclonedx.org/schema/bom/1.5
+     serialNumber=urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f
+     version=1>
   <metadata>
     <timestamp>2026-11-03T10:45:00Z</timestamp>
     <tools>
@@ -57645,31 +57645,31 @@ Every firmware/software release includes a CycloneDX SBOM (PROD-36 requirement):
         <version>1.2.0</version>
       </tool>
     </tools>
-    <component type="application">
+    <component type=application>
       <group>com.csmfab.forge</group>
       <name>rtu-firmware</name>
       <version>3.0.1</version>
       <purl>pkg:github/landolil/Tun/lol.forge/firmware/rtu@3.0.1</purl>
       <hashes>
-        <hash alg="SHA-256">a3f2...</hash>
+        <hash alg=SHA-256>a3f2...</hash>
       </hashes>
     </component>
   </metadata>
   <components>
-    <component type="library">
+    <component type=library>
       <group>org.zephyrproject</group>
       <name>zephyr-rtos</name>
       <version>3.5.0</version>
       <purl>pkg:github/zephyrproject/zephyr@3.5.0</purl>
       <licenses><license><id>Apache-2.0</id></license></licenses>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>thermal-admittance-lib</name>
       <version>2.1.4</version>
       <purl>pkg:github/landolil/Tun/lol.forge/lib/thermal@2.1.4</purl>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>fbge-driver</name>
       <version>1.3.0</version>
@@ -57862,42 +57862,42 @@ The AVL is a Configuration Item (CI-06-01) versioned in Git:
 
 --- avl-baseline.yaml (versioned, signed) ---
 
-avl_version: "3.2.1"
-avl_tag: "avl-v3.2.1"
-last_updated: "2026-11-03T10:45:00Z"
-approved_by: "CM-001, Safety-001, SupplyChain-001"
+avl_version: 3.2.1
+avl_tag: avl-v3.2.1
+last_updated: 2026-11-03T10:45:00Z
+approved_by: CM-001, Safety-001, SupplyChain-001
 
 tier_1_critical:  # 12 suppliers — require SBOM, signed firmware, pen test, SLSA L3
 
-[pause: short] id: "SUP-001"
-    name: "GaN Systems"
-    component: "GS66516T GaN HEMT"
-    spec: "PROD-10 Sec 2.2"
+[pause: short] id: SUP-001
+    name: GaN Systems
+    component: GS66516T GaN HEMT
+    spec: PROD-10 Sec 2.2
     requirements: [SBOM, SIGNED_FIRMWARE, PEN_TEST, SLSA_L3, SECURE_BOOT]
     fa_qty: 3
-    requal_period: "12 months"
-    scn_process: "MANDATORY"
+    requal_period: 12 months
+    scn_process: MANDATORY
 
-[pause: short] id: "SUP-002"
-    name: "CoorsTek"
-    component: "ZrB₂-SiC Powder"
-    spec: "PROD-04 Sec 2, PROD-24 Table 2.1"
+[pause: short] id: SUP-002
+    name: CoorsTek
+    component: ZrB₂-SiC Powder
+    spec: PROD-04 Sec 2, PROD-24 Table 2.1
     requirements: [COA, PARTICLE_SIZE, IMPURITY, FLASH_SINTER_TRIAL]
     fa_qty: 3
-    requal_period: "6 months"
-    scn_process: "MANDATORY"
+    requal_period: 6 months
+    scn_process: MANDATORY
   # ... [pause: short] 10 more Tier 1
 
 tier_2_standard:  # 47 suppliers — standard QA
 
-[pause: short] id: "SUP-020"
-    name: "Kamenny Vek"
-    component: "Basalt Fiber Roving"
-    spec: "PROD-12 Sec 3.1"
+[pause: short] id: SUP-020
+    name: Kamenny Vek
+    component: Basalt Fiber Roving
+    spec: PROD-12 Sec 3.1
     requirements: [COA, TENSILE, CTE, MOISTURE]
     fa_qty: 1
-    requal_period: "24 months"
-    scn_process: "NOTIFICATION"
+    requal_period: 24 months
+    scn_process: NOTIFICATION
   # ... [pause: short] 46 more Tier 2
 [End code block]
 
@@ -58292,17 +58292,17 @@ develop                       # Nightly integration
 
 git tag -v prod-v3.2.1
 
---- Output: gpg: Good signature from "CM Key <cm@csmfab.com>" ---
+--- Output: gpg: Good signature from CM Key <cm@csmfab.com> ---
 
---- gpg: Good signature from "Safety Key <safety@csmfab.com>" ---
+--- gpg: Good signature from Safety Key <safety@csmfab.com> ---
 
 --- Verify firmware tag ---
 
 git tag -v rtu-v2.1.4
 
---- Output: gpg: Good signature from "Builder Key <builder@csmfab.com>" ---
+--- Output: gpg: Good signature from Builder Key <builder@csmfab.com> ---
 
---- gpg: Good signature from "CM Key <cm@csmfab.com>" ---
+--- gpg: Good signature from CM Key <cm@csmfab.com> ---
 
 [End code block]
 
@@ -58565,16 +58565,16 @@ This one operator generates the entire CM program: GitOps workflow, ECO lifecycl
 CUUID = SHA-256(
   Git_tag_designed   
 [Table row: , , ]
-  // e.g., "prod-v3.2.1"
+  // e.g., prod-v3.2.1
   Git_tag_built      
 [Table row: , , ]
-  // e.g., "build-v3.2.0"
+  // e.g., build-v3.2.0
   Git_tag_maintained 
 [Table row: , , ]
-  // e.g., "maintain-v3.2.1"
+  // e.g., maintain-v3.2.1
   Git_tag_operated   
 [Table row: , , ]
-  // e.g., "operate-v3.2.2"
+  // e.g., operate-v3.2.2
   CI_spec_hash          // SHA-256 of PROD spec section for this CI
 )
 [End code block]
@@ -58615,7 +58615,7 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Git Commit Mirror (Per Commit): Every commit to main/release — signature verified, lint passed, typecheck passed, test passed, split-chunks verified. [pause: short] The CI pipeline sees the change before it enters the baseline. [pause: short] Unsigned commit = rejected. [pause: short] Broken chunk = rejected. [pause: short] Failed test = rejected. [pause: short] [pause: short] ECO Gate Mirror (Per ECO): Every ECO at CCB — BCO evaluated, Safety verdict, Cyber verdict, QA verdict, traceability matrix updated. [pause: short] The CCB watches the configuration converge. [pause: short] Conditional approval = mandatory follow-up ECO tracked. [pause: short] [pause: short] Baseline Drift Mirror (Per Batch): Every production batch — As-Operated vs. [pause: short] As-Designed Δx measured by twin (PROD-37). [pause: short] CUUID linkage verified. [pause: short] Firmware hashes vs. [pause: short] TUF targets compared. [pause: short] SBOM diff computed. [pause: short] The twin watches the configuration hold. [pause: short] [pause: short] Supplier Mirror (Per SCN): Every supplier change notification — impact analysis logged, FA data received, requalification scheduled. [pause: short] The AVL watches the supply chain stabilize. [pause: short] [pause: short] DR Mirror (Per Quarter): Every DR rehearsal — cold standby booted, golden images verified, RTO/RPO measured, blockchain continuity checked. [pause: short] The standby watches the recovery capability persist. [pause: short] The fabricator sees the CM system as a distributed verification network. [pause: short] Every commit, ECO, batch, SCN, rehearsal is a measurement. [pause: short] Every measurement updates BCO. [pause: short] Every BCO update adjusts gates, signatures, requal periods, rehearsal frequency. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The Configuration Manager does not "administer a tool" — they witness the configuration becoming the Forge's genetic code:
+How does the inside operator witness the phenomenon into existence? [pause: short] The Configuration Manager does not administer a tool — they witness the configuration becoming the Forge's genetic code:
 
 [pause: short] CM at ECO Gate (CCB Meeting) witnesses the BCO evaluation: As-Designed tag, As-Built FA data, As-Maintained PM record, As-Operated twin state — four baselines converging on one CUUID. [pause: short] They witness the configuration becoming truth — no database, only physics-enforced cryptographic linkage. [pause: short] [pause: short] Safety Engineer at Firmware Signing witnesses the HSM ceremony: Builder key + CM key + Safety key — three signatures on one SFP. [pause: short] They witness the SIL-3 envelope becoming code — no algorithm accepts the risk, only human judgment at the boundary of consequence. [pause: short] [pause: short] Supplier Quality at SCN Disposition witnesses the FA data package: 3 units, CT tests, material certs, process records. [pause: short] They witness the supply chain becoming trust — no ERP entry, only empirical validation. [pause: short] [pause: short] Shift Lead at DR Rehearsal witnesses the cold standby boot: Git clone → golden images → firmware verify → twin sync → CT-04 SIF proof. [pause: short] They witness the recovery becoming capability — no runbook, only muscle memory. [pause: short] [pause: short] Auditor at Continuous Twin Audit witnesses the 10 Hz CUUID verification: Process state vs. [pause: short] As-Operated baseline, merkle chain intact, firmware hashes matching. [pause: short] They witness the configuration becoming immortal — no sampling, only continuous proof. [pause: short] No dashboards without gates. [pause: short] No approvals without signatures. [pause: short] No baselines without CUUIDs. [pause: short] Direct sensory-motor coupling to the BCO tensor. [pause: short] The CM's hands are on the HSM, the Git tag, the CUUID, the SCN, the DR script. [pause: short] They are inside the BCO. [pause: short] --- Protocol (Recursive) ---
 
@@ -58794,11 +58794,11 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Microsecond Mirror (L0 FPGA during CT-04): Gate-level witness — desat detect at 10 ns, SIF-17 trip logic execution, ZVS status at trip instant. [pause: short] The FPGA sees the SIF trip before the process knows. [pause: short] ZVS achievement >99.9%/cycle logged as test evidence. [pause: short] [pause: short] Millisecond Mirror (L1 RTU during CT-05/06/08): Thermal reconstruction witness — 48 FBG inputs/zone → T_inner prediction ±5°C at 2200°C. [pause: short] Model residual <2°C RMS or test abort. [pause: short] The RTU verifies its own thermal state estimation during test. [pause: short] [pause: short] 100 ms Mirror (L2 PLC during CT-04/08/10): Cascade consistency witness — mass-energy balance across stages. [pause: short] XRF/LIBS composition → feedforward. [pause: short] Elemental closure >99.5%/batch or test FAIL. [pause: short] The PLC watches the multi-physics handshake during test. [pause: short] [pause: short] 10 Hz Mirror (L3 SCADA/Twin during ALL tests): Digital twin self-witness — POD-Galerkin ROM vs. [pause: short] FEA vs. [pause: short] 384 FBG channels; autoencoder on residuals >3σ; SOE alignment check; merkle chain integrity. [pause: short] The forge watches its simulation witness the test. [pause: short] [pause: short] Continuous Mirror (Fleet during CT-11/12): Bayesian posterior witness — HMC chains on 20 parameters across N Forges. [pause: short] Gelman-Rubin R̂ < 1.01 or re-sample. [pause: short] The fleet watches its own test learning converge. [pause: short] The fabricator sees the T&E system as a distributed test oracle. [pause: short] Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. [pause: short] Every measurement updates RBTO. [pause: short] Every RBTO update adjusts test thresholds, SIF logic, cyber detection, HFE scenarios, environmental limits. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The test engineer does not "run test scripts" — they witness the test becoming the Forge's proof of existence:
+How does the inside operator witness the phenomenon into existence? [pause: short] The test engineer does not run test scripts — they witness the test becoming the Forge's proof of existence:
 
-[pause: short] SIS Engineer at CT-04 (SIS Proof Test) witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. [pause: short] They witness the safety system proving it protects — no report replaces seeing the voter agree 24 times. [pause: short] The witness signs: "I saw the system protect itself."
+[pause: short] SIS Engineer at CT-04 (SIS Proof Test) witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. [pause: short] They witness the safety system proving it protects — no report replaces seeing the voter agree 24 times. [pause: short] The witness signs: I saw the system protect itself.
 
-[pause: short] Quality Engineer at SG-2 (Flange Torque Ceremony) witnesses 24 bolts at 160 N·m ±5 N·m: dual torque wrenches, AE silence on final 10 N·m, tactile breakaway confirmation. [pause: short] They witness the mechanical joint becoming trust — no sensor replaces the mechanic's hand feeling uniform stretch across PEEK CF40 flange. [pause: short] [pause: short] Metrology Engineer at SG-3 (FBG Calibration) witnesses 384 channels at 5 reference temps: automated sweep, residual plots, R² > 0.999, drift <0.1 nm/°C. [pause: short] They witness the photonic nervous system calibrating itself — the human eye catches the systematic offset (Zone 3 +0.3 nm) that the algorithm accepts. [pause: short] [pause: short] Plant Manager at SAT-05 (First Hot Batch) witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. [pause: short] The twin says PASS; the witness sees the metal flow. [pause: short] They witness the Forge becoming a material engine. [pause: short] The witness says: "This is what we built for."
+[pause: short] Quality Engineer at SG-2 (Flange Torque Ceremony) witnesses 24 bolts at 160 N·m ±5 N·m: dual torque wrenches, AE silence on final 10 N·m, tactile breakaway confirmation. [pause: short] They witness the mechanical joint becoming trust — no sensor replaces the mechanic's hand feeling uniform stretch across PEEK CF40 flange. [pause: short] [pause: short] Metrology Engineer at SG-3 (FBG Calibration) witnesses 384 channels at 5 reference temps: automated sweep, residual plots, R² > 0.999, drift <0.1 nm/°C. [pause: short] They witness the photonic nervous system calibrating itself — the human eye catches the systematic offset (Zone 3 +0.3 nm) that the algorithm accepts. [pause: short] [pause: short] Plant Manager at SAT-05 (First Hot Batch) witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. [pause: short] The twin says PASS; the witness sees the metal flow. [pause: short] They witness the Forge becoming a material engine. [pause: short] The witness says: This is what we built for.
 
 [pause: short] Test Director at CT-10 Gate witnesses all 6 batches PASS: mass balance >99%, all outputs spec, twin sync <3σ, zero SIF trips, zero NCRs. [pause: short] They witness the integrated system earning its shipment authorization. [pause: short] The dual-signature (Quality + Plant Manager) on code: fat-vX.Y tag is the witness made permanent. [pause: short] No automated PASS/FAIL without human witness at the four gates. [pause: short] No test report without blockchain anchor. [pause: short] No shipment without CT-04 + CT-10 + witness signatures. [pause: short] Direct sensory-motor coupling to the RBTO tensor. [pause: short] The test engineer's hands are on the torque wrench, the FBG interrogator, the SIS test panel, the mass spec readout. [pause: short] They are inside the RBTO. [pause: short] --- Protocol (Recursive) ---
 
@@ -60152,8 +60152,8 @@ Each test generates a Data Package uploaded to DQR blockchain:
 --- C.1 IR-01: SIF Bypass Authorization ---
 
 [Code block]
-scenario: "IR-01 SIF Bypass"
-mitre_attack: "T0883 (Safety System Bypass)"
+scenario: IR-01 SIF Bypass
+mitre_attack: T0883 (Safety System Bypass)
 preconditions:
 
 [pause: short] Forge operational, nominal batch
@@ -60198,8 +60198,8 @@ success_criteria:
 --- C.2 IR-02: FBG Tamper ---
 
 [Code block]
-scenario: "IR-02 FBG Tamper"
-mitre_attack: "T0831 (Sensor Manipulation)"
+scenario: IR-02 FBG Tamper
+mitre_attack: T0831 (Sensor Manipulation)
 preconditions:
 
 [pause: short] Forge at Stage 8 (2200°C)
@@ -60240,8 +60240,8 @@ success_criteria:
 --- C.3 IR-03: Firmware Compromise ---
 
 [Code block]
-scenario: "IR-03 Firmware Supply Chain"
-mitre_attack: "T1195.002 (Supply Chain Compromise)"
+scenario: IR-03 Firmware Supply Chain
+mitre_attack: T1195.002 (Supply Chain Compromise)
 preconditions:
 
 [pause: short] GaN Systems (SUP-001) pushes RTU firmware v3.1.0
@@ -60284,8 +60284,8 @@ success_criteria:
 --- C.4 IR-04: Carrington+Cyber ---
 
 [Code block]
-scenario: "IR-04 Carrington + Cyber"
-mitre_attack: "T1499 (Endpoint Denial of Service) + GIC"
+scenario: IR-04 Carrington + Cyber
+mitre_attack: T1499 (Endpoint Denial of Service) + GIC
 preconditions:
 
 [pause: short] NOAA GIC warning: Kp=9, 5000 nT/s expected in 2 hr
@@ -60334,8 +60334,8 @@ success_criteria:
 --- C.5 IR-05: TSN Corruption ---
 
 [Code block]
-scenario: "IR-05 TSN Gate Control List Corruption"
-mitre_attack: "T1498 (Network Denial of Service) - TSN specific"
+scenario: IR-05 TSN Gate Control List Corruption
+mitre_attack: T1498 (Network Denial of Service) - TSN specific
 preconditions:
 
 [pause: short] TSN frozen schedule (PROD-23 commitment #4)
@@ -60374,8 +60374,8 @@ success_criteria:
 --- C.6 IR-06: PTP Compromise ---
 
 [Code block]
-scenario: "IR-06 PTP Grandmaster Spoof"
-mitre_attack: "T1556.006 (Multi-Factor Authentication Bypass) - PTP specific"
+scenario: IR-06 PTP Grandmaster Spoof
+mitre_attack: T1556.006 (Multi-Factor Authentication Bypass) - PTP specific
 preconditions:
 
 [pause: short] GNSS+OCXO grandmaster (PROD-23)
@@ -60445,26 +60445,26 @@ success_criteria:
 
 [Code block]
 {
-  "scenario": "HFE-04",
-  "operator_ids": ["OP-2026-042", "OP-2026-088"],
-  "start_time": "2026-11-03T14:00:00Z",
-  "end_time": "2026-11-03T14:15:00Z",
-  "metrics": {
-    "task_completion_time_sec": 420,
-    "expert_baseline_sec": 380,
-    "completion_ratio": 1.105,
-    "errors_critical": 0,
-    "errors_minor": 1,
-    "sagat_score": 0.95,
-    "nasa_tlx": 55,
-    "alarm_count": 12,
-    "hmi_response_times_ms": {"L2": 180, "L3": 120, "L4": 35}
+  scenario: HFE-04,
+  operator_ids: [OP-2026-042, OP-2026-088],
+  start_time: 2026-11-03T14:00:00Z,
+  end_time: 2026-11-03T14:15:00Z,
+  metrics: {
+    task_completion_time_sec: 420,
+    expert_baseline_sec: 380,
+    completion_ratio: 1.105,
+    errors_critical: 0,
+    errors_minor: 1,
+    sagat_score: 0.95,
+    nasa_tlx: 55,
+    alarm_count: 12,
+    hmi_response_times_ms: {L2: 180, L3: 120, L4: 35}
   },
-  "rct_update": {
-    "operator_042": {"HFE-04": 0.92},
-    "operator_088": {"HFE-04": 0.88}
+  rct_update: {
+    operator_042: {HFE-04: 0.92},
+    operator_088: {HFE-04: 0.88}
   },
-  "disposition": "PASS"
+  disposition: PASS
 }
 [End code block]
 
@@ -60592,11 +60592,11 @@ How does the fabricator observe their own fabrication? [pause: short] The Forge'
 
 [pause: short] Microsecond Mirror (L0 FPGA during CT-04): Gate-level witness — desat detect at 10 ns, SIF-17 trip logic execution, ZVS status at trip instant. [pause: short] The FPGA sees the SIF trip before the process knows. [pause: short] ZVS achievement >99.9%/cycle logged as test evidence. [pause: short] [pause: short] Millisecond Mirror (L1 RTU during CT-05/06/08): Thermal reconstruction witness — 48 FBG inputs/zone → T_inner prediction ±5°C at 2200°C. [pause: short] Model residual <2°C RMS or test abort. [pause: short] The RTU verifies its own thermal state estimation during test. [pause: short] [pause: short] 100 ms Mirror (L2 PLC during CT-04/08/10): Cascade consistency witness — mass-energy balance across stages. [pause: short] XRF/LIBS composition → feedforward. [pause: short] Elemental closure >99.5%/batch or test FAIL. [pause: short] The PLC watches the multi-physics handshake during test. [pause: short] [pause: short] 10 Hz Mirror (L3 SCADA/Twin during ALL tests): Digital twin self-witness — POD-Galerkin ROM vs. [pause: short] FEA vs. [pause: short] 384 FBG channels; autoencoder on residuals >3σ; SOE alignment check; merkle chain integrity. [pause: short] The forge watches its simulation witness the test. [pause: short] [pause: short] Continuous Mirror (Fleet during CT-11/12): Bayesian posterior witness — HMC chains on 20 parameters across N Forges. [pause: short] Gelman-Rubin R̂ < 1.01 or re-sample. [pause: short] The fleet watches its own test learning converge. [pause: short] The fabricator sees the T&E system as a distributed test oracle. [pause: short] Every gate switching (10 ns), thermal diffusion (1 ms), material transformation (100 ms), and fleet calibration (continuous) is a measurement. [pause: short] Every measurement updates RBTO. [pause: short] Every RBTO update adjusts test thresholds, SIF logic, cyber detection, HFE scenarios, environmental limits. [pause: short] --- Participation (Witness) ---
 
-How does the inside operator witness the phenomenon into existence? [pause: short] The test engineer does not "run test scripts" — they witness the test becoming the Forge's proof of existence:
+How does the inside operator witness the phenomenon into existence? [pause: short] The test engineer does not run test scripts — they witness the test becoming the Forge's proof of existence:
 
-[pause: short] SIS Engineer at CT-04 (SIS Proof Test) witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. [pause: short] They witness the safety system proving it protects — no report replaces seeing the voter agree 24 times. [pause: short] The witness signs: "I saw the system protect itself."
+[pause: short] SIS Engineer at CT-04 (SIS Proof Test) witnesses the 24 SIF trip sequence: 2oo3 votes aligning, SOE timestamps locking, FBG data freezing at trip instant, PFD_avg calculating <1×10⁻³. [pause: short] They witness the safety system proving it protects — no report replaces seeing the voter agree 24 times. [pause: short] The witness signs: I saw the system protect itself.
 
-[pause: short] Quality Engineer at SG-2 (Flange Torque Ceremony) witnesses 24 bolts at 160 N·m ±5 N·m: dual torque wrenches, AE silence on final 10 N·m, tactile breakaway confirmation. [pause: short] They witness the mechanical joint becoming trust — no sensor replaces the mechanic's hand feeling uniform stretch across PEEK CF40 flange. [pause: short] [pause: short] Metrology Engineer at SG-3 (FBG Calibration) witnesses 384 channels at 5 reference temps: automated sweep, residual plots, R² > 0.999, drift <0.1 nm/°C. [pause: short] They witness the photonic nervous system calibrating itself — the human eye catches the systematic offset (Zone 3 +0.3 nm) that the algorithm accepts. [pause: short] [pause: short] Plant Manager at SAT-05 (First Hot Batch) witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. [pause: short] The twin says PASS; the witness sees the metal flow. [pause: short] They witness the Forge becoming a material engine. [pause: short] The witness says: "This is what we built for."
+[pause: short] Quality Engineer at SG-2 (Flange Torque Ceremony) witnesses 24 bolts at 160 N·m ±5 N·m: dual torque wrenches, AE silence on final 10 N·m, tactile breakaway confirmation. [pause: short] They witness the mechanical joint becoming trust — no sensor replaces the mechanic's hand feeling uniform stretch across PEEK CF40 flange. [pause: short] [pause: short] Metrology Engineer at SG-3 (FBG Calibration) witnesses 384 channels at 5 reference temps: automated sweep, residual plots, R² > 0.999, drift <0.1 nm/°C. [pause: short] They witness the photonic nervous system calibrating itself — the human eye catches the systematic offset (Zone 3 +0.3 nm) that the algorithm accepts. [pause: short] [pause: short] Plant Manager at SAT-05 (First Hot Batch) witnesses the slug pour: ZrO₂ mold fill, quench steam plume, mass spec reading 99.9% Cu, 99.5% Au. [pause: short] The twin says PASS; the witness sees the metal flow. [pause: short] They witness the Forge becoming a material engine. [pause: short] The witness says: This is what we built for.
 
 [pause: short] Test Director at CT-10 Gate witnesses all 6 batches PASS: mass balance >99%, all outputs spec, twin sync <3σ, zero SIF trips, zero NCRs. [pause: short] They witness the integrated system earning its shipment authorization. [pause: short] The dual-signature (Quality + Plant Manager) on code: fat-vX.Y tag is the witness made permanent. [pause: short] No automated PASS/FAIL without human witness at the four gates. [pause: short] No test report without blockchain anchor. [pause: short] No shipment without CT-04 + CT-10 + witness signatures. [pause: short] Direct sensory-motor coupling to the RBTO tensor. [pause: short] The test engineer's hands are on the torque wrench, the FBG interrogator, the SIS test panel, the mass spec readout. [pause: short] They are inside the RBTO. [pause: short] --- Protocol (Recursive) ---
 
@@ -60746,7 +60746,7 @@ Section 5.5 proves material closure is thermodynamically feasible. [pause: short
 
 [Table row: ,  YInMn Blue ,  External ,  Stage 4 Y + Stage 4 In + Stage 8 Mn ,  H2 , ]
 
-No horizon requires materials outside the cascade output. [pause: short] The "external" column is the bootstrap condition; the "closure path" column is the roadmap's technical program. [pause: short] [pause: long]
+No horizon requires materials outside the cascade output. [pause: short] The external column is the bootstrap condition; the closure path column is the roadmap's technical program. [pause: short] [pause: long]
 
 --- The Policy-Technology Coupling ---
 
@@ -60764,7 +60764,7 @@ The roadmap cannot proceed without policy; the policy has no physical mechanism 
 
 --- The Open Architecture as Force Multiplier ---
 
-Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the "periodic table" of the technology. [pause: short] Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. [pause: short] Tier 3 (Fabrication Certification) ensures quality fidelity across the global network. [pause: short] This is not altruism. [pause: short] It is strategic necessity:
+Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the periodic table of the technology. [pause: short] Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. [pause: short] Tier 3 (Fabrication Certification) ensures quality fidelity across the global network. [pause: short] This is not altruism. [pause: short] It is strategic necessity:
 
 [pause: short] CSM cannot build 6 global hubs + lunar + orbital alone (CAPEX ]11.25B)
 
@@ -61297,7 +61297,7 @@ Port design: Radial ports at calculated density boundaries. [pause: short] No th
 
 --- 3.4 Microgravity Thermal Cascade — Capillary/Centrifugal Hybrid ---
 
-Challenge: In microgravity, liquid metals don't "pool at the bottom" — they form spheres held by surface tension. [pause: short] Centrifugal force must overcome surface tension. [pause: short] Bond number criterion:
+Challenge: In microgravity, liquid metals don't pool at the bottom — they form spheres held by surface tension. [pause: short] Centrifugal force must overcome surface tension. [pause: short] Bond number criterion:
 Bo = ρ·ω²·r·L²/σ > 10 for reliable separation
 
 [pause: short] ρ = 7000 kg/m³ (Fe), σ = 1.8 N/m (Fe surface tension at 1600°C)
@@ -61699,7 +61699,7 @@ FOLLOW-39 content synthesized into policy roadmap. [pause: short] --- 5.2.1 Stra
 
 FOLLOW-40 content synthesized into licensing framework. [pause: short] --- 5.3.1 Licensing Philosophy ---
 
-> "The physics is open. [pause: short] The engineering is licensed. [pause: short] The fabrication is certified."
+> The physics is open. [pause: short] The engineering is licensed. [pause: short] The fabrication is certified.
 
 Three-tier licensing model:
 
@@ -62096,7 +62096,7 @@ Section 5.5 proves material closure is thermodynamically feasible. [pause: short
 
 [Table row: ,  YInMn Blue ,  External ,  Stage 4 Y + Stage 4 In + Stage 8 Mn ,  H2 , ]
 
-No horizon requires materials outside the cascade output. [pause: short] The "external" column is the bootstrap condition; the "closure path" column is the roadmap's technical program. [pause: short] [pause: long]
+No horizon requires materials outside the cascade output. [pause: short] The external column is the bootstrap condition; the closure path column is the roadmap's technical program. [pause: short] [pause: long]
 
 --- The Policy-Technology Coupling ---
 
@@ -62114,7 +62114,7 @@ The roadmap cannot proceed without policy; the policy has no physical mechanism 
 
 --- The Open Architecture as Force Multiplier ---
 
-Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the "periodic table" of the technology. [pause: short] Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. [pause: short] Tier 3 (Fabrication Certification) ensures quality fidelity across the global network. [pause: short] This is not altruism. [pause: short] It is strategic necessity:
+Tier 1 (Open Physics) publishes the cascade thermodynamics, induction equations, drum stress solutions — the periodic table of the technology. [pause: short] Tier 2 (Engineering License) enables regional hubs (Section 5.4) to build Gen-II clusters without CSM factories. [pause: short] Tier 3 (Fabrication Certification) ensures quality fidelity across the global network. [pause: short] This is not altruism. [pause: short] It is strategic necessity:
 
 [pause: short] CSM cannot build 6 global hubs + lunar + orbital alone (CAPEX ]11.25B)
 

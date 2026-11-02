@@ -13,7 +13,7 @@
 
 ### 1.1 Pehuenche Origin and Territorial Identity
 
-The **Pehuenche** (Pewenche — "People of the Pewén" in Mapudungun) are the **high-Andean territorial segment of the Mapuche nation**, distinguished by their **millennial relationship with the pewén (Araucaria araucana, monkey puzzle tree)**. Unlike the Lafkenche (sea people), Nagche (lowland people), or Wenteche (valley people), the Pehuenche identity is **constituted by altitude (1,500–2,500 masl), volcanic geography, and pewén forest stewardship**.
+The **Pehuenche** (Pewenche — People of the Pewén in Mapudungun) are the **high-Andean territorial segment of the Mapuche nation**, distinguished by their **millennial relationship with the pewén (Araucaria araucana, monkey puzzle tree)**. Unlike the Lafkenche (sea people), Nagche (lowland people), or Wenteche (valley people), the Pehuenche identity is **constituted by altitude (1,500–2,500 masl), volcanic geography, and pewén forest stewardship**.
 
 **Archaeological Continuity**: **3,500+ years** of documented occupation in the Andean cordillera (carbon-dated sites: **Ralco, Pangue, Callaqui** — 1500 BCE to present). **Genetic studies (2023, Universidad de Chile + MPI-EVA)** confirm **direct maternal lineage continuity >90%** (haplogroups B2, C1, D1) between ancient and modern Pehuenche.
 
@@ -242,7 +242,7 @@ Where $C_{Lof,i} \in \{0,1\}$ = Lof consent (1) or veto (0). **All 8 Lofs must c
 **Standing in Environmental Courts (Tribunales Ambientales)**:
 - **Collective water rights (derechos de agua ancestrales)** — **pre-1981, senior to mining** (Water Code Art 56 bis + Law 21.435 Art 5)
 - **Pewén forest title** — **15,400 ha titled as Tierras Indígenas** (Law 19.253 Art 5)
-- **Glacier protection standing** — **Environmental Court 2024 recognized Pehuenche as "glacier guardians"** (Law 21.435 Art 10)
+- **Glacier protection standing** — **Environmental Court 2024 recognized Pehuenche as glacier guardians** (Law 21.435 Art 10)
 - **Consulta veto** — **binding on RCA per Dominga + Andina 244 precedents**
 
 **Territorial Jurisdiction Formula**:
@@ -260,7 +260,7 @@ Where $W_{headwaters}$ = glacier/snowmelt catchments, $P_{pewén}$ = pewén fore
 | **Informed** | Access to information | **EIA + glacier model + cultural impact in Mapudungun + Machi spiritual reading** | CONADI validation |
 | **Consent** | Agreement sought | **Unanimous Lof consent + Machi approval + Nguillatun ratification** | Acta de Consulta |
 
-**Critical Difference**: **Standard FPIC allows "broad community support" — Pehuenche requires UNANIMITY + SPIRITUAL RATIFICATION**. **This is the highest FPIC standard in Chile**.
+**Critical Difference**: **Standard FPIC allows broad community support — Pehuenche requires UNANIMITY + SPIRITUAL RATIFICATION**. **This is the highest FPIC standard in Chile**.
 
 ---
 
@@ -629,7 +629,7 @@ Where $CF_{avoided\_risk}$ = glacier loss avoided (shadow priced at $50M/yr per 
 $$Q_{solidarity,w \to w'} = \frac{\max(0, CIA_{w'} - 0.25)}{\sum_{u} \max(0, CIA_u - 0.25)} \cdot Q_{surplus,w}$$
 Where $CIA_w$ = watershed cumulative impact, $Q_{surplus,w}$ = water available above Pehuenche needs. **Enables Maipo/Cachapoal surplus to support Aconcagua/Choapa deficit** — **governed by Butalmapu, not market**.
 
-**Solidarity Principle**: **"The glacier that feeds my river feeds my brother's river" (Pehuenche saying)** — **watershed boundaries are administrative; hydrological reality is shared**.
+**Solidarity Principle**: **The glacier that feeds my river feeds my brother's river (Pehuenche saying)** — **watershed boundaries are administrative; hydrological reality is shared**.
 
 ---
 
@@ -782,7 +782,7 @@ Where $CIA_w$ = watershed cumulative impact, $Q_{surplus,w}$ = water available a
 | **Traditional Knowledge Protection** | Norche/Machi control over TK database | **TK database owned by Butalmapu, access logged** |
 | **Benefit Sharing** | Monetary + non-monetary (capacity, tech transfer) | PTI fellowships, nursery network, seed sovereignty |
 
-**Pehuenche Collective Trademark**: **"Pewén Pehuenche™"** — **registered INPI Chile, Madrid Protocol international** — **only Butalmapu-authorized products**.
+**Pehuenche Collective Trademark**: **Pewén Pehuenche™** — **registered INPI Chile, Madrid Protocol international** — **only Butalmapu-authorized products**.
 
 ---
 
@@ -973,7 +973,7 @@ diff <(gunzip -c FinishedWork/DOC-28_Community_Pehuenche.md.gz) FinishedWork/DOC
 
 # Git commit + tag
 git add chunks/DOC-28/ FinishedWork/DOC-28_*.md.gz FinishedWork/intros/DOC-28_*.md
-git commit -m "lol.rareearth: DOC-28 Pehuenche — 5000+ lines, 45+ formulas, 300+ cross-refs, 20 standards, 0 conflation, El Segundo PRIMARY"
+git commit -m lol.rareearth: DOC-28 Pehuenche — 5000+ lines, 45+ formulas, 300+ cross-refs, 20 standards, 0 conflation, El Segundo PRIMARY
 git tag runner-017c-complete
 git push origin kilo/digital-dolphin-50m
 git push origin runner-017c-complete
@@ -1116,18 +1116,18 @@ git push origin runner-017c-complete
 ### G.1 Environmental Court 23.456-2023 (Andina 244) — Full Ratio
 
 **Key Holdings**:
-1. **Glacier = "strategic reserve" (Law 21.435 Art 1)** — **not mere geological formation**
-2. **Rock glacier intervention = "glacier removal" (Art 7)** — **prohibited without indigenous consent**
-3. **Indigenous consent for glacier-adjacent = "enhanced FPIC" (Art 10)** — **requires independent expert appointed by indigenous community**
-4. **Dust deposition on glacier = "pollution" (Art 7)** — **measurable harm, not theoretical**
-5. **Monitoring must be "continuous, independent, indigenous-led"** — **proponent-funded, community-operated**
+1. **Glacier = strategic reserve (Law 21.435 Art 1)** — **not mere geological formation**
+2. **Rock glacier intervention = glacier removal (Art 7)** — **prohibited without indigenous consent**
+3. **Indigenous consent for glacier-adjacent = enhanced FPIC (Art 10)** — **requires independent expert appointed by indigenous community**
+4. **Dust deposition on glacier = pollution (Art 7)** — **measurable harm, not theoretical**
+5. **Monitoring must be continuous, independent, indigenous-led** — **proponent-funded, community-operated**
 
 ### G.2 Environmental Court 18.789-2022 (Los Bronces Dust) — Full Ratio
 
 **Key Holdings**:
-1. **PM10 deposition on glacier > 0.5 g/m²/day = "significant adverse effect" (Law 19.300 Art 11)**
+1. **PM10 deposition on glacier > 0.5 g/m²/day = significant adverse effect (Law 19.300 Art 11)**
 2. **Albedo reduction > 0.1 = measurable glacier harm** — **causal chain: dust → albedo → melt acceleration**
-3. **Proponent bears burden of proof for "no significant harm"** — **not community burden to prove harm**
+3. **Proponent bears burden of proof for no significant harm** — **not community burden to prove harm**
 4. **Real-time monitoring required at glacier stake** — **data public, community access mandatory**
 
 ### G.3 Supreme Court 124.567-2017 (Dominga) — Application to Pehuenche
@@ -1460,9 +1460,9 @@ $$\Delta M_{dust} = \sum_{y=2015}^{2024} \left( \frac{\alpha_{dust,y} \cdot SW_{
 
 **Andina 244 Expansion Plan (Approved 2023, Halted 2024)**:
 - **Action**: **Excavate 0.08 km² of rock glacier toe** for waste rock dump expansion
-- **Mitigation Proposed**: "Rock glacier relocation" — **excavate and reposition ice-debris mix**
+- **Mitigation Proposed**: Rock glacier relocation — **excavate and reposition ice-debris mix**
 - **Pehuenche Objection**: **Butalmapu Acta 2023-07 — unanimous veto by 8 Lofs + 3 Machi**
-- **Environmental Court Ruling (2024)**: **"Rock glacier relocation is not scientifically validated; ice-debris structure cannot be reconstituted. Independent monitoring required before any intervention."**
+- **Environmental Court Ruling (2024)**: **Rock glacier relocation is not scientifically validated; ice-debris structure cannot be reconstituted. Independent monitoring required before any intervention.**
 
 **Current Status**: **Expansion suspended. Codelco must fund Pehuenche-appointed glaciologist (Dr. Mariana Correa, U. Chile) for 24-month monitoring. GPF oversees.**
 
@@ -1580,7 +1580,7 @@ SEGUNDA: El Butalmapu puede modificar este protocolo por consenso unánime (8 Lo
 | **Timing** | Summer solstice (Dec 21) | Within 15 days of Butalmapu Acta | **Immediate** |
 | **Duration** | 2–4 days | **2 days minimum** | **Continuous presence** |
 | **Participants** | All community | **All 8 Lofs + Butalmapu + witnesses** | **Machi oficiante + 2 asistentes** |
-| **Petition (Ngillatuwe)** | General wellbeing | **Specific: "Ngen Pewén, Ngen Glaciar, Ngen Agua — ¿permite este proyecto?"** | **Direct question to spirits** |
+| **Petition (Ngillatuwe)** | General wellbeing | **Specific: Ngen Pewén, Ngen Glaciar, Ngen Agua — ¿permite este proyecto?** | **Direct question to spirits** |
 | **Signs (Wenu)** | Smoke, wind, birds, dreams | **Smoke direction (straight up = yes, sideways = no), Condor flight (circling = yes, away = no), Wind (calm = yes, storm = no), Machi dreams** | **Machi sole interpreter** |
 | **Outcome** | Community consensus | **Binding on Acta de Consulta** | **Cannot be appealed** |
 
@@ -1689,8 +1689,8 @@ Where $\eta_{snow} = 0.75$ (snowmaking efficiency), $Q_{water}$ = water flow, $L
 SCHEDULE GLACIER VETO — GLACIER PROTECTION FUND
 
 1. DEFINITIONS
-"Glacier" means any perennial ice mass inventoried in DGA Catastro 2023 (122 glaciers in Pehuenche headwaters) or subsequently identified.
-"Glacier Impact" means: (a) direct physical disturbance; (b) dust deposition >0.5 g/m²/day; (c) thermal alteration >0.5°C at 10m depth; (d) hydrological disconnection; (e) acceleration of retreat >25% above natural.
+Glacier means any perennial ice mass inventoried in DGA Catastro 2023 (122 glaciers in Pehuenche headwaters) or subsequently identified.
+Glacier Impact means: (a) direct physical disturbance; (b) dust deposition >0.5 g/m²/day; (c) thermal alteration >0.5°C at 10m depth; (d) hydrological disconnection; (e) acceleration of retreat >25% above natural.
 
 2. VETO TRIGGERS
 The GPF Board (4 Lonkos + 3 Machi + 1 Glaciologist + 1 Tardigradia) shall issue a Glacier Veto Order upon:
@@ -1955,7 +1955,7 @@ PHASE 5: COMMUNITY-SPECIFIC (10 docs)
 | **Recovery Time** | 5 years | **50–100 years (irreversible)** | **Structural collapse** |
 | **Water Quality** | No change | **Acid rock drainage risk (pyrite exposure)** | **New risk identified** |
 
-**Environmental Court 2024 Finding**: **Codelco EIA "substantially underestimates rock glacier hydrological function and irreversibility of intervention."**
+**Environmental Court 2024 Finding**: **Codelco EIA substantially underestimates rock glacier hydrological function and irreversibility of intervention.**
 
 #### U.2.3 El Teniente — Sewer Discharge Legacy
 
@@ -2207,7 +2207,7 @@ diff <(gunzip -c FinishedWork/DOC-28_Community_Pehuenche.md.gz) FinishedWork/DOC
 
 # 7. Git commit + tag
 git add chunks/DOC-28/ FinishedWork/DOC-28_*.md.gz FinishedWork/intros/DOC-28_*.md
-git commit -m "lol.rareearth: DOC-28 Pehuenche — 5500+ lines, 55+ formulas, 350+ cross-refs, 25 standards, 0 conflation, El Segundo PRIMARY"
+git commit -m lol.rareearth: DOC-28 Pehuenche — 5500+ lines, 55+ formulas, 350+ cross-refs, 25 standards, 0 conflation, El Segundo PRIMARY
 git tag runner-017c-complete
 git push origin kilo/digital-dolphin-50m
 git push origin runner-017c-complete

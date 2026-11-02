@@ -16,7 +16,7 @@
 ### 8.2.2 Consulta Indígena — Austral Protocols (Parallel Execution)
 
 **SEA Circular 2024 — Consulta Austral Diferenciada**:
-> "Proyectos en macro-región Austral que afecten territorio Kawéskar y/o Yagán requieren **consulta separada por pueblo** según Protocolos Kawéskar WCS (Decreto 120) y Yagán Beagle/Cabo de Hornos. **Consulta conjunta solo en zona de superposición (Seno Almirantazgo/Cabo de Hornos)**. Veto de cualquier pueblo = proyecto no admisible."
+> Proyectos en macro-región Austral que afecten territorio Kawéskar y/o Yagán requieren **consulta separada por pueblo** según Protocolos Kawéskar WCS (Decreto 120) y Yagán Beagle/Cabo de Hornos. **Consulta conjunta solo en zona de superposición (Seno Almirantazgo/Cabo de Hornos)**. Veto de cualquier pueblo = proyecto no admisible.
 
 | Pueblo | Protocolo | Plazo Mínimo | Autoridad Espiritual | Veto |
 |--------|-----------|--------------|---------------------|------|

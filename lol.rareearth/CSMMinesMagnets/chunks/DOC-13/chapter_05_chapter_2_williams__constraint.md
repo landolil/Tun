@@ -8,7 +8,7 @@ The Williams heuristic begins with **The Lock**: an irreducible principle that f
 
 **Article 19, Section 24 of the Chilean Constitution (1980, amended 2022)** establishes:
 
-> "The State has absolute, exclusive, inalienable, and imprescriptible dominion over all mines... The law shall determine the minerals subject to concession."
+> The State has absolute, exclusive, inalienable, and imprescriptible dominion over all mines... The law shall determine the minerals subject to concession.
 
 This is not a policy preference. It is a **constitutional axiom**. Every document in the pipeline — from DOC-01 (Geological Survey) to DOC-60 (Strategic Synthesis) — operates inside this Lock. The Lock **cannot be picked, bypassed, or negotiated away**. It forces:
 
@@ -49,7 +49,7 @@ The fourth Lock is **financial**: the **$1.3B capital stack** for Tardigradia Ch
 | Mezzanine | IRA §45X Tax Credits | $300M | Domestic content ≥40% (US/Chile) |
 | Equity | Tardigradia Holdco | $600M | Chilean SpA ≥51% local equity |
 
-**Williams Voice**: *The Lock is capital physics. Each layer has a non-negotiable condition. Fail one → stack collapses. No "alternative financing" replaces CRMA designation or IRA domestic content.*
+**Williams Voice**: *The Lock is capital physics. Each layer has a non-negotiable condition. Fail one → stack collapses. No alternative financing replaces CRMA designation or IRA domestic content.*
 
 ---
 
@@ -155,7 +155,7 @@ The Williams Turn converts Necessity into **protocol axioms** — commitments th
 
 #### 2.3.4 Axiom 4: DFARS-Ready by Design
 
-> **COMMITMENT**: Every magnet batch ships with **blockchain heat/lot certificate** — no exceptions, no "later addition."
+> **COMMITMENT**: Every magnet batch ships with **blockchain heat/lot certificate** — no exceptions, no later addition.
 
 **Derivation**: DFARS Lock (2027 deadline) + Traceability Necessity → Retrofit is impossible at scale.
 
@@ -179,20 +179,20 @@ The Williams Turn converts Necessity into **protocol axioms** — commitments th
 
 ---
 
-### 2.4 Williams Voice Signature — "The Lock, The Key, The Turn"
+### 2.4 Williams Voice Signature — The Lock, The Key, The Turn
 
 The Williams voice is defined by **three linguistic invariants**:
 
 | Invariant | Pattern | Example |
 |-----------|---------|---------|
-| **Declarative Constraint** | "The Lock is X." | "The Lock is Chilean constitutional sovereignty." |
-| **Deterministic Necessity** | "The Key is Y. No alternative fits." | "The Key is Aegis-Forge. No aqueous process resolves the water lock." |
-| **Axiomatic Commitment** | "The Turn is Z. This becomes protocol." | "The Turn is ≥51% Chilean equity. This becomes Articles of Association." |
+| **Declarative Constraint** | The Lock is X. | The Lock is Chilean constitutional sovereignty. |
+| **Deterministic Necessity** | The Key is Y. No alternative fits. | The Key is Aegis-Forge. No aqueous process resolves the water lock. |
+| **Axiomatic Commitment** | The Turn is Z. This becomes protocol. | The Turn is ≥51% Chilean equity. This becomes Articles of Association. |
 
 **Forbidden in Williams Voice**:
-- "Should," "could," "may," "might," "recommend," "suggest"
-- "Option," "alternative," "flexibility," "trade-off"
-- "Stakeholder preference," "market conditions," "negotiable"
+- Should, could, may, might, recommend, suggest
+- Option, alternative, flexibility, trade-off
+- Stakeholder preference, market conditions, negotiable
 
 **Required in Every Williams Section**:
 1. Lock statement (constitutional, physical, temporal, economic)
@@ -301,16 +301,16 @@ The Williams voice is defined by **three linguistic invariants**:
 
 ```python
 def williams_constraint_completeness(canonical_doc):
-    """
+    
     Every major section (Ch 1-8) must map to a 
     Constraint → Necessity → Commitment triad.
-    """
+    
     sections = extract_sections(canonical_doc, chapters=1-8)
     results = []
     for section in sections:
-        has_lock = detect_lock_language(section)  # "The Lock is", "forces", "irreducible"
-        has_key = detect_key_language(section)    # "The Key is", "resolves", "only viable"
-        has_turn = detect_turn_language(section)  # "The Turn is", "axiom", "protocol"
+        has_lock = detect_lock_language(section)  # The Lock is, forces, irreducible
+        has_key = detect_key_language(section)    # The Key is, resolves, only viable
+        has_turn = detect_turn_language(section)  # The Turn is, axiom, protocol
         
         if not (has_lock and has_key and has_turn):
             results.append({
@@ -347,7 +347,7 @@ The Williams heuristic operates on **three irreducible pillars**:
 2. **Necessity (The Key)**: Four deterministic keys that fit their locks because they operate **outside the constraint domain** — Aegis-Forge (outside Water Code), GFM+DC (outside GIC coupling), Blockchain (outside paper fraud), Triangulation (outside single-source risk).
 3. **Commitment (The Turn)**: Five protocol axioms that become **enforceable rules** — Chilean equity floor, mine-mouth deployment, GFM-native, DFARS-by-design, horizon consistency.
 
-The Williams voice — *"The Lock is X. The Key is Y. The Turn is Z."* — is the **logic certificate** that a document's architecture is not negotiated, not optional, not provisional. It is forced.
+The Williams voice — *The Lock is X. The Key is Y. The Turn is Z.* — is the **logic certificate** that a document's architecture is not negotiated, not optional, not provisional. It is forced.
 
 **Next**: Chapter 3 — Keymaker Heuristic: The Empirical-Mathematical Bridge.
 

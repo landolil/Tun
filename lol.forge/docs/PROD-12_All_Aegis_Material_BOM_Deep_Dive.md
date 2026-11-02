@@ -181,7 +181,7 @@ The Aegis-Forge I is constructed exclusively from CSMFAB-certified materials. Th
 
 ### 4.3 PEX-a (Item 15) — The Dielectric Cooling Pipe
 
-**Grade:** PEX-a 1/2" and 1" SDR9, cross-linked HDPE
+**Grade:** PEX-a 1/2 and 1 SDR9, cross-linked HDPE
 
 **Properties:**
 - Electrical resistivity: >10¹² Ω·m

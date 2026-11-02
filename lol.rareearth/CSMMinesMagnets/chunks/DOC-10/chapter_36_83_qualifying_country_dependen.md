@@ -22,7 +22,7 @@
 Per CSMMagEco2026 V2.0: **January 1, 2027** deadline — DoD implementation guidance Q1 2026 requires supply chain disclosure by September 2026.
 
 **CSM Compliance Strategy:**
-1. **Chile-US FTA** → Chile qualifies as "qualifying country" for specialty metals
+1. **Chile-US FTA** → Chile qualifies as qualifying country for specialty metals
 2. **Aegis-Forge zero-tailings** → environmental compliance advantage
 3. **Fe₁₆N₂ pathway** → zero REE content, **DFARS-exempt** entirely
 4. **Recycled NdFeB (Urban Mining HPMS)** → 12,000 kg/month DFARS-compliant source

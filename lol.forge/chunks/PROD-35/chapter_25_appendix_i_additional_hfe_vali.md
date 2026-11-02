@@ -54,7 +54,7 @@
 ### I.5 Egress Validation (PROD-29)
 
 **Monthly Unannounced Drill Protocol:**
-- Trigger: SL activates "Egress Drill" via HMI (logged, timestamped)
+- Trigger: SL activates Egress Drill via HMI (logged, timestamped)
 - Measurement: Time from drill start to all personnel at Z0 safe zone
 - Routes: Primary + secondary from each zone tested quarterly
 - Pass Criteria: All personnel <30 sec (Z4), <45 sec (Z6), headcount 100% at Z0

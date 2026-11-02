@@ -16,6 +16,6 @@ This document specifies the complete engineering of the Acoustic Mineral Liberat
 - Performance specifications (10 parameters table)
 - Economic impact: downstream induction efficiency gain, operational cost
 
-**Design Mandate:** Mechanical liberation precedes thermal separation. The 40-60% downstream induction efficiency gain from Stage 0 acoustic pre-processing is not optional — it is the empirical lock that makes the thermal cascade viable. The AMLS does not "crush"; it *witnesses the grain boundary into release* through resonant fatigue and cavitation shock.
+**Design Mandate:** Mechanical liberation precedes thermal separation. The 40-60% downstream induction efficiency gain from Stage 0 acoustic pre-processing is not optional — it is the empirical lock that makes the thermal cascade viable. The AMLS does not crush; it *witnesses the grain boundary into release* through resonant fatigue and cavitation shock.
 
 ---

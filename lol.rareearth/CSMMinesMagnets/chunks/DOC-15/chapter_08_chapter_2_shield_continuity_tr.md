@@ -62,14 +62,14 @@ Adapted from DOC-13 Ch. 6.2 for resume-specific state:
 class ContinuityProtocol:
     def __init__(self):
         self.handoff_files = [
-            "NEXT_runner_{:03d}.md".format(self.next_runner),
-            "RESUME_SESSION_MAGNETS.md",
-            "HEARTBEAT_MAGNETS.md",
-            "TODO.md"
+            NEXT_runner_{:03d}.md.format(self.next_runner),
+            RESUME_SESSION_MAGNETS.md,
+            HEARTBEAT_MAGNETS.md,
+            TODO.md
         ]
     
     def outgoing_handoff(self, runner_id: int, state: PipelineState) -> bool:
-        """Execute outgoing handoff (runner completes work)"""
+        Execute outgoing handoff (runner completes work)
         # 1. Update RESUME_SESSION with current state
         self.update_resume_session(state)
         
@@ -77,21 +77,21 @@ class ContinuityProtocol:
         self.create_next_runner(runner_id + 1, state)
         
         # 3. Final git commit + tag + push
-        self.git_commit_tag_push(f"Runner {runner_id:03d} complete")
+        self.git_commit_tag_push(fRunner {runner_id:03d} complete)
         
         # 4. Verify tag pushed
-        assert self.verify_tag_pushed(f"runner-{runner_id:03d}-complete")
+        assert self.verify_tag_pushed(frunner-{runner_id:03d}-complete)
         
         return True
     
     def incoming_handoff(self, runner_id: int) -> PipelineState:
-        """Execute incoming handoff (runner starts work)"""
+        Execute incoming handoff (runner starts work)
         # This IS the 5-phase resume protocol
         resume = SessionResume(REPO_URL, BRANCH, PROJECT_DIR)
         return resume.run()
     
     def degraded_handoff(self, failure_mode: str) -> PipelineState:
-        """Degraded mode handoff for specific failures"""
+        Degraded mode handoff for specific failures
         modes = {
             'network_partition': self.local_continue_mode,
             'github_down': self.local_commit_mode,
@@ -189,7 +189,7 @@ The SHIELD Continuity Triad provides the **executable protocol** for session res
 - **Resilience**: 7 independent state persistence layers — each survives loss of layers above
 - **Continuity**: 5-Phase deterministic handoff with RTO≤5min, RPO=last commit, degraded modes
 
-The SHIELD voice — *"Calm: [disruption]→[pre-positioned protocol]. Resilience: [layers] persist [state]. Continuity: [RTO/RPO] met."* — is the **survival certificate** that the pipeline resumes elegantly across all disruption classes.
+The SHIELD voice — *Calm: [disruption]→[pre-positioned protocol]. Resilience: [layers] persist [state]. Continuity: [RTO/RPO] met.* — is the **survival certificate** that the pipeline resumes elegantly across all disruption classes.
 
 **Next**: Chapter 3 — Git-Based Persistence Architecture: GitHub as Canonical State Store.
 

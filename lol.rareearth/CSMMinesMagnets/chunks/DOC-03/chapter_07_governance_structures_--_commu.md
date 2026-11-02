@@ -52,7 +52,7 @@ Decision process: Annual Assembly (all beneficiaries) approves budget. Protector
 | Staff | 8-12 professionals (investment, social, technical, admin) |
 | Budget | Trust allocation (30% = ~$1.8M/yr) + project grants (Corfo, Gore, international) |
 
-#### 7.2.2 Investment Mandate -- "Productive Diversification Beyond Mining"
+#### 7.2.2 Investment Mandate -- Productive Diversification Beyond Mining
 
 | Sector | Target Allocation | Instrument | Example Projects |
 |--------|------------------|------------|------------------|

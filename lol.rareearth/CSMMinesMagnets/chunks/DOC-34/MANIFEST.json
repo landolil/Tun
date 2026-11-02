@@ -47,7 +47,7 @@
     "size": 55,
     "sha256": "46aecd2816e05af36e9e621a9ec12249036b9f957c81fa818409c5a21a2e9191"
   },
-  "chapter_13_line_count_chapter_1_target_\u22651.md": {
+  "chapter_13_line_count_chapter_1_target_gte1.md": {
     "size": 103,
     "sha256": "c1b47c5bd8a23a36fd7b9542cb92682b8a04b0ef33ce085749b1b2c9041cd03c"
   },
@@ -107,7 +107,7 @@
     "size": 56,
     "sha256": "bf58b22385135b86cd826bcdf8417f099f8c1b2fd107d8b23bc393fc61890684"
   },
-  "chapter_28_line_count_chapter_2_target_\u22651.md": {
+  "chapter_28_line_count_chapter_2_target_gte1.md": {
     "size": 103,
     "sha256": "babdb589fc9bd530b7dfd5d664e72d1ffd12154d71625c87ed3ea15ff1c54b56"
   },
@@ -159,7 +159,7 @@
     "size": 55,
     "sha256": "defee52b782ff97c9a86c0f944ac737d4f4cef9aaa3b069f0a41dc56e8386eee"
   },
-  "chapter_41_line_count_chapter_3_target_\u22651.md": {
+  "chapter_41_line_count_chapter_3_target_gte1.md": {
     "size": 103,
     "sha256": "3781b410b0064bf503c57081eaf7dd8fc54f09e2b8127a10c13f9f1f655ced93"
   },
@@ -175,11 +175,11 @@
     "size": 1290,
     "sha256": "cb7c209c88062a204f8bb5863c08476e1dce42aef4f5aa805cf5886a8bbc573b"
   },
-  "chapter_45_chapter_4_atacame\u00f1o_lickaanant.md": {
+  "chapter_45_chapter_4_atacameno_lickaanant.md": {
     "size": 94,
     "sha256": "4fb693cd0db6b441979e595e5dc649f5f154e7966eed60a06c69b5bc58637bdb"
   },
-  "chapter_46_41_cpa_atacame\u00f1o_structure__th.md": {
+  "chapter_46_41_cpa_atacameno_structure__th.md": {
     "size": 2476,
     "sha256": "a8634f203ab8ad1648371567998ba1b06bc0c12e3dc7824922952d35d054c944"
   },
@@ -211,7 +211,7 @@
     "size": 55,
     "sha256": "aafa6c6d5a11019c468bfbba07fb941699970ea780e135e76d104b263ea26ddd"
   },
-  "chapter_54_line_count_chapter_4_target_\u22651.md": {
+  "chapter_54_line_count_chapter_4_target_gte1.md": {
     "size": 103,
     "sha256": "6b2f685d41c847f0fd424e5288c1841a7626cf271ba1c47552ddd200b24751c8"
   },
@@ -259,7 +259,7 @@
     "size": 55,
     "sha256": "dd446da376862003209ad599a12faa71c0dfbc61587c7cb45a4eeaf5dffd6fb1"
   },
-  "chapter_66_line_count_chapter_5_target_\u22651.md": {
+  "chapter_66_line_count_chapter_5_target_gte1.md": {
     "size": 103,
     "sha256": "7694bf99e9ded3731db0cfb4d75aa18255597a6add5bb5afa67e74d37548cf78"
   },
@@ -307,7 +307,7 @@
     "size": 55,
     "sha256": "4f408095992346fe6ce619c07d2c75e6e68ef741cc312e8e98782b30fee476e5"
   },
-  "chapter_78_line_count_chapter_6_target_\u22651.md": {
+  "chapter_78_line_count_chapter_6_target_gte1.md": {
     "size": 103,
     "sha256": "5b7aa94ebcaf165e01230be9c3d34534b6588cb7f7cbb688f22a369cc69d84a9"
   },
@@ -355,7 +355,7 @@
     "size": 55,
     "sha256": "f39f54820b8ea0b27f7251d6666b7609d1133bc1c591909018dd4367d1d48fe3"
   },
-  "chapter_90_line_count_chapter_7_target_\u22651.md": {
+  "chapter_90_line_count_chapter_7_target_gte1.md": {
     "size": 103,
     "sha256": "fd6c8d1d7730d27b81d20852de80285d5a442c36c5332337af8674bd73a90cfb"
   },
@@ -403,7 +403,7 @@
     "size": 55,
     "sha256": "15c0f1006d0c3b0396e80295814ea0c517bef1bbc3d1b049d0516ab7f9d51f45"
   },
-  "chapter_102_line_count_chapter_8_target_\u22651.md": {
+  "chapter_102_line_count_chapter_8_target_gte1.md": {
     "size": 103,
     "sha256": "43689f3ead53cada682271282166e5adcc0308ae4c8d2b0a91f602ea02b2377d"
   },
@@ -447,7 +447,7 @@
     "size": 261,
     "sha256": "d2b9eb997ce3487543679ec71314747da8067e67908f838e1dd4dc2e19cb6b41"
   },
-  "chapter_113_expected_output_\"zero_conflati.md": {
+  "chapter_113_expected_output_zero_conflati.md": {
     "size": 80,
     "sha256": "676422f053cd87ccb5c92b9fe1e1cfb8077989bc520fbcc8155f1e3b48c959cd"
   },
@@ -455,35 +455,35 @@
     "size": 30,
     "sha256": "c5f9eb16bf02b06baae068f28a60362707e1a2f8cff165cca04c80d87251775c"
   },
-  "chapter_115_-_\"san_pedro_de_atacama\"_vs_\"c.md": {
+  "chapter_115_san_pedro_de_atacama_vs_c.md": {
     "size": 88,
     "sha256": "b008cf781d07f26ac85b32c4672212a8a6a7b482614f4c8edcd1a7d4cd5de5b4"
   },
-  "chapter_116_-_\"cpa_atacame\u00f1o\"_vs_\"consejo_.md": {
+  "chapter_116_cpa_atacameno_vs_consejo.md": {
     "size": 95,
     "sha256": "b25369576d7376bcebf0f86c457008cad090c81a8b498639b2e28fd45acc1d2b"
   },
-  "chapter_117_-_\"tourism_mono-culture\"_vs_\"m.md": {
+  "chapter_117_tourism_mono-culture_vs_m.md": {
     "size": 94,
     "sha256": "963bb19bb7a993a194eb4e83c5203cd842d45797397e55f30bbb40580c6621bb"
   },
-  "chapter_118_-_\"puripica-chiu_chiu_aquifer\".md": {
+  "chapter_118_puripica-chiu_chiu_aquifer.md": {
     "size": 88,
     "sha256": "1581e252a076b0a16ebfb0fb2b9b360685a2b3c268f2879f843662fce4d574aa"
   },
-  "chapter_119_-_\"el_tatio_geothermal\"_vs_\"hi.md": {
+  "chapter_119_el_tatio_geothermal_vs_hi.md": {
     "size": 70,
     "sha256": "7226bb94cc4728691637c3c24bf48e014d1fc5f353fb16b6b74190e2a7591750"
   },
-  "chapter_120_-_\"dark_sky_sanctuary\"_vs_\"ind.md": {
+  "chapter_120_dark_sky_sanctuary_vs_ind.md": {
     "size": 75,
     "sha256": "03d3626b0d9bd4aaa30b94bf6b6c793288ebd748b326e169a755859417e2224e"
   },
-  "chapter_121_-_\"kunza_language\"_vs_\"chango_.md": {
+  "chapter_121_kunza_language_vs_chango.md": {
     "size": 78,
     "sha256": "41e124621a97e00b85420496755b4417188190f35a1f69e0eb98bd58611fc098"
   },
-  "chapter_122_-_\"carrying_capacity_archaeolo.md": {
+  "chapter_122_carrying_capacity_archaeolo.md": {
     "size": 198,
     "sha256": "4b9331933be13e810d39cb7acebf77b5b17096b1915b2650aa765d55196355be"
   },
@@ -495,19 +495,19 @@
     "size": 77,
     "sha256": "4fd7551f4d5d35b0dc91a10a6a8038621369b80f93dfe7c4a1f031b78717660f"
   },
-  "chapter_125_target_\u2265900_lines_\u2192_achieved_~.md": {
+  "chapter_125_target_gte900_lines_to_achieved_~.md": {
     "size": 114,
     "sha256": "198c901fb4a45d2361e44292bcab30e44ece820b49f4eb52784f683a4cedf6b0"
   },
-  "chapter_126_target_\u226520_formulas_\u2192_achieved.md": {
+  "chapter_126_target_gte20_formulas_to_achieved.md": {
     "size": 3138,
     "sha256": "5153673a5abc545d973f69a45f875e980a17727e6c8ccedb9d3d071cacd33440"
   },
-  "chapter_127_target_\u226515_cross-refs_\u2192_achiev.md": {
+  "chapter_127_target_gte15_cross-refs_to_achiev.md": {
     "size": 381,
     "sha256": "5b963d3a25d5d21ed81045553511dd7bba68902b28961bd7a920e2824f7e2052"
   },
-  "chapter_128_target_\u22658_standards_\u2192_achieved.md": {
+  "chapter_128_target_gte8_standards_to_achieved.md": {
     "size": 122,
     "sha256": "dd746e805be60c88c02f14c34b91b34b937412368cb97b2d56b9be3b58f213ef"
   },

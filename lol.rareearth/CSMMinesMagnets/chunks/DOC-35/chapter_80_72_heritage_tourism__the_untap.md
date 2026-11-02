@@ -11,7 +11,7 @@
 | **Indirect Jobs** | 0 | **40** (transport, crafts, food) | 60 |
 | **Seasonality** | Low (year-round) | Moderate (summer peak) | High (summer) |
 
-### 7.2.2 Visitor Experience Design — The "Living Museum" Concept
+### 7.2.2 Visitor Experience Design — The Living Museum Concept
 
 ```
 HERITAGE TOURISM PRODUCT — OFICINA MARÍA ELENA
@@ -19,7 +19,7 @@ HERITAGE TOURISM PRODUCT — OFICINA MARÍA ELENA
 CORE EXPERIENCE (4-hour guided tour):
 ├── 1. **Power House & Steam** — Operating turbines, coal/biomass, engineering
 ├── 2. **Shanks Leaching Circuit** — Caliche feed → counter-current tanks → pregnant liquor
-├── 3. **Crystallization Hall** — Vacuum pans, centrifuges, nitrate "snow" harvesting
+├── 3. **Crystallization Hall** — Vacuum pans, centrifuges, nitrate snow harvesting
 ├── 3. **Campamento Walk** — Worker housing, plaza, church, school, theater (community life)
 ├── 4. **Railway Experience** — Heritage locomotive, ore wagons, 5 km round trip
 └── 5. **Museum & Archive** — Photographs, oral histories, tools, mineralogy

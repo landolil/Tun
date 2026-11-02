@@ -109,7 +109,7 @@ Conflict Detected
 **Auditable Variable**: A quantified or qualified assertion that can be traced to a primary source (Exhibit A-E) and verified via binary vector (Keymaker).
 
 **Non-Conflation** (explicitly excluded):
-- Different heuristic framings of same fact (Williams "Lock" vs Keymaker "Lock" = translation, not contradiction)
+- Different heuristic framings of same fact (Williams Lock vs Keymaker Lock = translation, not contradiction)
 - Progressive refinement (DOC-07 adds detail to DOC-04 trigger — not conflict)
 - Scope differentiation (DOC-09 specifies motor-grade; DOC-10 specifies supply-chain-grade — compatible)
 
@@ -191,9 +191,9 @@ STEP 6: RECORD — Audit Ledger Entry
 
 ```python
 def conflation_audit_quality_gates(audit_results):
-    """
+    
     Runs after full pairwise audit of DOC-01..13
-    """
+    
     checks = {
         'pairwise_complete': audit_results.pairs_checked == 78,
         'zero_critical_unresolved': audit_results.critical_unresolved == 0,

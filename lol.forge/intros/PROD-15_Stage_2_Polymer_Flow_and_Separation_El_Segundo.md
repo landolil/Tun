@@ -2,7 +2,7 @@
 ## Operational Reliability & Manufacturing Lens — El Segundo Works
 
 **Document:** PROD-15 Stage 2 Polymer Flow & Separation
-**Heuristic:** El Segundo — Operational reliability, manufacturing reality, maintenance, "what breaks at 3 AM"
+**Heuristic:** El Segundo — Operational reliability, manufacturing reality, maintenance, what breaks at 3 AM
 **Author:** CSM Fabrication Division | **Date:** 2026-11-01
 
 ---
@@ -148,7 +148,7 @@
 
 ---
 
-#### 7. THE "3 AM TEST"
+#### 7. THE 3 AM TEST
 
 *Scenario: 0300 hrs, Batch 847, HCl sensor reads 180 ppm, rising.*
 
@@ -176,5 +176,5 @@
 
 ---
 
-*El Segundo Heuristic: "Design for the tech who hasn't slept. They're the one fixing it."*
+*El Segundo Heuristic: Design for the tech who hasn't slept. They're the one fixing it.*
 *This document: Designed for 3 AM. Maintenance windows defined. Spares budgeted.*

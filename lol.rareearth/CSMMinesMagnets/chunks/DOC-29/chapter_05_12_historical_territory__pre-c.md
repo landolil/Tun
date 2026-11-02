@@ -24,7 +24,7 @@
 | **Reducción** | 1600–1800 | Mission towns, forced concentration | ~500,000 | All (coastal Lafkenche first) |
 | **Pacification of Araucanía** | 1861–1883 | Military occupation, land titles to settlers | **5,200,000** | **Nagche, Wenteche** (Central Valley) |
 | **Law 2,956 (1908)** | 1908–1930 | Subdivision of communal titles, sale to third parties | 1,800,000 | **Nagche, Wenteche** |
-| **Forest Substitution (DL 701)** | 1974–2012 | Subsidies for Pinus/Eucalyptus on "degraded" Mapuche land | 1,500,000 | **Nagche, Wenteche, Lafkenche** |
+| **Forest Substitution (DL 701)** | 1974–2012 | Subsidies for Pinus/Eucalyptus on degraded Mapuche land | 1,500,000 | **Nagche, Wenteche, Lafkenche** |
 | **Dam Flooding (Endesa/Colbún)** | 1990–2010 | Ralco, Pangue, Angostura, Rucúe reservoirs | 15,000 (direct) + 50,000 (indirect) | **Wenteche, Pewenche** |
 | **Total Documented Loss** | 1600–2024 | — | **~9.1 million ha** | **From ~14M ha to ~4.9M ha (65% loss)** |
 

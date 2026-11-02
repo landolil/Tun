@@ -166,7 +166,7 @@ node scripts/split_chunks.js verify chunks/PROD-XX
 node scripts/split_chunks.js compress docs/PROD-XX_<title>.md
 
 # Git commit (with proper identity)
-git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — NNN lines + 4 heuristic intros, XX chunks verified"
+git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — NNN lines + 4 heuristic intros, XX chunks verified
 
 # Push
 git pull --rebase && git push

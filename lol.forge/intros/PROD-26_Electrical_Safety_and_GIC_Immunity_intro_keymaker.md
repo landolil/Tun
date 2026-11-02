@@ -6,7 +6,7 @@ The fabrication fidelity gap in Aegis-Forge I electrical safety is the **diverge
 
 Three specific locks prevent traditional electrical safety engineering from closing this gap:
 
-1. **Grounding is the vulnerability, not the protection:** Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. But in the forge, the ground conductor *becomes* the GIC antenna. 5000 nT/s induces >100 V/km. A 50 m ground wire = 5 V common-mode. The GaN gate driver threshold is 6 V. The "safety ground" destroys the safety system. The lock: **safety ground as GIC antenna.**
+1. **Grounding is the vulnerability, not the protection:** Every industrial standard (IEEE 142, NFPA 70, IEC 60364) mandates equipment grounding conductors for fault current return and shock protection. But in the forge, the ground conductor *becomes* the GIC antenna. 5000 nT/s induces >100 V/km. A 50 m ground wire = 5 V common-mode. The GaN gate driver threshold is 6 V. The safety ground destroys the safety system. The lock: **safety ground as GIC antenna.**
 
 2. **EMC shielding requires conductivity — the forge forbids it:** CISPR 11 / IEC 61000-4 assume metallic enclosures (steel, aluminum) for radiated emission containment and immunity. But at 2200°C with 500 kW of 1–100 kHz magnetic fields, a steel cabinet becomes an induction heater. The measured B-field at Z8 is 39.6 mT. Eddy current heating in 2 mm steel: P = π²B²f²d²V/6ρ ≈ 50 kW. The cabinet would melt. The lock: **metallic shielding as induction heater.**
 

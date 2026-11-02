@@ -74,7 +74,7 @@ Aluminum Window                             Copper & Precious Metals            
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Copper Window": 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
+• The Copper Window: 1085°C (pure Cu MP) to 1200°C (Fe remains solid, Ni MP 1455°C)
 • At 1085°C: Cu melts, Fe (1538°C), Ni (1455°C), Co (1495°C), Cr (1907°C) remain solid
 • Centrifugal force (250 RPM, G=17.4) drives molten Cu film to drum wall
 • Port 6 (1180°C setpoint) drains continuous Cu stream to anode molds
@@ -520,7 +520,7 @@ With p_H₂O < 10⁻⁴ bar (dew point <-40°C): p_H₂ > 10⁻⁵ bar (triviall
 2. **Dimensions:** Laser triangulation (±0.1 mm)
 3. **Composition:** LIBS re-check at demold (PROD-08 Section 5)
 4. **Grade Assignment:** DIRECT_USE (electrorefining feed)
-5. **Registry Entry:** `slug_registry` with `downstream_machine: "114-electrorefining"`
+5. **Registry Entry:** `slug_registry` with `downstream_machine: 114-electrorefining`
 
 ### 6.2 Slime Collection and Transfer to FOLLOW-19
 

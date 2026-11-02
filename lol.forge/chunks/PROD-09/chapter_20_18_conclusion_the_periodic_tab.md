@@ -2,11 +2,11 @@
 
 The eight material exit port valves are the **physical punctuation marks** in the Aegis-Forge I's thermal sentence. Each valve embodies a specific phase transition temperature from the periodic table:
 
-- **Port 4:** "Here indium melts at 156°C" — Ti₃AlC₂/ZrO₂ bilayer deflects 3.6 mm
-- **Port 5:** "Here aluminum melts at 660°C" — Pure window, clean separation
-- **Port 6:** "Here copper melts at 1085°C" — Deep penetration, precious metals follow
-- **Port 7:** "Here iron melts at 1538°C" — Ferromagnetic coupling, REEs co-exit
-- **Port 8:** "Here zircon dissociates at 1676°C" — Mineral residue, oxides
+- **Port 4:** Here indium melts at 156°C — Ti₃AlC₂/ZrO₂ bilayer deflects 3.6 mm
+- **Port 5:** Here aluminum melts at 660°C — Pure window, clean separation
+- **Port 6:** Here copper melts at 1085°C — Deep penetration, precious metals follow
+- **Port 7:** Here iron melts at 1538°C — Ferromagnetic coupling, REEs co-exit
+- **Port 8:** Here zircon dissociates at 1676°C — Mineral residue, oxides
 
 **No control system decides when to open. The temperature decides. The material decides. The physics decides.**
 

@@ -12,7 +12,7 @@ The Aegis-Forge I drum assembly (drum + vessel + coil bank + seals) is a **singl
 | **Drive coupling** | KNbO₃-BaTiO₃ ultrasonic motor shaft | Concentricity <0.02 mm | Dial indicator |
 | **FBG feedthrough** | 6× ZrO₂ bulkhead, PMMA POF | Insertion loss <0.5 dB | OTDR |
 | **Cooling water** | PEX-a, 25 mm OD, 2 circuits | Flow 50 L/min, ΔP <2 bar | Flow meter |
-| **Gas connections** | N₂/Ar, ZrO₂ fittings, 1" PEX-a | Pressure 3 bar, leak <10⁻⁵ | Bubble test |
+| **Gas connections** | N₂/Ar, ZrO₂ fittings, 1 PEX-a | Pressure 3 bar, leak <10⁻⁵ | Bubble test |
 | **Instrumentation** | 384 FBG, 8 AE, 8 Coriolis | All channels active | Auto-scan |
 
 ### 14.2 Port-to-Nozzle Alignment Procedure

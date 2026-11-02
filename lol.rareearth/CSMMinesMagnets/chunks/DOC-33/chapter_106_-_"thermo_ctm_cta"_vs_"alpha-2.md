@@ -1,1 +1,0 @@
-#   - "Thermo CTM/CTA" vs "Alpha-2 Inductive" vs "Mining Operations"

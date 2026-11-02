@@ -54,7 +54,7 @@
 
 #### 4.3.1 Legal Framework
 
-- **Water Code**: Brine = "mineral water" (DGA jurisdiction)
+- **Water Code**: Brine = mineral water (DGA jurisdiction)
 - **Indigenous Law 19.253**: Atacameño ancestral rights to Salar
 - **SQM/Albemarle Contracts**: CORFO lease (expires 2030/2043)
 

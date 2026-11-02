@@ -132,7 +132,7 @@ In microgravity, centrifugal force IS the effective gravity. Drum at 500 RPM, r=
 
 ### 3.4 Microgravity Thermal Cascade — Capillary/Centrifugal Hybrid
 
-**Challenge:** In microgravity, liquid metals don't "pool at the bottom" — they form spheres held by surface tension. Centrifugal force must overcome surface tension.
+**Challenge:** In microgravity, liquid metals don't pool at the bottom — they form spheres held by surface tension. Centrifugal force must overcome surface tension.
 
 **Bond number criterion:**
 Bo = ρ·ω²·r·L²/σ > 10 for reliable separation

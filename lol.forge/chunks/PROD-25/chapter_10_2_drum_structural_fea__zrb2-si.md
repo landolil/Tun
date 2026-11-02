@@ -127,7 +127,7 @@ $$P_f = 1 - \exp\left[-\left(\frac{225}{500}\right)^{12} \times 85\right] = 1 - 
 - For thermal cycle ΔT = 2180°C, ΔK = 3.5 MPa·m⁰·⁵: N_f = 4.2×10⁶ cycles
 - **Design life: 2,200 cycles → SF = 1,900× on crack growth**
 
-**Conclusion:** With NDT-controlled initial flaw size, drum structural reliability is adequate. The Weibull "weakest link" statistics apply to as-sintered material; NDT screening shifts the distribution.
+**Conclusion:** With NDT-controlled initial flaw size, drum structural reliability is adequate. The Weibull weakest link statistics apply to as-sintered material; NDT screening shifts the distribution.
 
 ### 2.8 Critical Speed & Rotordynamics
 

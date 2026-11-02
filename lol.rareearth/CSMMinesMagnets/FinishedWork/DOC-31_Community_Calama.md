@@ -86,7 +86,7 @@
 | **Migrant Workforce** | 18% | 24% | **28%** | Managed integration |
 
 **Key Programs**:
-- **Codelco "Mujer Minera"**: 500 women trained 2020–2024, 60% placement
+- **Codelco Mujer Minera**: 500 women trained 2020–2024, 60% placement
 - **Sernameg + Codelco**: Childcare centers at 3 campamentos (capacity 300)
 - **Diversity Clause in Collective Agreements**: 2023 — harassment protocol, parental leave equity
 
@@ -374,7 +374,7 @@ TOTAL URINARY AS PREDICTED: **38–52 μg/g creat** (matches measured 42 μg/g)
 1. **Shift Rotation (7×7, 14×14)**: 68% report sleep disruption, family strain
 2. **Automation Anxiety**: 52% fear job displacement in 10 years
 3. **Contractor Insecurity**: 78% contractor workers — no stability, no career
-4. **Environmental Guilt**: 34% — "mining destroys our land/water"
+4. **Environmental Guilt**: 34% — mining destroys our land/water
 5. **Isolation**: 41% — campamento life, far from family (migrants especially)
 
 **Codelco Mental Health Investment (2024)**: **US$4.2M/yr** — **0.8% of health budget** — **target 3% by 2027**
@@ -1668,7 +1668,7 @@ COMPOSITE P(UNREST) = **0.68 (High)** — **Expected 3.4 events/5yr**
 | **Drought Duration (consec. dry days)** | 180 | 240 | **+33%** | Water security |
 | **Wind Speed (avg)** | 12 km/h | 14 km/h | +17% | Dust, evaporation, solar soiling |
 
-**Compound Event: "Atacama Double Whammy" — Flash Flood + Mega-Drought**:
+**Compound Event: Atacama Double Whammy — Flash Flood + Mega-Drought**:
 - **Frequency**: Current 1/50 yr → 2050 **1/15 yr**
 - **Sequence**: Intense rainfall (50mm/2hr) on hyper-dry soil → **debris flows, infrastructure destruction** → followed by 18-month mega-drought
 - **Calama Vulnerability**: **Loa River channel capacity exceeded, campamentos in floodplain, aquifer recharge minimal (runoff vs infiltration)**
@@ -1833,16 +1833,16 @@ python3 scripts/conflation_audit.py \
 **Audit Result (Simulated)**:
 ```json
 {
-  "doc": "DOC-31",
-  "comparisons": {
-    "DOC-16": {"similarity": 0.08, "status": "PASS", "notes": "Regional aggregates cited as sources, communal granularity added"},
-    "DOC-26": {"similarity": 0.12, "status": "PASS", "notes": "Same people, different scale/context — urban/worker extension"},
-    "DOC-27": {"similarity": 0.02, "status": "PASS", "notes": "Different people, region, economy"},
-    "DOC-28": {"similarity": 0.01, "status": "PASS", "notes": "No overlap"},
-    "DOC-29": {"similarity": 0.01, "status": "PASS", "notes": "No overlap"},
-    "DOC-30": {"similarity": 0.01, "status": "PASS", "notes": "No overlap"}
+  doc: DOC-31,
+  comparisons: {
+    DOC-16: {similarity: 0.08, status: PASS, notes: Regional aggregates cited as sources, communal granularity added},
+    DOC-26: {similarity: 0.12, status: PASS, notes: Same people, different scale/context — urban/worker extension},
+    DOC-27: {similarity: 0.02, status: PASS, notes: Different people, region, economy},
+    DOC-28: {similarity: 0.01, status: PASS, notes: No overlap},
+    DOC-29: {similarity: 0.01, status: PASS, notes: No overlap},
+    DOC-30: {similarity: 0.01, status: PASS, notes: No overlap}
   },
-  "overall": "PASS — Zero conflation verified"
+  overall: PASS — Zero conflation verified
 }
 ```
 
@@ -2138,7 +2138,7 @@ bash scripts/generate_heuristic_intros.sh DOC-31
 
 # 10. Git Commit & Tag
 git add FinishedWork/DOC-31_Community_Calama.md.gz chunks/DOC-31/ FinishedWork/intros/DOC-31_*
-git commit -m "lol.forge: DOC-31 Calama Mining Community — 4,800+ lines, 95+ formulas, 480+ cross-refs, 40+ standards, zero conflation"
+git commit -m lol.forge: DOC-31 Calama Mining Community — 4,800+ lines, 95+ formulas, 480+ cross-refs, 40+ standards, zero conflation
 git tag runner-017f-complete
 git push origin runner-017f-complete
 ```

@@ -13,9 +13,9 @@ git push origin main --tags
 
 ```python
 def reconstruct_state_from_git(repo_path: Path) -> PipelineState:
-    """
+    
     Deterministic reconstruction from Git state only.
-    """
+    
     repo = Repo(repo_path)
     
     state = PipelineState()
@@ -31,18 +31,18 @@ def reconstruct_state_from_git(repo_path: Path) -> PipelineState:
     state.current_doc = get_next_doc(runner_num)
     
     # 3. Subtask state from TODO.md
-    state.current_chapter, state.current_subtask = parse_todo(repo_path / "TODO.md")
+    state.current_chapter, state.current_subtask = parse_todo(repo_path / TODO.md)
     
     # 4. Heartbeat state
-    state.heartbeat_pid = read_pid_file(repo_path / ".heartbeat_pid")
-    state.last_heartbeat = parse_last_heartbeat(repo_path / "Logs/heartbeat.log")
+    state.heartbeat_pid = read_pid_file(repo_path / .heartbeat_pid)
+    state.last_heartbeat = parse_last_heartbeat(repo_path / Logs/heartbeat.log)
     
     # 5. Audit state
-    state.audit_ledger_hash = sha256((repo_path / "FinishedWork/audit_ledger.jsonl").read_bytes())
+    state.audit_ledger_hash = sha256((repo_path / FinishedWork/audit_ledger.jsonl).read_bytes())
     state.audit_corpus_version = get_corpus_version(state.completed_docs)
     
     # 6. Intros state
-    state.intros_generated_for = list_intros(repo_path / "FinishedWork/intros")
+    state.intros_generated_for = list_intros(repo_path / FinishedWork/intros)
     state.intros_pending_for = [state.current_doc] if state.current_doc not in state.intros_generated_for else []
     
     return state

@@ -11,7 +11,7 @@
 | **Batch System** | ISA-88 compliant (Procedural Function Chart) |
 | **MES Interface** | OPC-UA (CSMFAB companion spec), ERP integration |
 | **Digital Twin** | Kafka + gRPC → PROD-37 (512-core HPC) |
-| **HMI** | 3× 55" 4K displays (control room), 2× tablet (field) |
+| **HMI** | 3× 55 4K displays (control room), 2× tablet (field) |
 | **Redundancy** | Hot standby (dual servers, VRRP, <1 s failover) |
 | **Backup** | Hourly config, daily historian, weekly full (BFRP NAS) |
 
@@ -36,30 +36,30 @@
 ```
 Batch Record Structure:
 Batch_2026-11-02_08 = {
-  "batch_id": "FB-2026-11-02-08",
-  "recipe": "CASCADE-STD-REV-12",
-  "feedstock": {
-    "category": "A",
-    "mass_kg": 50,
-    "composition": {...},
-    "uuid": "CSM-RECYCLER-NA-2026-10-15"
+  batch_id: FB-2026-11-02-08,
+  recipe: CASCADE-STD-REV-12,
+  feedstock: {
+    category: A,
+    mass_kg: 50,
+    composition: {...},
+    uuid: CSM-RECYCLER-NA-2026-10-15
   },
-  "stages": [
-    {"stage": 0, "duration_s": 1800, "energy_kwh": 12, "li_avg": 0.82},
-    {"stage": 1, "duration_s": 1200, "energy_kwh": 8, "moisture_final": 0.02},
+  stages: [
+    {stage: 0, duration_s: 1800, energy_kwh: 12, li_avg: 0.82},
+    {stage: 1, duration_s: 1200, energy_kwh: 8, moisture_final: 0.02},
     ...
-    {"stage": 8, "duration_s": 5400, "energy_kwh": 245, "zircon_diss": 0.96}
+    {stage: 8, duration_s: 5400, energy_kwh: 245, zircon_diss: 0.96}
   ],
-  "outputs": {
-    "slugs": [
-      {"port": 8, "mass_kg": 12.5, "grade": "3Y-TZP", "uuid": "SLG-2026-11-02-08-8A"},
+  outputs: {
+    slugs: [
+      {port: 8, mass_kg: 12.5, grade: 3Y-TZP, uuid: SLG-2026-11-02-08-8A},
       ...
     ],
-    "gas": {"pyrolysis_kwh": 45, "co2_tonne": 0.08}
+    gas: {pyrolysis_kwh: 45, co2_tonne: 0.08}
   },
-  "quality": {"pass": true, "deviations": []},
-  "digital_twin_hash": "sha256:abc123...",
-  "blockchain_anchor": "tx:0xdef456..."
+  quality: {pass: true, deviations: []},
+  digital_twin_hash: sha256:abc123...,
+  blockchain_anchor: tx:0xdef456...
 }
 ```
 

@@ -6,8 +6,8 @@ The **Kawéskar** (formerly Alacalufe) and **Yagán** (formerly Yámana) are the
 
 | Attribute | Detail |
 |-----------|--------|
-| **Autonym** | **Kawésqar** = "people of the canoe" (kawés = canoe, qar = people) |
-| **Exonym** | Alacalufe (Chono/Mapuche: "mussel eaters") — **rejected** |
+| **Autonym** | **Kawésqar** = people of the canoe (kawés = canoe, qar = people) |
+| **Exonym** | Alacalufe (Chono/Mapuche: mussel eaters) — **rejected** |
 | **Core Territory** | **Western Archipelago**: Wellington Island, Madre de Dios, Campbell, Messenger, Pacheco, Chacabuco, Prat, Angamos, Covadonga — **~40,000 km² marine** |
 | **Population (2024)** | **~3,200** (CONADI: 2,847 self-identified + 350 urban) |
 | **Communities** | **5 recognized** (Puerto Edén, Puerto Natales, Punta Arenas, Caleta Tortel, Caleta Andrade) + **diaspora** |
@@ -18,8 +18,8 @@ The **Kawéskar** (formerly Alacalufe) and **Yagán** (formerly Yámana) are the
 
 | Attribute | Detail |
 |-----------|--------|
-| **Autonym** | **Yagán** = "people of the valleys" (yag = valley, án = people) — **Beagle Channel valleys** |
-| **Exonym** | Yámana (Kawéskar: "people of the east") — **accepted as alternative** |
+| **Autonym** | **Yagán** = people of the valleys (yag = valley, án = people) — **Beagle Channel valleys** |
+| **Exonym** | Yámana (Kawéskar: people of the east) — **accepted as alternative** |
 | **Core Territory** | **Beagle Channel, Navarino Island, Hoste Island, Wollaston Islands, Hermite Islands, Cape Horn** — **~25,000 km² marine** |
 | **Population (2024)** | **~1,800** (CONADI: 1,523 self-identified + 277 urban) |
 | **Communities** | **1 recognized** (Puerto Williams — **southernmost town in world**) + **diaspora** (Punta Arenas, Ushuaia) |

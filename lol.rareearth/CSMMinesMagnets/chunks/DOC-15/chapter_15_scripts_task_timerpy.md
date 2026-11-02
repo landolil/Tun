@@ -3,28 +3,28 @@ class TaskTimer:
     def __init__(self, guard_seconds: int = 30, project_dir: Path):
         self.guard = guard_seconds
         self.project_dir = project_dir
-        self.log_file = project_dir / "Logs/task_timer.log"
+        self.log_file = project_dir / Logs/task_timer.log
     
     def start_subtask(self, subtask_id: str):
-        """Called at subtask start"""
+        Called at subtask start
         self.current_subtask = subtask_id
         self.start_time = time.time()
-        self.log(f"START {subtask_id}")
+        self.log(fSTART {subtask_id})
     
     def check(self) -> bool:
-        """Called periodically — returns True if OK, False if timeout"""
+        Called periodically — returns True if OK, False if timeout
         elapsed = time.time() - self.start_time
         if elapsed > self.guard:
-            self.log(f"TIMEOUT {self.current_subtask} after {elapsed:.1f}s")
+            self.log(fTIMEOUT {self.current_subtask} after {elapsed:.1f}s)
             # Trigger subdivision recommendation
             self.recommend_subdivision(self.current_subtask)
             return False
         return True
     
     def complete_subtask(self, subtask_id: str):
-        """Called at subtask completion"""
+        Called at subtask completion
         elapsed = time.time() - self.start_time
-        self.log(f"COMPLETE {subtask_id} in {elapsed:.1f}s")
+        self.log(fCOMPLETE {subtask_id} in {elapsed:.1f}s)
         self.current_subtask = None
 ```
 

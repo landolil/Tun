@@ -17,7 +17,7 @@ This document commits to: (1) Valley-specific FBC/CDC trusts with equity gradien
 
 ```
 ### The Empirical Lock
-Diaguita territory has zero allocatable water for new mining (WSI > 1.0 in 2/4 valleys, 0.9+ in others). Traditional mining water models fail completely here. The fabrication fidelity gap: theory says "water recycling reduces consumption" but fabrication reality says "any net withdrawal triggers veto."
+Diaguita territory has zero allocatable water for new mining (WSI > 1.0 in 2/4 valleys, 0.9+ in others). Traditional mining water models fail completely here. The fabrication fidelity gap: theory says water recycling reduces consumption but fabrication reality says any net withdrawal triggers veto.
 
 ### The Mathematical Key
 Net Water Benefit Ratio (NWBR) = WSF_delivered / Project_demand. This single computational primitive generates the consent solution: NWBR > 2.0 = consent pathway opens; NWBR ≤ 1.0 = automatic veto (Dominga precedent).

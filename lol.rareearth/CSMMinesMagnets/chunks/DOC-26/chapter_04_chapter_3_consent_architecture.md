@@ -10,7 +10,7 @@ Consulta Indígena Process (SEA / CONADI):
 Phase 1: Project Entry (SEA)
     ├── Project enters SEIA (EIA or DIA)
     ├── SEA identifies affected Indigenous peoples (CONADI registry)
-    └── SEA issues "Inicio de Consulta" resolution
+    └── SEA issues Inicio de Consulta resolution
 
 Phase 2: Information Delivery (Proponent → Communities)
     ├── Proponent provides project info (Spanish + Kunza translation)
@@ -24,8 +24,8 @@ Phase 3: Dialogue & Consultation (CONADI-facilitated)
     └── 60-120 day consultation period
 
 Phase 4: Agreement or Non-Agreement
-    ├── Agreement: "Acta de Acuerdo" → signed by community authorities + proponent
-    ├── Non-Agreement: "Acta de Desacuerdo" → SEA decides (can approve anyway)
+    ├── Agreement: Acta de Acuerdo → signed by community authorities + proponent
+    ├── Non-Agreement: Acta de Desacuerdo → SEA decides (can approve anyway)
     └── SEA Resolution: RCA granted/denied with conditions
 
 Atacameño Experience (2010-2024):
@@ -116,7 +116,7 @@ Sierra Gorda CPA 2014:
 | Year | Milestone | Legal Effect |
 |------|-----------|--------------|
 | **1993** | Law 19.253 enacted | Indigenous peoples recognized, CONADI created |
-| **1994** | Atacameño registered in CONADI | Legal personality as "Pueblo Indígena" |
+| **1994** | Atacameño registered in CONADI | Legal personality as Pueblo Indígena |
 | **2006** | **Diaguita recognized** (precedent for Atacameño territorial claims) | Territorial rights justiciable |
 | **2008** | Chile ratifies ILO 169 | FPIC international obligation |
 | **2013** | **SQM CPA includes water veto** | First binding community veto on water |
@@ -143,10 +143,10 @@ Supreme Court Rol 12.345-2016 (Key Holdings):
    
 4. **FPIC = Consent, not Consultation**
    - ILO 169 Art. 6 + UNDRIP Art. 32 = **binding consent**
-   - Chilean Law 19.253 "consulta" = minimum floor, not ceiling
+   - Chilean Law 19.253 consulta = minimum floor, not ceiling
    
 5. **Remedy for violation**: **Project suspension + damages + restoration**
-   - Not merely "additional conditions" on RCA
+   - Not merely additional conditions on RCA
 
 **Operational Consequence for Aegis-Forge**:
 - **Alpha-1/2 clusters within Atacameño territory** → **CPA mandatory, not optional**

@@ -122,7 +122,7 @@ cd /workspace/app/lol.rareearth/CSMMinesMagnets
 ./scripts/resume_runner.sh 017g
 
 # 2. Begin Chapter 1
-echo ">>> SUBTASK: 5.1.7.1 Research Antofagasta: 400K pop, immigrant history, mining service hub, port gateway"
+echo >>> SUBTASK: 5.1.7.1 Research Antofagasta: 400K pop, immigrant history, mining service hub, port gateway
 
 # 3. Write DOC-32 (use chapter-based authoring)
 # ... authoring work ...
@@ -138,7 +138,7 @@ python3 ../../__Python_Tools/write_large_file.py manifest chunks/DOC-32
 python3 ../../__Python_Tools/write_large_file.py verify chunks/DOC-32
 gzip -k FinishedWork/DOC-32_Community_Antofagasta.md
 git add FinishedWork/DOC-32_Community_Antofagasta.md.gz chunks/DOC-32/ FinishedWork/intros/DOC-32_*
-git commit -m "lol.forge: DOC-32 Antofagasta Port City — 3,700+ lines + intros"
+git commit -m lol.forge: DOC-32 Antofagasta Port City — 3,700+ lines + intros
 git tag runner-017g-complete
 git push origin runner-017g-complete
 

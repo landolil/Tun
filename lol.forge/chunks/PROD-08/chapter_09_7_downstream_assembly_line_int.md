@@ -155,14 +155,14 @@ HANDOFF STATION
 │                                                                              │
 │  DATA PACKET TRANSFERRED TO DOWNSTREAM MACHINE MES:                         │
 │  {                                                                           │
-│    "slug_id": "uuid",                                                       │
-│    "batch_id": "BATCH-20261031-042",                                       │
-│    "grade": "DIRECT_USE",                                                   │
-│    "mass_kg": 1.987,                                                        │
-│    "dimensions_mm": {"w": 100.2, "d": 50.1, "h": 40.3},                   │
-│    "libs_hash": "sha256...",                                                │
-│    "timestamp": "2026-10-31T14:23:12Z",                                    │
-│    "phoenix_gen": 0                                                         │
+│    slug_id: uuid,                                                       │
+│    batch_id: BATCH-20261031-042,                                       │
+│    grade: DIRECT_USE,                                                   │
+│    mass_kg: 1.987,                                                        │
+│    dimensions_mm: {w: 100.2, d: 50.1, h: 40.3},                   │
+│    libs_hash: sha256...,                                                │
+│    timestamp: 2026-10-31T14:23:12Z,                                    │
+│    phoenix_gen: 0                                                         │
 │  }                                                                           │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘

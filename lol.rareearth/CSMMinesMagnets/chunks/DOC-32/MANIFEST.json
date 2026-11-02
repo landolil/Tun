@@ -27,7 +27,7 @@
     "size": 55,
     "sha256": "65944a782729c763314d10c5c5d1db171b41491ae72821dbd59c0f62a4579e89"
   },
-  "chapter_08_line_count_chapter_1_target_\u22654.md": {
+  "chapter_08_line_count_chapter_1_target_gte4.md": {
     "size": 97,
     "sha256": "405638f982401da61393f32ca898332782533092a68d21d21f793e616a28daa3"
   },
@@ -51,7 +51,7 @@
     "size": 64,
     "sha256": "038cbef419e4ede47229732c8accd3703ef5c1d704383f609fa18e039a9123b6"
   },
-  "chapter_14_line_count_chapter_1_target_\u22655.md": {
+  "chapter_14_line_count_chapter_1_target_gte5.md": {
     "size": 108,
     "sha256": "8b29499bca92d504e4e46186111b5df82d84f3282f4ee46f329aa14104fbc222"
   },
@@ -75,7 +75,7 @@
     "size": 64,
     "sha256": "e718289eef5fb4e147fb9a76d08d07838fe45370ed4deb78f036bde78d43a566"
   },
-  "chapter_20_line_count_chapter_1_target_\u22655.md": {
+  "chapter_20_line_count_chapter_1_target_gte5.md": {
     "size": 108,
     "sha256": "8b29499bca92d504e4e46186111b5df82d84f3282f4ee46f329aa14104fbc222"
   },
@@ -99,7 +99,7 @@
     "size": 62,
     "sha256": "54c149fd4f42d49470ef05ec6cb6e57e0fbcd13f31b968b868978648a48b5172"
   },
-  "chapter_26_line_count_chapter_1_target_\u22655.md": {
+  "chapter_26_line_count_chapter_1_target_gte5.md": {
     "size": 108,
     "sha256": "8b29499bca92d504e4e46186111b5df82d84f3282f4ee46f329aa14104fbc222"
   },
@@ -123,7 +123,7 @@
     "size": 65,
     "sha256": "b6c2dec33d868d8f3c63220802d2c926fa24c2d7439ea423718dc607a2f334fe"
   },
-  "chapter_32_line_count_chapter_1_target_\u22655.md": {
+  "chapter_32_line_count_chapter_1_target_gte5.md": {
     "size": 108,
     "sha256": "8b29499bca92d504e4e46186111b5df82d84f3282f4ee46f329aa14104fbc222"
   },
@@ -159,7 +159,7 @@
     "size": 55,
     "sha256": "ab7dc8e81e1fc01e0872596454da57fedbce99a2496e3f5b9191756a85a62808"
   },
-  "chapter_41_line_count_chapter_2_target_\u22655.md": {
+  "chapter_41_line_count_chapter_2_target_gte5.md": {
     "size": 97,
     "sha256": "6e508e7ec740301f8556c9b6b883a36cd3b68dc4bd0bc2f8f42ab04f02176182"
   },
@@ -199,7 +199,7 @@
     "size": 55,
     "sha256": "fd60001f94a6eb17dfdc6cefc33a992494b62db29ab6d6af4b0db57eb5a7b6cf"
   },
-  "chapter_51_line_count_chapter_3_target_\u22654.md": {
+  "chapter_51_line_count_chapter_3_target_gte4.md": {
     "size": 97,
     "sha256": "185af425cc14ba4c3e867cd464f586af530493fa687961dc534ca4c05720c2fd"
   },
@@ -239,7 +239,7 @@
     "size": 55,
     "sha256": "4c0779e495d388dede586a70965834ac426c03d55700a7cd51e4c14b34ccc467"
   },
-  "chapter_61_line_count_chapter_4_target_\u22654.md": {
+  "chapter_61_line_count_chapter_4_target_gte4.md": {
     "size": 97,
     "sha256": "e6f1dc99e95b8bd0be38d9b4b2b796feee7666c47736f29356db93a519ec23bc"
   },
@@ -263,7 +263,7 @@
     "size": 5292,
     "sha256": "6b83c7f373fadde19ae42939def3e445c349c9a61e73610c9264c72665ce5fbc"
   },
-  "chapter_67_52_nh\u2083_terminal_hif_mejillones.md": {
+  "chapter_67_52_nh3_terminal_hif_mejillones.md": {
     "size": 3260,
     "sha256": "7ad7f59b19b392898d1a1180853f49579e820128541d53f47430f6fbb0d34c1a"
   },
@@ -279,7 +279,7 @@
     "size": 55,
     "sha256": "172f9db05501e87674cc473843ea95ac9ff95e6ff2946c79ed54eab242ee6381"
   },
-  "chapter_71_line_count_chapter_5_target_\u22655.md": {
+  "chapter_71_line_count_chapter_5_target_gte5.md": {
     "size": 97,
     "sha256": "3c83bcbd88e03d446ed9dff5a359004dd390d90cf9bade100c229729ca936f7d"
   },
@@ -327,7 +327,7 @@
     "size": 55,
     "sha256": "4f408095992346fe6ce619c07d2c75e6e68ef741cc312e8e98782b30fee476e5"
   },
-  "chapter_83_line_count_chapter_6_target_\u22654.md": {
+  "chapter_83_line_count_chapter_6_target_gte4.md": {
     "size": 97,
     "sha256": "9975f26866f55a75f9fcaadd4beb82fae5f737da2aeced6e3bc322ab66267832"
   },
@@ -363,7 +363,7 @@
     "size": 55,
     "sha256": "2c43f8bfb98abe978aaf06731b860ec405446d9acaf3937018ffcce7814405cb"
   },
-  "chapter_92_line_count_chapter_7_target_\u22654.md": {
+  "chapter_92_line_count_chapter_7_target_gte4.md": {
     "size": 97,
     "sha256": "6192b8d824a9f15cfa57d2146ee9bd54a9531019b4312a9bd3f78514a1c89e59"
   },
@@ -411,7 +411,7 @@
     "size": 55,
     "sha256": "15c0f1006d0c3b0396e80295814ea0c517bef1bbc3d1b049d0516ab7f9d51f45"
   },
-  "chapter_104_line_count_chapter_8_target_\u22654.md": {
+  "chapter_104_line_count_chapter_8_target_gte4.md": {
     "size": 97,
     "sha256": "6e623fb4b7e5c9833c4354f30149fd118b6d93f0bd69615a065302c9e4df6597"
   },
@@ -455,19 +455,19 @@
     "size": 43,
     "sha256": "6df3d23bff553cd6cffa20f36e5a15f97fa7fb58ee0f96bd4147f696bf1de28a"
   },
-  "chapter_115_1_line_count_\u2265900_lines_body.md": {
+  "chapter_115_1_line_count_gte900_lines_body.md": {
     "size": 87,
     "sha256": "c006f5b2cc0ae89141ddbc85628b25deef40b687d5f6ac6a2a09d1377df94c71"
   },
-  "chapter_116_2_formula_count_\u226520.md": {
+  "chapter_116_2_formula_count_gte20.md": {
     "size": 85,
     "sha256": "c4e445f063be3b5088df56d2eb80dcedcfad4478b00762ee2a2e1f069d384fdc"
   },
-  "chapter_117_3_cross-reference_count_\u226515.md": {
+  "chapter_117_3_cross-reference_count_gte15.md": {
     "size": 1652,
     "sha256": "edc85f6439f72d0c588bbefb511d92080a1f25cdecbfd7db153eafaba9ef4ab1"
   },
-  "chapter_118_4_standards_cited_\u22658.md": {
+  "chapter_118_4_standards_cited_gte8.md": {
     "size": 436,
     "sha256": "6e5e4ff3a58a05779f73adee60e86bae508cce8f4def0ea59f03831bd3d298da"
   },

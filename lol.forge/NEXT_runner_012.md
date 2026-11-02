@@ -210,7 +210,7 @@ FOR each document (PROD-27, PROD-28, PROD-29):
   
   6. COMMIT & PUSH
      - git add -A
-     - git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — NNN lines + 4 intros"
+     - git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — NNN lines + 4 intros
      - git pull --rebase && git push
   
   7. UPDATE TRACKERS

@@ -2,7 +2,7 @@
 
 ### 4.1 Overview
 
-Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the "geological" input to the Aegis-Forge I.
+Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the geological input to the Aegis-Forge I.
 
 ### 4.2 Subcategory C1: Slag (Ferrous & Non-Ferrous)
 

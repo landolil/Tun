@@ -164,7 +164,7 @@ The **Servicio Nacional de Prevención y Respuesta ante Desastres (SENAPRED)** �
 - Population alerting (SAE - Sistema de Alerta de Emergencia)
 
 **Space Weather in SENAPRED Framework (2024 Update):**
-- **Hazard Classification**: "Evento Geofísico Extraterrestre" (EGE) — new category 2023
+- **Hazard Classification**: Evento Geofísico Extraterrestre (EGE) — new category 2023
 - **Alert Levels**: Alerta Temprana (Early Warning) → Alerta Amarilla → Alerta Roja
 - **Integration**: SHOA (space weather) → SENAPRED (alerting) → CEN (grid ops) → Sectoral (mining, health, water, comms)
 
@@ -212,7 +212,7 @@ The **Servicio Nacional de Prevención y Respuesta ante Desastres (SENAPRED)** �
 | **Fuel** | CNE / ENAP | Refinery safe mode, distribution |
 | **Food/Supply** | ODEPA | Cold chain, logistics priority routes |
 
-**National Exercise — "CARRINGTON 2025" (Planned):**
+**National Exercise — CARRINGTON 2025 (Planned):**
 - **Date**: September 2025 (solar max)
 - **Scenario**: G5 storm, 12-hour grid collapse Norte Grande, 48-hr Central
 - **Participants**: CEN, SENAPRED, SHOA, Mining (3 majors), Health, Telecom, Armed Forces
@@ -238,7 +238,7 @@ T_deployment = 30 min (urban) to 4 hr (remote/Antarctic)
 ```
 **Total**: 35 min (urban, Alerta Amarilla) to 4 hr 15 min (remote, Alerta Roja)
 
-**Recommendation**: Conduct **annual "CARRINGTON" national exercise**, embed space weather in SENAPRED's SAE system permanently, and fund SHOA network expansion (Calama, Copiapó) to close Norte Grande monitoring gap.
+**Recommendation**: Conduct **annual CARRINGTON national exercise**, embed space weather in SENAPRED's SAE system permanently, and fund SHOA network expansion (Calama, Copiapó) to close Norte Grande monitoring gap.
 
 
 ### 7.4 Automated Load Shedding Triggers (GIC Threshold → Relay Action)
@@ -308,38 +308,38 @@ def gic_load_shedding_logic(measurements):
     
     # Layer 1: GIC Magnitude
     if any(I > 100 for I in measurements.I_GIC_500_220):
-        raise_alarm("GIC_PREARM")
+        raise_alarm(GIC_PREARM)
         arm_ras()
     
     # Layer 2: GIC Rate of Change
     if any(dI_dt > 10 for dI_dt in measurements.dI_GIC_dt):
-        raise_alarm("GIC_RAPID_RISE")
+        raise_alarm(GIC_RAPID_RISE)
         arm_ras()
     
     # Layer 3: Voltage - Priority 4
     if any(V < 0.90 for V in measurements.V_220kV):
-        if not shed_active("P4"):
-            shed_load("P4", target_mw=50)
-            log_event("SHED_P4_VOLTAGE")
+        if not shed_active(P4):
+            shed_load(P4, target_mw=50)
+            log_event(SHED_P4_VOLTAGE)
     
     # Layer 4: Voltage - Priority 3
     if any(V < 0.85 for V in measurements.V_220kV):
-        if not shed_active("P3"):
-            shed_load("P3", target_mw=200)
-            log_event("SHED_P3_VOLTAGE")
+        if not shed_active(P3):
+            shed_load(P3, target_mw=200)
+            log_event(SHED_P3_VOLTAGE)
     
     # Layer 5: Frequency - Priority 2
     if measurements.frequency < 49.2:
-        if not shed_active("P2"):
-            shed_load("P2", target_mw=150)
-            log_event("SHED_P2_FREQUENCY")
+        if not shed_active(P2):
+            shed_load(P2, target_mw=150)
+            log_event(SHED_P2_FREQUENCY)
     
     # Layer 6: Combined GIC + Voltage → Islanding
     if (any(I > 150 for I in measurements.I_GIC_500_220) and 
         any(V < 0.90 for V in measurements.V_220kV)):
         if not islanding_armed():
-            execute_islanding("NORTE_GRANDE")
-            log_event("ISLANDING_EXECUTED")
+            execute_islanding(NORTE_GRANDE)
+            log_event(ISLANDING_EXECUTED)
 ```
 
 **Relay Hardware (CEN Standard):**

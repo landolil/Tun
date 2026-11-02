@@ -78,7 +78,7 @@ P_blend ∈ [0.4, 0.6] : Dynamic blend ratio (MFC controlled, ±2% tolerance)
 **The fabricator sees the supply chain as a distributed sensor network.** Every material movement is a measurement. Every measurement updates CMF-RQT. Every CMF-RQT update adjusts blend ratio, depot routing, stockpile draw, AVL orders.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The supply chain operator does not "manage" — they **witness material becoming Forge**:
+**How does the inside operator witness the phenomenon into existence?** The supply chain operator does not manage — they **witness material becoming Forge**:
 
 1. **Receiving Dock Operator** witnesses ZrB₂ drums arrive: scans RFID, runs LIBS, signs COA, assigns to Zone A slot. They *feel* the 25 kg drum mass, *see* the Ar backfill pressure, *know* this powder becomes Drum Zone B at 1676°C.
 2. **Depot Disassembly Tech** witnesses Aegis-C Panel return: 15-min auto cycle, watches vision-guided 6-axis extract PCBs, sees Elium® depolymerize at 350°C, smells monomer vapor, weighs clean basalt bundles. They *witness* EOL becoming feedstock.
@@ -231,7 +231,7 @@ Layer 3 — Phoenix Protocol Circular Supply (Recursive)
 
 | Material | Application | Source | Specification |
 |----------|-------------|--------|---------------|
-| **PEX-a Tubing** | Cooling circuits (16 L/min) | Uponor (US/DE) | SDR 11, 1" OD, 200 m/Forge |
+| **PEX-a Tubing** | Cooling circuits (16 L/min) | Uponor (US/DE) | SDR 11, 1 OD, 200 m/Forge |
 | **PMMA POF** | Fieldbus (384 ch FBG + control) | Mitsubishi (JP), Toray (JP) | 1550 nm, 100 m max, <0.15 dB/m |
 | **PEEK CF40** | Flanges, seals, crate hardware | Victrex (UK/US) | Injection molded, 30% carbon fiber |
 | **PEEK CF40 Spring** | Port valve return spring | Victrex/In-house | Fatigue >10⁷ cycles |
@@ -483,7 +483,7 @@ P_blend = Dynamic blend ratio (MFC controlled ±2%, 40-60% EOL)
 | Function | Specification |
 |----------|---------------|
 | **Rail Siding** | Dedicated 2-track, 500 m, 286k lb capacity, covered unloading |
-| **Truck Dock** | 4 bays, 48" dock height, levelers, overhead doors (14'×14') |
+| **Truck Dock** | 4 bays, 48 dock height, levelers, overhead doors (14'×14') |
 | **Crane** | 10t overhead (forge bay), 5t jib (receiving), 2t mobile (depot) |
 | **Forklifts** | 4× 5t electric (indoor), 2× 8t diesel (outdoor yard) |
 | **Conveyance** | Roller conveyor (receiving → warehouse), AGV (warehouse → line) |

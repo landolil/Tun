@@ -136,7 +136,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-10/ FinishedWork/DOC-10_*.md.gz FinishedWork/intros/DOC-10_*.md
-git commit -m "DOC-10: Magnet Manufacturing Supply Chain complete"
+git commit -m DOC-10: Magnet Manufacturing Supply Chain complete
 git tag runner-007-complete
 git push origin --tags
 

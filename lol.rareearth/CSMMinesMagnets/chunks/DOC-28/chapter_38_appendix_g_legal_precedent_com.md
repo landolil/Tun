@@ -3,18 +3,18 @@
 ### G.1 Environmental Court 23.456-2023 (Andina 244) — Full Ratio
 
 **Key Holdings**:
-1. **Glacier = "strategic reserve" (Law 21.435 Art 1)** — **not mere geological formation**
-2. **Rock glacier intervention = "glacier removal" (Art 7)** — **prohibited without indigenous consent**
-3. **Indigenous consent for glacier-adjacent = "enhanced FPIC" (Art 10)** — **requires independent expert appointed by indigenous community**
-4. **Dust deposition on glacier = "pollution" (Art 7)** — **measurable harm, not theoretical**
-5. **Monitoring must be "continuous, independent, indigenous-led"** — **proponent-funded, community-operated**
+1. **Glacier = strategic reserve (Law 21.435 Art 1)** — **not mere geological formation**
+2. **Rock glacier intervention = glacier removal (Art 7)** — **prohibited without indigenous consent**
+3. **Indigenous consent for glacier-adjacent = enhanced FPIC (Art 10)** — **requires independent expert appointed by indigenous community**
+4. **Dust deposition on glacier = pollution (Art 7)** — **measurable harm, not theoretical**
+5. **Monitoring must be continuous, independent, indigenous-led** — **proponent-funded, community-operated**
 
 ### G.2 Environmental Court 18.789-2022 (Los Bronces Dust) — Full Ratio
 
 **Key Holdings**:
-1. **PM10 deposition on glacier > 0.5 g/m²/day = "significant adverse effect" (Law 19.300 Art 11)**
+1. **PM10 deposition on glacier > 0.5 g/m²/day = significant adverse effect (Law 19.300 Art 11)**
 2. **Albedo reduction > 0.1 = measurable glacier harm** — **causal chain: dust → albedo → melt acceleration**
-3. **Proponent bears burden of proof for "no significant harm"** — **not community burden to prove harm**
+3. **Proponent bears burden of proof for no significant harm** — **not community burden to prove harm**
 4. **Real-time monitoring required at glacier stake** — **data public, community access mandatory**
 
 ### G.3 Supreme Court 124.567-2017 (Dominga) — Application to Pehuenche

@@ -29,27 +29,27 @@ This section maps all Chapter 1 physics claims to primary sources.
 
 | Claim ID | Claim Statement | Source Type | Source Citation | Cross-Ref | Verification | Conflation |
 |----------|----------------|-------------|-----------------|-----------|--------------|------------|
-| C11-001-001 | Carrington Event Dst = -907 nT (Boteler 2019 consensus) | PRIMARY | Boteler, D.H. (2019). "A 21st Century View of the March 1989 Magnetic Storm." Space Weather, 17(10), 1427-1441. DOI: 10.1029/2019SW002278 | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-002 | Carrington CME transit time = 17.6 hours | PRIMARY | Tsurutani, B.T. et al. (2003). "The magnetic storm of 1859." JGR, 108(A7), 1268. DOI: 10.1029/2002JA009504 | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-001 | Carrington Event Dst = -907 nT (Boteler 2019 consensus) | PRIMARY | Boteler, D.H. (2019). A 21st Century View of the March 1989 Magnetic Storm. Space Weather, 17(10), 1427-1441. DOI: 10.1029/2019SW002278 | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-002 | Carrington CME transit time = 17.6 hours | PRIMARY | Tsurutani, B.T. et al. (2003). The magnetic storm of 1859. JGR, 108(A7), 1268. DOI: 10.1029/2002JA009504 | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-003 | Carrington peak dB/dt = 1,760 nT/min | PRIMARY | Boteler (2019), Ibid. | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-004 | CME speed ~2,380 km/s (Carrington) | DERIVED | Transit time 17.6 hr × distance 1 AU / 3600 | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-005 | Return period: Carrington-class = 100–500 years | PRIMARY | Riley, P. (2012). "On the probability of extreme space weather." Space Weather, 10, S02012. Love et al. (2019). USGS Open-File Report 2019-1003. | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-006 | Ice core nitrate: 14 events ≥ Carrington in 10,000 yr | PRIMARY | McCracken, K.G. et al. (2001). "Solar cosmic ray events for the period 1561–1994." JGR, 106(A10), 21585-21598. | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-007 | 1859 aurora seen at 23°S geographic (Santiago) | PRIMARY | Carrington, R.C. (1859). "Description of a singular appearance seen in the Sun." MNRAS, 20, 13-15. Historical records (Chile). | DOC-01 Ch.1 | VERIFIED | NONE |
+| C11-001-005 | Return period: Carrington-class = 100–500 years | PRIMARY | Riley, P. (2012). On the probability of extreme space weather. Space Weather, 10, S02012. Love et al. (2019). USGS Open-File Report 2019-1003. | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-006 | Ice core nitrate: 14 events ≥ Carrington in 10,000 yr | PRIMARY | McCracken, K.G. et al. (2001). Solar cosmic ray events for the period 1561–1994. JGR, 106(A10), 21585-21598. | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-007 | 1859 aurora seen at 23°S geographic (Santiago) | PRIMARY | Carrington, R.C. (1859). Description of a singular appearance seen in the Sun. MNRAS, 20, 13-15. Historical records (Chile). | DOC-01 Ch.1 | VERIFIED | NONE |
 | C11-001-008 | Ring current energy ~10¹⁵ J (Carrington) | DERIVED | Dst = -907 nT → W = -μ₀·Dst·Rₑ³/2 ≈ 10¹⁵ J | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-009 | Auroral electrojet current 1–3 MA | PRIMARY | Baumjohann, W. & Nakamura, R. (2009). "Auroral electrojet." In: Solar-Terrestrial Physics. | — | VERIFIED | NONE |
-| C11-001-010 | FAC density 1–10 μA/m² | PRIMARY | Iijima, T. & Potemra, T.A. (1976). "Field-aligned currents." JGR, 81(13), 2165-2174. | — | VERIFIED | NONE |
+| C11-001-009 | Auroral electrojet current 1–3 MA | PRIMARY | Baumjohann, W. & Nakamura, R. (2009). Auroral electrojet. In: Solar-Terrestrial Physics. | — | VERIFIED | NONE |
+| C11-001-010 | FAC density 1–10 μA/m² | PRIMARY | Iijima, T. & Potemra, T.A. (1976). Field-aligned currents. JGR, 81(13), 2165-2174. | — | VERIFIED | NONE |
 | C11-001-011 | Faraday's law: ∇×E = -∂B/∂t (GIC coupling) | PRIMARY | Maxwell's Equations / Faraday's Law (physics fundamental) | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-012 | Surface impedance Z(ω) = E/H (1D Earth) | PRIMARY | Cagniard, L. (1953). "Basic theory of magnetotelluric method." Geophysics, 18(3), 605-635. | DOC-01 Ch.2 | VERIFIED | NONE |
-| C11-001-013 | Skin depth δ = √(2/ωμ₀σ) | PRIMARY | Wait, J.R. (1954). "On the theory of electromagnetic induction." JGR, 59(2), 245-250. | DOC-01 Ch.2 | VERIFIED | NONE |
+| C11-001-012 | Surface impedance Z(ω) = E/H (1D Earth) | PRIMARY | Cagniard, L. (1953). Basic theory of magnetotelluric method. Geophysics, 18(3), 605-635. | DOC-01 Ch.2 | VERIFIED | NONE |
+| C11-001-013 | Skin depth δ = √(2/ωμ₀σ) | PRIMARY | Wait, J.R. (1954). On the theory of electromagnetic induction. JGR, 59(2), 245-250. | DOC-01 Ch.2 | VERIFIED | NONE |
 | C11-001-014 | Atacama ρ = 10,000–50,000 Ω·m (hyperarid) | PRIMARY | SERNAGEOMIN MT Surveys (2010–2020). Universidad de Chile MT Andes Project. | DOC-01 Ch.2 | VERIFIED | NONE |
 | C11-001-015 | Geoelectric field E = 20–50 V/km (Carrington, resistive crust) | PRIMARY | Love et al. (2019). USGS OFR 2019-1003. Boteler (2019). | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-016 | E-field enhancement Atacama vs Central = 7× | DERIVED | √(ρ_Atacama/ρ_Central) = √(10,000/200) ≈ 7 | DOC-01 Ch.2 | VERIFIED | NONE |
-| C11-001-017 | Nodal admittance GIC solution: Y·V = J | PRIMARY | Lehtinen, M. & Pirjola, R. (1985). "Currents produced in power grid by geomagnetic disturbances." IEEE Trans. PAS, 104(5), 1008-1014. | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-018 | Transformer half-cycle saturation physics | PRIMARY | Kappenman, J.G. (1996). "Geomagnetic storms and power grid impacts." IEEE Power Engineering Review, 16(5), 5-8. | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-017 | Nodal admittance GIC solution: Y·V = J | PRIMARY | Lehtinen, M. & Pirjola, R. (1985). Currents produced in power grid by geomagnetic disturbances. IEEE Trans. PAS, 104(5), 1008-1014. | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-018 | Transformer half-cycle saturation physics | PRIMARY | Kappenman, J.G. (1996). Geomagnetic storms and power grid impacts. IEEE Power Engineering Review, 16(5), 5-8. | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-019 | B_DC ≈ μ₀·N·I_GIC/(3·l_e) | DERIVED | Ampere's law + magnetic circuit (transformer design) | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-020 | I_GIC_crit ≈ 50–150 A (typical 500/220 kV auto) | PRIMARY | IEEE C57.163-2023. IEEE Guide for Establishing Power Transformer Capability while under Geomagnetic Disturbances. | DOC-06 Ch.3 | VERIFIED | NONE |
-| C11-001-021 | Harmonic generation: odd harmonics (3rd, 5th, 7th) | PRIMARY | Molinski, T.S. (2002). "Why utilities should care about GIC." IEEE Trans. Power Delivery, 17(2), 584-588. | DOC-06 Ch.3 | VERIFIED | NONE |
+| C11-001-021 | Harmonic generation: odd harmonics (3rd, 5th, 7th) | PRIMARY | Molinski, T.S. (2002). Why utilities should care about GIC. IEEE Trans. Power Delivery, 17(2), 584-588. | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-022 | Reactive power consumption: Q ∝ I_GIC² | DERIVED | Transformer saturation model (Q = Σ I_h²·h·X₁) | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-023 | Hotspot heating: ΔT ∝ I_h²·t | PRIMARY | IEEE C57.91-2011. Loading Guide for Mineral-Oil-Immersed Transformers. | DOC-06 Ch.3 | VERIFIED | NONE |
 | C11-001-024 | Protection misoperation: differential relay (harmonic restraint bypass) | PRIMARY | IEEE C37.110-2007. Guide for Protective Relay Applications to Power Transformers. | DOC-06 Ch.3 | VERIFIED | NONE |
@@ -71,11 +71,11 @@ This section maps all Chapter 2 Chilean grid claims to primary sources.
 
 | Claim ID | Claim Statement | Source Type | Source Citation | Cross-Ref | Verification | Conflation |
 |----------|----------------|-------------|-----------------|-----------|--------------|------------|
-| C11-002-001 | SEN installed capacity = 36,778 MW (Jan 2025) | PRIMARY | CEN. (2025). "Reporte Energético SEN Enero 2025." Coordinador Eléctrico Nacional. | DOC-08 Ch.1 | VERIFIED | NONE |
+| C11-002-001 | SEN installed capacity = 36,778 MW (Jan 2025) | PRIMARY | CEN. (2025). Reporte Energético SEN Enero 2025. Coordinador Eléctrico Nacional. | DOC-08 Ch.1 | VERIFIED | NONE |
 | C11-002-002 | SEN ERNC capacity = 18,523 MW (50.4%) | PRIMARY | CEN. (2025). Ibid. | DOC-08 Ch.1 | VERIFIED | NONE |
-| C11-002-003 | Peak demand 2024 = 12,191 MW (31 Jan, hr 13) | PRIMARY | CEN. (2024). "Informe Mensual SEN Diciembre 2024." | DOC-08 Ch.1 | VERIFIED | NONE |
-| C11-002-004 | Annual generation 2024 = 79,582 GWh | PRIMARY | CEN. (2025). "Reporte Energético SEN Enero 2025." | DOC-08 Ch.1 | VERIFIED | NONE |
-| C11-002-005 | 500 kV backbone length ~2,200 km (Arica–Puerto Montt) | PRIMARY | CEN. (2024). "Diagnóstico del Uso Esperado del Sistema de Transmisión PET 2025." | DOC-08 Ch.1 | VERIFIED | NONE |
+| C11-002-003 | Peak demand 2024 = 12,191 MW (31 Jan, hr 13) | PRIMARY | CEN. (2024). Informe Mensual SEN Diciembre 2024. | DOC-08 Ch.1 | VERIFIED | NONE |
+| C11-002-004 | Annual generation 2024 = 79,582 GWh | PRIMARY | CEN. (2025). Reporte Energético SEN Enero 2025. | DOC-08 Ch.1 | VERIFIED | NONE |
+| C11-002-005 | 500 kV backbone length ~2,200 km (Arica–Puerto Montt) | PRIMARY | CEN. (2024). Diagnóstico del Uso Esperado del Sistema de Transmisión PET 2025. | DOC-08 Ch.1 | VERIFIED | NONE |
 | C11-002-006 | 400+ substations ≥110 kV | PRIMARY | CEN PET 2025, Annex: Substation Registry | DOC-08 Ch.1 | VERIFIED | NONE |
 | C11-002-007 | 500/220 kV autotransformers: 45–55 units | PRIMARY | CEN PET 2025 + SEC Transformer Registry | DOC-08 Ch.1 | VERIFIED | NONE |
 | C11-002-008 | 220/110 kV two-winding: 80–100 units | PRIMARY | CEN PET 2025 + SEC Transformer Registry | DOC-08 Ch.1 | VERIFIED | NONE |
@@ -116,23 +116,23 @@ This section maps all Chapter 3 and 4 hardening technology claims to primary sta
 
 | Claim ID | Claim Statement | Source Type | Source Citation | Cross-Ref | Verification | Conflation |
 |----------|----------------|-------------|-----------------|-----------|--------------|------------|
-| C11-003-001 | Series capacitors block 99.9%+ GIC (Hydro-Québec 735 kV) | PRIMARY | Hydro-Québec (1995). "Series compensation on 735 kV network." IEEE Trans. Power Delivery, 10(3), 1531-1537. | DOC-08 Ch.5 | VERIFIED | NONE |
+| C11-003-001 | Series capacitors block 99.9%+ GIC (Hydro-Québec 735 kV) | PRIMARY | Hydro-Québec (1995). Series compensation on 735 kV network. IEEE Trans. Power Delivery, 10(3), 1531-1537. | DOC-08 Ch.5 | VERIFIED | NONE |
 | C11-003-002 | Series capacitor GIC blocking principle (X_C = ∞ at DC) | PRIMARY | IEEE Std 824-2018. IEEE Standard for Series Capacitor Banks. | — | VERIFIED | NONE |
-| C11-003-003 | EPRI EL-3295 (1983): Neutral blocking capacitor lab testing | PRIMARY | EPRI EL-3295. "GIC Mitigation: Neutral Blocking/Bypass Device." Electric Power Research Institute, 1983. | — | VERIFIED | NONE |
-| C11-003-004 | EPRI TR-100450 (1992): Minnesota Power field test | PRIMARY | EPRI TR-100450. "Field Test of Neutral Blocking Capacitor at Minnesota Power." EPRI, 1992. | — | VERIFIED | NONE |
+| C11-003-003 | EPRI EL-3295 (1983): Neutral blocking capacitor lab testing | PRIMARY | EPRI EL-3295. GIC Mitigation: Neutral Blocking/Bypass Device. Electric Power Research Institute, 1983. | — | VERIFIED | NONE |
+| C11-003-004 | EPRI TR-100450 (1992): Minnesota Power field test | PRIMARY | EPRI TR-100450. Field Test of Neutral Blocking Capacitor at Minnesota Power. EPRI, 1992. | — | VERIFIED | NONE |
 | C11-003-005 | Minnesota Power: 2×500/230 kV autos, 200 μF NBC, 1990–2000+ | PRIMARY | EPRI TR-100450, Ibid. | — | VERIFIED | NONE |
 | C11-003-006 | NBC blocks >99.9% GIC, residual < 1 mA | PRIMARY | EPRI TR-100450, Section 4.3. | — | VERIFIED | NONE |
-| C11-003-007 | Low-ohmic neutral resistor (1.0 Ω) limits GIC to ~33% | PRIMARY | Kappenman, J.G. (2010). "Low-Frequency Protection Concepts for the Electric Power Grid." FERC Meta-R-322. | — | VERIFIED | NONE |
+| C11-003-007 | Low-ohmic neutral resistor (1.0 Ω) limits GIC to ~33% | PRIMARY | Kappenman, J.G. (2010). Low-Frequency Protection Concepts for the Electric Power Grid. FERC Meta-R-322. | — | VERIFIED | NONE |
 | C11-003-008 | LNR reduces transformer neutral GIC by 67% (R_g=0.5, R_N=1.0) | DERIVED | I_GIC_reduced = I_GIC_orig × (R_g/(R_g+R_N)) | — | VERIFIED | NONE |
 | C11-003-009 | Hi-B steel B_sat = 2.03 T vs conventional 1.95 T | PRIMARY | AK Steel / Nippon Steel / Posco Hi-B GOES Product Data Sheets. | — | VERIFIED | NONE |
 | C11-003-010 | Step-lap joints reduce hotspot heating by 15–25% | PRIMARY | ABB / Siemens / GE Transformer Design Manuals (proprietary, verified by CIGRE). | — | VERIFIED | NONE |
-| C11-003-011 | Magnetic shields reduce tank hotspot by 30–50% | PRIMARY | CIGRE TB 771 (2019). "Geomagnetically Induced Currents and Their Effects on Power Transformers." | — | VERIFIED | NONE |
+| C11-003-011 | Magnetic shields reduce tank hotspot by 30–50% | PRIMARY | CIGRE TB 771 (2019). Geomagnetically Induced Currents and Their Effects on Power Transformers. | — | VERIFIED | NONE |
 | C11-003-012 | Hall-effect CT accuracy ±5% or ±2 A (IEEE C57.163) | PRIMARY | IEEE C57.163-2023. Section 6.2 Monitoring Requirements. | — | VERIFIED | NONE |
 | C11-003-013 | GIC monitor sampling ≥1 Hz, GPS sync ≤1 ms | PRIMARY | IEEE C57.163-2023. Section 6.3 Data Acquisition. | — | VERIFIED | NONE |
 | C11-003-014 | Alarm levels: L1=10A, L2=50A, L3=100A | PRIMARY | IEEE C57.163-2023. Table 3 Alarm Thresholds. | — | VERIFIED | NONE |
-| C11-003-015 | Hydro-Québec 12/13 735 kV lines with series caps post-1989 | PRIMARY | Bolduc, L. (2002). "GIC observations and studies in the Hydro-Québec power system." J. Atmos. Sol.-Terr. Phys., 64(16), 1747-1759. | DOC-08 Ch.5 | VERIFIED | NONE |
+| C11-003-015 | Hydro-Québec 12/13 735 kV lines with series caps post-1989 | PRIMARY | Bolduc, L. (2002). GIC observations and studies in the Hydro-Québec power system. J. Atmos. Sol.-Terr. Phys., 64(16), 1747-1759. | DOC-08 Ch.5 | VERIFIED | NONE |
 | C11-003-016 | IEC 61850 GOOSE latency < 4 ms for RAS | PRIMARY | IEC 61850-5:2013. Communication networks and systems for power utility automation. | — | VERIFIED | NONE |
-| C11-003-017 | SVC harmonic resonance with GIC (3rd–5th harmonic) | PRIMARY | IEEE PES TR-42 (2001). "Impact of GIC on Power System Protection." | — | VERIFIED | NONE |
+| C11-003-017 | SVC harmonic resonance with GIC (3rd–5th harmonic) | PRIMARY | IEEE PES TR-42 (2001). Impact of GIC on Power System Protection. | — | VERIFIED | NONE |
 | C11-003-018 | SVC GIC-mode: PLL bandwidth reduction, harmonic injection | PRIMARY | ABB / Siemens / GE FACTS Controller Manuals (proprietary). | — | VERIFIED | NONE |
 | C11-003-019 | TCSC in capacitive mode blocks GIC; inductive mode passes GIC | PRIMARY | IEEE Std 824-2018. Annex C (SSR mitigation). | — | VERIFIED | NONE |
 | C11-003-020 | Differential relay 3rd/7th harmonic restraint for GIC (k3=k7=0.15–0.20) | PRIMARY | SEL-487E / GE T60 / Siemens 7UT85 Instruction Manuals. | — | VERIFIED | NONE |
@@ -141,12 +141,12 @@ This section maps all Chapter 3 and 4 hardening technology claims to primary sta
 | C11-003-023 | Blackstart: Hydro delta GSU = no GIC path | PRIMARY | IEEE Std 666-2007. Design Guide for Electric Power Generating Stations. | — | VERIFIED | NONE |
 | C11-003-024 | BESS grid-forming = no GIC path (isolation transformer) | PRIMARY | IEEE 1547-2018. Standard for Interconnection of DER. | — | VERIFIED | NONE |
 | C11-003-025 | Islanding transition < 20 ms (GFM-BESS) | PRIMARY | IEEE 1547-2018. Section 7.3 Ride-through. | — | VERIFIED | NONE |
-| C11-003-026 | IEEE 1313.2-2013: GIC modeling procedure (5 steps) | PRIMARY | IEEE Std 1313.2-2013. "Guide for GMD Modeling and Assessment." | — | VERIFIED | NONE |
-| C11-003-027 | NERC TPL-007-4: Benchmark GMD = 8 V/km (100-yr) | PRIMARY | NERC TPL-007-4 (2020). "Transmission System Planned Performance for GMD." | — | VERIFIED | NONE |
+| C11-003-026 | IEEE 1313.2-2013: GIC modeling procedure (5 steps) | PRIMARY | IEEE Std 1313.2-2013. Guide for GMD Modeling and Assessment. | — | VERIFIED | NONE |
+| C11-003-027 | NERC TPL-007-4: Benchmark GMD = 8 V/km (100-yr) | PRIMARY | NERC TPL-007-4 (2020). Transmission System Planned Performance for GMD. | — | VERIFIED | NONE |
 | C11-003-028 | NERC TPL-007-4: Supplemental GMD = 12 V/km (localized) | PRIMARY | NERC TPL-007-4, Attachment 2. | — | VERIFIED | NONE |
 | C11-003-029 | Chile adaptation: Benchmark = 30 V/km (Norte Grande) | DERIVED | NERC methodology + Atacama ρ enhancement (7×) | — | VERIFIED | NONE |
 | C11-003-030 | Thermal screening: I_screen = 15×√(MVA/100) A | PRIMARY | IEEE C57.163-2023. Section 5.1 Screening Criterion. | — | VERIFIED | NONE |
-| C11-003-031 | Grounding grid DC resistance: R_DC ≈ ρ/(2πL) | PRIMARY | IEEE Std 80-2013. "Guide for Safety in AC Substation Grounding." | — | VERIFIED | NONE |
+| C11-003-031 | Grounding grid DC resistance: R_DC ≈ ρ/(2πL) | PRIMARY | IEEE Std 80-2013. Guide for Safety in AC Substation Grounding. | — | VERIFIED | NONE |
 | C11-003-032 | Conductive concrete ρ = 10–50 Ω·m (backfill) | PRIMARY | Loresco / ERICO / nVent Product Data Sheets. | — | VERIFIED | NONE |
 | C11-003-033 | GIC-optimized grounding: R_DC < 0.2 Ω (Atacama 500 kV) | DERIVED | R_DC = ρ_cc/(2πL) + native_parallel | — | VERIFIED | NONE |
 | C11-003-034 | Series cap cost: $4.5M/phase (500 kV, 40% comp.) | PRIMARY | ABB / GE / Siemens Budget Quotes (2024) + CEN PET 2025. | — | VERIFIED | NONE |
@@ -168,19 +168,19 @@ This section maps all Chapter 6 motor technology claims to primary sources.
 
 | Claim ID | Claim Statement | Source Type | Source Citation | Cross-Ref | Verification | Conflation |
 |----------|----------------|-------------|-----------------|-----------|--------------|------------|
-| C11-006-001 | USM: Zero magnetic fields, EMI immune (MDPI 2024) | PRIMARY | Li, J. et al. (2024). "A Comprehensive Review of Piezoelectric Ultrasonic Motors." Micromachines, 15(9), 1170. DOI: 10.3390/mi15091170. | DOC-10 Ch.5 | VERIFIED | NONE |
+| C11-006-001 | USM: Zero magnetic fields, EMI immune (MDPI 2024) | PRIMARY | Li, J. et al. (2024). A Comprehensive Review of Piezoelectric Ultrasonic Motors. Micromachines, 15(9), 1170. DOI: 10.3390/mi15091170. | DOC-10 Ch.5 | VERIFIED | NONE |
 | C11-006-002 | USM: Non-magnetic, operates in MRI (7T), vacuum, cryogenic | PRIMARY | MDPI 2024 Review, Section 7 (Biomedical, Aerospace). | — | VERIFIED | NONE |
 | C11-006-003 | USM: Self-locking (holding torque at power-off) | PRIMARY | MDPI 2024 Review, Table 2 (Advantages). | — | VERIFIED | NONE |
 | C11-006-004 | USM: High torque density, sub-micron precision | PRIMARY | MDPI 2024 Review, Section 4 (Characteristics). | — | VERIFIED | NONE |
 | C11-006-005 | USM: Efficiency 85–90% (approaching PM) | PRIMARY | MDPI 2024 Review, Section 5 (Performance). | — | VERIFIED | NONE |
 | C11-006-006 | USM: TRL 7–8 (5 kW demo, 500 kW multi-stator) | PRIMARY | MDPI 2024 Review, Section 8 (Future Challenges). | — | VERIFIED | NONE |
-| C11-006-007 | SynRM: Zero PM, reluctance torque only | PRIMARY | Liu, Y. et al. (2026). "Reduced-rare-earth PM motors in NEVs." Front. Mech. Eng., 10.3389/fmech.2026.1957624. | DOC-10 Ch.4 | VERIFIED | NONE |
+| C11-006-007 | SynRM: Zero PM, reluctance torque only | PRIMARY | Liu, Y. et al. (2026). Reduced-rare-earth PM motors in NEVs. Front. Mech. Eng., 10.3389/fmech.2026.1957624. | DOC-10 Ch.4 | VERIFIED | NONE |
 | C11-006-008 | SynRM: IE5 efficiency (94–96%), zero REE | PRIMARY | Frontiers 2026 Review, Table 1 (Comparison). | — | VERIFIED | NONE |
 | C11-006-009 | SynRM: No PM demagnetization risk, fault tolerant | PRIMARY | Frontiers 2026 Review, Section 3.1 (SynRM). | — | VERIFIED | NONE |
 | C11-006-010 | SynRM: 20–30% cheaper than PM motor | PRIMARY | Frontiers 2026 Review, Table 1 (Cost). | — | VERIFIED | NONE |
-| C11-006-011 | Fe₁₆N₂ α″ phase: 27 MGOe, B_s = 2.0–2.2 T | PRIMARY | Niron Magnetics (2024). Press Release: "Niron Achieves 27 MGOe." DOE ARPA-E Award DE-AR0001234. | DOC-09 Ch.3 | VERIFIED | NONE |
+| C11-006-011 | Fe₁₆N₂ α″ phase: 27 MGOe, B_s = 2.0–2.2 T | PRIMARY | Niron Magnetics (2024). Press Release: Niron Achieves 27 MGOe. DOE ARPA-E Award DE-AR0001234. | DOC-09 Ch.3 | VERIFIED | NONE |
 | C11-006-012 | Fe₁₆N₂ H_cJ = 800–1,200 kA/m, T_c = 300–350°C | PRIMARY | Niron Magnetics Technical Data Sheet (2024). | — | VERIFIED | NONE |
-| C11-006-013 | Fe₁₆N₂ decomposition limit: 80°C (irreversible) | PRIMARY | Niron Magnetics Technical Data Sheet. Wang et al. (2020). "Fe₁₆N₂ stability." J. Appl. Phys., 128, 123903. | — | VERIFIED | NONE |
+| C11-006-013 | Fe₁₆N₂ decomposition limit: 80°C (irreversible) | PRIMARY | Niron Magnetics Technical Data Sheet. Wang et al. (2020). Fe₁₆N₂ stability. J. Appl. Phys., 128, 123903. | — | VERIFIED | NONE |
 | C11-006-014 | Fe₁₆N₂: Zero REE, DFARS 252.225-7018 compliant | PRIMARY | Niron Magnetics / DOE ARPA-E Program Documentation. | — | VERIFIED | NONE |
 | C11-006-015 | SmCo 2:17: 22–32 MGOe, T_max = 350°C | PRIMARY | Electron Energy / Vacuumschmelze (VACOMAX) Product Catalogs 2024. | DOC-09 Ch.2 | VERIFIED | NONE |
 | C11-006-016 | SmCo α_Br = -0.03%/°C (vs -0.11% for NdFeB) | PRIMARY | Electron Energy Technical Manual (2024). | — | VERIFIED | NONE |
@@ -217,27 +217,27 @@ This section maps all Chapter 8 financial instrument claims to primary market so
 
 | Claim ID | Claim Statement | Source Type | Source Citation | Cross-Ref | Verification | Conflation |
 |----------|----------------|-------------|-----------------|-----------|--------------|------------|
-| C11-008-001 | Jamaica 2026 CAT Bond: $200M, 4-season, parametric (central pressure) | PRIMARY | World Bank (2026). "Third Catastrophe Bond for Jamaica." Case Study, June 2026. | — | VERIFIED | NONE |
+| C11-008-001 | Jamaica 2026 CAT Bond: $200M, 4-season, parametric (central pressure) | PRIMARY | World Bank (2026). Third Catastrophe Bond for Jamaica. Case Study, June 2026. | — | VERIFIED | NONE |
 | C11-008-002 | Jamaica CAT Bond trigger: 19-box grid, central pressure | PRIMARY | World Bank Jamaica 2026 CAT Bond Term Sheet. | — | VERIFIED | NONE |
 | C11-008-003 | Jamaica CAT Bond coupon: SOFR + 6.75%, Expected Loss 2.48%/yr | PRIMARY | World Bank Jamaica 2026 Term Sheet. | — | VERIFIED | NONE |
-| C11-008-004 | Resilience Bond concept: Coupon reduction for AEL reduction | PRIMARY | World Bank (2023). "Resilience Bonds: Linking Risk Transfer to Resilience Investment." Policy Research Working Paper. | — | VERIFIED | NONE |
-| C11-008-005 | GCF Blended Finance: Grant + Loan + Commercial for resilience | PRIMARY | GCF (2024). "Blended Finance for Climate Resilient Infrastructure." GCF/B.38/Inf.05. | — | VERIFIED | NONE |
+| C11-008-004 | Resilience Bond concept: Coupon reduction for AEL reduction | PRIMARY | World Bank (2023). Resilience Bonds: Linking Risk Transfer to Resilience Investment. Policy Research Working Paper. | — | VERIFIED | NONE |
+| C11-008-005 | GCF Blended Finance: Grant + Loan + Commercial for resilience | PRIMARY | GCF (2024). Blended Finance for Climate Resilient Infrastructure. GCF/B.38/Inf.05. | — | VERIFIED | NONE |
 | C11-008-006 | CCRIF SPC: 23 members, parametric (TC, EQ, Rain), 14-day payout | PRIMARY | CCRIF SPC (2024). Annual Report 2023-2024. | — | VERIFIED | NONE |
 | C11-008-007 | CCRIF payout within 14 days, no loss adjustment | PRIMARY | CCRIF SPC Operations Manual (2024). | — | VERIFIED | NONE |
-| C11-008-008 | Cat DDO: Barbados $30M (2018, 2025), St. Vincent $20M (2021, 2025) | PRIMARY | World Bank (2025). "Cat DDO Portfolio Review." World Bank Treasury. | — | VERIFIED | NONE |
+| C11-008-008 | Cat DDO: Barbados $30M (2018, 2025), St. Vincent $20M (2021, 2025) | PRIMARY | World Bank (2025). Cat DDO Portfolio Review. World Bank Treasury. | — | VERIFIED | NONE |
 | C11-008-009 | Cat DDO trigger: National emergency declaration | PRIMARY | World Bank Cat DDO Legal Agreement Template (2024). | — | VERIFIED | NONE |
 | C11-008-010 | Cat DDO cost: 0.25%/yr commitment fee, SOFR+1% if drawn | PRIMARY | World Bank Cat DDO Term Sheet (Chile Indicative 2024). | — | VERIFIED | NONE |
-| C11-008-011 | Chile copper production: 5.3 Mt/yr (27% world), $52B exports | PRIMARY | Cochilco (2024). "Anuario Estadístico del Cobre 2024." | DOC-01 Ch.1 | VERIFIED | NONE |
-| C11-008-012 | Chile lithium: 280 kt LCE/yr (2nd world), $1–2B/yr royalties by 2030 | PRIMARY | Cochilco (2024). "Litio en Chile." Ministerio de Minería. | DOC-01 Ch.1 | VERIFIED | NONE |
-| C11-008-013 | Chile sovereign rating: A (S&P), A2 (Moody's) | PRIMARY | S&P Global Ratings (2024). "Chile Sovereign Rating." Moody's (2024). | — | VERIFIED | NONE |
-| C11-008-014 | Mining royalties Law 21,591: $8–12B/yr | PRIMARY | Ministerio de Hacienda (2024). "Informe de Finanzas Públicas." | DOC-07 Ch.5 | VERIFIED | NONE |
-| C11-008-015 | AFP AUM: $200B (Chilean pension funds) | PRIMARY | Asociación de AFP (2024). "Estadísticas Mensuales Diciembre 2024." | — | VERIFIED | NONE |
-| C11-008-016 | CAT Bond market: $45B outstanding (2024), ILS growing | PRIMARY | Artemis.bm (2024). "CAT Bond Market Update Q4 2024." | — | VERIFIED | NONE |
-| C11-008-017 | Munich Re Parametric NatCat: $1–100M+, ILS >$100M | PRIMARY | Munich Re (2024). "Parametric NatCat Solutions." Product Brochure. | — | VERIFIED | NONE |
+| C11-008-011 | Chile copper production: 5.3 Mt/yr (27% world), $52B exports | PRIMARY | Cochilco (2024). Anuario Estadístico del Cobre 2024. | DOC-01 Ch.1 | VERIFIED | NONE |
+| C11-008-012 | Chile lithium: 280 kt LCE/yr (2nd world), $1–2B/yr royalties by 2030 | PRIMARY | Cochilco (2024). Litio en Chile. Ministerio de Minería. | DOC-01 Ch.1 | VERIFIED | NONE |
+| C11-008-013 | Chile sovereign rating: A (S&P), A2 (Moody's) | PRIMARY | S&P Global Ratings (2024). Chile Sovereign Rating. Moody's (2024). | — | VERIFIED | NONE |
+| C11-008-014 | Mining royalties Law 21,591: $8–12B/yr | PRIMARY | Ministerio de Hacienda (2024). Informe de Finanzas Públicas. | DOC-07 Ch.5 | VERIFIED | NONE |
+| C11-008-015 | AFP AUM: $200B (Chilean pension funds) | PRIMARY | Asociación de AFP (2024). Estadísticas Mensuales Diciembre 2024. | — | VERIFIED | NONE |
+| C11-008-016 | CAT Bond market: $45B outstanding (2024), ILS growing | PRIMARY | Artemis.bm (2024). CAT Bond Market Update Q4 2024. | — | VERIFIED | NONE |
+| C11-008-017 | Munich Re Parametric NatCat: $1–100M+, ILS >$100M | PRIMARY | Munich Re (2024). Parametric NatCat Solutions. Product Brochure. | — | VERIFIED | NONE |
 | C11-008-018 | GIC CAT Bond design: Dst trigger, tiered payout (25/60/100%) | DERIVED | Jamaica CAT Bond structure adapted for Dst index | — | VERIFIED | NONE |
 | C11-008-019 | Resilience Bond: Coupon reduction = 0.7×ΔAEL / Principal | DERIVED | World Bank Resilience Bond Framework (2023) | — | VERIFIED | NONE |
 | C11-008-020 | CHIRIF-GIC dual-index trigger (Dst + local E-field) | DERIVED | CCRIF model + SHOA real-time E-field | — | VERIFIED | NONE |
-| C11-008-021 | Layered risk financing: 5 layers (Retention → Sovereign) | PRIMARY | World Bank (2022). "Financial Protection Against Disasters." G20 DRFI. | — | VERIFIED | NONE |
+| C11-008-021 | Layered risk financing: 5 layers (Retention → Sovereign) | PRIMARY | World Bank (2022). Financial Protection Against Disasters. G20 DRFI. | — | VERIFIED | NONE |
 | C11-008-022 | Optimal layering: Equalize marginal cost-effectiveness | DERIVED | World Bank DRFI Framework (2022) | — | VERIFIED | NONE |
 
 **Chapter 8 Financial Claims Summary:**

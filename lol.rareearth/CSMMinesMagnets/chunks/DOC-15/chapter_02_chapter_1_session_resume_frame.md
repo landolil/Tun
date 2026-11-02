@@ -85,17 +85,17 @@ Resume Triggered
 ```python
 @dataclass
 class PipelineState:
-    """Complete pipeline state for resume"""
+    Complete pipeline state for resume
     # Document state
-    completed_docs: List[str]           # e.g., ["DOC-01", ..., "DOC-14"]
-    current_doc: str                    # e.g., "DOC-15"
+    completed_docs: List[str]           # e.g., [DOC-01, ..., DOC-14]
+    current_doc: str                    # e.g., DOC-15
     current_chapter: int                # 1-9
-    current_subtask: str                # e.g., "1.1"
+    current_subtask: str                # e.g., 1.1
     
     # Git state
-    git_branch: str                     # e.g., "kilo/digital-dolphin-50m"
+    git_branch: str                     # e.g., kilo/digital-dolphin-50m
     last_commit_sha: str                # HEAD
-    last_tag: str                       # e.g., "runner-011-complete"
+    last_tag: str                       # e.g., runner-011-complete
     uncommitted_changes: bool           # Should be False
     
     # Heartbeat state
@@ -109,7 +109,7 @@ class PipelineState:
     
     # Conflation audit state
     audit_ledger_hash: str              # SHA256 of audit_ledger.jsonl
-    audit_corpus_version: str           # e.g., "v1.1" (DOC-01..14)
+    audit_corpus_version: str           # e.g., v1.1 (DOC-01..14)
     pending_regress_check: bool         # New docs since last audit
     
     # Heuristic intros state
@@ -201,9 +201,9 @@ PHASE 5: RESUME — Continue from Last Subtask
 
 ```python
 def resume_quality_gates(pipeline_state):
-    """
+    
     Runs at end of PHASE 5 (Resume Complete)
-    """
+    
     checks = {
         'rto_met': pipeline_state.resume_duration_seconds <= 300,  # 5 min
         'rpo_met': pipeline_state.last_commit_sha == git_head_sha(),

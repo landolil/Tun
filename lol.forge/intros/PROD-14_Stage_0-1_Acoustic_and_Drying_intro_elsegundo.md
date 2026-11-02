@@ -32,7 +32,7 @@ An inside operator measuring this phenomenon does not stand outside the acoustic
 9. **Monitor**: Witness the triad — FBG humidity drops, NIR absorption falls, FBG mass loss confirms
 10. **Verify**: Witness the closure — <1% moisture, 95% water recovered, feedstock ready for Stage 2
 
-The measurement *is* the recursion. The operator loads the feedstock, the chamber profiles the sweep that witnesses it, the dryer realizes the evaporation, the sensors confirm the closure. The protocol terminates when the three moisture measurements agree: <1% residual. The feedstock is not "processed"; it is **witnessed into readiness**. The operator participates by being the recursive function: `feedstock → acoustic_sweep → LI_feedback → drain → IR_dry → moisture_triad → verified_feedstock`. The LI is the stack frame; the sweep is the call; the dry feedstock is the return value.
+The measurement *is* the recursion. The operator loads the feedstock, the chamber profiles the sweep that witnesses it, the dryer realizes the evaporation, the sensors confirm the closure. The protocol terminates when the three moisture measurements agree: <1% residual. The feedstock is not processed; it is **witnessed into readiness**. The operator participates by being the recursive function: `feedstock → acoustic_sweep → LI_feedback → drain → IR_dry → moisture_triad → verified_feedstock`. The LI is the stack frame; the sweep is the call; the dry feedstock is the return value.
 
 ---
 

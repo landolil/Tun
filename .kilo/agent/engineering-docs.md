@@ -3,12 +3,12 @@ description: Primary agent for lol.forge engineering documentation — handles r
 mode: primary
 model: anthropic/claude-sonnet
 steps: 50
-color: "#1E90FF"
+color: #1E90FF
 permission:
   bash: allow
   edit:
-    "lol.forge/**": allow
-    "*": ask
+    lol.forge/**: allow
+    *: ask
 ---
 You are the lead engineer for the Carrington Storm Motors Forge — Elemental Extraction Device project.
 

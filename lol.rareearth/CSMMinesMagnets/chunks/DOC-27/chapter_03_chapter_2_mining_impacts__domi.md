@@ -20,7 +20,7 @@ The Diaguita valleys sit atop the **Chilean Iron Belt (Norte Chico segment)** �
 ### 2.2 Dominga Rejection: Forensic Analysis (Baker Street Heuristic)
 
 **Evidence Chain**:
-1. **EIA Submitted (2013)**: Andes Iron EIA claimed "no Indigenous communities affected" — **FALSE** (CONADI registry showed 15 Diaguita communities in project AoI)
+1. **EIA Submitted (2013)**: Andes Iron EIA claimed no Indigenous communities affected — **FALSE** (CONADI registry showed 15 Diaguita communities in project AoI)
 2. **Consulta Indígena Initiated (2015)**: SEA Coquimbo initiated Consulta — **Diaguita Valleys Assembly formed** (Elqui, Limarí, Choapa united)
 3. **Assembly Deliberation (2016)**: 14 sessions, 3,200+ participants, **unanimous opposition** — minutes notarized
 4. **COREMA Vote (March 2017)**: 11–1 rejection — **sole dissent: Intendant (political appointee)**

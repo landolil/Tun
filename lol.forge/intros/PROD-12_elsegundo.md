@@ -74,7 +74,7 @@
 - $300/kg but low volume — 50kg total
 
 **PEX-a Circuit (Item 15) — 1 WEEK**
-- Uponor 1/2" and 1" SDR9, expansion fittings
+- Uponor 1/2 and 1 SDR9, expansion fittings
 - Pressure test 160 psi, route through ZrO₂ bulkhead fittings
 
 ---

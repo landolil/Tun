@@ -12,11 +12,11 @@
 
 | Linguistic Invariant | Pattern | Example |
 |----------------------|---------|---------|
-| **Calm Declaration** | "Calm: [event] → [layer activation] — no panic" | "Calm: GIC G3+ → GFM islanding + CAT bond trigger — no panic" |
-| **Resilience Declaration** | "Resilience: [layer] absorbs [shock] — independent" | "Resilience: Layer 3 CAT bond absorbs Carrington — independent of Layer 1" |
-| **Continuity Declaration** | "Continuity: [failure] → [degraded mode] → [restore]" | "Continuity: Workspace lost → Clone repo → RESUME_SESSION → Full context" |
+| **Calm Declaration** | Calm: [event] → [layer activation] — no panic | Calm: GIC G3+ → GFM islanding + CAT bond trigger — no panic |
+| **Resilience Declaration** | Resilience: [layer] absorbs [shock] — independent | Resilience: Layer 3 CAT bond absorbs Carrington — independent of Layer 1 |
+| **Continuity Declaration** | Continuity: [failure] → [degraded mode] → [restore] | Continuity: Workspace lost → Clone repo → RESUME_SESSION → Full context |
 
-**Forbidden**: "Urgent," "crisis," "emergency," "immediate," "deadline pressure," "firefighting"
+**Forbidden**: Urgent, crisis, emergency, immediate, deadline pressure, firefighting
 **Required**: Layered. Independent. Horizon-consistent. Degraded-mode-specified.
 
 ---
@@ -85,12 +85,12 @@
 class SHIELDContinuity:
     def __init__(self, repo_url, branch):
         self.repo = GitRepo(repo_url, branch)
-        self.heartbeat_file = ".heartbeat_pid"
-        self.resume_file = "RESUME_SESSION_MAGNETS.md"
-        self.runner_file = "NEXT_runner_{:03d}.md".format(self.current_runner)
+        self.heartbeat_file = .heartbeat_pid
+        self.resume_file = RESUME_SESSION_MAGNETS.md
+        self.runner_file = NEXT_runner_{:03d}.md.format(self.current_runner)
     
     def verify_continuity(self):
-        """Verify all continuity mechanisms operational"""
+        Verify all continuity mechanisms operational
         checks = {
             'github_accessible': self.repo.is_accessible(),
             'heartbeat_alive': self.check_heartbeat(),
@@ -103,7 +103,7 @@ class SHIELDContinuity:
         return all(checks.values()), checks
     
     def recover_from_loss(self):
-        """Full recovery from workspace loss"""
+        Full recovery from workspace loss
         # 1. Clone repository
         self.repo.clone()
         # 2. Read resume context
@@ -119,7 +119,7 @@ class SHIELDContinuity:
         return context.last_subtask
     
     def graceful_degradation(self, failed_component):
-        """Activate degraded mode for failed component"""
+        Activate degraded mode for failed component
         modes = {
             'heartbeat': self.manual_heartbeat_mode,
             'git_push': self.local_commit_mode,
@@ -167,13 +167,13 @@ class SHIELDContinuity:
 **Automated Check**:
 ```python
 def shield_horizon_consistency(canonical_doc, pipeline_state):
-    """
+    
     1. Every risk has layered mitigation (7 layers)
     2. Every decision evaluated at 5 horizons
     3. Continuity protocol specified (RTO/RPO)
     4. No panic language in document
     5. Degraded modes defined for all critical components
-    """
+    
     checks = {
         'layered_mitigation': check_seven_layers(canonical_doc),
         'horizon_evaluation': check_five_horizons(canonical_doc),
@@ -211,7 +211,7 @@ The SHIELD heuristic operates on **strategic long-horizon posture**:
 2. **Resilience**: Seven independent risk-financing layers — each absorbs a distinct shock class.
 3. **Continuity**: Graceful degradation + elegant handoff — the protocol survives workspace loss, runner failure, network partition.
 
-The SHIELD voice — *"Calm: [event]→[layer]. Resilience: [layer] absorbs [shock]. Continuity: [failure]→[degraded]→[restore]."* — is the **survival certificate** that the pipeline endures what cannot be predicted.
+The SHIELD voice — *Calm: [event]→[layer]. Resilience: [layer] absorbs [shock]. Continuity: [failure]→[degraded]→[restore].* — is the **survival certificate** that the pipeline endures what cannot be predicted.
 
 **Next**: Chapter 7 — Heuristic Composition & Translation Pipeline.
 

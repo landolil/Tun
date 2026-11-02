@@ -129,8 +129,8 @@ Key principle: **Community equity is not diluted, not forced to sell below fair 
 ### 8.6 State Partnership -- CORFO / Ministerio de Minería Alignment
 
 - **CORFO Equity**: Target 5-10% at holdco via Corfo Ventures / Inversion Estratégica. Board observer seat. Aligns with National Lithium Strategy / Critical Minerals Policy.
-- **Ministerio de Minería**: MOU for "Chilean Magnet Industry Development" -- Tardigradia commits to domestic processing, technology transfer, workforce development. Ministry supports permitting, international promotion.
-- **ProChile**: Export promotion for "Chilean Magnets" brand -- pavilions at Hannover Messe, CES, Minerals Week. Co-funded marketing.
+- **Ministerio de Minería**: MOU for Chilean Magnet Industry Development -- Tardigradia commits to domestic processing, technology transfer, workforce development. Ministry supports permitting, international promotion.
+- **ProChile**: Export promotion for Chilean Magnets brand -- pavilions at Hannover Messe, CES, Minerals Week. Co-funded marketing.
 - **BancoEstado / Banco Central**: Green bond guarantee program for environmental bonds. Lower coupon (4.5% vs 6%), longer tenor (20 yr).
 
 ### 8.7 Traceability Matrix -- Chapter 8

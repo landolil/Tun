@@ -80,8 +80,8 @@ At DC: X_C = ∞ → GIC blocked
 At 50 Hz: X_C = 1/(2π·50·C) — sized to allow ≥10 kA fault current for protection coordination
 
 **EPRI Research Program (1980s–1990s):**
-- **EL-3295 (1983)**: "GIC Mitigation: Neutral Blocking/Bypass Device" — Lab testing, prototype design
-- **TR-100450 (1992)**: "Field Test of Neutral Blocking Capacitor at Minnesota Power" — 500 kV field deployment
+- **EL-3295 (1983)**: GIC Mitigation: Neutral Blocking/Bypass Device — Lab testing, prototype design
+- **TR-100450 (1992)**: Field Test of Neutral Blocking Capacitor at Minnesota Power — 500 kV field deployment
 - **Minnesota Power (Duluth, MN)**: 2×500/230 kV autotransformers, 200 μF NBC each, operational 1990–2000+
 - **Results**: GIC reduced >99%, no protection miscoordination, reliable operation
 

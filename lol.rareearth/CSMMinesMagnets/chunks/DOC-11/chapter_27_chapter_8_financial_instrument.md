@@ -209,7 +209,7 @@ The **Caribbean Catastrophe Risk Insurance Facility (CCRIF SPC)** provides param
 
 **Adapting CCRIF for Space Weather (Chile):**
 
-**Proposed: "CHIRIF-GIC" — Chilean Geomagnetic Risk Insurance Facility**
+**Proposed: CHIRIF-GIC — Chilean Geomagnetic Risk Insurance Facility**
 | Feature | CHIRIF-GIC Design |
 |---------|-------------------|
 | **Structure** | SPC (Chile + Regional partners: Peru, Bolivia, Argentina) |
@@ -341,14 +341,14 @@ The **Catastrophe Deferred Drawdown Option (Cat DDO)** is a World Bank contingen
 | **Renewal** | Every 3 years (replenish) | Continuous coverage |
 
 **Legal Trigger (Chilean Law):**
-- **Law 21,364 (SINAPRED)**: Presidente declares "Estado de Excepción Constitucional de Catástrofe"
+- **Law 21,364 (SINAPRED)**: Presidente declares Estado de Excepción Constitucional de Catástrofe
 - **Supreme Decree**: Specifies zone, duration, authorities
 - **Cat DDO Drawdown**: Automatic upon decree publication (Diario Oficial)
 - **No World Bank Approval Needed** for drawdown (pre-agreed)
 
 **Chile-Specific Advantages:**
 1. **Investment Grade**: Chile A/A2 — low IBRD spread
-2. **Legal Framework**: Existing disaster law covers "eventos geofísicos"
+2. **Legal Framework**: Existing disaster law covers eventos geofísicos
 3. **Institutional Capacity**: CEN, SENAPRED, SHOA — strong technical agencies
 4. **Mining Revenue Backstop**: Copper/lithium royalties secure repayment
 5. **World Bank Relationship**: Long-standing partner (IBRD portfolio $3B+)
@@ -482,7 +482,7 @@ Structure:
 **Innovation 5: AFP Green/Resilience Mandate**
 ```
 Policy: 
-- Mandate: AFPs (pension funds, $200B AUM) allocate 2% to "Resilient Infrastructure"
+- Mandate: AFPs (pension funds, $200B AUM) allocate 2% to Resilient Infrastructure
 - Eligible: GIC hardening, microgrids, Aegis-Forge, green transmission
 - Vehicle: Infrastructure Funds (Fondos de Inversión en Infraestructura)
 - Incentive: Tax credit (0.5% of allocation) + regulatory capital relief
@@ -525,7 +525,7 @@ Product:
 5. **CNE/SEC Regulation** — Grid hardening cost recovery in tolls
 6. **CMF (Financial Market Commission)** — CAT bond registration, AFP rules
 
-**Recommendation**: **Execute integrated financial stack in 2025** — start with CHIRIF-GIC ($500M) + Cat DDO ($200M) + CAT Bond ($300M) as "Big Three" for immediate protection. Layer in Resilience Bond ($500M) + CLRB ($300M) for hardening finance. Use copper/lithium royalty streams as innovative collateral. This positions Chile as **global leader in space weather financial resilience** — exportable model for Peru, Australia, Canada, South Africa.
+**Recommendation**: **Execute integrated financial stack in 2025** — start with CHIRIF-GIC ($500M) + Cat DDO ($200M) + CAT Bond ($300M) as Big Three for immediate protection. Layer in Resilience Bond ($500M) + CLRB ($300M) for hardening finance. Use copper/lithium royalty streams as innovative collateral. This positions Chile as **global leader in space weather financial resilience** — exportable model for Peru, Australia, Canada, South Africa.
 
 
 ### 8.6 Layered Risk Financing: Budget → Contingency → CCRIF → CAT Bond

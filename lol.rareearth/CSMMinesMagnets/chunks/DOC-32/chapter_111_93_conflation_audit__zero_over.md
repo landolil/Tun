@@ -54,14 +54,14 @@ python3 scripts/conflation_audit.py \
 **Expected Result**:
 ```json
 {
-  "doc": "DOC-32",
-  "comparisons": {
-    "DOC-08": {"similarity": 0.09, "status": "PASS", "notes": "Systems cited as sources, communal governance layer added"},
-    "DOC-16": {"similarity": 0.13, "status": "PASS", "notes": "Regional disaggregated to communal, urban-specific data added"},
-    "DOC-26": {"similarity": 0.11, "status": "PASS", "notes": "Same Chango people, urban/coastal extension with operational consent protocol"},
-    "DOC-31": {"similarity": 0.07, "status": "PASS", "notes": "Producer-gateway relationship, complementary not overlapping"}
+  doc: DOC-32,
+  comparisons: {
+    DOC-08: {similarity: 0.09, status: PASS, notes: Systems cited as sources, communal governance layer added},
+    DOC-16: {similarity: 0.13, status: PASS, notes: Regional disaggregated to communal, urban-specific data added},
+    DOC-26: {similarity: 0.11, status: PASS, notes: Same Chango people, urban/coastal extension with operational consent protocol},
+    DOC-31: {similarity: 0.07, status: PASS, notes: Producer-gateway relationship, complementary not overlapping}
   },
-  "overall": "PASS — Zero conflation verified"
+  overall: PASS — Zero conflation verified
 }
 ```
 

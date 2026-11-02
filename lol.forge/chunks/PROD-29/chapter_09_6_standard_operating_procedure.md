@@ -24,7 +24,7 @@ PHASE 1: FEED PREPARATION (0-15 min)
 ├── 1.1 Scan feedstock QR → verify Category A-D (PROD-13)
 ├── 1.2 Load shredder → verify <150 mm, ferrous removed (PROD-11)
 ├── 1.3 Confirm drum empty (Carousel position 1, FBG + encoder)
-└── 1.4 Operator confirms recipe match → "BATCH <ID> RECIPE CONFIRMED"
+└── 1.4 Operator confirms recipe match → BATCH <ID> RECIPE CONFIRMED
 
 PHASE 2: CASCADE EXECUTION (15-105 min)
 ├── 2.1 Stage 0-1: Acoustic + Drying (auto, FBG/PID controlled)
@@ -40,13 +40,13 @@ PHASE 3: SLUG POUR & DATA CAPTURE (105-115 min)
 ├── 3.1 Carousel positions molds → N₂ quench → mass spec spot check
 ├── 3.2 Each slug: LIBS scan → QR stamp → weight → mass spec → vault
 ├── 3.3 Batch mass balance calculated → digital twin sync
-├── 3.4 Operator reviews batch record → "BATCH <ID> COMPLETE"
+├── 3.4 Operator reviews batch record → BATCH <ID> COMPLETE
 └── 3.5 Data package auto-signed → Hyperledger commit
 
 PHASE 4: INTER-BATCH RESET (115-120 min)
 ├── 4.1 Drum rotation to Position 1 (empty)
 ├── 4.2 Gas purge (N₂ 200 Nm³/hr × 5 min)
-├── 4.3 SIF status verify → "READY FOR NEXT BATCH"
+├── 4.3 SIF status verify → READY FOR NEXT BATCH
 └── 4.4 Shift handover log entry (if shift change)
 ```
 

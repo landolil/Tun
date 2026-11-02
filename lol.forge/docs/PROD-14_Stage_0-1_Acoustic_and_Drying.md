@@ -657,10 +657,10 @@ The core innovation of the AMLS is **feedstock-adaptive frequency targeting**:
 
 ```python
 def adaptive_sweep(fbg_spectrum, current_freq, dwell_timer):
-    """
+    
     Input: FBG vibration spectrum (magnitude vs frequency)
     Output: Next frequency setpoint, dwell extension
-    """
+    
     # Detect resonant peaks >3 dB above local baseline
     peaks = find_peaks(fbg_spectrum, prominence=3, distance=5)  # Hz
     

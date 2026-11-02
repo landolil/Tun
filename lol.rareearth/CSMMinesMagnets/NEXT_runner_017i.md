@@ -154,7 +154,7 @@ python3 ../../__Python_Tools/write_large_file.py compress docs/PROD-XX_...
 python3 scripts/conflation_audit.py --doc FinishedWork/DOC-34_... --corpus FinishedWork/
 
 # 6. Git commit & tag
-git add -A && git commit -m "lol.rareearth: DOC-34 San Pedro de Atacama Tourism Gateway — 900+ lines, zero conflation" && git tag runner-017i-complete && git push origin kilo/digital-dolphin-50m --tags
+git add -A && git commit -m lol.rareearth: DOC-34 San Pedro de Atacama Tourism Gateway — 900+ lines, zero conflation && git tag runner-017i-complete && git push origin kilo/digital-dolphin-50m --tags
 ```
 
 ---

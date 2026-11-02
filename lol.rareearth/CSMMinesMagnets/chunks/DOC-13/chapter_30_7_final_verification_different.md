@@ -1,7 +1,7 @@
 # 7. Final verification: differentiation
-verify_differentiation "$DOC_ID" || exit 1
+verify_differentiation $DOC_ID || exit 1
 
-echo "All 6 heuristic intros generated and verified for $DOC_ID"
+echo All 6 heuristic intros generated and verified for $DOC_ID
 ```
 
 #### 7.4.2 Prompt Engineering Principles

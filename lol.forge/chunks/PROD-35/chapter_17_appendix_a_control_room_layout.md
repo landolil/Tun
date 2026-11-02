@@ -3,7 +3,7 @@
 ```
 PLAN VIEW — CONTROL ROOM (8m × 6m)
 
-    NORTH WALL (55" Overview Display)
+    NORTH WALL (55 Overview Display)
     ┌────────────────────────────────────────────────────┐
     │                                                    │
     │   [FO-1]    [FO-2]    [DT-1]    [DT-2]            │
@@ -21,7 +21,7 @@ PLAN VIEW — CONTROL ROOM (8m × 6m)
     └────────────────────────────────────────────────────┘
     SOUTH WALL (Entry/Exit → Corridor → Z0 Safe Zone)
 
-KEY: M1-M6 = 24" Monitors (3×2 array per station)
+KEY: M1-M6 = 24 Monitors (3×2 array per station)
      All stations identical hardware, role-specific layouts
 ```
 

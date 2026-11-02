@@ -2,7 +2,7 @@
 
 ### E.1 Level 1 — Process Overview Screen (Wall Display)
 
-**Layout: 55" 4K Display (3840×2160)**
+**Layout: 55 4K Display (3840×2160)**
 
 | Region | Content | Update Rate | Interaction |
 |--------|---------|-------------|-------------|
@@ -19,7 +19,7 @@
 
 ### E.2 Level 2 — Stage Group Detail (Monitor 1-3)
 
-**Layout per Monitor: 24" 1920×1080, 3 panes horizontal**
+**Layout per Monitor: 24 1920×1080, 3 panes horizontal**
 
 | Pane | Stage Group | Key Parameters |
 |------|-------------|----------------|
@@ -35,7 +35,7 @@
 
 ### E.3 Level 3 — Zone RTU Detail (Monitor 4)
 
-**Layout: 24" 1920×1080, 4 quadrants**
+**Layout: 24 1920×1080, 4 quadrants**
 
 | Quadrant | Content | Source |
 |----------|---------|--------|
@@ -46,7 +46,7 @@
 
 ### E.4 Level 4 — Diagnostic/Configuration (Monitor 6)
 
-**Layout: 24" 1920×1080, Tabbed Interface**
+**Layout: 24 1920×1080, Tabbed Interface**
 
 | Tab | Content | Update |
 |-----|---------|--------|

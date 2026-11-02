@@ -66,31 +66,31 @@ How does the inside operator witness the structural phenomenon into existence? A
 - **Action:** 3 mm Liner B (ZrB₂-SiC) pressed into drum body at 20°C (0.03 mm interference)
 - **Witness requirement:** Operator verifies interference fit force vs. displacement curve matches FEA prediction (peak force = 450 kN ± 10%). Any deviation > 10% → halt, inspect, re-FEA.
 - **Why human:** Friction coefficient μ at ceramic-ceramic interface varies with surface finish (Ra 0.8–1.2 μm). FEA assumes μ = 0.15; actual μ = 0.12–0.18. Only operator feel + force curve detects anomaly.
-- **Cognitive checkpoint:** "Does the force curve feel right?" — haptic judgment of ceramic seating.
+- **Cognitive checkpoint:** Does the force curve feel right? — haptic judgment of ceramic seating.
 
 **Gate 2: Vessel Filament Winding — Port Penetration Layup (PROD-27 Section 4.3)**
 - **Action:** ±18° helical wind over gas port reinforcement (±55° hoop bias)
 - **Witness requirement:** Operator verifies fiber angle at port transition (±2° tolerance via laser angle gauge) and ply compaction (no voids > 1 mm via flash thermography).
 - **Why human:** Fiber steering at port penetration is geometrically complex. Automated winding follows toolpath, but local fiber angle depends on resin viscosity, tension, mandrel temperature — all variable.
-- **Cognitive checkpoint:** "Is the fiber sitting flat at the port edge?" — visual/tactile judgment of compaction.
+- **Cognitive checkpoint:** Is the fiber sitting flat at the port edge? — visual/tactile judgment of compaction.
 
 **Gate 3: Flange Bolt Torque — Ceramic Bolt Ceremony (PROD-27 Section 5.1)**
 - **Action:** 12× M24 ZrO₂ bolts torqued to 160 N·m with ceramic paste (BN-loaded)
 - **Witness requirement:** Two-person verification: Operator A torques to 160 N·m ± 5 N·m; Operator B independently re-checks with calibrated torque wrench. Both sign.
 - **Why human:** Ceramic bolts have no yield point — they fracture. Torque is the *only* preload indicator. No strain gauges on bolts (too hot). Human dual-verification is the safety barrier.
-- **Cognitive checkpoint:** "Did it click at 160?" — auditory/tactile confirmation of click-type wrench.
+- **Cognitive checkpoint:** Did it click at 160? — auditory/tactile confirmation of click-type wrench.
 
 **Gate 4: Port Actuator Installation — Thermal Actuation Witness (PROD-27 Section 6.2)**
 - **Action:** Ti₃AlC₂ actuator strip (10 mm × 40 mm × 0.5 mm) brazed to ZrO₂ piston (Ag-CuO-TiO₂, 50 μm joint)
 - **Witness requirement:** Operator verifies braze joint integrity via 10× magnification inspection (no voids > 50 μm, fillet radius > 0.2 mm) and measures free deflection at 680°C ΔT (3.6 mm ± 0.2 mm) in test furnace.
 - **Why human:** Braze joint quality is binary (good/bad) and visible only at 10×. Automated vision misses subsurface voids. Deflection test is the functional proof.
-- **Cognitive checkpoint:** "Does the actuator breathe at temperature?" — thermal functional test witnessed.
+- **Cognitive checkpoint:** Does the actuator breathe at temperature? — thermal functional test witnessed.
 
 **Gate 5: Seismic Qualification — Shake Table Witness (PROD-28 Section 8, PROD-39 FAT)**
 - **Action:** Full assembly on shake table, IEEE 693 High RRS (1.5g ZPA, 3-axis)
 - **Witness requirement:** Lead structural engineer witnesses test. Verifies: (a) No FBG reading exceeds 0.9·σ_f(T), (b) No AE bursts > 10⁻⁴ J, (c) No permanent deformation > 1 mm, (d) All ports actuate post-shake.
-- **Why human:** Seismic response is a system-level emergent behavior. No single sensor captures "the structure survived." Engineer synthesizes multi-sensor data into go/no-go.
-- **Cognitive checkpoint:** "Did the machine come back alive?" — holistic structural survival judgment.
+- **Why human:** Seismic response is a system-level emergent behavior. No single sensor captures the structure survived. Engineer synthesizes multi-sensor data into go/no-go.
+- **Cognitive checkpoint:** Did the machine come back alive? — holistic structural survival judgment.
 
 ### The Participation Principle
 

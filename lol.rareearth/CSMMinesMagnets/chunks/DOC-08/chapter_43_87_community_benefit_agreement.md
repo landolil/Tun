@@ -5,8 +5,8 @@ Standardized template for each port city (customized per community).
 ```
 COMMUNITY BENEFIT AGREEMENT
 ===========================
-Between: Aegis-Forge Chile SpA ("Company")
-And:     [Community Organization] ("Community")
+Between: Aegis-Forge Chile SpA (Company)
+And:     [Community Organization] (Community)
 For:     [Port City] Aegis-Forge Cluster Deployment
 Date:    2026-XX-XX
 Term:    20 years (renewable 10-year periods)

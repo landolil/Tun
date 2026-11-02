@@ -86,7 +86,7 @@ Threshold Λ_J > 10 at Gates SG-2, SG-3, CT-04, SAT-05 certifies Journeyman judg
 **The fabricator sees the training program as a distributed sensor network.** Every assessment is a measurement. Every measurement updates RCT. Every RCT update adjusts curriculum hours, scenario weights, recertification triggers.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The training operator does not "instruct" — they **witness competency becoming Forge**:
+**How does the inside operator witness the phenomenon into existence?** The training operator does not instruct — they **witness competency becoming Forge**:
 
 1. **Apprentice at Cold Startup (O-01 Simulator)** witnesses the 90-minute sequence: HVAC → SIS proof → FBG cal → ZVS verify → drum drive → gas purge → recipe load. They *feel* the 100 kHz FPGA gate drive latency in the L0 replica, *see* the TSN schedule slots on the L1 RTU, *know* this sequence protects the 2200°C drum from thermal shock.
 2. **Journeyman at SIF Bypass (Oral Board)** witnesses the dual-key moment: Shift Lead + Safety Engineer, 4-hr time limit, blockchain audit trail. They *witness* the organizational risk acceptance — no algorithm, no procedure, only human judgment at the boundary of consequence.

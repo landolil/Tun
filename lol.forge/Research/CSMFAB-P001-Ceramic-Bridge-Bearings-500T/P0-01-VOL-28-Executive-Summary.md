@@ -26,4 +26,4 @@
 **The imperative:** Solar Cycle 25 is at peak. The smoothed sunspot number is tracking at 137 — well above the predicted 115. G4 storms have already triggered insurer advisories. The bearings protecting America's bridges were designed before anyone knew geomagnetic induction existed. They are not hardened. They are not monitored. They are not prepared. This product changes that. One bearing at a time. Starting with the Bay Bridge, the Pittsburgh Metro, and every bridge that carries more than 50,000 vehicles per day across a major waterway. The numbers are ready. The ceramic is firing. The request is on the table.
 
 — CSMFAB-P001 | Ceramic Bridge Bearings 500T | July 2026
-— Spruce-Drake Protocol | Zirconia Director's Review: "Numbers verified. CAPEX traceable. Proceed."
+— Spruce-Drake Protocol | Zirconia Director's Review: Numbers verified. CAPEX traceable. Proceed.

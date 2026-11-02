@@ -1,6 +1,6 @@
 ## 8.1 Aegis-Forge Modular Port Services Deployment
 
-Aegis-Forge separation plants are **containerized, modular, and relocatable** — designed for deployment at port sites to create integrated "mine-to-ship" value chains.
+Aegis-Forge separation plants are **containerized, modular, and relocatable** — designed for deployment at port sites to create integrated mine-to-ship value chains.
 
 ### 8.1.1 Module Specifications
 

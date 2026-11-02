@@ -13,7 +13,7 @@ The empirical evidence of the trap:
 - **Smelters** require >20% target metal → reject low-grade feeds (tailings, slag, C&D)
 - **Hydromet plants** need pre-concentrated feed → cannot handle mixed mineralogy
 
-The lock deepens at the **stage coupling boundary**: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. The lock is not "what feedstocks can we accept?" — it is "how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?"
+The lock deepens at the **stage coupling boundary**: Stage 2 polymer melt volume must not exceed 50L drum capacity; Stage 5 Al mass must not exceed 100kg port capacity; Stage 7 Fe mass must not exceed 175kg. If the feedstock blend violates these, the cascade chokes — polymer floods Port 2, Al backs up at Port 5, Fe overloads Port 7. The lock is not what feedstocks can we accept? — it is how do we blend arbitrary feedstocks to match the cascade's fixed stage capacities?
 
 ---
 

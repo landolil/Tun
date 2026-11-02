@@ -2,7 +2,7 @@
 
 | Claim ID | Ch | Sec | Claim | Primary Source | Type | Verification | Confidence |
 |----------|----|-----|-------|----------------|------|--------------|------------|
-| D09-3-3.1-C016 | 3 | 3.1 | α"-Fe₁₆N₂ structure: BCC, $a=5.72$Å, metastable | Wang et al. Nature Comm. 2022, Niron patents | Primary | Journal + patents | High |
+| D09-3-3.1-C016 | 3 | 3.1 | α-Fe₁₆N₂ structure: BCC, $a=5.72$Å, metastable | Wang et al. Nature Comm. 2022, Niron patents | Primary | Journal + patents | High |
 | D09-3-3.1-C017 | 3 | 3.1 | Decomposition >80°C → α-Fe + Fe₄N | CSMMagTech2026 V2.0, Niron whitepaper | Secondary | Research + company | High |
 | D09-3-3.2-C018 | 3 | 3.2 | Target: 27 MGOe, $B_r$ 1.85 T, $H_{cJ}$ 800 kA/m | Niron Magnetics public demo (2024) | Secondary | Company announcement | High |
 | D09-3-3.2-C019 | 3 | 3.2 | 80°C hard limit (phase destruction) | CSMMagTech2026 V2.0, DOE ARPA-E reports | Primary+Secondary | Govt + research | High |

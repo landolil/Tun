@@ -1,7 +1,7 @@
 ## Synthesis - Community-Centered Design
 ## 10. Synthesis -- Community-Centered Design for Tardigradia Venture
 
-This chapter synthesizes Chapters 1-9 into actionable design principles for Tardigradia's community engagement. The communities are not obstacles to be managed -- they are the terrain on which Tardigradia builds. Every operational decision must pass the "community test": Does this improve lives in Vallenar, Tierra Amarilla, Andacollo, Sierra Gorda? If not, redesign.
+This chapter synthesizes Chapters 1-9 into actionable design principles for Tardigradia's community engagement. The communities are not obstacles to be managed -- they are the terrain on which Tardigradia builds. Every operational decision must pass the community test: Does this improve lives in Vallenar, Tierra Amarilla, Andacollo, Sierra Gorda? If not, redesign.
 
 ### 10.1 Design Principles -- From Extraction to Regeneration
 
@@ -65,7 +65,7 @@ At Antofagasta Hub (10 units): **$3.5-5M/yr direct community value**. At full Ch
 
 ### 10.5 Concluding Assessment
 
-The human geography of Chilean magnetic minerals reveals a clear imperative: **Communities will accept mining that is visibly, measurably, continuously better for them.** Not "better" in corporate rhetoric -- better in water flowing to their fields, better in air their children breathe, better in jobs their youth can build careers on, better in trust that their voice shapes decisions.
+The human geography of Chilean magnetic minerals reveals a clear imperative: **Communities will accept mining that is visibly, measurably, continuously better for them.** Not better in corporate rhetoric -- better in water flowing to their fields, better in air their children breathe, better in jobs their youth can build careers on, better in trust that their voice shapes decisions.
 
 Tardigradia holds a technological key (Aegis-Forge) that unlocks this better future: zero water, zero tailings, enclosed thermal process, high-value products (Fe3O4, REE oxides, Fe-Co). The communities hold the social key (Consulta, trust, local knowledge). The fit is precise.
 

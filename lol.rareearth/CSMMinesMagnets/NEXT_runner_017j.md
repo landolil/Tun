@@ -97,7 +97,7 @@ María Elena — **Population ~7,000**, classic company town (SQM), nitrate heri
 ### Chapter 7: Nitrate Heritage & Transition — The Living Museum (13 subtasks)
 7.1 Oficina María Elena: Last operating oficina salitrera (since 1926), 2,000 workers peak, now 200
 7.2 Industrial heritage: Shanks system, leaching tanks, power house, railway, campamento layout
-7.3 UNESCO tentative list: "Oficinas Salitreras" — María Elena + Humberstone + Santa Laura
+7.3 UNESCO tentative list: Oficinas Salitreras — María Elena + Humberstone + Santa Laura
 7.4 Heritage tourism: Guided tours, museum, railway experience — potential 20k visitors/yr
 7.5 Transition model: SQM funds heritage preservation, community management, tourism revenue
 7.6 Cross-ref: DOC-34 (archaeological tourism), DOC-16 (regional heritage), DIBAM/CMN
@@ -153,7 +153,7 @@ python3 ../../__Python_Tools/write_large_file.py compress docs/PROD-XX_...
 python3 scripts/conflation_audit.py --doc FinishedWork/DOC-35_... --corpus FinishedWork/
 
 # 6. Git commit & tag
-git add -A && git commit -m "lol.rareearth: DOC-35 María Elena Lithium Community — 900+ lines, zero conflation, PHASE 5 COMPLETE" && git tag runner-017j-complete && git push origin kilo/digital-dolphin-50m --tags
+git add -A && git commit -m lol.rareearth: DOC-35 María Elena Lithium Community — 900+ lines, zero conflation, PHASE 5 COMPLETE && git tag runner-017j-complete && git push origin kilo/digital-dolphin-50m --tags
 ```
 
 ---

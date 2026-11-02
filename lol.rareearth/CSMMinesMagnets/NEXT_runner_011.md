@@ -108,7 +108,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-14/ FinishedWork/DOC-14_*.md.gz FinishedWork/intros/DOC-14_*.md
-git commit -m "DOC-14: Conflation Audit — [summary]"
+git commit -m DOC-14: Conflation Audit — [summary]
 git tag runner-011-complete
 git push origin --tags
 

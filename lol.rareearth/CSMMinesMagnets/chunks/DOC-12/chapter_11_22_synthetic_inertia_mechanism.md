@@ -26,7 +26,7 @@ Droop control can emulate inertia via a high-pass filter on frequency deviation:
 \Delta P_{inertia}(s) = K_{inertia} \frac{s}{s + \omega_c} \Delta f(s)
 ```
 
-where $K_{inertia}$ sets the effective inertia and $\omega_c$ is the cutoff frequency (typically 1–5 rad/s). This provides "virtual inertia" without the second-order dynamics of VSM.
+where $K_{inertia}$ sets the effective inertia and $\omega_c$ is the cutoff frequency (typically 1–5 rad/s). This provides virtual inertia without the second-order dynamics of VSM.
 
 **Equivalence Proof** (IEEE Trans. Power Electron. 2021): Properly tuned droop with virtual inertia filter achieves identical inertial response to VSM for small-signal stability, but lacks transient stability benefits of swing equation emulation.
 

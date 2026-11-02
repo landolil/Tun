@@ -49,7 +49,7 @@ The key has no adjustable teeth — the sovereignty-strategy constraint is uniqu
 **Lock → Key (History validates protocol):**
 - Input: Codelco-Andacollo agreement, Candelaria $200M fund, CAP IOA communities, Escondida Peine water transfer, Dominga rejection
 - Output: Verified community veto necessity, Verified water zero-use advantage, Verified royalty distribution formula, Verified Consulta as real veto
-- Validation: Every Chilean success/failure is a protocol instance; no "unique circumstances" — only compressed sovereign-capital geometry
+- Validation: Every Chilean success/failure is a protocol instance; no unique circumstances — only compressed sovereign-capital geometry
 
 The turn completes when Tardigradia produces DFARS-qualified magnets from Chilean REE under community consent and Chilean title. That moment — when the magnet meets MIL-STD-1540 and the community receives its royalty — is the lock clicking open. The magnet *is* the key turning in the lock.
 

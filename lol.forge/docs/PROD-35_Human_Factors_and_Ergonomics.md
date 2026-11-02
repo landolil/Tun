@@ -86,7 +86,7 @@ Where weights w are calibrated per role per scenario from PROD-34 simulator data
 **The fabricator sees the HFE program as a distributed sensor network.** Every human-system interaction is a measurement. Every measurement updates HSCT. Every HSCT update adjusts HMI colors, alarm thresholds, PPE specs, clearance requirements, shift schedules.
 
 #### Participation (Witness)
-**How does the inside operator witness the phenomenon into existence?** The HFE engineer does not "design" — they **witness the human becoming the Forge's nervous system**:
+**How does the inside operator witness the phenomenon into existence?** The HFE engineer does not design — they **witness the human becoming the Forge's nervous system**:
 
 1. **Apprentice at Cold Startup (O-01 Simulator)** witnesses the 90-minute sequence through 6 monitors: they *feel* the trackball resistance as they navigate Level 1→2→3, *see* the predictive highlight on Port 4A setpoint, *know* this HMI is their sensory extension into the 2200°C drum.
 2. **Journeyman at SG-2 Flange Torque** witnesses the dual-wrench ceremony: they *feel* the 160 N·m breakaway torque through the BFRP wrench, *hear* the AE silence, *know* their tactile judgment certifies what no sensor can measure.
@@ -193,7 +193,7 @@ The Aegis-Forge I human factors and ergonomics (HFE) program is a **zero-metal, 
 
 ## 2. HFE Program Overview & Regulatory Basis
 
-### 2.1 Design Philosophy: "Embodied Cognition in Dielectric Space"
+### 2.1 Design Philosophy: Embodied Cognition in Dielectric Space
 
 The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28): **the operator does not monitor — they witness the phenomenon into existence through direct sensory-motor coupling.** This requires HFE that designs for embodiment, not observation.
 
@@ -228,8 +228,8 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 **Room Specifications:**
 - **Dimensions**: 8 m × 6 m × 3 m (L×W×H), raised floor for TSN/PTP cabling
 - **Operators**: 4 stations (FO-1, FO-2, DT-1, DT-2) in semi-circle
-- **Sightlines**: All stations → 6× 24" monitors (3×2 array) + 1× 55" overview wall display
-- **Viewing Distance**: 700-900 mm (optimal for 24" 1920×1080)
+- **Sightlines**: All stations → 6× 24 monitors (3×2 array) + 1× 55 overview wall display
+- **Viewing Distance**: 700-900 mm (optimal for 24 1920×1080)
 - **Viewing Angle**: ±35° horizontal, ±20° vertical from center
 
 **Station Layout (Each):**
@@ -336,7 +336,7 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 
 - **Primary**: Trackball + dedicated function keys (F1-F12 mapped to stages)
 - **Secondary**: Touchscreen on Monitor 6 (diagnostics only)
-- **Tertiary**: Voice commands (noise-canceling headset, "Forge: Zone 3 PID auto")
+- **Tertiary**: Voice commands (noise-canceling headset, Forge: Zone 3 PID auto)
 - **Gesture**: Leap Motion for 3D twin manipulation (Monitor 6)
 - **Authorization**: Hardware token (YubiKey) + badge for gates SG-2, SG-3, CT-04, SAT-05
 
@@ -495,7 +495,7 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 - Alarm summary: Count by priority + top 3 active (not full list)
 
 **Cognitive Offload Features:**
-- **Auto-Summary**: "Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec" (vs. raw XRF table)
+- **Auto-Summary**: Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec (vs. raw XRF table)
 - **Predictive Highlight**: Twin predicts Stage 6 Cu grade → pre-highlight Port 6B setpoint
 - **Anomaly Card**: Λ > 10 → pop-up card with: symptom, likely cause, recommended action, expert policy
 - **Gesture Filter**: Leap Motion 3D twin — pinch to zoom, swipe stage, point to annotate
@@ -504,9 +504,9 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 
 | Bias | Countermeasure |
 |------|----------------|
-| **Over-reliance on Twin** | "Twin Uncertainty" badge on every recommendation (σ from ensemble) |
+| **Over-reliance on Twin** | Twin Uncertainty badge on every recommendation (σ from ensemble) |
 | **Alarm Flood Paralysis** | ISA-18.2 chattering filter + priority-only audio + SL alarm ownership |
-| **Confirmation Bias** | Forced "devil's advocate" at SG-2, SG-3, CT-04, SAT-05: "What if wrong?" |
+| **Confirmation Bias** | Forced devil's advocate at SG-2, SG-3, CT-04, SAT-05: What if wrong? |
 | **Mode Confusion** | L0/L1/L2/L3 mode explicit on all displays (color + text + icon) |
 | **Complacency** | Surprise scenarios in simulator (PROD-34), unannounced CT-04 partial |
 
@@ -580,7 +580,7 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 | **Light Therapy** | 10,000 lux at 0600/1800 transition, blue-enriched monitors |
 | **Workload Redistribution** | SL monitors TLX via HMI, reassigns tasks if >80 |
 | **Biometric Monitoring** | Optional: wrist HRV, eyelid closure (IR camera on monitor) → fatigue alert |
-| **Shift Handover** | 30-min overlap, structured QR handover (DQR log), verbal "three concerns" |
+| **Shift Handover** | 30-min overlap, structured QR handover (DQR log), verbal three concerns |
 
 ### 11.3 Fatigue Risk Assessment (PROD-34 Training)
 
@@ -642,7 +642,7 @@ The Forge HFE philosophy derives from the El Segundo heuristic (PROD-23, PROD-28
 ```
 PLAN VIEW — CONTROL ROOM (8m × 6m)
 
-    NORTH WALL (55" Overview Display)
+    NORTH WALL (55 Overview Display)
     ┌────────────────────────────────────────────────────┐
     │                                                    │
     │   [FO-1]    [FO-2]    [DT-1]    [DT-2]            │
@@ -660,7 +660,7 @@ PLAN VIEW — CONTROL ROOM (8m × 6m)
     └────────────────────────────────────────────────────┘
     SOUTH WALL (Entry/Exit → Corridor → Z0 Safe Zone)
 
-KEY: M1-M6 = 24" Monitors (3×2 array per station)
+KEY: M1-M6 = 24 Monitors (3×2 array per station)
      All stations identical hardware, role-specific layouts
 ```
 
@@ -724,7 +724,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 ### E.1 Level 1 — Process Overview Screen (Wall Display)
 
-**Layout: 55" 4K Display (3840×2160)**
+**Layout: 55 4K Display (3840×2160)**
 
 | Region | Content | Update Rate | Interaction |
 |--------|---------|-------------|-------------|
@@ -741,7 +741,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 ### E.2 Level 2 — Stage Group Detail (Monitor 1-3)
 
-**Layout per Monitor: 24" 1920×1080, 3 panes horizontal**
+**Layout per Monitor: 24 1920×1080, 3 panes horizontal**
 
 | Pane | Stage Group | Key Parameters |
 |------|-------------|----------------|
@@ -757,7 +757,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 ### E.3 Level 3 — Zone RTU Detail (Monitor 4)
 
-**Layout: 24" 1920×1080, 4 quadrants**
+**Layout: 24 1920×1080, 4 quadrants**
 
 | Quadrant | Content | Source |
 |----------|---------|--------|
@@ -768,7 +768,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 ### E.4 Level 4 — Diagnostic/Configuration (Monitor 6)
 
-**Layout: 24" 1920×1080, Tabbed Interface**
+**Layout: 24 1920×1080, Tabbed Interface**
 
 | Tab | Content | Update |
 |-----|---------|--------|
@@ -842,9 +842,9 @@ FORGE BAY SAFETY ZONES (Plan View)
 
 | Bias | HMI Implementation | Training Implementation |
 |------|-------------------|------------------------|
-| **Over-reliance on Twin** | Every twin recommendation shows uncertainty badge: "Twin σ = ±12°C" (ensemble std dev) | Simulator: "Twin Wrong" scenarios where ML prediction diverges from physics |
+| **Over-reliance on Twin** | Every twin recommendation shows uncertainty badge: Twin σ = ±12°C (ensemble std dev) | Simulator: Twin Wrong scenarios where ML prediction diverges from physics |
 | **Alarm Flood Paralysis** | ISA-18.2 chattering filter (3 alarms/10s same source → suppress), Priority-only audio (P1 only) | PROD-34: Alarm flood scenarios, SL owns alarm response |
-| **Confirmation Bias** | Forced "What if wrong?" prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) | Oral board: devil's advocate role played by Safety Engineer |
+| **Confirmation Bias** | Forced What if wrong? prompt at SG-2, SG-3, CT-04, SAT-05 (cannot proceed without entry) | Oral board: devil's advocate role played by Safety Engineer |
 | **Mode Confusion** | L0/L1/L2/L3 mode explicit: color ring (Blue/Green/Amber/Red) + text + icon on every display | Simulator: mode transition scenarios, explicit mode callouts |
 | **Complacency** | Surprise scenarios (unannounced CT-04 partial, FBG drift injection, Carrington trigger) | PROD-34: 50+ scenarios, 20% surprise, expert policy comparison |
 
@@ -853,7 +853,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 **SL Real-Time Workload Monitor (HMI Monitor 4):**
 - TLX estimate per operator (TLX_predicted from HSCT)
 - Color coding: Green <60, Amber 60-80, Red >80
-- Auto-suggestion: "FO-1 TLX 82 → reassign Zone 5 MFC to FO-2"
+- Auto-suggestion: FO-1 TLX 82 → reassign Zone 5 MFC to FO-2
 - SL acknowledgment required for redistribution
 
 ---
@@ -949,7 +949,7 @@ FORGE BAY SAFETY ZONES (Plan View)
 ### I.5 Egress Validation (PROD-29)
 
 **Monthly Unannounced Drill Protocol:**
-- Trigger: SL activates "Egress Drill" via HMI (logged, timestamped)
+- Trigger: SL activates Egress Drill via HMI (logged, timestamped)
 - Measurement: Time from drill start to all personnel at Z0 safe zone
 - Routes: Primary + secondary from each zone tested quarterly
 - Pass Criteria: All personnel <30 sec (Z4), <45 sec (Z6), headcount 100% at Z0

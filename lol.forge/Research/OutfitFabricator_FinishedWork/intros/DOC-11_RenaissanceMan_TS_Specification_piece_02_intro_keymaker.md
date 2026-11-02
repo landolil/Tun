@@ -44,7 +44,7 @@ The key has no adjustable teeth — the developable surface is unique, determini
 **Lock → Key (History validates theory):**
 - Input: Alcega 1580 layouts, Garsault 1769 proportions, Historical pleating manuals
 - Output: Verified developable surface decomposition, Verified curvature sampling, Verified ruled surface kernel
-- Validation: Every historical pattern is a theorem instance; no "lost knowledge" — only compressed geometry
+- Validation: Every historical pattern is a theorem instance; no lost knowledge — only compressed geometry
 
 The turn completes when the fabricator cuts the pattern and the garment assembles *without fitting adjustments*. That moment — when 2D develops into 3D exactly as the surface dictated — is the lock clicking open. The garment *is* the key turning in the lock.
 

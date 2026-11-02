@@ -16,10 +16,10 @@ For conflations involving **mineral rights, concession boundaries, or ownership 
 
 ```python
 def build_exhibit_a(claim):
-    """
+    
     Source: Sernageomin Catastro Minero (catastro.sernageomin.cl)
     Verification: Title search + boundary survey + overlap check
-    """
+    
     return Exhibit(
         type='A',
         source='Sernageomin Registry',
@@ -44,13 +44,13 @@ For conflations involving **Indigenous consent, community agreements, or FBC/CDC
 
 ```python
 def build_exhibit_b(claim):
-    """
+    
     Sources: 
     1. CONADI Registro de Consultas (consultas.conadi.cl)
     2. FBC/CDC Charter (Escritura Pública, Notaría)
     3. Blockchain Anchor (heat/lot ledger)
     Verification: Consulta completed per Law 19.253 Art. 34 + charters notarized + blockchain-anchored
-    """
+    
     return Exhibit(
         type='B',
         sources=['CONADI Registry', 'Notarized FBC/CDC Charters', 'Blockchain Anchor'],
@@ -76,10 +76,10 @@ For conflations involving **environmental permits, RCA conditions, CRMA designat
 
 ```python
 def build_exhibit_c(claim):
-    """
+    
     Source: SEA Sistema de Evaluación de Impacto Ambiental (seia.sea.gob.cl)
     Verification: RCA Resolution number + CRMA designation + observations resolved
-    """
+    
     return Exhibit(
         type='C',
         source='SEA SEIA Portal',
@@ -105,13 +105,13 @@ For conflations involving **offtake volumes, pricing, DFARS certification, or ma
 
 ```python
 def build_exhibit_d(claim):
-    """
+    
     Sources:
     1. CSM Offtake Agreement (SPA Chile + SPA US Holdco)
     2. DFARS 252.225-7018 Certification
     3. Blockchain Heat/Lot Certificate
     Verification: Executed SPA + DFARS cert + blockchain traceability
-    """
+    
     return Exhibit(
         type='D',
         sources=['CSM SPA', 'DFARS Certification', 'Blockchain Heat/Lot Cert'],
@@ -137,13 +137,13 @@ For conflations involving **dispute resolution, governing law, arbitration, or e
 
 ```python
 def build_exhibit_e(claim):
-    """
+    
     Sources:
     1. Brokerage Protocol Dispute Clause (DOC-04 Ch. 6)
     2. Chilean Arbitration Law (Law 19.971)
     3. ICC Rules (if international)
     Verification: Governing law + seat + language + New York Convention enforceability
-    """
+    
     return Exhibit(
         type='E',
         sources=['Brokerage Protocol', 'Law 19.971', 'ICC Rules', 'NY Convention'],
@@ -172,27 +172,27 @@ Per DOC-13 Ch. 5.3, the Baker Street deduction applies **three elimination passe
 
 ```python
 def pass1_legal_elimination(conflict):
-    """
+    
     Eliminate claims that violate constitutional, treaty, or statutory law.
-    """
+    
     eliminations = []
     
     for claim in [conflict.claim_a, conflict.claim_b]:
         # Constitutional impossibilities
         if violates_chile_constitution(claim):
-            eliminations.append((claim, "Violates Constitution Art. 19§24"))
+            eliminations.append((claim, Violates Constitution Art. 19§24))
         
         # Treaty impossibilities
         if violates_cptpp(claim) or violates_chile_us_fta(claim):
-            eliminations.append((claim, "Violates CPTPP/Chile-US FTA"))
+            eliminations.append((claim, Violates CPTPP/Chile-US FTA))
         
         # Statutory impossibilities
         if violates_mining_code(claim) or violates_env_law(claim) or violates_indigenous_law(claim):
-            eliminations.append((claim, "Violates Chilean statutory law"))
+            eliminations.append((claim, Violates Chilean statutory law))
         
         # DFARS impossibilities
         if claim.requires_dfars and not claim.dfars_compliant:
-            eliminations.append((claim, "Fails DFARS 252.225-7018"))
+            eliminations.append((claim, Fails DFARS 252.225-7018))
     
     return eliminations
 ```
@@ -209,23 +209,23 @@ def pass1_legal_elimination(conflict):
 
 ```python
 def pass2_economic_elimination(conflict):
-    """
+    
     Eliminate claims that are economically non-viable under pipeline constraints.
-    """
+    
     eliminations = []
     
     for claim in [conflict.claim_a, conflict.claim_b]:
         # Capital stack impossibilities
         if claim.requires_single_source_funding > 500e6:
-            eliminations.append((claim, "No single source >$500M for Chile risk"))
+            eliminations.append((claim, No single source >$500M for Chile risk))
         
         # Offtake economics
         if claim.offtake_price < claim.min_viable_price:
-            eliminations.append((claim, "Below minimum viable price (CAPEX+OPEX+IRR)"))
+            eliminations.append((claim, Below minimum viable price (CAPEX+OPEX+IRR)))
         
         # Insurance gaps
         if claim.requires_uninsurable_risk:
-            eliminations.append((claim, "Uninsurable risk (no Layer 1-7 coverage)"))
+            eliminations.append((claim, Uninsurable risk (no Layer 1-7 coverage)))
     
     return eliminations
 ```
@@ -241,23 +241,23 @@ def pass2_economic_elimination(conflict):
 
 ```python
 def pass3_technical_elimination(conflict):
-    """
+    
     Eliminate claims that violate physics, engineering limits, or verified standards.
-    """
+    
     eliminations = []
     
     for claim in [conflict.claim_a, conflict.claim_b]:
         # Physics impossibilities
         if claim.requires_physics_violation:
-            eliminations.append((claim, "Violates Maxwell-Faraday / thermodynamics"))
+            eliminations.append((claim, Violates Maxwell-Faraday / thermodynamics))
         
         # Engineering limits
         if claim.exceeds_verified_limits:
-            eliminations.append((claim, "Exceeds verified engineering limits"))
+            eliminations.append((claim, Exceeds verified engineering limits))
         
         # Standard compliance
         if claim.cites_standard and not standard_supports_claim(claim.standard, claim):
-            eliminations.append((claim, f"Standard {claim.standard} does not support claim"))
+            eliminations.append((claim, fStandard {claim.standard} does not support claim))
     
     return eliminations
 ```
@@ -283,13 +283,13 @@ class DeductionResult:
     
     def __str__(self):
         if self.remaining == 'A':
-            return f"Claim A stands. Claim B eliminated: {', '.join(self.claim_b_eliminated)}"
+            return fClaim A stands. Claim B eliminated: {', '.join(self.claim_b_eliminated)}
         elif self.remaining == 'B':
-            return f"Claim B stands. Claim A eliminated: {', '.join(self.claim_a_eliminated)}"
+            return fClaim B stands. Claim A eliminated: {', '.join(self.claim_a_eliminated)}
         elif self.remaining == 'SYNTHESIZED':
-            return f"Synthesized: {self.synthesis}. A eliminated: {self.claim_a_eliminated}. B eliminated: {self.claim_b_eliminated}"
+            return fSynthesized: {self.synthesis}. A eliminated: {self.claim_a_eliminated}. B eliminated: {self.claim_b_eliminated}
         else:
-            return f"Both eliminated. Gap identified: {self.synthesis}"
+            return fBoth eliminated. Gap identified: {self.synthesis}
 ```
 
 **Baker Street Voice**: *Eliminate the impossible. Whatever remains — however improbable — is the truth. The synthesis is the truth that accommodates all verified evidence.*
@@ -304,9 +304,9 @@ For every conflation, the evidence chain must satisfy:
 
 ```python
 def verify_evidence_chain_integrity(conflict):
-    """
+    
     Formal integrity check for Baker Street evidence chains.
-    """
+    
     checks = {
         'exhibits_complete': all(e in conflict.evidence_a.exhibits for e in 'ABCDE') and
                              all(e in conflict.evidence_b.exhibits for e in 'ABCDE'),
@@ -326,9 +326,9 @@ def verify_evidence_chain_integrity(conflict):
 
 ```python
 def zero_ambiguity_test(text):
-    """
+    
     Scan for forbidden linguistic patterns in claim text.
-    """
+    
     forbidden_patterns = [
         r'\ballegedly\b', r'\breportedly\b', r'\bbelieved\b', r'\bsuggested\b',
         r'\blikely\b', r'\bprobable\b', r'\bpossible\b', r'\bpotential\b',

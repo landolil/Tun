@@ -26,23 +26,23 @@
 
 ```json
 {
-  "batch_id": "BATCH-20261101-03",
-  "target_mass_kg": 500,
-  "available_feedstocks": [
-    {"lot_id": "FLR-20261101-047", "category": "A2", "mass_kg": 22500, "assay": {"Cu": 24.5, "Au": 0.032, "Ag": 0.18, "Pd": 0.015}, "cost_per_kg": 1.85},
-    {"lot_id": "FLR-20261101-048", "category": "B1", "mass_kg": 50000, "assay": {"Al": 8.5, "Fe": 12.0, "polymers": 35}, "cost_per_kg": -0.02},
-    {"lot_id": "FLR-20261101-049", "category": "C1", "mass_kg": 100000, "assay": {"Fe": 28.0, "Mn": 6.0, "TiO2": 1.2}, "cost_per_kg": 0.025},
-    {"lot_id": "FLR-20261101-050", "category": "D1", "mass_kg": 5000, "assay": {"Zr": 12.0, "In": 0.004, "Y": 0.0027, "Co": 0.084}, "cost_per_kg": 0.03}
+  batch_id: BATCH-20261101-03,
+  target_mass_kg: 500,
+  available_feedstocks: [
+    {lot_id: FLR-20261101-047, category: A2, mass_kg: 22500, assay: {Cu: 24.5, Au: 0.032, Ag: 0.18, Pd: 0.015}, cost_per_kg: 1.85},
+    {lot_id: FLR-20261101-048, category: B1, mass_kg: 50000, assay: {Al: 8.5, Fe: 12.0, polymers: 35}, cost_per_kg: -0.02},
+    {lot_id: FLR-20261101-049, category: C1, mass_kg: 100000, assay: {Fe: 28.0, Mn: 6.0, TiO2: 1.2}, cost_per_kg: 0.025},
+    {lot_id: FLR-20261101-050, category: D1, mass_kg: 5000, assay: {Zr: 12.0, In: 0.004, Y: 0.0027, Co: 0.084}, cost_per_kg: 0.03}
   ],
-  "constraints": {
-    "stage2_polymer_volume_L": 50,
-    "stage5_Al_mass_kg": 100,
-    "stage7_Fe_mass_kg": 175,
-    "stage8_mineral_mass_kg": 200,
-    "moisture_pct": 25,
-    "particle_P80_mm": 150
+  constraints: {
+    stage2_polymer_volume_L: 50,
+    stage5_Al_mass_kg: 100,
+    stage7_Fe_mass_kg: 175,
+    stage8_mineral_mass_kg: 200,
+    moisture_pct: 25,
+    particle_P80_mm: 150
   },
-  "market_prices": {"Au": 95000, "Ag": 1200, "Pd": 65000, "Cu": 9.50, "Al": 2.30, "In": 320, "Nd": 70, "Dy": 400, "Co": 35}
+  market_prices: {Au: 95000, Ag: 1200, Pd: 65000, Cu: 9.50, Al: 2.30, In: 320, Nd: 70, Dy: 400, Co: 35}
 }
 ```
 

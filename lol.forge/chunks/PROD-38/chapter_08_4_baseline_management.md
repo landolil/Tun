@@ -17,40 +17,40 @@ Every configuration item carries a **Configuration UUID (CUUID)** linking all fo
 
 ```json
 {
-  "cuuid": "CI-02-01-DRUM-2026-00042",
-  "ci_type": "CI-02-01",
-  "description": "Drum Assembly, Forge-003, Liner B ZrB₂-SiC",
-  "baselines": {
-    "as_designed": {
-      "tag": "design-v3.2.1",
-      "spec": "PROD-04 rev 3.2.1",
-      "drawing": "DRW-DRUM-042 rev C"
+  cuuid: CI-02-01-DRUM-2026-00042,
+  ci_type: CI-02-01,
+  description: Drum Assembly, Forge-003, Liner B ZrB₂-SiC,
+  baselines: {
+    as_designed: {
+      tag: design-v3.2.1,
+      spec: PROD-04 rev 3.2.1,
+      drawing: DRW-DRUM-042 rev C
     },
-    "as_built": {
-      "tag": "build-v3.2.0",
-      "serial": "DRM-2026-00042",
-      "fat_data": "CT-01 through CT-10 passed 2026-10-15",
-      "material_certs": ["BATCH-ZRB2-2026-087", "BATCH-SIC-2026-112"]
+    as_built: {
+      tag: build-v3.2.0,
+      serial: DRM-2026-00042,
+      fat_data: CT-01 through CT-10 passed 2026-10-15,
+      material_certs: [BATCH-ZRB2-2026-087, BATCH-SIC-2026-112]
     },
-    "as_maintained": {
-      "tag": "maintain-v3.2.1",
-      "last_pm": "CT-08 2026-11-01 (2000 hr reline)",
-      "modifications": ["ECO-1042: Liner B thickness +2mm"],
-      "spare_status": "Spare DRM-2026-00043 staged"
+    as_maintained: {
+      tag: maintain-v3.2.1,
+      last_pm: CT-08 2026-11-01 (2000 hr reline),
+      modifications: [ECO-1042: Liner B thickness +2mm],
+      spare_status: Spare DRM-2026-00043 staged
     },
-    "as_operated": {
-      "tag": "operate-v3.2.2",
-      "current_recipe": "CAT-B-2026-11 v2.1",
-      "twin_state": "merkle_root a3f2... block 142857",
-      "operator_certs": ["OP-2026-042", "OP-2026-088"]
+    as_operated: {
+      tag: operate-v3.2.2,
+      current_recipe: CAT-B-2026-11 v2.1,
+      twin_state: merkle_root a3f2... block 142857,
+      operator_certs: [OP-2026-042, OP-2026-088]
     }
   },
-  "lifecycle": {
-    "created": "2026-06-15",
-    "manufactured": "2026-10-01",
-    "deployed": "2026-10-20",
-    "next_pm": "2027-04-01",
-    "phoenix_return_est": "2031-10-20"
+  lifecycle: {
+    created: 2026-06-15,
+    manufactured: 2026-10-01,
+    deployed: 2026-10-20,
+    next_pm: 2027-04-01,
+    phoenix_return_est: 2031-10-20
   }
 }
 ```

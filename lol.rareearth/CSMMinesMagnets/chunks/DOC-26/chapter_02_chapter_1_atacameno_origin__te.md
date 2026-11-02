@@ -86,13 +86,13 @@ Fiscal Oversight: **Contraloría General de la República** (public funds)
 ```
 Water Classification (Atacameño Epistemology):
 
-1. **Puri (Freshwater — "Living Water")**:
+1. **Puri (Freshwater — Living Water)**:
    - Source: Andean snowmelt, high-altitude wetlands (vegas), springs
    - Use: Human consumption, agriculture, ceremonies, camelid watering
    - **Status: SACRED — NON-NEGOTIABLE — COMMUNITY VETO ABSOLUTE**
    - Aegis-Forge Constraint: **Zero extraction, zero contamination, zero diversion**
 
-2. **Llipi (Brine — "Mineral Water")**:
+2. **Llipi (Brine — Mineral Water)**:
    - Source: Salar de Atacama subsurface brine (Li, K, Mg, B, REE)
    - Use: Industrial (lithium, potassium, REE extraction)
    - **Status: NEGOTIABLE — SUBJECT TO CPA + HYDROLOGICAL MONITORING**
@@ -105,8 +105,8 @@ Water Classification (Atacameño Epistemology):
    - Aegis-Forge Constraint: **Zero drawdown, zero chemical discharge, buffer zones ≥5km**
 
 Cosmological Principle:
-"Puri es la sangre de la Pachamama. Llipi es su memoria mineral.
-Donde se mezclan, nace la vida. Donde se rompen, muere el territorio."
+Puri es la sangre de la Pachamama. Llipi es su memoria mineral.
+Donde se mezclan, nace la vida. Donde se rompen, muere el territorio.
 ```
 
 #### 1.3.2 Hydrological Baseline (Salar de Atacama Basin)

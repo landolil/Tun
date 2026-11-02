@@ -34,7 +34,7 @@ Porphyry skarn magnetite differs from IOCG/IOA magnetite:
 | El Teniente | 10-40 | 20-30% | 2.5-3.5% | 2.1% | 78.9 |
 | Collahuasi | 15-50 | 6-10% | 0.6-1.0% | 1.0% | 86.3 |
 
-Conventional LIMS cannot separate magnetite from pyrrhotite (both ferrimagnetic at room temp). Current practice: Magnetic concentrate sold as "magnetite byproduct" at 55-62% Fe, 1-3% S — discounted to cement/coal wash plants. True magnetite value (68% Fe, <0.1% S) unrealized.
+Conventional LIMS cannot separate magnetite from pyrrhotite (both ferrimagnetic at room temp). Current practice: Magnetic concentrate sold as magnetite byproduct at 55-62% Fe, 1-3% S — discounted to cement/coal wash plants. True magnetite value (68% Fe, <0.1% S) unrealized.
 
 ### 4.3 Aegis-Forge Thermal Cascade — Selective Separation Solution
 

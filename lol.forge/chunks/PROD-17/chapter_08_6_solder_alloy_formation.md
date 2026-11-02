@@ -2,7 +2,7 @@
 
 ### 6.1 Pb/Sn Eutectic (63/37) — Primary Solder Product
 
-The Sn-Pb binary system exhibits a eutectic at 183°C with 61.9% Sn / 38.1% Pb by weight. Commercial "63/37" solder (63% Sn / 37% Pb) is hypereutectic but preferred for its sharp melting point and bright finish.
+The Sn-Pb binary system exhibits a eutectic at 183°C with 61.9% Sn / 38.1% Pb by weight. Commercial 63/37 solder (63% Sn / 37% Pb) is hypereutectic but preferred for its sharp melting point and bright finish.
 
 **Phase Diagram Parameters:**
 - Eutectic: 183°C, 61.9% Sn

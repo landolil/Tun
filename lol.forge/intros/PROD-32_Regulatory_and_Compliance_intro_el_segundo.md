@@ -13,7 +13,7 @@ The PROD-37 Digital Twin maintains a **four-layer compliance mirror**:
 | **Facility Twin** | 1 Hz | Permit deadlines, inspection schedules, training currency, MOC log | Administrative compliance calendar |
 | **Fleet Twin** | 1 Hz | Multi-Forge permit status, common-cause findings, regulatory changes | Fleet-wide compliance optimization |
 
-**The Mirror Protocol:** Every 90-minute batch, the Batch Twin computes `Actual_Emissions - Permit_Limit` and `Actual_SIF_Performance - SIL-3_Target`. Variance >10% of limit triggers auto-NCR (PROD-28) → CAPA → REO parameter update. The compliance model **rewrites its own evidence packages** based on operating data. The Williams "Constraint" (zero-metal physics) is immutable. The Keymaker "Key" (REO operator) is immutable. But the El Segundo "Protocol" (evidence values) is **continuously calibrated**.
+**The Mirror Protocol:** Every 90-minute batch, the Batch Twin computes `Actual_Emissions - Permit_Limit` and `Actual_SIF_Performance - SIL-3_Target`. Variance >10% of limit triggers auto-NCR (PROD-28) → CAPA → REO parameter update. The compliance model **rewrites its own evidence packages** based on operating data. The Williams Constraint (zero-metal physics) is immutable. The Keymaker Key (REO operator) is immutable. But the El Segundo Protocol (evidence values) is **continuously calibrated**.
 
 The compliance system also mirrors its own **fabrication evidence** through the Hyperledger Fabric blockchain (PROD-28). Every vessel hydrotest, drum CT scan, SIF proof test, seismic shake table run carries its actual test data (not just pass/fail) in its QR-coded birth record. The compliance evidence in Section 5, 6, 13 is not a static snapshot — it is the **sum of actuals from the first 3 Forges (FA-01/02/03)**. The compliance system observes its own fabrication through the same traceability chain that tracks In from mine to anode slime.
 
@@ -23,7 +23,7 @@ How does the inside operator witness the compliance phenomenon into existence? A
 
 1. **GATE PERMIT-ISSUE (Title V Issuance):** The Plant Manager + Environmental Director dual-sign the Title V compliance certification. The CEMS data is not the witness — the **mutual verification of continuous emissions data against permit limits, with the Plant Manager physically reviewing the RATA report** is. The certification is not a form — it is a witnessed fact.
 
-2. **GATE PSM-PSSR (Pre-Startup Safety Review):** The PSSR Team (Ops, Safety, Eng, Maint, Env) walks the Forge with the P&ID. The checklist is not the witness — the **operators pointing at the N₂ purge connection, the H₂ detector, the rupture disk, the SIF trip button, saying "this is where it trips, this is where we run"** is. The PSSR is not a document — it is a witnessed walkdown.
+2. **GATE PSM-PSSR (Pre-Startup Safety Review):** The PSSR Team (Ops, Safety, Eng, Maint, Env) walks the Forge with the P&ID. The checklist is not the witness — the **operators pointing at the N₂ purge connection, the H₂ detector, the rupture disk, the SIF trip button, saying this is where it trips, this is where we run** is. The PSSR is not a document — it is a witnessed walkdown.
 
 3. **GATE SIF-PROOF (CT-04 Annual):** The SIS Engineer + Safety Engineer + Shift Lead witness the 24 SIF injection tests. The trip time printout is not the witness — the **SIS Engineer injecting the signal, the Shift Lead seeing the inverter gate drive go dark, the Safety Engineer verifying the 2oo3 vote** is. The SIL-3 certification is not a certificate — it is a witnessed test.
 

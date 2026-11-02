@@ -116,7 +116,7 @@ CROSS-BORDER LEGAL ARCHITECTURE
 | **ICSID Convention** | Investment dispute arbitration | ICSID | Chile 1991; US 1966 |
 
 **CPTPP Investment Chapter (Art 9) — Key for Tardigradia:**
-- Applies to "covered investments" (includes mining concessions, SpA shares)
+- Applies to covered investments (includes mining concessions, SpA shares)
 - Fair & Equitable Treatment (FET) standard
 - Protection against indirect expropriation
 - Performance requirement prohibitions (local content, technology transfer)

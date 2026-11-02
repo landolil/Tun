@@ -27,6 +27,6 @@
 | **Traditional Knowledge Protection** | Norche/Machi control over TK database | **TK database owned by Butalmapu, access logged** |
 | **Benefit Sharing** | Monetary + non-monetary (capacity, tech transfer) | PTI fellowships, nursery network, seed sovereignty |
 
-**Pehuenche Collective Trademark**: **"Pewén Pehuenche™"** — **registered INPI Chile, Madrid Protocol international** — **only Butalmapu-authorized products**.
+**Pehuenche Collective Trademark**: **Pewén Pehuenche™** — **registered INPI Chile, Madrid Protocol international** — **only Butalmapu-authorized products**.
 
 ---

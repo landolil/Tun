@@ -909,7 +909,7 @@ EMERGENCY
 | **Customs (DNA)** | Valuation, origin, HS codes (2846.xx) | **Standard** | **Green lane REE (target 2025)** |
 | **Port State Control (DGTM)** | SOLAS, MARPOL, ISPS, STCW | **Regular inspections** | **Specialized REE inspectors needed** |
 
-### 2.3.2 Certification Roadmap — Antofagasta as "REE Port of Reference"
+### 2.3.2 Certification Roadmap — Antofagasta as REE Port of Reference
 
 | Milestone | Target | Owner | Investment |
 |-----------|--------|-------|------------|
@@ -1125,13 +1125,13 @@ grep -c -E 'Law 19\.253|Law 20\.249|Law 21\.435|Law 21\.327|Law 21\.210|Law 20\.
 **Encuesta Percepción Hídrica (Municipalidad 2023, n=2,400)**:
 | Indicator | Overall | La Chimba | Coloso/Norte | Migrants |
 |-----------|---------|-----------|--------------|----------|
-| **"Water is scarce" (Agree)** | 78% | **92%** | 58% | 85% |
-| **"Tariff is fair" (Agree)** | 34% | **12%** | 58% | 18% |
-| **"Trust water quality" (Agree)** | 65% | 42% | 88% | 38% |
-| **"Priority: human consumption" (Agree)** | 94% | 98% | 89% | 96% |
-| **"Mining uses too much water" (Agree)** | 67% | 78% | 52% | 72% |
+| **Water is scarce (Agree)** | 78% | **92%** | 58% | 85% |
+| **Tariff is fair (Agree)** | 34% | **12%** | 58% | 18% |
+| **Trust water quality (Agree)** | 65% | 42% | 88% | 38% |
+| **Priority: human consumption (Agree)** | 94% | 98% | 89% | 96% |
+| **Mining uses too much water (Agree)** | 67% | 78% | 52% | 72% |
 
-**Key Finding**: **Scarcity perception ≠ physical scarcity** — Antofagasta has **secure desal supply** but **distributional injustice** drives perception. **Migrants and campamento residents experience "manufactured scarcity"** via tariff and infrastructure gaps.
+**Key Finding**: **Scarcity perception ≠ physical scarcity** — Antofagasta has **secure desal supply** but **distributional injustice** drives perception. **Migrants and campamento residents experience manufactured scarcity** via tariff and infrastructure gaps.
 
 ---
 
@@ -1141,7 +1141,7 @@ grep -c -E 'Law 19\.253|Law 20\.249|Law 21\.435|Law 21\.327|Law 21\.210|Law 20\.
 
 | Dimension | Specification |
 |-----------|---------------|
-| **Legal Recognition** | **Law 20.249 (2008)** — "Pueblo Chango" distinct from Atacameño |
+| **Legal Recognition** | **Law 20.249 (2008)** — Pueblo Chango distinct from Atacameño |
 | **Population (Antofagasta Commune)** | **12,200** (3.0% commune, 28% of national Chango) |
 | **Territorial Units** | **8 Caletas (coves)** + **3 Barrios Urbanos** (La Chimba Costa, Coloso Norte, Centro Histórico) |
 | **Caletas (North to South)**: | **Mejillones, Hornitos, Punta Itata, Caleta Buena, Caleta Coloso, Caleta Constitución, Caleta El Cobre, Caleta Huanillo** |
@@ -2069,7 +2069,7 @@ COMPOSITE P(UNREST) = **0.72 (Very High)** — **Expected 3.6 events/5yr**
 | **Fog (Camanchaca) Days** | 120/yr | 75/yr | **-38%** | **Water harvesting, ecosystem, culture** |
 | **Sea Level Rise** | 0 cm | 22 cm | +22 cm | **Port infrastructure, coastal erosion, salinity** |
 
-**Compound Event: "Atacama Coastal Squeeze" — Heat Wave + Flash Flood + Fog Loss**:
+**Compound Event: Atacama Coastal Squeeze — Heat Wave + Flash Flood + Fog Loss**:
 - **Frequency**: Current 1/100 yr → 2050 **1/20 yr**
 - **Sequence**: 10-day heat wave (35°C+) → intense rainfall (25mm/2hr) on impermeable soil → debris flows destroy campamentos in quebradas → fog decline prevents natural recovery
 - **Antofagasta Vulnerability**: **La Chimba quebradas (19 campamentos), port infrastructure at sea level, desal intakes at risk**
@@ -2520,14 +2520,14 @@ python3 scripts/conflation_audit.py \
 **Expected Result**:
 ```json
 {
-  "doc": "DOC-32",
-  "comparisons": {
-    "DOC-08": {"similarity": 0.09, "status": "PASS", "notes": "Systems cited as sources, communal governance layer added"},
-    "DOC-16": {"similarity": 0.13, "status": "PASS", "notes": "Regional disaggregated to communal, urban-specific data added"},
-    "DOC-26": {"similarity": 0.11, "status": "PASS", "notes": "Same Chango people, urban/coastal extension with operational consent protocol"},
-    "DOC-31": {"similarity": 0.07, "status": "PASS", "notes": "Producer-gateway relationship, complementary not overlapping"}
+  doc: DOC-32,
+  comparisons: {
+    DOC-08: {similarity: 0.09, status: PASS, notes: Systems cited as sources, communal governance layer added},
+    DOC-16: {similarity: 0.13, status: PASS, notes: Regional disaggregated to communal, urban-specific data added},
+    DOC-26: {similarity: 0.11, status: PASS, notes: Same Chango people, urban/coastal extension with operational consent protocol},
+    DOC-31: {similarity: 0.07, status: PASS, notes: Producer-gateway relationship, complementary not overlapping}
   },
-  "overall": "PASS — Zero conflation verified"
+  overall: PASS — Zero conflation verified
 }
 ```
 
@@ -2589,7 +2589,7 @@ bash scripts/generate_heuristic_intros.sh FinishedWork/DOC-32_Community_Antofaga
 
 # 10. Git Commit & Tag
 git add FinishedWork/DOC-32_Community_Antofagasta.md.gz chunks/DOC-32/ FinishedWork/intros/DOC-32_*
-git commit -m "lol.forge: DOC-32 Antofagasta Port City — 4,800+ lines, 150+ formulas, 720+ cross-refs, 45+ standards, zero conflation"
+git commit -m lol.forge: DOC-32 Antofagasta Port City — 4,800+ lines, 150+ formulas, 720+ cross-refs, 45+ standards, zero conflation
 git tag runner-017g-complete
 git push origin runner-017g-complete
 ```

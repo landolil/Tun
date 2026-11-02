@@ -56,7 +56,7 @@ The operator IS the model — the drum material produced by these parameters run
 ### El Segundo: The Operational Protocol
 
 **Mirror — Four Self-Observations:**
-1. **Depot LIBS (Gate 0):** Product speaks its composition — "I am Embark panel, Gen 3, 4.2% In, 1.8% Y, 0.9% Co, 12% ZrB₂-SiC"
+1. **Depot LIBS (Gate 0):** Product speaks its composition — I am Embark panel, Gen 3, 4.2% In, 1.8% Y, 0.9% Co, 12% ZrB₂-SiC
 2. **Forge Gates (1-8):** Blend verified in real-time — SCADA corrects MFCs to hit Γ_stage targets
 3. **Drum FBG/AE:** Drum writes its own biography in thermal cycles and micro-cracks — self-segregates at retirement
 4. **Blockchain Ledger:** Immutable genealogy of every atom — perfect memory from mine to return

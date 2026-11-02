@@ -88,7 +88,7 @@ For a hypothetical Aegis-Forge unit processing 500 kg/cycle REE concentrate (18,
 - Total royalty per unit: ~$60,000/yr
 - 10-unit cluster: $600,000/yr to host commune (65% of $600k x weight)
 
-This is MARGINAL to existing copper royalties -- a new fiscal stream from REE processing that did not exist before Aegis-Forge deployment. Tardigradia can quantify this as "new money for the community" in negotiations.
+This is MARGINAL to existing copper royalties -- a new fiscal stream from REE processing that did not exist before Aegis-Forge deployment. Tardigradia can quantify this as new money for the community in negotiations.
 
 ### 1.6 Traceability Matrix -- Chapter 1
 

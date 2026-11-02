@@ -76,7 +76,7 @@ TOTAL URINARY AS PREDICTED: **38–52 μg/g creat** (matches measured 42 μg/g)
 1. **Shift Rotation (7×7, 14×14)**: 68% report sleep disruption, family strain
 2. **Automation Anxiety**: 52% fear job displacement in 10 years
 3. **Contractor Insecurity**: 78% contractor workers — no stability, no career
-4. **Environmental Guilt**: 34% — "mining destroys our land/water"
+4. **Environmental Guilt**: 34% — mining destroys our land/water
 5. **Isolation**: 41% — campamento life, far from family (migrants especially)
 
 **Codelco Mental Health Investment (2024)**: **US$4.2M/yr** — **0.8% of health budget** — **target 3% by 2027**

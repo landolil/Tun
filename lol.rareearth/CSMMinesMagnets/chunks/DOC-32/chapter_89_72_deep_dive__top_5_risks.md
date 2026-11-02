@@ -86,7 +86,7 @@ COMPOSITE P(UNREST) = **0.72 (Very High)** — **Expected 3.6 events/5yr**
 | **Fog (Camanchaca) Days** | 120/yr | 75/yr | **-38%** | **Water harvesting, ecosystem, culture** |
 | **Sea Level Rise** | 0 cm | 22 cm | +22 cm | **Port infrastructure, coastal erosion, salinity** |
 
-**Compound Event: "Atacama Coastal Squeeze" — Heat Wave + Flash Flood + Fog Loss**:
+**Compound Event: Atacama Coastal Squeeze — Heat Wave + Flash Flood + Fog Loss**:
 - **Frequency**: Current 1/100 yr → 2050 **1/20 yr**
 - **Sequence**: 10-day heat wave (35°C+) → intense rainfall (25mm/2hr) on impermeable soil → debris flows destroy campamentos in quebradas → fog decline prevents natural recovery
 - **Antofagasta Vulnerability**: **La Chimba quebradas (19 campamentos), port infrastructure at sea level, desal intakes at risk**

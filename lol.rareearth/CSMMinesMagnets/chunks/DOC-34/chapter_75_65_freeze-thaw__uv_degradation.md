@@ -33,7 +33,7 @@ MONITORING (Continuous):
 ├── Crack gauges (50 key structures) — Monthly reading
 ├── Embedded moisture sensors (10 structures) — 15-min data
 ├── Thermal cameras (drone, quarterly) — Delamination detection
-└── Kimün reading (elders, quarterly) — "The walls speak"
+└── Kimün reading (elders, quarterly) — The walls speak
 ```
 
 ---

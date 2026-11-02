@@ -20,40 +20,40 @@ Every firmware release produces a **Signed Firmware Package (SFP)**:
 
 ```json
 {
-  "package": "sfp-rtu-v3.0.1.tar.gz.sig",
-  "component": "CI-03-02",
-  "version": "rtu-v3.0.1",
-  "git_commit": "a1b2c3d4e5f6...",
-  "git_tag": "rtu-v3.0.1",
-  "builder": "CI-CD Pipeline (SLSA Level 3)",
-  "build_timestamp": "2026-11-03T10:45:00Z",
-  "sbom": "sbom-rtu-v3.0.1.cyclonedx.json",
-  "in_toto": "in-toto-link-rtu-v3.0.1.json",
-  "signatures": [
+  package: sfp-rtu-v3.0.1.tar.gz.sig,
+  component: CI-03-02,
+  version: rtu-v3.0.1,
+  git_commit: a1b2c3d4e5f6...,
+  git_tag: rtu-v3.0.1,
+  builder: CI-CD Pipeline (SLSA Level 3),
+  build_timestamp: 2026-11-03T10:45:00Z,
+  sbom: sbom-rtu-v3.0.1.cyclonedx.json,
+  in_toto: in-toto-link-rtu-v3.0.1.json,
+  signatures: [
     {
-      "role": "builder",
-      "key_id": "HSM-BUILDER-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: builder,
+      key_id: HSM-BUILDER-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "cm",
-      "key_id": "HSM-CM-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: cm,
+      key_id: HSM-CM-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     },
     {
-      "role": "safety",
-      "key_id": "HSM-SAFETY-01",
-      "algorithm": "RSA-PSS-SHA256",
-      "signature": "MEUCIQD..."
+      role: safety,
+      key_id: HSM-SAFETY-01,
+      algorithm: RSA-PSS-SHA256,
+      signature: MEUCIQD...
     }
   ],
-  "verification": {
-    "sha256": "a3f2...",
-    "reproducible_build": true,
-    "slsa_level": 3,
-    "tuf_target": "targets/rtu/v3.0.1/target.json"
+  verification: {
+    sha256: a3f2...,
+    reproducible_build: true,
+    slsa_level: 3,
+    tuf_target: targets/rtu/v3.0.1/target.json
   }
 }
 ```
@@ -63,10 +63,10 @@ Every firmware release produces a **Signed Firmware Package (SFP)**:
 Every firmware/software release includes a **CycloneDX SBOM** (PROD-36 requirement):
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.5"
-     serialNumber="urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f"
-     version="1">
+<?xml version=1.0 encoding=UTF-8?>
+<bom xmlns=http://cyclonedx.org/schema/bom/1.5
+     serialNumber=urn:uuid:3e671680-3c7e-4c2e-8e6a-9f8b7c5d4e3f
+     version=1>
   <metadata>
     <timestamp>2026-11-03T10:45:00Z</timestamp>
     <tools>
@@ -76,31 +76,31 @@ Every firmware/software release includes a **CycloneDX SBOM** (PROD-36 requireme
         <version>1.2.0</version>
       </tool>
     </tools>
-    <component type="application">
+    <component type=application>
       <group>com.csmfab.forge</group>
       <name>rtu-firmware</name>
       <version>3.0.1</version>
       <purl>pkg:github/landolil/Tun/lol.forge/firmware/rtu@3.0.1</purl>
       <hashes>
-        <hash alg="SHA-256">a3f2...</hash>
+        <hash alg=SHA-256>a3f2...</hash>
       </hashes>
     </component>
   </metadata>
   <components>
-    <component type="library">
+    <component type=library>
       <group>org.zephyrproject</group>
       <name>zephyr-rtos</name>
       <version>3.5.0</version>
       <purl>pkg:github/zephyrproject/zephyr@3.5.0</purl>
       <licenses><license><id>Apache-2.0</id></license></licenses>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>thermal-admittance-lib</name>
       <version>2.1.4</version>
       <purl>pkg:github/landolil/Tun/lol.forge/lib/thermal@2.1.4</purl>
     </component>
-    <component type="library">
+    <component type=library>
       <group>com.csmfab</group>
       <name>fbge-driver</name>
       <version>1.3.0</version>

@@ -2,7 +2,7 @@
 for doc in DOC-01 DOC-02 ... DOC-12; do
     verify_keymaker $doc || exit 1
 done
-echo "ALL DOCUMENTS: Keymaker verification PASS"
+echo ALL DOCUMENTS: Keymaker verification PASS
 ```
 
 ---
@@ -25,11 +25,11 @@ echo "ALL DOCUMENTS: Keymaker verification PASS"
 **Automated Check**:
 ```python
 def keymaker_bidirectional_proof(canonical_doc):
-    """
+    
     1. Theory→History: Protocol predictions match historical cases
     2. History→Theory: Formation events validate protocol bits
     3. No Lock without Key, no Key without Turn
-    """
+    
     locks = extract_locks(canonical_doc)
     keys = extract_keys(canonical_doc)
     turns = extract_turns(canonical_doc)
@@ -40,7 +40,7 @@ def keymaker_bidirectional_proof(canonical_doc):
     # Theory→History
     for lock, key, turn in zip(locks, keys, turns):
         historical_match = validate_against_historical_cases(lock, key, turn)
-        assert historical_match, f"Lock {lock.id} fails Theory→History"
+        assert historical_match, fLock {lock.id} fails Theory→History
     
     # History→Theory (for completed docs)
     for doc in COMPLETED_DOCS:
@@ -48,7 +48,7 @@ def keymaker_bidirectional_proof(canonical_doc):
         for event in formation_events:
             predicted_bit = protocol_predicts(event)
             actual_bit = event.verified
-            assert predicted_bit == actual_bit, f"History→Theory fail: {doc} {event}"
+            assert predicted_bit == actual_bit, fHistory→Theory fail: {doc} {event}
     
     return {'pass': True, 'locks_validated': len(locks)}
 ```
@@ -75,7 +75,7 @@ The Keymaker heuristic operates on **binary fabrication logic**:
 2. **Mathematical Key**: The **Constraint Satisfaction Vector** CSV ∈ {0,1}⁷ — a single lattice-homomorphism primitive that generates all protocol actions.
 3. **Bidirectional Turn**: Theory→History (protocol predicts Escondida/Los Pelambres) AND History→Theory (Tardigradia formation validates CSV).
 
-The Keymaker voice — *"Lock: [metric]. Key: [primitive]. Turn: Theory→History ∧ History→Theory."* — is the **verification certificate** that every document's claims are binary-verified, not aspirational.
+The Keymaker voice — *Lock: [metric]. Key: [primitive]. Turn: Theory→History ∧ History→Theory.* — is the **verification certificate** that every document's claims are binary-verified, not aspirational.
 
 **Next**: Chapter 4 — El Segundo Heuristic: Mirror, Participation, Protocol.
 

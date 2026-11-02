@@ -283,7 +283,7 @@ Where:
 | **Magnetizing Equipment** | 8505.20 | 8505.20.00 | Electromagnetic couplings, clutches | 6% | 0% | 0% |
 
 **Classification Notes**:
-- **8505.11 vs 8505.19**: NdFeB/SmCo are "metal permanent magnets" (8505.11); Fe₁₆N₂/Fe-Co are "other" (8505.19) — **both 0% under FTAs**
+- **8505.11 vs 8505.19**: NdFeB/SmCo are metal permanent magnets (8505.11); Fe₁₆N₂/Fe-Co are other (8505.19) — **both 0% under FTAs**
 - **Concentrates vs Oxides**: Bastnäsite/monazite concentrates → 2608.00; separated oxides → 2846.90
 - **Binding Rulings**: Aduanas Resolución 2024-087 (NdFeB), 2024-092 (Fe₁₆N₂), 2024-105 (Fe-Co) — **legal certainty**
 

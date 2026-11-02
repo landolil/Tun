@@ -2,9 +2,9 @@
 
 ### 4.1 The Keymaker Principle for Conflation Audit
 
-The Keymaker heuristic treats each conflation as a **fabrication defect** with a **binary verification vector**. The audit does not "assess" or "evaluate" — it **verifies**.
+The Keymaker heuristic treats each conflation as a **fabrication defect** with a **binary verification vector**. The audit does not assess or evaluate — it **verifies**.
 
-> **Keymaker Voice**: *Lock: Conflation detected. Key: Binary verification vector. Turn: Theory→History ∧ History→Theory. Result: Pass or Fail. No "mostly verified."*
+> **Keymaker Voice**: *Lock: Conflation detected. Key: Binary verification vector. Turn: Theory→History ∧ History→Theory. Result: Pass or Fail. No mostly verified.*
 
 ---
 
@@ -48,10 +48,10 @@ class ConflationVerificationVector:
 
 ```python
 def compute_verification_bit(evidence_chain, deduction_result, zero_ambiguity):
-    """
+    
     Single bit: 1 = fully verified, 0 = any failure.
     No partial credit.
-    """
+    
     checks = [
         evidence_chain.exhibits_complete,
         evidence_chain.primary_sources_verified,
@@ -67,14 +67,14 @@ def compute_verification_bit(evidence_chain, deduction_result, zero_ambiguity):
 
 #### 4.3.1 Validation Principle
 
-The audit protocol must **predict** historical conflation resolutions. If the protocol says "Williams Lock Hierarchy resolves water permit conflict" and historically "Water Code N/A via Aegis-Forge" was the resolution, the protocol is validated.
+The audit protocol must **predict** historical conflation resolutions. If the protocol says Williams Lock Hierarchy resolves water permit conflict and historically Water Code N/A via Aegis-Forge was the resolution, the protocol is validated.
 
 #### 4.3.2 Historical Validation Cases (From DOC-13 Ch. 8.9)
 
 | Historical Conflation | Protocol Prediction | Historical Outcome | Validation |
 |-----------------------|---------------------|-------------------|------------|
 | Water Permit vs Aegis-Forge | Williams: Water Code Lock resolved by Aegis-Forge Key | Water Code N/A in DOC-07 Ch.4 | ✅ PASS |
-| Consent vs Equity | Baker Street: "Consultation" ≠ "Equity" | FBC/CDC = equity in DOC-03 | ✅ PASS |
+| Consent vs Equity | Baker Street: Consultation ≠ Equity | FBC/CDC = equity in DOC-03 | ✅ PASS |
 | GFL vs GFM for Aegis | Keymaker: GFL fails GIC Lock | GFM-native mandatory in DOC-11 | ✅ PASS |
 | Magnet Grade Source | Williams: Motor physics forces specs | Specs from CSM motor design in DOC-09 | ✅ PASS |
 | Capital Stack Single-Source | SHIELD: No layer >$500M | Triangulation in DOC-05 | ✅ PASS |
@@ -130,7 +130,7 @@ Applying the verification vector to the 28 conflations from Ch. 2.12:
 | **Question** | What verifies this? | Which Lock governs? | How does audit witness itself? |
 | **Unit** | Verification Bit | Lock Priority | Mirror Measurement |
 | **Output** | Pass/Fail vector | Arbitration decision | Recursive closure |
-| **Keymaker Unique** | **Binary verification** — no partial credit, no "substantial compliance" | — | — |
+| **Keymaker Unique** | **Binary verification** — no partial credit, no substantial compliance | — | — |
 
 ---
 
@@ -138,12 +138,12 @@ Applying the verification vector to the 28 conflations from Ch. 2.12:
 
 ```python
 def keymaker_audit_bidirectional_proof(audit_results):
-    """
+    
     1. Theory→History: Protocol predictions match 5 historical resolutions
     2. History→Theory: 4/5 formation events validate protocol (1 pending = this audit)
     3. Every conflict has binary vector computed
     4. 0 conflicts with verification_bit = 0 for both claims (would be gap)
-    """
+    
     checks = {
         'theory_to_history': all(h['validated'] for h in audit_results.historical_validations),
         'history_to_theory': audit_results.formation_validations_passed >= 4,
@@ -180,7 +180,7 @@ The Keymaker Binary Verification engine provides **zero-ambiguity verification**
 - **History→Theory**: 4/5 formation events validate protocol (1 pending = self-audit)
 - **Quality Gate**: All conflicts must achieve binary resolution (no partial credit)
 
-The Keymaker voice — *"Lock: [conflation]. Key: [verification vector]. Turn: Theory→History ∧ History→Theory = [PASS/FAIL]."* — is the **verification certificate** that every conflation is definitively resolved.
+The Keymaker voice — *Lock: [conflation]. Key: [verification vector]. Turn: Theory→History ∧ History→Theory = [PASS/FAIL].* — is the **verification certificate** that every conflation is definitively resolved.
 
 **Next**: Chapter 5 — Williams Constraint Priority: Lock Hierarchy for Conflict Arbitration.
 

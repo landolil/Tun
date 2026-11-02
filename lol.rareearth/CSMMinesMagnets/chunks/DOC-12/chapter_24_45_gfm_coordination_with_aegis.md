@@ -44,7 +44,7 @@ P_{ref,i} = P_{nom,i} + \alpha_i \Delta P_{sec}, \quad \sum \alpha_i = 1
 \text{MGC Blackstart Sequence:}
 ```
 1. **T₀**: Grid loss detected → MGC initiates blackstart
-2. **T₀+5 s**: Designated "leader" GFM (highest SoC) starts soft energization
+2. **T₀+5 s**: Designated leader GFM (highest SoC) starts soft energization
 3. **T₀+15 s**: Follower GFMs synchronize to leader (dVOC/PSC sync)
 4. **T₀+30 s**: Critical loads picked up (separation heaters, comms)
 5. **T₀+60 s**: Non-critical loads ramped (motor drives, pumps)

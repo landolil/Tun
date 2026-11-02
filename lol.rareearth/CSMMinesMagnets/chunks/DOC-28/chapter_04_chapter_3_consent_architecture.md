@@ -29,7 +29,7 @@ Where $C_{Lof,i} \in \{0,1\}$ = Lof consent (1) or veto (0). **All 8 Lofs must c
 **Standing in Environmental Courts (Tribunales Ambientales)**:
 - **Collective water rights (derechos de agua ancestrales)** — **pre-1981, senior to mining** (Water Code Art 56 bis + Law 21.435 Art 5)
 - **Pewén forest title** — **15,400 ha titled as Tierras Indígenas** (Law 19.253 Art 5)
-- **Glacier protection standing** — **Environmental Court 2024 recognized Pehuenche as "glacier guardians"** (Law 21.435 Art 10)
+- **Glacier protection standing** — **Environmental Court 2024 recognized Pehuenche as glacier guardians** (Law 21.435 Art 10)
 - **Consulta veto** — **binding on RCA per Dominga + Andina 244 precedents**
 
 **Territorial Jurisdiction Formula**:
@@ -47,6 +47,6 @@ Where $W_{headwaters}$ = glacier/snowmelt catchments, $P_{pewén}$ = pewén fore
 | **Informed** | Access to information | **EIA + glacier model + cultural impact in Mapudungun + Machi spiritual reading** | CONADI validation |
 | **Consent** | Agreement sought | **Unanimous Lof consent + Machi approval + Nguillatun ratification** | Acta de Consulta |
 
-**Critical Difference**: **Standard FPIC allows "broad community support" — Pehuenche requires UNANIMITY + SPIRITUAL RATIFICATION**. **This is the highest FPIC standard in Chile**.
+**Critical Difference**: **Standard FPIC allows broad community support — Pehuenche requires UNANIMITY + SPIRITUAL RATIFICATION**. **This is the highest FPIC standard in Chile**.
 
 ---

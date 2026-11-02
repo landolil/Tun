@@ -166,7 +166,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-08/ FinishedWork/DOC-08_*.md.gz FinishedWork/intros/DOC-08_*.md
-git commit -m "DOC-08: Port & Logistics Corridors — [summary]"
+git commit -m DOC-08: Port & Logistics Corridors — [summary]
 git tag runner-005-complete
 git push origin --tags
 

@@ -1,6 +1,6 @@
 ## 1.1 Grid-Following vs. Grid-Forming: Fundamental Distinction
 
-The distinction between grid-following (GFL) and grid-forming (GFM) inverters is architectural, not merely parametric. A GFL inverter operates as a **controlled current source**, synchronizing to the grid voltage via a phase-locked loop (PLL) and injecting current at a commanded power factor. It requires a stiff grid voltage reference — essentially "following" the grid's voltage phasor. In contrast, a GFM inverter operates as a **controlled voltage source**, establishing its own voltage magnitude and phase angle at the point of common coupling (PCC), thereby "forming" the grid.
+The distinction between grid-following (GFL) and grid-forming (GFM) inverters is architectural, not merely parametric. A GFL inverter operates as a **controlled current source**, synchronizing to the grid voltage via a phase-locked loop (PLL) and injecting current at a commanded power factor. It requires a stiff grid voltage reference — essentially following the grid's voltage phasor. In contrast, a GFM inverter operates as a **controlled voltage source**, establishing its own voltage magnitude and phase angle at the point of common coupling (PCC), thereby forming the grid.
 
 ```math
 \text{GFL: } I_{PCC} = f(V_{grid}, P^*, Q^*) \quad \text{(Current source, PLL-dependent)}

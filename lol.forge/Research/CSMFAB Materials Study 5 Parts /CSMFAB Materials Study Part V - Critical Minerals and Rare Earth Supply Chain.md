@@ -12,7 +12,7 @@ Emphasis on: supply risk, domestic alternatives, recycled sourcing, and geopolit
 
 Of the 30 distinct material classes in the CSMFAB portfolio, **9 involve critical or strategic minerals**
 either directly (as elemental ingredient) or as irreplaceable precursor. The US Geological Survey
-defines "critical minerals" as those essential to economic/national security with supply chains
+defines critical minerals as those essential to economic/national security with supply chains
 vulnerable to disruption. In 2026, China controls **dominant share of processing** for 7 of the 9
 CSMFAB critical minerals — this is the portfolio's primary geopolitical risk.
 

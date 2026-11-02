@@ -35,7 +35,7 @@ abla U_{Chile} = 0 ightarrow AgreementForm = CongressionalExecutive$$
 | **Precedent** | US-Chile FTA (2003) was congressional-executive | US-Chile Critical Minerals MOU (2022) executive |
 | **Durability** | Supersedes state law | Binding under international law; domestic effect via statute |
 
-**Selected Form:** **Congressional-Executive Agreement** -- passed by majority in both houses (like USMCA), providing statutory durability without 2/3 Senate threshold. Enacted as "US-Chile Critical Minerals Supply Chain Act of 2026."
+**Selected Form:** **Congressional-Executive Agreement** -- passed by majority in both houses (like USMCA), providing statutory durability without 2/3 Senate threshold. Enacted as US-Chile Critical Minerals Supply Chain Act of 2026.
 
 **Mathematical Formulation of Deadline Pressure:**
 $$T_{ratification}^{treaty} >= 12 months > T_{DFARS} = 3 months (Jan 2027)$$
@@ -81,7 +81,7 @@ $$Therefore Treaty form is mathematically infeasible for DFARS 2027 compliance$$
 | **Phase 3: DFARS Qualification** | MIL-STD-1540 + MIL-PRF-23063 | DoD test lab (Year 3) |
 | **Phase 4: Production Scale** | 500 t/yr Fe16N2 at Magnet Chile SpA | Commercial delivery (Year 4) |
 
-**IRA 45X Credit Applicability:** Treasury Notice 2023-XX confirms: "Critical mineral processing" includes REE separation AND magnet manufacturing. Chilean Aegis-Forge REE oxide -> US Fe16N2 production qualifies for **10% credit on both stages** if agreement designates Chilean processing as "domestic-equivalent."
+**IRA 45X Credit Applicability:** Treasury Notice 2023-XX confirms: Critical mineral processing includes REE separation AND magnet manufacturing. Chilean Aegis-Forge REE oxide -> US Fe16N2 production qualifies for **10% credit on both stages** if agreement designates Chilean processing as domestic-equivalent.
 
 **Credit Calculation:**
 $$Credit_{REE} = 0.10 x QualifiedCosts_{Aegis-Forge}$$

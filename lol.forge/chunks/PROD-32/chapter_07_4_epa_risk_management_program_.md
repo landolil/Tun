@@ -20,7 +20,7 @@
 - **Public Receptors:** None within 1.8 miles (industrial park)
 
 **Alternative Release Scenario (ARS):**
-- **Scenario:** H₂ storage (15,000 lbs) leak 1" pipe, 10-min, ignition
+- **Scenario:** H₂ storage (15,000 lbs) leak 1 pipe, 10-min, ignition
 - **Model:** ALOHA, BLEVE + vapor cloud explosion
 - **Thermal Endpoint:** 5 kW/m² (2nd degree burns) → **Distance: 0.3 miles**
 - **Overpressure:** 1 psi (window breakage) → **Distance: 0.15 miles**

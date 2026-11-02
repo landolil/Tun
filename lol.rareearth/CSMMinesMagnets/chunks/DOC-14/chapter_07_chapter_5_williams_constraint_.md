@@ -26,23 +26,23 @@ When two verified claims (both bits = 1) contradict, the **Williams Lock Hierarc
 
 ```python
 def williams_arbitrate(conflict):
-    """
+    
     Apply Lock Hierarchy to resolve binary-verified conflicting claims.
     Precondition: Both claims have verification_bit = 1.
-    """
+    
     lock_a = identify_governing_lock(conflict.claim_a)
     lock_b = identify_governing_lock(conflict.claim_b)
     
     if lock_a.level < lock_b.level:
         return Resolution(
-            decision=f"Claim_A accepted (Lock Level {lock_a.level} > {lock_b.level})",
-            lock_priority=f"{lock_a.class_name} overrides {lock_b.class_name}",
+            decision=fClaim_A accepted (Lock Level {lock_a.level} > {lock_b.level}),
+            lock_priority=f{lock_a.class_name} overrides {lock_b.class_name},
             winning_claim=conflict.claim_a
         )
     elif lock_b.level < lock_a.level:
         return Resolution(
-            decision=f"Claim_B accepted (Lock Level {lock_b.level} > {lock_a.level})",
-            lock_priority=f"{lock_b.class_name} overrides {lock_a.class_name}",
+            decision=fClaim_B accepted (Lock Level {lock_b.level} > {lock_a.level}),
+            lock_priority=f{lock_b.class_name} overrides {lock_a.class_name},
             winning_claim=conflict.claim_b
         )
     else:
@@ -77,34 +77,34 @@ def williams_arbitrate(conflict):
 ```python
 LOCK_HIERARCHY = {
     1: LockClass(
-        name="Constitutional",
-        sources=["Chile Constitution", "Supreme Court Jurisprudence"],
+        name=Constitutional,
+        sources=[Chile Constitution, Supreme Court Jurisprudence],
         test=lambda claim: claim.invokes_constitutional_principle(),
-        examples=["State mineral ownership", "Indigenous rights (Art 19§25)"]
+        examples=[State mineral ownership, Indigenous rights (Art 19§25)]
     ),
     2: LockClass(
-        name="Physical",
-        sources=["Maxwell Equations", "Thermodynamics", "NASA/NOAA GIC Models"],
+        name=Physical,
+        sources=[Maxwell Equations, Thermodynamics, NASA/NOAA GIC Models],
         test=lambda claim: claim.invokes_physical_law(),
-        examples=["Carrington GIC coupling", "Magnetocrystalline anisotropy limits", "Thermal cascade temps"]
+        examples=[Carrington GIC coupling, Magnetocrystalline anisotropy limits, Thermal cascade temps]
     ),
     3: LockClass(
-        name="Regulatory",
-        sources=["Law 19.300", "Law 19.253", "Water Code", "Mining Code", "CEN NTSyCS"],
+        name=Regulatory,
+        sources=[Law 19.300, Law 19.253, Water Code, Mining Code, CEN NTSyCS],
         test=lambda claim: claim.invokes_statutory_requirement(),
-        examples=["RCA process", "Consulta Indígena", "Water permits", "GFM mandate"]
+        examples=[RCA process, Consulta Indígena, Water permits, GFM mandate]
     ),
     4: LockClass(
-        name="Technical",
-        sources=["IEEE 2800", "IEC 60404", "NERC TPL-007", "CEN DS N°62", "MIL-STD-1540"],
+        name=Technical,
+        sources=[IEEE 2800, IEC 60404, NERC TPL-007, CEN DS N°62, MIL-STD-1540],
         test=lambda claim: claim.invokes_engineering_standard(),
-        examples=["GFM architecture", "Magnet grade test methods", "Transformer hardening"]
+        examples=[GFM architecture, Magnet grade test methods, Transformer hardening]
     ),
     5: LockClass(
-        name="Economic",
-        sources=["EIB Statutes", "CPTPP Art 9/14", "IRA §45X", "CAPEX/OPEX Models"],
+        name=Economic,
+        sources=[EIB Statutes, CPTPP Art 9/14, IRA §45X, CAPEX/OPEX Models],
         test=lambda claim: claim.invokes_financial_constraint(),
-        examples=["Capital stack layers", "Offtake pricing", "Insurance layers", "IRR thresholds"]
+        examples=[Capital stack layers, Offtake pricing, Insurance layers, IRR thresholds]
     )
 }
 ```
@@ -115,9 +115,9 @@ LOCK_HIERARCHY = {
 
 ```python
 def williams_audit_constraint_completeness(audit_results):
-    """
+    
     Every resolved conflation must map to a Lock Hierarchy arbitration.
-    """
+    
     checks = {
         'all_resolved_have_lock': all(c.resolution.lock_priority is not None 
                                        for c in audit_results.resolutions),
@@ -155,7 +155,7 @@ The Williams Constraint Priority system provides **deterministic arbitration** f
 - **Secondary Criteria**: Source authority, recency, scope, heuristic dominance
 - **Quality Gate**: Every resolution maps to hierarchy, no Level skip, Constitutional inviolable
 
-The Williams voice — *"The Lock is [Level X]. The Key is [winning claim]. The Turn is [arbitration recorded]."* — is the **arbitration certificate** that conflation resolution follows irreducible constraint logic.
+The Williams voice — *The Lock is [Level X]. The Key is [winning claim]. The Turn is [arbitration recorded].* — is the **arbitration certificate** that conflation resolution follows irreducible constraint logic.
 
 **Next**: Chapter 6 — El Segundo Recursive Audit: Meta-Audit Protocol.
 

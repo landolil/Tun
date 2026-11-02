@@ -136,10 +136,10 @@ Liberation index: initial 70%, post-ultrasonic 95%
 
 ### 4.1 Targeted Single-Mineral Extraction
 
-For high-value applications, the AMLS can operate in a targeted "single mineral" mode
+For high-value applications, the AMLS can operate in a targeted single mineral mode
 where frequency is tuned specifically to the acoustic resonance of one target mineral.
 
-**Method:** Each mineral has a characteristic "acoustic signature" dependent on:
+**Method:** Each mineral has a characteristic acoustic signature dependent on:
 - Elastic moduli (Young's, bulk, shear)
 - Density
 - Crystal symmetry

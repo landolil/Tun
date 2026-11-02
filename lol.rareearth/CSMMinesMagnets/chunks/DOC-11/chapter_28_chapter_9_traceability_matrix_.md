@@ -41,7 +41,7 @@ Example: C11-001-001 = Chapter 1, Claim 1
 - 100% of cross-DOC references validated
 - 0 conflation flags across DOC-01 through DOC-11
 - All formulas traceable to origin (physics, standard, or derivation)
-- All "TBD:RESEARCH" markers from earlier DOCs resolved or carried forward
+- All TBD:RESEARCH markers from earlier DOCs resolved or carried forward
 
 **DOC-11 Specific Enhancements:**
 1. **Space Weather Sources**: NOAA SWPC, NASA, INTERMAGNET, SHOA — real-time data feeds cited

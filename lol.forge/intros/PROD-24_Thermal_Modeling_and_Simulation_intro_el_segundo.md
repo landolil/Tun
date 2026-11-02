@@ -49,7 +49,7 @@ The inside operator witnesses the thermal phenomenon into existence at **four co
 
 ### Checkpoint 1: First-Article Drum Thermal Mapping (Commissioning)
 **Trigger:** Drum FA-01 instrumented with 48 additional thermocouples (Type C, W/Re) + FBG validation
-**Human action:** Thermal engineer reviews 3D temperature map vs. FEA prediction at Stage 8 steady state. Annotates discrepancies >5°C. Authorizes "Model Calibration" or "Design Change."
+**Human action:** Thermal engineer reviews 3D temperature map vs. FEA prediction at Stage 8 steady state. Annotates discrepancies >5°C. Authorizes Model Calibration or Design Change.
 **Why not automated:** Thermocouple placement uncertainty (±2 mm radial), contact resistance variation, emissivity uncertainty on ZrB₂-SiC surface — these require engineering judgment on which discrepancies are measurement artifact vs. model error. The operator *witnesses* the drum's thermal fingerprint.
 
 ### Checkpoint 2: Curie Transition Power Verification (Per Batch)
@@ -65,7 +65,7 @@ The inside operator witnesses the thermal phenomenon into existence at **four co
 ### Checkpoint 4: ROM Calibration Review (Monthly)
 **Trigger:** PROD-37 digital twin reports ROM prediction error statistics
 **Human action:** Model engineer reviews ROM vs. FEA vs. FBG error breakdown by stage. Authorizes ROM retraining if Stage 7 error > 2°C or Stage 8 stress error > 5 MPa. Reviews Sobol indices — if new parameter enters top-5 → updates UQ.
-**Why not automated:** ROM retraining requires selecting training snapshots (which batches represent "normal" operation). Including an anomalous batch in training corrupts the ROM. The operator *witnesses* the model learning.
+**Why not automated:** ROM retraining requires selecting training snapshots (which batches represent normal operation). Including an anomalous batch in training corrupts the ROM. The operator *witnesses* the model learning.
 
 **Participation principle:** The model computes; the operator validates at the boundaries of consequence. The HMI (PROD-23 Section 11) presents exactly the comparison plots needed at each checkpoint — FEA vs. thermocouples, power vs. reference curve, temperature trend vs. degradation limit, ROM error heatmap.
 
@@ -110,4 +110,4 @@ The recursive sequence guaranteeing fidelity at each scale is the **V&V Fractal:
 
 **Recursive invariant:** `Evidence(level) ⊆ Evidence(level+1)`. Evidence accumulates upward. No level certifies without the level below it passing. The Git tag chain (`matprop → zone03-val → drum-th-struct → cascade-sys-val → twin-cert`) is the cryptographic proof of the recursion.
 
-**Protocol integrity:** The thermal model is not "validated once." It is validated recursively, continuously, at every scale, by the same pattern. The operator *witnesses* this recursion at Checkpoints 1-4. The digital twin *enforces* it at 10 Hz. The Git history *records* it immutably.
+**Protocol integrity:** The thermal model is not validated once. It is validated recursively, continuously, at every scale, by the same pattern. The operator *witnesses* this recursion at Checkpoints 1-4. The digital twin *enforces* it at 10 Hz. The Git history *records* it immutably.

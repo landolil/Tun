@@ -62,7 +62,7 @@ Appendix B: Safety Zone Maps
 Appendix C: PPE Matrix per Task
 
 **Key Specs**:
-- Control room: 4 operators, 24" monitors × 6, 50 lux ambient, <45 dBA
+- Control room: 4 operators, 24 monitors × 6, 50 lux ambient, <45 dBA
 - HMI: ISA-101 alarm philosophy, <50 alarms/hr steady state
 - Hot zone PPE: Al-coated proximity suit, powered air purifying respirator (PAPR)
 - Maintenance access: 750 mm clearances, 25 kg max lift, ergonomic tool positioning
@@ -157,7 +157,7 @@ node scripts/split_chunks.js verify chunks/PROD-XX
 node scripts/split_chunks.js compress docs/PROD-XX_<title>.md
 
 # Git commit (with proper identity)
-git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — NNN lines + 4 heuristic intros, XX chunks verified"
+git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — NNN lines + 4 heuristic intros, XX chunks verified
 
 # Push
 git pull --rebase && git push

@@ -3,7 +3,7 @@
 
 ### 7.1 Exit Philosophy — Community Protection in All Scenarios
 
-The Tardigradia exit strategy is not assembled from financial engineering; it is **forced** by the logical necessity of a formation where **community equity and veto rights must survive every exit scenario** — IPO, trade sale, secondary, or wind-down. The strategy rests on a single, irreducible constraint: **Exit = Community Continuity** — the proposition that no exit event can dilute FBC trust equity, remove CVO veto, or extinguish environmental bond priority. No additional postulates — no drag-along on community shares, no veto waiver for strategic buyers, no "clean exit" for capital — are required. The constraint is simply: *Capital exits; community stays; veto persists*. Everything else is the shadow this constraint casts.
+The Tardigradia exit strategy is not assembled from financial engineering; it is **forced** by the logical necessity of a formation where **community equity and veto rights must survive every exit scenario** — IPO, trade sale, secondary, or wind-down. The strategy rests on a single, irreducible constraint: **Exit = Community Continuity** — the proposition that no exit event can dilute FBC trust equity, remove CVO veto, or extinguish environmental bond priority. No additional postulates — no drag-along on community shares, no veto waiver for strategic buyers, no clean exit for capital — are required. The constraint is simply: *Capital exits; community stays; veto persists*. Everything else is the shadow this constraint casts.
 
 ### 7.2 Exit Pathways — Four Scenarios
 

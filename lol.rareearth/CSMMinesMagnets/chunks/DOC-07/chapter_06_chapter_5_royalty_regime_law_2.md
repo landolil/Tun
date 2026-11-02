@@ -76,7 +76,7 @@ MOM = RIOMA / Ventas_Anuales_Netas × 100
 **Interpretative Positions**:
 | Position | Argument | Risk |
 |----------|----------|------|
-| **Non-copper regime (Art. 5)** | REEs = "other concessionable substances" | 1% ad valorem + 8-26% margen |
+| **Non-copper regime (Art. 5)** | REEs = other concessionable substances | 1% ad valorem + 8-26% margen |
 | **Copper-equivalent** | REE concentrates often co-produced with Cu | Full copper regime if >50% Cu sales |
 | **Legislative vacuum** | No explicit REE provision → SII criteria | Audit risk, potential litigation |
 

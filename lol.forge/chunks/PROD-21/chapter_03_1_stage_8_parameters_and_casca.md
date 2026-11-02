@@ -69,7 +69,7 @@ Ferrous Cascade                             Mineral Residue & Zircon            
         └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Mineral Window": 1600°C (SiO₂ melting) to 2200°C (ZrO₂ sintering, TiO₂ decomposition)
+• The Mineral Window: 1600°C (SiO₂ melting) to 2200°C (ZrO₂ sintering, TiO₂ decomposition)
 • At 1676°C: ZrSiO₄ → ZrO₂ (solid) + SiO₂ (gas) — KEY DISSOCIATION REACTION
 • SiO₂ gas captured at Port 8B condenser → fumed silica product
 • ZrO₂ remains solid (MP 2716°C) — concentrated by centrifugal separation

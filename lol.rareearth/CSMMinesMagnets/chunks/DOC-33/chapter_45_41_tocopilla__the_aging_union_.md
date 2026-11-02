@@ -13,7 +13,7 @@
 | **Indigenous %** | 3% (Chango) | **8% (Chango)** | 5% | 13% |
 | **Migrant %** | 12% | **18%** | 18% | 8% |
 
-**Tocopilla Population Pyramid — The "Hourglass" Shape**:
+**Tocopilla Population Pyramid — The Hourglass Shape**:
 - **Base (0-14)**: Narrow — Birth rate 11/1000 (vs 14 national)
 - **Middle (15-64)**: Bulging at 40-55 — **Thermo/Codelco workforce cohort**
 - **Top (65+)**: Widening — **18% >65** (vs 12% national), growing +3%/yr

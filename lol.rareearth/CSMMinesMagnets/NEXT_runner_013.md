@@ -115,7 +115,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git (commit every 3-5 subtasks, tag at phase completion)
 git add chunks/DOC-16/ FinishedWork/DOC-16_*.md.gz FinishedWork/intros/DOC-16_*.md
-git commit -m "DOC-16: Regional Norte Grande — [summary]"
+git commit -m DOC-16: Regional Norte Grande — [summary]
 # ... repeat for DOC-17..25 ...
 git tag phase-4-complete
 git push origin --tags

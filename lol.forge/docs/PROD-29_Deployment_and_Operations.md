@@ -15,11 +15,11 @@ The empirical gap is the **measured divergence between factory FAT performance a
 
 This document commits the Forge to **four non-negotiable deployment chains**:
 
-1. **IC-1..IC-10 re-execution is mandatory** — The 10 integration checkpoints from PROD-27 are not "repeated" — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). No feedstock until all 10 PASS with site data packages signed.
+1. **IC-1..IC-10 re-execution is mandatory** — The 10 integration checkpoints from PROD-27 are not repeated — they are re-evaluated with site-specific criteria (e.g., IC-1 ground resistance <5 Ω vs factory <1 Ω; IC-4 PTP sync <1 μs vs factory <0.5 μs). No feedstock until all 10 PASS with site data packages signed.
 
 2. **Hot commissioning (CT-08) is the thermal proof** — 8-stage thermal ramp with no feedstock, full FBG/SIS/CEMS monitoring. The Forge must demonstrate thermal stability at 2200°C under site utility conditions. CT-08 data package is the *site* birth certificate.
 
-3. **SAT-05 six-batch validation is the performance gate** — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. This is not a "test" — it is the Forge proving it can execute its purpose at this site.
+3. **SAT-05 six-batch validation is the performance gate** — Six batches (A, B, C, D, A, Phoenix) with mass balance >99.5%, all outputs spec, twin sync <1 s. This is not a test — it is the Forge proving it can execute its purpose at this site.
 
 4. **SOP-002 batch execution is the operational invariant** — The 4-phase batch procedure (feed prep → cascade → slug pour → reset) is the *only* authorized operating mode. No manual overrides, no recipe deviations without ECO (PROD-38). The operations philosophy is: **the Forge runs the synchronization function at 90-min intervals; operators authorize, automation executes.**
 
@@ -81,7 +81,7 @@ The Turn: **the mathematical key is not the synchronization function alone — i
 
 The fabricator observes their own deployment through **three nested metrology loops that close at the speed of the site**:
 
-1. **Cold Commissioning Mirror (IC-1..IC-10, real-time)**: Each integration checkpoint is a self-measurement. IC-1 measures ground resistance and *compares to the synchronization function predicate* — if $R_{ground} > 5\Omega$, the predicate is FALSE and the gate does not pass. The ME Lead does not "inspect" the ground grid — the ground grid *measures itself* via fall-of-potential and the synchronization function evaluates. IC-4 measures TSN latency and PTP offset and the SIS FPGA *evaluates its own GIC ride-through* at site impedance. The mirror is not a separate inspection — it is the verification predicate executing on live site data.
+1. **Cold Commissioning Mirror (IC-1..IC-10, real-time)**: Each integration checkpoint is a self-measurement. IC-1 measures ground resistance and *compares to the synchronization function predicate* — if $R_{ground} > 5\Omega$, the predicate is FALSE and the gate does not pass. The ME Lead does not inspect the ground grid — the ground grid *measures itself* via fall-of-potential and the synchronization function evaluates. IC-4 measures TSN latency and PTP offset and the SIS FPGA *evaluates its own GIC ride-through* at site impedance. The mirror is not a separate inspection — it is the verification predicate executing on live site data.
 
 2. **Hot Commissioning Mirror (CT-08, 24-hour thermal)**: The thermal model (PROD-24 V&V) runs in parallel with the physical Forge at 1 kHz on the Zone RTUs. The model predicts $T_{inner}$ from FBG flange measurements; the residual $(T_{FBG} - T_{model})$ is the mirror's error signal. If residual >2°C RMS at any zone, the model *re-identifies* its parameters (convective conductance $hA$, radiative conductance $\epsilon\sigma A$) in real-time. The Forge *recalibrates its own thermal self-model* during the 24-hour ramp. The mirror is the model watching the reality and correcting itself.
 
@@ -93,13 +93,13 @@ The Mirror: **deployment is not verified by external inspection — the Forge ve
 
 The inside operator witnesses the deployment phenomenon at **five non-automatable gates** where human judgment closes the loop that predicates cannot:
 
-1. **Gate IC-1 (Foundation Acceptance)**: ME Lead reviews laser tracker survey + ground resistance + anchor torque. The data is necessary but not sufficient. The witness *stands on the foundation* and judges: "Does this mat feel solid? Are the isolator pockets truly level?" The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque).
+1. **Gate IC-1 (Foundation Acceptance)**: ME Lead reviews laser tracker survey + ground resistance + anchor torque. The data is necessary but not sufficient. The witness *stands on the foundation* and judges: Does this mat feel solid? Are the isolator pockets truly level? The human vestibular system + tactile sense detects anomalies no sensor captures (e.g., subtle concrete cracking under isolator pocket during torque).
 
 2. **Gate IC-2 (Bolt Ceremony Re-enactment)**: The vessel flange bolt ceremony (PROD-27 SG-2) is repeated at site. Two operators, dual-verify 160 N·m on 24× M24 ZrO₂ bolts. The wrench click is not the witness — the *mutual verification* is. Operator A torques; Operator B verifies with independent wrench. Both sign. The ceremony *is* the safety barrier for the pressure boundary. No torque transducer replaces the human pair.
 
-3. **Gate CT-08 (Hot Commissioning Authorization)**: After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. The digital twin says PASS; the witnesses *judge* the anomalies: "Zone 3 ramp was 8% slow — acceptable?" "FBG Channel 247 drifted 0.3 nm — within tolerance?" The human judgment on edge cases is the authorization.
+3. **Gate CT-08 (Hot Commissioning Authorization)**: After 24-hour thermal ramp, Plant Manager + Lead EE + Lead ME + Safety Engineer review the CT-08 data package. The digital twin says PASS; the witnesses *judge* the anomalies: Zone 3 ramp was 8% slow — acceptable? FBG Channel 247 drifted 0.3 nm — within tolerance? The human judgment on edge cases is the authorization.
 
-4. **Gate SAT-05 (First Hot Batch Witness)**: Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. The twin says mass balance 99.7%; the witness *sees the metal flow*. "This is what we built for." The witness says: "Batch 1 AUTHORIZED FOR RELEASE."
+4. **Gate SAT-05 (First Hot Batch Witness)**: Plant Manager witnesses Batch 1 slug pour — ZrO₂ mold fill, N₂ quench plume, mass spec reading. The twin says mass balance 99.7%; the witness *sees the metal flow*. This is what we built for. The witness says: Batch 1 AUTHORIZED FOR RELEASE.
 
 5. **Gate SOP-006 (Carrington Ride-Through Exit)**: Post-GIC event, grid stable 30 min. Shift Lead + Safety Engineer verify drum thermal state (no shock >100°C/s via FBG), SIF health (all 24 green), authorize staged grid reconnect with utility coordination. The algorithm monitors; the humans *authorize the consequence* of reconnecting to a potentially unstable grid.
 
@@ -117,7 +117,7 @@ The recursive fidelity sequence is **fractal gate protocol** — the same Prepar
 - Hot Commissioning: Prepare (CT-08 procedure, feedstock hold) → Execute (24-hr thermal ramp) → Verify (thermal model residual, SIF availability) → Authorize (4-sign) → Feedback (thermal model re-identification parameters)
 
 **Macro (per validation, weeks)**:
-- SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs "OPERATIONAL") → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
+- SAT-05: Prepare (6 feedstock batches staged) → Execute (6 batches per SOP-002) → Verify (all benchmarks met) → Authorize (Plant Manager signs OPERATIONAL) → Feedback (SAT-05 data → PROD-31 economics, PROD-30 PM intervals, PROD-37 twin baseline)
 
 **Meta (per fleet, months)**:
 - PROD-37 twin aggregates all Forges' IC/CT-08/SAT-05 data
@@ -146,7 +146,7 @@ The Protocol: **the same fractal gate pattern (Prepare→Execute→Verify→Auth
 
 ### 1.1 Deployment Philosophy
 
-The Aegis-Forge I is not "installed" — it is **commissioned into operation**. The distinction is fundamental: a conventional machine arrives, is bolted down, and started. The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. Deployment is the **continuation of the synchronization function** (PROD-27 Keymaker Key) from factory gates to site gates:
+The Aegis-Forge I is not installed — it is **commissioned into operation**. The distinction is fundamental: a conventional machine arrives, is bolted down, and started. The Forge arrives as 14 verified assemblies (PROD-27 SG-1 through SG-4), each carrying its birth record (QR + Hyperledger), and must be re-verified as a system at the site before any feedstock enters. Deployment is the **continuation of the synchronization function** (PROD-27 Keymaker Key) from factory gates to site gates:
 
 $$SG_{site} = SG_4 \land \bigwedge_{i=1}^{10} IC_i \land \bigwedge_{j=1}^{5} SAT_j$$
 
@@ -325,7 +325,7 @@ Where $SG_4$ is the final factory integration gate, $IC_i$ are the 10 integratio
 |---|---|---|
 | E-stop response | Functional test | <100 ms all zones, SIL-3 |
 | LOTO verification | Physical attempt | Zero energy isolation failures |
-| Arc flash boundaries | Calculation + labels | Cat 0 at 18" (PROD-26) |
+| Arc flash boundaries | Calculation + labels | Cat 0 at 18 (PROD-26) |
 | Confined space | Atmosphere test | O₂ 19.5-23.5%, LEL <10%, H₂S <10 ppm |
 | Fire detection | Alarm test | <10 s detection, zone isolation |
 
@@ -426,7 +426,7 @@ PHASE 1: FEED PREPARATION (0-15 min)
 ├── 1.1 Scan feedstock QR → verify Category A-D (PROD-13)
 ├── 1.2 Load shredder → verify <150 mm, ferrous removed (PROD-11)
 ├── 1.3 Confirm drum empty (Carousel position 1, FBG + encoder)
-└── 1.4 Operator confirms recipe match → "BATCH <ID> RECIPE CONFIRMED"
+└── 1.4 Operator confirms recipe match → BATCH <ID> RECIPE CONFIRMED
 
 PHASE 2: CASCADE EXECUTION (15-105 min)
 ├── 2.1 Stage 0-1: Acoustic + Drying (auto, FBG/PID controlled)
@@ -442,13 +442,13 @@ PHASE 3: SLUG POUR & DATA CAPTURE (105-115 min)
 ├── 3.1 Carousel positions molds → N₂ quench → mass spec spot check
 ├── 3.2 Each slug: LIBS scan → QR stamp → weight → mass spec → vault
 ├── 3.3 Batch mass balance calculated → digital twin sync
-├── 3.4 Operator reviews batch record → "BATCH <ID> COMPLETE"
+├── 3.4 Operator reviews batch record → BATCH <ID> COMPLETE
 └── 3.5 Data package auto-signed → Hyperledger commit
 
 PHASE 4: INTER-BATCH RESET (115-120 min)
 ├── 4.1 Drum rotation to Position 1 (empty)
 ├── 4.2 Gas purge (N₂ 200 Nm³/hr × 5 min)
-├── 4.3 SIF status verify → "READY FOR NEXT BATCH"
+├── 4.3 SIF status verify → READY FOR NEXT BATCH
 └── 4.4 Shift handover log entry (if shift change)
 ```
 

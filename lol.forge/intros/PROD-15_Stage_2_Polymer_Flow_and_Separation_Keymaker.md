@@ -144,5 +144,5 @@
 
 ---
 
-*Keymaker Heuristic: "The interface is the system. Everything else is implementation."*
+*Keymaker Heuristic: The interface is the system. Everything else is implementation.*
 *This document: Interfaces defined. Implementation specified.*

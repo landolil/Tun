@@ -125,7 +125,7 @@ The Calama-Salta railway connection (also known as the **Ferrocarril Trasandino 
 
 **Governance & Accountability Framework**:
 - **Oversight**: MTT (strategic), Dipres (budget), Contraloría (audit), SEP (state enterprise system)
-- **Performance Contract**: 5-year "Contrato de Gestión" (2024-2028) with MTT — KPIs tied to budget allocation
+- **Performance Contract**: 5-year Contrato de Gestión (2024-2028) with MTT — KPIs tied to budget allocation
 - **Transparency**: Annual public memory (Memoria Anual), quarterly board minutes published
 - **Labor Relations**: 1,200 employees, 3 unions (AFIN, ASOEM, SIF) — collective bargaining every 2 years
 

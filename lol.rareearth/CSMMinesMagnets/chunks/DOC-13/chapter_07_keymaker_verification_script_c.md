@@ -5,11 +5,11 @@ verify_keymaker() {
     local bits=$(echo $vector | tr ',' '\n')
     
     for bit in $bits; do
-        if [[ $bit != "1" ]]; then
-            echo "FAIL: $doc bit $bit = 0"
+        if [[ $bit != 1 ]]; then
+            echo FAIL: $doc bit $bit = 0
             return 1
         fi
     done
-    echo "PASS: $doc all bits = 1"
+    echo PASS: $doc all bits = 1
     return 0
 }

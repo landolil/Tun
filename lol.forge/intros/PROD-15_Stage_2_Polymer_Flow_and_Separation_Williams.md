@@ -54,5 +54,5 @@
 
 ---
 
-*Williams Heuristic: "If the physics works at the limit, the engineering is just detail."*
+*Williams Heuristic: If the physics works at the limit, the engineering is just detail.*
 *This document: Physics works. Engineering follows.*

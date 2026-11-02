@@ -7,11 +7,11 @@ required_pull_request_reviews:
 required_status_checks:
   strict: true
   contexts:
-    - "ci/lint"
-    - "ci/typecheck"
-    - "ci/test"
-    - "ci/signature-verify"
-    - "ci/split-chunks-verify"
+    - ci/lint
+    - ci/typecheck
+    - ci/test
+    - ci/signature-verify
+    - ci/split-chunks-verify
 enforce_admins: true
 required_linear_history: true
 allow_force_pushes: false

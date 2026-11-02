@@ -156,7 +156,7 @@ Port 2 at drum OD (Port open at 200°C): primarily discharges highest-density po
 As temperature rises through 450°C, lower-density polymers also flow.
 
 **Output:** Mixed polymer slug exiting Port 2, quenched in BFRP mold.
-This "mixed polymer block" is a downstream input for:
+This mixed polymer block is a downstream input for:
 - Elium® reformulation (MMA-compatible melt blending)
 - BFRP matrix additive (modified impact resistance)
 - Future CSM product: polymer filament for 3D printing
@@ -253,7 +253,7 @@ This makes the Aegis-Forge I a **domestic Indium recovery machine** — reducing
 At 420-660°C (Zn melting range):
 - Zinc: rho_Zn = 5.96×10⁻⁸ Ohm·m → excellent induction coupling
 - Lead: rho_Pb = 2.0×10⁻⁷ Ohm·m → good induction coupling
-- At this stage, aluminum is still solid (Tm = 660°C) and provides the "solid matrix"
+- At this stage, aluminum is still solid (Tm = 660°C) and provides the solid matrix
 
 Induction power (50 kHz, 80 kW): specifically heats Zn/Pb/Sn particles within the solid Al/Cu/Fe matrix.
 The melt pools at Zn/Pb grain locations, coalesces under G-force, and drains outward.
@@ -374,7 +374,7 @@ The Stage 8 mineral residue that exits Port 8 is:
 A partially fused slag-like material rich in Zr, Ti, rare earth oxides, Al2O3, SiO2.
 This is the primary input for the Materials Study Part V critical mineral recovery program.
 
-**Output: "Mineral Concentrate Slug" — the treasure chest**
+**Output: Mineral Concentrate Slug — the treasure chest**
 Chemical analyses of Port 8 output from mixed electronics recycling (per ton input):
 - ZrO2: 0.5-3% (from ITO-bearing LCD glass)
 - TiO2: 1-4% (from white pigments in plastics, ilmenite-bearing minerals)

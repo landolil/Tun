@@ -26,7 +26,7 @@ PILLAR 2: COMMUNITY (Informal)
 ├── Talleres de Abuelos: Kimün holders teach youth (oral tradition)
 ├── Radio Kunza: 2 hrs/day (Radio Ayllu 107.5 FM, streaming)
 ├── Turismo Lingüístico: Guides use Kunza place names, greetings
-└── Festival Anual: "Kunza Vive" (cultural pride, intergenerational)
+└── Festival Anual: Kunza Vive (cultural pride, intergenerational)
 
 PILLAR 3: DIGITAL (Preservation + Access)
 ├── Corpus: 450 hrs audio/video (elders, ceremonies, place names)

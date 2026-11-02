@@ -4,7 +4,7 @@
 ### The Empirical Lock
 **What fabrication fidelity gap does this address?**
 
-The gap is **the missing computational primitive for "company town transition under triple stress: commodity crash + automation + resource exhaustion."** Existing models handle one stressor: mine closure (ICMM), commodity cycles (World Bank), automation (ILO), or water depletion (DGA). None handle the *simultaneity* in a Chilean legal framework where the municipality *is* the company's housing department. The Lock: **No spreadsheet, no GIS layer, no EIA addendum captures the feedback loop: Li price → patente minera → municipal payroll → SQM social license → automation decision → unemployment → social unrest → SQM license risk → Li production cut → price support.** This is a *dynamic system*, not a static snapshot.
+The gap is **the missing computational primitive for company town transition under triple stress: commodity crash + automation + resource exhaustion.** Existing models handle one stressor: mine closure (ICMM), commodity cycles (World Bank), automation (ILO), or water depletion (DGA). None handle the *simultaneity* in a Chilean legal framework where the municipality *is* the company's housing department. The Lock: **No spreadsheet, no GIS layer, no EIA addendum captures the feedback loop: Li price → patente minera → municipal payroll → SQM social license → automation decision → unemployment → social unrest → SQM license risk → Li production cut → price support.** This is a *dynamic system*, not a static snapshot.
 
 ### The Mathematical Key
 **What single computational primitive generates the solution?**

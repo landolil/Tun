@@ -144,7 +144,7 @@ git remote -v
 
 # Standard commit
 git add -A
-git -c user.name="Kilo Agent" -c user.email="kilo@carringtonstormmotors.com" commit -m "lol.forge: PROD-XX <title> — NNN lines + intro"
+git -c user.name=Kilo Agent -c user.email=kilo@carringtonstormmotors.com commit -m lol.forge: PROD-XX <title> — NNN lines + intro
 git pull --rebase && git push
 
 # Tag milestones

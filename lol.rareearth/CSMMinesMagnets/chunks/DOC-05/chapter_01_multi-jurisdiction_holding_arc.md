@@ -21,7 +21,7 @@ TARDIGRADIA HOLDING COMPANY — MULTI-JURISDICTION CASCADE
 │        Financial LPs (pension funds, SWFs, family offices)                         │
 │   Governing Law: Delaware LP Act (6 Del. C. § 17-101 et seq.)                      │
 │   Tax: US partnership pass-through; no entity-level tax                            │
-│   CPTPP Coverage: "Covered investment" under Art 9 (Chile member since 2023)       │
+│   CPTPP Coverage: Covered investment under Art 9 (Chile member since 2023)       │
 └─────────────────────────────────────────────────────────────────────────────────────┘
                                       │ 100% ownership (via Tardigradia Chile SpA)
                                       ▼
@@ -89,11 +89,11 @@ TARDIGRADIA HOLDING COMPANY — MULTI-JURISDICTION CASCADE
 
 ### 1.5 CPTPP Investment Protection — Structural Integration
 
-The Tardigradia structure is designed to qualify as "covered investment" under **CPTPP Article 9 (Investment)**:
+The Tardigradia structure is designed to qualify as covered investment under **CPTPP Article 9 (Investment)**:
 
 | CPTPP Requirement | Tardigradia Satisfaction |
 |-------------------|-------------------------|
-| "Investment" definition (Art 9.1) | Concessions (derechos reales) + SpA shares + LP interests = covered |
+| Investment definition (Art 9.1) | Concessions (derechos reales) + SpA shares + LP interests = covered |
 | Fair & Equitable Treatment (Art 9.4) | FBC veto + CVO = FET compliance; community consent = FET evidence |
 | Expropriation protection (Art 9.5) | Environmental bonds first claim (Law 20,720 Art 134); trust assets segregated |
 | Performance requirements prohibited (Art 9.9) | No local content mandates; technology transfer voluntary (Aegis-Forge license) |

@@ -29,7 +29,7 @@
 2. **Dimensions:** Laser triangulation (±0.1 mm)
 3. **Composition:** LIBS re-check at demold (PROD-08 Section 5)
 4. **Grade Assignment:** DIRECT_USE (electrorefining feed)
-5. **Registry Entry:** `slug_registry` with `downstream_machine: "114-electrorefining"`
+5. **Registry Entry:** `slug_registry` with `downstream_machine: 114-electrorefining`
 
 ### 6.2 Slime Collection and Transfer to FOLLOW-19
 

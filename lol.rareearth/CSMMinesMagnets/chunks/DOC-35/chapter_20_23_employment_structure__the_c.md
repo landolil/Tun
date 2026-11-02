@@ -18,7 +18,7 @@
 | **Members** | **2,200** (all direct SQM) |
 | **Affiliation** | CUT (Central Unitaria de Trabajadores) |
 | **Current CBA** | 2023-2026: +4.5% real, housing guarantee, health fund, automation clause |
-| **Automation Clause** | **"Just Transition" — 24-month notice, retraining fund $5M, early retirement 55+** |
+| **Automation Clause** | **Just Transition — 24-month notice, retraining fund $5M, early retirement 55+** |
 | **Housing Allocation** | Union manages waitlist (500 families), priority: seniority + family size |
 | **Health Fund** | CLP 2B/yr (SQM 70%, worker 30%) — covers clinic, specialists, emergencies |
 | **Political Weight** | **Dominant local actor** — influences municipal elections, regional policy |

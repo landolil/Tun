@@ -59,7 +59,7 @@
 
 - **Primary**: Trackball + dedicated function keys (F1-F12 mapped to stages)
 - **Secondary**: Touchscreen on Monitor 6 (diagnostics only)
-- **Tertiary**: Voice commands (noise-canceling headset, "Forge: Zone 3 PID auto")
+- **Tertiary**: Voice commands (noise-canceling headset, Forge: Zone 3 PID auto)
 - **Gesture**: Leap Motion for 3D twin manipulation (Monitor 6)
 - **Authorization**: Hardware token (YubiKey) + badge for gates SG-2, SG-3, CT-04, SAT-05
 

@@ -138,21 +138,21 @@ TOTAL SEED MATERIALS GENERATED PER BATCH:
 
 ```json
 {
-  "material_id": "ZrB2-20261031-042-A",
-  "source_slug": "S-11-BATCH-20261031-042-8-1676-0007",
-  "phoenix_generation": 0,
-  "source_feedstock": "Zircon sand (Australia, Iluka Resources, Lot ZS-2026-044)",
-  "processing_path": [
-    "AMLS: 20 min LF+US liberation",
-    "Forge Stage 8: 1700°C, 20 min dwell",
-    "Hydromet: H2SO4 leach, Y-co-precipitation",
-    "Calcination: 1200°C, 4h",
-    "Carbothermal: 1700°C, 16h, B2O3+C"
+  material_id: ZrB2-20261031-042-A,
+  source_slug: S-11-BATCH-20261031-042-8-1676-0007,
+  phoenix_generation: 0,
+  source_feedstock: Zircon sand (Australia, Iluka Resources, Lot ZS-2026-044),
+  processing_path: [
+    AMLS: 20 min LF+US liberation,
+    Forge Stage 8: 1700°C, 20 min dwell,
+    Hydromet: H2SO4 leach, Y-co-precipitation,
+    Calcination: 1200°C, 4h,
+    Carbothermal: 1700°C, 16h, B2O3+C
   ],
-  "final_purity": "ZrB2 99.2%, O 0.8%, C 0.3%, Fe 0.02%",
-  "certification": "CSMFAB-SEED-ZRB2-V1.0",
-  "allocated_to": "Flash Sintering Run FS-20261101-003",
-  "allocated_products": ["Aegis-C-Panel-042", "Stove-Burner-017", "Crucible-Set-009"]
+  final_purity: ZrB2 99.2%, O 0.8%, C 0.3%, Fe 0.02%,
+  certification: CSMFAB-SEED-ZRB2-V1.0,
+  allocated_to: Flash Sintering Run FS-20261101-003,
+  allocated_products: [Aegis-C-Panel-042, Stove-Burner-017, Crucible-Set-009]
 }
 ```
 

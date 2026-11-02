@@ -13,7 +13,7 @@ The PROD-37 Digital Twin maintains a **four-layer economic mirror**:
 | **Fleet Twin** | 1 Hz | Capex deployment, depot throughput, carbon credits | Network IRR, expansion triggers |
 | **Facility Twin** | 1 Hz | DSCR, covenant compliance, cash flow | Debt service, equity distribution |
 
-**The Mirror Protocol:** Every 90-minute batch, the Batch Twin computes `Actual_Revenue - Budget_Revenue` and `Actual_OPEX - Budget_OPEX`. Variance >5% triggers auto-NCR (PROD-28) → CAPA → PCCFO parameter update. The economic model **rewrites its own parameters** based on operating data. The Williams "Constraint" (physics invariants) is immutable. The Keymaker "Key" (PCCFO operator) is immutable. But the El Segundo "Protocol" (parameter values) is **continuously calibrated**.
+**The Mirror Protocol:** Every 90-minute batch, the Batch Twin computes `Actual_Revenue - Budget_Revenue` and `Actual_OPEX - Budget_OPEX`. Variance >5% triggers auto-NCR (PROD-28) → CAPA → PCCFO parameter update. The economic model **rewrites its own parameters** based on operating data. The Williams Constraint (physics invariants) is immutable. The Keymaker Key (PCCFO operator) is immutable. But the El Segundo Protocol (parameter values) is **continuously calibrated**.
 
 The economic model also mirrors its own **fabrication cost** through the Hyperledger Fabric blockchain (PROD-28). Every drum, vessel, coil, module carries its actual fabrication cost (not budget) in its QR-coded birth record. The CAPEX in Section 2 is not an estimate — it is the **sum of actuals from the first 3 Forges (FA-01/02/03)**. The economic model observes its own fabrication through the same traceability chain that tracks In from mine to anode slime.
 

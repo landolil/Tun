@@ -452,7 +452,7 @@ $$\text{Developable Surface: } \mathbf{r}(u,v) = \mathbf{c}(u) + v \cdot \mathbf
 3. Nest resulting pattern pieces within $W_{\text{loom}} \times L_{\text{fabric}}$
 4. Add seam allowances per CIETA Class 1 (10 mm) or Class 2 (15 mm)
 
-**Key Innovation:** Alcega's **"convolute surfaces"** — ruled surfaces where generatrix is tangent to a space curve (edge of regression). This enables **zero-waste bodice suppression** by converting dart intake into curved seam lines.
+**Key Innovation:** Alcega's **convolute surfaces** — ruled surfaces where generatrix is tangent to a space curve (edge of regression). This enables **zero-waste bodice suppression** by converting dart intake into curved seam lines.
 
 ### 1.2 Garsault's Proportional Scaling System
 
@@ -518,11 +518,11 @@ Sumptuary laws (1550-1700) imposed **quantifiable limits** on materials, constru
 
 | Constraint | Historical Law | Algorithmic Form | Layer Impact |
 |------------|----------------|------------------|--------------|
-| **Gold thread width** | Elizabethan 1574: "no gold thread > 1/8 inch" | $w_{\text{Au}} \leq 3.175\text{ mm}$ | L3, L4, L6 metallic thread |
-| **Dye chemistry** | Spanish 1582: "no cochineal on silk < 20 ducats/yard" | $\text{Cost}_{\text{dye}} \leq C_{\text{max}}$ | L1 YInMn Blue synthesis |
-| **Yardage maximum** | French 1629: "court gown ≤ 15 aunes (19.5 m)" | $A_{\text{total}} \leq 19.5\text{ m}^2$ | Nesting optimization (DRAFT-05) |
-| **Guild segregation** | London 1604: "tailors ≠ embroiderers ≠ silkweavers" | $\text{Process}_i \cap \text{Process}_j = \emptyset$ | Fabricator chain topology |
-| **Fur restrictions** | Venetian 1562: "ermine only for doge/council" | $\text{Material}_{\text{fur}} \in \{\text{permitted}\}$ | L10 baleen substitution |
+| **Gold thread width** | Elizabethan 1574: no gold thread > 1/8 inch | $w_{\text{Au}} \leq 3.175\text{ mm}$ | L3, L4, L6 metallic thread |
+| **Dye chemistry** | Spanish 1582: no cochineal on silk < 20 ducats/yard | $\text{Cost}_{\text{dye}} \leq C_{\text{max}}$ | L1 YInMn Blue synthesis |
+| **Yardage maximum** | French 1629: court gown ≤ 15 aunes (19.5 m) | $A_{\text{total}} \leq 19.5\text{ m}^2$ | Nesting optimization (DRAFT-05) |
+| **Guild segregation** | London 1604: tailors ≠ embroiderers ≠ silkweavers | $\text{Process}_i \cap \text{Process}_j = \emptyset$ | Fabricator chain topology |
+| **Fur restrictions** | Venetian 1562: ermine only for doge/council | $\text{Material}_{\text{fur}} \in \{\text{permitted}\}$ | L10 baleen substitution |
 
 ### 2.2 Constraint Satisfaction Formulation
 
@@ -643,12 +643,12 @@ grep -ic 'historical-reference-post-1700\|historical-reference-pre-period'
 
 | Concept | Historical Term | Modern Equivalent | Documentation Rule |
 |---------|-----------------|-------------------|-------------------|
-| Ballistic layer | "Ceramic-gilded tile" | ZrB₂-SiC UHTC | Always pair: "ZrB₂-SiC (historical: ceramic-gilded tile)" |
-| EMI shielding | "Cloth of gold/silver" | MXene Ti₃C₂Tₓ on thread | Always pair: "MXene-coated metallic thread (historical: cloth of gold)" |
-| Thermal insulation | "Quilting/batting" | Aerogel microcapsules | Always pair: "Aerogel microcapsule quilting (historical: silk batting)" |
-| Impact mitigation | "Stuffed doublet" | STF SiO₂-PEG impregnation | Always pair: "STF-impregnated silk (historical: stuffed doublet)" |
-| Structural chassis | "Baleen/whalebone stays" | Baleen/steel hybrid | Always pair: "Baleen-steel chassis (historical: baleen stays)" |
-| NIR coating | "Ultramarine/azurite pigment" | YInMn Blue + QD | Always pair: "YInMn Blue (historical: ultramarine replacement)" |
+| Ballistic layer | Ceramic-gilded tile | ZrB₂-SiC UHTC | Always pair: ZrB₂-SiC (historical: ceramic-gilded tile) |
+| EMI shielding | Cloth of gold/silver | MXene Ti₃C₂Tₓ on thread | Always pair: MXene-coated metallic thread (historical: cloth of gold) |
+| Thermal insulation | Quilting/batting | Aerogel microcapsules | Always pair: Aerogel microcapsule quilting (historical: silk batting) |
+| Impact mitigation | Stuffed doublet | STF SiO₂-PEG impregnation | Always pair: STF-impregnated silk (historical: stuffed doublet) |
+| Structural chassis | Baleen/whalebone stays | Baleen/steel hybrid | Always pair: Baleen-steel chassis (historical: baleen stays) |
+| NIR coating | Ultramarine/azurite pigment | YInMn Blue + QD | Always pair: YInMn Blue (historical: ultramarine replacement) |
 
 ---
 
@@ -658,7 +658,7 @@ grep -ic 'historical-reference-post-1700\|historical-reference-pre-period'
 
 ### 5.1 Zero-Waste as Default (Not Optimization)
 
-Alcega's system **assumes zero waste** — pattern pieces are derived to fill the loom width completely. Modern "zero-waste optimization" (DRAFT-05) **recovers** this principle.
+Alcega's system **assumes zero waste** — pattern pieces are derived to fill the loom width completely. Modern zero-waste optimization (DRAFT-05) **recovers** this principle.
 
 $$\eta_{\text{nest}} = \frac{\sum A_{\text{pieces}}}{W_{\text{loom}} \cdot L_{\text{used}}} = 1.0 \quad \text{(Alcega ideal)}$$
 
@@ -686,10 +686,10 @@ Sumptuary-enforced guild segregation ensures **process traceability** and **qual
 
 ```python
 def evaluate_design(x: DesignVector, edition: Edition) -> Tuple[float, float]:
-    """
+    
     Evaluate Historical Authenticity Score and Protection Efficacy Score.
     Returns: (HAS, PES) in [0, 1] × [0, 1]
-    """
+    
     # Decode design vector
     layer_thicknesses = decode_thicknesses(x[:12])
     material_choices = decode_materials(x[12:24])
@@ -11101,18 +11101,18 @@ $$\text{Chassis Fraction} = \frac{M_{L10}}{M_{sys}} = \frac{0.90}{13.73} = 6.6\%
 **Per-Donning Log Entry:**
 ```json
 {
-  "timestamp": "2026-10-14T08:00:00Z",
-  "serial": "RMSS-2026-0042",
-  "wearer_id": "OP-7741",
-  "les_zones": {
-    "Z1": 51, "Z2": 56, "Z3": 61, "Z4": 60,
-    "Z5": 54, "Z6": 50, "Z7": 46, "Z8": 41,
-    "Z9": 36, "Z10": 31, "Z11": 26, "Z12": 21
+  timestamp: 2026-10-14T08:00:00Z,
+  serial: RMSS-2026-0042,
+  wearer_id: OP-7741,
+  les_zones: {
+    Z1: 51, Z2: 56, Z3: 61, Z4: 60,
+    Z5: 54, Z6: 50, Z7: 46, Z8: 41,
+    Z9: 36, Z10: 31, Z11: 26, Z12: 21
   },
-  "total_tension": 533,
-  "all_critical_pass": true,
-  "donning_time_s": 88,
-  "battery_pct": 92
+  total_tension: 533,
+  all_critical_pass: true,
+  donning_time_s: 88,
+  battery_pct: 92
 }
 ```
 
@@ -12860,9 +12860,9 @@ $ grep -ric 'historical-period-terms' chunks/DOC-13_RenaissanceMan_SS_Specificat
 | **Hose Attachment** | Cartridge pleat to waistband | Cartridge pleat + MXene thread | ✅ |
 
 **Mitigations for Anachronisms:**
-1. **Brass Eyelets:** Documented as "period-plausible upgrade" — hidden under lacing, documented in HG-01 as acceptable modernization for structural integrity
-2. **Dyneema Lacing:** Documented as "material substitution" — silk core with Dyneema strength member, MXene coating maintains historical appearance
-3. **Magnetic Cleats:** MAX phase aglets — documented as "functional equivalent" of period horn/bone cleats with improved durability
+1. **Brass Eyelets:** Documented as period-plausible upgrade — hidden under lacing, documented in HG-01 as acceptable modernization for structural integrity
+2. **Dyneema Lacing:** Documented as material substitution — silk core with Dyneema strength member, MXene coating maintains historical appearance
+3. **Magnetic Cleats:** MAX phase aglets — documented as functional equivalent of period horn/bone cleats with improved durability
 
 **Construction Authenticity: 92%** (2 minor documented anachronisms) ✅ **Acceptable per DOC-02 §4.5**
 
@@ -12958,7 +12958,7 @@ $ python3 ../../__Python_Tools/write_large_file.py verify \
 $ gzip -9 FinishedWork/DOC-13_RenaissanceMan_SS_Specification.md
 $ ratio=$(stat -c%s FinishedWork/DOC-13_RenaissanceMan_SS_Specification.md)
 $ ratio_gz=$(stat -c%s FinishedWork/DOC-13_RenaissanceMan_SS_Specification.md.gz)
-$ echo "scale=2; $ratio/$ratio_gz" | bc
+$ echo scale=2; $ratio/$ratio_gz | bc
 ```
 **Result: 2.4:1** (Target: >2:1) ✅
 
@@ -13019,7 +13019,7 @@ $ python3 scripts/process_batch.py --runner 13 --verify-only
 
 **Test Protocol (DOC-10 §4.3):**
 - Scenario: Combat casualty, assisted by 1 rescuer
-- Timer: Start = "Doff!" command, End = garment clear of body
+- Timer: Start = Doff! command, End = garment clear of body
 - Trials: 5 (different rescuers)
 
 **Results (n=5):**
@@ -13062,7 +13062,7 @@ $ python3 scripts/process_batch.py --runner 13 --verify-only
 **Test Protocol (Chapter 108 §1.2):**
 - Garment: RM-SS Prototype #03, post-mission condition
 - Inspector: Trained technician
-- Timer: Start = garment on rack, End = "Ready for mission" sign-off
+- Timer: Start = garment on rack, End = Ready for mission sign-off
 - Trials: 10
 
 **Results (n=10):**
@@ -18569,18 +18569,18 @@ $$z_{CoG} = \frac{\sum m_i z_i}{\sum m_i} = \frac{0.03(0.01) + 5.16(0.02) + \dot
 **Per-Donning Log Entry:**
 ```json
 {
-  "timestamp": "2026-10-14T08:00:00Z",
-  "serial": "RMSG-2026-XXXX",
-  "wearer_id": "OP-7741",
-  "les_zones": {
-    "Z1": 56, "Z2": 61, "Z3": 66, "Z4": 66,
-    "Z5": 66, "Z6": 61, "Z7": 56, "Z8": 51,
-    "Z9": 46, "Z10": 41, "Z11": 36, "Z12": 31
+  timestamp: 2026-10-14T08:00:00Z,
+  serial: RMSG-2026-XXXX,
+  wearer_id: OP-7741,
+  les_zones: {
+    Z1: 56, Z2: 61, Z3: 66, Z4: 66,
+    Z5: 66, Z6: 61, Z7: 56, Z8: 51,
+    Z9: 46, Z10: 41, Z11: 36, Z12: 31
   },
-  "total_tension": 635,
-  "all_critical_pass": true,
-  "donning_time_s": 98,
-  "battery_pct": 92
+  total_tension: 635,
+  all_critical_pass: true,
+  donning_time_s: 98,
+  battery_pct: 92
 }
 ```
 
@@ -19481,22 +19481,22 @@ $$\alpha_{RM-SG} = \frac{162.5 - 190}{190} \times 0.5 + \frac{110 - 90}{90} \tim
 ### 10.4 Identification Markings
 
 **Physical Labels (per CSMFAB078-A §3.1.5):**
-- **Neck Label:** "AEGIS RM-SG | SN: [serial] | MFG: [date] | LOT: [lot]"
-- **Hose Waistband:** "RM-SG | W=100cm | LACE: 24 eyelets"
-- **Internal LES Tag:** "Z1:55N Z2:60N Z3:65N Z4:65N Z5:60N Z6:55N Z7:55N Z8:50N Z9:45N Z10:40N Z11:35N Z12:30N"
+- **Neck Label:** AEGIS RM-SG | SN: [serial] | MFG: [date] | LOT: [lot]
+- **Hose Waistband:** RM-SG | W=100cm | LACE: 24 eyelets
+- **Internal LES Tag:** Z1:55N Z2:60N Z3:65N Z4:65N Z5:60N Z6:55N Z7:55N Z8:50N Z9:45N Z10:40N Z11:35N Z12:30N
 
 **Digital Identification (PVDF Telemetry):**
 ```json
 {
-  "edition": "RM-SG",
-  "version": "1.3",
-  "serial": "RMSG-2026-XXXX",
-  "morphology": {"H": 162.5, "C": 110, "W": 100},
-  "mass_kg": 17.21,
-  "tiles_primary": 210,
-  "tiles_backup": 340,
-  "les_zones": 12,
-  "firmware": "LES-v2.1"
+  edition: RM-SG,
+  version: 1.3,
+  serial: RMSG-2026-XXXX,
+  morphology: {H: 162.5, C: 110, W: 100},
+  mass_kg: 17.21,
+  tiles_primary: 210,
+  tiles_backup: 340,
+  les_zones: 12,
+  firmware: LES-v2.1
 }
 ```
 
@@ -23031,23 +23031,23 @@ RW-TS MP-01: $0.4(0.85) + 0.3(1.0) + 0.2(0.90) + 0.1(1.0) = \textbf{0.92}$
 ### 10.4 Identification Markings
 
 **Physical Labels (per CSMFAB078-A §3.1.5):**
-- **Neck Label:** "AEGIS RW-TS | SN: [serial] | MFG: [date] | LOT: [lot]"
-- **Skirt Waistband:** "RW-TS | W=65cm | H_p=95cm | HOOP: 12"
-- **Internal LES Tag:** "Z1:50N Z2:55N Z3:60N Z4:60N Z5:55N Z6:50N Z7:55N Z8:45N Z9:40N Z10:35N Z11:30N Z12:25N"
+- **Neck Label:** AEGIS RW-TS | SN: [serial] | MFG: [date] | LOT: [lot]
+- **Skirt Waistband:** RW-TS | W=65cm | H_p=95cm | HOOP: 12
+- **Internal LES Tag:** Z1:50N Z2:55N Z3:60N Z4:60N Z5:55N Z6:50N Z7:55N Z8:45N Z9:40N Z10:35N Z11:30N Z12:25N
 
 **Digital Identification (PVDF Telemetry):**
 ```json
 {
-  "edition": "RW-TS",
-  "version": "1.3",
-  "serial": "RWTS-2026-XXXX",
-  "morphology": {"H": 175, "B": 92, "W": 65, "H_p": 95},
-  "mass_kg": 16.00,
-  "tiles_primary": 170,
-  "tiles_backup": 280,
-  "les_zones": 12,
-  "farthingale_hoops": 12,
-  "firmware": "LES-v2.1"
+  edition: RW-TS,
+  version: 1.3,
+  serial: RWTS-2026-XXXX,
+  morphology: {H: 175, B: 92, W: 65, H_p: 95},
+  mass_kg: 16.00,
+  tiles_primary: 170,
+  tiles_backup: 280,
+  les_zones: 12,
+  farthingale_hoops: 12,
+  firmware: LES-v2.1
 }
 ```
 
@@ -29576,7 +29576,7 @@ The matrix evaluates compatibility across **7 dimensions**:
 3. Place in bubble wrap → barrier bag
 4. Vacuum seal (portable pump, 30 s)
 5. Place in case → latch → pressure relief check
-6. Update RFID/QR status → "MISSION COMPLETE"
+6. Update RFID/QR status → MISSION COMPLETE
 
 ---
 
@@ -29764,7 +29764,7 @@ The matrix evaluates compatibility across **7 dimensions**:
 | **PPE Category** | Inner collar label | CAT III | 100% |
 | **Standards** | Inner collar label | NIJ IV, ISO 15858, etc. | 100% |
 | **Care Instructions** | Separate label | Pictograms (ISO 3758) | 100% |
-| **Warning** | Visible exterior | "Ballistic protection — Do not modify" | 100% |
+| **Warning** | Visible exterior | Ballistic protection — Do not modify | 100% |
 
 ### 5.2 RFID/QR Traceability
 
@@ -30294,7 +30294,7 @@ Ceramic tiles auto-aligning: 40 additional 40mm tiles snapping into position
 via NdFeB magnetic engagement (Hall sensors glowing faint blue). 
 MXene seam tape bridging across new panel junctions, EMI continuity establishing 
 (subtle energy visualization, 63dB shield). 
-Wrist display (1.4" AMOLED) showing LES recalibration: 12-zone pressure bars 
+Wrist display (1.4 AMOLED) showing LES recalibration: 12-zone pressure bars 
 surging from TS to TG targets (Z4: 60→70N, Z5: 60→75N, Z6: 55→70N). 
 PVDF-TrFE bio-acoustic mesh detecting Schumann resonance (7.83Hz waveform). 
 Armored guards presenting test tiles, ballistic data on wall screens. 
@@ -30602,7 +30602,7 @@ Engineering drawing aesthetic with Renaissance marginalia. --ar 16:9 --v 6 --sty
 | Hall Sensor | Tile alignment | HAL-ALG-001 |
 | RTD Sensor | 12-zone thermal | RTD-PTD-001 |
 | SMA Actuator | NiTi, LES zones | SMA-NTI-001 |
-| Wrist Display | 1.4" AMOLED | DIS-AMO-001 |
+| Wrist Display | 1.4 AMOLED | DIS-AMO-001 |
 | Battery | 120 mAh Li-poly | BAT-LIP-001 |
 
 ### 6.2 Gender-Common (1 PN for 4 Editions)
@@ -33749,7 +33749,7 @@ Linear dimension: L_ren = L_aimes × s
 
 ### 2.3 Integration as Ceramic-Gilded Decorative Elements (SYNTH-02 Mapping)
 
-Per SYNTH-02 §2-3, AIMES ceramic tiles map to **Renaissance "ceramic-gilded decorative elements"** mounted in brocade/goldwork patterns:
+Per SYNTH-02 §2-3, AIMES ceramic tiles map to **Renaissance ceramic-gilded decorative elements** mounted in brocade/goldwork patterns:
 
 ```
 DECORATIVE INTEGRATION PARAMETERS:
@@ -33847,7 +33847,7 @@ Linear dimension: L_ren = L_aimes × s
 
 ### 2.3 Integration as Ceramic-Gilded Decorative Elements (SYNTH-02 Mapping)
 
-Per SYNTH-02 §2-3, AIMES ceramic tiles map to **Renaissance "ceramic-gilded decorative elements"** mounted in brocade/goldwork patterns:
+Per SYNTH-02 §2-3, AIMES ceramic tiles map to **Renaissance ceramic-gilded decorative elements** mounted in brocade/goldwork patterns:
 
 ```
 DECORATIVE INTEGRATION PARAMETERS:
@@ -39140,7 +39140,7 @@ Leak Rate Calculation:
 ```
 
 ### 2.3 Secondary Seal: Fabric Tunnel with Adhesive Tape
-Historical "fabric tunnel" closures (per Alcega/DRAFT-01) enhanced with pressure-sensitive adhesive:
+Historical fabric tunnel closures (per Alcega/DRAFT-01) enhanced with pressure-sensitive adhesive:
 
 ```
 Construction:
@@ -40032,10 +40032,10 @@ Power Distribution:
 
 ### 6.2 Historical Power Metaphors
 ```
-"Philosopher's Stone" → MHD generator (transmutes motion to electricity)
-"Elixir of Life" → Battery (stores vital energy)
-"Alchemical Furnace" → Heat pump (transmutes heat)
-"Celestial Spheres" → Thermal zones (harmonic balance)
+Philosopher's Stone → MHD generator (transmutes motion to electricity)
+Elixir of Life → Battery (stores vital energy)
+Alchemical Furnace → Heat pump (transmutes heat)
+Celestial Spheres → Thermal zones (harmonic balance)
 ```
 
 
@@ -41021,11 +41021,11 @@ End-to-End Validation Scenario:
 11. ITU-T G.694.2: CWDM Wavelength Grid (2003)
 
 ### 12.3 Technical References
-1. Kersey et al., "Fiber Grating Sensors," J. Lightwave Technol. 15(8), 1997
-2. Froggatt & Moore, "High-Spatial-Resolution OFDR," Opt. Lett. 23(5), 1998
-3. Soto et al., "BOTDA for Distributed Sensing," J. Lightwave Technol. 31(24), 2013
-4. Dujovne et al., "6TiSCH: IPv6 over TSCH," RFC 9030, 2021
-5. Watteyne et al., "Industrial IEEE 802.15.4e Networks," IEEE Comm. Mag. 2015
+1. Kersey et al., Fiber Grating Sensors, J. Lightwave Technol. 15(8), 1997
+2. Froggatt & Moore, High-Spatial-Resolution OFDR, Opt. Lett. 23(5), 1998
+3. Soto et al., BOTDA for Distributed Sensing, J. Lightwave Technol. 31(24), 2013
+4. Dujovne et al., 6TiSCH: IPv6 over TSCH, RFC 9030, 2021
+5. Watteyne et al., Industrial IEEE 802.15.4e Networks, IEEE Comm. Mag. 2015
 
 ---
 
@@ -41740,10 +41740,10 @@ End-to-End Validation Scenario:
 12. ECSS-Q-ST-60-02C:2019 Radiation Hardness Assurance
 
 ### 13.3 Technical References
-1. Davies et al., "Loihi: A Neuromorphic Manycore Processor," IEEE Micro 2018
-2. Orchard et al., "Efficient Neuromorphic Computing with Loihi 2," IEEE JSSC 2021
-3. Rushby, "Partitioning in Avionics Architectures," NASA TM 1999
-4. Whitham & Audsley, "Fixed-Priority Scheduling with ARINC 653," Real-Time Systems 2006
+1. Davies et al., Loihi: A Neuromorphic Manycore Processor, IEEE Micro 2018
+2. Orchard et al., Efficient Neuromorphic Computing with Loihi 2, IEEE JSSC 2021
+3. Rushby, Partitioning in Avionics Architectures, NASA TM 1999
+4. Whitham & Audsley, Fixed-Priority Scheduling with ARINC 653, Real-Time Systems 2006
 5. ISO 26262-6:2018 Product Development - Software Level
 
 ---
@@ -42238,17 +42238,17 @@ The process capability index is $C_{pk} = \min\left(\frac{USL - \bar{X}}{3\sigma
 ```
 Recipe structure (JSON):
 {
-  "edition": "RM-TG",
-  "gantry_reach_mm": 3100,
-  "panel_layout": "SYNTH-03/DXF/RM-TG_v4.2.dxf",
-  "sewing_sequences": [
-    {"layer": "L1", "stitch": "301", "density": 4.7, "thread": "core-spun_PET_cotton"},
-    {"layer": "L2", "stitch": "401", "density": 3.1, "thread": "para-aramid"}
+  edition: RM-TG,
+  gantry_reach_mm: 3100,
+  panel_layout: SYNTH-03/DXF/RM-TG_v4.2.dxf,
+  sewing_sequences: [
+    {layer: L1, stitch: 301, density: 4.7, thread: core-spun_PET_cotton},
+    {layer: L2, stitch: 401, density: 3.1, thread: para-aramid}
   ],
-  "us_weld_params": {"US-01": {"freq": 35000, "amp": 40, "force": 800, "speed": 12}},
-  "rf_weld_params": {"RF-01": {"voltage": 1800, "power": 3200, "time": 2.5}},
-  "vision_fiducials": ["RM-TG_fiducials.csv"],
-  "qa_thresholds": {"peel": 80, "shear": 200, "leak": 1e-9}
+  us_weld_params: {US-01: {freq: 35000, amp: 40, force: 800, speed: 12}},
+  rf_weld_params: {RF-01: {voltage: 1800, power: 3200, time: 2.5}},
+  vision_fiducials: [RM-TG_fiducials.csv],
+  qa_thresholds: {peel: 80, shear: 200, leak: 1e-9}
 }
 ```
 
@@ -42769,32 +42769,32 @@ Covariance $\boldsymbol{\Sigma}$: Estimated from Phase I (30 subgroups n=5)
 
 ```json
 {
-  "@context": "https://aegis-fab.org/qa-context.jsonld",
-  "test_id": "QA-2026-10-18-RM-TG-0042",
-  "timestamp": "2026-10-18T14:32:17Z",
-  "edition": "RM-TG",
-  "lot_id": "LOT-2026-10-15-RM-TG-L3",
-  "material_lots": {
-    "L3_ceramic": "MAT-B4C-2026-10-01-042",
-    "L3_adhesive": "MAT-EPX-2026-09-28-017"
+  @context: https://aegis-fab.org/qa-context.jsonld,
+  test_id: QA-2026-10-18-RM-TG-0042,
+  timestamp: 2026-10-18T14:32:17Z,
+  edition: RM-TG,
+  lot_id: LOT-2026-10-15-RM-TG-L3,
+  material_lots: {
+    L3_ceramic: MAT-B4C-2026-10-01-042,
+    L3_adhesive: MAT-EPX-2026-09-28-017
   },
-  "test_type": "XRAY_CT",
-  "parameters": {
-    "voltage_kV": 180,
-    "current_mA": 1.2,
-    "voxel_um": 10,
-    "scan_time_s": 1800
+  test_type: XRAY_CT,
+  parameters: {
+    voltage_kV: 180,
+    current_mA: 1.2,
+    voxel_um: 10,
+    scan_time_s: 1800
   },
-  "results": {
-    "void_count": 3,
-    "max_void_mm3": 0.027,
-    "delam_count": 0,
-    "pass_fail": "PASS",
-    "images": ["s3://aegis-qa/CT-0042/"]
+  results: {
+    void_count: 3,
+    max_void_mm3: 0.027,
+    delam_count: 0,
+    pass_fail: PASS,
+    images: [s3://aegis-qa/CT-0042/]
   },
-  "operator": "AUTO-CT-03",
-  "reviewer": "QA-ENG-007",
-  "digital_twin_ref": "DT-RM-TG-0042"
+  operator: AUTO-CT-03,
+  reviewer: QA-ENG-007,
+  digital_twin_ref: DT-RM-TG-0042
 }
 ```
 
@@ -43565,38 +43565,38 @@ THREAT CLASS: MILITARY/TACTICAL (NIJ IV + MIL-STD-810H)
 ```
 MISSION CONFIG FORMAT (JSON, AES-256 encrypted):
 {
-  "suit_id": "AIMES-TG-0042",
-  "edition": "LE-TG_RM",
-  "wearer": {
-    "id": "OP-8847",
-    "anthropometry": {"height":192,"chest":124,"waist":112,"hip":124,"shoulder":55,"sleeve":68,"inseam":88}
+  suit_id: AIMES-TG-0042,
+  edition: LE-TG_RM,
+  wearer: {
+    id: OP-8847,
+    anthropometry: {height:192,chest:124,waist:112,hip:124,shoulder:55,sleeve:68,inseam:88}
   },
-  "mission": {
-    "type": "STRUCTURE_FIRE",
-    "profile": "NFPA_1971_ATTACK",
-    "duration_min": 45,
-    "recovery_min": 15
+  mission: {
+    type: STRUCTURE_FIRE,
+    profile: NFPA_1971_ATTACK,
+    duration_min: 45,
+    recovery_min: 15
   },
-  "threat_profile": {
-    "thermal": {"max_temp":1100,"duration":300,"TPP_min":45},
-    "electrical": {"GIC_max":50,"arc_rating":50},
-    "ballistic": {"level":"NIJ_IV"},
-    "blast": {"charge_kg":0.5,"standoff_m":5},
-    "directed_energy": {"wavelength_nm":1064,"fluence_Jcm2":10},
-    "chem_bio": {"agents":["GB","HD","VX"],"duration_min":120}
+  threat_profile: {
+    thermal: {max_temp:1100,duration:300,TPP_min:45},
+    electrical: {GIC_max:50,arc_rating:50},
+    ballistic: {level:NIJ_IV},
+    blast: {charge_kg:0.5,standoff_m:5},
+    directed_energy: {wavelength_nm:1064,fluence_Jcm2:10},
+    chem_bio: {agents:[GB,HD,VX],duration_min:120}
   },
-  "les_tensions": {
-    "Z1":22,"Z2":35,"Z3":48,"Z4":32,"Z5":20,"Z6":15,
-    "Z7":18,"Z8":25,"Z9":22,"Z10":18,"Z11":15,"Z12":12
+  les_tensions: {
+    Z1:22,Z2:35,Z3:48,Z4:32,Z5:20,Z6:15,
+    Z7:18,Z8:25,Z9:22,Z10:18,Z11:15,Z12:12
   },
-  "mhd_profile": {"flow_Lmin":2.0,"field_T":0.8},
-  "thermal_profile": {"setpoint_C":22,"COP_heat":3.0,"COP_cool":4.0},
-  "seal_profile": {"leak_rate_max":1e-6,"CO2_max_ppm":5000,"O2_min_pct":19.5},
-  "ai_models": {"threat_classifier_v":"3.2.1","bio_acoustic_v":"1.8.0","control_policy_v":"2.1.4"},
-  "comm_plan": {"primary":"FEATHER_LORA","secondary":"PROTONIC","tertiary":"BLE52"},
-  "crypto": {"key_id":"AIMES-2026-Q3-KEY-042","algo":"AES-256-GCM"},
-  "timestamp": "2026-10-18T20:22:00Z",
-  "hash": "sha384:..."
+  mhd_profile: {flow_Lmin:2.0,field_T:0.8},
+  thermal_profile: {setpoint_C:22,COP_heat:3.0,COP_cool:4.0},
+  seal_profile: {leak_rate_max:1e-6,CO2_max_ppm:5000,O2_min_pct:19.5},
+  ai_models: {threat_classifier_v:3.2.1,bio_acoustic_v:1.8.0,control_policy_v:2.1.4},
+  comm_plan: {primary:FEATHER_LORA,secondary:PROTONIC,tertiary:BLE52},
+  crypto: {key_id:AIMES-2026-Q3-KEY-042,algo:AES-256-GCM},
+  timestamp: 2026-10-18T20:22:00Z,
+  hash: sha384:...
 }
 ```
 
@@ -43616,7 +43616,7 @@ LOAD SEQUENCE:
      f) Comm plan → radio stack reconfig
   6. Verify: Read-back all parameters
   7. Log: Immutable audit trail (WORM storage)
-  8. Confirm: "CONFIG LOADED — MISSION READY"
+  8. Confirm: CONFIG LOADED — MISSION READY
   
 LOAD TIME: ≤60 seconds (typical 35s)
 ROLLBACK: Previous config retained (A/B partition)
@@ -46047,7 +46047,7 @@ $$
 \text{Deploy if } \begin{cases}
 \text{Accelerometer} > 50g \land \text{Duration} > 50 \text{ ms} & \text{(blast)} \\
 \text{EMG} = 0 \land \text{HR} > 0 \land \text{SpO}_2 < 80\% & \text{(limb amputation)} \\
-\text{Operator voice command} & \text{"TOURNIQUET"} \\
+\text{Operator voice command} & \text{TOURNIQUET} \\
 \text{Team medic remote command} & \text{(DOC-29 comms)}
 \end{cases}
 $$
@@ -51289,11 +51289,11 @@ $$\text{Competency}_c = \{\text{ID}, \text{Name}, \text{Description}, \text{Prof
 
 ```json
 {
-  "actor": {"mbox": "mailto:trainee@unit.mil"},
-  "verb": {"id": "http://adlnet.gov/expapi/verbs/experienced", "display": {"en-US": "completed"}},
-  "object": {"id": "https://aimes.mil/curriculum/RM-TS/module-03", "definition": {"type": "http://adlnet.gov/expapi/activities/module"}},
-  "result": {"score": {"scaled": 0.92}, "success": true, "completion": true},
-  "context": {"extensions": {"https://aimes.mil/extensions/edition": "RM-TS", "https://aimes.mil/extensions/session": "live"}}
+  actor: {mbox: mailto:trainee@unit.mil},
+  verb: {id: http://adlnet.gov/expapi/verbs/experienced, display: {en-US: completed}},
+  object: {id: https://aimes.mil/curriculum/RM-TS/module-03, definition: {type: http://adlnet.gov/expapi/activities/module}},
+  result: {score: {scaled: 0.92}, success: true, completion: true},
+  context: {extensions: {https://aimes.mil/extensions/edition: RM-TS, https://aimes.mil/extensions/session: live}}
 }
 ```
 
@@ -53207,7 +53207,7 @@ Input: Waist/skirt pattern, W_unpleated, W_finished, N_pleats
 Line type: DASHED (2mm dash, 1mm gap)
 Color: Yellow (2)
 Arrow: At fold line ends indicating fold direction
-Text: "PLEAT" + fold number + type (M/V)
+Text: PLEAT + fold number + type (M/V)
 ```
 
 **NOTCH Layer at Pleat Match Points:**
@@ -53260,7 +53260,7 @@ $\text{Curvature: } \kappa(x) = \frac{|y''|}{(1 + y'^2)^{3/2}}$
 Line type: DASHED (2mm dash, 1mm gap)
 Color: Yellow (2)
 Arrow: At fold line ends indicating fold direction
-Text: "PLEAT" + fold number + type (M/V)
+Text: PLEAT + fold number + type (M/V)
 ```
 
 **NOTCH Layer at Pleat Match Points:**
@@ -55611,17 +55611,17 @@ Cutting Instructions: Sequence, tool paths
 **Marker File (JSON):**
 ```json
 {
-  "marker_id": "MKR_20261011_001",
-  "edition": "RM-TG",
-  "width_mm": 560,
-  "length_mm": 4500,
-  "efficiency": 0.873,
-  "pieces": [
-    {"id": "BF_01", "x": 12, "y": 45, "rotation": 0, "grain": "warp"},
-    {"id": "BB_01", "x": 200, "y": 45, "rotation": 0, "grain": "warp"}
+  marker_id: MKR_20261011_001,
+  edition: RM-TG,
+  width_mm: 560,
+  length_mm: 4500,
+  efficiency: 0.873,
+  pieces: [
+    {id: BF_01, x: 12, y: 45, rotation: 0, grain: warp},
+    {id: BB_01, x: 200, y: 45, rotation: 0, grain: warp}
   ],
-  "remnants": [
-    {"id": "REM_001", "type": "rectangular", "w": 150, "h": 200, "area": 30000}
+  remnants: [
+    {id: REM_001, type: rectangular, w: 150, h: 200, area: 30000}
   ]
 }
 ```
@@ -55648,17 +55648,17 @@ Cutting Instructions: Sequence, tool paths
 **Marker File (JSON):**
 ```json
 {
-  "marker_id": "MKR_20261011_001",
-  "edition": "RM-TG",
-  "width_mm": 560,
-  "length_mm": 4500,
-  "efficiency": 0.873,
-  "pieces": [
-    {"id": "BF_01", "x": 12, "y": 45, "rotation": 0, "grain": "warp"},
-    {"id": "BB_01", "x": 200, "y": 45, "rotation": 0, "grain": "warp"}
+  marker_id: MKR_20261011_001,
+  edition: RM-TG,
+  width_mm: 560,
+  length_mm: 4500,
+  efficiency: 0.873,
+  pieces: [
+    {id: BF_01, x: 12, y: 45, rotation: 0, grain: warp},
+    {id: BB_01, x: 200, y: 45, rotation: 0, grain: warp}
   ],
-  "remnants": [
-    {"id": "REM_001", "type": "rectangular", "w": 150, "h": 200, "area": 30000}
+  remnants: [
+    {id: REM_001, type: rectangular, w: 150, h: 200, area: 30000}
   ]
 }
 ```
@@ -57150,7 +57150,7 @@ Surface area: A_ren = A_aimes × s²
 | Ballistic limit (NIJ IV) | Pass | Pass | Pass (thinner but stronger) |
 
 **Integration as Decorative Elements:**
-- "Ceramic-gilded decorative elements" (SYNTH-02 mapping)
+- Ceramic-gilded decorative elements (SYNTH-02 mapping)
 - Mounted in brocade/goldwork patterns
 - Magnetic edge alignment (NdFeB N52, 8×3mm) from CSMFAB078 §3.3
 - Panel count scales with edition (LE-TS 42, LE-TG 56, LE-SS 36, LE-SG 48)

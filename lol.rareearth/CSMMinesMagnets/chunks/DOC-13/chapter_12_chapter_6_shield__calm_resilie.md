@@ -10,9 +10,9 @@ The SHIELD heuristic operates on the principle that **pressure reveals structure
 
 In CSMMinesMagnets, Calm manifests as:
 - **Pre-positioned responses** for every identified Lock (Williams) and Failure Mode (Keymaker)
-- **No "emergency meetings"** — only protocol execution
-- **No "urgent decisions"** — only decision trees from DOC-04 triggers
-- **No "crisis management"** — only resilience layer activation
+- **No emergency meetings** — only protocol execution
+- **No urgent decisions** — only decision trees from DOC-04 triggers
+- **No crisis management** — only resilience layer activation
 
 #### 6.1.2 Pressure Taxonomy & Calm Responses
 

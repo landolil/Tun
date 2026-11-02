@@ -68,7 +68,7 @@ grep -c 'DOC-\|IEEE\|NERC\|IEC\|CEN\|ACESOL' FinishedWork/DOC-12_Grid_Forming_In
 **Objective**: Author DOC-13 documenting the CSMOPP (Carrington Storm Motors Operational Personality Protocol) heuristic framework — the five heuristic personalities that shape document tone, structure, and internal logic across the 60-document pipeline.
 
 **Required Research Areas (Pre-Authoring):**
-1. **Williams Heuristic** — Constraint → Necessity → Commitment ("The lock, the key, the turn" — irreducible logic)
+1. **Williams Heuristic** — Constraint → Necessity → Commitment (The lock, the key, the turn — irreducible logic)
 2. **Keymaker Heuristic** — Lock → Key → Turn (Empirical lock, mathematical key, bidirectional validation)
 3. **El Segundo Heuristic** — Mirror → Participation → Protocol (Recursive self-measurement, witness, operational recursion)
 4. **Baker Street Heuristic** — Precision → Evidence → Deduction (Forensic detail, sourced claims, zero ambiguity)
@@ -136,7 +136,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-13/ FinishedWork/DOC-13_*.md.gz FinishedWork/intros/DOC-13_*.md
-git commit -m "DOC-13: CSMOPP Heuristic Personalities — [summary]"
+git commit -m DOC-13: CSMOPP Heuristic Personalities — [summary]
 git tag runner-010-complete
 git push origin --tags
 

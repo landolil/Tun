@@ -21,8 +21,8 @@ The **Kawéskar** (formerly Alacalufe) and **Yagán** (formerly Yámana) are the
 
 | Attribute | Detail |
 |-----------|--------|
-| **Autonym** | **Kawésqar** = "people of the canoe" (kawés = canoe, qar = people) |
-| **Exonym** | Alacalufe (Chono/Mapuche: "mussel eaters") — **rejected** |
+| **Autonym** | **Kawésqar** = people of the canoe (kawés = canoe, qar = people) |
+| **Exonym** | Alacalufe (Chono/Mapuche: mussel eaters) — **rejected** |
 | **Core Territory** | **Western Archipelago**: Wellington Island, Madre de Dios, Campbell, Messenger, Pacheco, Chacabuco, Prat, Angamos, Covadonga — **~40,000 km² marine** |
 | **Population (2024)** | **~3,200** (CONADI: 2,847 self-identified + 350 urban) |
 | **Communities** | **5 recognized** (Puerto Edén, Puerto Natales, Punta Arenas, Caleta Tortel, Caleta Andrade) + **diaspora** |
@@ -33,8 +33,8 @@ The **Kawéskar** (formerly Alacalufe) and **Yagán** (formerly Yámana) are the
 
 | Attribute | Detail |
 |-----------|--------|
-| **Autonym** | **Yagán** = "people of the valleys" (yag = valley, án = people) — **Beagle Channel valleys** |
-| **Exonym** | Yámana (Kawéskar: "people of the east") — **accepted as alternative** |
+| **Autonym** | **Yagán** = people of the valleys (yag = valley, án = people) — **Beagle Channel valleys** |
+| **Exonym** | Yámana (Kawéskar: people of the east) — **accepted as alternative** |
 | **Core Territory** | **Beagle Channel, Navarino Island, Hoste Island, Wollaston Islands, Hermite Islands, Cape Horn** — **~25,000 km² marine** |
 | **Population (2024)** | **~1,800** (CONADI: 1,523 self-identified + 277 urban) |
 | **Communities** | **1 recognized** (Puerto Williams — **southernmost town in world**) + **diaspora** (Punta Arenas, Ushuaia) |
@@ -440,7 +440,7 @@ grep -c -E 'Law 19\.253|Law 21\.435|Decree 120|ILO 169|UNDRIP|UNESCO|Antarctic T
 | **Peat Extraction** | Multiple bogs | 50 kt/yr (horticulture) | **Active** | **Yagán wetland degradation**, carbon release |
 
 **Mina Invierno Legacy (Supreme Court Rol 23.456-2020)**:
-> "La minera Invierno operó sin RCA válida para descarga marina, afectando **canales Kawéskar** (Seno Skyring, Seno Otway). **Orden de cierre y restauración** — **Kawéskar Council como veedor**."
+> La minera Invierno operó sin RCA válida para descarga marina, afectando **canales Kawéskar** (Seno Skyring, Seno Otway). **Orden de cierre y restauración** — **Kawéskar Council como veedor**.
 
 **Restoration Requirements (Court-Ordered)**:
 1. **Pit lake treatment**: Neutralize AMD, **target pH 6.5–7.5** before discharge
@@ -2133,7 +2133,7 @@ grep -c -E 'Law 19\.253|Law 21\.435|Decree 120|ILO 169|UNDRIP|UNESCO|Antarctic T
 ### 8.2.2 Consulta Indígena — Austral Protocols (Parallel Execution)
 
 **SEA Circular 2024 — Consulta Austral Diferenciada**:
-> "Proyectos en macro-región Austral que afecten territorio Kawéskar y/o Yagán requieren **consulta separada por pueblo** según Protocolos Kawéskar WCS (Decreto 120) y Yagán Beagle/Cabo de Hornos. **Consulta conjunta solo en zona de superposición (Seno Almirantazgo/Cabo de Hornos)**. Veto de cualquier pueblo = proyecto no admisible."
+> Proyectos en macro-región Austral que afecten territorio Kawéskar y/o Yagán requieren **consulta separada por pueblo** según Protocolos Kawéskar WCS (Decreto 120) y Yagán Beagle/Cabo de Hornos. **Consulta conjunta solo en zona de superposición (Seno Almirantazgo/Cabo de Hornos)**. Veto de cualquier pueblo = proyecto no admisible.
 
 | Pueblo | Protocolo | Plazo Mínimo | Autoridad Espiritual | Veto |
 |--------|-----------|--------------|---------------------|------|

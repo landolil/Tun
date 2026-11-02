@@ -52,8 +52,8 @@ The inside operator witnesses the phenomenon into existence at **four cognitive 
 **Why not automated:** Feedstock variability (e.g., Category B with unexpected PVC >5%) requires process engineer judgment on HCl management (PROD-15 Stage 2). The recipe choice locks in thermal profile, gas atmosphere, flux strategy — wrong choice = slag formation, port blockage, weeks of downtime.
 
 ### Checkpoint 2: Stage Transition Gate (Per Stage)
-**Trigger:** Stage PLC signals "Stage Complete" (temperature profile met, residence time satisfied, composition target hit).
-**Human action:** Shift Lead reviews stage summary: energy consumed, yield %, gas analysis, SIF events, anomaly flags. Authorizes "Advance to Next Stage" or "Hold for Investigation."
+**Trigger:** Stage PLC signals Stage Complete (temperature profile met, residence time satisfied, composition target hit).
+**Human action:** Shift Lead reviews stage summary: energy consumed, yield %, gas analysis, SIF events, anomaly flags. Authorizes Advance to Next Stage or Hold for Investigation.
 **Why not automated:** Stage 4 (Low-Temp Metals) indium-first strategy requires visual confirmation of In-rich slug at Port 4A (pyrometer + XRF). If In grade <99.9%, operator may extend dwell or adjust flux — this is a metallurgical judgment call. Stage 6 (Cu/PM) requires operator to verify H₂ concentration <4% before opening Port 6B (explosion risk).
 
 ### Checkpoint 3: SIF Bypass Authorization (Emergency Only)

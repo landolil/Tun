@@ -137,8 +137,8 @@ The post-transition governance **embeds** DOC-03 community structures:
 | State Entity | Mechanism | Rights |
 |--------------|-----------|--------|
 | **CORFO** | 5-10% equity at holdco (Corfo Ventures) | Board observer; pro-rata participation rights |
-| **Ministerio de Minería** | MOU "Chilean Magnet Industry Development" | Policy coordination; permitting support; international promotion |
-| **ProChile** | Export promotion agreement | "Chilean Magnets" brand pavilions; co-funded marketing |
+| **Ministerio de Minería** | MOU Chilean Magnet Industry Development | Policy coordination; permitting support; international promotion |
+| **ProChile** | Export promotion agreement | Chilean Magnets brand pavilions; co-funded marketing |
 | **BancoEstado / Banco Central** | Green bond guarantee program | 4.5% coupon vs 6% market; 20-yr tenor |
 
 **State Rights Protection:**

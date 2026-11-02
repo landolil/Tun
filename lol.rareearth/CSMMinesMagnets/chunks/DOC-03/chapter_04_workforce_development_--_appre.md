@@ -94,7 +94,7 @@ Upskilling funded: Tardigradia pays 100% tuition + salary during study leave (1 
 ### 4.5 Community Integration -- Beyond the Plant Gates
 
 - **STEM in Schools**: Tardigradia engineers teach magnetism modules in Grades 8-12 at 15 host-commune schools (3,000 students/yr). Curriculum aligned with Mineduc standards.
-- **Community Workshops**: Monthly "Magnets in Your Life" sessions -- speakers, demos, career talks. Free, open, Spanish + local dialects.
+- **Community Workshops**: Monthly Magnets in Your Life sessions -- speakers, demos, career talks. Free, open, Spanish + local dialects.
 - **Women in Magnetics**: Targeted recruitment, mentorship circles, childcare subsidies, flexible shifts. Goal: 40% women in technical roles by Year 5 (industry avg 12%).
 - **Indigenous Knowledge Integration**: Atacameño/Diaguita elders advise on land use, water ceremony, cultural protocols for plant sites. Paid advisory roles ($2,000/mo/elder).
 

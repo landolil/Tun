@@ -43,9 +43,9 @@ QA Inspector Signature: _______________  Date: __________
 
 | Area | Question | Pass Criteria |
 |------|----------|---------------|
-| **Stage Transition** | "Walk me through Stage 4→5 gate. What LIBS/XRF data do you require?" | Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C |
-| **SIF Bypass** | "Zone 2 overtemperature SIF nuisance trips. Justify 4-hr bypass." | Risk assessment: process impact vs. safety margin, dual-key, blockchain log |
-| **Carrington Exit** | "Grid stable 30 min post-storm. What verifies before reconnect?" | Drum thermal shock <100°C/s, SIF health all green, utility coordination |
-| **Phoenix Blend** | "Primary Depot NA reports In spike in D4. Adjust P_blend?" | MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification |
+| **Stage Transition** | Walk me through Stage 4→5 gate. What LIBS/XRF data do you require? | Identifies In purity, Sn/Pb ratio, Mg content, authorizes Port 5 at 680°C |
+| **SIF Bypass** | Zone 2 overtemperature SIF nuisance trips. Justify 4-hr bypass. | Risk assessment: process impact vs. safety margin, dual-key, blockchain log |
+| **Carrington Exit** | Grid stable 30 min post-storm. What verifies before reconnect? | Drum thermal shock <100°C/s, SIF health all green, utility coordination |
+| **Phoenix Blend** | Primary Depot NA reports In spike in D4. Adjust P_blend? | MFC +2% EOL, verify Stage 4 recovery ↑, gate fee justification |
 
 ---

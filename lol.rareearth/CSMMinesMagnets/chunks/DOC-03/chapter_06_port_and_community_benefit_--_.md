@@ -27,11 +27,11 @@ Chile's magnetic mineral export chain runs through five major port complexes. Ea
 
 #### 6.2.2 Hiring Pipeline -- Port-Specific Programs
 
-- **Mejillones**: Partnership with Ceduc-UCN Mejillones -- "Port Logistics for Magnetic Minerals" technical certificate (6 months). Recruit from Mejillones, Sierra Gorda, María Elena.
-- **Antofagasta**: Universidad de Antofagasta + CFT Estatal -- "Magnetic Mineral Supply Chain" diplomado. Leverage existing mining workforce.
-- **San Antonio**: DuocUC San Antonio + Inacap -- "Magnet Handling & Export Compliance" certification. Target displaced coal/thermal workers (Just Transition).
-- **Coronel**: Universidad de Concepción campus Coronel -- "REE Preprocessing Technician" program. Articulate with fishing/aquaculture workforce transition.
-- **Punta Arenas**: UMAG (Univ. Magallanes) -- "Antarctic Logistics & Critical Minerals" specialization. Long-term strategic investment.
+- **Mejillones**: Partnership with Ceduc-UCN Mejillones -- Port Logistics for Magnetic Minerals technical certificate (6 months). Recruit from Mejillones, Sierra Gorda, María Elena.
+- **Antofagasta**: Universidad de Antofagasta + CFT Estatal -- Magnetic Mineral Supply Chain diplomado. Leverage existing mining workforce.
+- **San Antonio**: DuocUC San Antonio + Inacap -- Magnet Handling & Export Compliance certification. Target displaced coal/thermal workers (Just Transition).
+- **Coronel**: Universidad de Concepción campus Coronel -- REE Preprocessing Technician program. Articulate with fishing/aquaculture workforce transition.
+- **Punta Arenas**: UMAG (Univ. Magallanes) -- Antarctic Logistics & Critical Minerals specialization. Long-term strategic investment.
 
 ### 6.3 Supplier Development -- Port SME Ecosystem
 
@@ -82,7 +82,7 @@ Ferrocarril de Antofagasta a Bolivia (FCAB) carries 90% of northern Chile minera
 #### 6.4.3 Digital Infrastructure -- Community Data Access
 
 - **Port Environmental Dashboard**: Real-time air (PM2.5, SO2, NOx), water (pH, turbidity, metals), noise at 20 stations per port. Public web/mobile access. Tardigradia funds 100% capital, 50% ops; port authority 50% ops.
-- **Magnet Shipment Tracker**: Blockchain-based (Hyperledger Fabric) -- origin mine, Aegis-Forge batch, QC results, carbon footprint. Community can verify "their" minerals are processed cleanly.
+- **Magnet Shipment Tracker**: Blockchain-based (Hyperledger Fabric) -- origin mine, Aegis-Forge batch, QC results, carbon footprint. Community can verify their minerals are processed cleanly.
 - **Community Broadband**: Tardigradia extends fiber to port communities (Mejillones, Coronel gaps) -- 1 Gbps symmetric, $10/mo residential (subsidized).
 
 ### 6.5 Just Transition -- Coal/thermal Communities to Magnet Economy

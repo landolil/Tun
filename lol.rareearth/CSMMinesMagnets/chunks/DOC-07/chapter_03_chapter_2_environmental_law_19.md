@@ -17,7 +17,7 @@ Any project generating *at least one* of the following effects/circumstances req
 Projects under Article 10 that generate *none* of the Art. 11 effects enter via DIA — a simplified declaration demonstrating regulatory compliance without full impact study.
 
 **Mining-Specific Classification (Art. 10, letra i):**
-*"Proyectos de desarrollo minero, incluidos los de carbón, petróleo y gas comprendiendo las prospecciones, explotaciones, plantas procesadoras y disposición de residuos y estériles..."*
+*Proyectos de desarrollo minero, incluidos los de carbón, petróleo y gas comprendiendo las prospecciones, explotaciones, plantas procesadoras y disposición de residuos y estériles...*
 
 | Project Type | Typical Instrument | Rationale |
 |--------------|-------------------|-----------|
@@ -86,7 +86,7 @@ Aegis_Forge_Savings = (Cost_EIA - Cost_DIA) + (Time_EIA - Time_DIA) × Opportuni
 - **Art. 69**: Right to access full electronic/physical expediente
 - **Art. 70**: Right to formulate written observations (60 business days EIA, 10 days DIA if triggered)
 - **Art. 71**: SEA obligation to respond to each observation in RCA fundamentals
-- **Art. 30 bis**: Special PAC for projects with "cargas ambientales" (10-day DIA PAC)
+- **Art. 30 bis**: Special PAC for projects with cargas ambientales (10-day DIA PAC)
 
 **PAC Triggers for Mining:**
 1. EIA mandatory (Art. 11 effects) → automatic 60-day PAC
@@ -116,7 +116,7 @@ Response_Requirement: Addressed in RCA considerations (Art. 71)
 | Mining DIA | 386 | ~260 | 120-720 |
 | **Aegis-Forge DIA** | **180-240** | **~120-160** | **120-300** |
 
-**Reform Pipeline (Bulletin 16552-12 "Evaluación Ambiental 2.0"):**
+**Reform Pipeline (Bulletin 16552-12 Evaluación Ambiental 2.0):**
 - Eliminate COEVA (Council of Ministers) — direct SEA decision
 - Fixed statutory deadlines with automatic approval if exceeded
 - Early engagement (*diálogo temprano*) mandatory pre-ingreso

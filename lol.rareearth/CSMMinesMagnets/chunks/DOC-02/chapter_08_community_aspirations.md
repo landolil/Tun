@@ -1,7 +1,7 @@
 ## Community Aspirations
 ## 8. Community Aspirations -- Diversification, Value-Added, Environmental Remediation
 
-Communities in Chile's mining north do not want mining to stop -- they want it to be **different**. Cleaner, more inclusive, more value retained locally, less water consumed, less fear. This chapter documents community visions gathered from municipal development plans (PLADECO), community surveys, NGO reports, and direct testimony. These aspirations define the "mutual benefit" Tardigradia must deliver.
+Communities in Chile's mining north do not want mining to stop -- they want it to be **different**. Cleaner, more inclusive, more value retained locally, less water consumed, less fear. This chapter documents community visions gathered from municipal development plans (PLADECO), community surveys, NGO reports, and direct testimony. These aspirations define the mutual benefit Tardigradia must deliver.
 
 ### 8.1 Municipal Development Plans (PLADECO) -- Official Community Vision
 
@@ -16,7 +16,7 @@ Every Chilean municipality produces a PLADECO (Plan de Desarrollo Comunal) every
 | Andacollo | 1) Water quality 2) Sustainable tourism 3) Youth retention | Acid drainage prevention, dark sky tourism, local jobs |
 | Mejillones | 1) Air quality 2) Port-city integration 3) Renewable energy | Coal plant closure, waterfront access, solar/wind |
 
-Cross-cutting themes: **Water, Health, Education, Diversification, Environment**. No community asks for "more mining" -- they ask for "better mining" and "life beyond mining."
+Cross-cutting themes: **Water, Health, Education, Diversification, Environment**. No community asks for more mining -- they ask for better mining and life beyond mining.
 
 ### 8.2 Community Survey Data -- What People Actually Say
 
@@ -47,7 +47,7 @@ Communities envision post-mining or parallel economies:
 | Sierra Gorda | Renewable energy hub (solar, wind, green hydrogen) | Best solar resource globally, land, grid | Off-takers, financing, local skills | Fe-Co transformers for grid, training |
 | Mejillones | Logistics + industrial park (green hydrogen, data centers) | Port, grid, free zone, desal water | Anchor tenants, environmental cleanup | Aegis-Forge port-site, clean industry |
 
-Tardigradia can be the **anchor tenant for diversification** -- not just another mine. Aegis-Forge units are advanced manufacturing, not extraction. They create the "better mining" communities want.
+Tardigradia can be the **anchor tenant for diversification** -- not just another mine. Aegis-Forge units are advanced manufacturing, not extraction. They create the better mining communities want.
 
 ### 8.4 Environmental Remediation -- The Unfinished Business
 

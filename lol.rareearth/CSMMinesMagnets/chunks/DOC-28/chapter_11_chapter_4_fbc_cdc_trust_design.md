@@ -40,6 +40,6 @@ Where $CF_{avoided\_risk}$ = glacier loss avoided (shadow priced at $50M/yr per 
 $$Q_{solidarity,w \to w'} = \frac{\max(0, CIA_{w'} - 0.25)}{\sum_{u} \max(0, CIA_u - 0.25)} \cdot Q_{surplus,w}$$
 Where $CIA_w$ = watershed cumulative impact, $Q_{surplus,w}$ = water available above Pehuenche needs. **Enables Maipo/Cachapoal surplus to support Aconcagua/Choapa deficit** — **governed by Butalmapu, not market**.
 
-**Solidarity Principle**: **"The glacier that feeds my river feeds my brother's river" (Pehuenche saying)** — **watershed boundaries are administrative; hydrological reality is shared**.
+**Solidarity Principle**: **The glacier that feeds my river feeds my brother's river (Pehuenche saying)** — **watershed boundaries are administrative; hydrological reality is shared**.
 
 ---

@@ -451,7 +451,7 @@ Each stage implements a **Safety Instrumented Function (SIF)** table:
 
 ```
 Stage Recipe Structure (XML):
-<StageRecipe id="STG-04-REV-03">
+<StageRecipe id=STG-04-REV-03>
   <Header>
     <Stage>4</Stage>
     <Version>3</Version>
@@ -459,13 +459,13 @@ Stage Recipe Structure (XML):
     <Date>2026-11-02</Date>
   </Header>
   <ThermalProfile>
-    <Segment id="1">  <!-- Indium-First -->
+    <Segment id=1>  <!-- Indium-First -->
       <T_Setpoint>160</T_Setpoint>        <!-- °C -->
       <Duration>300</Duration>            <!-- seconds -->
       <RampRate>5</RampRate>              <!-- °C/min -->
       <RPM>400</RPM>
     </Segment>
-    <Segment id="2">  <!-- Sn/Pb/Bi -->
+    <Segment id=2>  <!-- Sn/Pb/Bi -->
       <T_Setpoint>280</T_Setpoint>
       <Duration>180</Duration>
       <RPM>300</RPM>
@@ -512,7 +512,7 @@ Stage Recipe Structure (XML):
 | **Batch System** | ISA-88 compliant (Procedural Function Chart) |
 | **MES Interface** | OPC-UA (CSMFAB companion spec), ERP integration |
 | **Digital Twin** | Kafka + gRPC → PROD-37 (512-core HPC) |
-| **HMI** | 3× 55" 4K displays (control room), 2× tablet (field) |
+| **HMI** | 3× 55 4K displays (control room), 2× tablet (field) |
 | **Redundancy** | Hot standby (dual servers, VRRP, <1 s failover) |
 | **Backup** | Hourly config, daily historian, weekly full (BFRP NAS) |
 
@@ -537,30 +537,30 @@ Stage Recipe Structure (XML):
 ```
 Batch Record Structure:
 Batch_2026-11-02_08 = {
-  "batch_id": "FB-2026-11-02-08",
-  "recipe": "CASCADE-STD-REV-12",
-  "feedstock": {
-    "category": "A",
-    "mass_kg": 50,
-    "composition": {...},
-    "uuid": "CSM-RECYCLER-NA-2026-10-15"
+  batch_id: FB-2026-11-02-08,
+  recipe: CASCADE-STD-REV-12,
+  feedstock: {
+    category: A,
+    mass_kg: 50,
+    composition: {...},
+    uuid: CSM-RECYCLER-NA-2026-10-15
   },
-  "stages": [
-    {"stage": 0, "duration_s": 1800, "energy_kwh": 12, "li_avg": 0.82},
-    {"stage": 1, "duration_s": 1200, "energy_kwh": 8, "moisture_final": 0.02},
+  stages: [
+    {stage: 0, duration_s: 1800, energy_kwh: 12, li_avg: 0.82},
+    {stage: 1, duration_s: 1200, energy_kwh: 8, moisture_final: 0.02},
     ...
-    {"stage": 8, "duration_s": 5400, "energy_kwh": 245, "zircon_diss": 0.96}
+    {stage: 8, duration_s: 5400, energy_kwh: 245, zircon_diss: 0.96}
   ],
-  "outputs": {
-    "slugs": [
-      {"port": 8, "mass_kg": 12.5, "grade": "3Y-TZP", "uuid": "SLG-2026-11-02-08-8A"},
+  outputs: {
+    slugs: [
+      {port: 8, mass_kg: 12.5, grade: 3Y-TZP, uuid: SLG-2026-11-02-08-8A},
       ...
     ],
-    "gas": {"pyrolysis_kwh": 45, "co2_tonne": 0.08}
+    gas: {pyrolysis_kwh: 45, co2_tonne: 0.08}
   },
-  "quality": {"pass": true, "deviations": []},
-  "digital_twin_hash": "sha256:abc123...",
-  "blockchain_anchor": "tx:0xdef456..."
+  quality: {pass: true, deviations: []},
+  digital_twin_hash: sha256:abc123...,
+  blockchain_anchor: tx:0xdef456...
 }
 ```
 
@@ -685,7 +685,7 @@ The SIS is **physically separate** from the BPCS (Basic Process Control System):
 When grid dV/dt > threshold (detected by dedicated monitor):
 
 1. **Detection** (1 ms): Grid monitor FPGA triggers interrupt
-2. **Transition** (5 ms): Inverters switch to "ride-through" — maintain DC link from bus capacitors
+2. **Transition** (5 ms): Inverters switch to ride-through — maintain DC link from bus capacitors
 3. **Isolation** (10 ms): Physical contactors open (vacuum, BFRP housed) — Forge islanded
 4. **Sustain** (indefinite): LiFePO₄ backup (100 Wh) powers control system; drum coast-down
 5. **Reconnect** (auto): When grid stable >30 s, pre-charge → contactor close → resume
@@ -882,7 +882,7 @@ When grid dV/dt > threshold (detected by dedicated monitor):
 
 ### 11.3 Training Simulator
 
-- **Platform:** Digital twin (PROD-37) in "shadow mode" — same models, simulated sensors
+- **Platform:** Digital twin (PROD-37) in shadow mode — same models, simulated sensors
 - **Scenarios:** Normal startup, feedstock variations, SIF trips, GIC event, cyber intrusion
 - **Certification:** Operators must complete 40 hrs sim + 20 hrs supervised before solo
 - **Recertification:** Annual (8 hrs sim + 1 emergency drill)

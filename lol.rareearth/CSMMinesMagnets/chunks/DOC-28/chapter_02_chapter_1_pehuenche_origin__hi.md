@@ -2,7 +2,7 @@
 
 ### 1.1 Pehuenche Origin and Territorial Identity
 
-The **Pehuenche** (Pewenche — "People of the Pewén" in Mapudungun) are the **high-Andean territorial segment of the Mapuche nation**, distinguished by their **millennial relationship with the pewén (Araucaria araucana, monkey puzzle tree)**. Unlike the Lafkenche (sea people), Nagche (lowland people), or Wenteche (valley people), the Pehuenche identity is **constituted by altitude (1,500–2,500 masl), volcanic geography, and pewén forest stewardship**.
+The **Pehuenche** (Pewenche — People of the Pewén in Mapudungun) are the **high-Andean territorial segment of the Mapuche nation**, distinguished by their **millennial relationship with the pewén (Araucaria araucana, monkey puzzle tree)**. Unlike the Lafkenche (sea people), Nagche (lowland people), or Wenteche (valley people), the Pehuenche identity is **constituted by altitude (1,500–2,500 masl), volcanic geography, and pewén forest stewardship**.
 
 **Archaeological Continuity**: **3,500+ years** of documented occupation in the Andean cordillera (carbon-dated sites: **Ralco, Pangue, Callaqui** — 1500 BCE to present). **Genetic studies (2023, Universidad de Chile + MPI-EVA)** confirm **direct maternal lineage continuity >90%** (haplogroups B2, C1, D1) between ancient and modern Pehuenche.
 

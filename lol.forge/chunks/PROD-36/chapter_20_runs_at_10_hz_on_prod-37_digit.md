@@ -6,10 +6,10 @@ class FBGTamperClassifier:
         self.spatial_graph = SpatialCorrelationGraph()  # 384-channel topology
         
     def classify(self, fbg_wavelengths: np.ndarray) -> TamperClassification:
-        """
+        
         fbg_wavelengths: shape (384,) - current wavelength readings (nm)
         Returns: TamperClassification enum + confidence + affected channels
-        """
+        
         
         # Hypothesis H0: Nominal thermal operation
         thermal_pred = self.thermal_model.predict(fbg_wavelengths)

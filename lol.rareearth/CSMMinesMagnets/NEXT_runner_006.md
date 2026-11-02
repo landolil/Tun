@@ -134,7 +134,7 @@ python3 ../../__Python_Tools/write_large_file.py compress \
 
 # Git
 git add chunks/DOC-09/ FinishedWork/DOC-09_*.md.gz FinishedWork/intros/DOC-09_*.md
-git commit -m "DOC-09: Rare Earth & Critical Mineral Specifications complete"
+git commit -m DOC-09: Rare Earth & Critical Mineral Specifications complete
 git tag runner-006-complete
 git push origin --tags
 

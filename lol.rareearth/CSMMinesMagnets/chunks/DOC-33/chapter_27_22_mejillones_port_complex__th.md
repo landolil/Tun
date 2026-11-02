@@ -31,7 +31,7 @@
 | **Regasification Capacity** | **8.5 Mt/yr** (11.5 BCM/yr) — **Largest in Chile** |
 | **Storage** | **2 tanks × 170,000 m³** (340k m³ total) — 6 days autonomy |
 | **Jetty** | **1 dedicated** — -18m, Q-Flex/Q-Max compatible (266k m³) |
-| **Send-out Pipeline** | **2×24" (600mm)** — 120 km to Antofagasta, branches to CTM/CTA, mining |
+| **Send-out Pipeline** | **2×24 (600mm)** — 120 km to Antofagasta, branches to CTM/CTA, mining |
 | **Pressure** | **65 bar** — Compressor station at terminal (4×15 MW) |
 | **Clients** | **CTM/CTA (thermo)**, **Codelco (mining)**, **Escondida/Spence (mining)**, **Industrial (Antofagasta)** |
 | **2023 Utilization** | **73%** (6.2/8.5 Mt) — Declining as coal retires, mining electrifies |

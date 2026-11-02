@@ -199,7 +199,7 @@ Mining loads are predominantly inductive (large motors). During GIC events:
 - Transformers consume reactive power (vars) → voltage drops at mining buses
 - Motor loads stall or trip on under-voltage → further reduces reactive demand but causes process shutdown
 - Voltage recovery delayed by saturated transformers' high var absorption
-- **Result**: Mining loads are the "canary in the coal mine" for GIC-induced voltage collapse
+- **Result**: Mining loads are the canary in the coal mine for GIC-induced voltage collapse
 
 **Tardigradia / Aegis-Forge Cluster Locations (DOC-05, DOC-08):**
 Proposed Aegis-Forge clusters at:
@@ -274,7 +274,7 @@ The Atacama Desert is the driest non-polar desert on Earth. Near-surface resisti
 **Comparison: S/E Polpaico (Santiago, ρ ≈ 200 Ω·m):**
 - 500 kV GIC: 40–60 A/phase (4–5× lower than Norte Grande)
 
-**Why Norte Grande is the "Perfect Storm" for GIC:**
+**Why Norte Grande is the Perfect Storm for GIC:**
 1. **North-South Line Orientation**: 500 kV lines run nearly geographic N-S. Geoelectric field during storms is predominantly E-W (from N-S magnetic variations). **E_∥ = E_EW ≈ E_total** → maximum coupling.
 2. **Long Uninterrupted Spans**: 220–550 km between 500 kV substations → large loop area for flux integration.
 3. **Low Grounding Resistance**: Major substations have extensive ground grids (R_g ≈ 0.5 Ω) → low impedance GIC path.

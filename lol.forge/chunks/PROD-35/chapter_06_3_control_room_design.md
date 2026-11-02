@@ -5,8 +5,8 @@
 **Room Specifications:**
 - **Dimensions**: 8 m × 6 m × 3 m (L×W×H), raised floor for TSN/PTP cabling
 - **Operators**: 4 stations (FO-1, FO-2, DT-1, DT-2) in semi-circle
-- **Sightlines**: All stations → 6× 24" monitors (3×2 array) + 1× 55" overview wall display
-- **Viewing Distance**: 700-900 mm (optimal for 24" 1920×1080)
+- **Sightlines**: All stations → 6× 24 monitors (3×2 array) + 1× 55 overview wall display
+- **Viewing Distance**: 700-900 mm (optimal for 24 1920×1080)
 - **Viewing Angle**: ±35° horizontal, ±20° vertical from center
 
 **Station Layout (Each):**

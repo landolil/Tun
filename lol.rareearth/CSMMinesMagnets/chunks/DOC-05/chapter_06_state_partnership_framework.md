@@ -3,7 +3,7 @@
 
 ### 6.1 Partnership Philosophy — State as Strategic Ally, Not Regulator
 
-The Tardigradia-state partnership framework is not assembled from regulatory compliance; it is **forced** by the logical necessity of a strategic mineral formation where **the Chilean state is a capital partner, policy ally, and export promoter** — not merely a permitting authority. The framework rests on a single, irreducible constraint: **State Equity + Policy Alignment = Deployment Acceleration** — the proposition that CORFO equity, MinMin MOU, ProChile promotion, and BancoEstado green bonds reduce the cost of capital, accelerate permitting, and open export markets simultaneously. No additional postulates — no "government relations" lobbying, no regulatory capture, no subsidy dependence — are required. The constraint is simply: *State equity aligns policy; MOU aligns permitting; ProChile aligns markets; Green bonds align cost of capital*. Everything else is the shadow this constraint casts.
+The Tardigradia-state partnership framework is not assembled from regulatory compliance; it is **forced** by the logical necessity of a strategic mineral formation where **the Chilean state is a capital partner, policy ally, and export promoter** — not merely a permitting authority. The framework rests on a single, irreducible constraint: **State Equity + Policy Alignment = Deployment Acceleration** — the proposition that CORFO equity, MinMin MOU, ProChile promotion, and BancoEstado green bonds reduce the cost of capital, accelerate permitting, and open export markets simultaneously. No additional postulates — no government relations lobbying, no regulatory capture, no subsidy dependence — are required. The constraint is simply: *State equity aligns policy; MOU aligns permitting; ProChile aligns markets; Green bonds align cost of capital*. Everything else is the shadow this constraint casts.
 
 ### 6.2 CORFO (Corfo Ventures) — Equity Partner
 
@@ -22,10 +22,10 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 
 **Corfo Ventures Mandate Alignment:**
 - **Corfo 2030 Strategy:** Critical minerals, green hydrogen, advanced manufacturing
-- **Chilean Magnet Industry:** Direct alignment with MinMin "Chilean Magnet Industry Development" MOU
+- **Chilean Magnet Industry:** Direct alignment with MinMin Chilean Magnet Industry Development MOU
 - **Regional Development:** Antofagasta/Atacama/Coquimbo — Corfo regional offices co-located
 
-### 6.3 Ministerio de Minería — MOU "Chilean Magnet Industry Development"
+### 6.3 Ministerio de Minería — MOU Chilean Magnet Industry Development
 
 **MOU Structure (10-year term, auto-renewal unless material breach):**
 
@@ -35,7 +35,7 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 | **Concession Security** | Title protection for strategic minerals | Concession maintenance + investment | Sernageomin priority; no speculative cancellations |
 | **Infrastructure Coordination** | Grid, ports, water for magnet industry | Infrastructure investment plans | MinEnergía grid upgrades; MOP port access; DGA water allocation |
 | **Workforce Development** | Magnet manufacturing talent pipeline | Training programs + university partnerships | Corfo scholarships; MinEduc curriculum alignment |
-| **International Promotion** | "Chilean Magnets" brand | Export-ready product + certifications | ProChile pavilions (PDAC, MINExpo, Hannover); trade missions |
+| **International Promotion** | Chilean Magnets brand | Export-ready product + certifications | ProChile pavilions (PDAC, MINExpo, Hannover); trade missions |
 | **Data & Transparency** | Strategic mineral data sharing | Production data (aggregated) | Policy formulation; investor confidence |
 
 **MOU Enforcement:** Not legally binding (soft law) but **politically binding** — breach triggers Corfo Ventures pro-rata participation suspension and ProChile promotion withdrawal. Embedded in Corfo Ventures SHA side letter.
@@ -46,7 +46,7 @@ The Tardigradia-state partnership framework is not assembled from regulatory com
 
 | Element | Term |
 |---------|------|
-| **Brand** | "Chilean Magnets" — ProChile registered collective mark |
+| **Brand** | Chilean Magnets — ProChile registered collective mark |
 | **Pavilions** | PDAC (Toronto), MINExpo (Las Vegas), Hannover Messe, Battery Show (Norteamérica) |
 | **Co-Funding** | 50/50 ProChile/Tardigradia for pavilion costs |
 | **Trade Missions** | Annual Chile-US-EU magnet buyer missions (ProChile organized) |

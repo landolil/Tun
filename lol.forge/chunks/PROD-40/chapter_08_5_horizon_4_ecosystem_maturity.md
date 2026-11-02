@@ -92,7 +92,7 @@ PHOENIX PROTOCOL — FULL CIRCULARITY
 
 #### 5.3.1 Licensing Philosophy
 
-> **"The physics is open. The engineering is licensed. The fabrication is certified."**
+> **The physics is open. The engineering is licensed. The fabrication is certified.**
 
 **Three-tier licensing model:**
 

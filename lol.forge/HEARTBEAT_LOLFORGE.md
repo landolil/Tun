@@ -12,15 +12,15 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-03T13:45:00Z",
-  "current_runner": "021",
-  "current_document": "COMPLETE",
-  "subtask": "complete",
-  "subtask_start": "2026-11-03T13:45:00Z",
-  "documents_completed": 40,
-  "total_lines_written": 40311,
-  "git_commits_this_session": 24,
-  "status": "complete"
+  last_heartbeat: 2026-11-03T13:45:00Z,
+  current_runner: 021,
+  current_document: COMPLETE,
+  subtask: complete,
+  subtask_start: 2026-11-03T13:45:00Z,
+  documents_completed: 40,
+  total_lines_written: 40311,
+  git_commits_this_session: 24,
+  status: complete
 }
 ```
 
@@ -64,7 +64,7 @@
    [HEARTBEAT] Runner 001 | PROD-01 | research | 45 lines | 0 commits | OK
    ```
 4. If subtask > 30 seconds: log warning, consider subdivision
-5. If git dirty > 5 min: auto-commit with message "lol.forge: heartbeat checkpoint"
+5. If git dirty > 5 min: auto-commit with message lol.forge: heartbeat checkpoint
 
 ### On Session Start:
 - Initialize heartbeat state
@@ -74,7 +74,7 @@
 ### On Session End:
 - Stop heartbeat monitor
 - Final commit and push
-- Update heartbeat state to "paused"
+- Update heartbeat state to paused
 - Log session end to memory log
 
 ---
@@ -122,7 +122,7 @@
 tail -f Logs/heartbeat.log
 
 # Force heartbeat update
-echo "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > HEARTBEAT_LOLFORGE.md.timestamp
+echo $(date -u +%Y-%m-%dT%H:%M:%SZ) > HEARTBEAT_LOLFORGE.md.timestamp
 
 # Check monitor process
 ps aux | grep heartbeat_monitor

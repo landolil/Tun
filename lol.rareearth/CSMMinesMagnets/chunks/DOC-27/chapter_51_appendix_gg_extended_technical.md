@@ -6,7 +6,7 @@
 
 | Patent | Title | Jurisdiction | Expiry | Key Claims |
 |--------|-------|--------------|--------|------------|
-| US 11,234,567 | α"-Fe₁₆N₂ synthesis via low-temp nitridation | US | 2038 | Claim 1: <750°C, NH₃, >90% α" |
+| US 11,234,567 | α-Fe₁₆N₂ synthesis via low-temp nitridation | US | 2038 | Claim 1: <750°C, NH₃, >90% α |
 | US 11,234,568 | GaN inverter for induction nitridation | US | 2039 | Claim 1: 100 kHz, ±2°C stability |
 | US 11,234,569 | FBG temperature control for Fe₁₆N₂ | US | 2039 | Claim 1: Distributed sensing, 1 kHz |
 | EP 3,456,789 | Fe₁₆N₂ permanent magnet | EU | 2038 | Claim 1: 27 MGOe, Tc > 400°C |

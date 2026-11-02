@@ -241,7 +241,7 @@ Category B encompasses post-consumer and commercial waste streams from Material 
 
 ### 4.1 Overview
 
-Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the "geological" input to the Aegis-Forge I.
+Category C comprises primary mineral concentrates, smelter slags, mine tailings, and spent refractories. These feeds are the primary source for CSMFAB's structural ceramic raw materials (Zr, Ti, REE, B, basalt) and represent the geological input to the Aegis-Forge I.
 
 ### 4.2 Subcategory C1: Slag (Ferrous & Non-Ferrous)
 
@@ -614,8 +614,8 @@ Each released lot receives a **Feedstock Lot Record (FLR)** containing:
 | **Source** | Supplier/Facility ID | ERI-Fresno-CA |
 | **Mass** | kg (net) | 22,500 kg |
 | **Date Received** | ISO 8601 | 2026-11-01T06:00:00Z |
-| **Assay Results** | JSON (element: mass%) | {"Cu": 24.5, "Au": 0.032, ...} |
-| **Physical Tests** | JSON | {"P80": 112, "moisture": 8.2, "bulk_density": 1.8} |
+| **Assay Results** | JSON (element: mass%) | {Cu: 24.5, Au: 0.032, ...} |
+| **Physical Tests** | JSON | {P80: 112, moisture: 8.2, bulk_density: 1.8} |
 | **Hazard Screen** | PASS/FAIL + values | PASS (Hg: 0.3ppm, NORM: 12µR/hr) |
 | **Blend Assignment** | Batch ID + mass fraction | BATCH-20261101-03: 15% (75 kg) |
 | **Release Authority** | QA Manager ID | QA-MGR-003 |
@@ -889,23 +889,23 @@ Each released lot receives a **Feedstock Lot Record (FLR)** containing:
 
 ```json
 {
-  "batch_id": "BATCH-20261101-03",
-  "target_mass_kg": 500,
-  "available_feedstocks": [
-    {"lot_id": "FLR-20261101-047", "category": "A2", "mass_kg": 22500, "assay": {"Cu": 24.5, "Au": 0.032, "Ag": 0.18, "Pd": 0.015}, "cost_per_kg": 1.85},
-    {"lot_id": "FLR-20261101-048", "category": "B1", "mass_kg": 50000, "assay": {"Al": 8.5, "Fe": 12.0, "polymers": 35}, "cost_per_kg": -0.02},
-    {"lot_id": "FLR-20261101-049", "category": "C1", "mass_kg": 100000, "assay": {"Fe": 28.0, "Mn": 6.0, "TiO2": 1.2}, "cost_per_kg": 0.025},
-    {"lot_id": "FLR-20261101-050", "category": "D1", "mass_kg": 5000, "assay": {"Zr": 12.0, "In": 0.004, "Y": 0.0027, "Co": 0.084}, "cost_per_kg": 0.03}
+  batch_id: BATCH-20261101-03,
+  target_mass_kg: 500,
+  available_feedstocks: [
+    {lot_id: FLR-20261101-047, category: A2, mass_kg: 22500, assay: {Cu: 24.5, Au: 0.032, Ag: 0.18, Pd: 0.015}, cost_per_kg: 1.85},
+    {lot_id: FLR-20261101-048, category: B1, mass_kg: 50000, assay: {Al: 8.5, Fe: 12.0, polymers: 35}, cost_per_kg: -0.02},
+    {lot_id: FLR-20261101-049, category: C1, mass_kg: 100000, assay: {Fe: 28.0, Mn: 6.0, TiO2: 1.2}, cost_per_kg: 0.025},
+    {lot_id: FLR-20261101-050, category: D1, mass_kg: 5000, assay: {Zr: 12.0, In: 0.004, Y: 0.0027, Co: 0.084}, cost_per_kg: 0.03}
   ],
-  "constraints": {
-    "stage2_polymer_volume_L": 50,
-    "stage5_Al_mass_kg": 100,
-    "stage7_Fe_mass_kg": 175,
-    "stage8_mineral_mass_kg": 200,
-    "moisture_pct": 25,
-    "particle_P80_mm": 150
+  constraints: {
+    stage2_polymer_volume_L: 50,
+    stage5_Al_mass_kg: 100,
+    stage7_Fe_mass_kg: 175,
+    stage8_mineral_mass_kg: 200,
+    moisture_pct: 25,
+    particle_P80_mm: 150
   },
-  "market_prices": {"Au": 95000, "Ag": 1200, "Pd": 65000, "Cu": 9.50, "Al": 2.30, "In": 320, "Nd": 70, "Dy": 400, "Co": 35}
+  market_prices: {Au: 95000, Ag: 1200, Pd: 65000, Cu: 9.50, Al: 2.30, In: 320, Nd: 70, Dy: 400, Co: 35}
 }
 ```
 

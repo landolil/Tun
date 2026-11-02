@@ -25,7 +25,7 @@ SOURCE: 220°C (El Tatio) / 200°C (Puchuldiza) — Geothermal Fluid
     │   ├── Outlet: 45°C
     │   ├── Area: 5 ha (tomato, strawberry, herbs)
     │   ├── Production: 200 ton/yr tomato, 50 ton/yr strawberry
-    │   └── Market: Local hotels, Calama, export (premium "geothermal grown")
+    │   └── Market: Local hotels, Calama, export (premium geothermal grown)
     │
     ├── STAGE 4: AQUACULTURE (Trout)
     │   ├── Inlet: 45°C → Heat exchanger → 18°C tank

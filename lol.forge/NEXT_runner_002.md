@@ -41,7 +41,7 @@
 
 ### The Golden Rule: **No Subtask > 30 Seconds Wall Time**
 
-Every logical step MUST be broken into micro-subtasks that complete in <30 seconds. Treat each micro-subtask as a "large task" with full verification.
+Every logical step MUST be broken into micro-subtasks that complete in <30 seconds. Treat each micro-subtask as a large task with full verification.
 
 ### Micro-Subtask Template
 
@@ -58,7 +58,7 @@ Every logical step MUST be broken into micro-subtasks that complete in <30 secon
 
 ### PROD-02 Micro-Subtask Breakdown (Example)
 
-**Instead of:** "Write Section 2 - Stage 0 Acoustic Pre-Liberation (100+ lines)"
+**Instead of:** Write Section 2 - Stage 0 Acoustic Pre-Liberation (100+ lines)
 
 **Break into:**
 1. Write Section 2 header + physics overview (20 lines)
@@ -69,11 +69,11 @@ Every logical step MUST be broken into micro-subtasks that complete in <30 secon
 6. Write Stage 0 output specifications (10 lines)
 7. Verify section line count
 
-**Each micro-subtask:** Single `python3 -c "..."` write append, then `wc -l` verify
+**Each micro-subtask:** Single `python3 -c ...` write append, then `wc -l` verify
 
 ### PROD-03 Micro-Subtask Breakdown (Example)
 
-**Instead of:** "Write Section 3 - Zone 1-2 Design (100+ lines)"
+**Instead of:** Write Section 3 - Zone 1-2 Design (100+ lines)
 
 **Break into:**
 1. Write Zone 1-2 header + frequency justification (15 lines)
@@ -208,11 +208,11 @@ Every logical step MUST be broken into micro-subtasks that complete in <30 secon
 # Append to document (micro-subtask pattern)
 python3 << 'PYEOF'
 from pathlib import Path
-content = """## Section Title
+content = ## Section Title
 Content here...
-"""
-Path("docs/PROD-02_Thermal_Cascade_Process_Engineering.md").write_text(
-    Path("docs/PROD-02_Thermal_Cascade_Process_Engineering.md").read_text() + "\n" + content
+
+Path(docs/PROD-02_Thermal_Cascade_Process_Engineering.md).write_text(
+    Path(docs/PROD-02_Thermal_Cascade_Process_Engineering.md).read_text() + \n + content
 )
 PYEOF
 
@@ -230,7 +230,7 @@ python3 ../../__Python_Tools/write_large_file.py compress docs/PROD-02_Thermal_C
 
 # Git commit after each document
 git add -A
-git commit -m "lol.forge: PROD-02 Thermal Cascade — 900+ lines + 200 line combined intro"
+git commit -m lol.forge: PROD-02 Thermal Cascade — 900+ lines + 200 line combined intro
 git push
 ```
 

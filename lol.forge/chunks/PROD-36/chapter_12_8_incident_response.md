@@ -14,7 +14,7 @@
 #### Playbook IR-01: Unauthorized SIF Bypass Attempt
 ```
 1. DETECT: IDS-004 triggers (SIF trip without process cause OR dual-key not presented)
-2. CONTAIN: SIS FPGA locks all 24 SIFs in "armed" state; no further bypass possible
+2. CONTAIN: SIS FPGA locks all 24 SIFs in armed state; no further bypass possible
 3. ERADICATE: SL + Safety Eng investigate; revoke compromised tokens; rotate keys
 4. RECOVER: CT-04 partial-stroke test all 24 SIFs; verify SOE integrity
 5. LESSONS: Root cause (token theft? insider? supply chain?); update playbook

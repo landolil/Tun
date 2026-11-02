@@ -13,13 +13,13 @@
 
 ### 3.3.2 Indigenous Law Art 13 — The CPA Lever
 
-> **Law 19.253 Art 13**: *"Las comunidades indígenas tienen derecho preferente al uso de las aguas que nacen o cruzan sus tierras..."*
+> **Law 19.253 Art 13**: *Las comunidades indígenas tienen derecho preferente al uso de las aguas que nacen o cruzan sus tierras...*
 
 **Operational Conflict at María Elena**:
 1. **CPA holds priority freshwater right (150 L/s)** for Chiu Chiu/Estación San Pedro ayllus
 2. **SQM holds 500 L/s freshwater right** for industrial use (dust suppression, camps)
 3. **Aquifer connectivity proven** — SQM pumping draws down freshwater lens → affects CPA communities
-4. **2023 Corte Suprema ruling**: *"Brine extraction that impacts freshwater lens triggers Art 13 consultation"*
+4. **2023 Corte Suprema ruling**: *Brine extraction that impacts freshwater lens triggers Art 13 consultation*
 4. **Result**: SQM required **Consulta Previa for any new freshwater well** — CPA veto active
 
 ---

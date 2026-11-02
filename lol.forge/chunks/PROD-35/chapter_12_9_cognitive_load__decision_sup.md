@@ -9,7 +9,7 @@
 - Alarm summary: Count by priority + top 3 active (not full list)
 
 **Cognitive Offload Features:**
-- **Auto-Summary**: "Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec" (vs. raw XRF table)
+- **Auto-Summary**: Stage 4: In 6.4g, Sn 12g, Pb 45g — all spec (vs. raw XRF table)
 - **Predictive Highlight**: Twin predicts Stage 6 Cu grade → pre-highlight Port 6B setpoint
 - **Anomaly Card**: Λ > 10 → pop-up card with: symptom, likely cause, recommended action, expert policy
 - **Gesture Filter**: Leap Motion 3D twin — pinch to zoom, swipe stage, point to annotate
@@ -18,9 +18,9 @@
 
 | Bias | Countermeasure |
 |------|----------------|
-| **Over-reliance on Twin** | "Twin Uncertainty" badge on every recommendation (σ from ensemble) |
+| **Over-reliance on Twin** | Twin Uncertainty badge on every recommendation (σ from ensemble) |
 | **Alarm Flood Paralysis** | ISA-18.2 chattering filter + priority-only audio + SL alarm ownership |
-| **Confirmation Bias** | Forced "devil's advocate" at SG-2, SG-3, CT-04, SAT-05: "What if wrong?" |
+| **Confirmation Bias** | Forced devil's advocate at SG-2, SG-3, CT-04, SAT-05: What if wrong? |
 | **Mode Confusion** | L0/L1/L2/L3 mode explicit on all displays (color + text + icon) |
 | **Complacency** | Surprise scenarios in simulator (PROD-34), unannounced CT-04 partial |
 

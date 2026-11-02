@@ -68,7 +68,7 @@ Low-Temp Metals (Pb/Sn/Zn/In)              Aluminum Window (660-720°C)         
          └─────────────────────────────────────────────────────────────────────────────┘
 
 PHYSICAL SEPARATION PRINCIPLE:
-• The "Aluminum Window": 660°C (pure Al MP) to 720°C (Mg vaporization onset)
+• The Aluminum Window: 660°C (pure Al MP) to 720°C (Mg vaporization onset)
 • At 660°C: Al melts, Cu (1085°C) and Fe (1538°C) remain solid
 • At 720°C: Mg vapor pressure becomes significant — UPPER BOUND
 • Centrifugal force (300 RPM, G=25.1) drives molten Al film to drum wall
@@ -103,7 +103,7 @@ PHYSICAL SEPARATION PRINCIPLE:
 
 ### 2.1 The Aluminum Window — Thermodynamic Basis
 
-The "Aluminum Window" is the 60°C interval between 660°C and 720°C where:
+The Aluminum Window is the 60°C interval between 660°C and 720°C where:
 - **Aluminum is liquid** (MP 660.3°C for pure Al; alloys liquidus 577-652°C)
 - **Magnesium is liquid but not vaporizing** (MP 650°C, BP 1091°C, significant vapor >720°C)
 - **Copper is solid** (MP 1084.6°C) — 365°C margin

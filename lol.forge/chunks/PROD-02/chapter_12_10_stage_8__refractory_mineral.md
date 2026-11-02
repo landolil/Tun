@@ -31,7 +31,7 @@ At 2200°C: >99% dissociation in 5 min
 
 **Process strategy:** Ramp to 2200°C, hold 10 min for complete dissociation. SiO₂ joins slag matrix; ZrO₂ remains as discrete high-density particles (ρ = 5.68 g/cm³) — centrifugally separable!
 
-### 10.3 Stage 8 Output: "Mineral Concentrate Slug" — The Treasure Chest
+### 10.3 Stage 8 Output: Mineral Concentrate Slug — The Treasure Chest
 
 The partially fused slag-like material exiting **Port 8** (2200°C set-point) is rich in Zr, Ti, rare earth oxides, Al₂O₃, SiO₂. This is the **primary input for the Materials Study Part V critical mineral recovery program.**
 
