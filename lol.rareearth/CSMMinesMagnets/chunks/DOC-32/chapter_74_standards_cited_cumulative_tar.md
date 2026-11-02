@@ -1,0 +1,15 @@
+# Standards cited (cumulative target: ≥8)
+grep -c -E 'Law 19\.253|Law 20\.249|Law 21\.435|Law 21\.327|Law 21\.210|Law 20\.500|Law 20\.392|Law 18\.302|Law 20\.998|Law 20\.123|Water Code|Mining Code|DS 594|DS 40|DS 28|DS 118|ILO 169|UNDRIP|CONADI Res|DGA|Sernageomin|SUSESO|WHO|EMPORCHA|ATI|FCAB|ZOFRI|IMSBC Code|RADSAFE|SOLAS|MARPOL|ISO 45001|ISO 14001|ISO 9001|ICMM|GRI|SASB|TCFD' FinishedWork/DOC-32_Community_Antofagasta.md
+```
+
+**Chapter 5 Status**: **COMPLETE — REE shipping protocol, NH₃ terminal spec, submarine cable, data center cluster, ZOFRI value-add**
+**Next Subtask**: 5.1.7.23 NH₃ terminal (HIF): Mejillones expansion, 350k t/yr, 40kt carriers, safety case
+
+---
+
+*DOC-32: ANTOFAGASTA PORT CITY — COMMUNITY-SPECIFIC INTELLIGENCE*
+**Chapter 5 of 9 — Export Gateway: REE Shipping, NH₃ Terminal, Data Fiber, ZOFRI Value-Add**
+**Heuristic Composition: El Segundo PRIMARY**
+**Running Total: ~3,100+ lines, 100+ formulas, 500+ cross-refs, 38+ standards**
+
+---
