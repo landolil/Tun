@@ -1,11 +1,11 @@
 {
-  "last_heartbeat": "2026-11-02T08:46:58Z",
-  "current_runner": "016",
-  "current_document": "DOC-23",
-  "subtask": "1.1 Gd/Eu/Ho market fundamentals",
-  "subtask_start": "2026-11-02T08:46:58Z",
-  "documents_completed": 22,
-  "total_lines_written": 36500,
+  "last_heartbeat": "2026-11-02T08:55:02Z",
+  "current_runner": "017",
+  "current_document": "DOC-26",
+  "subtask": "1.1 Atacameño origin and territory",
+  "subtask_start": "2026-11-02T08:55:02Z",
+  "documents_completed": 25,
+  "total_lines_written": 40400,
   "git_commits_this_session": 0,
   "status": "active"
 }
