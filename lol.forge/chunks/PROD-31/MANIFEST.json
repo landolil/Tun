@@ -1,0 +1,90 @@
+{
+  "chapter_01_intro.md": {
+    "size": 68,
+    "sha256": "57cf19336267616b77ec9c8e55c304fe58d23f19278c5204ce0f00add3803c81"
+  },
+  "chapter_02_williams_+_keymaker_+_el_segun.md": {
+    "size": 12457,
+    "sha256": "753a3e8ca8fe1cccc2a426094fbafa349bff9481dc9782716f1ae430585fc7be"
+  },
+  "chapter_03_carrington_storm_motors_forge_.md": {
+    "size": 101,
+    "sha256": "83deebd11d5f7b5e05da88e6eac9e2c3208df3b575fc7216c9f45cdca1d14563"
+  },
+  "chapter_04_1_executive_summary.md": {
+    "size": 1306,
+    "sha256": "066e12d7cf89eda188a4a4641632429c2645e0cbbab1fd54b340d78d6d214620"
+  },
+  "chapter_05_2_capex_breakdown.md": {
+    "size": 4706,
+    "sha256": "d6ca50323bcd7a88ac48f685ddaf7fcfefd2984e4d0160217b19579d205053b8"
+  },
+  "chapter_06_3_opex_model.md": {
+    "size": 2032,
+    "sha256": "239f2291dd2e9eb1e05784ec6d960caf279ffd87052c8b9fa51eade17ba41ed2"
+  },
+  "chapter_07_4_revenue_streams.md": {
+    "size": 3047,
+    "sha256": "da58ec3dae94df3e8ebcfaa8a1ff97bad3d5f7f33c2dcdf27e85ecb0e74708ea"
+  },
+  "chapter_08_5_phoenix_protocol_economics.md": {
+    "size": 2412,
+    "sha256": "fca9685390215d7132a45df1dee3b16e72d472caca82ec9f0edcb5d6cdca1544"
+  },
+  "chapter_09_6_roi__payback_analysis.md": {
+    "size": 1594,
+    "sha256": "f95edc53db2e574d71c5c10b1d6892e70408456c1060dcdcabfc2efb2c346d15"
+  },
+  "chapter_10_7_sensitivity_analysis.md": {
+    "size": 1129,
+    "sha256": "3f27662e248bfd363a9b1f26c10d91a8a6ff421afadb70c77297b5102b643ec4"
+  },
+  "chapter_11_8_financing_structure.md": {
+    "size": 1233,
+    "sha256": "b23aff1a493d435fbf4d3f55fb6bda02b09841eb97f3bb3b675009d516140a29"
+  },
+  "chapter_12_9_market_analysis.md": {
+    "size": 1482,
+    "sha256": "ecf427937c6e61280556ef2a5fd570e95a191410aa0f868c757ed11e692b97ff"
+  },
+  "chapter_13_10_risk_register.md": {
+    "size": 1446,
+    "sha256": "5d541778b897c2cb82697bbebf55c7f35c26820bd53c7cca486c627719fad68c"
+  },
+  "chapter_14_11_lca_integration_prod-24_fol.md": {
+    "size": 1205,
+    "sha256": "bec09be7bce69217f080ffd803c6c4da6090c7e52d92fbea4b2358c13fb807a3"
+  },
+  "chapter_15_12_scale-up_economics_gen-ii_2.md": {
+    "size": 1273,
+    "sha256": "44707beb8624f21beed4fed69958a64adbdfd3934e954ae44f4ab92ce66baac4"
+  },
+  "chapter_16_13_cross-reference_matrix.md": {
+    "size": 1745,
+    "sha256": "1c2340b0b3a26da6b0a17d049d70ed7aa2753b029925167ae75fa136c9d766ab"
+  },
+  "chapter_17_appendix_a_full_capex_schedule.md": {
+    "size": 886,
+    "sha256": "d737b0b1f0569139a257d63e0a2868e341ad592e15966a8c2eb9ad0feeca8a9d"
+  },
+  "chapter_18_appendix_b_opex_monthly_profil.md": {
+    "size": 1127,
+    "sha256": "05ae51622153fabec6bdee10adede7629b69448b64599331d89d3a8a460acc94"
+  },
+  "chapter_19_appendix_c_revenue_by_element_.md": {
+    "size": 2791,
+    "sha256": "1c6d42a536348f3dd34a7ee3cd477f17b224a6f767ba68a9c21ab3d815c8ada8"
+  },
+  "chapter_20_appendix_d_sensitivity_tornado.md": {
+    "size": 520,
+    "sha256": "e4594e69ee0856da6c8b8228d44ab28af31db6d4769b2d9f0e065fec416162f6"
+  },
+  "chapter_21_appendix_e_financing_term_shee.md": {
+    "size": 562,
+    "sha256": "81713fb9b1fb249afee2bf440b80b225e0b52ba1a2a320d0f92ba7a0aeffe083"
+  },
+  "chapter_22_appendix_f_market_forecast_sou.md": {
+    "size": 16029,
+    "sha256": "c81926f344b030b018cc455eec3cbb15ee131ef50fc4d9d4950f5597d7023475"
+  }
+}
