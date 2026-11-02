@@ -1,0 +1,70 @@
+{
+  "chapter_01_intro.md": {
+    "size": 385,
+    "sha256": "4ce8988a21cdb9beb220f07dc193e95bd60676ded1bcffc023f92fd5a8c42e28"
+  },
+  "chapter_02_chapter_1_conflation_audit_fra.md": {
+    "size": 13593,
+    "sha256": "a5533e65c3cff95c7d2050bb5c91550ade46c03c636facbd7abf467edfdfde71"
+  },
+  "chapter_03_conflation_auditpy__core_class.md": {
+    "size": 8812,
+    "sha256": "e8cdb1c24f6f970cb71df064e7d26b8ee58e8e8be2f791a2bcced6c09caf5d3b"
+  },
+  "chapter_04_chapter_2_conflation_taxonomy_.md": {
+    "size": 13774,
+    "sha256": "47f3bb1879a94c7cb83b1f0dc9c571e09ca05dfb1a255d2154aa56f96457bcce"
+  },
+  "chapter_05_chapter_3_baker_street_forensi.md": {
+    "size": 14077,
+    "sha256": "6d9833e70a0bd6d8dc5be64342c094c2692693fff99a5a28ff073122e81455a2"
+  },
+  "chapter_06_chapter_4_keymaker_binary_veri.md": {
+    "size": 8711,
+    "sha256": "0dfe096a17edca2803e0ac3be3ae9abfa6f76ab98c9138d1d2e2f6931d6a4f1b"
+  },
+  "chapter_07_chapter_5_williams_constraint_.md": {
+    "size": 8004,
+    "sha256": "ab56d1bba9a6895533dceefd40803245f0bda64c569d431dfabfe0ed6e84d18c"
+  },
+  "chapter_08_chapter_6_el_segundo_recursive.md": {
+    "size": 9567,
+    "sha256": "aa28c900ff27568c490ae47eaba386c1e7f7484bf86f596751e0bc823e0c9704"
+  },
+  "chapter_09_chapter_7_shield_horizon_filte.md": {
+    "size": 8506,
+    "sha256": "16422ee351bd1f0debc1ab0f8a553c5479076120bd1bf5043e6d50658d99d3c0"
+  },
+  "chapter_10_chapter_8_historical_resolutio.md": {
+    "size": 12364,
+    "sha256": "d5a574e3245c891805c56dc7c3ce85768999c0595a204467c5098108d6a03c4a"
+  },
+  "chapter_11_chapter_9_traceability_matrix_.md": {
+    "size": 9983,
+    "sha256": "0217d55037c1e9b496fd19dff1d6a235a1224f713f74c0e4c0ae71c364d424c4"
+  },
+  "chapter_12_full_audit_baseline.md": {
+    "size": 108,
+    "sha256": "b3dc5ec7a8bcf16c29b290ad30a2df2186bacf371e39e33e4c86f8ddd31d1090"
+  },
+  "chapter_13_regression_check_new_doc.md": {
+    "size": 138,
+    "sha256": "62a8402490dfa5a41e06bc8b936242baaf294462bd7d31f9cca2125546839256"
+  },
+  "chapter_14_meta-audit_self-check.md": {
+    "size": 120,
+    "sha256": "38f4d781e381d2fba21d93d45938c050d11dc1c64922650e3f5f66bfa47f05ab"
+  },
+  "chapter_15_generate_resolution_patches.md": {
+    "size": 152,
+    "sha256": "16de3e75be9603c3b6c82df997110dd0f88e94806435893136d75e32c3e3e8d3"
+  },
+  "chapter_16_conflation_audit_.md": {
+    "size": 1061,
+    "sha256": "cff354a37122ad0274b67cd1a697709be0fbaed23b970e34a6c94745c482bfff"
+  },
+  "chapter_17_github_workflows_conflation_au.md": {
+    "size": 2413,
+    "sha256": "f8b9e617b943ef44fc5c4522b80e93c200fc969f31df8255125617f80d4dc680"
+  }
+}
