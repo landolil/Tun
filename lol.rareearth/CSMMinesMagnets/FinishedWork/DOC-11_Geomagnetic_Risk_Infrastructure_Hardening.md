@@ -2601,3 +2601,339 @@ CSM_GIC_Motor_Spec:
 **Cross-references:** DOC-06 (Carrington Storm Motors — 9 chapters, 129 formulas); DOC-09 (Magnet Specs — NdFeB, SmCo, FeN, FeCo); DOC-10 (Supply Chain — Mine to Magnet to Motor); CSMFAB/CSMFAB0108 (Thermal Cascade); Ch. 5 (Aegis-Forge); Ch. 6.1–6.5 (Motor Tech); Ch. 8 (Financial).
 
 **Formulas:** Portfolio capacity ramp; supply chain lead times; GIC test criteria; DC bus power balance.
+
+## Chapter 7: Early Warning & Operational Protocols
+
+### 7.1 NOAA SWPC Alert Levels (G1–G5, Kp Index, Dst Forecast)
+
+**NOAA Space Weather Prediction Center (SWPC)** provides the **global standard** for space weather alerts. Chile's operational protocols (Ch. 7.2–7.5) map directly to these scales.
+
+**Geomagnetic Storm Scale (G-Scale) — NOAA SWPC:**
+
+| Level | Kp Index | Dst (nT) | Frequency (per solar cycle) | Effects on Power Systems |
+|-------|----------|----------|----------------------------|-------------------------|
+| **G1 (Minor)** | 5 | -30 to -50 | 1,700 | Weak grid fluctuations; minor ops impact |
+| **G2 (Moderate)** | 6 | -50 to -100 | 600 | Voltage alarms; transformer heating possible |
+| **G3 (Strong)** | 7 | -100 to -200 | 200 | Voltage corrections; protection misops; GIC 10–50 A |
+| **G4 (Severe)** | 8 | -200 to -350 | 100 | Widespread voltage control; GIC 50–150 A; saturation risk |
+| **G5 (Extreme)** | 9 | < -350 | 4 | **Grid collapse risk**; GIC >150 A; deep saturation; blackout |
+
+**Kp Index (Planetary, 3-hourly):**
+- **Range:** 0–9 (quasi-logarithmic)
+- **Derivation:** 13 mid-latitude observatories (including IPM Santiago)
+- **Chile Relevance:** Kp ≥ 7 → **G3+** → CEN alert activation
+
+**Dst Index (Disturbance Storm Time, 1-hourly):**
+- **Range:** 0 to -2000+ nT
+- **Derivation:** 4 low-latitude observatories (Honolulu, San Juan, Hermanus, Kakioka)
+- **Chile Relevance:** Dst < -100 nT → **ring current penetration** to Chile latitudes
+- **Forecast:** SWPC provides **Dst prediction** 1–3 days out (CME arrival)
+
+**SWPC Alert Products (Operational Use):**
+| Product | Lead Time | Update Frequency | Chile Action |
+|---------|-----------|------------------|--------------|
+| **WSA-ENLIL Model** | 1–4 days | 4×/day | CME arrival forecast |
+| **DSCOVR Solar Wind** | 15–60 min | Real-time | Bz, Vsw, density — **imminent driver** |
+| **Geomagnetic Forecast** | 3 days | 4×/day | Kp, G-scale probability |
+| **Alert/Warning/Watch** | Variable | Event-driven | **Trigger for Ch. 7.3–7.5** |
+
+**Chile-Specific SWPC Data Access:**
+- **Direct Feed:** CEN SCADA integrates SWPC JSON/API (JSON/CSV)
+- **Redundancy:** **Satellite (Starlink/OneWeb)** for DSCOVR data if fiber cut
+- **Local Magnetometers:** CEN network (5 sites) → **regional validation** of SWPC forecasts
+
+**Carrington-Class SWPC Signature (Forecast):**
+- **CME Speed:** >2,000 km/s (ENLIL)
+- **Bz (Southward):** >50 nT sustained (DSCOVR)
+- **Dynamic Pressure:** >20 nPa (DSCOVR)
+- **Predicted Kp:** 9 (G5)
+- **Predicted Dst:** < -800 nT
+- **Action:** **Maximum alert** — pre-emptive islanding (Ch. 7.4)
+
+**Cross-references:** NOAA SWPC (spaceweather.gov); DSCOVR mission; WSA-ENLIL model; CEN operations; Ch. 7.2 (SHOA); Ch. 7.3 (SENAPRED); Ch. 7.4 (load shedding); Ch. 7.5 (operator timeline).
+
+**Formulas:** Kp to G-scale mapping; Dst-Kp relationship; CME arrival time prediction.
+
+### 7.2 Chilean Navy SHOA Space Weather Monitoring
+
+**SHOA (Servicio Hidrográfico y Oceanográfico de la Armada de Chile)** is Chile's **national authority** for tsunami warning, nautical charting, and **space weather monitoring** for maritime/naval operations. SHOA operates the **Chilean segment of INTERMAGNET** and coordinates with **ONEMI/SENAPRED** for national alerts.
+
+**SHOA Space Weather Capabilities (2024):**
+- **Magnetometer Network:** 5 INTERMAGNET-certified observatories
+  - **Santiago (IPM)** — 33.1°S, 70.7°W (mid-latitude reference)
+  - **Puerto Montt** — 41.5°S, 72.9°W (sub-auroral)
+  - **Punta Arenas** — 53.2°S, 70.9°W (auroral boundary)
+  - **Escudero Base (Antarctica)** — 62.2°S, 58.9°W (polar cap)
+  - **Teniente Marsh (Antarctica)** — 62.1°S, 58.9°W (polar cap)
+- **Data Latency:** **Real-time (1-min)** to INTERMAGNET GINs; **5-min** to CEN
+- **Ionospheric Sounders:** 3 vertical incidence (Santiago, Puerto Montt, Punta Arenas)
+- **GPS/GNSS TEC Monitors:** 10+ sites — **ionospheric scintillation** for comms/navigation
+
+**SHOA-CEN Data Sharing Agreement (2023):**
+- **Real-time magnetometer feed** to CEN EMS (ICCP/TASE.2)
+- **Joint Storm Assessment:** SHOA provides **regional dB/dt, K-index**; CEN provides **grid impact**
+- **Alert Coordination:** SHOA issues **Naval Space Weather Bulletin** → CEN, SENAPRED, mining companies
+
+**Chilean Magnetic Observatories — GIC Relevance:**
+| Observatory | MLAT | Role | Data to CEN |
+|-------------|------|------|-------------|
+| Santiago (IPM) | ~15°S | **Mid-latitude reference** | 1-min vector (H, D, Z) |
+| Puerto Montt | ~30°S | Sub-auroral | 1-min vector |
+| Punta Arenas | ~45°S | **Auroral boundary** | 1-min vector |
+| Escudero/Marsh | ~75°S | Polar cap / cusp | 1-min vector |
+
+**SHOA Space Weather Products for Grid Operations:**
+1. **Regional K-index (K_CL):** Chilean-weighted planetary index
+2. **dB/dt Maps:** Real-time spatial interpolation (5-min) → **GIC driver for Ch. 2.6 model**
+3. **Auroral Oval Boundary:** OVATION-Prime model + local data → **latitude of risk**
+4. **Ionospheric Scintillation (S4):** GNSS comms risk for SCADA/protection
+5. **Forecast (24–72 hr):** WSA-ENLIL + local assimilation → **CEN operational planning**
+
+**Integration with CEN GIC Platform (Ch. 4.5):**
+```
+[SHOA Magnetometers] → [SHOA Processing] → [INTERMAGNET GIN] → [CEN Ingest]
+       │                    │                    │
+       └─ 1-min vector ──→  [K_CL, dB/dt] ──→  [Real-time GIC Estimator]
+                                              │
+                                              └─→ [CEN Dashboard] → [Operators]
+```
+
+**Gaps & Investments (2026–2028):**
+| Gap | Investment | Owner | Timeline |
+|-----|------------|-------|----------|
+| **Northern Chile Coverage** (Antofagasta gap) | New observatory at Antofagasta | SHOA/CEN | 2026 |
+| **High-Rate Data (1-sec)** for dB/dt peaks | Upgrade digitizers | SHOA | 2027 |
+| **3D Conductivity Model** assimilation | Joint SHOA-CEN-SERNAGEOMIN | All | 2028 |
+| **AI Forecast** (CME-to-dB/dt) | ML model training | CEN/Universities | 2028 |
+
+**Cross-references:** SHOA (shoa.cl); INTERMAGNET; ONEMI/SENAPRED; CEN operations; Ch. 2.5 (conductivity); Ch. 2.6 (simulation); Ch. 4.5 (modeling); Ch. 7.1 (NOAA); Ch. 7.3 (SENAPRED); Ch. 7.5 (operator timeline).
+
+**Formulas:** Regional K-index; dB/dt spatial interpolation; auroral oval mapping; data latency budget.
+
+### 7.3 SENAPRED National Emergency Protocols
+
+**SENAPRED (Servicio Nacional de Prevención y Respuesta ante Desastres)** — formerly ONEMI — is Chile's **national civil protection agency**. Space weather is recognized as a **"natural hazard"** in Chile's **National Risk Management Policy (2022)** and **SENAPRED Strategic Plan 2023–2027**.
+
+**Legal Framework:**
+- **Law 21.364 (2021):** National Disaster Risk Management System — includes space weather
+- **Decree 156 (2022):** SENAPRED creation — **space weather in mandate**
+- **National Emergency Plan (PLANADE):** Annex for **Geomagnetic Storms** (2023 draft)
+- **Sectoral Plans:** Energy (CEN), Mining (SERNAGEOMIN), Telecom (SUBTEL), Transport (MTT)
+
+**SENAPRED Space Weather Alert Levels (Aligned to NOAA G-Scale):**
+
+| SENAPRED Level | NOAA G-Scale | Kp | Trigger | Actions |
+|----------------|--------------|-----|---------|---------|
+| **Verde (Green)** | G0–G1 | 0–5 | Routine | Monitoring only |
+| **Amarillo (Yellow)** | G2–G3 | 6–7 | Kp ≥ 6 for 3+ hrs | Enhanced monitoring; CEN prep; mining advisory |
+| **Rojo (Red)** | G4 | 8 | Kp = 8 or Dst < -200 nT | **Pre-emptive measures**; load shedding prep; public info |
+| **Rojo Extremo** | **G5** | 9 | Kp = 9 or Dst < -500 nT | **Emergency powers**; mandatory islanding; curfew if blackout |
+
+**Coordination Structure (Geomagnetic Storm):**
+```
+[SHOA] → [SENAPRED National Coordination Center] 
+    │
+    ├── [CEN] — Grid operations, load shedding, islanding
+    ├── [SERNAGEOMIN] — Mining safety, tailings, evacuations
+    ├── [SUBTEL] — Telecom resilience, satcom backup
+    ├── [MTT] — Transport (rail, port, road) contingency
+    ├── [Min. Energy] — Fuel, generator deployment
+    ├── [Min. Mining] — Production impact, export coordination
+    └── [Regional Governors] — Local execution, shelters, comms
+```
+
+**Mining-Specific Protocols (Critical for Norte Grande):**
+- **Yellow Alert:** Mines activate **GIC Monitoring Mode** (Ch. 3.5); review islanding readiness
+- **Red Alert:** Mines **prepare for islanding** (Ch. 5.4); non-critical personnel to shelters
+- **Red Extremo:** **Mandatory islanding** (Aegis-Forge clusters); grid tie open; process continues
+- **Post-Event:** SENAPRED coordinates **damage assessment**, **fuel delivery**, **worker safety**
+
+**Communication Redundancy (Critical for Protocols):**
+| Layer | Technology | Latency | Availability |
+|-------|------------|---------|--------------|
+| **Primary** | Fiber (OPGW on 500 kV) | <10 ms | 99.9% (vulnerable to quake) |
+| **Secondary** | Microwave (CEN backbone) | <50 ms | 99.5% |
+| **Tertiary** | **Satellite (Starlink/OneWeb)** | 20–40 ms | **99.9% (space weather immune)** |
+| **Quaternary** | HF Radio (SHOA/SENAPRED) | Voice | Last resort |
+
+**Public Information Protocol:**
+- **Pre-Event (18–36 hr):** "Space Weather Watch" — prepare electronics, fuel, water
+- **Imminent (1–6 hr):** "Space Weather Warning" — avoid travel, charge devices
+- **During:** "Emergency Alert" (SAE/Cell Broadcast) — stay indoors, conserve power
+- **Post-Event:** Recovery updates, safety instructions, scam warnings
+
+**Cross-references:** Law 21.364; Decree 156; SENAPRED Strategic Plan; CEN Emergency Procedures; Ch. 7.1 (NOAA); Ch. 7.2 (SHOA); Ch. 7.4 (load shedding); Ch. 7.5 (operator timeline); Ch. 5.4 (islanding).
+
+**Formulas:** Alert level mapping; coordination timeline; communication availability.
+
+### 7.4 Automated Load Shedding Triggers (GIC Threshold → Relay Action)
+
+**Automated Under-Frequency/Under-Voltage Load Shedding (UFLS/UVLS)** is standard. For GIC, **new dedicated schemes** are needed: **GIC-Triggered Load Shedding (GTLS)** and **GIC-Triggered Islanding (GTI)**.
+
+**GIC Monitoring Inputs (from Ch. 3.5):**
+- **Neutral Current (Hall CT):** Per transformer, 10 Hz, ±1 A accuracy
+- **Substation GIC Sum:** Σ|I_GIC| at each substation
+- **Corridor GIC Sum:** Σ|I_GIC| for Norte Grande (Antofagasta–Diego de Almagro–Polpaico)
+- **System GIC Index:** Weighted sum across all Tier 1–2 substations
+
+**Trigger Thresholds (Calibrated to Ch. 2.6 Simulation):**
+
+| Scheme | Trigger | Threshold | Action | Time Delay | Priority |
+|--------|---------|-----------|--------|------------|----------|
+| **GTLS-1 (Mining Shed)** | Diego de Almagro Σ|I_GIC| | >500 A | Shed Priority 3–4 loads (15%) | 30 sec | 1 |
+| **GTLS-2 (Voltage Support)** | Any 220 kV bus V < 0.85 pu | + Σ|I_GIC| > 300 A | Shed Priority 2 loads (15%) | 10 sec | 1 |
+| **GTLS-3 (Frequency)** | f < 49.2 Hz | + GIC Alert | Standard UFLS + mining curtail | 0.5 sec | 2 |
+| **GTI-1 (Norte Grande Island)** | Diego de Almagro Σ|I_GIC| > 700 A | + V_220kV < 0.8 pu | **Open 500 kV ties** → Island mining cluster | 5 sec | 1 |
+| **GTI-2 (Central Island)** | Polpaico Σ|I_GIC| > 400 A | + V_500kV < 0.85 pu | Open Polpaico–Charrúa 500 kV | 10 sec | 2 |
+| **GTI-3 (Aegis-Forge)** | Local GIC > 300 A | + Grid V/f abnormal | **Cluster islanding** (Ch. 5.4) | 3 sec | 1 |
+
+**Relay Implementation (IEC 61850 / GOOSE):**
+- **Protection Relays (SEL, ABB, Siemens, GE):** Programmable logic for GTLS/GTI
+- **Inputs:** Hall CT (analog) → RTU → Relay (GOOSE) OR direct to relay (analog card)
+- **Logic:** `IF (GIC_SUM > THRESH) AND (V < V_THRESH) THEN TRIP`
+- **Coordination:** GTLS/GTI **supervises** standard UFLS/UVLS — **not replacement**
+- **Blocking:** GTLS blocked if **islanding active** (GTI) — avoid double-shed
+
+**Mining Load Shedding Priority (Automated):**
+```python
+# GTLS Load Shedding Sequence (Diego de Almagro Cluster)
+SHED_SEQUENCE = [
+    {"priority": 4, "loads": ["Stockpile conveyors", "Workshop", "Admin", "EV charging"], "MW": 150},
+    {"priority": 3, "loads": ["Non-critical pumps", "Secondary crushers", "Lighting", "HVAC"], "MW": 300},
+    {"priority": 2, "loads": ["Dewatering (partial)", "Reagent prep", "Ventilation (reduced)"], "MW": 500},
+    {"priority": 1, "loads": ["SAG mills", "Primary crushers", "Separation", "Water", "Comms"], "MW": 0},  # NEVER SHED
+]
+```
+
+**Aegis-Forge Cluster Load Management (Ch. 5.4):**
+- **No shedding needed** if islanded (self-sufficient)
+- **If grid-tied + GIC:** Export surplus → support grid voltage
+- **If grid-tied + no islanding:** Curtail per GTLS priority table
+
+**False Trip Prevention:**
+- **Confirmation:** Require **2 of 3 Hall CTs** agree (redundancy)
+- **Persistence:** Threshold must hold **>30 sec** (filter transients)
+- **Cross-Check:** SWPC Alert Level ≥ G3 **AND** local GIC > threshold
+- **Manual Override:** CEN operator can **block GTLS/GTI** for 15 min (renewable)
+
+**Testing & Validation:**
+- **Annual:** Simulated GIC waveform injection (Hall CT + relay test set)
+- **Quarterly:** GOOSE communication test + logic verification
+- **Post-Event:** Forensic review of all GTLS/GTI operations
+
+**Cross-references:** IEC 61850; SEL/ABB/Siemens relay logic; Ch. 2.6 (simulation); Ch. 2.7 (VI); Ch. 3.5 (monitoring); Ch. 4.2 (relay coordination); Ch. 5.4 (islanding); Ch. 7.3 (SENAPRED); Ch. 7.5 (operator timeline).
+
+**Formulas:** GIC sum thresholds; load shedding sequence; relay logic equations; coordination time intervals.
+
+### 7.5 Operator Decision Timeline (CME Detection → Grid Impact: 18–36 hrs)
+
+**CME Transit Time** provides the **critical decision window**. For Chile (sub-auroral), **18–36 hours** from CME detection to geomagnetic impact. This timeline structures CEN operator actions.
+
+**Timeline — Carrington-Class Event (CME Speed ~2,300 km/s):**
+
+| Time (hrs before impact) | Phase | SWPC/SHOA Data | CEN Operator Actions | Mining/Aegis Actions |
+|--------------------------|-------|----------------|---------------------|---------------------|
+| **T-36 to T-24** | **Watch** | CME detected (SOHO/LASCO); ENLIL run; speed >1,500 km/s | 1. **GMD Watch declared**<br>2. Brief shift crew<br>3. Verify monitoring (Hall CTs, SHOA feed)<br>4. Review GTLS/GTI logic armed<br>5. Notify major loads (mines) | Mines: **GIC Mode ON**; verify islanding readiness; fuel check |
+| **T-24 to T-18** | **Warning** | ENLIL convergence; Earth-directed confirmed; DSCOVR preview | 1. **GMD Warning declared**<br>2. Pre-position VAR (SVC/STATCOM max cap)<br>3. Cancel non-critical outages<br>4. Dispatch synchronous condensers online<br>5. Brief SENAPRED (Yellow→Red) | Mines: **Non-critical shed prep**; Aegis: **grid-forming standby** |
+| **T-18 to T-12** | **Imminent** | DSCOVR: Bz southward >20 nT; Vsw >800 km/s; dynamic pressure rising | 1. **GMD Alert declared**<br>2. **GTLS/GTI AUTO ARMED** (remove manual block)<br>3. Maximize hydro generation (Rapel, Colbún)<br>4. Reduce intertie transfers (conserve margin)<br>5. Activate CEN crisis desk (24/7) | Mines: **Islanding armed**; Aegis: **grid-forming mode**; non-critical shed |
+| **T-12 to T-6** | **Impact Approaching** | DSCOVR: Bz >50 nT sustained; Kp rising; SHOA dB/dt rising | 1. Monitor real-time GIC dashboard<br>2. Execute GTLS if triggered<br>3. Coordinate with SENAPRED (Red)<br>4. Public comms: "Grid stress, conserve power"<br>3. Prepare blackstart units (Rapel, Colbún) | Aegis: **ISLAND IF GTI TRIGGERED**; mines on island power |
+| **T-6 to T-0** | **Main Phase** | Peak dB/dt; GIC > thresholds; voltage dips | 1. **GTI AUTO EXECUTES** if thresholds met<br>2. Monitor island stability (Aegis clusters)<br>3. Shed per GTLS if not islanded<br>4. Protect transformers (trip if hotspot >160°C)<br>5. Log all actions for forensics | **ISLANDED — Continuous operation** |
+| **T-0 to T+12** | **Recovery** | Bz northward; dB/dt decaying; GIC <50 A | 1. Verify GIC decay (monitoring)<br>2. Resynchronize islands (synchrocheck)<br>3. Restore loads: Priority 1→4 staggered<br>4. Assess transformer health (hotspot, gas)<br>5. SENAPRED: "All Clear" when stable | Aegis: **Reconnect to grid**; mines resume grid import |
+| **T+12 to T+48** | **Assessment** | Quiet conditions | 1. Forensic analysis (GIC, thermal, protection)<br>2. Transformer DGA, insulation tests<br>3. Report to SEC, SENAPRED, mining<br>4. Update models (Ch. 4.5)<br>5. Insurance/CAT bond claims (Ch. 8) | Damage assessment; restart any tripped units |
+
+**Decision Support Tools (CEN Dashboard):**
+- **Real-Time GIC Map:** Color-coded by VI (Ch. 2.7)
+- **GTLS/GTI Status:** Armed/Triggered/Blocked per scheme
+- **VAR Reserve Meter:** Available vs. Required (Ch. 4.1)
+- **Transformer Health:** Hotspot estimate (thermal model + GIC)
+- **CME Countdown:** DSCOVR + ENLIL arrival forecast
+- **Communication Log:** Timestamped operator actions
+
+**Operator Training & Certification:**
+- **Annual:** GMD Tabletop Exercise (CEN + SENAPRED + Mines + SHOA)
+- **Quarterly:** Simulator Drill (CME scenarios: G3, G4, G5)
+- **Certification:** "GMD Certified Operator" — required for shift lead
+- **Drill Scenarios:** Carrington-class, 1989-class, 2012-near-miss, AI-forecast error
+
+**Cross-references:** NOAA SWPC; DSCOVR; SHOA; SENAPRED; Ch. 3.5 (monitoring); Ch. 4.1 (VAR); Ch. 4.2 (relays); Ch. 5.4 (islanding); Ch. 7.1 (NOAA); Ch. 7.2 (SHOA); Ch. 7.3 (SENAPRED); Ch. 7.4 (GTLS/GTI); Ch. 8 (CAT bonds).
+
+**Formulas:** CME transit time; decision window; VAR reserve margin; load restoration sequence.
+
+### 7.6 Post-Event Assessment & Recovery Procedures
+
+**Structured post-event process** ensures **transformer health verification**, **model validation**, **insurance claims**, and **regulatory compliance** after a GMD event.
+
+**Immediate Recovery (0–24 hrs post-storm):**
+
+| Step | Action | Responsible | Deadline | Tools |
+|------|--------|-------------|----------|-------|
+| 1 | **GIC Decay Confirmation** — All Hall CTs < 50 A for 1 hr | CEN | T+0 | Monitoring dashboard |
+| 2 | **Island Resync** — Synchrocheck, close ties, stagger load | CEN + Mines | T+1 | Synchrocheck relays |
+| 3 | **Transformer Visual/IR Inspection** — Hotspot, bushings, tank | Transelec/Generators | T+4 | IR camera, visual |
+| 4 | **DGA (Dissolved Gas Analysis)** — All Tier 1–2 transformers | Labs (CEN contract) | T+8 | ASTM D3612 |
+| 5 | **Protection Operations Review** — All relay targets, GTLS/GTI logs | CEN Protection | T+12 | COMTRADE, SOE |
+| 6 | **SCADA Data Archive** — Freeze historian, export event window | CEN IT | T+2 | Historian, PI/OSIsoft |
+| 7 | **SENAPRED Situation Report** — Grid status, mining, public | SENAPRED | T+12 | Standard form |
+
+**Transformer Health Assessment (24–72 hrs):**
+
+| Test | Scope | Pass Criteria | Action if Fail |
+|------|-------|---------------|----------------|
+| **DGA** | All Tier 1–2 (28 units) | C2H2 < 5 ppm, CH4 < 50 ppm, C2H4 < 100 ppm | **De-energize, detailed inspection** |
+| **FRA (Frequency Response)** | Tier 1 (12 units) | <1% deviation from baseline | Internal inspection |
+| **SFRA (Sweep)** | All Tier 1–2 | Resonance peaks unchanged | Internal inspection |
+| **Insulation Resistance** | All | >1 GΩ (5 kV Megger) | Dry-out / repair |
+| **Bushing CT/PT** | All | Ratio/phase within 1% | Replace |
+| **Hotspot Fiber Optic** | Instrumented units | Peak < 160°C during event | Validate model |
+| **Loss-of-Life Calculation** | All | ΔLOL < 0.1% per event | Accelerate replacement |
+
+**GIC Model Validation (Critical for Ch. 4.5):**
+1. **Input:** Measured B(t) from SHOA + measured I_GIC(t) from Hall CTs
+2. **Run:** Model simulation with same topology, conductivity
+3. **Compare:** Measured vs. Simulated I_GIC per transformer
+4. **Metrics:** 
+   - **Correlation Coefficient** > 0.9
+   - **Mean Absolute Error** < 20 A
+   - **Peak Error** < 30%
+5. **Update:** Conductivity model, transformer parameters, topology
+6. **Document:** Validation report → CEN, SEC, SENAPRED
+
+**Protection System Forensics:**
+- **GTLS/GTI Operations:** Verify correct trigger, timing, coordination
+- **Standard UFLS/UVLS:** Check for misoperations (harmonic restraint)
+- **87T Differential:** Review harmonic restraint — any false blocks?
+- **51N/50N Neutral:** GIC vs. fault discrimination
+- **21 Distance:** Reach errors during distortion
+- **Report:** Protection Operations Report (IEEE C37.232)
+
+**Mining Operations Recovery:**
+- **Aegis-Forge Clusters:** Verify DC bus stability, motor health, thermal cascade continuity
+- **Grid-Tied Mines:** Staggered restart — Priority 1 (process) → 4 (admin)
+- **Production Loss Accounting:** Timestamped — for insurance/CAT bond (Ch. 8)
+- **Worker Safety:** Radiation/EMI check (if extreme event)
+
+**Regulatory Reporting (SEC Chile):**
+- **Form:** "Informe de Evento Geomagnético" (SEC format)
+- **Deadline:** 30 calendar days post-event
+- **Contents:** Event timeline, GIC data, impacts, actions, damages, lessons learned
+- **Public Summary:** Anonymized, 90 days
+
+**Insurance & CAT Bond Claims (Ch. 8):**
+- **Parametric Trigger:** Peak GIC at Diego de Almagro > 500 A (verified by Hall CT)
+- **Indemnity Trigger:** Transformer damage (DGA + FRA + visual)
+- **Business Interruption:** Mining revenue loss (timestamped production data)
+- **Documentation:** All above reports + independent adjuster
+
+**Lessons Learned & Model Updates:**
+| Artifact | Owner | Update Cycle |
+|----------|-------|--------------|
+| **Conductivity Model** | CEN/SHOA/SERNAGEOMIN | Post-event + annual |
+| **Transformer Thermal Models** | Transelec/Generators | Post-event + per DGA |
+| **GTLS/GTI Thresholds** | CEN Protection | Post-event + annual |
+| **Operator Procedures** | CEN Operations | Post-event + annual |
+| **SENAPRED Protocols** | SENAPRED | Post-event + biennial |
+| **Aegis-Forge Islanding Logic** | Tardigradia/Mines | Post-event + quarterly |
+
+**Cross-references:** IEEE C57.104 (DGA); IEEE C57.149 (FRA); IEEE C37.232 (protection); SEC regulations; Ch. 3.5 (monitoring); Ch. 4.5 (modeling); Ch. 5.4 (Aegis); Ch. 8 (finance).
+
+**Formulas:** Loss-of-life acceleration; DGA interpretation; FRA deviation; model validation metrics.
