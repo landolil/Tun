@@ -282,6 +282,40 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 
 ---
 
+### PROD-20: Stage 7 Ferrous Cascade (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read Vol 2 Stage 7 + PROD-19 residue + PROD-17/18 dross + FOLLOW-15, 20 | 30 min | ✅ COMPLETE |
+| 2.1 | Write Section 1 | Stage Parameters table, cascade context, feedstock composition | 15 min | ✅ COMPLETE |
+| 2.2 | Write Section 2 | Iron Melting and C/Si/Mn Control (thermophysics, induction, carbon control) | 25 min | ✅ COMPLETE |
+| 2.3 | Write Section 3 | Rare Earth Magnet Recovery (NdFeB, SmCo partitioning, dual-stream) | 25 min | ✅ COMPLETE |
+| 2.4 | Write Section 4 | Centrifuge Bowl Zones (5-zone design, dual-port casting) | 25 min | ✅ COMPLETE |
+| 2.5 | Write Section 5 | Slag Engineering (CaO-SiO₂-MgO-Al₂O₃, REE partitioning, free flux) | 20 min | ✅ COMPLETE |
+| 2.6 | Write Section 6 | Ferrous Alloy Fractionation (4 streams, temperature-banded) | 15 min | ✅ COMPLETE |
+| 2.7 | Write Section 7 | REE Concentrate Interface (Port 7A specs, FOLLOW-15 transfer) | 15 min | ✅ COMPLETE |
+| 2.8 | Write Section 8 | Output Streams (summary table, mass balance) | 15 min | ✅ COMPLETE |
+| 2.9 | Write Section 9 | Throughput and Quality (production targets, quality specs, sampling) | 15 min | ✅ COMPLETE |
+| 2.10 | Write Section 10 | Energy Balance (inputs, recovery, net, exergy) | 15 min | ✅ COMPLETE |
+| 2.11 | Write Section 11 | Safety and Emissions (HAZOP, PPE, emission limits) | 15 min | ✅ COMPLETE |
+| 2.12 | Write Section 12 | Control System (cascade PID, dual-port, C/Si/Mn/REE loops, interlocks) | 20 min | ✅ COMPLETE |
+| 2.13 | Write Section 13 | Cross-Reference Matrix (16 upstream/downstream docs) | 10 min | ✅ COMPLETE |
+| 2.14 | Appendix A | Quick-Reference Card | 10 min | ✅ COMPLETE |
+| 2.15 | Appendix B | Slag Composition Detail for Stage 8 Interface | 15 min | ✅ COMPLETE |
+| 2.16 | Appendix C | Economic Analysis (revenue, OPEX, margin, sensitivity) | 15 min | ✅ COMPLETE |
+| 3.1 | Generate Williams Intro | ~67 lines: Constraint (ferromagnetic cliff), Necessity (REE recovery), Commitment (dual-port, zero flux) | 20 min | ✅ COMPLETE |
+| 3.2 | Generate Keymaker Intro | ~67 lines: Lock (4 objectives), Key (CDPPO-RSE operator), Turn (theory↔practice) | 20 min | ✅ COMPLETE |
+| 3.3 | Generate El Segundo Intro | ~67 lines: Mirror (FBG/XRF/MS/magnetic), Participation (operator witness), Protocol (4 recursive loops) | 20 min | ✅ COMPLETE |
+| 3.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | ✅ COMPLETE |
+| 4.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-20_... chunks/PROD-20` | 5 min | ✅ COMPLETE |
+| 4.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-20` | 2 min | ✅ COMPLETE |
+| 4.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-20` | 2 min | ✅ COMPLETE |
+| 4.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-20_...` | 2 min | ✅ COMPLETE |
+| 4.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-20 Stage 7 Ferrous Cascade — 977 lines + 200 intro" && git push` | 5 min | PENDING |
+| 4.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | PENDING |
+
+---
+
 ## Heartbeat Log (Session Start)
 2026-11-01T20:23:06Z Runner 006 Session Started — PROD-16 Research Phase Initiated
 2026-11-01T21:22:00Z Runner 006 Micro-subtask granularity activated — every step logged
