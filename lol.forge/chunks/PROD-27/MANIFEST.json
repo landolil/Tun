@@ -1,0 +1,90 @@
+{
+  "chapter_01_intro.md": {
+    "size": 73,
+    "sha256": "0e6a2f44abd4a0b4124ad11118015f89d3a7ecc2c581ff3822ab475fb300d3c5"
+  },
+  "chapter_02_williams_heuristic__architectu.md": {
+    "size": 4587,
+    "sha256": "9520969f41e413fea9fe77b3c6d36c7bb2400523c5630426eca900f9a15d689c"
+  },
+  "chapter_03_keymaker_heuristic__implementa.md": {
+    "size": 7579,
+    "sha256": "5c7b8931119e5f66084abeb49ce7f656bf853c7058beca73ebda8e3b4faa967a"
+  },
+  "chapter_04_el_segundo_heuristic__operatio.md": {
+    "size": 13975,
+    "sha256": "5e51dc257e48d8f7b83e58df4a4e3c402e0a10dc164eeb3b9a4cd583aee4048b"
+  },
+  "chapter_05_csmfab000000000127__aegis-forg.md": {
+    "size": 513,
+    "sha256": "9e4ae67cc71b91fb4280154d8a4d03ad47986d58b206cff804fe7794f92bebef"
+  },
+  "chapter_06_1_build_sequence_overview.md": {
+    "size": 9967,
+    "sha256": "3047ba0a69acd581b20fd1f3479cbdf0830bb279352f1cf4d314b561ac01d86d"
+  },
+  "chapter_07_2_drum_manufacturing__zrb₂-sic.md": {
+    "size": 4205,
+    "sha256": "7719f3c86497bf7e7d94b18efa25f62e3aaa928c6b46bc011207943ec31ccc9c"
+  },
+  "chapter_08_3_vessel_manufacturing__bfrp_e.md": {
+    "size": 3083,
+    "sha256": "80955eeb08a665c824e2a7c94cdda0182d84b1894b6ffef1bf237520e173bd1c"
+  },
+  "chapter_09_4_port_valve_assembly__ti₃alc₂.md": {
+    "size": 1954,
+    "sha256": "73c4a5aaac9dca1b3b636b4ea3f5dcbac150a63fe0b3fca6f2cfe95c38a83e1f"
+  },
+  "chapter_10_5_coil_bank_manufacturing__8-z.md": {
+    "size": 1813,
+    "sha256": "63fe0c9f77ce0df55969d07d5b795dcfd2576b7e3c16f5906cdf6b791d3c39fc"
+  },
+  "chapter_11_6_power_electronics_assembly__.md": {
+    "size": 1778,
+    "sha256": "54bff049d7015037a2f9bc306195e183f7ca59f8bf0cca73efc4913ef63580b6"
+  },
+  "chapter_12_7_frame__carousel_manufacturin.md": {
+    "size": 1242,
+    "sha256": "998b7bc43a24fb87d2b673edfb7421c939bc744c231cd5cbe7f108b89552b714"
+  },
+  "chapter_13_8_system_integration__loop_clo.md": {
+    "size": 2158,
+    "sha256": "6774744691205918ac3439dc5b95b72652ca02f59a744b03805d9e374da8807f"
+  },
+  "chapter_14_9_factory_acceptance_test_fat_.md": {
+    "size": 2856,
+    "sha256": "9906d1d66cefe58159053e4391f224847b501bffb60c5fe8970dad0624e72d32"
+  },
+  "chapter_15_10_shipping__site_preparation.md": {
+    "size": 1653,
+    "sha256": "857ee074b7858f400a40d89375c33eb7ae39f5548fff21d743055d550b80d5d0"
+  },
+  "chapter_16_11_tooling__fixtures.md": {
+    "size": 1312,
+    "sha256": "06bc6e3d3ef9a9f21a9932be30e31cbb883e0678b94c8187bc1e5edaae4fc916"
+  },
+  "chapter_17_12_supplier_qualification.md": {
+    "size": 1244,
+    "sha256": "81c7e6063ddae64e8940974a23038cfadd6e6e5887d2eac85c33a43966d4df54"
+  },
+  "chapter_18_13_cross-reference_matrix.md": {
+    "size": 1595,
+    "sha256": "fc06954c8fccd753e2b4811df0c6e3cf234e04b1c396414d3a839cc9dbbcf064"
+  },
+  "chapter_19_appendix_a_build_schedule_gant.md": {
+    "size": 3031,
+    "sha256": "33e8132cfd496c396032cc5c03d0584443ccf2f81c311d76f7e15441fa26f2e4"
+  },
+  "chapter_20_appendix_b_tooling_drawings_in.md": {
+    "size": 970,
+    "sha256": "aa49f70033cd2731c5d3710a67264fbcca3b4feb29499345127470a2e272fc3c"
+  },
+  "chapter_21_appendix_c_supplier_audit_chec.md": {
+    "size": 1460,
+    "sha256": "66f6edd7a96c3babf80e6855444e0dd504113cde53a7b0a7961bcd1ae10ea02b"
+  },
+  "chapter_22_appendix_d_fat_sat_test_proced.md": {
+    "size": 4523,
+    "sha256": "037c18b5cf8785b46598f20e7b28a485cb00bb494eb868cb316c070cbe32e111"
+  }
+}
