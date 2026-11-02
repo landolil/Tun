@@ -452,36 +452,36 @@
 
 #### 5.1 DOC-26..35: 10 Community Deep Dives (150 tasks)
   #### 5.1.1 DOC-26: Atacameño Territory (Norte Grande) (15 tasks)
-  - [ ] 5.1.1.1 Research Atacameño (Lickanantay) history, 11 ayllus, Salar de Atacama, water cosmology
-  - [ ] 5.1.1.2 Map mining impacts: SQM/Albemarle brine, lagoons, Cu/REE overlap, cumulative impact
-  - [ ] 5.1.1.3 Document consent architecture: Consulta Indígena, CPA, precedent cases, CPA model
-  - [ ] 5.1.1.4 Design FBC/CDC trust: 15%/20% equity, water trust, cultural heritage fund, governance
-  - [ ] 5.1.1.5 Size Aegis-Forge integration: Alpha-1/2 clusters, local employment, training, procurement
-  - [ ] 5.1.1.6 Design water sovereignty protocol: brine vs freshwater, lagoon monitoring, community hydrology
-  - [ ] 5.1.1.7 Economic diversification: tourism (ALMA), agriculture, value-added REE processing
-  - [ ] 5.1.1.8 Regulatory navigation: SEA RCA, DGA, CONADI, Sernageomin, CRMA strategic project
-  - [ ] 5.1.1.9 Draft DOC-26 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 5.1.1.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
-  - [ ] 5.1.1.11 Split into logical chunks → chunks/DOC-26/
-  - [ ] 5.1.1.12 Generate manifest & verify integrity
-  - [ ] 5.1.1.13 Compress FinishedWork original (.gz)
-  - [ ] 5.1.1.14 Log completion + git commit + tag runner-017a-complete
+  - [x] 5.1.1.1 Research Atacameño (Lickanantay) history, 11 ayllus, Salar de Atacama, water cosmology
+  - [x] 5.1.1.2 Map mining impacts: SQM/Albemarle brine, lagoons, Cu/REE overlap, cumulative impact
+  - [x] 5.1.1.3 Document consent architecture: Consulta Indígena, CPA, precedent cases, CPA model
+  - [x] 5.1.1.4 Design FBC/CDC trust: 15%/20% equity, water trust, cultural heritage fund, governance
+  - [x] 5.1.1.5 Size Aegis-Forge integration: Alpha-1/2 clusters, local employment, training, procurement
+  - [x] 5.1.1.6 Design water sovereignty protocol: brine vs freshwater, lagoon monitoring, community hydrology
+  - [x] 5.1.1.7 Economic diversification: tourism (ALMA), agriculture, value-added REE processing
+  - [x] 5.1.1.8 Regulatory navigation: SEA RCA, DGA, CONADI, Sernageomin, CRMA strategic project
+  - [x] 5.1.1.9 Draft DOC-26 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 5.1.1.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [x] 5.1.1.11 Split into logical chunks → chunks/DOC-26/
+  - [x] 5.1.1.12 Generate manifest & verify integrity
+  - [x] 5.1.1.13 Compress FinishedWork original (.gz)
+  - [x] 5.1.1.14 Log completion + git commit + tag runner-017a-complete
 
   #### 5.1.2 DOC-27: Diaguita Valleys (Norte Chico) (15 tasks)
-  - [ ] 5.1.2.1 Research Diaguita 4 valleys (Elqui, Limarí, Choapa, Huasco), 15 communities, agriculture
-  - [ ] 5.1.2.2 Map mining impacts: Dominga rejection, Los Pelambres tailings, water scarcity, agric conflict
-  - [ ] 5.1.2.3 Document consent architecture: Consulta Indígena, valley assemblies, legal personality (2006)
-  - [ ] 5.1.2.4 Design FBC/CDC trust: valley-specific, agricultural compensation, water fund, cultural revitalization
-  - [ ] 5.1.2.5 Size Aegis-Forge integration: Alpha-3..7 (IOCG), Bravo-3/4 (ion-adsorption), local jobs
-  - [ ] 5.1.2.6 Water sharing agreements: surface + groundwater, agricultural priority, mining efficiency
-  - [ ] 5.1.2.7 Economic diversification: agro-export, astro-tourism, REE value-add
-  - [ ] 5.1.2.8 Regulatory navigation: SEREMI Coquimbo/Atacama, GORE, DGA, CRMA, Glacier Law
-  - [ ] 5.1.2.9 Draft DOC-27 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 5.1.2.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
-  - [ ] 5.1.2.11 Split into logical chunks → chunks/DOC-27/
-  - [ ] 5.1.2.12 Generate manifest & verify integrity
-  - [ ] 5.1.2.13 Compress FinishedWork original (.gz)
-  - [ ] 5.1.2.14 Log completion + git commit + tag runner-017b-complete
+  - [x] 5.1.2.1 Research Diaguita 4 valleys (Elqui, Limarí, Choapa, Huasco), 15 communities, agriculture
+  - [x] 5.1.2.2 Map mining impacts: Dominga rejection, Los Pelambres tailings, water scarcity, agric conflict
+  - [x] 5.1.2.3 Document consent architecture: Consulta Indígena, valley assemblies, legal personality (2006)
+  - [x] 5.1.2.4 Design FBC/CDC trust: valley-specific, agricultural compensation, water fund, cultural revitalization
+  - [x] 5.1.2.5 Size Aegis-Forge integration: Alpha-3..7 (IOCG), Bravo-3/4 (ion-adsorption), local jobs
+  - [x] 5.1.2.6 Water sharing agreements: surface + groundwater, agricultural priority, mining efficiency
+  - [x] 5.1.2.7 Economic diversification: agro-export, astro-tourism, REE value-add
+  - [x] 5.1.2.8 Regulatory navigation: SEREMI Coquimbo/Atacama, GORE, DGA, CRMA, Glacier Law
+  - [x] 5.1.2.9 Draft DOC-27 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 5.1.2.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [x] 5.1.2.11 Split into logical chunks → chunks/DOC-27/
+  - [x] 5.1.2.12 Generate manifest & verify integrity
+  - [x] 5.1.2.13 Compress FinishedWork original (.gz)
+  - [x] 5.1.2.14 Log completion + git commit + tag runner-017b-complete
 
   #### 5.1.3 DOC-28: Mapuche-Pehuenche (Zona Central Andes) (15 tasks)
   - [ ] 5.1.3.1 Research Pehuenche origin, 8 communities, pewén/araucaria, volcanic territory

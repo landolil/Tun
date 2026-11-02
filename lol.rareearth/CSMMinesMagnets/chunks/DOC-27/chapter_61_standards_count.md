@@ -1,0 +1,2 @@
+# Standards count
+grep -c 'Law 19.253\|Law 21.210\|Law 21.435\|ILO 169\|DGA Res 1238\|CONADI Res 124\|Supreme Court\|ISO 14046\|MIL-STD-1540\|CPTPP\|UNDRIP\|OECD\|Water Code\|Environmental Law\|Sernageomin\|CMN\|UNESCO\|D.S. 132\|D.S. 248\|Law 20.283\|Law 20.551' FinishedWork/DOC-27_Community_Diaguita.md

@@ -1,0 +1,2 @@
+# Cross-reference count
+grep -c 'DOC-\|Law\|Decree\|CONADI\|CONAF\|SEREMI\|GORE\|CPA\|FBC\|CDC\|Supreme Court\|DGA\|ILO\|UNDRIP\|ISO\|MIL-STD\|CPTPP\|OECD\|Water Code\|Environmental Law\|Sernageomin\|CMN' FinishedWork/DOC-27_Community_Diaguita.md
