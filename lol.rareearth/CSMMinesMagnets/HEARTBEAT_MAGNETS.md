@@ -12,14 +12,14 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T09:32:00Z",
-  "current_runner": "017g",
-  "current_document": "DOC-32",
-  "subtask": "5.1.7.1 Research Antofagasta",
-  "subtask_start": "2026-11-02T09:32:00Z",
-  "documents_completed_phase5": 6,
-  "total_lines_written_session": 4800,
-  "git_commits_this_session": 1,
+  "last_heartbeat": "2026-11-02T09:40:00Z",
+  "current_runner": "017h",
+  "current_document": "DOC-33",
+  "subtask": "5.1.8.1 Research Tocopilla",
+  "subtask_start": "2026-11-02T09:40:00Z",
+  "documents_completed_phase5": 7,
+  "total_lines_written_session": 9600,
+  "git_commits_this_session": 2,
   "status": "active"
 }
 ```
@@ -88,4 +88,4 @@ ps aux | grep heartbeat_monitor
 ---
 
 *Heartbeat is the pulse of the intelligence forge. Keep it steady.*
-*Last Updated: 2026-11-02 | Runner 017g Starting*
+*Last Updated: 2026-11-02 | Runner 017h Starting*
