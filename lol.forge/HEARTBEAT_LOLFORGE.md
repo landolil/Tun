@@ -12,14 +12,14 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T21:30:00Z",
-  "current_runner": "009",
+  "last_heartbeat": "2026-11-02T22:30:00Z",
+  "current_runner": "010",
   "current_document": "PROD-25",
-  "subtask": "research",
-  "subtask_start": "2026-11-02T21:30:00Z",
-  "documents_completed": 24,
-  "total_lines_written": 23614,
-  "git_commits_this_session": 8,
+  "subtask": "complete",
+  "subtask_start": "2026-11-02T22:30:00Z",
+  "documents_completed": 25,
+  "total_lines_written": 24838,
+  "git_commits_this_session": 9,
   "status": "active"
 }
 ```
@@ -150,3 +150,4 @@ ps aux | grep heartbeat_monitor
 2026-11-02T18:50:00Z Runner 008 PROD-22 Complete 909 lines 1 commit OK
 2026-11-02T20:30:00Z Runner 008 PROD-23 Complete 1080 lines 1 commit OK
 2026-11-02T21:30:00Z Runner 009 PROD-24 Complete 1056 lines 1 commit OK
+2026-11-02T22:30:00Z Runner 010 PROD-25 Complete 1224 lines 1 commit OK

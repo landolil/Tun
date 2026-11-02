@@ -216,7 +216,12 @@
   - [x] Git: Commit and push PROD-24
 
 ### Runner 009: Structural & Safety (PROD-25 to PROD-27)
-- [ ] PROD-25: Structural Analysis & FEA (900 lines + 200 intro)
+- [x] PROD-25: Structural Analysis & FEA (1224 lines + 200 intro)
+  - [x] Research: PROD-04 drum, PROD-06 vessel, PROD-24 thermal, PROD-09 ports
+  - [x] Write: 13 sections + 4 appendices (Design Basis, Drum FEA, Vessel FEA, Frame, Port Valves, Coil Housing, Carousel, Seismic, Fatigue, NDT, Transport, Safety Factors, Cross-Ref Matrix, Quick-Ref, FEA Summary, Seismic Procedure, Fatigue Calculations)
+  - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [x] Verify: Line counts (1224), manifest (25 chunks), chunking verified
+  - [x] Git: Commit and push PROD-25
 - [ ] PROD-26: Electrical Safety & GIC Immunity (900 lines + 200 intro)
 - [ ] PROD-27: Manufacturing Process Plan (900 lines + 200 intro)
 
@@ -365,7 +370,7 @@
 | 0: Init | 0 | 100% | 000 |
 | 1: PROD 1-10 | 10 | 100% | 001-005 |
 | 2: PROD 11-20 | 10 | 100% | 006-010 |
-| 3: PROD 21-30 | 10 | 30% | 011-015 |
+| 3: PROD 21-30 | 10 | 50% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
 | 5: FOLLOW 1-10 | 10 | 0% | 016-020 |
 | 6: FOLLOW 11-20 | 10 | 0% | 021-025 |
@@ -373,7 +378,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 36.25% (29/80 complete)
+**Total**: 80 documents | **Overall Progress**: 37.5% (30/80 complete)
 
 ---
 
@@ -406,4 +411,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-02 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Runner 007 complete: PROD-19 (1086 lines), PROD-20 (977 lines), PROD-21 (969 lines). Runner 008 complete: PROD-22 (909 lines), PROD-23 (1080 lines), PROD-24 (1056 lines). Phase 1 progress: 21/40 Product Documents (PROD-01 through PROD-21). Phase 2 progress: 9/10 (PROD-16 through PROD-24). Next: PROD-25.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Runner 007 complete: PROD-19 (1086 lines), PROD-20 (977 lines), PROD-21 (969 lines). Runner 008 complete: PROD-22 (909 lines), PROD-23 (1080 lines), PROD-24 (1056 lines). Runner 009 complete: PROD-25 (1224 lines). Phase 1 progress: 21/40 Product Documents (PROD-01 through PROD-21). Phase 2 progress: 10/10 (PROD-16 through PROD-25). Next: PROD-26, PROD-27, PROD-28.*
