@@ -1782,3 +1782,442 @@ Per TPL-007 R4, CAP must include:
 **Cross-references:** Ch. 3.6 (cost-benefit); Ch. 3.7 (deployment); CEN PET 2024/2025; SEC regulatory framework; DOC-05 (Aegis-Forge CAPEX); Ch. 8 (financial instruments).
 
 **Formulas:** Annualized CAPEX = CAPEX × r / (1 - (1+r)^-n); B/C = PV(benefits) / CAPEX; per-unit cost scaling.
+
+## Chapter 5: Aegis-Forge Modular Power for Mining Clusters
+
+### 5.1 Distributed Generation Architecture (Microgrid Clusters)
+
+**Aegis-Forge** (from DOC-05, DOC-08, DOC-10) is Tardigradia's **modular, containerized power generation platform** designed for co-location with thermal cascade inductive separation plants. Its **distributed architecture** provides inherent GIC resilience through **electrical isolation from the main grid** and **zero-GIC motor loads** (Ch. 6).
+
+**Microgrid Cluster Concept:**
+```
+[Thermal Cascade Separation Plant] 
+         │
+         ├── [Aegis-Forge Power Module 1] — 50 MW (Gas turbine + ORC)
+         ├── [Aegis-Forge Power Module 2] — 50 MW (Gas turbine + ORC)
+         ├── [Aegis-Forge Power Module 3] — 50 MW (Gas turbine + ORC)
+         ├── [Battery Storage] — 100 MW / 400 MWh (LFP)
+         ├── [Fe₁₆N₂/SmCo Motor Loads] — 150 MW (zero GIC)
+         └── [Grid Tie] — 220 kV (with NBC/NGR)
+```
+
+**Key Architectural Features for GIC Resilience:**
+
+1. **Electrical Islanding Capability:**
+   - Each module has **dedicated GSU transformer** with **NBC (5,000 μF)** on neutral
+   - **Grid tie breaker** opens in <3 cycles on GIC/voltage trigger
+   - **Seamless transition** to islanded mode — no load interruption
+
+2. **Distributed Generation (No Single Point of Failure):**
+   - **N+1 redundancy** — loss of any module <25% capacity
+   - **Multiple fuel sources** — pipeline gas + LNG backup + hydrogen-ready
+   - **Blackstart:** Each module has **battery-start capability** (no grid needed)
+
+3. **DC Microgrid Backbone (Optional):**
+   - **±1.5 kV DC bus** interconnecting modules + storage + motor drives
+   - **GIC immune** (DC system — no transformer saturation)
+   - **High efficiency** for motor drives (no inversion loss)
+
+4. **Thermal Cascade Co-Location Synergy:**
+   - **Waste heat** from gas turbines → **thermal cascade separation** (DOC-05, DOC-10)
+   - **Zero liquid discharge** — no water dependency (Atacama advantage)
+   - **Power-to-heat ratio optimized** for mineral processing loads
+
+**Chile Deployment — Mining Cluster Microgrids:**
+
+| Cluster | Mines Served | Aegis-Forge Capacity | Storage | Grid Tie | Status |
+|---------|--------------|---------------------|---------|----------|--------|
+| **Escondida** | Escondida, Spence | 300 MW (6 modules) | 200 MWh | 220 kV ×2 (NBC) | Design |
+| **Collahuasi** | Collahuasi, QB | 200 MW (4 modules) | 150 MWh | 220 kV ×2 (NBC) | Design |
+| **Los Pelambres** | Los Pelambres, Centinela | 250 MW (5 modules) | 150 MWh | 220 kV ×2 (NGR) | Concept |
+| **Radomiro Tomic** | RT, Chuquicamata | 150 MW (3 modules) | 100 MWh | 220 kV ×1 (NGR) | Concept |
+| **Andina/El Teniente** | Andina, El Teniente, Los Bronces | 200 MW (4 modules) | 150 MWh | 220 kV ×2 (NGR) | Concept |
+
+**Microgrid Control System:**
+- **Primary:** Droop control (frequency/voltage) — **GIC immune** (local measurements)
+- **Secondary:** Centralized optimizer (economic dispatch, SOC management)
+- **Tertiary:** Grid interaction (export/import, ancillary services)
+- **GIC Mode:** Autonomous islanding on **GIC > threshold OR voltage < 0.85 pu**
+
+**Cross-references:** DOC-05 (Tardigradia/Aegis-Forge); DOC-08 (port logistics); DOC-10 (supply chain); Ch. 3.2 (NBC); Ch. 6 (zero-GIC motors); Ch. 7.4 (islanding triggers).
+
+**Formulas:** Microgrid power balance; islanding detection; droop control equations.
+
+### 5.2 Aegis-Forge Power Specs (from DOC-05 E172, DOC-08 Ch.8)
+
+**Aegis-Forge Module Specifications** (per DOC-05 E172 National Mining Association briefing, DOC-08 Ch.8 port power integration):
+
+**Per-Module Ratings (Standard 50 MW Module):**
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| **Electrical Output** | 50 MW (net) | 48 MW @ generator terminals |
+| **Prime Mover** | Aeroderivative Gas Turbine | GE LM6000 / Siemens SGT-A35 / equivalent |
+| **Bottoming Cycle** | Organic Rankine Cycle (ORC) | +8 MW from turbine exhaust heat |
+| **Thermal Output** | 120 MWth | To thermal cascade separation |
+| **Heat Rate** | 8,500 BTU/kWh (LHV) | Combined cycle equivalent |
+| **Fuel** | Natural Gas (pipeline/LNG) | Hydrogen-ready (30% blend now, 100% future) |
+| **Emissions** | <15 ppm NOx, <25 ppm CO | SCR + oxidation catalyst |
+| **Footprint** | 40-ft HC container ×3 | Generator + ORC + Controls |
+| **Weight** | 120 tons/module | Transportable by truck/ship |
+| **Ramp Rate** | 20 MW/min | Fast grid support |
+| **Min Load** | 20% (10 MW) | Turndown for efficiency |
+
+**GSU Transformer (Per Module):**
+- **Rating:** 55 MVA, 13.8 kV / 220 kV (or 33 kV / 220 kV)
+- **Connection:** Yg-D (HV delta blocks GIC from grid)
+- **Neutral Grounding:** **NBC (5,000 μF, 220 kV class)** — blocks GIC completely
+- **Impedance:** 10–12% (limits fault current)
+- **Cooling:** ONAN/ONAF (forced air)
+
+**Cluster-Level Specifications:**
+
+| Cluster | Modules | Total Capacity | Storage | Grid Tie | Auxiliary Load |
+|---------|---------|----------------|---------|----------|----------------|
+| Escondida | 6 | 300 MW | 200 MWh | 2×220 kV | 15 MW (separation) |
+| Collahuasi | 4 | 200 MW | 150 MWh | 2×220 kV | 10 MW |
+| Los Pelambres | 5 | 250 MW | 150 MWh | 2×220 kV | 12 MW |
+| Radomiro Tomic | 3 | 150 MW | 100 MWh | 1×220 kV | 8 MW |
+| Andina Cluster | 4 | 200 MW | 150 MWh | 2×220 kV | 10 MW |
+
+**Battery Energy Storage System (BESS):**
+- **Chemistry:** LFP (Lithium Iron Phosphate) — safety, cycle life, no Co/Ni
+- **Power/Energy Ratio:** 1:4 (e.g., 50 MW / 200 MWh per 100 MW module pair)
+- **Inverter:** Grid-forming (VSC) — **blackstart capable, GIC immune**
+- **Functions:** Frequency regulation, spinning reserve, ramp smoothing, islanding bridge
+- **Cycle Life:** 6,000 cycles @ 80% DoD → 16+ years daily cycling
+
+**Thermal Cascade Integration (DOC-05 E172):**
+- **Turbine Exhaust:** 550°C → ORC (evaporator @ 300°C) → **Thermal Cascade Stage 1**
+- **Stage 1 Output:** 250°C → **Stage 2 (drying/calcination)** → **Stage 3 (low-temp separation)**
+- **Overall Thermal Efficiency:** 85%+ (power + process heat)
+- **Zero Liquid Discharge:** All water recycled; brine crystallized
+- **Power-to-Heat Ratio:** 0.42 (50 MW / 120 MWth) — optimized for mining loads
+
+**GIC-Relevant Electrical Parameters:**
+| Parameter | Value | GIC Significance |
+|-----------|-------|------------------|
+| **GSU HV Winding** | Delta | **Blocks GIC from grid** |
+| **GSU LV Winding** | Wye (grounded via NBC) | Local GIC only (self-generated) |
+| **Grid Tie Transformer** | Yg-Yg-D (auto) + NBC | Blocks grid GIC at cluster boundary |
+| **DC Microgrid Bus** | ±1.5 kV DC | **Inherently GIC immune** |
+| **Motor Drives** | Fe₁₆N₂/SmCo (Ch. 6) | **Zero GIC load** |
+
+**CAPEX/OPEX (per 50 MW Module):**
+| Item | CAPEX | OPEX (annual) |
+|------|-------|---------------|
+| Gas Turbine + ORC | $35M | $1.2M (maintenance) |
+| GSU + NBC + Switchgear | $5M | $0.1M |
+| BESS (pro-rata) | $8M | $0.3M |
+| Controls/Integration | $2M | $0.2M |
+| **Total per Module** | **$50M** | **$1.8M/yr** |
+| **LCOE (gas $8/MMBtu, 85% CF)** | | **$55–65/MWh** |
+
+**Comparison to Grid Hardening (Ch. 3.6):**
+- **Aegis-Forge cluster (300 MW Escondida):** $300M CAPEX
+- **Grid hardening (Tier 1+2):** $7.5M CAPEX
+- **But:** Aegis-Forge provides **power + heat + islanding + zero-GIC motors** — multi-value
+
+**Cross-references:** DOC-05 (E172 specs); DOC-08 (Ch.8 port power); DOC-10 (supply chain); Ch. 3.2 (NBC); Ch. 6 (motors); Ch. 8 (financial).
+
+**Formulas:** Heat rate; LCOE; thermal efficiency; power-to-heat ratio.
+
+### 5.3 Magnet Motor Integration — Zero-GIC-Load Advantage
+
+**Critical Insight:** Conventional **induction motors** and **PM synchronous motors** present **inductive VAR load** that exacerbates GIC-induced voltage collapse. **Advanced magnet motors** (Fe₁₆N₂, SmCo, SynRM, Ultrasonic Piezo) eliminate or dramatically reduce this vulnerability.
+
+**GIC Load Interaction Physics:**
+- **Grid GIC → Transformer saturation → VAR demand (inductive)**
+- **Motor load → Additional inductive VAR demand** (lagging PF)
+- **Combined effect:** **Voltage collapse accelerated** — motors stall, protection trips
+- **Zero-GIC motors:** **No VAR demand from saturation** + **unity/leading PF capability**
+
+**Motor Technology Comparison for Mining Loads:**
+
+| Motor Type | GIC Susceptibility | PF Capability | Efficiency | Temp Rating | Mining App |
+|------------|-------------------|---------------|------------|-------------|------------|
+| **Induction (IM)** | High (saturation) | 0.85–0.95 lag | 93–96% | 155°C (F) | SAG mills, pumps |
+| **PM Synch (NdFeB)** | Medium (magnet heating) | 0.95–1.0 lead | 96–98% | 180°C (H) | Conveyors, fans |
+| **PM Synch (SmCo)** | **Low** (high temp) | 0.95–1.0 lead | 96–98% | **350°C** | Critical drives |
+| **SynRM** | **None** (no magnets) | 0.90–0.98 lead | 95–97% | 180°C (H) | Pumps, fans |
+| **Fe₁₆N₂ (Niron)** | **None** (no REE) | 0.95–1.0 lead | 96–98% | 200°C | **SAG mills, crushers** |
+| **Ultrasonic Piezo** | **Zero** (no mag field) | Unity (resistive) | 90–94% | 200°C | Precision, small |
+
+**Zero-GIC-Load Advantage — Quantitative:**
+For a **100 MW mining motor load** at 0.85 PF lagging:
+- **Conventional IM:** Draws **62 MVAR** reactive + **harmonic VAR** if grid distorted
+- **Fe₁₆N₂/SmCo/SynRM at unity PF:** Draws **0 MVAR** reactive
+- **During GIC event:** Grid VAR capacity freed for **transformer saturation compensation**
+
+**Aegis-Forge Motor Integration Strategy:**
+1. **New installations (expansion):** **Specify Fe₁₆N₂ or SmCo motors** for all drives >1 MW
+2. **Retrofit (existing mines):** **SynRM replacement** for induction motors (same frame size)
+3. **SAG Mills (largest loads, 20–40 MW each):** **Fe₁₆N₂ direct-drive** — eliminates gearbox, 98% efficiency
+4. **Conveyors/Pumps:** **SynRM or SmCo** — variable speed, leading PF
+5. **Precision drives (grinding, separation):** **Ultrasonic piezo** — zero EMI, no harmonics
+
+**Fe₁₆N₂ Alpha-Double-Prime (α'') — Niron Magnetics (DOC-09, DOC-10):**
+- **Energy Product:** 27 MGOe (vs. NdFeB 52 MGOe, SmCo 32 MGOe)
+- **Composition:** Fe-N (iron-nitrogen) — **zero rare earths, zero cobalt**
+- **Curie Temp:** 400°C — **high-temp stable**
+- **DFARS 252.225-7018 Compliant** — domestic US supply chain
+- **Production:** 12 t/mo (HPMS, scaling to 100 t/mo by 2027)
+- **Cost Target:** <$50/kg (vs. NdFeB $80–120/kg, SmCo $150–200/kg)
+
+**SmCo High-Temperature Advantage:**
+- **Operating Temp:** **350°C continuous** (vs. NdFeB 180°C, Fe₁₆N₂ 200°C)
+- **Radiation Hard:** **No demagnetization** in nuclear/space environments
+- **Temperature Coefficient:** -0.03%/°C (vs. NdFeB -0.12%/°C)
+- **Cost:** Premium but justified for **critical unmaintainable drives**
+
+**SynRM (Synchronous Reluctance Motor):**
+- **Rotor:** Laminated steel with flux barriers — **no permanent magnets**
+- **Control:** Sensorless vector drive — mature technology (ABB, Siemens, Danfoss)
+- **Efficiency:** IE5 class (95–97%) — matches PM motors
+- **GIC Immunity:** **Complete** — no magnets to heat, no saturation path
+
+**Aegis-Forge Motor Drive Architecture:**
+```
+[DC Microgrid ±1.5 kV] 
+    │
+    ├── [SiC Inverter] → [Fe₁₆N₂ Motor] — SAG Mill (40 MW)
+    ├── [SiC Inverter] → [SynRM] — Ball Mill (15 MW)
+    ├── [SiC Inverter] → [SmCo Motor] — Crusher (10 MW)
+    ├── [SiC Inverter] → [SynRM] — Pump (5 MW)
+    └── [Piezo Driver] → [Ultrasonic Piezo] — Separator (1 MW)
+```
+- **SiC Inverters:** 99% efficiency, **DC-fed (no GIC path)**, grid-forming capable
+- **Common DC Bus:** Enables **power sharing** between drives, regenerative braking
+- **Zero Harmonic Injection:** Active front end + DC bus filtering
+
+**GIC Event Performance Comparison:**
+| Scenario | Conventional (IM + Grid) | Aegis-Forge (Fe₁₆N₂/SynRM + Island) |
+|----------|-------------------------|-----------------------------------|
+| **Grid Voltage** | Collapses to 0.6 pu | **Maintained at 1.0 pu** (islanded) |
+| **Motor Stalls** | Multiple (SAG mills trip) | **None** (DC bus supports) |
+| **VAR Demand** | 200+ MVAR (transformers + motors) | **0 MVAR** (transformers only, blocked by NBC) |
+| **Restart Time** | 12–24 hours | **<5 minutes** (seamless islanding) |
+| **Production Loss** | $100M/day | **$0** (continuous operation) |
+
+**Cross-references:** Ch. 6 (motor tech details); DOC-06 (CSM motors); DOC-09 (magnet specs); DOC-10 (supply chain); Niron Magnetics; MDPI 2024 (piezo); Frontiers (SynRM).
+
+**Formulas:** VAR demand vs. PF; motor efficiency; GIC event voltage stability; LCOE comparison.
+
+### 5.4 Islanding Capability for Mining Operations During Grid Events
+
+**Islanding** — seamless transition from grid-connected to autonomous operation — is the **ultimate GIC resilience measure** for mining loads. Aegis-Forge clusters are designed for **zero-interruption islanding** triggered by GIC/voltage/frequency anomalies.
+
+**Islanding Trigger Logic (Per Cluster):**
+```python
+# Pseudocode for Aegis-Forge Islanding Controller
+IF (GIC_neutral > 300 A for >10 sec) OR 
+   (V_220kV < 0.85 pu for >5 sec) OR 
+   (f < 49.0 Hz for >2 sec) OR 
+   (ROCOF > 1 Hz/s) OR
+   (SCADA_GIC_Alert == TRUE):
+   
+   TRIGGER ISLANDING SEQUENCE:
+   1. Open Grid Tie Breaker (220 kV) — <3 cycles
+   2. Switch Inverters to Grid-Forming Mode — <1 cycle
+   3. Shed Non-Critical Loads (if generation < load) — <100 ms
+   4. Ramp Aegis-Forge Modules to Match Load — <5 sec
+   5. Confirm Stable Island (V/f within bounds) — <10 sec
+   6. Signal Mining DCS: "ISLAND MODE ACTIVE"
+ELSE:
+   MAINTAIN GRID-CONNECTED
+```
+
+**Islanding Sequence — Detailed Timing:**
+
+| Step | Action | Time | Technology |
+|------|--------|------|------------|
+| 1 | Detect anomaly (GIC/V/f/ROCOF) | 100 ms | Hall CT + PMU + Relay |
+| 2 | Trip Grid Tie Breaker (220 kV) | 3 cycles (50 ms) | SF6/VCB + DC trip coil |
+| 3 | Inverters → Grid-Forming | 1 cycle (16 ms) | SiC VSC (pre-programmed) |
+| 4 | Battery → Instant Power Bridge | 0 ms (continuous) | BESS (always online) |
+| 5 | Gas Turbines → Load Following | 5–30 sec | Fast governor (aeroderivative) |
+| 6 | Motor Drives → Re-sync | <100 ms | Sensorless vector control |
+| 7 | Stability Confirmation | 5–10 sec | PLL + V/f monitoring |
+| **Total** | **Grid → Stable Island** | **<15 sec** | |
+
+**Load-Generation Balance During Islanding:**
+- **Critical Loads (Must Run):** SAG mills, crushers, separators, water, ventilation, communications
+- **Sheddable Loads:** Non-critical conveyors, lighting, HVAC, admin, EV charging
+- **Priority Matrix:**
+  | Priority | Loads | % of Total | Action |
+  |----------|-------|------------|--------|
+  | 1 (Critical) | Process (SAG, crush, sep), Water, Vent, Comms | 70% | Never shed |
+  | 2 (Essential) | Dewatering, Reagent, Safety | 15% | Shed last |
+  | 3 (Deferrable) | Stockpile, Workshop, Admin | 10% | Shed first |
+  | 4 (Discretionary) | Lighting, HVAC, EV | 5% | Shed immediately |
+
+**Islanding Duration Capability:**
+- **Gas Supply:** Pipeline + **7-day LNG backup** on-site → **weeks of operation**
+- **Battery:** 4 hours at full load → **bridge to turbine ramp**
+- **Fuel Consumption:** ~8,500 BTU/kWh × 300 MW = 2.55 TBtu/hr → **~70,000 gal LNG/day**
+- **Minimum Stable Generation:** 30% (one module at min load) → **10 MW floor**
+
+**Grid Reconnection (Anti-Islanding / Synchronization):**
+1. **Wait for Grid Stability:** GIC < 50 A, V > 0.95 pu, f = 50.0 ± 0.05 Hz for 5 min
+2. **Synchrocheck Relay:** 25/27/59/81 — voltage, frequency, phase angle match
+3. **Close Grid Tie Breaker:** Soft synchronization (ramp power exchange)
+4. **Transition Inverters → Grid-Following:** Smooth handover
+5. **Restore Shed Loads:** Priority 4 → 3 → 2 (staggered)
+
+**Chile Regulatory Framework for Islanding:**
+- **Current:** SEC permits islanding for **safety/emergency** only (not economic)
+- **Proposed (DOC-11 recommendation):** **"GIC Resilience Islanding" category** — pre-approved for:
+  - GIC > threshold (measured)
+  - Voltage < 0.85 pu (measured)
+  - CEN GMD Alert Level 3+
+- **Compensation:** Mining pays **capacity charge** for grid tie; **energy charge** only when importing
+
+**Inter-Cluster Coordination (Multiple Aegis-Forge Sites):**
+- **Wide-Area Islanding:** If Norte Grande corridor collapses → **all clusters island simultaneously**
+- **Communication:** Dedicated fiber (OPGW) + **satellite backup** (Starlink/OneWeb)
+- **Load Sharing:** If one cluster has surplus → export to neighbor via 220 kV inter-tie
+- **Blackstart Support:** Healthy cluster → energize dead cluster (if gas available)
+
+**Cross-references:** Ch. 4.3 (blackstart); Ch. 7.4 (load shedding triggers); Ch. 7.5 (operator timeline); IEEE 1547-2018 (interconnection); SEC regulations; DOC-05 (Aegis-Forge ops).
+
+**Formulas:** Islanding detection criteria; load-generation balance; fuel consumption; reconnection sync check.
+
+### 5.5 Thermal Cascade Separation → Power Co-Location Synergy
+
+**Thermal Cascade Inductive Separation** (DOC-05, DOC-10, CSMFAB/CSMFAB0108) is a **17-stage, zero-liquid-waste mineral separation process** that requires **precise temperature gradients** from 550°C down to 80°C. Co-locating **Aegis-Forge power modules** with the separation plant creates **unprecedented thermodynamic synergy**.
+
+**Thermal Cascade Temperature Profile (17 Stages):**
+| Stage | Temp Range | Process | Heat Source |
+|-------|------------|---------|-------------|
+| 1–2 | 550–450°C | High-temp roasting / chlorination | GT Exhaust (direct) |
+| 3–5 | 450–350°C | Selective reduction / sulfation | GT Exhaust + ORC Reject |
+| 6–8 | 350–280°C | Magnetic separation (Curie points) | ORC Reject Heat |
+| 9–11 | 280–200°C | Acid leaching / solvent extraction | ORC Reject + BESS Cooling |
+| 12–14 | 200–130°C | Crystallization / precipitation | Low-grade Heat Recovery |
+| 15–17 | 130–80°C | Final drying / product cooling | Ambient / Cooling Towers |
+
+**Power Co-Location Synergy Flows:**
+
+```
+[Aegis-Forge Module]
+    │
+    ├── GT Exhaust (550°C, 120 MWth) 
+    │     ├── → ORC Evaporator (300°C) → 8 MWe
+    │     └── → Thermal Cascade Stages 1–5 (direct)
+    │
+    ├── ORC Condenser Heat (120°C, 40 MWth)
+    │     └── → Thermal Cascade Stages 12–17
+    │
+    ├── BESS Cooling Loop (40°C, 5 MWth)
+    │     └── → Thermal Cascade Stage 17 (pre-heat)
+    │
+    └── Electrical Output (50 MWe)
+          ├── → Motor Drives (Fe₁₆N₂, SynRM, SmCo)
+          ├── → Separation Plant Electrical Loads
+          ├── → Grid Export (if surplus)
+          └── → Battery Charging
+```
+
+**Quantified Synergy Benefits:**
+
+| Metric | Standalone Separation + Grid Power | **Co-Located Aegis-Forge** | Improvement |
+|--------|-----------------------------------|---------------------------|-------------|
+| **Total Energy Input** | 120 MWth (fuel) + 150 MWe (grid) | 200 MWth (fuel only) | **33% less primary energy** |
+| **Grid Dependency** | 100% (150 MWe) | **0% (islandable)** | **Energy sovereignty** |
+| **Water Consumption** | High (cooling towers) | **Zero (ZLD)** | **Atacama critical** |
+| **CO₂ Intensity** | 450 kg/MWh (grid avg) | 320 kg/MWh (CCGT equiv) | **29% lower** |
+| **GIC Vulnerability** | High (grid transformers) | **Zero (islanded)** | **Eliminated** |
+| **CAPEX (Separation + Power)** | $200M + $100M = $300M | **$250M (integrated)** | **17% savings** |
+| **OPEX (Energy + Water)** | $45M/yr | **$28M/yr** | **38% savings** |
+
+**GIC-Specific Synergy:**
+1. **No Grid Transformers for Process Heat** — thermal energy delivered **directly via insulated ducts/pipes** — no electrical path for GIC
+2. **Motor Drives on DC Microgrid** — **zero GIC coupling** (Ch. 5.3)
+3. **Islanding Triggered by Thermal Stability** — if grid fails, **process continues uninterrupted** (thermal inertia of cascade = 30+ minutes)
+4. **Blackstart from Thermal State** — hot cascade → **instant ORC power** → turbine restart
+
+**Atacama Advantage (Hyperaridity):**
+- **Zero Water Cooling** — Air-cooled condensers + ZLD crystallization
+- **High Ambient ΔT** — 550°C to 5°C (night) → **high Carnot efficiency**
+- **Solar Hybrid Option** — CSP (tower) pre-heats Stage 1 feed → **reduces gas consumption 15–20%**
+
+**Economic Model (Escondida Cluster Example):**
+| Revenue/Cost Stream | Annual Value |
+|---------------------|--------------|
+| **Copper/Molybdenum/REE Revenue** | $12B/yr (mine) |
+| **Power Cost Avoided (vs. Grid)** | $180M/yr (150 MWe × $135/MWh × 8760h) |
+| **Water Cost Avoided** | $25M/yr (desalination) |
+| **Carbon Credit (vs. Grid)** | $15M/yr (130 kg/MWh × 300 MW × 8760h × $15/tCO₂) |
+| **GIC Risk Avoided (EAL)** | $182M/yr (Ch. 3.6) |
+| **Total Annual Benefit** | **$402M/yr** |
+| **Aegis-Forge CAPEX (300 MW)** | $300M |
+| **Simple Payback** | **<1 Year** |
+
+**Cross-references:** DOC-05 (E172 thermal cascade); DOC-10 (supply chain); CSMFAB/CSMFAB0108 (17-stage); Ch. 3.6 (cost-benefit); Ch. 5.1–5.4 (architecture); Ch. 6 (motors).
+
+**Formulas:** Thermal cascade energy balance; Carnot efficiency; co-location CAPEX/OPEX; payback period.
+
+### 5.6 CAPEX/OPEX vs. Grid Hardening Alternative
+
+**Comparative Economic Analysis:** Aegis-Forge modular microgrids vs. SEN grid hardening (Ch. 3.7) for mining cluster GIC resilience.
+
+**Investment Comparison — Escondida Cluster (3.4 GW Load):**
+
+| Category | **Grid Hardening (Tier 1+2)** | **Aegis-Forge Microgrid (300 MW)** | **Hybrid (Hardening + Microgrid)** |
+|----------|-------------------------------|-----------------------------------|-----------------------------------|
+| **CAPEX** | $7.5M | $300M | $150M (150 MW) + $4M = $154M |
+| **Annual OPEX** | $0.5M (monitoring) | $18M (fuel, maint) | $9M + $0.5M = $9.5M |
+| **GIC Risk Reduction** | 92% (Tier 1+2 nodes) | 100% (islanded) | 99% |
+| **Energy Sovereignty** | No | **Yes** | Partial |
+| **Water Savings** | No | **Yes (ZLD)** | Partial |
+| **Carbon Reduction** | No | **29% vs grid** | 15% |
+| **Revenue Protection** | $320M/yr EAL reduction | $402M/yr (full) | $350M/yr |
+| **Simple Payback** | **<1 week** (vs event) | **<1 year** (ongoing ops) | **<6 months** |
+
+**Key Insight:** Grid hardening is **extraordinary ROI for GIC-only risk** ($7.5M vs $362M/yr EAL). Aegis-Forge provides **multi-value** (power + heat + water + carbon + sovereignty) but at **40× CAPEX**.
+
+**Optimal Strategy — Layered Defense:**
+```
+Layer 1 (Immediate, $7.5M):  Grid Hardening (NBC/NGR/Monitoring) — ALL Tier 1–2 nodes
+    ↓ Reduces GIC risk 92% for ENTIRE SEN
+Layer 2 (2027–2028, $35M):  STATCOM + SynCon at Diego de Almagro/Polpaico
+    ↓ Dynamic VAR for grid stability
+Layer 3 (2028–2030, $150M): Aegis-Forge at Escondida (300 MW)
+    ↓ Zero-GIC islanding for highest-value load
+Layer 4 (2030+, $150M each): Aegis-Forge at Collahuasi, Los Pelambres, Andina
+    ↓ Progressive mining energy sovereignty
+```
+
+**Decision Framework — When to Deploy Aegis-Forge:**
+
+| Condition | Action |
+|-----------|--------|
+| **GIC Risk Only** | Grid Hardening (Layer 1) — highest ROI |
+| **GIC + Water Scarcity + Carbon Mandate** | Aegis-Forge (Layer 3+) — multi-value |
+| **Mine Expansion (>500 MW new load)** | Aegis-Forge — avoids new grid infrastructure |
+| **Grid Congestion (Norte Grande)** | Aegis-Forge — relieves 500 kV corridor |
+| **Strategic Sovereignty (Critical Minerals)** | Aegis-Forge — DFARS/CRMA compliance |
+
+**Sensitivity Analysis — Aegis-Forge Viability Thresholds:**
+
+| Variable | Base Case | Breakeven Threshold | Impact |
+|----------|-----------|---------------------|--------|
+| Gas Price | $8/MMBtu | $18/MMBtu | LCOE > Grid PPA |
+| Carbon Price | $15/tCO₂ | $0/tCO₂ | Loses carbon credit value |
+| Copper Price | $4.00/lb | $2.50/lb | Mine economics weaken |
+| Grid PPA Price | $135/MWh | $90/MWh | Grid cheaper than self-gen |
+| GIC Return Period | 200 yr | 1,000 yr | Grid hardening sufficient |
+
+**Hybrid Recommendation (Best of Both):**
+1. **Deploy Layer 1 Grid Hardening immediately** ($7.5M, <6 months) — protects entire SEN
+2. **Pilot Aegis-Forge at Escondida** (150 MW, $150M) — proves concept, provides islanding for highest-value load
+3. **Evaluate after 2 years** — actual GIC performance, operational data, fuel costs
+4. **Scale based on results** — if gas <$12/MMBtu, carbon >$20/t, copper >$3.50/lb → full rollout
+
+**Financing Structure (Ch. 8):**
+- **Grid Hardening:** Regulated asset (Transelec) — CAPEX in rate base, 8–10% ROE
+- **Aegis-Forge:** Project finance (mining co. + Tardigradia) — off-balance sheet, PPA to mine
+- **CAT Bond Trigger:** Aegis-Forge islanding capability → **lower CAT bond premium** (Ch. 8)
+
+**Cross-references:** Ch. 3.6 (cost-benefit); Ch. 3.7 (deployment); Ch. 8 (financial instruments); DOC-05 (Tardigradia venture); DOC-08 (port/logistics); World Bank Cat DDO.
+
+**Formulas:** LCOE comparison; NPV layered defense; breakeven thresholds; multi-criteria decision analysis.
