@@ -311,8 +311,8 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 | 4.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-20` | 2 min | ✅ COMPLETE |
 | 4.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-20` | 2 min | ✅ COMPLETE |
 | 4.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-20_...` | 2 min | ✅ COMPLETE |
-| 4.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-20 Stage 7 Ferrous Cascade — 977 lines + 200 intro" && git push` | 5 min | PENDING |
-| 4.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | PENDING |
+| 4.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-20 Stage 7 Ferrous Cascade — 977 lines + 200 intro" && git push` | 5 min | ✅ COMPLETE |
+| 4.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | ✅ COMPLETE |
 
 ---
 
