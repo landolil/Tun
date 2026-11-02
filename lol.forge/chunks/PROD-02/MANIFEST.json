@@ -1,15 +1,19 @@
 {
+  "MANIFEST.json": {
+    "size": 2314,
+    "sha256": "275b82b3be0f1a693802292f0a25191ad7b495d2e70908783edce0fd043f0b87"
+  },
   "chapter_01_intro.md": {
     "size": 46,
     "sha256": "bb088299c28870cd8d1fa8f85609eb206fd06a1aa9d566c4ae682933e9baecb9"
   },
   "chapter_02_csmfab000000000109__aegis-forg.md": {
-    "size": 486,
-    "sha256": "cac1d1213386b30885fced5c5a7afc2e34ed6afd9a43d342c5a1cdb3c2b51cd1"
+    "size": 507,
+    "sha256": "8f73344be25c9f0850ea05beff2298ed2f1e72a933e7018f3e3bd75b3e589878"
   },
   "chapter_03_1_thermal_cascade_engineering_.md": {
-    "size": 6692,
-    "sha256": "65690aceb90f10c645c27cab75ba946f2c2f9a38674b20f907694bddc4617588"
+    "size": 5400,
+    "sha256": "36d0dde986a27aaa0767bced2aa7b02d28c706faabeced6fbd7e0a8feff6327a"
   },
   "chapter_04_2_stage_0__acoustic_pre-libera.md": {
     "size": 3547,
@@ -58,5 +62,77 @@
   "chapter_15_13_performance_specifications_.md": {
     "size": 4019,
     "sha256": "36d452ca1992ded511e70c6ccb6199927ad74f7d8b01135ad62c09840c984fa9"
+  },
+  "chapter_04_2_stage_1__drying_and_volatile.md": {
+    "size": 2491,
+    "sha256": "63f12ab4578b12768f3b7fe0342c2db7fbe852995716cb185cc5f3c8853e04f0"
+  },
+  "chapter_05_3_stage_2__thermoplastic_polym.md": {
+    "size": 2753,
+    "sha256": "08432021c771b2960f3b111c73938a84c821f48abe4a09ca3ab2e413de5c594a"
+  },
+  "chapter_06_4_stage_3__pyrolysis_and_carbo.md": {
+    "size": 2474,
+    "sha256": "0e8a1a591af64d32f89895f0d4d71716b1f65dcba5412aec353b15776876a05a"
+  },
+  "chapter_07_5_stage_4__low-temperature_met.md": {
+    "size": 2109,
+    "sha256": "5d020f3e617acf6d801b978fe54aa53189ce4a02afee467182795a33161744fd"
+  },
+  "chapter_08_6_stage_5__aluminum_separation.md": {
+    "size": 1911,
+    "sha256": "233a7d1a1377736390b92b12a4fdb4fdbe71cc571a7f8d3bbdea6406c382ade0"
+  },
+  "chapter_09_7_stage_6__copper_and_precious.md": {
+    "size": 1611,
+    "sha256": "cffdf95843463d0cf5768305a5820636967708e6cf236bc40f7ae988a5815afe"
+  },
+  "chapter_10_8_stage_7__ferrous_cascade_120.md": {
+    "size": 2129,
+    "sha256": "700daa9a5d399218510e1ddc48660f916b8aeafe4510277bff3ea679b18debcb"
+  },
+  "chapter_11_9_stage_8__refractory_mineral_.md": {
+    "size": 1698,
+    "sha256": "3b1e695b689c9a4f6f3d25836b99c7d845f0c88796ef74825b6d761897ee5bbb"
+  },
+  "chapter_12_10_thermal_modeling_and_contro.md": {
+    "size": 1507,
+    "sha256": "e14d0302ce4cd2b2b1322bd2ef3da0abd90da8450e21263d2a439f5a22d38c35"
+  },
+  "chapter_13_11_energy_balance_and_exergy_a.md": {
+    "size": 1793,
+    "sha256": "c7e4e5d0f7bafedcf353b88ebe7fcb37782eb72c511dade9328efc3c79744546"
+  },
+  "chapter_14_12_process_control_and_quality.md": {
+    "size": 972,
+    "sha256": "edc3b1994ee87edc063694b43960a3348d5a91fe71058df54d0963fe0657d405"
+  },
+  "chapter_15_13_scale-up_considerations_gen.md": {
+    "size": 948,
+    "sha256": "377eabe723470fda2a523b59a63a5831fbb28f9de0098c455c9a08b7ca81bcdf"
+  },
+  "chapter_16_14_detailed_stage_transition_d.md": {
+    "size": 2651,
+    "sha256": "990a213b3fc533a8521c0b25ddbca1fc914783a74a0bff29de460ded5e55e4f4"
+  },
+  "chapter_17_15_feedstock-specific_cascade_.md": {
+    "size": 2316,
+    "sha256": "34d696f15846844f0a6396e7fd9f04f316cd1e7104c9eb60589e083bded09183"
+  },
+  "chapter_18_16_advanced_process_control_di.md": {
+    "size": 1850,
+    "sha256": "70ce5559015c18216aa81f6e09fb0e622c494d20ec205f5b3e5cac7c9c184385"
+  },
+  "chapter_19_17_environmental_life_cycle_as.md": {
+    "size": 1491,
+    "sha256": "fba8c1fcd3f883b70a34790caeab52fcd9390dd9370012766614f6b20a99694a"
+  },
+  "chapter_20_18_regulatory_and_permitting_f.md": {
+    "size": 1138,
+    "sha256": "f1815d04c54e3cbe7df9c56a0b64f5406e37535ab817fdee7c0f7f8036849e83"
+  },
+  "chapter_21_19_references_and_cross-refere.md": {
+    "size": 1745,
+    "sha256": "4da90b75f2a5efc5863bc6c3bbbc199b37bb629ffae534bf6fc0862ff51f7e73"
   }
 }

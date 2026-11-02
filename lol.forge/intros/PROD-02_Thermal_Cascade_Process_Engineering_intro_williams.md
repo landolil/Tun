@@ -29,6 +29,17 @@ The necessity is proven by the **Indium First Strategy**: at 156.6°C, only indi
 
 ### Commitment (The Turn)
 
-We commit: 1) **No stage skipping** — every feedstock traverses all 8 stages. 2) **Dwell until clear** — stage duration extends until target element flux at port drops to baseline. 3) **No chemical additives** — separation by physics only (temp, spin, induction). 4) **Gas capture at every stage** — zero fugitive emissions. 5) **Stage 0 acoustic liberation first** — mechanical liberation precedes thermal. 6) **Port purity >90% target class** — verified by inline mass spec. 7) **Energy <1200 kWh/ton** — induction efficiency >95% above 10 kHz. 8) **Zero structural metals in hot zone** — dielectric citadel maintained. The cascade does not 'process.' The cascade *witnesses the periodic table into sequence*.
+We commit:
+
+1. **No stage skipping** — every feedstock traverses all 8 stages.
+2. **Dwell until clear** — stage duration extends until target element flux at port drops to baseline.
+3. **No chemical additives** — separation by physics only (temp, spin, induction).
+4. **Gas capture at every stage** — zero fugitive emissions.
+5. **Stage 0 acoustic liberation first** — mechanical liberation precedes thermal.
+6. **Port purity >90% target class** — verified by inline mass spec.
+7. **Energy <1200 kWh/ton** — induction efficiency >95% above 10 kHz.
+8. **Zero structural metals in hot zone** — dielectric citadel maintained.
+
+The cascade does not 'process.' The cascade *witnesses the periodic table into sequence*.
 
 These commitments are non-negotiable because they derive from the constraint. Violating any breaks the physics: skipping stages leaves elements trapped; chemical additives contaminate slugs; fugitive emissions violate zero-waste mandate; skipping Stage 0 reduces downstream efficiency by 40-60%. The commitments *are* the constraint made operational.

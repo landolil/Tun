@@ -35,14 +35,16 @@ The **Induction Selectivity Key**: frequency as material selector. 100 kHz → a
 
 The **Centrifugal Key**: G-force schedule. 0.3G (Stage 1) → 12.6G (Stage 2) → 22.3G (Stage 3) → 89.2G (Stage 4) → 50.2G (Stage 5) → 68.1G (Stage 6) → 112.8G (Stage 7) → 50.2G (Stage 8). Each G matches the density difference of the target liquid vs. solid matrix. The drum speed *is* the separation parameter.
 
-The **Dwell Key**: phase clearance time. Not arbitrary — determined by Stokes settling, diffusion, reaction kinetics. Stage 1: 20 min (water diffusion). Stage 2: 30 min (polymer viscosity decay). Stage 3: 30 min (pyrolysis plateau). Stage 4: 25 min (In 5 min + Zn/Pb/Sn 20 min). Stage 5: 25 min (Al 5 min + clearance 20 min). Stage 6: 30 min (Cu thermal mass). Stage 7: 35 min (Fe Curie transition + REE melting). Stage 8: 20 min (zircon dissociation).
+The **Dwell Key**: phase clearance time. Not arbitrary — determined by Stokes settling, diffusion, reaction kinetics. Stage 1: 20 min (water diffusion). Stage 2: 30 min (polymer viscosity decay). Stage 3: 30 min (pyrolysis plateau). Stage 4: 25 min (In 5 min + Zn/Pb/Sn 20 min). Stage 5: 25 min (Al 5 min + clearance 20 min). Stage 6: 30 min (Cu thermal mass). Stage 7: 35 min (Fe Curie transition). Stage 8: 20 min (zircon kinetics).
 
 ---
 
 ### The Turn (Both Directions)
 
-**Key → Lock (Theory predicts recovery):** Input: Feedstock thermal assay → Phase diagram → Thermal cascade profile. Output: 8 pure slug streams, gas capture, mineral concentrate. Validation: Recover >95% of each element class; match historical smelter yields without chemicals. The cascade *predicts* what the forge *produces*.
+**Key → Lock (Theory predicts recovery):**
+Input: Feedstock thermal assay → Phase diagram → Thermal cascade profile. Output: 8 pure slug streams, gas capture, mineral concentrate. Validation: Recover >95% of each element class; match historical smelter yields without chemicals. The cascade *predicts* what the forge *produces*.
 
-**Lock → Key (History validates theory):** Input: Historical metallurgy (Bloomery, Bessemer, Hall-Héroult, Mond process, zone refining, electrolysis). Output: Verified each is a *subset* of the cascade — the cascade contains them all simultaneously. The turn completes when a single batch yields 8 pure streams simultaneously. The cascade *is* the unified metallurgical theory.
+**Lock → Key (History validates theory):**
+Input: Historical metallurgy (Bloomery, Bessemer, Hall-Héroult, Mond process, zone refining, electrolysis). Output: Verified each is a *subset* of the cascade — the cascade contains them all simultaneously. The turn completes when a single batch yields 8 pure streams simultaneously. The cascade *is* the unified metallurgical theory.
 
 The turn is not a metaphor — it is the moment the 8 slugs land in their molds. Port 1: water. Port 2: polymer. Port 3: char. Port 4: In/Zn/Pb/Sn. Port 5: Al. Port 6: Cu+Au/Ag. Port 7: Fe+Nd/Sm/Co. Port 8: Zr/Ti/REE oxides. 50 elements. 8 ports. One cascade. The periodic table has been witnessed into sequence. The lock clicks open. The key turns. The slug *is* the key turning in the lock.

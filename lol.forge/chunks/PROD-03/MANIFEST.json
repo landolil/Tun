@@ -1,4 +1,8 @@
 {
+  "MANIFEST.json": {
+    "size": 2470,
+    "sha256": "b4d6bdcb534fc15adcdf45918d02a7d2c8c3cd924237fda56fb1a292df86fc06"
+  },
   "chapter_01_intro.md": {
     "size": 40,
     "sha256": "1d6ae18a00f2fe0814bd2e4ac896c9d48e814c6c0b516cb6b04b8483ae6fbfe9"
@@ -62,5 +66,89 @@
   "chapter_16_14_performance_specifications_.md": {
     "size": 5010,
     "sha256": "8e663564ef9de72d1e9b32db4938944ec82b704daec1b0939f4d96c6ee00839d"
+  },
+  "chapter_02_csmfab000000000108_109__aegis-.md": {
+    "size": 532,
+    "sha256": "31169d61d601cb56b7cd379fefa3bfcddbc42f5c99a787a1cee6e19630c3fd3c"
+  },
+  "chapter_03_1_induction_heating_architectu.md": {
+    "size": 2627,
+    "sha256": "de1fb7524e4c2c6dbfb8e4cd713c634f2b2ccc4fd3ac9a88221ac40ea76efa9d"
+  },
+  "chapter_04_2_coil_bank_physical_design.md": {
+    "size": 2844,
+    "sha256": "ccb9d31d3196f137c6be938d56876b8d940c0d1f226413b608f924622b6d2afa"
+  },
+  "chapter_05_3_gan_resonant_inverter_design.md": {
+    "size": 2357,
+    "sha256": "8b04634c3eb1d60ff00e5b4b11af6c7a3fc9ce3dc74eb017f0fc0693d0d33267"
+  },
+  "chapter_06_4_fbg_sensor_network__optical_.md": {
+    "size": 2074,
+    "sha256": "e17f69f30af7e059044f4ef8fb21354a1b960b4241c8a10a47b02cbec442acb1"
+  },
+  "chapter_07_5_per-zone_control_engineering.md": {
+    "size": 3596,
+    "sha256": "5e3126ba9a83d1b936827567e550340c05d8ccfbaf39379105e83cd1285b9b6b"
+  },
+  "chapter_08_6_induction_coupling_physics__.md": {
+    "size": 1367,
+    "sha256": "0e68b4f3a304af5ea25b0b3ccff0fe54619abb2ed15691d100ab4b2b5469d8fc"
+  },
+  "chapter_09_7_thermal_management_of_coils.md": {
+    "size": 1590,
+    "sha256": "1e8634cadea556de7a3ed2171f974ce28cc99aaedd3bf35cc4ddf3f9e185ea79"
+  },
+  "chapter_10_8_electromagnetic_compatibilit.md": {
+    "size": 1590,
+    "sha256": "5b6fecebdc90238d0bd88f18d5fe16e1148c160847bcacceff307ef554154f72"
+  },
+  "chapter_11_9_manufacturing_and_assembly.md": {
+    "size": 1440,
+    "sha256": "05fd9a410f2a2a91c532aa9f7ccbf96ea86e37483fc36f0832b2e81555746203"
+  },
+  "chapter_12_10_maintenance_and_diagnostics.md": {
+    "size": 901,
+    "sha256": "51b3a844bec8e9b5d9652b2db4b1debda749f812ceb768827b2f54af3b5c09ee"
+  },
+  "chapter_13_11_scale-up_gen-ii_2000l_drum_.md": {
+    "size": 874,
+    "sha256": "c618a2c3a1cfe88de9e06a0563a07c692073fbd5bfe7d7fb9205148668c2a985"
+  },
+  "chapter_14_12_advanced_coil_design__fea_v.md": {
+    "size": 3173,
+    "sha256": "e67c0c97208c583fbd50dd63780126c1692c9c8f74445b2f212e1c3988a40fcc"
+  },
+  "chapter_15_13_inverter_deep-dive__llc_res.md": {
+    "size": 3041,
+    "sha256": "1f72a866afae54da85307136ae87ff8011c02f87beea75d36de28ab03888eef0"
+  },
+  "chapter_16_14_fbg_interrogation_system__d.md": {
+    "size": 2717,
+    "sha256": "a16396027d4a00eb363a7d65ea399734385c8a84c37b7ef4643ee24b82d50081"
+  },
+  "chapter_17_15_system-level_integration_an.md": {
+    "size": 2262,
+    "sha256": "a3a0a4821c7d7fd06890f35666530538beb6124851262d3399b14e50ac5a7a97"
+  },
+  "chapter_18_16_failure_modes_and_effects_a.md": {
+    "size": 1749,
+    "sha256": "b2fc07e7ef05ca9f8404181f05738e10f057a91c4bfbf8ce21eebf12af018e53"
+  },
+  "chapter_19_17_advanced_control_model_pred.md": {
+    "size": 1463,
+    "sha256": "79c6603a4dcb330ec8f0c398cdd97db310c1b53819946f8f384fb0566324201f"
+  },
+  "chapter_20_18_scale-up_engineering_gen-ii.md": {
+    "size": 1273,
+    "sha256": "77cd2260e4adb13fc4f430a95862c2de1677fe1bcd9105a809d96a65059969d0"
+  },
+  "chapter_21_19_intellectual_property_and_p.md": {
+    "size": 1047,
+    "sha256": "fc3365f66b9ca626803c971b0aa2179ebbb083a0c27556b1258059d39b6c954c"
+  },
+  "chapter_22_20_references_and_cross-refere.md": {
+    "size": 1191,
+    "sha256": "a9dd3d9f8c1b74ccb1cdbf124689332608574ae2bb3d5648a7c4177e416376c6"
   }
 }

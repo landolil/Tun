@@ -1,12 +1,7 @@
 # PROD-02 Thermal Cascade Process Engineering — Combined Introduction
 
-**Author:** lol.forge Synthesis
-**Generated:** 2026-10-30 16:29:55 UTC
-
----
-
-# Williams Heuristic — Constraint, Necessity, Commitment
-## Document: PROD-02 — Thermal Cascade Process Engineering
+**Author:** Aegis-Forge Synthesis  
+**Generated:** 2026-11-02 10:35:00 UTC
 
 ---
 
@@ -36,15 +31,20 @@ The necessity is proven by the **Indium First Strategy**: at 156.6°C, only indi
 
 ### Commitment (The Turn)
 
-We commit: 1) **No stage skipping** — every feedstock traverses all 8 stages. 2) **Dwell until clear** — stage duration extends until target element flux at port drops to baseline. 3) **No chemical additives** — separation by physics only (temp, spin, induction). 4) **Gas capture at every stage** — zero fugitive emissions. 5) **Stage 0 acoustic liberation first** — mechanical liberation precedes thermal. 6) **Port purity >90% target class** — verified by inline mass spec. 7) **Energy <1200 kWh/ton** — induction efficiency >95% above 10 kHz. 8) **Zero structural metals in hot zone** — dielectric citadel maintained. The cascade does not 'process.' The cascade *witnesses the periodic table into sequence*.
+We commit:
+
+1. **No stage skipping** — every feedstock traverses all 8 stages.
+2. **Dwell until clear** — stage duration extends until target element flux at port drops to baseline.
+3. **No chemical additives** — separation by physics only (temp, spin, induction).
+4. **Gas capture at every stage** — zero fugitive emissions.
+5. **Stage 0 acoustic liberation first** — mechanical liberation precedes thermal.
+6. **Port purity >90% target class** — verified by inline mass spec.
+7. **Energy <1200 kWh/ton** — induction efficiency >95% above 10 kHz.
+8. **Zero structural metals in hot zone** — dielectric citadel maintained.
+
+The cascade does not 'process.' The cascade *witnesses the periodic table into sequence*.
 
 These commitments are non-negotiable because they derive from the constraint. Violating any breaks the physics: skipping stages leaves elements trapped; chemical additives contaminate slugs; fugitive emissions violate zero-waste mandate; skipping Stage 0 reduces downstream efficiency by 40-60%. The commitments *are* the constraint made operational.
-
-
----
-
-# Keymaker Heuristic — Lock, Key, Turn
-## Document: PROD-02 — Thermal Cascade Process Engineering
 
 ---
 
@@ -80,23 +80,19 @@ The **Induction Selectivity Key**: frequency as material selector. 100 kHz → a
 
 The **Centrifugal Key**: G-force schedule. 0.3G (Stage 1) → 12.6G (Stage 2) → 22.3G (Stage 3) → 89.2G (Stage 4) → 50.2G (Stage 5) → 68.1G (Stage 6) → 112.8G (Stage 7) → 50.2G (Stage 8). Each G matches the density difference of the target liquid vs. solid matrix. The drum speed *is* the separation parameter.
 
-The **Dwell Key**: phase clearance time. Not arbitrary — determined by Stokes settling, diffusion, reaction kinetics. Stage 1: 20 min (water diffusion). Stage 2: 30 min (polymer viscosity decay). Stage 3: 30 min (pyrolysis plateau). Stage 4: 25 min (In 5 min + Zn/Pb/Sn 20 min). Stage 5: 25 min (Al 5 min + clearance 20 min). Stage 6: 30 min (Cu thermal mass). Stage 7: 35 min (Fe Curie transition + REE melting). Stage 8: 20 min (zircon dissociation).
+The **Dwell Key**: phase clearance time. Not arbitrary — determined by Stokes settling, diffusion, reaction kinetics. Stage 1: 20 min (water diffusion). Stage 2: 30 min (polymer viscosity decay). Stage 3: 30 min (pyrolysis plateau). Stage 4: 25 min (In 5 min + Zn/Pb/Sn 20 min). Stage 5: 25 min (Al 5 min + clearance 20 min). Stage 6: 30 min (Cu thermal mass). Stage 7: 35 min (Fe Curie transition). Stage 8: 20 min (zircon kinetics).
 
 ---
 
 ### The Turn (Both Directions)
 
-**Key → Lock (Theory predicts recovery):** Input: Feedstock thermal assay → Phase diagram → Thermal cascade profile. Output: 8 pure slug streams, gas capture, mineral concentrate. Validation: Recover >95% of each element class; match historical smelter yields without chemicals. The cascade *predicts* what the forge *produces*.
+**Key → Lock (Theory predicts recovery):**
+Input: Feedstock thermal assay → Phase diagram → Thermal cascade profile. Output: 8 pure slug streams, gas capture, mineral concentrate. Validation: Recover >95% of each element class; match historical smelter yields without chemicals. The cascade *predicts* what the forge *produces*.
 
-**Lock → Key (History validates theory):** Input: Historical metallurgy (Bloomery, Bessemer, Hall-Héroult, Mond process, zone refining, electrolysis). Output: Verified each is a *subset* of the cascade — the cascade contains them all simultaneously. The turn completes when a single batch yields 8 pure streams simultaneously. The cascade *is* the unified metallurgical theory.
+**Lock → Key (History validates theory):**
+Input: Historical metallurgy (Bloomery, Bessemer, Hall-Héroult, Mond process, zone refining, electrolysis). Output: Verified each is a *subset* of the cascade — the cascade contains them all simultaneously. The turn completes when a single batch yields 8 pure streams simultaneously. The cascade *is* the unified metallurgical theory.
 
 The turn is not a metaphor — it is the moment the 8 slugs land in their molds. Port 1: water. Port 2: polymer. Port 3: char. Port 4: In/Zn/Pb/Sn. Port 5: Al. Port 6: Cu+Au/Ag. Port 7: Fe+Nd/Sm/Co. Port 8: Zr/Ti/REE oxides. 50 elements. 8 ports. One cascade. The periodic table has been witnessed into sequence. The lock clicks open. The key turns. The slug *is* the key turning in the lock.
-
-
----
-
-# El Segundo Heuristic — Mirror, Participation, Protocol
-## Document: PROD-02 — Thermal Cascade Process Engineering
 
 ---
 
@@ -136,67 +132,14 @@ The ultimate participation: **Phoenix Protocol returns**. End-of-life Aegis prod
 ```
 MIRROR:     What phase transition does this stage's temperature encode?
 PARTICIPATE: How does the operator witness clearance into next stage?
-PROTOCOL:  
+PROTOCOL:
   1. Ramp to target T (±5°C via FBG)
   2. Hold until port flux < 1% peak
   3. Verify slug composition (inline MS)
   4. Log stage clearance
   5. Ramp to next T
 ```
+
 The protocol terminates when Stage 8 clears. The complete temperature log is the fixed point.
 
 The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The elemental slug is the fixed point.
-
-**Detailed recursive sequence per stage:**
-
-Stage 0 (Liberation):
-  MIRROR: Grain boundary fracture toughness vs. acoustic stress
-  PARTICIPATE: Operator tunes frequency sweep 20→200 Hz, watches liberation index
-  PROTOCOL: Sweep → measure sieve analysis → confirm >70% liberation
-
-Stage 1 (Drying):
-  MIRROR: Water vapor pressure curve vs. drum temperature
-  PARTICIPATE: Operator watches condenser flow, carbon bed breakthrough
-  PROTOCOL: Ramp 3.5°C/min → hold 150°C → flow <1% peak
-
-Stage 2 (Polymers):
-  MIRROR: Melt viscosity vs. temperature for 12 polymer types
-  PARTICIPATE: Operator monitors HCl (PVC), adjusts NaHCO₃ injection
-  PROTOCOL: Ramp 10°C/min → hold 450°C → density stratification complete
-
-Stage 3 (Pyrolysis):
-  MIRROR: Char yield kinetics vs. temperature (TGA-validated)
-  PARTICIPATE: Operator watches pyrolysis gas composition (CO/CH₄/H₂)
-  PROTOCOL: Hold 600°C → char yield plateau → gas flow <1% peak
-
-Stage 4 (Low-temp metals):
-  MIRROR: Indium liquidus at 156.6°C — only In melts
-  PARTICIPATE: Operator executes Indium First Strategy — 5 min at 160°C
-  PROTOCOL: Ramp 1°C/min through In → hold 160°C → centrifuge 400 RPM
-
-Stage 5 (Aluminum):
-  MIRROR: Pure Al window 660-720°C — Cu/Fe solid
-  PARTICIPATE: Operator monitors Al flow, verifies >95% recovery
-  PROTOCOL: Ramp 2.4°C/min → hold 680°C → centrifuge 300 RPM
-
-Stage 6 (Copper):
-  MIRROR: Cu liquidus 1085°C — Au/Ag co-melt
-  PARTICIPATE: Operator verifies PM content in slug (inline MS)
-  PROTOCOL: Ramp 3.8°C/min → hold 1150°C → centrifuge 350 RPM
-
-Stage 7 (Ferrous):
-  MIRROR: Fe ferromagnetic coupling at 770°C Curie transition
-  PARTICIPATE: Operator watches REE magnet melting (NdFeB 1177°C)
-  PROTOCOL: Ramp 11.4°C/min → hold 1500°C → centrifuge 450 RPM
-
-Stage 8 (Minerals):
-  MIRROR: Zircon dissociation at 1676°C — ZrO₂ + SiO₂
-  PARTICIPATE: Operator confirms >95% dissociation (XRD spot-check)
-  PROTOCOL: Ramp 20°C/min → hold 2200°C → centrifuge 300 RPM
-
-The protocol terminates when Stage 8 clears. The complete temperature log is the fixed point. The forge has witnessed the periodic table into sequence.
-
-
----
-
-*End of Combined Introduction — PROD-02 Thermal Cascade Process Engineering*

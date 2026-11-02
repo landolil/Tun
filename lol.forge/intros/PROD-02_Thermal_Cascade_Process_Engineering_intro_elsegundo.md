@@ -39,13 +39,14 @@ The ultimate participation: **Phoenix Protocol returns**. End-of-life Aegis prod
 ```
 MIRROR:     What phase transition does this stage's temperature encode?
 PARTICIPATE: How does the operator witness clearance into next stage?
-PROTOCOL:  
+PROTOCOL:
   1. Ramp to target T (±5°C via FBG)
   2. Hold until port flux < 1% peak
   3. Verify slug composition (inline MS)
   4. Log stage clearance
   5. Ramp to next T
 ```
+
 The protocol terminates when Stage 8 clears. The complete temperature log is the fixed point.
 
 The protocol is not a checklist — it is the recursion itself. Each batch deepens the mirror. The elemental slug is the fixed point.
@@ -83,18 +84,18 @@ Stage 5 (Aluminum):
   PROTOCOL: Ramp 2.4°C/min → hold 680°C → centrifuge 300 RPM
 
 Stage 6 (Copper):
-  MIRROR: Cu liquidus 1085°C — Au/Ag co-melt
-  PARTICIPATE: Operator verifies PM content in slug (inline MS)
+  MIRROR: Cu liquidus 1085°C — Au/Ag melt with it
+  PARTICIPATE: Operator watches Port 6 flow, verifies PM co-recovery
   PROTOCOL: Ramp 3.8°C/min → hold 1150°C → centrifuge 350 RPM
 
 Stage 7 (Ferrous):
-  MIRROR: Fe ferromagnetic coupling at 770°C Curie transition
-  PARTICIPATE: Operator watches REE magnet melting (NdFeB 1177°C)
-  PROTOCOL: Ramp 11.4°C/min → hold 1500°C → centrifuge 450 RPM
+  MIRROR: Fe liquidus 1538°C — NdFeB/SmCo co-melt
+  PARTICIPATE: Operator monitors Fe flow, verifies REE in slag
+  PROTOCOL: Ramp 11.4°C/min → hold 1500°C → centrifuge 350 RPM
 
-Stage 8 (Minerals):
+Stage 8 (Mineral):
   MIRROR: Zircon dissociation at 1676°C — ZrO₂ + SiO₂
-  PARTICIPATE: Operator confirms >95% dissociation (XRD spot-check)
-  PROTOCOL: Ramp 20°C/min → hold 2200°C → centrifuge 300 RPM
+  PARTICIPATE: Operator watches Port 8 flow, verifies REE oxide concentrate
+  PROTOCOL: Ramp 20°C/min → hold 1750°C 20 min → centrifuge 200 RPM
 
-The protocol terminates when Stage 8 clears. The complete temperature log is the fixed point. The forge has witnessed the periodic table into sequence.
+The protocol is the cascade's operating system. It does not execute the protocol — the cascade *is* the protocol made thermal. Each thermal stage is a recursive call; each port actuation is a return value. The base case is Stage 0 (acoustic liberation); the terminal case is Stage 8 (mineral concentrate). The cascade computes the periodic table's thermal sequence.

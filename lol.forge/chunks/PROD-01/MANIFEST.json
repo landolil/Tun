@@ -1,23 +1,27 @@
 {
+  "MANIFEST.json": {
+    "size": 4921,
+    "sha256": "de3fb6bccc13d6ef8295ca32795d4c57bddc87e58bb480cdbb2140cab507ae04"
+  },
   "chapter_01_intro.md": {
     "size": 41,
     "sha256": "4b1db4c34a5d6381d63f10c03a6c202d4aae026d51e9812c718439eb12393edf"
   },
   "chapter_02_csmfab000000000108__aegis-forg.md": {
-    "size": 533,
-    "sha256": "ec0f4651b8c71035dc5f56c49affab868d1515d099f8511ec211ae1bc5f4a1f0"
+    "size": 546,
+    "sha256": "060f00ae1e65a97120d85f682405ea1059765accd7035b857bb9de71921b096f"
   },
   "chapter_03_1_purpose_and_design_mandate.md": {
-    "size": 1270,
-    "sha256": "98e42b17e1524f188d092b80ef3a5b971179586ccb47eca1eb95700c056da0b8"
+    "size": 3416,
+    "sha256": "eb4e79293db1754d45080cbd389c16b994299193936e8cfa0d822931d55ee113"
   },
   "chapter_04_2_operating_principle_thermoph.md": {
-    "size": 3615,
-    "sha256": "13ad6e33314fa9d0f74bbca51a72ad96071443a4caf1643cabc1b3bfb4efc2f4"
+    "size": 4946,
+    "sha256": "fb5090d89d04b12d8f0056f75c5667fc3589710cc2d07705250f3a3568272e3d"
   },
   "chapter_05_3_machine_architecture__full_s.md": {
-    "size": 5498,
-    "sha256": "f4522ecba05c9c1e31bd54f6535657f83a81a189ba0ab4350be12c8f4d8ea7ed"
+    "size": 10228,
+    "sha256": "e7632e2a6ae7168712950a219078e34585e268442481e9f467360d4ec2b49aaa"
   },
   "chapter_06_4_outer_pressure_vessel_and_sa.md": {
     "size": 962,
@@ -126,5 +130,57 @@
   "chapter_32_30_conclusion.md": {
     "size": 1390,
     "sha256": "9906b4ab0c7054eef4fea21dd14fa3cd09997be22f0f307c42c19c8b0e38fc96"
+  },
+  "chapter_06_4_all-aegis_material_bill_of_c.md": {
+    "size": 2572,
+    "sha256": "c01c0f470f5fb673ee41ed5f251657cfba57b70e11020d3661dd4aaeeef9e409"
+  },
+  "chapter_07_5_feedstock_specifications.md": {
+    "size": 2056,
+    "sha256": "a7a923443970ae84aa314a2c7bf671c42a61aca6794a63c584749c97e9e896bb"
+  },
+  "chapter_08_6_downstream_integration__asse.md": {
+    "size": 780,
+    "sha256": "95580ca1cfc9cd1229561e60449b0eafae5e720eece0033c308bc365d81852c1"
+  },
+  "chapter_09_7_control_system_architecture.md": {
+    "size": 1492,
+    "sha256": "d16b251f7c4ebe588a58529fecf4acef39b2bf0e8609f6ae0a6e715bf0cdf120"
+  },
+  "chapter_10_8_structural_analysis_summary.md": {
+    "size": 1478,
+    "sha256": "aa4440ca80b411a025fdb9c0e22dd91223b494e66db3436071d28fa0e58ea254"
+  },
+  "chapter_11_9_manufacturing_process_plan.md": {
+    "size": 1220,
+    "sha256": "ea080590365980f9b8c25b3a4e11b694819935aa3d22bb1a361205c5c0f35129"
+  },
+  "chapter_12_10_economic_analysis_summary.md": {
+    "size": 1832,
+    "sha256": "25b885143c5e66f92ac332ab30b5d0bf2a17ebb800986c253ae3e4eaef463cb6"
+  },
+  "chapter_13_11_references_and_cross-refere.md": {
+    "size": 2971,
+    "sha256": "9ac8c20957dc5c3a16e3697a49d6b8eb520f150968c4268207f0850b7256371f"
+  },
+  "chapter_14_12_detailed_stage-by-stage_eng.md": {
+    "size": 18918,
+    "sha256": "65aaee9166792779f4e8c3bd7ce1a6837ddd469abb46340cec7a42c11dd27b88"
+  },
+  "chapter_15_13_energy_balance_and_exergy_a.md": {
+    "size": 1483,
+    "sha256": "966d1889a80c1ad6d974b807810bac34a724bb325d7f237eb0bd841ba9f5cb91"
+  },
+  "chapter_16_14_safety_and_environmental_co.md": {
+    "size": 1538,
+    "sha256": "30bfbf889444542c221759cfc4bcb79493ba1f8bf3968103a15f3db21bcfcaf0"
+  },
+  "chapter_17_15_operational_procedures.md": {
+    "size": 2161,
+    "sha256": "e21e28f2c2935297688e42b3ef491593f35ef562117d0c8c05b4fa51de69c222"
+  },
+  "chapter_18_16_maintenance_and_sustainment.md": {
+    "size": 1474,
+    "sha256": "17626c8412c20cc47695bb28e19da0d4b3e51ee0ecd1be282c866eea100e61b4"
   }
 }
