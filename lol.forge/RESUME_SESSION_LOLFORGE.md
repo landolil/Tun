@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-02 (Runner 010 complete: PROD-25)
-**Current Phase**: Phase 2 — Product Documents 26-28 (Electrical Safety, Manufacturing, QA)
-**Next Runner**: 011
+**Last Session**: 2026-11-02 (Runner 011 complete: PROD-26)
+**Current Phase**: Phase 2 — Product Documents 27-29 (Manufacturing, QA, Deployment)
+**Next Runner**: 012
 
 ---
 
@@ -42,17 +42,18 @@ git status
 - [x] PROD-01 through PROD-21: All 21 Product Documents complete (900+ lines each + 200 line combined intros)
 - [x] All chunked, verified, compressed, committed, pushed to GitHub
 
-### Completed (Phase 2 — PROD 22-25):
+### Completed (Phase 2 — PROD 22-26):
 - [x] PROD-22: Phoenix Protocol Integration (909 lines + 200 intro)
 - [x] PROD-23: Control System Architecture (1080 lines + 200 intro)
 - [x] PROD-24: Thermal Modeling & Simulation (1056 lines + 200 intro)
 - [x] PROD-25: Structural Analysis & FEA (1224 lines + 200 intro)
+- [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
 
 ### In Progress:
-- [ ] PROD-26: Electrical Safety & GIC Immunity (900 lines + 200 intro)
 - [ ] PROD-27: Manufacturing Process Plan (900 lines + 200 intro)
 - [ ] PROD-28: Quality Assurance & Testing (900 lines + 200 intro)
-- [ ] NEXT_runner_011.md created (next session)
+- [ ] PROD-29: Deployment & Operations (900 lines + 200 intro)
+- [ ] NEXT_runner_012.md created (next session)
 
 ### Source Materials Cataloged:
 1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
@@ -73,14 +74,9 @@ git status
 
 ---
 
-## Next Immediate Actions (Runner 011)
+## Next Immediate Actions (Runner 012)
 
-### Document Batch: PROD-26, PROD-27, PROD-28
-
-**PROD-26: Electrical Safety & GIC Immunity**
-- Source: PROD-03, 07, 10, 23, IEEE 1656, IEC 61000-2-9, IEC 62305, IEC 61508, MIL-STD-1857
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: Electrical safety architecture (IT system, floating secondary, NGR), dielectric design, Carrington GIC hardening, HEMP E1/E2/E3 protection, lightning protection, EMC, arc flash, SIL-3 electrical SIS, grounding/bonding, power quality, insulation coordination, cyber-physical electrical
+### Document Batch: PROD-27, PROD-28, PROD-29
 
 **PROD-27: Manufacturing Process Plan**
 - Source: PROD-04, 06, 08, 09, 10, 12, 24, 25, 26
@@ -91,6 +87,11 @@ git status
 - Source: PROD-25 NDT program, PROD-24 V&V plan, PROD-23 SIS, IEEE 693, ASME BPVC, ISO 9001/AS9100
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: QA program, acceptance criteria (component/subassembly/system), NDT methods/coverage/acceptance, FAT/SAT specifications, process validation, supplier quality, non-conformance/CAPA, documentation/traceability, audit schedule, continuous improvement
+
+**PROD-29: Deployment & Operations**
+- Source: PROD-22, 23, 26, 27, 28 + FOLLOW-22, 23, 24
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: Site prep, commissioning, procedures, operations, maintenance windows
 
 ---
 
@@ -228,4 +229,4 @@ All work is persisted in GitHub. The ephemeral workspace is just a compute envir
 ---
 
 *This file is updated at the end of every session.*
-*Last Updated: 2026-11-02 | Session: Runner 010 complete (PROD-25) | Next: Runner 011 (PROD-26, 27, 28)*
+*Last Updated: 2026-11-02 | Session: Runner 011 complete (PROD-26) | Next: Runner 012 (PROD-27, 28, 29)*
