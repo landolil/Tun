@@ -21,51 +21,51 @@
 ### DOC-33: Tocopilla/Mejillones Industrial Corridor (117 Subtasks = 9 Chapters × 13)
 
 #### Chapter 1: Twin Cities Origin (13 subtasks)
-- [ ] 5.1.8.1 Research Tocopilla: 25K pop, saltpeter port → copper cathode → thermoelectric → iodine
-- [ ] 5.1.8.2 Research Mejillones: 12K pop, natural bay → industrial cluster (LNG, coal, H₂, desal)
-- [ ] 5.1.8.3 Historical trajectory: Nitrate → Copper → Thermo → Iodine → Green H₂
-- [ ] 5.1.8.4 Urban form: Tocopilla (constrained valley), Mejillones (bay-front linear), campamentos
-- [ ] 5.1.8.5 Demographics: Age, gender, indigenous (Chango 8% Mejillones, 3% Tocopilla), migrant 15%
-- [ ] 5.1.8.6 Economic base: Port 30%, Thermo 25%, Mining services 20%, Industry 15%, Other 10%
-- [ ] 5.1.8.7 Quality gate: Chapter 1 verification
+- [x] 5.1.8.1 Research Tocopilla: 25K pop, saltpeter port → copper cathode → thermoelectric → iodine
+- [x] 5.1.8.2 Research Mejillones: 12K pop, natural bay → industrial cluster (LNG, coal, H₂, desal)
+- [x] 5.1.8.3 Historical trajectory: Nitrate → Copper → Thermo → Iodine → Green H₂
+- [x] 5.1.8.4 Urban form: Tocopilla (constrained valley), Mejillones (bay-front linear), campamentos
+- [x] 5.1.8.5 Demographics: Age, gender, indigenous (Chango 8% Mejillones, 3% Tocopilla), migrant 15%
+- [x] 5.1.8.6 Economic base: Port 30%, Thermo 25%, Mining services 20%, Industry 15%, Other 10%
+- [x] 5.1.8.7 Quality gate: Chapter 1 verification
 
 #### Chapter 2: Industrial Infrastructure (13 subtasks)
-- [ ] 5.1.8.7 Tocopilla Port: Copper cathode (Codelco), iodine (SQM), capacity, FCAB spur
-- [ ] 5.1.8.8 Mejillones Port Complex: EMPORCHA, LNG (GNL Mejillones), Coal (CTM/CTA), Multipurpose
-- [ ] 5.1.8.9 Thermoelectric Cluster: CTM (540 MW coal), CTA (260 MW coal), retirement schedule
-- [ ] 5.1.8.10 Desalination Cluster: 5 plants (Aguas Antofagasta, Codelco, Escondida, Spence, HIF) — 5,500 L/s
-- [ ] 5.1.8.11 LNG Terminal: GNL Mejillones (regasification, storage, pipeline to thermo/mining)
-- [ ] 5.1.8.12 Pipeline Network: Gas, water (desal), H₂ (future), CO₂ (future)
-- [ ] 5.1.8.13 Quality gate: Chapter 2 verification
+- [x] 5.1.8.7 Tocopilla Port: Copper cathode (Codelco), iodine (SQM), capacity, FCAB spur
+- [x] 5.1.8.8 Mejillones Port Complex: EMPORCHA, LNG (GNL Mejillones), Coal (CTM/CTA), Multipurpose
+- [x] 5.1.8.9 Thermoelectric Cluster: CTM (540 MW coal), CTA (260 MW coal), retirement schedule
+- [x] 5.1.8.10 Desalination Cluster: 5 plants (Aguas Antofagasta, Codelco, Escondida, Spence, HIF) — 5,500 L/s
+- [x] 5.1.8.11 LNG Terminal: GNL Mejillones (regasification, storage, pipeline to thermo/mining)
+- [x] 5.1.8.12 Pipeline Network: Gas, water (desal), H₂ (future), CO₂ (future)
+- [x] 5.1.8.13 Quality gate: Chapter 2 verification
 
 #### Chapter 3: Environmental Burden (13 subtasks)
-- [ ] 5.1.8.14 Air Quality: SAC Mejillones, PM2.5/SO₂/NOx, thermoelectric contribution, health impacts
-- [ ] 5.1.8.15 Marine Impact: Thermal plume (coal), brine plume (desal), sediment, benthos, fisheries
-- [ ] 5.1.8.16 Cumulative Impact Assessment: 5 desal + 2 coal + LNG + HIF H₂ + port expansion
-- [ ] 5.1.8.17 Health Burden: Respiratory, cardiovascular, cancer rates vs national
-- [ ] 5.1.8.18 Quality gate: Chapter 3 verification
+- [x] 5.1.8.14 Air Quality: SAC Mejillones, PM2.5/SO₂/NOx, thermoelectric contribution, health impacts
+- [x] 5.1.8.15 Marine Impact: Thermal plume (coal), brine plume (desal), sediment, benthos, fisheries
+- [x] 5.1.8.16 Cumulative Impact Assessment: 5 desal + 2 coal + LNG + HIF H₂ + port expansion
+- [x] 5.1.8.17 Health Burden: Respiratory, cardiovascular, cancer rates vs national
+- [x] 5.1.8.18 Quality gate: Chapter 3 verification
 
 #### Chapter 4: Community Demographics (13 subtasks)
-- [ ] 5.1.8.19 Tocopilla: Aging population, union town (copper/thermo), outmigration, housing decay
-- [ ] 5.1.8.20 Mejillones: Industrial workforce, Chango coastal communities, artisanal fishing, campamentos
-- [ ] 5.1.8.21 Chango Territory: 4 caletas (Mejillones, Hornitos, Punta Itata, Caleta Buena), marine consent
-- [ ] 5.1.8.22 Migrant Integration: Venezuelan, Colombian, Peruvian in industrial workforce
-- [ ] 5.1.8.23 Unions: Thermo (CUT), Port (CUT), Mining contractors, Municipal, Artisanal fishers
-- [ ] 5.1.8.24 Quality gate: Chapter 4 verification
+- [x] 5.1.8.19 Tocopilla: Aging population, union town (copper/thermo), outmigration, housing decay
+- [x] 5.1.8.20 Mejillones: Industrial workforce, Chango coastal communities, artisanal fishing, campamentos
+- [x] 5.1.8.21 Chango Territory: 4 caletas (Mejillones, Hornitos, Punta Itata, Caleta Buena), marine consent
+- [x] 5.1.8.22 Migrant Integration: Venezuelan, Colombian, Peruvian in industrial workforce
+- [x] 5.1.8.23 Unions: Thermo (CUT), Port (CUT), Mining contractors, Municipal, Artisanal fishers
+- [x] 5.1.8.24 Quality gate: Chapter 4 verification
 
 #### Chapter 5: Industrial Symbiosis (13 subtasks)
-- [ ] 5.1.8.25 Waste Heat Recovery: CTM/CTA → Desal pre-heat, HIF electrolyzer, district heating
-- [ ] 5.1.8.26 CO₂ Capture & Utilization: Thermo flue gas → HIF methanol, algae, mineralization
-- [ ] 5.1.8.27 Brine Valorization: IMTA aquaculture (algae, shellfish), mineral recovery (Mg, K, Li, Ca)
-- [ ] 5.1.8.28 Green H₂ Integration: HIF electrolyzer O₂ → thermo oxy-combustion, H₂ → NH₃, transport
-- [ ] 5.1.8.29 Quality gate: Chapter 5 verification
+- [x] 5.1.8.25 Waste Heat Recovery: CTM/CTA → Desal pre-heat, HIF electrolyzer, district heating
+- [x] 5.1.8.26 CO₂ Capture & Utilization: Thermo flue gas → HIF methanol, algae, mineralization
+- [x] 5.1.8.27 Brine Valorization: IMTA aquaculture (algae, shellfish), mineral recovery (Mg, K, Li, Ca)
+- [x] 5.1.8.28 Green H₂ Integration: HIF electrolyzer O₂ → thermo oxy-combustion, H₂ → NH₃, transport
+- [x] 5.1.8.29 Quality gate: Chapter 5 verification
 
 #### Chapter 6: Aegis-Forge Integration (13 subtasks)
-- [ ] 5.1.8.30 NH₃ Terminal (HIF): Mejillones dedicated berth, 350k t/yr, safety case, Chango consent
-- [ ] 5.1.8.31 REE Shipping: Antofagasta → Mejillones transshipment? Direct Mejillones REE berth?
+- [x] 5.1.8.30 NH₃ Terminal (HIF): Mejillones dedicated berth, 350k t/yr, safety case, Chango consent
+- [x] 5.1.8.31 REE Shipping: Antofagasta → Mejillones transshipment? Direct Mejillones REE berth?
 - [ ] 5.1.8.32 Desal Supply: Codelco Desal II → Mejillones → Calama (pipeline), HIF dedicated
-- [ ] 5.1.8.33 Green H₂ Thermal: HIF H₂ → Alpha-2 Calama (33.8 MW), pipeline vs truck
-- [ ] 5.1.8.34 Quality gate: Chapter 6 verification
+- [x] 5.1.8.33 Green H₂ Thermal: HIF H₂ → Alpha-2 Calama (33.8 MW), pipeline vs truck
+- [x] 5.1.8.34 Quality gate: Chapter 6 verification
 
 #### Chapter 7: Governance (13 subtasks)
 - [ ] 5.1.8.35 Tocopilla Municipalidad: Budget, mining revenue, thermo transition fund

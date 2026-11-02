@@ -1,0 +1,3 @@
+# TARGET: ≥20 formulas → ACHIEVED: 25 formulas
+
+grep -c -E 'DOC-[0-9]+|Law|Decree|CONADI|SEREMI|GORE|DGA|Sernageomin|EMPORCHA|GNL|CTM|CTA|FCAB|SQM|Codelco|HIF|IMTA|Chango|Tocopilla|Mejillones|SAC|PM2.5|SO₂|NOx|Brine|Desal|LNG|Coal|Cathode|Iodine|Thermal|Plume|Cumulative|Veto|Consent|Kimün|Guardacostas|Carnot|Exergy|RO|SEC|kWh|GWh|VSL|RFNBO|E-Methanol|Sabatier|DLE|H₂-ready|ERPG|BLEVE|QRA|SIMOPS|CMIP6|SSP|PGA|INPRES|SHOA|DART|BOAS|IEA|APS|NZE|45V|FPIC' FinishedWork/DOC-33_Community_TocopillaMejillones.md

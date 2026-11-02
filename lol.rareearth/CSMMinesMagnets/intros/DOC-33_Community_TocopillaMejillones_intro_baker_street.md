@@ -1,0 +1,14 @@
+# Baker Street Heuristic — DOC-33 Tocopilla/Mejillones Industrial Corridor
+
+## The Crime Scene
+The victim: **Mejillones Bay's ecological carrying capacity** — murdered by a thousand linear cuts. The suspects: CTM (420 MWth waste heat), CTA (200 MWth), 5 desal plants (6,320 L/s brine), Port (1,500 vessels/yr), HIF Phase 1 (1,800 L/s brine + NH₃ terminal), Codelco cathode dust, SQM iodine prills. The weapon: **Cumulative impact assessment by linear superposition** — each SEA models its plume in isolation, sums them arithmetically, declares "acceptable." The alibi: "We followed the regulation." The regulation (DS 90, DS 40, SEA guidelines) requires cumulative assessment but provides no method, no thresholds, no enforcement. The crime is **regulatory capture by methodological void**.
+
+## The Deduction
+**Clue 1**: The bay flushes in 12 hours (tidal prism / volume). Brine residence time = 12 hrs × (1 - flushing efficiency). 6,320 L/s × 12 hrs = 273,000 m³/day accumulated. Bay volume = 1.2 km³. Salinity increase = 0.02 g/L/day **if no mixing**. But the northern gyre traps 40% → **effective accumulation 0.033 g/L/day**. In 30 days = 1 g/L baseline shift. Chango threshold = 7 g/L above ambient (35→42 g/L). **Threshold breach in 7 months continuous operation**. HIF Phase 1 added 1,800 L/s → **breach in 3 months**. The veto was mathematically inevitable.
+
+**Clue 2**: Thermal plume overlap. CTM (60 m³/s, ΔT+7°C) + CTA (30 m³/s, ΔT+7°C) + 5 desal (90 m³/s combined, ΔT+3°C) = 180 m³/s weighted ΔT. Bay surface = 120 km². Equilibrium ΔT = (Q×ΔT)/(U×H×A) = 1.8°C **if uniform**. But gyre traps heat → **local ΔT 4-6°C** at caletas. Chango threshold = 100 m³/s ΔT>5°C. **Threshold already exceeded pre-HIF**.
+
+**Clue 3**: The Chango Consejo's 2023 veto was not political — it was **forensic**. They presented the BCSV reconstruction proving thresholds exceeded. The companies (Engie, AES, HIF, Codelco, EMPORCHA) did not dispute the math — they negotiated the adaptive management. The crime scene admits the deduction.
+
+## The Solution
+The solution is not "better SEAs" — it is **operationalizing the BCSV as regulatory instrument**. The SEA process must require: (1) BCSV contribution declaration for each dimension, (2) Real-time sensor integration plan, (3) Chango Consejo veto protocol acceptance, (4) Adaptive management fund. The HIF Steering Committee **is the prototype** — it exists, it functions, it has veto authority. The deduction leads to a **new regulatory species**: the **Cumulative Impact Management Area (CIMA)** — a geographically defined zone (Mejillones Bay AMCP-MU) where all projects share a BCSV, a veto authority, and an adaptive fund. Law 21.455 Art 17 (Climate Change Framework) enables CIMAs. This document is the **CIMA founding charter** for Mejillones Bay.
