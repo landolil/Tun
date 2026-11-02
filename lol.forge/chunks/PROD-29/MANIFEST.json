@@ -1,0 +1,86 @@
+{
+  "chapter_01_intro.md": {
+    "size": 62,
+    "sha256": "cdc23c08a758065a865629af8973d796e012b127475c9732b642204b6f9c8031"
+  },
+  "chapter_02_williams_+_keymaker_+_el_segun.md": {
+    "size": 16152,
+    "sha256": "0f9c61f249c3748ab781d5de4b50d974cf778ec7845c1f6102016bd65281d132"
+  },
+  "chapter_03_csmfab000000000129__aegis-forg.md": {
+    "size": 544,
+    "sha256": "15ec676134e75030557fcb3aa84f0004cb9a4e5cf95e676b212aa36e9749bc50"
+  },
+  "chapter_04_1_deployment_overview.md": {
+    "size": 2628,
+    "sha256": "144d738e6aeb7b8fb935012ad40d83471feda2ed638742d293a71fbd14bdbfe3"
+  },
+  "chapter_05_2_site_preparation__civil_work.md": {
+    "size": 2897,
+    "sha256": "d627da16d1f6784faf90e83119b8944318e965dbd918d6e63c1a00872475bf39"
+  },
+  "chapter_06_3_cold_commissioning_integrati.md": {
+    "size": 4841,
+    "sha256": "a84333028ba2838f35713efa72e1fabce9f3e2f40a326bc3c50b961702f62a6a"
+  },
+  "chapter_07_4_hot_commissioning_ct-08_prot.md": {
+    "size": 1654,
+    "sha256": "7415cc5029a48c21057ec17fa8a169360a4e5f54d856af09d92554095b1c271b"
+  },
+  "chapter_08_5_performance_validation_sat-0.md": {
+    "size": 1487,
+    "sha256": "050f21ddffd884756ff2ea8f8cdd12892305be0b5747652d34c1a4e77137de07"
+  },
+  "chapter_09_6_standard_operating_procedure.md": {
+    "size": 3102,
+    "sha256": "01a9add1a7262bf2af04402c74905edafce7deddc07ad0a90aff38c286962f14"
+  },
+  "chapter_10_7_operations_philosophy.md": {
+    "size": 1603,
+    "sha256": "9239a606a836edc7762e66a5ce0ae622eca894b2f2118a1b19ec2df9fc76df31"
+  },
+  "chapter_11_8_maintenance_windows_per_prod.md": {
+    "size": 1173,
+    "sha256": "51629ff07108f6f89f0c62350a75239fe857b4079a7e47074043944255c02305"
+  },
+  "chapter_12_9_emergency_response.md": {
+    "size": 1773,
+    "sha256": "b84814b38f1dfc923edc3a9f272e9021ec3ef03ddf10e8ba6b59a3238df59128"
+  },
+  "chapter_13_10_environmental_compliance.md": {
+    "size": 1392,
+    "sha256": "0b1d9dfe219d0c57ce6c34f9a7a1ef26df3bb8c5a380c29e85ab114bad0e6ea7"
+  },
+  "chapter_14_11_training__certification_pro.md": {
+    "size": 1309,
+    "sha256": "5af248328acb1330579967760522914b718d9e36df3e5dab62d38595b3761bd3"
+  },
+  "chapter_15_12_cross-reference_matrix.md": {
+    "size": 2098,
+    "sha256": "e409c52c3bb02f86939cab4de095030e3eef2208ea078a0d7c57ca73ecb3dcb9"
+  },
+  "chapter_16_appendix_a_site_preparation_ch.md": {
+    "size": 1213,
+    "sha256": "96392528e8d51720e1d2dfbfc65637365382cc42cf65148af0c178ff77b653bb"
+  },
+  "chapter_17_appendix_b_utility_schedule_pr.md": {
+    "size": 650,
+    "sha256": "323f66fd96b3960c364ff771682a1a2612ce82fbd884309ebee3930eb632ac20"
+  },
+  "chapter_18_appendix_c_lift_plan_drawings_.md": {
+    "size": 566,
+    "sha256": "5ed8d153182fd92ba576bebf19a45132bf9cf4fe57261ea4ef4fbeb9f860e661"
+  },
+  "chapter_19_appendix_d_commissioning_test_.md": {
+    "size": 341,
+    "sha256": "15a01f04bef9ad03f9ee2891068c975dc9f7664ca9b2fbd3fe369b4939c7a320"
+  },
+  "chapter_20_appendix_e_sop_index_prod-29-e.md": {
+    "size": 982,
+    "sha256": "a8d3ccb2a67a0dba526135d1a4ecc80f2db45425dde05fdd378c179ae099d846"
+  },
+  "chapter_21_appendix_f_emergency_contacts_.md": {
+    "size": 950,
+    "sha256": "bb2e874d9a1d4ef13a359e6c995febfe1a458da84a1508399c5e905d494eb9e6"
+  }
+}
