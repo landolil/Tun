@@ -1,0 +1,66 @@
+{
+  "chapter_01_intro.md": {
+    "size": 20,
+    "sha256": "ae3fd8084ce9fef3b0c4c5a463b213be6384e8d116bbe25a6ee8bcfe191d0f80"
+  },
+  "chapter_02_aegis-forge_i_stage_4__low-tem.md": {
+    "size": 555,
+    "sha256": "767199ae85560b640cba418246c825661e96f5d29bcc3362c99d5093c8c40498"
+  },
+  "chapter_03_1_stage_4_parameters_and_casca.md": {
+    "size": 7759,
+    "sha256": "c2a868ec150b3a752053c3e668034618818a14678705f7a549a621348dfab610"
+  },
+  "chapter_04_2_indium-first_separation_stra.md": {
+    "size": 6416,
+    "sha256": "061faf55a4e9866abb43ccd8eddc0e5272accbf00b9b1f5e802ac71d9d60d455"
+  },
+  "chapter_05_3_metal_melting_and_density_st.md": {
+    "size": 5278,
+    "sha256": "97e88d9d861798ed47ffcebd99be79b4fbb20072349c8a9707ca742392fc3930"
+  },
+  "chapter_06_4_centrifuge_bowl_zones__detai.md": {
+    "size": 3610,
+    "sha256": "9869de37295b1cb8b8c4257b0ace142102fe3c5164e8173a887eefa7403f15c3"
+  },
+  "chapter_07_5_oxidation_control.md": {
+    "size": 3466,
+    "sha256": "b89150b5ced6bab36bdc18f96c66652da597839e094c9087bcf63184e63989d1"
+  },
+  "chapter_08_6_solder_alloy_formation.md": {
+    "size": 2959,
+    "sha256": "8744d42257739653f6d86ec0198c04498f54e47e898e06e5505bc49695e75ebe"
+  },
+  "chapter_09_7_precious_metal_carrier__au_a.md": {
+    "size": 2692,
+    "sha256": "efb7cbb6d46f4272d3857b4b74bbc8f03a84d5c38fea52763716853d303eec5e"
+  },
+  "chapter_10_8_output_streams.md": {
+    "size": 2834,
+    "sha256": "802bfbaecf462ee518c58feef868c861eda433014a191707cd43fd4f5b6d4175"
+  },
+  "chapter_11_9_throughput_and_quality.md": {
+    "size": 2350,
+    "sha256": "2e5249b96f0c54d628a744790ab07678c924a113481c43555793ff11061e64eb"
+  },
+  "chapter_12_10_energy_balance.md": {
+    "size": 2028,
+    "sha256": "d3b74da7f682bedf40a204e1fb585ad268bc05008ab73800a242df8b287e1b07"
+  },
+  "chapter_13_11_safety_and_emissions.md": {
+    "size": 2844,
+    "sha256": "6731a581d3edb83c949d15ac95083fb0bc5c2b36e17eb1edac26aefc193e3de4"
+  },
+  "chapter_14_12_control_system.md": {
+    "size": 3666,
+    "sha256": "31282b2a26862a3e90c2298d43471a6a36461dff995eefda3b553f7826e447a7"
+  },
+  "chapter_15_13_cross-reference_matrix.md": {
+    "size": 3419,
+    "sha256": "995e765c0d1f380960f31ba3a1601c856b5cb7e69faef966280ff68ed0889c0b"
+  },
+  "chapter_16_appendix_a_stage_4_quick-refer.md": {
+    "size": 1729,
+    "sha256": "f444dbbee0206758c13287bd93c2c1bc5e7c63e3d6f8ed66731da3f459f7d111"
+  }
+}

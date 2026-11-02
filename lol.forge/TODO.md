@@ -95,59 +95,59 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 | # | Micro-Subtask | Description | Target | Status |
 |---|---------------|-------------|--------|--------|
 | 1 | Research Phase | Read Vol 2 Stage 4 + Materials Study Parts I, III, V + PROD-02, 04, 07, 09, 12, 16 | 45 min | ✅ COMPLETE |
-| 2.1 | Write Section 1 Header | Document header: CSMFAB numbering, series, classification, Stage 4 scope | 5 min | PENDING |
-| 2.2 | Write Section 1.1 | Stage Parameters table: 420-900°C, 30 min, 200-400 RPM, N₂ 1.5 bar, 10 kHz/80-150 kW | 10 min | PENDING |
-| 2.3 | Write Section 1.2 | Stage 4 in cascade context diagram + feed from Stage 3 | 10 min | PENDING |
-| 2.4 | Write Section 1.3 | Feedstock composition by category (from PROD-13, 16) | 10 min | PENDING |
-| 2.5 | Write Section 2 Header | Indium-First Separation Strategy section intro | 5 min | PENDING |
-| 2.6 | Write Section 2.1 | In melting point 156.6°C, early condensation at Port 4 (160°C setpoint) | 15 min | PENDING |
-| 2.7 | Write Section 2.2 | Indium-first strategy: heat slowly 155→157→160°C, centrifuge at 400 RPM 5 min | 15 min | PENDING |
-| 2.8 | Write Section 2.3 | Downstream refining: electrodeposition → 99.9% In → feeds YInMn production | 10 min | PENDING |
-| 2.9 | Write Section 3 Header | Metal Melting & Density Stratification section intro | 5 min | PENDING |
-| 2.10 | Write Section 3.1 | Pb (327.5°C, 11.34 g/cm³), Sn (232°C, 7.31), Zn (420°C, 7.14), In (156.6°C, 7.31) | 15 min | PENDING |
-| 2.11 | Write Section 3.2 | Sn-Pb eutectic (183°C, 63/37), Bi-Sn, In-Sn (52/48) alloy formation | 10 min | PENDING |
-| 2.12 | Write Section 3.3 | Density stratification at 200-400 RPM (G=22-89): In/Sn inner, Zn middle, Pb outer | 15 min | PENDING |
-| 2.13 | Write Section 4 Header | Centrifuge Bowl Zones section intro | 5 min | PENDING |
-| 2.14 | Write Section 4.1 | Inner zone (In/Sn): r=150-200mm, T=160-250°C, Port 4A | 10 min | PENDING |
-| 2.15 | Write Section 4.2 | Middle zone (Zn): r=200-230mm, T=420-500°C, Port 4B | 10 min | PENDING |
-| 2.16 | Write Section 4.3 | Outer zone (Pb): r=230-250mm, T=327-450°C, Port 4C | 10 min | PENDING |
-| 2.17 | Write Section 4.4 | Ti₃AlC₂ thermal actuators for 3 ports, ZrO₂ pistons, PEEK CF40 springs | 10 min | PENDING |
-| 3.1 | Write Section 5 Header | Oxidation Control section intro | 5 min | PENDING |
-| 3.2 | Write Section 5.1 | Na₂CO₃ flux injection, N₂/H₂ reducing atmosphere, flux chemistry | 15 min | PENDING |
-| 3.3 | Write Section 5.2 | In oxidation prevention (In₂O₃ forms at 156°C but reduced by H₂) | 10 min | PENDING |
-| 3.4 | Write Section 5.3 | Zn vapor suppression (Zn boils at 907°C) — N₂ blanket, rapid condensation | 10 min | PENDING |
-| 3.5 | Write Section 6 Header | Solder Alloy Formation section intro | 5 min | PENDING |
-| 3.6 | Write Section 6.1 | Pb/Sn eutectic (63/37) target composition, phase diagram, cooling rate | 15 min | PENDING |
-| 3.7 | Write Section 6.2 | In-Sn (52/48) for low-temp solder, Bi-Sn for lead-free | 10 min | PENDING |
-| 3.8 | Write Section 6.3 | Alloy purification: dross skimming, flux removal, casting | 10 min | PENDING |
-| 3.9 | Write Section 7 Header | Precious Metal Carrier section intro | 5 min | PENDING |
-| 3.10 | Write Section 7.1 | Au/Ag/Pd partition into In/Sn melt (Stage 4) → Stage 6 recovery | 15 min | PENDING |
-| 3.11 | Write Section 7.2 | Partition coefficients, collection efficiency, downstream electrorefining | 15 min | PENDING |
-| 3.12 | Write Section 7.3 | PM content per ton PCBs: Au 300-400g, Ag 3000-5000g, Pd 100-200g | 10 min | PENDING |
-| 4.1 | Write Section 8 Header | Output Streams section intro | 5 min | PENDING |
-| 4.2 | Write Section 8.1 | Solder ingots, In bullion, Zn dust, Pb bullion, dross to Stage 7 | 15 min | PENDING |
-| 4.3 | Write Section 8.2 | Mass balance table per 500 kg batch | 10 min | PENDING |
-| 4.4 | Write Section 9 Header | Throughput & Quality section intro | 5 min | PENDING |
-| 4.5 | Write Section 9.1 | In >99.9%, Sn >99.5%, Pb >99.9%, Zn >99% purity targets | 15 min | PENDING |
-| 4.6 | Write Section 9.2 | Quality specs, sampling, analytical methods | 15 min | PENDING |
-| 4.7 | Write Section 10 Header | Energy Balance section intro | 5 min | PENDING |
-| 4.8 | Write Section 10.1 | Induction + resistive, latent heats, kWh/ton metal | 15 min | PENDING |
-| 4.9 | Write Section 10.2 | Heat recovery from Stage 3 gas, char sensible heat | 10 min | PENDING |
-| 4.10 | Write Section 11 Header | Safety & Emissions section intro | 5 min | PENDING |
-| 4.11 | Write Section 11.1 | Pb fume capture (HEPA + carbon), In toxicity controls, Zn vapor | 15 min | PENDING |
-| 4.12 | Write Section 11.2 | Emission limits, monitoring, process safety interlocks | 15 min | PENDING |
-| 4.13 | Write Section 12 Header | Control System section intro | 5 min | PENDING |
-| 4.14 | Write Section 12.1 | Zone temperature, metal level sensors (POF), flux injection, RPM control | 15 min | PENDING |
-| 4.15 | Write Section 13 Header | Cross-Reference Matrix section intro | 5 min | PENDING |
-| 4.16 | Write Section 13.1 | Links to PROD-02, 04, 07, 09, 12, 16, 19, FOLLOW-14 table | 15 min | PENDING |
-| 5.1 | Generate Williams Intro | ~67 lines: Constraint (In scarcity), Necessity (In-first physics), Commitment (domestic In) | 20 min | PENDING |
-| 5.2 | Generate Keymaker Intro | ~67 lines: Lock (In/Pb/Sn/Zn separation), Key (density stratification), Turn (theory↔practice) | 20 min | PENDING |
-| 5.3 | Generate El Segundo Intro | ~67 lines: Mirror (operator sees In condense), Participation (witness solder form), Protocol | 20 min | PENDING |
-| 5.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | PENDING |
-| 6.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-17_... chunks/PROD-17` | 5 min | PENDING |
-| 6.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-17` | 2 min | PENDING |
-| 6.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-17` | 2 min | PENDING |
-| 6.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-17_...` | 2 min | PENDING |
+| 2.1 | Write Section 1 Header | Document header: CSMFAB numbering, series, classification, Stage 4 scope | 5 min | ✅ COMPLETE |
+| 2.2 | Write Section 1.1 | Stage Parameters table: 420-900°C, 25 min, 300-400 RPM, N₂/H₂ 1.5 bar, 50 kHz/80 kW | 10 min | ✅ COMPLETE |
+| 2.3 | Write Section 1.2 | Stage 4 in cascade context diagram + feed from Stage 3 | 10 min | ✅ COMPLETE |
+| 2.4 | Write Section 1.3 | Feedstock composition by category (from PROD-13, 16) | 10 min | ✅ COMPLETE |
+| 2.5 | Write Section 2 Header | Indium-First Separation Strategy section intro | 5 min | ✅ COMPLETE |
+| 2.6 | Write Section 2.1 | In melting point 156.6°C, early condensation at Port 4A (160°C setpoint) | 15 min | ✅ COMPLETE |
+| 2.7 | Write Section 2.2 | Indium-first strategy: heat slowly 155→157→160°C, centrifuge at 400 RPM 5 min | 15 min | ✅ COMPLETE |
+| 2.8 | Write Section 2.3 | Downstream refining: electrodeposition → 99.9% In → feeds YInMn production | 10 min | ✅ COMPLETE |
+| 2.9 | Write Section 3 Header | Metal Melting & Density Stratification section intro | 5 min | ✅ COMPLETE |
+| 2.10 | Write Section 3.1 | Pb (327.5°C, 10.66), Sn (232°C, 6.99), Zn (420°C, 6.57), In (156.6°C, 7.31) g/cm³ molten | 15 min | ✅ COMPLETE |
+| 2.11 | Write Section 3.2 | Sn-Pb eutectic (183°C, 63/37), Bi-Sn, In-Sn (52/48) alloy formation | 10 min | ✅ COMPLETE |
+| 2.12 | Write Section 3.3 | Density stratification at 300-400 RPM (G=50-89): In/Sn inner, Zn middle, Pb outer | 15 min | ✅ COMPLETE |
+| 2.13 | Write Section 4 Header | Centrifuge Bowl Zones section intro | 5 min | ✅ COMPLETE |
+| 2.14 | Write Section 4.1 | Inner zone (In): r=150-200mm, T=160°C, Port 4A | 10 min | ✅ COMPLETE |
+| 2.15 | Write Section 4.2 | Middle zone (Sn/Bi): r=200-250mm, T=200/280°C, Port 4B | 10 min | ✅ COMPLETE |
+| 2.16 | Write Section 4.3 | Outer zone (Pb/Zn): r=250-300mm, T=340/430°C, Port 4C | 10 min | ✅ COMPLETE |
+| 2.17 | Write Section 4.4 | Ti₃AlC₂ thermal actuators for 3 ports, ZrO₂ pistons, PEEK CF40 springs | 10 min | ✅ COMPLETE |
+| 3.1 | Write Section 5 Header | Oxidation Control section intro | 5 min | ✅ COMPLETE |
+| 3.2 | Write Section 5.1 | Na₂CO₃ flux injection, N₂/H₂ reducing atmosphere, flux chemistry | 15 min | ✅ COMPLETE |
+| 3.3 | Write Section 5.2 | In oxidation prevention (In₂O₃ forms at 156°C but reduced by H₂) | 10 min | ✅ COMPLETE |
+| 3.4 | Write Section 5.3 | Zn vapor suppression (Zn boils at 907°C) — N₂ blanket, rapid condensation | 10 min | ✅ COMPLETE |
+| 3.5 | Write Section 6 Header | Solder Alloy Formation section intro | 5 min | ✅ COMPLETE |
+| 3.6 | Write Section 6.1 | Pb/Sn eutectic (63/37) target composition, phase diagram, cooling rate | 15 min | ✅ COMPLETE |
+| 3.7 | Write Section 6.2 | In-Sn (52/48) for low-temp solder, Bi-Sn for lead-free | 10 min | ✅ COMPLETE |
+| 3.8 | Write Section 6.3 | Alloy purification: dross skimming, flux removal, casting | 10 min | ✅ COMPLETE |
+| 3.9 | Write Section 7 Header | Precious Metal Carrier section intro | 5 min | ✅ COMPLETE |
+| 3.10 | Write Section 7.1 | Au/Ag/Pd partition into In/Sn melt (Stage 4) → Stage 6 recovery | 15 min | ✅ COMPLETE |
+| 3.11 | Write Section 7.2 | Partition coefficients, collection efficiency, downstream electrorefining | 15 min | ✅ COMPLETE |
+| 3.12 | Write Section 7.3 | PM content per ton PCBs: Au 300-400g, Ag 3000-5000g, Pd 100-200g | 10 min | ✅ COMPLETE |
+| 4.1 | Write Section 8 Header | Output Streams section intro | 5 min | ✅ COMPLETE |
+| 4.2 | Write Section 8.1 | Solder ingots, In bullion, Zn dust, Pb bullion, dross to Stage 7 | 15 min | ✅ COMPLETE |
+| 4.3 | Write Section 8.2 | Mass balance table per 500 kg batch | 10 min | ✅ COMPLETE |
+| 4.4 | Write Section 9 Header | Throughput & Quality section intro | 5 min | ✅ COMPLETE |
+| 4.5 | Write Section 9.1 | In >99.9%, Sn >99.5%, Pb >99.9%, Zn >99% purity targets | 15 min | ✅ COMPLETE |
+| 4.6 | Write Section 9.2 | Quality specs, sampling, analytical methods | 15 min | ✅ COMPLETE |
+| 4.7 | Write Section 10 Header | Energy Balance section intro | 5 min | ✅ COMPLETE |
+| 4.8 | Write Section 10.1 | Induction + resistive, latent heats, kWh/ton metal | 15 min | ✅ COMPLETE |
+| 4.9 | Write Section 10.2 | Heat recovery from Stage 3 gas, char sensible heat | 10 min | ✅ COMPLETE |
+| 4.10 | Write Section 11 Header | Safety & Emissions section intro | 5 min | ✅ COMPLETE |
+| 4.11 | Write Section 11.1 | Pb fume capture (HEPA + carbon), In toxicity controls, Zn vapor | 15 min | ✅ COMPLETE |
+| 4.12 | Write Section 11.2 | Emission limits, monitoring, process safety interlocks | 15 min | ✅ COMPLETE |
+| 4.13 | Write Section 12 Header | Control System section intro | 5 min | ✅ COMPLETE |
+| 4.14 | Write Section 12.1 | Zone temperature, metal level sensors (POF), flux injection, RPM control | 15 min | ✅ COMPLETE |
+| 4.15 | Write Section 13 Header | Cross-Reference Matrix section intro | 5 min | ✅ COMPLETE |
+| 4.16 | Write Section 13.1 | Links to PROD-02, 04, 07, 09, 12, 16, 19, FOLLOW-14 table | 15 min | ✅ COMPLETE |
+| 5.1 | Generate Williams Intro | ~67 lines: Constraint (In scarcity), Necessity (In-first physics), Commitment (domestic In) | 20 min | ✅ COMPLETE |
+| 5.2 | Generate Keymaker Intro | ~67 lines: Lock (In/Pb/Sn/Zn separation), Key (density stratification), Turn (theory↔practice) | 20 min | ✅ COMPLETE |
+| 5.3 | Generate El Segundo Intro | ~67 lines: Mirror (operator sees In condense), Participation (witness solder form), Protocol | 20 min | ✅ COMPLETE |
+| 5.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | ✅ COMPLETE |
+| 6.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-17_... chunks/PROD-17` | 5 min | ✅ COMPLETE |
+| 6.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-17` | 2 min | ✅ COMPLETE |
+| 6.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-17` | 2 min | ✅ COMPLETE |
+| 6.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-17_...` | 2 min | ✅ COMPLETE |
 | 6.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-17 Stage 4 Low-Temp Metals — 900+ lines + 200 intro" && git push` | 5 min | PENDING |
 | 6.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-01.md | 10 min | PENDING |
 
