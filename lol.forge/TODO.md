@@ -148,8 +148,97 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 | 6.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-17` | 2 min | ✅ COMPLETE |
 | 6.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-17` | 2 min | ✅ COMPLETE |
 | 6.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-17_...` | 2 min | ✅ COMPLETE |
-| 6.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-17 Stage 4 Low-Temp Metals — 900+ lines + 200 intro" && git push` | 5 min | PENDING |
-| 6.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-01.md | 10 min | PENDING |
+| 6.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-17 Stage 4 Low-Temp Metals — 900+ lines + 200 intro" && git push` | 5 min | ✅ COMPLETE |
+| 6.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-01.md | 10 min | ✅ COMPLETE |
+
+---
+
+## AFTER ALL THREE DOCUMENTS COMPLETE
+- [ ] Create NEXT_runner_007.md for PROD-19, 20, 21 (Stages 6-8)
+- [ ] Update Master_Todo.md Phase 2 progress table
+
+---
+
+### PROD-18: Stage 5: Aluminum Window (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read Vol 2 Stage 5 + Materials Study Parts I, V + PROD-02, 04, 07, 12, 17 | 45 min | ✅ COMPLETE |
+| 2.1 | Write Section 1 Header | Document header: CSMFAB numbering, series, classification, Stage 5 scope | 5 min | ✅ COMPLETE |
+| 2.2 | Write Section 1.1 | Stage Parameters table: 660-720°C, 30 min, 300 RPM, N₂ 1.5 bar, 10 kHz/80-150 kW | 10 min | ✅ COMPLETE |
+| 2.3 | Write Section 1.2 | Stage 5 in cascade context diagram + feed from Stage 4 | 10 min | ✅ COMPLETE |
+| 2.4 | Write Section 1.3 | Feedstock composition by category (from PROD-13, 17) | 10 min | ✅ COMPLETE |
+| 2.5 | Write Section 2 Header | Aluminum Melting and Separation Physics section intro | 5 min | ✅ COMPLETE |
+| 2.6 | Write Section 2.1 | Aluminum Window thermodynamic basis, 60°C window, melting point hierarchy | 15 min | ✅ COMPLETE |
+| 2.7 | Write Section 2.2 | Al melt properties at 680°C (density, viscosity, surface tension, resistivity) | 15 min | ✅ COMPLETE |
+| 2.8 | Write Section 2.3 | Centrifugal film formation, drainage velocity, pressure at Port 5 | 15 min | ✅ COMPLETE |
+| 2.9 | Write Section 2.4 | Melt pool dynamics: KH/RT stability, wave formation | 15 min | ✅ COMPLETE |
+| 2.10 | Write Section 2.5 | Heat transfer: induction power density, thermal diffusion, uniformity | 15 min | ✅ COMPLETE |
+| 3.1 | Write Section 3 Header | Magnesium Removal Strategy section intro | 5 min | ✅ COMPLETE |
+| 3.2 | Write Section 3.1 | Mg challenge: co-melts with Al, standard methods (Cl₂, vacuum, flux) | 10 min | ✅ COMPLETE |
+| 3.3 | Write Section 3.2 | Flux chemistry: NaCl/KCl/cryolite, reactions, basicity control | 15 min | ✅ COMPLETE |
+| 3.4 | Write Section 3.3 | Mg removal kinetics: mass transfer, centrifugal surface renewal | 15 min | ✅ COMPLETE |
+| 3.5 | Write Section 3.4 | Cryolite role: Al₂O₃ solubility, MgF₂ formation, fluidity | 15 min | ✅ COMPLETE |
+| 3.6 | Write Section 3.5 | Mg removal efficiency table, partitioning | 10 min | ✅ COMPLETE |
+| 3.7 | Write Section 3.6 | Alternative methods evaluated/rejected | 10 min | ✅ COMPLETE |
+| 4.1 | Write Section 4 Header | Aluminum Alloy Fractionation section intro | 5 min | ✅ COMPLETE |
+| 4.2 | Write Section 4.1 | Fractionation strategy: wrought vs cast, sequential collection | 10 min | ✅ COMPLETE |
+| 4.3 | Write Section 4.2 | Wrought vs cast separation logic table | 10 min | ✅ COMPLETE |
+| 4.4 | Write Section 4.3 | Thermodynamic basis: liquidus temperatures, collection windows | 15 min | ✅ COMPLETE |
+| 4.5 | Write Section 4.4 | Impurity segregation: Scheil equation, partition coefficients | 15 min | ✅ COMPLETE |
+| 4.6 | Write Section 4.5 | Real-time fractionation control algorithm | 15 min | ✅ COMPLETE |
+| 4.7 | Write Section 4.6 | Downstream refining requirements | 10 min | ✅ COMPLETE |
+| 5.1 | Write Section 5 Header | Dross Management section intro | 5 min | ✅ COMPLETE |
+| 5.2 | Write Section 5.1 | Dross formation mechanism, oxidation/nitride/flux, rate model | 15 min | ✅ COMPLETE |
+| 5.3 | Write Section 5.2 | Salt flux dross recovery: rotary furnace, 92% Al recovery | 15 min | ✅ COMPLETE |
+| 5.4 | Write Section 5.3 | Dross to Stage 7, Phoenix Protocol | 5 min | ✅ COMPLETE |
+| 5.5 | Write Section 5.4 | Dross thermodynamics: NaCl-KCl-MgO-Al₂O₃ phase diagram | 15 min | ✅ COMPLETE |
+| 5.6 | Write Section 5.5 | Flux recycle loop economics | 10 min | ✅ COMPLETE |
+| 6.1 | Write Section 6 Header | Impurity Partitioning section intro | 5 min | ✅ COMPLETE |
+| 6.2 | Write Section 6.1 | Impurity behavior table (12 elements) | 15 min | ✅ COMPLETE |
+| 6.3 | Write Section 6.2 | Target product specifications (wrought/cast) | 10 min | ✅ COMPLETE |
+| 6.4 | Write Section 6.3 | Impurity partitioning thermodynamics: ΔG, partition coefficients | 15 min | ✅ COMPLETE |
+| 7.1 | Write Section 7 Header | Output Streams section intro | 5 min | ✅ COMPLETE |
+| 7.2 | Write Section 7.1 | Stream summary table (4 streams) | 10 min | ✅ COMPLETE |
+| 7.3 | Write Section 7.2 | Mass balance per 500 kg batch | 15 min | ✅ COMPLETE |
+| 8.1 | Write Section 8 Header | Throughput & Quality section intro | 5 min | ✅ COMPLETE |
+| 8.2 | Write Section 8.1 | Production targets table | 10 min | ✅ COMPLETE |
+| 8.3 | Write Section 8.2 | Sampling and analytical protocol | 10 min | ✅ COMPLETE |
+| 9.1 | Write Section 9 Header | Energy Balance section intro | 5 min | ✅ COMPLETE |
+| 9.2 | Write Section 9.1 | Energy requirements table (11 components) | 15 min | ✅ COMPLETE |
+| 9.3 | Write Section 9.2 | Energy recovery and integration | 10 min | ✅ COMPLETE |
+| 9.4 | Write Section 9.3 | Exergy analysis | 10 min | ✅ COMPLETE |
+| 9.5 | Write Section 9.4 | Exergy destruction breakdown and improvement opportunities | 15 min | ✅ COMPLETE |
+| 10.1 | Write Section 10 Header | Safety & Emissions section intro | 5 min | ✅ COMPLETE |
+| 10.2 | Write Section 10.1 | Hazard identification (9 hazards) | 15 min | ✅ COMPLETE |
+| 10.3 | Write Section 10.2 | Emission limits and monitoring (8 emissions) | 15 min | ✅ COMPLETE |
+| 10.4 | Write Section 10.3 | Process safety interlocks (10 interlocks) | 15 min | ✅ COMPLETE |
+| 10.5 | Write Section 10.4 | Quantitative Risk Assessment table | 15 min | ✅ COMPLETE |
+| 11.1 | Write Section 11 Header | Control System section intro | 5 min | ✅ COMPLETE |
+| 11.2 | Write Section 11.1 | Temperature ramp profile (6 phases) | 10 min | ✅ COMPLETE |
+| 11.3 | Write Section 11.2 | PID control parameters (6 loops) | 10 min | ✅ COMPLETE |
+| 11.4 | Write Section 11.3 | Metal level sensors (POF) | 10 min | ✅ COMPLETE |
+| 11.5 | Write Section 11.4 | Composition feedback control (XRF) | 10 min | ✅ COMPLETE |
+| 11.6 | Write Section 11.5 | Flux injection control | 10 min | ✅ COMPLETE |
+| 11.7 | Write Section 11.6 | Mold carousel control (8-position) | 10 min | ✅ COMPLETE |
+| 11.8 | Write Section 11.7 | SCADA/HMI screens, alarm hierarchy, data historian | 15 min | ✅ COMPLETE |
+| 12.1 | Write Section 12 Header | Cross-Reference Matrix section intro | 5 min | ✅ COMPLETE |
+| 12.2 | Write Section 12.1 | Upstream dependencies (6 docs) | 10 min | ✅ COMPLETE |
+| 12.3 | Write Section 12.2 | Downstream dependencies (6 docs) | 10 min | ✅ COMPLETE |
+| 12.4 | Write Section 12.3 | Cross-reference table (13 sections) | 15 min | ✅ COMPLETE |
+| 13.1 | Appendix A | Quick-reference card | 10 min | ✅ COMPLETE |
+| 13.2 | Appendix B | ZrO₂ mold design (PROD-08 integration) | 15 min | ✅ COMPLETE |
+| 13.3 | Appendix C | Economic analysis (revenue, OPEX, margin) | 15 min | ✅ COMPLETE |
+| 14.1 | Generate Williams Intro | ~67 lines: Constraint (Al window), Necessity (Al recovery economics), Commitment (Mg removal) | 20 min | ✅ COMPLETE |
+| 14.2 | Generate Keymaker Intro | ~67 lines: Lock (Mg removal), Key (centrifugal film), Turn (theory↔practice) | 20 min | ✅ COMPLETE |
+| 14.3 | Generate El Segundo Intro | ~67 lines: Mirror (XRF/POF/FBG), Participation (operator bands), Protocol (recursive) | 20 min | ✅ COMPLETE |
+| 14.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | ✅ COMPLETE |
+| 15.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-18_... chunks/PROD-18` | 5 min | ✅ COMPLETE |
+| 15.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-18` | 2 min | ✅ COMPLETE |
+| 15.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-18` | 2 min | ✅ COMPLETE |
+| 15.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-18_...` | 2 min | ✅ COMPLETE |
+| 15.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-18 Stage 5 Aluminum Window — 1052 lines + 200 intro" && git push` | 5 min | PENDING |
+| 15.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | PENDING |
 
 ---
 
@@ -162,6 +251,10 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 ## Heartbeat Log (Session Start)
 2026-11-01T20:23:06Z Runner 006 Session Started — PROD-16 Research Phase Initiated
 2026-11-01T21:22:00Z Runner 006 Micro-subtask granularity activated — every step logged
+2026-11-02T08:01:04Z Runner 006 Session Resumed — PROD-17 Write Phase Initiated
+2026-11-02T09:30:00Z Runner 006 PROD-17 Complete 939 lines 1 commit OK
+2026-11-02T09:35:00Z Runner 006 PROD-18 Research Phase Initiated
+2026-11-02T10:00:00Z Runner 006 PROD-18 Write Complete 1052 lines
 
 ---
 
