@@ -1,0 +1,40 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "model": "anthropic/claude-sonnet",
+  "small_model": "anthropic/claude-haiku",
+  "default_agent": "engineering-docs",
+  "instructions": [
+    "lol.forge/AGENTS.md",
+    "lol.forge/RESUME_SESSION_LOLFORGE.md",
+    "lol.forge/HEARTBEAT_LOLFORGE.md"
+  ],
+  "permission": {
+    "bash": "allow",
+    "edit": {
+      "lol.forge/**/*.md": "allow",
+      "lol.forge/**/*.py": "allow",
+      "lol.forge/**/*.sh": "allow",
+      "lol.forge/**/*.js": "allow",
+      "*": "ask"
+    },
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "task": "allow",
+    "webfetch": "allow",
+    "websearch": "allow"
+  },
+  "mcp": {},
+  "skills": {
+    "paths": [
+      "lol.forge/skills"
+    ]
+  },
+  "compaction": {
+    "auto": true,
+    "prune": true
+  },
+  "share": "manual",
+  "autoupdate": "notify",
+  "snapshot": true
+}
