@@ -12,14 +12,14 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-03T01:50:00Z",
-  "current_runner": "012",
-  "current_document": "PROD-27",
-  "subtask": "complete",
-  "subtask_start": "2026-11-03T01:50:00Z",
-  "documents_completed": 27,
-  "total_lines_written": 27275,
-  "git_commits_this_session": 11,
+  "last_heartbeat": "2026-11-03T02:00:00Z",
+  "current_runner": "013",
+  "current_document": "PROD-29",
+  "subtask": "research",
+  "subtask_start": "2026-11-03T02:00:00Z",
+  "documents_completed": 28,
+  "total_lines_written": 28214,
+  "git_commits_this_session": 12,
   "status": "active"
 }
 ```
@@ -153,3 +153,10 @@ ps aux | grep heartbeat_monitor
 2026-11-02T22:30:00Z Runner 010 PROD-25 Complete 1224 lines 1 commit OK
 2026-11-02T23:30:00Z Runner 011 PROD-26 Complete 1196 lines 1 commit OK
 2026-11-03T01:50:00Z Runner 012 PROD-27 Complete 1241 lines 1 commit OK
+2026-11-03T02:00:00Z Runner 013 Session Start PROD-28 Research Phase Initiated 0 lines 12 total OK
+2026-11-03T02:15:00Z Runner 013 PROD-28 Research Complete 0 lines 12 total OK
+2026-11-03T02:30:00Z Runner 013 PROD-28 Body Write Complete 939 lines 12 total OK
+2026-11-03T02:40:00Z Runner 013 PROD-28 Heuristic Intros Complete 200 lines 12 total OK
+2026-11-03T02:45:00Z Runner 013 PROD-28 Chunked 21 chapters Verified OK 12 total OK
+2026-11-03T02:50:00Z Runner 013 PROD-28 Commit 12a4b6e Pushed 1 commit OK
+2026-11-03T02:55:00Z Runner 013 PROD-28 Complete — Next: PROD-29 Deployment & Operations
