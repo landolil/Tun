@@ -1,1 +1,0 @@
-# generate_heuristic_intros.sh

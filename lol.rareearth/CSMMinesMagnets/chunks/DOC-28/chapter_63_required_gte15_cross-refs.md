@@ -1,1 +1,0 @@
-# REQUIRED: ≥15 cross-refs

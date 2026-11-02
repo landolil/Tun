@@ -1,1 +1,0 @@
-#   - Kunza language vs Chango kimün vs Diaguita kakán vs Mapudungun

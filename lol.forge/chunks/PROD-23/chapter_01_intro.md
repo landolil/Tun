@@ -1,1 +1,0 @@
-# Combined Heuristic Intro — PROD-23 Control System Architecture

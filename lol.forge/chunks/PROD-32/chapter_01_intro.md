@@ -1,1 +1,0 @@
-# Combined Heuristic Intro — PROD-32 Regulatory & Compliance

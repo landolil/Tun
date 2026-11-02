@@ -1,1 +1,0 @@
-## 7. DATA RECORDING (Forms, automated logs, photos/video)

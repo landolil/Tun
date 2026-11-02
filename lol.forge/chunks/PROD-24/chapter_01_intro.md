@@ -1,1 +1,0 @@
-# Combined Heuristic Intro — PROD-24 Thermal Modeling & Simulation

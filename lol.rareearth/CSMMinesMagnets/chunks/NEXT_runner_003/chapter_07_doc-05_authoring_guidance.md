@@ -1,1 +1,0 @@
-## DOC-05 Authoring Guidance

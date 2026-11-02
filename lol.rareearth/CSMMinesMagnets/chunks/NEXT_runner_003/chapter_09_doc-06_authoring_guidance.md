@@ -1,1 +1,0 @@
-## DOC-06 Authoring Guidance

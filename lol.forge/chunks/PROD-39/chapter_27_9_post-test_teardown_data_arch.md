@@ -1,1 +1,0 @@
-## 9. POST-TEST (Teardown, data archive, equipment return)

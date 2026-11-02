@@ -1,1 +1,0 @@
-# Combined Heuristic Intro — PROD-30 Maintenance & Sustainment

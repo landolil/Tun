@@ -1,1 +1,0 @@
-# Combined Heuristic Intro — PROD-28 Quality Assurance & Testing

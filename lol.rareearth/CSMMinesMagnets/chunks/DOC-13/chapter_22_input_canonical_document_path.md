@@ -1,1 +1,0 @@
-# Input: Canonical document path

@@ -1,1 +1,0 @@
-#   DOC-27_intro_el_segundo.md

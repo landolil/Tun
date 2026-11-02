@@ -1,1 +1,0 @@
-## 8. ACCEPTANCE CRITERIA (Quantitative, traceable to requirements)

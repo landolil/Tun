@@ -1,1 +1,0 @@
-# Ch7: Nitrate Heritage & Transition (Living Museum) ✅

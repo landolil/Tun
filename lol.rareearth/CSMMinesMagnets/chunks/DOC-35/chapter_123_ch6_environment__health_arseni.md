@@ -1,1 +1,0 @@
-# Ch6: Environment & Health (Arsenic, Water, Dust) ✅

@@ -1,2 +1,0 @@
-# Cross-reference count (cumulative target: ≥15)
-grep -c -E 'DOC-|Law|Decree|CONADI|CONAF|SEREMI|GORE|DGA|Sernageomin|EMPORCHA|ATI|Portezuelo|FCAB|ZOFRI|SUSESO|INE|CUT|ANEF|Camanchaca|Desal|Chango|Atacameño|Aymara|Mapuche|Nitrate|Haber-Bosch|Escondida|Spence|Zaldívar|SQM|Albemarle|HIF|H₂|NH₃|REE|Cu|Concentrate|TEU|IMSBC|RADSAFE|CICITEM|PTI|Mall Plaza|La Portada|Mano del Desierto|FNDR|Royalty|Patentes|FDC|Codelco' FinishedWork/DOC-32_Community_Antofagasta.md

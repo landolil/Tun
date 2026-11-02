@@ -1,2 +1,0 @@
-# Cross-reference count (cumulative target: ≥15)
-grep -c -E 'DOC-|Law|Decree|CONADI|CONAF|SEREMI|GORE|DIRECTEMAR|Subpesca|MMA|Environmental Court|Supreme Court|Wallmapu|Az Mapu|Ngen|Machi|Lonko|Wenuy|Butalmapu|GPF|WT|PRF|CCF|HET|FBC|CDC|VERRA|EIB|CPTPP|IRA|Aegis-Forge|Alpha|Bravo|PTI|FCAB|Sernageomin|Endesa|Colbún|Aes Gener|Huachipato|Arauco|Lota|Coronel' FinishedWork/DOC-29_Community_MapucheSur.md

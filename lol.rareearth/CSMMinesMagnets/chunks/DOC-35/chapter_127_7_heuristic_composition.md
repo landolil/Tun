@@ -1,1 +1,0 @@
-# 7. Heuristic Composition

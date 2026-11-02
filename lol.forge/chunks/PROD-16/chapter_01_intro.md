@@ -1,1 +1,0 @@
-# PROD-16: Stage 3: Pyrolysis & Char (Thermoset Decomposition, Char Formation, Gas Evolution)

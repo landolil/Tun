@@ -1,1 +1,0 @@
-#   DOC-28_intro_shield.md

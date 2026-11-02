@@ -1,1 +1,0 @@
-#   - Geographic scale (commune vs region vs territory): 0.30

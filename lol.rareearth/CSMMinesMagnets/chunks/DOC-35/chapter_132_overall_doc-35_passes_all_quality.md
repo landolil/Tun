@@ -1,4 +1,0 @@
-# OVERALL: DOC-35 **PASSES ALL QUALITY GATES**
-```
-
----

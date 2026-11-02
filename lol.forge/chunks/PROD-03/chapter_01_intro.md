@@ -1,1 +1,0 @@
-# PROD-03: Inductive Heating Zone Design
