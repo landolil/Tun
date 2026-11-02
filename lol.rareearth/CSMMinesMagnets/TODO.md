@@ -12,8 +12,8 @@
 - [x] DOC-30: Kawéskar/Yagán Austral Fjords — runner-017e-complete
 - [x] DOC-31: Calama Mining Community — runner-017f-complete
 - [x] DOC-32: Antofagasta Port City — runner-017g-complete
-- [ ] DOC-33: Tocopilla/Mejillones Industrial Corridor — **ACTIVE (Runner 017h)**
-- [ ] DOC-34: San Pedro de Atacama Tourism Gateway
+- [x] DOC-33: Tocopilla/Mejillones Industrial Corridor — runner-017h-complete
+- [ ] DOC-34: San Pedro de Atacama Tourism Gateway — **ACTIVE (Runner 017i)**
 - [ ] DOC-35: María Elena Lithium Community
 
 ---

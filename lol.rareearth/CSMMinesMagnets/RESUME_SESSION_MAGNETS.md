@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: CSMMinesMagnets — Chilean Magnetic Minerals Brokerage Intelligence
-**Last Session**: 2026-11-02 (Runner 017g — DOC-32 Complete)
+**Last Session**: 2026-11-02 (Runner 017h — DOC-33 Complete)
 **Current Phase**: Phase 5 — Community-Specific Intelligence (10 documents)
-**Next Runner**: 017h (DOC-33: Tocopilla/Mejillones Industrial Corridor)
+**Next Runner**: 017i (DOC-34: San Pedro de Atacama Tourism Gateway)
 
 ---
 
@@ -14,7 +14,7 @@
 cd /workspace/app/lol.rareearth/CSMMinesMagnets
 
 # 1. Full resume (reads all context)
-./scripts/resume_runner.sh 017h
+./scripts/resume_runner.sh 017i
 
 # 2. Quick status check
 ./scripts/resume_runner.sh --status
@@ -30,7 +30,7 @@ git status
 
 ## Project State Summary
 
-### Completed (Phase 5 - 7 of 10):
+### Completed (Phase 5 - 8 of 10):
 - [x] DOC-26: Atacameño Territory (3,600+ lines) — tag `runner-017a-complete`
 - [x] DOC-27: Diaguita Valleys (5,500+ lines) — tag `runner-017b-complete`
 - [x] DOC-28: Mapuche-Pehuenche (5,800+ lines) — tag `runner-017c-complete`
@@ -38,27 +38,29 @@ git status
 - [x] DOC-30: Kawéskar/Yagán Austral Fjords (2,240+ lines) — tag `runner-017e-complete`
 - [x] DOC-31: Calama Mining Community (4,800+ lines) — tag `runner-017f-complete`
 - [x] DOC-32: Antofagasta Port City (4,800+ lines) — tag `runner-017g-complete`
+- [x] DOC-33: Tocopilla/Mejillones Industrial Corridor (1,940 lines) — tag `runner-017h-complete`
 
-**Phase 5 Progress**: 7/10 community documents complete
-**Total Phase 5 Lines**: ~29,200+ lines across 7 docs
-**Cumulative Project Lines**: ~65,000+ lines (Phase 1-5)
+**Phase 5 Progress**: 8/10 community documents complete
+**Total Phase 5 Lines**: ~31,140+ lines across 8 docs
+**Cumulative Project Lines**: ~67,000+ lines (Phase 1-5)
 
 ### In Progress:
-- [ ] DOC-33: Tocopilla/Mejillones Industrial Corridor (next)
-- [ ] DOC-34: San Pedro de Atacama Tourism Gateway
+- [ ] DOC-34: San Pedro de Atacama Tourism Gateway (next)
 - [ ] DOC-35: María Elena Lithium Community
 
-### Next Immediate Actions (Runner 017h)
+### Next Immediate Actions (Runner 017i)
 
-#### DOC-33: Tocopilla/Mejillones Industrial Corridor
-- **Source**: DOC-08 (Infrastructure), DOC-16 (Norte Grande), DOC-32 (Antofagasta), HIF Mejillones EIA
+#### DOC-34: San Pedro de Atacama Tourism Gateway
+- **Source**: DOC-26 (Atacameño CPA), CSMFAB Materials Study (geothermal/tourism), CONAF management plans, DGA water rights
 - **Target**: 900+ lines body + 5 heuristic intros (El Segundo PRIMARY)
 - **Key Content**: 
-  - Tocopilla: 25K pop, thermoelectric legacy, copper cathode port, iodine, water crisis
-  - Mejillones: 12K pop, industrial bay (LNG, coal, HIF H₂/NH₃, desal), brine impact, Chango territory
-  - Industrial symbiosis: Waste heat, CO₂ capture, brine valorization, circular economy
-  - Aegis-Forge link: NH₃ terminal, REE shipping, desal supply, green H₂ thermal
-  - Governance: Two municipalities, GORE, Puerto, Chango CPA, unions, artisanal fishers
+  - SPA: 11K residents, 150K+ visitors/yr, 93% tourism employment, altitude 2,400m
+  - Water: Puripica-Chiu Chiu fossil aquifer (10,000+ yr), extraction 120 L/s, deficit by 2030
+  - Governance: CPA Atacameño (seat) + Municipal + Tourism Chamber triad
+  - Culture: 380+ archaeological sites, Dark Sky Sanctuary 2025 target, Kunza revitalization
+  - Climate: Flash floods (2015, 2017, 2022), freeze-thaw, UV 11-14, SLR not applicable
+  - Geothermal: El Tatio (80 MWth, tourist), Puchuldiza (undeveloped, binary cycle potential)
+  - Zero industrial overlap with DOC-33 corridor — distinct territory, economy, governance
 
 ---
 
@@ -78,12 +80,12 @@ git status
 | `AGENTS.md` | Project conventions, quality gates, commands |
 | `Master_Todo.md` | Complete 35-document task hierarchy |
 | `TODO.md` | Active task list (current runner) |
-| `NEXT_runner_017h.md` | Next session instructions |
+| `NEXT_runner_017i.md` | Next session instructions |
 | `HEARTBEAT_MAGNETS.md` | 2-min heartbeat config |
 | `memory/YYYY-MM-DD.md` | Daily session logs |
 | `FinishedWork/DOC-XX_*.md.gz` | Compressed product documents |
 | `chunks/DOC-XX/` | Chapter chunks per document |
-| `FinishedWork/intros/DOC-XX_*_intro_*.md` | Heuristic intro variants |
+| `intros/DOC-XX_*_intro_*.md` | Heuristic intro variants |
 
 ---
 
@@ -92,13 +94,13 @@ git status
 ```bash
 # Current branch: kilo/digital-dolphin-50m
 # Remote: origin (https://github.com/landolil/Tun.git)
-# Recent tags: runner-017a-complete through runner-017g-complete
+# Recent tags: runner-017a-complete through runner-017h-complete
 
 # Standard commit for next doc
 git add -A
-git commit -m "lol.forge: DOC-33 Tocopilla/Mejillones Industrial Corridor — 900+ lines + intros"
+git commit -m "lol.rareearth: DOC-34 San Pedro de Atacama Tourism Gateway — 900+ lines + intros"
 git push
-git tag runner-017h-complete
+git tag runner-017i-complete
 git push --tags
 ```
 
@@ -116,4 +118,4 @@ git push --tags
 
 ---
 
-*Last Updated: 2026-11-02 | Runner 017g Complete | Next: Runner 017h (DOC-33)*
+*Last Updated: 2026-11-02 | Runner 017h Complete | Next: Runner 017i (DOC-34)*

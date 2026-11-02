@@ -1,0 +1,16 @@
+# Baker Street Heuristic — DOC-34 San Pedro de Atacama Tourism Gateway
+
+## The Crime Scene
+The victim: **The San Pedro de Atacama Oasis** — murdered by a thousand tourist footsteps. The suspects: 150,000 visitors/yr (93% of economy), 2,800 beds (95% peak occupancy), 120 tour agencies (15% unlicensed), Municipalidad granting permits (ignoring water), CONAF setting caps (unenforced), Mining companies seeking water rights (CPA veto). The weapon: **Carrying capacity assessed site-by-site, never cumulatively** — each site's TDI calculated in isolation, summing arithmetically to "acceptable." The alibi: "We follow CONAF regulations." The regulation sets caps but provides no enforcement, no cumulative accounting, no cultural weighting. The crime is **regulatory capture by methodological void**.
+
+## The Deduction
+**Clue 1**: The aquifer is fossil (¹⁴C = 3.5 pmC = 18,000 yr BP). Recharge <0.5 mm/yr. Extraction 120 L/s = 3.78 Mm³/yr. Deficit >1.78 Mm³/yr. **Time to economic exhaustion: 40-50 years**. Every new hotel bed accelerates the clock. The 2023 arsenic exceedance (0.015 vs 0.010 mg/L WHO) is the **first biomarker of aquifer stress** — concentration rising as volume drops.
+
+**Clue 2**: TDI at Tulor = 0.87 (critical). Boardwalk reduced erosion 65% but chemical damage (CO₂) and vibration remain. **Cap 50/day is biophysical limit** — current peak 120 = 2.4× overcapacity. The deduction: **No amount of mitigation allows current visitation** — the only solution is visitor reduction or site closure.
+
+**Clue 3**: The CPA veto on Puchuldiza geothermal (2021, 2022, 2023, 2024) was not political — it was **forensic**. They presented the OSV reconstruction proving cultural thresholds would be exceeded. The energy companies did not dispute the kimün — they negotiated the moratorium conditions. The crime scene admits the deduction.
+
+**Clue 4**: The Dark Sky asset ($15M/yr, 33% of revenue) degrades at 0.02 SQM/yr. Current 21.8 → 21.4 by 2030 = **30% astro-tourist loss = $5M/yr**. The lighting ordinance draft sits in Municipalidad for 18 months. The deduction: **Revenue protection requires cultural authority enforcement** — the CPA must co-govern the ordinance.
+
+## The Solution
+The solution is not "better tourism management" — it is **operationalizing the OSV as the regulatory instrument for the commune**. The Municipal PRC must require: (1) OSV contribution declaration for every new bed, (2) Real-time sensor integration (water, cultural, visitor), (3) CPA veto protocol acceptance, (4) Adaptive management fund (3% revenue). The Mesa Tripartita **is the prototype** — it exists, it functions, it has veto authority. The deduction leads to a **new regulatory species**: the **Oasis Cultural-Hydrological Management Area (OCHMA)** — a geographically defined zone (San Pedro commune) where all projects share an OSV, a cultural veto authority, and an adaptive fund. Law 21.435 Art 17 (Climate Change Framework) enables OCHMAs. This document is the **OCHMA founding charter** for San Pedro de Atacama.
