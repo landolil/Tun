@@ -1,6 +1,6 @@
 # TODO.md — CSMMinesMagnets Active Task List
 ## Phase 5: Community-Specific Intelligence (10 Documents)
-**Runner**: 017h | **Current**: DOC-33 Tocopilla/Mejillones Industrial Corridor | **Progress**: 7/10 Complete
+**Runner**: 017j | **Current**: DOC-35 Mar00eda Elena Lithium Community | **Progress**: 9/10 Complete
 
 ---
 
@@ -13,8 +13,8 @@
 - [x] DOC-31: Calama Mining Community — runner-017f-complete
 - [x] DOC-32: Antofagasta Port City — runner-017g-complete
 - [x] DOC-33: Tocopilla/Mejillones Industrial Corridor — runner-017h-complete
-- [ ] DOC-34: San Pedro de Atacama Tourism Gateway — **ACTIVE (Runner 017i)**
-- [ ] DOC-35: María Elena Lithium Community
+- [x] DOC-34: San Pedro de Atacama Tourism Gateway — runner-017i-complete
+- [ ] DOC-35: María Elena Lithium Community — **ACTIVE (Runner 017j)**
 
 ---
 
