@@ -12,14 +12,14 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T09:22:00Z",
-  "current_runner": "017",
-  "current_document": "DOC-31",
-  "subtask": "research",
-  "subtask_start": "2026-11-02T09:22:00Z",
-  "documents_completed": 30,
-  "total_lines_written": 50000,
-  "git_commits_this_session": 5,
+  "last_heartbeat": "2026-11-02T09:32:00Z",
+  "current_runner": "017g",
+  "current_document": "DOC-32",
+  "subtask": "5.1.7.1 Research Antofagasta",
+  "subtask_start": "2026-11-02T09:32:00Z",
+  "documents_completed_phase5": 6,
+  "total_lines_written_session": 4800,
+  "git_commits_this_session": 1,
   "status": "active"
 }
 ```
@@ -30,53 +30,28 @@
 
 ### Cycle 1: Git & Document Status
 - [ ] `git status` — check for uncommitted changes
-- [ ] Count documents in FinishedWork/ (target: 60 total)
+- [ ] Count documents in FinishedWork/ (target: 31+ DOC + FOLLOW)
 - [ ] Verify current document line count progress
 - [ ] Check chunk manifests are current
 
 ### Cycle 2: Source Material Sync
-- [ ] Verify CSMReach/CSMEval/25-Rare-Earth... accessible
-- [ ] Verify CSMPro/CSMMag/CSMMagTech2026... accessible
-- [ ] Verify CSMPro/CSMMag/CSMMagEco2026... accessible
-- [ ] Verify CSMFAB/CSMFAB0108/ accessible
+- [ ] Verify ../seed/CSMFAB/CSMFAB0108/ accessible
+- [ ] Verify ../seed/CSMWip/12_AegisOutfitFabricator/ accessible
+- [ ] Verify ../seed/CSMWip/CSMMinesMagnets/ accessible
 - [ ] Check for new source material updates
 
 ### Cycle 3: Automation Health
 - [ ] write_large_file.py functional
 - [ ] generate_heuristic_intros.sh functional
+- [ ] conflation_audit.py functional
 - [ ] Heartbeat monitor process alive
 - [ ] Disk space adequate (>5GB free)
 
 ### Cycle 4: Progress Validation
-- [ ] TODO.md checkboxes match actual completion
-- [ ] Master_Todo.md current with active tasks
+- [ ] Master_Todo.md checkboxes match actual completion
+- [ ] TODO.md current with active tasks
 - [ ] Memory log appended this session
 - [ ] NEXT_runner file matches Master_Todo phase
-
----
-
-## Heartbeat Actions
-
-### On Each Heartbeat (Every 2 Minutes):
-1. Update `last_heartbeat` timestamp in this file
-2. Run current cycle checks (rotate 1→2→3→4→1...)
-3. Print status line to terminal:
-   ```
-   [HEARTBEAT] Runner 017 | DOC-31 | research | 45 lines | 0 commits | OK
-   ```
-4. If subtask > 30 seconds: log warning, consider subdivision
-5. If git dirty > 5 min: auto-commit with message "CSMMinesMagnets: heartbeat checkpoint"
-
-### On Session Start:
-- Initialize heartbeat state
-- Start background monitor: `python3 scripts/heartbeat_monitor.py --interval 120 &`
-- Log session start to memory/YYYY-MM-DD.md
-
-### On Session End:
-- Stop heartbeat monitor
-- Final commit and push
-- Update heartbeat state to "paused"
-- Log session end to memory log
 
 ---
 
@@ -94,30 +69,11 @@
 
 ---
 
-## Emergency Procedures
-
-### If Heartbeat Missed > 5 Minutes:
-1. Check background process: `ps aux | grep heartbeat_monitor`
-2. Restart: `python3 scripts/heartbeat_monitor.py --interval 120 &`
-3. Log incident in memory log
-
-### If Subtask Stuck > 60 Seconds:
-1. Break into smaller subtasks
-2. Update TODO.md with subdivision
-3. Continue with next micro-task
-
-### If Git Push Fails:
-1. Retry with `git pull --rebase && git push`
-2. If conflict: stash, pull, apply, commit, push
-3. Log resolution in memory
-
----
-
 ## Monitoring Commands
 
 ```bash
 # Manual heartbeat check
-cat HEARTBEAT_MAGNETS.md
+./scripts/resume_runner.sh --status
 
 # View heartbeat log
 tail -f Logs/heartbeat.log
@@ -131,5 +87,5 @@ ps aux | grep heartbeat_monitor
 
 ---
 
-*Heartbeat is the pulse of the forge. Keep it steady.*
-*Last Updated: 2026-11-02 | Next Review: Each session start*
+*Heartbeat is the pulse of the intelligence forge. Keep it steady.*
+*Last Updated: 2026-11-02 | Runner 017g Starting*

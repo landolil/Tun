@@ -1,0 +1,1 @@
+# Expected output: ALL similarity scores <0.15 (15% threshold)
