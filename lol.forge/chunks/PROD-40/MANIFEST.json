@@ -1,0 +1,58 @@
+{
+  "chapter_01_intro.md": {
+    "size": 41,
+    "sha256": "ffd87143046793545c16f94cc5d23432c14c11332f7946762677904e172234ca"
+  },
+  "chapter_02_williams_|_keymaker_|_el_segun.md": {
+    "size": 9794,
+    "sha256": "ef91244de6861a6cc7a29f79872386c30870281fea8883b52698947be8086dae"
+  },
+  "chapter_03_future_evolution__roadmap__gen.md": {
+    "size": 634,
+    "sha256": "cad477e1486366bb42528c05d4ea6077281e80c8365a261dde0c25c1939c5b19"
+  },
+  "chapter_04_1_roadmap_architecture__the_fo.md": {
+    "size": 2125,
+    "sha256": "5dd9f986b8bf9ca3470d80f7a9277657a4e34e2af1eac05b9201614687edc3fa"
+  },
+  "chapter_05_2_horizon_1_gen-ii_evolution_2.md": {
+    "size": 11510,
+    "sha256": "0d28fb190a13b8000ac1019337ee5b213bcd4cfd6b181be99d4e6bf9095acff9"
+  },
+  "chapter_06_3_horizon_2_extraterrestrial_a.md": {
+    "size": 8235,
+    "sha256": "353ced3aaea3a74098340fda0091af3e18d56a5c2c4df77400f39842edf9885f"
+  },
+  "chapter_07_4_horizon_3_planetary_remediat.md": {
+    "size": 8759,
+    "sha256": "d13e17578f7975fe4aa1f2dd4038b61aed442ed739b0b16da9b39597258af071"
+  },
+  "chapter_08_5_horizon_4_ecosystem_maturity.md": {
+    "size": 8971,
+    "sha256": "9ddae984d85816b50a2f9eb4f5bc44af05097624cfff9837fde5983d76ab7bb9"
+  },
+  "chapter_09_6_cross-horizon_integration_ma.md": {
+    "size": 818,
+    "sha256": "da242806a29a4d6629213a460e0e4d88e75dc51752b0f35c745345cf40bfdf71"
+  },
+  "chapter_10_7_risk__mitigation__roadmap_le.md": {
+    "size": 1103,
+    "sha256": "91e43050f545a509df877992bd0c69304f944edbe6d0f381e01261984e6467ee"
+  },
+  "chapter_11_8_investment_roadmap__capital_.md": {
+    "size": 1042,
+    "sha256": "f7697bf65ae018659aa4e7788456415f58a4d088b456c2e5e4efd427df3da767"
+  },
+  "chapter_12_9_success_metrics__2050_vision.md": {
+    "size": 818,
+    "sha256": "7c7f1fe430cc814ef9d12bc9df6c1ce29a5ccf699df6fa7d265ac3fbc9553519"
+  },
+  "chapter_13_10_appendices.md": {
+    "size": 3284,
+    "sha256": "cc7afe95f9e2d8ee9044da10acb39946d0d25e484c3bc86e929d19ab2e75b747"
+  },
+  "chapter_14_11_document_control.md": {
+    "size": 633,
+    "sha256": "a84b1c8e19468d508a460985861ff7bf25ed035e30662a2504bcb8c102287540"
+  }
+}
