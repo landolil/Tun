@@ -12,14 +12,14 @@
 
 ```json
 {
-  "last_heartbeat": "2026-11-02T09:12:30Z",
+  "last_heartbeat": "2026-11-02T09:16:00Z",
   "current_runner": "017",
-  "current_document": "DOC-29",
+  "current_document": "DOC-30",
   "subtask": "research",
-  "subtask_start": "2026-11-02T09:12:30Z",
-  "documents_completed": 28,
-  "total_lines_written": 45000,
-  "git_commits_this_session": 3,
+  "subtask_start": "2026-11-02T09:16:00Z",
+  "documents_completed": 29,
+  "total_lines_written": 48000,
+  "git_commits_this_session": 4,
   "status": "active"
 }
 ```
@@ -62,7 +62,7 @@
 2. Run current cycle checks (rotate 1→2→3→4→1...)
 3. Print status line to terminal:
    ```
-   [HEARTBEAT] Runner 017 | DOC-29 | research | 45 lines | 0 commits | OK
+   [HEARTBEAT] Runner 017 | DOC-30 | research | 45 lines | 0 commits | OK
    ```
 4. If subtask > 30 seconds: log warning, consider subdivision
 5. If git dirty > 5 min: auto-commit with message "CSMMinesMagnets: heartbeat checkpoint"

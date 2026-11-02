@@ -499,20 +499,20 @@
   - [x] 5.1.3.14 Log completion + git commit + tag runner-017c-complete
 
   #### 5.1.4 DOC-29: Mapuche-Lafkenche/Pewenche/Wenteche/Nagche (Sur) (15 tasks)
-  - [ ] 5.1.4.1 Research 4 Mapuche sub-groups: coastal, riverine, Andean, lowland, 20+ communities
-  - [ ] 5.1.4.2 Map historical impacts: Biobío coal/metal, Arauco pulp, REE clays, Native Forest Law
-  - [ ] 5.1.4.3 Document consent architecture: multi-subgroup, Lafkenche maritime, Pewenche Andes, consent complexity
-  - [ ] 5.1.4.4 Design FBC/CDC trust: coastal (Lafkenche), forest (Nagche), river (Wenteche), Andes (Pewenche)
-  - [ ] 5.1.4.5 Size Aegis-Forge integration: Alpha-12/13/14, Bravo-6/7 (coastal/urban)
-  - [ ] 5.1.4.6 Native forest & coastal protocol: Law 20.283, marine spatial planning, restoration, blue carbon
-  - [ ] 5.1.4.7 Economic diversification: sustainable forestry, aquaculture, REE recycling, eco-tourism
-  - [ ] 5.1.4.8 Regulatory navigation: 4-region SEREMI/GORE, CONADI, DGA, DIRECTEMAR, CRMA
-  - [ ] 5.1.4.9 Draft DOC-29 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
-  - [ ] 5.1.4.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
-  - [ ] 5.1.4.11 Split into logical chunks → chunks/DOC-29/
-  - [ ] 5.1.4.12 Generate manifest & verify integrity
-  - [ ] 5.1.4.13 Compress FinishedWork original (.gz)
-  - [ ] 5.1.4.14 Log completion + git commit + tag runner-017d-complete
+  - [x] 5.1.4.1 Research 4 Mapuche sub-groups: coastal, riverine, Andean, lowland, 20+ communities
+  - [x] 5.1.4.2 Map historical impacts: Biobío coal/metal, Arauco pulp, REE clays, Native Forest Law
+  - [x] 5.1.4.3 Document consent architecture: multi-subgroup, Lafkenche maritime, Pewenche Andes, consent complexity
+  - [x] 5.1.4.4 Design FBC/CDC trust: coastal (Lafkenche), forest (Nagche), river (Wenteche), Andes (Pewenche)
+  - [x] 5.1.4.5 Size Aegis-Forge integration: Alpha-12/13/14, Bravo-6/7 (coastal/urban)
+  - [x] 5.1.4.6 Native forest - [ ] 5.1.4.6 Native forest & coastal protocol coastal protocol: Law 20.283, marine spatial planning, restoration, blue carbon
+  - [x] 5.1.4.7 Economic diversification: sustainable forestry, aquaculture, REE recycling, eco-tourism
+  - [x] 5.1.4.8 Regulatory navigation: 4-region SEREMI/GORE, CONADI, DGA, DIRECTEMAR, CRMA
+  - [x] 5.1.4.9 Draft DOC-29 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+  - [x] 5.1.4.10 Generate 5 heuristic intros (El Segundo PRIMARY, Williams, Baker Street, Keymaker, SHIELD)
+  - [x] 5.1.4.11 Split into logical chunks → chunks/DOC-29/
+  - [x] 5.1.4.12 Generate manifest - [ ] 5.1.4.12 Generate manifest & verify verify integrity
+  - [x] 5.1.4.13 Compress FinishedWork original (.gz)
+  - [x] 5.1.4.14 Log completion + git commit + tag runner-017d-complete
 
   #### 5.1.5 DOC-30: Kawéskar/Yagán (Austral Fjords) (15 tasks)
   - [ ] 5.1.5.1 Research Kawéskar/Yagán maritime nomads, canoe culture, archipelago, 5+1 communities
@@ -637,8 +637,8 @@
 1. [ ] Begin DOC-26: Atacameño Territory (Norte Grande) — Chapter 1 Subtask 1.1
 2. [ ] Begin DOC-27: Diaguita Valleys (Norte Chico) — Chapter 1 Subtask 1.1
 3. [x] Begin DOC-28: Mapuche-Pehuenche (Zona Central Andes) — Chapter 1 Subtask 1.1
-4. [ ] Begin DOC-29: Mapuche-Lafkenche/Pewenche (Sur) — Chapter 1 Subtask 1.1
-5. [ ] Begin DOC-30: Kawéskar/Yagán (Austral Fjords) — Chapter 1 Subtask 1.1
+4. [x] Begin DOC-29: Mapuche-Lafkenche/Pewenche (Sur) — Chapter 1 Subtask 1.1
+5. [x] Begin DOC-30: Kawéskar/Yagán (Austral Fjords) — Chapter 1 Subtask 1.1
 6. [ ] Begin DOC-31: Calama Mining Community — Chapter 1 Subtask 1.1
 7. [ ] Begin DOC-32: Antofagasta Port City — Chapter 1 Subtask 1.1
 8. [ ] Begin DOC-33: Copiapó/Vallenar Hub — Chapter 1 Subtask 1.1
