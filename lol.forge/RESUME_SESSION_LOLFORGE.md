@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-03 (Runner 014 complete: PROD-28, 29, 30, 31, 32)
-**Current Phase**: Phase 3 Completion — Product Documents 33-34 (Supply Chain, Training)
-**Next Runner**: 015
+**Last Session**: 2026-11-03 (Runner 015 complete: PROD-28 through PROD-33)
+**Current Phase**: Phase 3 Completion — Product Documents 34-36 (Training, Human Factors, Cyber-Physical Security)
+**Next Runner**: 016
 
 ---
 
@@ -50,18 +50,20 @@ git status
 - [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
 - [x] PROD-27: Manufacturing Process Plan (1241 lines + 200 intro)
 
-### Completed (Phase 3 — PROD 28-32):
+### Completed (Phase 3 — PROD 28-33):
 - [x] PROD-28: Quality Assurance & Testing (939 lines + 200 intro)
 - [x] PROD-29: Deployment & Operations (735 lines + 200 intro)
 - [x] PROD-30: Maintenance & Sustainment (1138 lines + 200 intro)
 - [x] PROD-31: Economic Analysis & Viability (1013 lines + 200 intro)
 - [x] PROD-32: Regulatory & Compliance (1008 lines + 200 intro)
-- [x] Phase 3: 12/10 complete (PROD-28 through PROD-32)
+- [x] PROD-33: Supply Chain & Logistics (833 lines + 200 intro)
+- [x] Phase 3: 13/10 complete (PROD-28 through PROD-33)
 
 ### In Progress:
-- [ ] PROD-33: Supply Chain & Logistics (900 lines + 200 intro)
 - [ ] PROD-34: Training & Certification (900 lines + 200 intro)
-- [ ] NEXT_runner_015.md created (next session)
+- [ ] PROD-35: Human Factors & Ergonomics (900 lines + 200 intro)
+- [ ] PROD-36: Cyber-Physical Security (900 lines + 200 intro)
+- [ ] NEXT_runner_016.md created (next session)
 
 ### Source Materials Cataloged:
 1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
@@ -82,24 +84,24 @@ git status
 
 ---
 
-## Next Immediate Actions (Runner 015)
+## Next Immediate Actions (Runner 016)
 
-### Document Batch: PROD-33, PROD-34, PROD-35
-
-**PROD-33: Supply Chain & Logistics**
-- Source: PROD-12, 22, 27, 28, 29, 30 + FOLLOW-31, 38, 39
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: Material sourcing (ZrB₂, SiC, basalt, In, REE), transport, storage, AVL management
+### Document Batch: PROD-34, PROD-35, PROD-36
 
 **PROD-34: Training & Certification**
-- Source: PROD-23, 28, 29, 30, 31 + FOLLOW-34, 35
+- Source: PROD-23, 28, 29, 30, 31, 33 + FOLLOW-34, 35
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: Operator curriculum, competency matrix, certification pathways, simulator training
 
 **PROD-35: Human Factors & Ergonomics**
-- Source: PROD-23, 28, 29, 30, 34 + FOLLOW-35
+- Source: PROD-23, 28, 29, 30, 33, 34 + FOLLOW-35
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: Interface design, safety zones, control room layout, maintenance access
+
+**PROD-36: Cyber-Physical Security**
+- Source: PROD-10, 23, 26, 33, 37 + IEC 62443, NERC CIP
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: Network architecture, air-gap enforcement, TSN security, supply chain cyber risk
 
 ---
 
@@ -237,4 +239,4 @@ All work is persisted in GitHub. The ephemeral workspace is just a compute envir
 ---
 
 *This file is updated at the end of every session.*
-*Last Updated: 2026-11-02 | Session: Runner 012 complete (PROD-27) | Next: Runner 013 (PROD-28, 29, 30)*
+*Last Updated: 2026-11-03 | Session: Runner 015 complete (PROD-28 through PROD-33) | Next: Runner 016 (PROD-34, 35, 36)*
