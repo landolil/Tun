@@ -1,0 +1,42 @@
+{
+  "chapter_01_intro.md": {
+    "size": 400,
+    "sha256": "48f44953376c3a8d4ea6ba873b26ff862a321ffced2cfcde63907e9810886c4a"
+  },
+  "chapter_02_chapter_1_smco_tb_market_funda.md": {
+    "size": 9364,
+    "sha256": "0244909e32aa064206a1669f8a3656b46a1026e706d3c90b6297c0733d90089f"
+  },
+  "chapter_03_chapter_2_chilean_sm_co_tb_occ.md": {
+    "size": 4103,
+    "sha256": "322a36c6c0ed56ef2d197183b895e27ff5249e3a65c635f3d4aef24e5e05f4f4"
+  },
+  "chapter_04_chapter_3_aegis-forge_sm_co_tb.md": {
+    "size": 5840,
+    "sha256": "75ab9983d7ace26c023610aac11c13779ec7cd163d45aa8172e0d1d084291a45"
+  },
+  "chapter_05_chapter_4_smco_manufacturing_s.md": {
+    "size": 4509,
+    "sha256": "197eb039c2e2f007362d8d7c2a4c85f0fdd06ecb3f74b0fd91f4398bac7ff847"
+  },
+  "chapter_06_chapter_5_tb-doping_technology.md": {
+    "size": 4180,
+    "sha256": "7dfb18c16ffcc1c0fc2208376595b55cb185c21c0c445f9f6a4a311cc5f781a6"
+  },
+  "chapter_07_chapter_6_defense_qualificatio.md": {
+    "size": 4783,
+    "sha256": "80766a94a229d3760d195545b476991519db4ac7d7754759e401248d7609130c"
+  },
+  "chapter_08_chapter_7_economic_model__smco.md": {
+    "size": 3502,
+    "sha256": "b7ab1bc5483713d10b40d1bc83efe6e1753aab2b01ef73438fec369ee49e1b5d"
+  },
+  "chapter_09_chapter_8_regulatory_esg__drc_.md": {
+    "size": 2729,
+    "sha256": "146653450f1869efa677314843e075ddc9b42897b7091e4e7beb96526b0d61d7"
+  },
+  "chapter_10_chapter_9_traceability_matrix_.md": {
+    "size": 9411,
+    "sha256": "8a080c4e71ed35669cfe7e5a1cde2130cacf8ff08b1aa8262af880b51c44f634"
+  }
+}
