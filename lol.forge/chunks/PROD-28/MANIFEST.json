@@ -1,0 +1,86 @@
+{
+  "chapter_01_intro.md": {
+    "size": 66,
+    "sha256": "cfff0818afd8cfd15b9cefb5dc1f97cb3f03af3c5a994cd0c0961f9695ef71ef"
+  },
+  "chapter_02_williams_+_keymaker_+_el_segun.md": {
+    "size": 13676,
+    "sha256": "1601112718c26b95f4353876fbe2d017d6abb7c3d23b7c8eb5cc9f3d5ac3c562"
+  },
+  "chapter_03_williams_+_keymaker_+_el_segun.md": {
+    "size": 13648,
+    "sha256": "b9511bf9b29f4812782e41291310a86a30cf01c1ae294847f91e058d586c3f52"
+  },
+  "chapter_04_csmfab000000000128__aegis-forg.md": {
+    "size": 514,
+    "sha256": "de3f7b91690bd9218a6732468065cab3c6f24a8e29cc552a2fdd741ff18a99e2"
+  },
+  "chapter_05_1_qa_program_overview.md": {
+    "size": 2813,
+    "sha256": "73b93b3776118f2cd324df8d13e8dc70fab394bd4b14367a5312d1a42d320c18"
+  },
+  "chapter_06_2_acceptance_criteria__compone.md": {
+    "size": 5332,
+    "sha256": "7b24745f05845af22965279a923cac944dc74a8e6bae3828120ef25251ed882d"
+  },
+  "chapter_07_3_acceptance_criteria__subasse.md": {
+    "size": 1596,
+    "sha256": "52c6709802a673bcd94053774bab571a64351c9de736e0ccf20751eccd253c3e"
+  },
+  "chapter_08_4_acceptance_criteria__system_.md": {
+    "size": 2045,
+    "sha256": "c945a2f97d5ca610b5228183e9d69a5458591ff9fac40fbb581e4b7080055c10"
+  },
+  "chapter_09_5_ndt_program.md": {
+    "size": 2626,
+    "sha256": "98fe19d701bb16bc42fc8f1538c592288e21d244db4c7f3884edaa1605a997cb"
+  },
+  "chapter_10_6_process_validation.md": {
+    "size": 1432,
+    "sha256": "780686cfd8a56c98242b4a53979baced566b9dc9afdfe51d72b690e00bea27f2"
+  },
+  "chapter_11_7_supplier_quality_management.md": {
+    "size": 2258,
+    "sha256": "430439faf5b41357fb82e4ec4a7c87be344d5c2c1e21dc00a12f093771da71b5"
+  },
+  "chapter_12_8_non-conformance__capa.md": {
+    "size": 1839,
+    "sha256": "bddac561c091e50cd359165e59d3fb2a7af03521ae2340226e1f66f458a5a4bd"
+  },
+  "chapter_13_9_documentation__traceability.md": {
+    "size": 1672,
+    "sha256": "c33022d55772577861a9b8ccf91dc97d41a2162665f144b3260692ebae34cfd0"
+  },
+  "chapter_14_10_audit_schedule.md": {
+    "size": 921,
+    "sha256": "eaa9cb44f51ddf9922b527fc9aec1ae310731927df80a3cfd3d52c1d4fe36fa5"
+  },
+  "chapter_15_11_continuous_improvement.md": {
+    "size": 1651,
+    "sha256": "15da38132419384354405d49534497c967e08c6adbd6b91a1a35a65c3835293a"
+  },
+  "chapter_16_12_commissioning__sat.md": {
+    "size": 1406,
+    "sha256": "0bcb4f21be8fe1abc8e0381343c91baa38eb6b722cb6005be9fe3e77bf7b7979"
+  },
+  "chapter_17_13_cross-reference_matrix.md": {
+    "size": 2529,
+    "sha256": "da6ca281439fd17c1be9eeb708bf307fe1b7e725d9c8798dd9b364ff618e54b8"
+  },
+  "chapter_18_appendix_a_acceptance_criteria.md": {
+    "size": 2579,
+    "sha256": "c8bac0530aab5620d2218e07aa5445e072be9b2a78765cd487d76480bf35e0f0"
+  },
+  "chapter_19_appendix_b_ndt_procedure_index.md": {
+    "size": 2549,
+    "sha256": "4ddac15d903f7c7f67d1af0bb077129e2da194c78ada7f6c2ebcdd520fcf368d"
+  },
+  "chapter_20_appendix_c_ncr_capa_form_templ.md": {
+    "size": 3547,
+    "sha256": "f9302897e4ed4c77d72343065332f9c3de38a92420e87c1d6dcb762f26b1cb55"
+  },
+  "chapter_21_appendix_d_audit_checklists_is.md": {
+    "size": 2831,
+    "sha256": "ee25a8ca16bde19f7bf1ca234b19db73005ce5216823893c3de6f76fea56d957"
+  }
+}
