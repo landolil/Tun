@@ -1,0 +1,70 @@
+{
+  "chapter_01_1_phoenix_protocol_overview.md": {
+    "size": 4075,
+    "sha256": "79da81bc2bcb07d4bcd1edaf565a5b1d2a6e5b944196b6637599a5f257ff6696"
+  },
+  "chapter_02_2_return_logistics_network.md": {
+    "size": 3231,
+    "sha256": "2c2b557e06251559a9f59f8730d210e7639c9d64953ee9868cd8aa67ed1f9715"
+  },
+  "chapter_03_3_eol_product_categorization.md": {
+    "size": 2791,
+    "sha256": "57d24a4a9ee0efb53486a1c78ee949f9b38936e935bc17af79677e390c7ac025"
+  },
+  "chapter_04_4_preprocessing_at_depot.md": {
+    "size": 2786,
+    "sha256": "b6cafcb3c9c473746e7c3a7cc9d2ae2fc3eb4a9423be68d9331adbc69aea43e6"
+  },
+  "chapter_05_5_re-entry_point_mapping.md": {
+    "size": 3284,
+    "sha256": "0a2222960d45108fa53e44f8ad13bd50be7110d4de8aede2238eb5eea9f9df08"
+  },
+  "chapter_06_6_material_accounting__mass_ba.md": {
+    "size": 2262,
+    "sha256": "86260530da76b3b5dfde7acc10be68d31e0cb508f114ab3a6d2179bd9dc4023c"
+  },
+  "chapter_07_7_drum_material_circularity.md": {
+    "size": 5869,
+    "sha256": "f2f5562cef3245b2f2e79729d163cc194ee96dd77cb35626cc05023198aa5311"
+  },
+  "chapter_08_8_emi_shielding_circularity_ti.md": {
+    "size": 1705,
+    "sha256": "c0a1d304395369aed2d7c6d93c74b1f0ddfabed4eb1213fb93b7677e1c7514ba"
+  },
+  "chapter_09_9_product_refurbishment_paths.md": {
+    "size": 2094,
+    "sha256": "140452e2ee42fb585074fa64b14379b447d428c3b1b3e6c9298843f853b18044"
+  },
+  "chapter_10_10_data__digital_twin_integrat.md": {
+    "size": 2385,
+    "sha256": "444a14fa757448a5cef05e72d7d26b3dd95c490c5e90cdfa8f431448695d16af"
+  },
+  "chapter_11_11_economic_model.md": {
+    "size": 3898,
+    "sha256": "e71c98f77f15e3bbeac27cda7ec3d0ec9144a0f7c579658c1dbc94f0d9fab7ef"
+  },
+  "chapter_12_12_safety__compliance.md": {
+    "size": 1482,
+    "sha256": "08dbaf983c60ba32524f6148c49ee81b6bf961125bb2ec27cea0fc230c34da88"
+  },
+  "chapter_13_13_cross-reference_matrix.md": {
+    "size": 2264,
+    "sha256": "c70c508a8d4350e27428085c1f32f3e60f18801bbdbe8351a6f6e0b75c94a060"
+  },
+  "chapter_14_appendix_a_phoenix_protocol_qu.md": {
+    "size": 1653,
+    "sha256": "67239dd1c0a367bc10ed6547b5c68021cabc93fed7bad2b8c5dcbe4043aaf236"
+  },
+  "chapter_15_appendix_b_re-entry_specificat.md": {
+    "size": 1945,
+    "sha256": "2a0ea6670b3a8ceb6952fd24d0f8d4361de602b8e8bdf9e6c80f55aaece0af98"
+  },
+  "chapter_16_appendix_c_phoenix_protocol_ec.md": {
+    "size": 792,
+    "sha256": "c6cf913aae3af39ca0f88b7442fda6add51ca65acc33afdc875a364c19d26c35"
+  },
+  "chapter_17_appendix_d_protocol_version_hi.md": {
+    "size": 512,
+    "sha256": "3ab26147f998818e8cdad8c1261996edc653c255608123c622e77f7949cb2d58"
+  }
+}
