@@ -1,0 +1,42 @@
+{
+  "chapter_01_intro.md": {
+    "size": 418,
+    "sha256": "4bfed2080a0f9f6b06986f26a6fc32f7dd24de29e0d7cf7d5b6186284bc3c13e"
+  },
+  "chapter_02_chapter_1_ce_la_pr_market_fund.md": {
+    "size": 17328,
+    "sha256": "2f65dfc337061f07bdddecd2abdd3258af295b7065e588eb7a06c4cdd266fb8f"
+  },
+  "chapter_03_chapter_2_chilean_ce_la_pr_occ.md": {
+    "size": 6886,
+    "sha256": "db35aab7a247b7f855322cb54fc95406f21e872ef7d21b223927380efbafeb0e"
+  },
+  "chapter_04_chapter_3_aegis-forge_ce_la_pr.md": {
+    "size": 7087,
+    "sha256": "f0d9885c6a96e7390488256b0da1e23e6bff6654ba273575f02ec956cf91ba8b"
+  },
+  "chapter_05_chapter_4_catalyst_supply_chai.md": {
+    "size": 5132,
+    "sha256": "55dc433676a2a46eb88f2804c316574203e72b72210b2af442dee7a6b85b3f21"
+  },
+  "chapter_06_chapter_5_polishing_alloy_batt.md": {
+    "size": 5017,
+    "sha256": "8e2850b92a5f3584702cdc98e5ba29cce8c8807eb1750cb8e45675a8b523f627"
+  },
+  "chapter_07_chapter_6_regulatory_environme.md": {
+    "size": 4289,
+    "sha256": "23115909fb1529055372c90040fc9ff1a529d694c783a4fd08ced9d5f9dbd8fa"
+  },
+  "chapter_08_chapter_7_economic_model__ce_l.md": {
+    "size": 5127,
+    "sha256": "d64a3b8ff1ac5941b8e46f8e460b4a33eb56533c6796fc66ea036ebe1ad653b2"
+  },
+  "chapter_09_chapter_8_strategic_positionin.md": {
+    "size": 3479,
+    "sha256": "f0c6180f105fe5b3cd413555c9b0edc5dc2b03b40cd3a1125839aaf230841828"
+  },
+  "chapter_10_chapter_9_traceability_matrix_.md": {
+    "size": 10101,
+    "sha256": "1d86a59e5fb35d8a7c33964a4f0dab6096e5a480188e51269eeb8715045b7527"
+  }
+}
