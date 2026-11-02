@@ -1,0 +1,330 @@
+{
+  "chapter_01_intro.md": {
+    "size": 553,
+    "sha256": "d94847a4d7fefe765ee7a7a413a118a3b2aea2e0479728238ddf1864185d836e"
+  },
+  "chapter_02_chapter_1_diaguita_origin__val.md": {
+    "size": 7509,
+    "sha256": "7cf116aa7df0ced807f09bdd08a2f73884d4a067fe50b2715acc8454cfe97ca4"
+  },
+  "chapter_03_chapter_2_mining_impacts__domi.md": {
+    "size": 5673,
+    "sha256": "838ebfa0fe248bc221d04c38390d3720e32e4d8c64ead2fc0c0970cc2da91513"
+  },
+  "chapter_04_chapter_3_consent_architecture.md": {
+    "size": 4431,
+    "sha256": "49d26afbc0344af995e668308582682607263fdbdd7a78ca2740f4285f5e18d8"
+  },
+  "chapter_05_chapter_4_fbc_cdc_trust_design.md": {
+    "size": 4072,
+    "sha256": "e981e122ba65e8e8682b73648deff90f19fdc3183fa802d69c7af3e88ad2ce00"
+  },
+  "chapter_06_chapter_5_aegis-forge_cluster_.md": {
+    "size": 3829,
+    "sha256": "35a358d89522843881143a122701843d63e67bc975ff054bdcd90ba788d2563d"
+  },
+  "chapter_07_chapter_6_water_sharing_agreem.md": {
+    "size": 2844,
+    "sha256": "19f42228c8f957a9b5d6d827196a57b8b9a1908879636aa34c3993b62cde948d"
+  },
+  "chapter_08_chapter_7_economic_diversifica.md": {
+    "size": 3253,
+    "sha256": "035a49efc997d96d003f5dd378ad610c7b82a052f6d075614a0d996ef4294b30"
+  },
+  "chapter_09_chapter_8_regulatory_navigatio.md": {
+    "size": 2701,
+    "sha256": "95535a34a1816cdd21c8eac9a241f057139b599399214ca6d246092f0751d71b"
+  },
+  "chapter_10_chapter_9_traceability_matrix.md": {
+    "size": 9179,
+    "sha256": "d8ec85df9e69d1c8931f2678e201659ea0b141a8d8e3c0e858584a66d007b75d"
+  },
+  "chapter_11_chapter_2_mining_impacts__domi.md": {
+    "size": 8039,
+    "sha256": "81a00e193d8d3f636d2c1040dcb43ad62986bf43396e9e93d6ed7e136c55ce33"
+  },
+  "chapter_12_chapter_3_consent_architecture.md": {
+    "size": 4983,
+    "sha256": "734c2f2dd8d9bf94af8a0fbabbdcde861d8b40df26547797247001fe29f81f12"
+  },
+  "chapter_13_chapter_4_fbc_cdc_trust_design.md": {
+    "size": 3255,
+    "sha256": "bd8947c6a4248f70a266ccbc8aa4921d0ec26ea560891036d1a9c137d26d34f7"
+  },
+  "chapter_14_chapter_5_aegis-forge_cluster_.md": {
+    "size": 4593,
+    "sha256": "3e675a5729f5effcebf62cc489000c9fc261d18c98748e8408816edaf64b6bfb"
+  },
+  "chapter_15_chapter_6_water_sharing_agreem.md": {
+    "size": 3994,
+    "sha256": "dbd701ddd002e2172b30b6995e461deaf4a4b62985fd279c602b889e0108ff49"
+  },
+  "chapter_16_chapter_7_economic_diversifica.md": {
+    "size": 2629,
+    "sha256": "9c351e01ba451dcf192d363ff0199e24011699f83f054de818838b2132bb06ed"
+  },
+  "chapter_17_chapter_8_regulatory_navigatio.md": {
+    "size": 2340,
+    "sha256": "9f828a788e983f7c8a6ac5207bacc32709de4e5d8701ceb1f316c2645443b4cb"
+  },
+  "chapter_18_chapter_9_traceability_matrix_.md": {
+    "size": 5204,
+    "sha256": "0f6eba6fbfc06beec8c525ddbbc712f995d6af78694d3dc635f95829c74b85e7"
+  },
+  "chapter_19_appendix_a_diaguita_valley_hyd.md": {
+    "size": 2456,
+    "sha256": "678d7e500dec0f6efb98f70979c05aeeb01278d256300e9f8938f566c6a6a29e"
+  },
+  "chapter_20_appendix_b_diaguita_community_.md": {
+    "size": 2599,
+    "sha256": "91b92dab4f5227a0c6d961fd3d658632d36ddc20e108a5b740168387d23f3521"
+  },
+  "chapter_21_appendix_c_aegis-forge_alpha_b.md": {
+    "size": 2433,
+    "sha256": "18f28a77a1f92aa254bfe3d286c65994b3192a95391cbf28bf8005383b2b9398"
+  },
+  "chapter_22_appendix_d_diaguita_consent_pr.md": {
+    "size": 2474,
+    "sha256": "25bed08f589412cdbc166d1b0466ad5cf36742969f65ce0dd6ea43b12fc82cba"
+  },
+  "chapter_23_appendix_e_legal_precedent_com.md": {
+    "size": 2025,
+    "sha256": "970fbed603ab0e859e422c16fbe19f25831bf34b00d7097577f6d5a738d72b33"
+  },
+  "chapter_24_appendix_f_economic_model_sens.md": {
+    "size": 1711,
+    "sha256": "e20f74da5f4ee24096ea70a44e6f7345723e3c0b3b58e1c90f173151140b5223"
+  },
+  "chapter_25_appendix_g_cross-reference_ind.md": {
+    "size": 4054,
+    "sha256": "72fea7f0c5673347c5753fa45c8fb0bd8b48084c5c8db900c7c0973e0ab3cdde"
+  },
+  "chapter_26_appendix_h_heuristic_compositi.md": {
+    "size": 4808,
+    "sha256": "6a150724bb24587b5419fae40b7ccd97b6802c7000720bbccd7cd5017572a91f"
+  },
+  "chapter_27_appendix_i_detailed_chapter_ex.md": {
+    "size": 4855,
+    "sha256": "e2d20da7c54605ee8fd5ce1584fd16be73132b99ecb6282e01211cff297e714a"
+  },
+  "chapter_28_appendix_j_chapter_2_deep_dive.md": {
+    "size": 4269,
+    "sha256": "794e8e50192918c5624e04012f0360419638fd44030211460a3a7b13c4bbe8b6"
+  },
+  "chapter_29_appendix_k_chapter_3_deep_dive.md": {
+    "size": 3474,
+    "sha256": "78c07eac839cd819c2a9e84e9b9e6a2fdc61f16d7c9020f2b34152c17dcd7a71"
+  },
+  "chapter_30_appendix_l_chapter_4_deep_dive.md": {
+    "size": 3660,
+    "sha256": "0a7f42387dbf868d1112a1632362a0465f517aa0731c4d749d1812bf1cd2e980"
+  },
+  "chapter_31_appendix_m_chapter_5_deep_dive.md": {
+    "size": 4000,
+    "sha256": "d130b9d72e4a1739f35b323f895b7ee4a4231bfa25e0f4ccc04aba71524b63d6"
+  },
+  "chapter_32_appendix_n_chapter_6_deep_dive.md": {
+    "size": 3812,
+    "sha256": "9a78708d2c034b730001ae2d7dfd18ea7cc45030be8976649a39e849c37e81b4"
+  },
+  "chapter_33_appendix_o_chapter_7_deep_dive.md": {
+    "size": 4754,
+    "sha256": "8031c8773917e48ab22475e8f4cd38118e375ddb79ee2dfae827698d152a8e02"
+  },
+  "chapter_34_appendix_p_chapter_8_deep_dive.md": {
+    "size": 2601,
+    "sha256": "cde12a6602db0df26f065e999a74dc239b743e2062332893efb90c06db2becc6"
+  },
+  "chapter_35_appendix_q_chapter_9_deep_dive.md": {
+    "size": 5277,
+    "sha256": "55f4b8cc1f542c0b0356d643bcb1332bf0396d52e68da16867cb7d4f52d75f03"
+  },
+  "chapter_36_appendix_r_expanded_chapter_co.md": {
+    "size": 13818,
+    "sha256": "982139fcf5ec9a93df28c9d78e62d592ce5ae2b2b8dce48f2585fa4526d89e62"
+  },
+  "chapter_37_appendix_s_quantitative_models.md": {
+    "size": 4646,
+    "sha256": "0d2787a8b665455078289671f7f93b94fa3ff193cafa5ba67e8cfbd4990554c7"
+  },
+  "chapter_38_appendix_t_risk_register__diag.md": {
+    "size": 2019,
+    "sha256": "1b1d2c306180b30332dda69f1a592dd9cbd2b078c2c963aa5be404c8aa56ac2b"
+  },
+  "chapter_39_appendix_u_stakeholder_map__di.md": {
+    "size": 2925,
+    "sha256": "82cc2d9fd3a52602d159a9720d969ac12fba17d5a40fe24234e30bcae4e882e3"
+  },
+  "chapter_40_appendix_v_implementation_time.md": {
+    "size": 2486,
+    "sha256": "397d3b58d260426f08441a0c5e057db3ecbae1022058ad5f838ceff174a0541c"
+  },
+  "chapter_41_appendix_w_additional_technica.md": {
+    "size": 6878,
+    "sha256": "4eae46ec30c64152a759c4ae1c8e8b0a68dcc514efca5837ce01dbd56799c1e1"
+  },
+  "chapter_42_appendix_x_legal_compliance__f.md": {
+    "size": 4058,
+    "sha256": "f8e7413c4be763309259092c80851d275d6144a267ef3b059f844afe47670e0a"
+  },
+  "chapter_43_appendix_y_heuristic_integrati.md": {
+    "size": 8248,
+    "sha256": "9699e673c1854a8fdd852dc28af083b3b069afc339e4dbe9fc501df89f92d28e"
+  },
+  "chapter_44_appendix_z_final_quality_gate_.md": {
+    "size": 2836,
+    "sha256": "d9a15bbb00c9eef14c52e47d61679103ac2422ba5b78ecc7a3cbce44d250890e"
+  },
+  "chapter_45_appendix_aa_additional_chapter.md": {
+    "size": 4217,
+    "sha256": "88872045270a27b511d9257d3c48a67c03ec0ed833e71215ecb9f0d73446a463"
+  },
+  "chapter_46_appendix_bb_social_license__lo.md": {
+    "size": 2852,
+    "sha256": "f083c29d6093adedf57955f3770b6e5f6ee5a9d33e789fac07e14b647e9b3511"
+  },
+  "chapter_47_appendix_cc_technology_transfe.md": {
+    "size": 3131,
+    "sha256": "14a7e5352dca8691afa0b0be74055812fd7c496c68a4347e6ac22041ab3bccf9"
+  },
+  "chapter_48_appendix_dd_financial_engineer.md": {
+    "size": 2001,
+    "sha256": "8337bade8d2342bea3c153333dd725674493fd0a281b2e9845f6bf11a7e36e29"
+  },
+  "chapter_49_appendix_ee_monitoring_reporti.md": {
+    "size": 2661,
+    "sha256": "c64d01751d7b1205d0a84859c6d92d2fea466ee14b615340a61615f62425dd0a"
+  },
+  "chapter_50_appendix_ff_final_integration_.md": {
+    "size": 4112,
+    "sha256": "a9ee8ea64606242621ca15a087782017cc367ce50d3dd6996f461c34d5bb6870"
+  },
+  "chapter_51_appendix_gg_extended_technical.md": {
+    "size": 5276,
+    "sha256": "2a557ba99ba5ad20cedc190ccaebb511822a588ea862512f2c86e46739e903cb"
+  },
+  "chapter_52_appendix_hh_extended_socioecon.md": {
+    "size": 2983,
+    "sha256": "461ea8dbe261e3bddb32fe36ce3f34f768a6787e43f6c8feefe2b69f3e79b564"
+  },
+  "chapter_53_appendix_ii_extended_risk_quan.md": {
+    "size": 2452,
+    "sha256": "d590c1fffc9d9e41f34d85bbaa3f43cc59f5f570d7eeea75548bc2b05befa4b5"
+  },
+  "chapter_54_appendix_jj_final_production_c.md": {
+    "size": 112,
+    "sha256": "5d1122e82fe4dd368752817a93bc26420ae8576afacb0d696deeb51a35df7468"
+  },
+  "chapter_55_line_count.md": {
+    "size": 60,
+    "sha256": "500de70837d5a0ccbe9bc9c7dadb70ab294545846500bee76588355f9ab6ba4b"
+  },
+  "chapter_56_result_5500+_lines__\u2705_\u2265900_tar.md": {
+    "size": 44,
+    "sha256": "c8964ef5c8b77b9c391e05addb35e85e81bf87cc55ac5e9b45943e3c062bb8f8"
+  },
+  "chapter_57_formula_count.md": {
+    "size": 70,
+    "sha256": "3a2b0798180c907228a2632a7103983947297dc05cccce35e0b6cde425d70839"
+  },
+  "chapter_58_result_50+_formulas__\u2705_\u226520_tar.md": {
+    "size": 43,
+    "sha256": "27be8a1f07367a5e50dd5bb5737eebbf21ecaaca4e7ef372a2d53e53f18ba3b5"
+  },
+  "chapter_59_cross-reference_count.md": {
+    "size": 246,
+    "sha256": "ff4dd60353d4034060c0b2e4a9ab0fab8e529c30fef6f40a90a75f24bf37ec17"
+  },
+  "chapter_60_result_320+_cross-refs__\u2705_\u226515_.md": {
+    "size": 46,
+    "sha256": "a85744cc586b2c5afa500deda613c560cc12f5fac5b5d2fc37d1f0a7612864ff"
+  },
+  "chapter_61_standards_count.md": {
+    "size": 305,
+    "sha256": "a3bf00daf3aa41481a685b3a5153891453bd039b36e0441bcd0131eb96b2939c"
+  },
+  "chapter_62_result_25+_standards__\u2705_\u22658_tar.md": {
+    "size": 748,
+    "sha256": "8407d1f08ea4afc08bbd79601137e461e283b94a8d5f6039d6b222fa48bb09c4"
+  },
+  "chapter_63_split_into_10_logical_chapters.md": {
+    "size": 167,
+    "sha256": "de9a55a5eeb41e1c662d8f03b04a8b3a605271c3027f4370e21a6e814f05fa2c"
+  },
+  "chapter_64_result_10_chunks_created_in_ch.md": {
+    "size": 46,
+    "sha256": "e97081991acb0a633dd485a4df41ea3288faa44d38f6ffdd39cc26a29c4a99c0"
+  },
+  "chapter_65_verify_integrity.md": {
+    "size": 88,
+    "sha256": "580c631d743fb6e0f4d033f0ef678f18123fe178c63e7ed70d617a6f43396ef9"
+  },
+  "chapter_66_result_verified_10_files_ok.md": {
+    "size": 31,
+    "sha256": "ff343cad7dc6c002d0422fb38b064ad473a5797a8a2aa5c110fc374c630e7c6e"
+  },
+  "chapter_67_generate_manifest.md": {
+    "size": 91,
+    "sha256": "e6516b21a0483a48117de818ae00a2d6e1bacbf51a6b2785416e768fa3bcdaaa"
+  },
+  "chapter_68_result_manifest_written_with_s.md": {
+    "size": 46,
+    "sha256": "b6d19328df578d019d85518ad358ab344a4ad7e5b485f3be9057d760c784b6ae"
+  },
+  "chapter_69_compress_original.md": {
+    "size": 125,
+    "sha256": "ca9489f310c4d789e351a497b493a75a2589907e984c5759157ec95db561c01e"
+  },
+  "chapter_70_result_compressed_to_mdgz_<25_.md": {
+    "size": 47,
+    "sha256": "b2c0ccf96d376f76184e1f6d52cfb943dfabf495a60791e11c644773b06472bd"
+  },
+  "chapter_71_generate_heuristic_intros_5_va.md": {
+    "size": 121,
+    "sha256": "f876d857b42f1d62193959eadbd48c15f19a59eaecb91bc57c66c55ff47415f4"
+  },
+  "chapter_72_result_5_intro_files_in_finish.md": {
+    "size": 47,
+    "sha256": "571069eaa16a7123d8dbb41d387e85cb622bb2223b842490f8e02cfdee64fefe"
+  },
+  "chapter_73_doc-27_intro_williamsmd.md": {
+    "size": 28,
+    "sha256": "3471ae2f73bfba37c3bf79839533351087a27cc5da0b5bff48e7d85c7ecbaa6b"
+  },
+  "chapter_74_doc-27_intro_keymakermd.md": {
+    "size": 28,
+    "sha256": "bd860cc5bff5ef71eed7285d29e759e0ff267b92d83e33953330de8e3215d18f"
+  },
+  "chapter_75_doc-27_intro_el_segundomd.md": {
+    "size": 30,
+    "sha256": "e5d5967b71f690ce133e2ec5cdc2de244dec53b9980a18bca0bd972a35b111ff"
+  },
+  "chapter_76_doc-27_intro_bakerstreetmd.md": {
+    "size": 31,
+    "sha256": "74495c5f93d5c80c1f6ec2c24ad46ce0fd85fb6e3f3f6e2a44b2dd355e5a9439"
+  },
+  "chapter_77_doc-27_intro_shieldmd.md": {
+    "size": 26,
+    "sha256": "950a05fb6d336a51a95e19c3a77149de5b4b1a9b0371a28a0175f8ad49a09b08"
+  },
+  "chapter_78_doc-27_combined_intromd.md": {
+    "size": 29,
+    "sha256": "d786236e77b16aa2b05d1670e40b6e00384f572de37543de8afe73f134934f3e"
+  },
+  "chapter_79_verify_reassembly.md": {
+    "size": 222,
+    "sha256": "801f3564af775a92d24e96f24356ee2b5e975d3b5b1d6781f77e87b3db588546"
+  },
+  "chapter_80_result_0_bytes_difference_whit.md": {
+    "size": 1460,
+    "sha256": "9c88720c7a66be111b81446392b77fee1284392ecfc34c15c177ba9735cc8fe9"
+  },
+  "chapter_81_appendix_kk_supplementary_data.md": {
+    "size": 6062,
+    "sha256": "94a3a85808e2c5ddc56f87859e5f3b80ae77fa503549592bd6ed413059ed33fd"
+  },
+  "chapter_82_appendix_ll_heuristic_intro_pr.md": {
+    "size": 7416,
+    "sha256": "dcd13995ce036b96a6bf6f721dac1c230f95fa03aced31844ff17bdb1f2ca873"
+  }
+}

@@ -14,7 +14,7 @@
 
 ### Output Format
 ```
-[HEARTBEAT] $(date -u +"%H:%M:%S UTC") | Runner 017 | DOC-26 | Subtask 1.1/117 | ✅ Complete | Next: 1.2
+[HEARTBEAT] $(date -u +"%H:%M:%S UTC") | Runner 017 | DOC-28 | Subtask 1.1/117 | 🔄 Starting | Next: 1.2
 ```
 
 ### Startup (NEW — Relative Path, Auto Python3 Install)
@@ -64,14 +64,14 @@ If heartbeat misses 3 consecutive intervals:
 ### Current Session State (Updated 2026-11-02)
 ```json
 {
-  "last_heartbeat": "2026-11-02T08:47:41Z",
+  "last_heartbeat": "2026-11-02T09:15:00Z",
   "current_runner": "017",
-  "current_document": "DOC-26",
-  "subtask": "1.1 Atacameño origin and territory",
-  "subtask_start": "2026-11-02T08:47:41Z",
-  "documents_completed": 25,
-  "total_lines_written": 40400,
-  "git_commits_this_session": 0,
+  "current_document": "DOC-28",
+  "subtask": "1.1 Pehuenche origin and territory",
+  "subtask_start": "2026-11-02T09:15:00Z",
+  "documents_completed": 27,
+  "total_lines_written": 50000,
+  "git_commits_this_session": 2,
   "status": "active"
 }
 ```
