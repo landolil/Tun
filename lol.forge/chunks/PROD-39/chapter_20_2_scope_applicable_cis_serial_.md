@@ -1,0 +1,1 @@
+## 2. SCOPE (Applicable CIs, Serial Numbers)
