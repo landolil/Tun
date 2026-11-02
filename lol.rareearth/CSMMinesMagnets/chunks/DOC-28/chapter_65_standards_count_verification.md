@@ -1,0 +1,2 @@
+# Standards count verification
+grep -c -E 'Law 19\.253|Law 21\.435|ILO 169|UNDRIP|DGA|CONADI Res|Environmental Court|ISO 14046|MIL-STD-1540|CPTPP|OECD|Water Code|Native Forest|Law 20\.283|Law 20\.551|Sernageomin|CMN|Glacier Law' FinishedWork/DOC-28_Community_Pehuenche.md
