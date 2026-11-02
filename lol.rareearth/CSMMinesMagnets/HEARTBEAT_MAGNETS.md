@@ -14,7 +14,7 @@
 
 ### Output Format
 ```
-[HEARTBEAT] $(date -u +"%H:%M:%S UTC") | Runner 004 | DOC-07 | Subtask 2.4.1/15 | ✅ Complete | Next: 2.4.2
+[HEARTBEAT] $(date -u +"%H:%M:%S UTC") | Runner 014 | DOC-17 | Subtask 1.1/117 | ✅ Complete | Next: 1.2
 ```
 
 ### Startup (NEW — Relative Path, Auto Python3 Install)

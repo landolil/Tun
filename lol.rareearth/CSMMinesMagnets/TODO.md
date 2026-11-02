@@ -312,17 +312,33 @@
 #### 3.8 Runner 003 Wrap-up (5 tasks)
 
 ### Phase 4: Regional Deep Dives — Runners 004-006 (Tasks 216-410)
-
-#### 4.1 DOC-16: Norte Grande — Tarapacá & Antofagasta Regions (15 tasks)
-#### 4.2 DOC-17: Norte Chico — Atacama & Coquimbo Regions (15 tasks)
-#### 4.3 DOC-18: Zona Central — Valparaíso to Biobío (15 tasks)
-#### 4.4 DOC-19: Sur — Araucanía to Los Lagos (15 tasks)
-#### 4.5 DOC-20: Austral — Aysén & Magallanes (15 tasks)
-#### 4.6 DOC-21: Neodymium-Dysprosium Supply Chain Deep Dive (15 tasks)
-#### 4.7 DOC-22: Terbium-Samarium-Cobalt Specialty Magnets (15 tasks)
-#### 4.8 DOC-23: Iron-Nitride (FeN) Rare-Earth-Free Pathway (15 tasks)
-#### 4.9 DOC-24: Copper-Gold-Iron Oxide (IOCG) Magnetic Byproducts (15 tasks)
-#### 4.10 DOC-25: Recycling Loops — Urban Mining & Tailings Reprocessing (15 tasks)
+ 
+ #### 4.1 DOC-16: Norte Grande — Antofagasta & Atacama Regions (15 tasks)
+ - [x] 4.1.1 Research Norte Grande IOCG/REE districts, Salar de Atacama brine systems
+ - [x] 4.1.2 Map administrative divisions: Antofagasta (3 prov) + Atacama (3 prov)
+ - [x] 4.1.3 Quantify district resources: Candelaria, Manto Verde, El Salvador, Spence, Cerro Colorado
+ - [x] 4.1.4 Document Salar de Atacama REE-brine recovery potential (4,000 t/yr REE)
+ - [x] 4.1.5 Map FCAB/Ferronor rail corridors + Antofagasta/Mejillones/Caldera/Panul ports
+ - [x] 4.1.6 Analyze Atacameño/Lickanantay, Colla, Chango, Diaguita communities
+ - [x] 4.1.7 Document SEREMI/GORE/DGA regulatory interface for Antofagasta/Atacama
+ - [x] 4.1.8 Size Aegis-Forge clusters: Alpha-1/2 (IOCG), Bravo-1/2 (brine), Charlie-1 (centralized)
+ - [x] 4.1.9 Cross-reference DOC-01..15 (national → regional refinement)
+ - [x] 4.1.10 Draft DOC-16 full document (≥900 lines, ≥20 formulas, ≥15 refs, ≥8 standards)
+ - [x] 4.1.11 Generate 5 heuristic intros (Williams, Keymaker, El Segundo, Baker Street, SHIELD + Combined)
+ - [x] 4.1.12 Split into logical chunks → chunks/DOC-16/
+ - [x] 4.1.13 Generate manifest & verify integrity
+ - [x] 4.1.14 Compress FinishedWork original (.gz)
+ - [x] 4.1.15 Log completion + git commit + tag runner-013-complete
+ 
+ #### 4.2 DOC-17: Norte Chico — Atacama South & Coquimbo Regions (15 tasks)
+ #### 4.3 DOC-18: Zona Central — Valparaíso to Biobío (15 tasks)
+ #### 4.4 DOC-19: Sur — Araucanía to Los Lagos (15 tasks)
+ #### 4.5 DOC-20: Austral — Aysén & Magallanes (15 tasks)
+ #### 4.6 DOC-21: Neodymium-Dysprosium Supply Chain Deep Dive (15 tasks)
+ #### 4.7 DOC-22: Terbium-Samarium-Cobalt Specialty Magnets (15 tasks)
+ #### 4.8 DOC-23: Iron-Nitride (FeN) Rare-Earth-Free Pathway (15 tasks)
+ #### 4.9 DOC-24: Copper-Gold-Iron Oxide (IOCG) Magnetic Byproducts (15 tasks)
+ #### 4.10 DOC-25: Recycling Loops — Urban Mining & Tailings Reprocessing (15 tasks)
 
 ### Phase 5: Community-Specific Intelligence — Runners 007-008 (Tasks 411-560)
 
@@ -350,13 +366,13 @@
 
 ---
 
-## Current Sprint: Phase 2 Complete → Phase 3 Starting (Runner 003)
+## Current Sprint: Phase 4 Active — Runner 014 Starting (DOC-17..19)
 
 ### Immediate Next Actions (Next Session)
-1. [ ] Begin DOC-07: Chilean Regulatory Navigation (research & authoring)
-2. [ ] Begin DOC-08: Port & Logistics Corridors (research & authoring)
-3. [ ] Start heartbeat monitor
-4. [ ] Git: Tag runner-002-complete
+1. [ ] Begin DOC-17: Regional Deep Dive — Norte Chico (Atacama South, Coquimbo)
+2. [ ] Begin DOC-18: Regional Deep Dive — Zona Central (Valparaíso, Metropolitana, O'Higgins)
+3. [ ] Begin DOC-19: Regional Deep Dive — Sur (Maule, Ñuble, Biobío, Araucanía)
+4. [ ] Start heartbeat monitor
 5. [ ] Update RESUME_SESSION_MAGNETS.md
 
 ### Blockers
@@ -369,4 +385,9 @@
 - 2026-10-22: Target: Chile magnetic minerals → Tardigradia → Carrington Storm Motors
 - 2026-10-24: Runner 001 complete: DOC-01, DOC-02, DOC-03 done (Phase 1)
 - 2026-10-24: Runner 002 complete: DOC-04, DOC-05, DOC-06 done (Phase 2, first batch)
-- 2026-10-24: Runner 003 starting: DOC-07, DOC-08 next (Phase 2, second batch)
+- 2026-10-24: Runner 003 complete: DOC-07, DOC-08 done (Phase 2, second batch)
+- 2026-10-28: Runner 004 complete: DOC-09, DOC-10, DOC-11 done (Phase 3, first batch)
+- 2026-10-31: Runner 005 complete: DOC-12, DOC-13, DOC-14 done (Phase 3, second batch)
+- 2026-11-01: Runner 006 complete: DOC-15 done (Phase 3, final)
+- 2026-11-02: Runner 013 complete: DOC-16 done (Phase 4, first of Norte Grande)
+- 2026-11-02: Runner 014 starting: DOC-17, DOC-18, DOC-19 (Phase 4, Norte Chico, Zona Central, Sur)
