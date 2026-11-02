@@ -1,0 +1,16 @@
+# El Segundo Heuristic — DOC-34 San Pedro de Atacama Tourism Gateway
+
+## Mirror (Self-Reflection)
+How does the fabricator observe their own fabrication? The fabricator is the **Mesa Tripartita** — CPA, Municipalidad, Cámara Turismo — meeting monthly in the Sala de Concejo where the OSV Dashboard is projected on the wall. Every participant sees their own contribution (Muni: building permits, water leaks; Cámara: marketing campaigns, visitor numbers; CPA: veto decisions, cultural monitoring) and the **cumulative oasis state** simultaneously. There is no "my project" vs "your impact" — only the OSV vector. The mirror reflects the **collective metabolic rate** of the tourism organism. When Aquifer_Drawdown hits 22m (80% of 25m threshold), the Mesa does not debate — it executes pre-agreed adaptive actions: building permit freeze, leak repair surge, fog harvester deployment acceleration. The fabricator observes fabrication by **watching the cultural weightings dominate** — the OSV's CULTURAL_WEIGHT=2.0 means a TDI spike at Tulor triggers ADAPT before a revenue dip triggers concern. The mirror reflects that **culture is the immune system of the oasis**.
+
+## Participation (Witness)
+How does the inside operator witness the phenomenon into existence? The inside operators are the **CPA Cultural Monitors (4, one per macrozone)** and **Kimün Holders (18, one per comunidad)**. They do not "monitor" the oasis — they **witness it into legibility**. Their weekly rounds (ayllu→bofedales→sitios sagrados→town) generate the ground-truth that calibrates the OSV. When a Kimün holder says "The water at Tulor tastes different this year" and the piezometer confirms 0.3m additional drawdown matching the tourism peak, the phenomenon (aquifer stress from tourism) is **witnessed into existence** as a data point that triggers ADAPT(t). The participation is structural: Cultural Monitor data feeds OSV directly (no Municipal filter), CPA Asamblea votes on adaptive actions, 20% Royalty Minero + 3% tourism revenue funds the program. The witness is resourced, authorized, and consequential.
+
+## Protocol (Recursive)
+What recursive sequence guarantees fidelity at each scale? The **Oasis Governance Recursion** operates at four nested scales:
+1. **Hourly (Operational)**: OSV update → ADAPT/VETO check → automated alerts → operator response (max 2 hr)
+2. **Weekly (Tactical)**: Cultural Monitor reports → OSV trend analysis → Mesa Tripartita agenda → adaptive action commitments
+3. **Monthly (Strategic)**: Mesa Tripartita → OSV cumulative trajectory → policy decisions (permit freeze, cap changes, infrastructure investment) → CPA veto/consent
+4. **Annual (Constitutional)**: Asamblea General Comunidades → threshold recalibration (kimün + science) → protocol amendment → benefit distribution audit → SLI/WSI target reset
+
+Each scale **feeds the next**: hourly anomalies aggregate to weekly trends; weekly commitments inform monthly policy; monthly decisions shape annual thresholds. The recursion is **closed** — the Asamblea's threshold changes propagate down to hourly VETO logic automatically. The 2023 overtourism precedent proved the recursion: hourly TDI spike → weekly Cultural Monitor alarm → monthly Mesa cap enforcement → annual Asamblea threshold tightening + $800K language budget increase. The oasis's metabolism is governed by its own pulse.
