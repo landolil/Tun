@@ -174,11 +174,6 @@
   - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
   - [x] Verify: Line counts, manifest, chunking (17 chapters)
   - [x] Git: Commit and push PROD-18
-  - [ ] Research: Vol 2 Stage 5 + Materials Studies + PROD-02, 04, 07, 12, 17
-  - [ ] Write: 13 sections (Parameters, Al Separation, Mg Removal, Al Fractionation, Dross, Impurities, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
-  - [ ] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
-  - [ ] Verify: Line counts, manifest, chunking
-  - [ ] Git: Commit and push PROD-18
 
 ### Runner 007: Stages 6-8 (PROD-19 to PROD-21)
 - [x] PROD-19: Stage 6: Copper & Precious Metals (1086 lines + 200 intro)
@@ -193,12 +188,12 @@
   - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
   - [x] Verify: Line counts, manifest, chunking (18 chapters)
   - [x] Git: Commit and push PROD-20
-- [ ] PROD-21: Stage 8: Mineral Residue & Zircon (900 lines + 200 intro)
-  - [ ] Research: Vol 2 Stage 8 + PROD-20 residue + FOLLOW-16, 21, 32
-  - [ ] Write: 14 sections (Parameters, Zr Dissociation, REE Oxides, 3Y-TZP, Silica, Al₂O₃/TiO₂, Centrifuge Zones, UHTC Loop, Outputs, Throughput, Energy, Safety, Control, Cross-Ref)
-  - [ ] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
-  - [ ] Verify: Line counts, manifest, chunking
-  - [ ] Git: Commit and push PROD-21
+- [x] PROD-21: Stage 8: Mineral Residue & Zircon (969 lines + 200 intro)
+  - [x] Research: Vol 2 Stage 8 + PROD-20 residue + FOLLOW-16, 21, 32
+  - [x] Write: 14 sections + 3 appendices (Parameters, Zr Dissociation, REE Oxides, 3Y-TZP, Silica, Al₂O₃/TiO₂, Centrifuge Zones, UHTC Loop, Outputs, Throughput, Energy, Safety, Control, Cross-Ref, Quick-Ref, UHTC Precursors, Economics)
+  - [x] Intros: Williams + Keymaker + El Segundo + Combined (200 lines)
+  - [x] Verify: Line counts (969), manifest (19 chunks), chunking verified
+  - [x] Git: Commit and push PROD-21
 
 ### Runner 008: Integration & Control (PROD-22 to PROD-24)
 - [ ] PROD-22: Phoenix Protocol Integration (900 lines + 200 intro)
@@ -354,7 +349,7 @@
 |-------|-----------|--------|---------------|
 | 0: Init | 0 | 100% | 000 |
 | 1: PROD 1-10 | 10 | 100% | 001-005 |
-| 2: PROD 11-20 | 10 | 80% | 006-010 |
+| 2: PROD 11-20 | 10 | 100% | 006-010 |
 | 3: PROD 21-30 | 10 | 0% | 011-015 |
 | 4: PROD 31-40 | 10 | 0% | 011-015 |
 | 5: FOLLOW 1-10 | 10 | 0% | 016-020 |
@@ -363,7 +358,7 @@
 | 8: FOLLOW 31-40 | 10 | 0% | 031-033 |
 | 9: Final | 0 | 0% | 034 |
 
-**Total**: 80 documents | **Overall Progress**: 31.25% (25/80 complete)
+**Total**: 80 documents | **Overall Progress**: 32.5% (26/80 complete)
 
 ---
 
@@ -396,4 +391,4 @@ lol.forge: merge — phase completion merge
 
 *Last Updated: 2026-11-02 | Next Review: Start of each session*
 *Master_Todo.md is the single source of truth for project state*
-*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Runner 007 complete: PROD-19 (1086 lines), PROD-20 (977 lines). Phase 1 progress: 20/40 Product Documents (PROD-01 through PROD-20). Phase 2 progress: 5/10 (PROD-16 through PROD-25). Next: PROD-21.*
+*Runner 001 complete: PROD-01 (903 lines). Runner 002 complete: PROD-02 (1188 lines), PROD-03 (1419 lines). Runner 003 complete: PROD-04 (1605 lines), PROD-05 (903 lines), PROD-06 (1266 lines). Runner 004 complete: PROD-07, PROD-08, PROD-09, PROD-10 (1061 lines), PROD-11 (1067 lines), PROD-12 (950 lines). Runner 005 complete: PROD-13 (921 lines), PROD-14 (949 lines), PROD-15 (917 lines). Runner 006 complete: PROD-16 (1272 lines), PROD-17 (939 lines), PROD-18 (1052 lines). Runner 007 complete: PROD-19 (1086 lines), PROD-20 (977 lines), PROD-21 (969 lines). Phase 1 progress: 20/40 Product Documents (PROD-01 through PROD-20). Phase 2 progress: 6/10 (PROD-16 through PROD-21). Next: PROD-22.*

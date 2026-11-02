@@ -316,6 +316,41 @@ All PROD-01 through PROD-15 complete and pushed to GitHub.
 
 ---
 
+### PROD-21: Stage 8: Mineral Residue & Zircon (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read Vol 2 Stage 8 + PROD-20 slag + FOLLOW-15 REE + FOLLOW-16 Zircon + PROD-04 drum | 30 min | ✅ COMPLETE |
+| 2.1 | Write Section 1 | Stage Parameters table, cascade context, feedstock composition | 15 min | ✅ COMPLETE |
+| 2.2 | Write Section 2 | Zircon Dissociation at 1676°C (thermodynamics, kinetics, condenser design) | 25 min | ✅ COMPLETE |
+| 2.3 | Write Section 3 | Rare Earth Oxide Recovery (Stage 7 REE concentrate + zircon REE) | 25 min | ✅ COMPLETE |
+| 2.4 | Write Section 4 | 3Y-TZP Synthesis (flash sinter 1800°C, 300 V/cm, 5 min) | 25 min | ✅ COMPLETE |
+| 2.5 | Write Section 5 | Silica Management — Fumed SiO₂ Production (condenser, quench, specs) | 20 min | ✅ COMPLETE |
+| 2.6 | Write Section 6 | Alumina/Titania Separation (centrifugal stratification) | 20 min | ✅ COMPLETE |
+| 2.7 | Write Section 7 | Centrifuge Bowl Zones for Mineral Separation (5-zone design) | 25 min | ✅ COMPLETE |
+| 2.8 | Write Section 8 | UHTC Composite Integration — Drum Material Loop Closure (ZrB₂, Ti₃AlC₂) | 20 min | ✅ COMPLETE |
+| 2.9 | Write Section 9 | Output Streams (summary table, mass balance) | 15 min | ✅ COMPLETE |
+| 2.10 | Write Section 10 | Throughput and Quality (production targets, quality specs) | 15 min | ✅ COMPLETE |
+| 2.11 | Write Section 11 | Energy Balance (inputs, recovery, net, exergy) | 15 min | ✅ COMPLETE |
+| 2.12 | Write Section 12 | Safety and Emissions (HAZOP, PPE, emission limits) | 15 min | ✅ COMPLETE |
+| 2.13 | Write Section 13 | Control System (cascade PID, flash sinter, ZrB₂ synthesis loops) | 20 min | ✅ COMPLETE |
+| 2.14 | Write Section 14 | Cross-Reference Matrix (17 upstream/downstream docs) | 10 min | ✅ COMPLETE |
+| 2.15 | Appendix A | Stage 8 Quick-Reference Card | 10 min | ✅ COMPLETE |
+| 2.16 | Appendix B | UHTC Precursor Specifications for FOLLOW-32 | 15 min | ✅ COMPLETE |
+| 2.17 | Appendix C | Stage 8 Economic Analysis (revenue, OPEX, margin) | 15 min | ✅ COMPLETE |
+| 3.1 | Generate Williams Intro | ~67 lines: Constraint (zircon dissociation), Necessity (UHTC loop), Commitment (autopoietic closure) | 20 min | ✅ COMPLETE |
+| 3.2 | Generate Keymaker Intro | ~67 lines: Lock (5 objectives), Key (CMOSO-RDFS operator), Turn (theory↔practice) | 20 min | ✅ COMPLETE |
+| 3.3 | Generate El Segundo Intro | ~67 lines: Mirror (FBG/MS/V-I/product), Participation (witness inevitability), Protocol (4 scales) | 20 min | ✅ COMPLETE |
+| 3.4 | Generate Combined Intro | ~200 lines three-way synthesis with risk matrix | 30 min | ✅ COMPLETE |
+| 4.1 | Chunk Document | `node scripts/split_chunks.js split docs/PROD-21_... chunks/PROD-21` | 5 min | ✅ COMPLETE |
+| 4.2 | Generate Manifest | `node scripts/split_chunks.js manifest chunks/PROD-21` | 2 min | ✅ COMPLETE |
+| 4.3 | Verify Chunks | `node scripts/split_chunks.js verify chunks/PROD-21` | 2 min | ✅ COMPLETE |
+| 4.4 | Compress Document | `node scripts/split_chunks.js compress docs/PROD-21_...` | 2 min | ✅ COMPLETE |
+| 4.5 | Git Commit & Push | `git add -A && git commit -m "lol.forge: PROD-21 Stage 8 Mineral Residue & Zircon — 969 lines + 200 intro" && git push` | 5 min | ✅ COMPLETE |
+| 4.6 | Update Trackers | Update TODO.md, Master_Todo.md, memory/2026-11-02.md | 10 min | ✅ COMPLETE |
+
+---
+
 ## Heartbeat Log (Session Start)
 2026-11-01T20:23:06Z Runner 006 Session Started — PROD-16 Research Phase Initiated
 2026-11-01T21:22:00Z Runner 006 Micro-subtask granularity activated — every step logged
