@@ -2,8 +2,8 @@
 ## Current Session Tasks (Updated in Real-Time)
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Current Runner**: 016
-**Phase**: Phase 3 — Product Documents 28-35 (QA, Deployment, Maintenance, Economics, Regulatory, Supply Chain, Training, Human Factors)
+**Current Runner**: 017
+**Phase**: Phase 3 — Product Documents 28-36 (QA, Deployment, Maintenance, Economics, Regulatory, Supply Chain, Training, Human Factors, Cyber-Physical Security)
 **Session Date**: 2026-11-02
 
 ---
@@ -48,6 +48,7 @@ All PROD-01 through PROD-29 complete and pushed to GitHub.
 | **PROD-33** | **Supply Chain & Logistics** | **833** | **23** | **✅** |
 | **PROD-34** | **Training & Certification** | **845** | **21** | **✅** |
 | **PROD-35** | **Human Factors & Ergonomics** | **1011** | **26** | **✅** |
+| **PROD-36** | **Cyber-Physical Security** | **996** | **25** | **✅** |
 
 ---
 
@@ -143,9 +144,60 @@ All PROD-01 through PROD-29 complete and pushed to GitHub.
 2026-11-03T08:00:00Z Runner 015 PROD-33 Supply Chain & Logistics Complete 833 lines + 4 intros 23 chunks verified 1 commit OK
 2026-11-03T08:30:00Z Runner 016 PROD-34 Training & Certification Complete 845 lines + 4 intros 21 chunks verified 1 commit OK
 2026-11-03T09:00:00Z Runner 016 PROD-35 Human Factors & Ergonomics Complete 1011 lines + 4 intros 26 chunks verified 1 commit OK
+2026-11-03T09:30:00Z Runner 017 PROD-36 Cyber-Physical Security Complete 996 lines + 4 intros 25 chunks verified 1 commit OK
 
 ---
 
 *TODO.md is the real-time task tracker. Update immediately on micro-subtask status change.*
 *Master_Todo.md is the master plan. TODO.md is the daily execution view.*
 *Micro-subtask methodology: Each <30 seconds, verified, logged, committed frequently.*
+---
+
+## CURRENT RUNNER 018: PROD-37, PROD-38, PROD-39
+
+### PROD-37: Data Management & Digital Twin (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read PROD-10, 23, 24, 28, 34, 35, 36 + FOLLOW-29 | 45 min | 🔄 IN PROGRESS |
+| 2 | Write Body | 13 sections + appendices: Data architecture, historian, twin physics, ML, fleet optimization | 4 hrs | ⏳ PENDING |
+| 3 | Generate Intros | Williams, Keymaker, El Segundo, Combined (~200 lines) | 90 min | ⏳ PENDING |
+| 4 | Chunk & Verify | split_chunks.js, manifest, verify, compress | 15 min | ⏳ PENDING |
+| 5 | Git Commit & Push | Commit with message, push to GitHub | 5 min | ⏳ PENDING |
+| 6 | Update Trackers | Update TODO.md, Master_Todo.md, memory log | 10 min | ⏳ PENDING |
+
+---
+
+### PROD-38: Configuration Management (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read PROD-23, 27, 28, 34, 35, 36, 37 + GitOps | 45 min | ⏳ PENDING |
+| 2 | Write Body | 13 sections + appendices: GitOps, ECO, firmware, baselines, DR, audit | 4 hrs | ⏳ PENDING |
+| 3 | Generate Intros | Williams, Keymaker, El Segundo, Combined (~200 lines) | 90 min | ⏳ PENDING |
+| 4 | Chunk & Verify | split_chunks.js, manifest, verify, compress | 15 min | ⏳ PENDING |
+| 5 | Git Commit & Push | Commit with message, push to GitHub | 5 min | ⏳ PENDING |
+| 6 | Update Trackers | Update TODO.md, Master_Todo.md, memory log | 10 min | ⏳ PENDING |
+
+---
+
+### PROD-39: Test & Evaluation Specification (Target: 900+ lines body + 200 lines combined intro)
+
+| # | Micro-Subtask | Description | Target | Status |
+|---|---------------|-------------|--------|--------|
+| 1 | Research Phase | Read PROD-23, 27, 28, 36, 37, 38 + all prior PRODs | 45 min | ⏳ PENDING |
+| 2 | Write Body | 13 sections + appendices: FAT, SAT, benchmarks, SIF proof, cyber test, HFE validation | 4 hrs | ⏳ PENDING |
+| 3 | Generate Intros | Williams, Keymaker, El Segundo, Combined (~200 lines) | 90 min | ⏳ PENDING |
+| 4 | Chunk & Verify | split_chunks.js, manifest, verify, compress | 15 min | ⏳ PENDING |
+| 5 | Git Commit & Push | Commit with message, push to GitHub | 5 min | ⏳ PENDING |
+| 6 | Update Trackers | Update TODO.md, Master_Todo.md, memory log | 10 min | ⏳ PENDING |
+
+---
+
+## AFTER ALL THREE DOCUMENTS COMPLETE
+- [ ] Create NEXT_runner_019.md for PROD-40
+- [ ] Update Master_Todo.md Phase 3 progress table (Phase 3 = 100% at PROD-39)
+- [ ] Tag milestone: `lol.forge-prod-39`
+- [ ] Verify all 39 Product Documents complete (900+ lines each)
+
+---

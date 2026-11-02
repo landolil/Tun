@@ -2,9 +2,9 @@
 ## Complete Context for Picking Up Any Session State
 
 **Project**: lol.forge — Carrington Storm Motors Forge
-**Last Session**: 2026-11-03 (Runner 016 complete: PROD-28 through PROD-35)
-**Current Phase**: Phase 3 Completion — Product Documents 36-38 (Cyber-Physical Security, Data Management & Digital Twin, Configuration Management)
-**Next Runner**: 017
+**Last Session**: 2026-11-03 (Runner 017 complete: PROD-28 through PROD-36)
+**Current Phase**: Phase 3 Completion — Product Documents 37-39 (Data Management & Digital Twin, Configuration Management, Test & Evaluation Specification)
+**Next Runner**: 018
 
 ---
 
@@ -50,7 +50,7 @@ git status
 - [x] PROD-26: Electrical Safety & GIC Immunity (1196 lines + 200 intro)
 - [x] PROD-27: Manufacturing Process Plan (1241 lines + 200 intro)
 
-### Completed (Phase 3 — PROD 28-35):
+### Completed (Phase 3 — PROD 28-36):
 - [x] PROD-28: Quality Assurance & Testing (939 lines + 200 intro)
 - [x] PROD-29: Deployment & Operations (735 lines + 200 intro)
 - [x] PROD-30: Maintenance & Sustainment (1138 lines + 200 intro)
@@ -59,13 +59,14 @@ git status
 - [x] PROD-33: Supply Chain & Logistics (833 lines + 200 intro)
 - [x] PROD-34: Training & Certification (845 lines + 200 intro)
 - [x] PROD-35: Human Factors & Ergonomics (1011 lines + 200 intro)
-- [x] Phase 3: 15/10 complete (PROD-28 through PROD-35)
+- [x] PROD-36: Cyber-Physical Security (996 lines + 200 intro)
+- [x] Phase 3: 16/10 complete (PROD-28 through PROD-36)
 
 ### In Progress:
-- [ ] PROD-36: Cyber-Physical Security (900 lines + 200 intro)
 - [ ] PROD-37: Data Management & Digital Twin (900 lines + 200 intro)
 - [ ] PROD-38: Configuration Management (900 lines + 200 intro)
-- [ ] NEXT_runner_017.md created (next session)
+- [ ] PROD-39: Test & Evaluation Specification (900 lines + 200 intro)
+- [ ] NEXT_runner_018.md created (next session)
 
 ### Source Materials Cataloged:
 1. **Aegis-Forge (CSMFAB0108)** — 5 volumes, 87 files
@@ -86,14 +87,9 @@ git status
 
 ---
 
-## Next Immediate Actions (Runner 017)
+## Next Immediate Actions (Runner 018)
 
-### Document Batch: PROD-36, PROD-37, PROD-38
-
-**PROD-36: Cyber-Physical Security**
-- Source: PROD-10, 23, 26, 33, 37 + IEC 62443, NERC CIP
-- Target: 900+ lines body + 200 lines combined intro
-- Key content: Network architecture, air-gap enforcement, TSN security, supply chain cyber risk
+### Document Batch: PROD-37, PROD-38, PROD-39
 
 **PROD-37: Data Management & Digital Twin**
 - Source: PROD-10, 23, 24, 28, 34, 35, 36 + FOLLOW-29
@@ -104,6 +100,11 @@ git status
 - Source: PROD-23, 27, 28, 34, 35, 36, 37 + GitOps
 - Target: 900+ lines body + 200 lines combined intro
 - Key content: GitOps workflow, ECO process, firmware signing, SBOM, baseline management, audit trail, DR
+
+**PROD-39: Test & Evaluation Specification**
+- Source: PROD-23, 27, 28, 36, 37, 38 + all prior PRODs
+- Target: 900+ lines body + 200 lines combined intro
+- Key content: FAT procedures, SAT criteria, performance benchmarks, SIF proof tests, cyber test, HFE validation
 
 ---
 
@@ -241,4 +242,4 @@ All work is persisted in GitHub. The ephemeral workspace is just a compute envir
 ---
 
 *This file is updated at the end of every session.*
-*Last Updated: 2026-11-03 | Session: Runner 016 complete (PROD-28 through PROD-35) | Next: Runner 017 (PROD-36, 37, 38)*
+*Last Updated: 2026-11-03 | Session: Runner 017 complete (PROD-28 through PROD-36) | Next: Runner 018 (PROD-37, 38, 39)*
